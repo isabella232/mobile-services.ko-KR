@@ -1,0 +1,203 @@
+---
+description: 다음은 iOS 라이브러리를 버전 3.x 또는 2.x에서 4.x 버전으로 마이그레이션하는 데 유용한 정보입니다.
+seo-description: 다음은 iOS 라이브러리를 버전 3.x 또는 2.x에서 4.x 버전으로 마이그레이션하는 데 유용한 정보입니다.
+seo-title: 4. x iOS 라이브러리로 마이그레이션
+solution: Marketing Cloud, Analytics
+title: 4. x iOS 라이브러리로 마이그레이션
+topic: 개발자 및 구현
+uuid: 5668972 b-f 355-4 e 03-9 df 0-8 c 82 ddf 6809 b
+translation-type: tm+mt
+source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
+
+---
+
+
+# Migrating to the 4.x iOS library{#migrating-to-the-x-ios-library}
+
+다음은 iOS 라이브러리를 버전 3.x 또는 2.x에서 4.x 버전으로 마이그레이션하는 데 유용한 정보입니다.
+
+>[!IMPORTANT]
+>
+>The SDK uses `NSUserDefaults` to store data that is needed to calculate unique users, lifecycle metrics, and other data related to core SDK functionality.  SDK에 필요한 `NSUserDefaults`의 값을 수정하거나 제거하면 예기치 않은 동작으로 인해 데이터 형식이 일치하지 않을 수 있습니다.
+
+iOS SDK 라이브러리의 4. x 버전에서 공개 메서드는 하나의 헤더에 통합됩니다. 또한 이제 클래스 수준 메서드를 통해 기능에 액세스할 수 있으므로 포인터, 인스턴스 또는 singletons를 추적할 필요가 없습니다.
+
+## Events, props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
+
+버전 4에서는 더 이상 events, eVars, props, heirs 및 lists와 같은 변수를 앱에서 직접 할당할 수 없습니다. 대신 SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 Analytics 변수에 앱 데이터를 매핑하여 보고합니다.
+
+처리 규칙은 다음과 같은 이점을 제공합니다.
+
+* 앱 스토어에 업데이트를 제출하지 않고도 데이터 매핑을 변경할 수 있습니다.
+* 보고서 세트와 관련된 변수를 설정하는 대신 의미 있는 이름을 데이터에 사용할 수 있습니다.
+* 추가 데이터를 보내는 작업에는 거의 영향을 미치지 않습니다.
+
+   이러한 값은 처리 규칙을 사용하여 매핑될 때까지 보고서에 표시되지 않습니다.
+
+>[!TIP]
+>
+>Values that you were assigning directly to variables should now be added to the `data` NSDictionary.
+
+## Remove unused properties {#section_145222EAA20F4CC2977DD883FDDBBFC5}
+
+새 `ADBMobileConfig.json` 파일은 애플리케이션별 전역 설정을 포함하며, 이전 버전에서 사용된 대부분의 구성 변수를 대체합니다. 다음은 `ADBMobileConfig.json` 파일 예제입니다.
+
+```js
+{ 
+    "version" : "1.0", 
+    "analytics" : { 
+        "rsids" : "coolApp", 
+        "server" : "my.CoolApp.com", 
+        "charset" : "UTF-8", 
+        "ssl" : true, 
+        "offlineEnabled" : true, 
+        "lifecycleTimeout" : 5, 
+        "privacyDefault" : "optedin", 
+        "poi" : [ 
+                    ["san francisco",37.757144,-122.44812,7000], 
+                    ["santa cruz",36.972935,-122.01725,600] 
+                ] 
+    }, 
+ "target" : { 
+  "clientCode" : "myTargetClientCode", 
+  "timeout" : 5 
+ }, 
+ "audienceManager" : { 
+  "server" : "myServer.demdex.com" 
+ } 
+}
+```
+
+
+### 구성 파일 이동
+
+구성 파일을 이동하려면
+
+1. 첫 번째 열의 변수에 대해 설정된 값을 두 번째 열의 변수로 이동합니다.
+1. 코드에서 이전 구성 변수를 제거합니다.
+
+### 마이그레이션 정보
+
+다음 표에는 구성 파일로 이동하는 데 필요한 구성 변수가 나열되어 있습니다.
+
+#### 버전 3.x에서 마이그레이션
+
+첫 번째 열의 값을 두 번째 열의 변수로 이동합니다.
+
+| 구성 변수 | Variable in the `ADBMobileConfig.json` file |
+|--- |--- |
+| offlineTrackingEnabled | "offlineEnabled" |
+| offlineHitLimit | "batchLimit" |
+| reportSuiteIDs | "rsids" |
+| trackingServer | "server" |
+| charSet | "charset" |
+| currencyCode | "currency" |
+| ssl | "ssl" |
+| linkTrackVars | 제거합니다. 더 이상 사용되지 않습니다. |
+| linkTrackEvents | 제거합니다. 더 이상 사용되지 않습니다. |
+
+
+#### 버전 2.x에서 마이그레이션
+
+첫 번째 열의 값을 두 번째 열의 변수로 이동합니다.
+
+| 구성 변수 | Variable in the `ADBMobileConfig.json` file |
+|--- |--- |
+| trackOffline | "offlineEnabled" |
+| offlineLimit | "batchLimit" |
+| account | "rsids" |
+| trackingServer | "server"`"https://"` 에서 접두사를 제거합니다. 프로토콜 접두사는 "ssl"설정에 따라 자동으로 추가됩니다. |
+| trackingServerSecure | 제거. 보안 연결을 위해 "server"를 정의한 다음 "ssl"을 사용하도록 설정합니다. |
+| charSet | "charset" |
+| currencyCode | "currency" |
+| ssl | "ssl" |
+| linkTrackVars | 제거합니다. 더 이상 사용되지 않습니다. |
+| linkTrackEvents | 제거합니다. 더 이상 사용되지 않습니다. |
+| timestamp | 제거합니다. 더 이상 구성할 수 없습니다. |
+| dc | 제거합니다. 더 이상 사용되지 않습니다. |
+| userAgent | 제거합니다. 더 이상 구성할 수 없습니다. |
+| dynamicVariablePrefix | 제거합니다. 더 이상 사용되지 않습니다. |
+| visitorNamespace | 제거합니다. 더 이상 사용되지 않습니다. |
+| usePlugins | 제거합니다. 더 이상 사용되지 않습니다. |
+| useBestPractices  churn 측정에 대한 모든 호출(getChurnInstance ) | 제거, 라이프사이클 지표로 대체되었습니다. 자세한 내용은 [라이프사이클 지표](//help/ios/metrics.md)를 참조하십시오. |
+
+
+## Update track calls and tracking variables {#section_96E7D9B3CDAC444789503B7E7F139AB9}
+
+버전 4 SDK는 웹 중심의 `track` 및 `trackLink` 호출 대신 다음과 같은 방법을 사용합니다.
+
+* `trackState:data:` 상태는 앱에서 사용 가능한 보기 (예: `home dashboard`, `app settings`등) `cart`입니다.
+
+   이 상태는 웹 사이트의 페이지와 유사하며 `trackState` 호출은 페이지 보기를 증가시킵니다.
+
+* `trackAction:data:` 앱에서 `logons``banner taps``feed subscriptions`발생하여 측정하려는 동작과 같은 작업.
+
+이 두 메서드의 `data` 매개 변수는 컨텍스트 데이터로 전송되는 이름 - 값 쌍을 포함하는 `NSDictionary`입니다.
+
+### 이벤트, prop, evar
+
+버전 4에서는 더 이상 events, eVars, props, heirs 및 lists와 같은 변수를 앱에서 직접 할당할 수 없습니다. SDK는 이제 컨텍스트 데이터 및 처리 규칙을 사용하여 Analytics 변수에 앱 데이터를 매핑하여 보고합니다.
+
+처리 규칙은 다음과 같은 이점을 제공합니다.
+
+* 앱 스토어에 업데이트를 제출하지 않고도 데이터 매핑을 변경할 수 있습니다.
+* 보고서 세트와 관련된 변수를 설정하는 대신 의미 있는 이름을 데이터에 사용할 수 있습니다.
+* 추가 데이터를 보내는 작업에는 거의 영향을 미치지 않습니다.
+
+   이러한 값은 처리 규칙을 사용하여 매핑될 때까지 보고서에 표시되지 않습니다. 자세한 내용은 [처리 규칙 및 컨텍스트 데이터](/help/ios/getting-started/proc-rules.md)를 참조하십시오.
+
+변수에 직접 할당한 값은 대신 `data``NSDictionary` 에 추가해야 합니다. This means that calls to `setProp`, `setEvar`, and assignments to persistent context data should all be removed and the values be added to the `data` parameter.
+
+### Appsection/서버, geozip, 거래 ID, 캠페인 및 기타 표준 변수
+
+위에 나열된 변수를 포함하여 측정 개체에 설정한 데이터는 대신 `data``NSDictionary` 에 추가해야 합니다. `trackState` 또는 `trackAction` 호출과 함께 전송되는 데이터는 `data` 매개 변수의 페이로드뿐입니다.
+
+### 추적 호출 바꾸기
+
+코드에서 다음 메서드를 `trackState` 또는 `trackAction` 호출로 바꿉니다.
+
+#### 버전 3.x에서 마이그레이션
+
+* `trackAppState (trackState)`
+* `trackEvents (trackAction)`
+* `track (trackAction)`
+* `trackWithContextData (trackAction)`
+* `trackLinkURL (trackAction)`
+
+#### 버전 2.x에서 마이그레이션
+
+* `track (trackState)`
+* `trackLink (trackAction)`
+
+## Custom visitor ID {#section_2CF930C13BA64F04959846E578B608F3}
+
+`visitorID` 변수를 호출로 바꿉니다 `setUserIdentifier:`.
+
+## Offline tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
+
+Offline tracking is enabled in the `ADBMobileConfig.json` file, and all other offline configuration is done automatically.
+
+코드에서 다음 메서드 호출을 제거하십시오.
+
+### 버전 3.x
+
+* `setOnline`
+* `setOffline`
+
+### 버전 2.x
+
+* `forceOffline`
+* `forceOnline`
+
+## Products variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
+
+ 변수는 처리 규칙에서 사용할 수 없으므로 다음 구문을 사용하여 `products`products를 설정할 수 있습니다.
+
+```objective-c
+//create a processing rule to set the corresponding product event. 
+// for example, set prodView event when context data a.action = "product view" 
+[ADBMobile trackAction:@"LikeButtonClicked"  
+                  data:@{@"&&products" : @";Cool Shoe"}];
+```
+
+![](assets/prod-view.png)
