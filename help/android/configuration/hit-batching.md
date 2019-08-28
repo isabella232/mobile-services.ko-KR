@@ -1,0 +1,40 @@
+---
+description: 히트 배치(일괄 처리)를 사용하면 애플리케이션에서 큐의 히트 수가 구성된 한도를 초과할 때까지 히트 전송을 보류할 수 있습니다.
+keywords: Android; 라이브러리; 모바일; SDK
+seo-description: 히트 배치(일괄 처리)를 사용하면 애플리케이션에서 큐의 히트 수가 구성된 한도를 초과할 때까지 히트 전송을 보류할 수 있습니다.
+seo-title: 히트 일괄 처리
+solution: Marketing Cloud, Analytics
+title: 히트 일괄 처리
+topic: 개발자 및 구현
+uuid: ADA 35 BE 3-242 B -4 B 2 B-A 828-9 BF 998 DD 58 B 5
+translation-type: tm+mt
+source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+
+---
+
+
+# 히트 배치 처리 {#hit-batching}
+
+히트 배치(일괄 처리)를 사용하면 애플리케이션에서 큐의 히트 수가 구성된 한도를 초과할 때까지 히트 전송을 보류할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>히트 일괄 처리를 사용하려면 **오프라인 추적을** 활성화하고 SDK 버전 4.1 이상이 있어야 합니다.
+
+To enable hit batching, update your `ADBMobileConfig.json` file and specify a value for `batchLimit`:
+
+```js
+"analytics": {
+    "batchLimit": 5,
+    ...
+}
+```
+
+When the value is set to a number greater than 0, the SDK queues the number of hits equal to the *`batchLimit`* value. 이 임계값을 넘기면 큐에 있는 모든 히트가 전송됩니다.
+
+다음 메서드가 히트 일괄 처리에 사용됩니다.
+
+* `Analytics.getQueueSize`: 현재 히트 일괄 처리 큐에 있는 히트 수와 함께 `long`을 반환합니다.
+
+* `Analytics.sendQueuedHits`: 현재 큐에 있는 히트 수와 상관없이 라이브러리에서 큐에 있는 모든 히트를 강제로 보냅니다.
+* `Analytics.clearQueue`: 큐에 있는 히트를 전송하지 않고 모두 지웁니다.
