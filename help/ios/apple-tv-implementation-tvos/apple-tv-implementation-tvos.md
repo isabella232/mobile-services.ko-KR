@@ -1,0 +1,85 @@
+---
+description: 다음은 tvOS로 Apple TV를 구현하는 데 유용한 정보입니다.
+seo-description: 다음은 tvOS로 Apple TV를 구현하는 데 유용한 정보입니다.
+seo-title: tvOS를 사용한 Apple TV 구현
+solution: Marketing Cloud, Analytics
+title: tvOS를 사용한 Apple TV 구현
+topic: 개발자 및 구현
+uuid: D 1571 EA 2-A 5 DE -4 B 96-A 527-72 ABBF 51 FAB 8
+translation-type: tm+mt
+source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+
+---
+
+
+# Apple TV implementation with tvOS {#apple-tv-implementation-with-tvos}
+
+다음은 tvOS로 Apple TV를 구현하는 데 유용한 정보입니다.
+
+## 새 Adobe Experience Cloud SDK 릴리스
+
+Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
+
+2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html)를 통해 구성할 수 있습니다.
+
+* 시작하려면 Launch로 이동합니다.
+* Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)로 이동하십시오.
+
+>[!IMPORTANT]
+>
+> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. 자세한 내용은 [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services)를 참조하십시오.
+
+이제 Apple TV로 기본 tvOS 환경에서 실행할 애플리케이션을 만들 수 있습니다. iOS의 여러 프레임워크를 사용하여 기본 앱을 만들거나, XML 템플릿 및 JavaScript를 사용하여 앱을 만들 수 있습니다.
+
+>[!TIP]
+>
+>TVOS 지원은 버전 4.7.0 부터 `AdobeMobileLibrary` 사용할 수 있습니다.
+
+## 시작하기 {#section_CAB40A5B5FC745068C8A5DF8F9AB6199}
+
+>[!TIP]
+>
+>귀하의 프로젝트는 Tvos를 타깃팅하는 Apple TV 앱인 타겟을 가지고 있다고 가정합니다. 자세한 내용은 [tvOS](https://developer.apple.com/tvos/documentation/)를 참조하십시오.
+
+## Configure a native app for tvOS {#section_5095F19B3C4545F68E8C1E37A7E303AE}
+
+Xcode 프로젝트에서 다음 단계를 완료하십시오.
+
+1. AdobeMobileLibrary 폴더를 프로젝트로 드래그합니다.
+1. `ADBMobileConfig.json` 파일이 Target의 구성원인지 확인합니다.
+1. tvOS 앱 타겟의 **[!UICONTROL 빌드 단계]** 탭에서 **바이너리를 라이브러리와 연결]섹션을 확장하고 다음 라이브러리를 추가합니다.[!UICONTROL **
+
+   * `AdobeMobileLibrary_TV.a`
+   * `libsqlite3.0.tbd`
+   * `SystemConfiguration.framework`
+
+자세한 내용은 [iOS](https://developer.apple.com/ios/resources/)의 iOS 설명서를 참조하십시오.
+
+## Configure a TVML/TVJS app for tvOS {#section_AB2EC8C326654F3387658EBBD990BB12}
+
+1. `AdobeMobileLibrary` 폴더를 프로젝트로 드래그합니다.
+1. `ADBMobileConfig.json` 파일이 Target의 구성원인지 확인합니다.
+1. tvOS 앱 타겟의 **[!UICONTROL 빌드 단계]** 탭에서 **바이너리를 라이브러리와 연결]섹션을 확장하고 다음 라이브러리를 추가합니다.[!UICONTROL **
+
+   * `AdobeMobileLibrary_TV.a`
+   * `libsqlite3.0.tbd`
+   * `SystemConfiguration.framework`
+
+1. `TVApplicationControllerDelegate` 클래스의 구현 파일에서 SDK를 가져옵니다.
+
+   ```objective-c
+   #import “ADBMobile.h"
+   ```
+
+1. In the `application:didFinishLaunchWithOptions:` method of your `TVApplicationControllerDelegate` class, pass your `TVApplicationController` object to the SDK with the `installTVMLHooks:` method.
+
+   Adobe SDK를 앱의 JSContext에 등록하려면 앱의 `TVApplicationController`에 액세스해야 합니다. 이 단계에서는 JavaScript 파일에서 Adobe SDK의 기본 메서드를 호출할 수 있습니다.
+
+   ```objective-c
+   [ADBMobile installTVMLHooks:appController];
+   ```
+
+1. JavaScript 파일에서 `ADBMobile` 개체를 사용하여 Adobe SDK의 기본 메서드에 액세스합니다.
+
+   For a complete listing of the available methods, see [TVJS Methods](/help/ios/apple-tv-implementation-tvos/tvjs-methods.md).
+
