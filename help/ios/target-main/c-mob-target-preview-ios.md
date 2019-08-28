@@ -1,0 +1,39 @@
+---
+description: 타겟 미리 보기를 사용하면 타겟 활동에 대해 엔드투 엔드 QA를 쉽게 수행하고 해당 활동을 장치에서 미리 볼 수 있습니다.
+seo-description: 타겟 미리 보기를 사용하면 Target 활동에 대해 엔드투 엔드 QA를 쉽게 수행하고 이러한 활동을 장비에서 미리 볼 수 있습니다.
+seo-title: iOS에서 타겟 미리 보기
+title: iOS에서 타겟 미리 보기
+uuid: D 92867 A 4-0569-4732-A 928-28 F 9 E 2 F 8 B 21 E
+translation-type: tm+mt
+source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+
+---
+
+
+# iOS에서 타겟 미리 보기{#target-preview-on-ios}
+
+타겟 미리 보기를 사용하면 타겟 활동에 대해 엔드투 엔드 QA를 쉽게 수행하고 해당 활동을 장치에서 미리 볼 수 있습니다.
+
+For more information on how to set up and use Target Preview, see [Target Mobile Preview](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/target-mobile-preview.html).
+
+>[!IMPORTANT]
+>
+>Target 미리 보기를 사용하려면 SDK 버전 4.14.0 이상이 필요합니다.
+
+## Target 미리 보기 메서드
+
+* **setPreviewRestartDeeplink**
+
+   미리 보기 모드에서 미리 보기 선택이 적용될 때 트리거할 앱 딥링크를 설정합니다.
+
+   * 다음은 이 메서드에 대한 구문입니다.
+
+      ```objective-c
+       + (void) targetPreviewRestartDeepLink:(nullable NSString *)callbackURL;
+      ```
+
+   * 다음은 이 메서드의 코드 샘플입니다.
+
+      ```objective-c
+      [ADBMobile targetPreviewRestartDeepLink:@" myapp://myhost"]; 
+      ```
