@@ -1,0 +1,61 @@
+---
+description: 포스트백을 이용하면 Adobe Mobile로 수집한 데이터를 별도의 타사 서버에 보낼 수 있습니다. 인앱 메시지를 표시하는 데 사용하는 것과 동일한 트리거와 트레이트를 이용하여 사용자 지정된 데이터를 타사 대상에 전송하도록 SDK를 구성할 수 있습니다.
+seo-description: 포스트백을 이용하면 Adobe Mobile로 수집한 데이터를 별도의 타사 서버에 보낼 수 있습니다. 인앱 메시지를 표시하는 데 사용하는 것과 동일한 트리거와 트레이트를 이용하여 사용자 지정된 데이터를 타사 대상에 전송하도록 SDK를 구성할 수 있습니다.
+seo-title: 포스트백 구성
+title: 포스트백 구성
+uuid: A 026575 C -057 B -4868-B 6 C 8-9514 CBC 32 B 4 D
+translation-type: tm+mt
+source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
+
+---
+
+
+# Configure postbacks {#configure-postbacks}
+
+포스트백을 이용하면 Adobe Mobile로 수집한 데이터를 별도의 타사 서버에 보낼 수 있습니다. 인앱 메시지를 표시하는 데 사용하는 것과 동일한 트리거와 트레이트를 이용하여 사용자 지정된 데이터를 타사 대상에 전송하도록 SDK를 구성할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>포스트백을 사용하려면 4.6 SDK 이상을 설치해야 합니다. 자세한 내용은 [Android - 포스트백](/help/android/analytics-main/postbacks/postbacks.md) 또는 [iOS - 포스트백](/help/ios/analytics-main/postback/postback.md)을 참조하십시오.
+
+1. 원하는 앱 이름을 클릭하여 해당 앱 설정 관리 페이지로 이동하고 오른쪽 상단에 있는 **포스트백** 링크를 클릭합니다.
+1. **[!UICONTROL 포스트백 만들기를 클릭합니다]**.
+1. 필드에 다음 정보를 입력합니다.
+
+   * **[!UICONTROL 포스트백 유형]**
+
+      **[!UICONTROL 사용자 지정을 선택합니다]**. 차후에 템플릿을 사용할 수 있을 것입니다.
+
+   * **[!UICONTROL 이름]**
+
+      포스트백에 대해 수사적 이름을 지정합니다.
+
+   * **[!UICONTROL URL]**
+
+      올바른 종단점 URL를 지정합니다 (GET 요청에 필요한 경우 적절한 쿼리 매개 변수 사용). 이 URL은 데이터를 받게 되는 당사자로부터 얻습니다(광고 서버나 자체 종단점). 예 `https://my.server.com/?user=bob&amp;zip=90210&amp;c16=4.6.0-iOS&amp;c27=cln,132`.
+
+   * **[!UICONTROL 컨텍스트 변수]**
+
+      URL의 부분들을 강조 표시하고 드롭다운 목록에서 원하는 컨텍스트 변수를 선택합니다. 컨텍스트 변수를 URL에 삽입할 수도 있으며, URL는 모든 템플릿 변수를 히트의 값으로 바꿉니다.
+
+   * **[!UICONTROL 게시물 본문 추가]**
+
+      추가적인 게시물 본문 컨텐츠(예를 들어 게시물 요청 시)를 지정합니다. 게시물 본문 텍스트를 지정하는 경우 게시물 본문에 대한 컨텐츠 유형을 지정합니다. 예, `application/json`.
+
+   * **[!UICONTROL 시간 초과(초)]**
+
+      포스트백에 대해 대기할 시간(초)을 지정합니다.
+
+   * **[!UICONTROL 트리거]**
+
+      포스트백을 트리거하는 데이터 태그나 조건을 하나 이상 지정합니다. For example, you might choose **[!UICONTROL Crashed]** as the trigger and **[!UICONTROL Exists]** as the condition to trigger the postback when the app crashes. 포스트백을 활성화하는 지표를 지정할 수도 있습니다. For example, you can select **[!UICONTROL Device Name]** as the trigger, **[!UICONTROL Equals]**, and **[!UICONTROL iPhone 6 Plus]** as conditions to activate the postback when the app crashes on iPhone 6 Plus devices.
+
+   * **[!UICONTROL 트레이트]**
+   메시지가 트리거될 때 메시지를 볼 수 있는 사용자를 지정합니다. Options include **[!UICONTROL Session Length**, **[!UICONTROL First Launch Date]**, and **[!UICONTROL App ID]**.
+
+1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 포스트백을 만들고 이를 **포스트백 관리[!UICONTROL 목록에 추가합니다.]**
+
+   나중에 포스트백을 활성화하려면 다음 중 하나를 수행하십시오.
+
+   * Select the checkbox next to the postback in the **[!UICONTROL Manage Postbacks]** list and click **[!UICONTROL Activate Selected]**.
+   * **[!UICONTROL 저장 및 활성화]를 클릭하여 변경 내용을 저장하고 포스트백을 즉시 활성화합니다.**
