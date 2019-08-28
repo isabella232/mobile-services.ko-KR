@@ -1,0 +1,32 @@
+---
+description: Android SDK 버전 4.5부터 새 Android 확장 기능을 추가하여 Android 웨어러블 앱의 데이터를 수집할 수 있도록 했습니다.
+seo-description: Android SDK 버전 4.5부터 새 Android 확장 기능을 추가하여 Android 웨어러블 앱의 데이터를 수집할 수 있도록 했습니다.
+seo-title: Wearables 개요
+solution: Marketing Cloud, Analytics
+title: Wearables 개요
+topic: 개발자 및 구현
+uuid: f 9 a 5 d 692-0 ef 6-4 cdf -831 e-e 50 be 291 f 083
+translation-type: tm+mt
+source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+
+---
+
+
+# Wearables 개요 {#wearables}
+
+이 섹션의 정보는 Android 확장 기능을 사용하여 Android Wearable 앱의 데이터를 수집하는 방법을 이해하는 데 도움이 됩니다.
+
+>[!TIP]
+>
+>Android SDK 버전 4.5 이상이 설치되어 있어야 합니다.
+
+## 새 Adobe Experience Cloud SDK 릴리스
+
+Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
+
+>[!IMPORTANT]
+>
+>2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html)를 통해 구성할 수 있습니다.
+
+* 시작하려면 [Launch](https://launch.adobe.com/)로 이동합니다.
+* Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)로 이동하십시오.
