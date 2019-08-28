@@ -1,0 +1,82 @@
+---
+description: Adobe Mobile Services UI에서 딥링크 URL을 구성하면 이 URL은 adb_deeplink 키를 사용하여 푸시 페이로드에 저장됩니다.
+seo-description: Adobe Mobile Services UI에서 딥링크 URL을 구성하면 이 URL은 adb_deeplink 키를 사용하여 푸시 페이로드에 저장됩니다.
+seo-title: 딥링크로 푸시 메시지 구현
+title: 딥링크로 푸시 메시지 구현
+uuid: E 24 F 9248-8 D 48-4 E 57-84 AF -3 A 05 B 72 E 2 A 09
+translation-type: tm+mt
+source-git-commit: 13ff2cb549c4b82a4e0285e1c7c6b3f9c1a5bd4b
+
+---
+
+
+# Implement push messaging with deep linking {#implement-push-messaging-with-deep-linking}
+
+Adobe Mobile Services UI에서 딥링크 URL을 구성하면 이 URL은 adb_deeplink 키를 사용하여 푸시 페이로드에 저장됩니다.
+
+에 전화하여 `remoteMessage.getData().get("adb_deeplink")` URL를 가져올 수 있습니다 `FirebaseMessagingService`.
+
+>[!TIP]
+>
+>페이로드에 딥 링크 URL 이 있는지 여부에 따라 다른 의도를 정의할 수 있습니다.
+
+1. 다음 작업 중 하나를 완료하십시오.
+
+   * 딥링크 URL이 푸시 페이로드 내에 **있을** 경우 URL이 포함된 `ACTION_VIEW` 인텐트를 생성하십시오.
+
+      사용자가 푸시 메시지를 클릭하면 딥링크가 트리거됩니다.
+
+   * 딥링크 URL이 푸시 페이로드 내에 있지 **않을** 경우 인텐트를 하나 생성하여 활동 중 하나를 여십시오.
+
+## 예
+
+Here is a sample implementation for the class extending from `FirebaseMessagingService`:
+
+```java
+public void onMessageReceived(RemoteMessage message) { 
+ 
+       Map<String, String> data = message.getData(); 
+       String messageStr = data.get("message"); 
+       String deepLink = data.get("adb_deeplink"); 
+ 
+       sendNotification(deepLink, messageStr, data); 
+    } 
+ 
+private void sendNotification(String deeplink, String message, Map<String, String> data) { 
+       Intent intent; 
+ 
+       if (deeplink!=null) { 
+           intent = new Intent(Intent.ACTION_VIEW, Uri.parse(deeplink)); 
+       } else { 
+           intent = new Intent(this, MainActivity.class); 
+       } 
+ 
+       intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); 
+ 
+       //put the data map into the intent to track clickthroughs 
+       Bundle pushData = new Bundle(); 
+       Set<String> keySet = data.keySet(); 
+       for (String key : keySet) { 
+           pushData.putString(key, data.get(key)); 
+       } 
+ 
+       intent.putExtras(pushData); 
+ 
+       PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, 
+               PendingIntent.FLAG_ONE_SHOT); 
+ 
+       Uri defaultSoundUri= RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION); 
+ 
+       NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this) 
+                .setSmallIcon(R.drawable.icon) 
+                .setContentTitle("FCM Deep Link Push") 
+                .setContentText(message) 
+                .setAutoCancel(true) 
+                .setSound(defaultSoundUri) 
+                .setContentIntent(pendingIntent); 
+ 
+       NotificationManager notificationManager =  
+       (NotificationManager)getApplicationContext().getSystemService(Context.NOTIFICATION_SERVICE); 
+           notificationManager.notify(0, notificationBuilder.build()); 
+       } 
+```
