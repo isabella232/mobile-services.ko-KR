@@ -8,7 +8,7 @@ title: 획득 링크 수동으로 만들기
 topic: 지표
 uuid: D 7709203-F 793-4982-ADAA -9 C 3 C 914 ACA 2 B
 translation-type: tm+mt
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+source-git-commit: 54e3b2d673356a616987537d20758bef8b044db4
 
 ---
 
@@ -44,7 +44,7 @@ iOS의 경우 올바른 프로토콜을 사용하는지 확인합니다.
 
 * `{mobile-services-app-hash}` 구성 `acquisition:appid ` 파일의 응용 프로그램 식별자와 일치합니다.
 
-   You can locate `{mobile-services-app-has}` in the Manage App Settings page under Acquisition SDK Options in the Tracking ID field.
+   You can locate `{mobile-services-app-hash}` in the Manage App Settings page under Acquisition SDK Options in the Tracking ID field.
 
    ![](assets/tracking-id.png)
 
