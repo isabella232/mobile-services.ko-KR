@@ -41,6 +41,7 @@ Adbmobile 구성 요소를 Xamarin. Android 프로젝트로 가져옵니다.
 
    * `INTERNET`
    * `ACCESS_NETWORK_STATE`
+
    ```java
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />

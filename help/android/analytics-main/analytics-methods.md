@@ -120,9 +120,10 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
    >이 호출은 히트를 전송하지 않습니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
-   ```java
-   publicstaticvoidtrackTimedActionStart(Stringaction,Map<String,Object>contextData);
-   ```
+
+      ```java
+      publicstaticvoidtrackTimedActionStart(Stringaction,Map<String,Object>contextData);
+      ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
 

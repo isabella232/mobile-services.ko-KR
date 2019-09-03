@@ -202,9 +202,10 @@ In `html` files where you want to use tracking, add the following to the `<head>
    PII 컬렉션 요청을 제출합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
-   ```javascript
-   ADB.collectPII(piiData,success, fail);
-   ```
+
+      ```javascript
+      ADB.collectPII(piiData,success, fail);
+      ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
