@@ -184,4 +184,7 @@ C Sharp 및 JavaScript 앱의 경우 다음 단계를 완료하여 기본 코드
 
 1. Right-click the project, click **[!UICONTROL Properties]** &gt; **[!UICONTROL Configuration Properties]** &gt; **[!UICONTROL Debug tab]**.
 
-1. 디버거 유형 드롭다운을 **[!UICONTROL 기본으로 변경합�
+1. 디버거 유형 드롭다운을 **[!UICONTROL 기본으로 변경합니다]**.
+
+그러면 됩니다! 이제 Universal Windows Platform 앱에서 Analytics, Target 및 고객 관리를 구현할 준비가 되었습니다.
+
