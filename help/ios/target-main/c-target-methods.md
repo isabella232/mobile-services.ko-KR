@@ -7,7 +7,7 @@ title: Ios 용 타겟 메서드
 topic: 개발자 및 구현
 uuid: 692 BCDA 1-02 BA -4902-BD 65-15888 ADF 1952
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: 8dc075603544aaab7fdedb1ff10a12f7fa7e21f5
 
 ---
 
@@ -20,7 +20,7 @@ SDK는 현재 Analytics, Target, Audience Manager 및 Adobe Experience Platform 
 
 >[!TIP]
 >
->라이프사이클 지표는 각 mbox 로드에 매개 변수로 전송됩니다. 자세한 내용은 [라이프사이클 지표](/help/ios/metrics.md)를 참조하십시오.
+>라이프사이클 지표는 각 mbox 로드에 매개 변수로 전송됩니다. 자세한 내용은 [라이프사이클 지표](/help/ios/metrics.md)를 참조하십시오. `didFinishLaunching` 위임 메서드 내에서 Target 요청을 전송하는 경우, Target 구현 코드 앞에 `[ADBMobile trackAction:data:]` OR `[ADBMobile trackState:data:]` 호출을 추가하십시오. 이렇게 하면 타겟 요청에는 전체 라이프사이클 데이터가 포함됩니다.
 
 ## 클래스 참조: Adbtargetlocationrequest
 
