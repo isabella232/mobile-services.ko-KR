@@ -8,7 +8,7 @@ title: Adobe Experience Platform Identity Service 방식
 topic: 개발자 및 구현
 uuid: C 5107 A 7 E -273 B -4 F 71-8738-4 C 603479 B 24 C
 translation-type: tm+mt
-source-git-commit: a54a969bb6abedfeb0fc20276d260664b68c1d66
+source-git-commit: 8fc515a6e89044b9dac98b3f207c5f43b658a2ec
 
 ---
 
@@ -25,14 +25,14 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
 
    Adobe JavaScript 라이브러리에서 사용할 수 있도록 URL 문자열에 Adobe 방문자 데이터를 추가합니다. 이 메서드를 사용하려면 Mobile SDK 4.12 이상이 있어야 합니다. 자세한 내용은 [방문자 ID 지원 기능 추가](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-appendvisitorid.html)를 참조하십시오.
 
-   >[! 중요 사항]
+   >[!IMPORTANT]
    >
    >이 방법으로 네트워크 호출이 차단될 수 있습니다. 시간이 중요한 스레드에 대해서는 호출하지 마십시오.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      URL java.lang.String  
+      public static String appendToURL(final String URL) 
       ```
 
       방문자 정보가 추가되는 필수 URL 문자열입니다.
