@@ -3,11 +3,11 @@ description: Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대�
 keywords: Xamarin
 seo-description: Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서드입니다.
 seo-title: iOS 메서드
-solution: Marketing Cloud, 개발자
+solution: Marketing Cloud,개발자
 title: iOS 메서드
-uuid: D 6 A 056 DB -80 C 1-44 D 0-970 F-C 961 AD 01 B 0 BC
+uuid: d6a056db-80c1-44d0-970f-c961ad01b0bc
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: f53953831e6471ea64eb2ae06ddae16ca0eab6f6
 
 ---
 
@@ -34,7 +34,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
       ADBMobile.CollectLifecycleData();
       ```
 
-* **Debuglogging**
+* **디버그 로깅**
 
    현재 디버그 로깅 기본 설정을 반환합니다. 기본값은 `false`입니다.
 
@@ -57,13 +57,15 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```objective-c
-      public static void SetDebugLogging(bool enabled); 
-      
+      public static void SetDebugLogging(bool enabled);
+      ```
+
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```objective-c
       ADBMobile.SetDebugLogging(true);
-      
+      ```
+
 * **LifetimeValue**
 
    현재 사용자의 수명 값을 반환합니다.
@@ -71,20 +73,20 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```objective-c
-      public static double LifetimeValue(); 
+      public static double LifetimeValue();
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```objective-c
-      var lifetimeValue = ADBMobile.LifetimeValue(); 
+      var lifetimeValue = ADBMobile.LifetimeValue();
       ```
 
 * **PrivacyStatus**
 
    현재 사용자에 대한 개인 정보 상태의 열거 표현을 반환합니다.
    * `ADBMobilePrivacyStatus.OptIn` - 히트가 즉시 전송됩니다.
-   * `ADBMobilePrivacyStatus.OptOut` - 히트는 무시됩니다.
+   * `ADBMobilePrivacyStatus.OptOut` - 히트가 무시됩니다.
    * ADBMobilePrivacyStatus.Unknown - 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(그런 다음 히트를 보냄) 또는 옵트아웃(그런 다음 히트가 무시됨)으로 변경될 때까지 히트가 저장됩니다. 오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다.
    The default value is set in the [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
 
@@ -97,7 +99,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```objective-c
-       var privacyStatus = ADBMobile.PrivacyStatus(); 
+      var privacyStatus = ADBMobile.PrivacyStatus();
       ```
 
 
@@ -105,7 +107,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
    현재 사용자의 개인 정보 상태를 상태로 설정합니다. 다음 값 중 하나를 설정합니다.
    * `ADBMobilePrivacyStatus.OptIn` - 히트가 즉시 전송됩니다.
-   * `ADBMobilePrivacyStatus.OptOut` - 히트는 무시됩니다.
+   * `ADBMobilePrivacyStatus.OptOut` - 히트가 무시됩니다.
    * `ADBMobilePrivacyStatus.Unknown` - 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트 삭제)으로 변경될 때까지 히트가 저장됩니다. 오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
@@ -174,12 +176,12 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
    >[!TIP]
    >
-   >이 메서드는 백그라운드에 있는 동안 알림을 등록하는 앱에 사용하기 위해 만들었으며 앱이 백그라운드에 있을 때 실행하는 코드에서만 호출되어야 합니다.
+   >이 메서드는 앱이 백그라운드에 있을 때 알림을 등록하는 앱에 사용되며 앱이 백그라운드에 있을 때 실행하는 코드에서만 호출되어야 합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```objective-c
-       public static void KeepLifecycleSessionAlive();
+      public static void KeepLifecycleSessionAlive();
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
@@ -203,15 +205,15 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```objective-c
-       var trackingId = ADBMobile.TrackingIdentifier();
+      var trackingId = ADBMobile.TrackingIdentifier();
       ```
 
 * **TrackState**
 
-   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. 상태는 "제목 화면", "레벨 1", "일시 중지" 등 앱에서 사용할 수 있는 보기입니다. 이러한 상태는 웹 사이트의 페이지와 유사하며 증분 페이지 보기를 `TrackState` 호출합니다. 상태가 비어 있으면 보고서에 "앱 이름 앱 버전 (빌드)" 로 표시됩니다. 보고서에서 이 값이 표시되면 반드시 각각의 `TrackState` 호출에서 상태를 설정해야 합니다.
+   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. 상태는 "제목 화면", "레벨 1", "일시 중지" 등 앱에서 사용할 수 있는 보기입니다. 이러한 상태는 웹 사이트의 페이지와 유사하며, 증가 페이지 보기를 `TrackState` 호출합니다.상태가 비어 있으면 보고서에 "앱 이름 앱 버전(빌드)"로 표시됩니다. 보고서에서 이 값이 표시되면 반드시 각각의 `TrackState` 호출에서 상태를 설정해야 합니다.
 
    [!TIP]
-   >페이지 보기를 증가시키는 유일한 추적 호출입니다.
+   >이것은 페이지 보기를 증가시키는 유일한 추적 호출입니다.
    >
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -251,7 +253,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
    백그라운드에서 발생된 작업을 추적합니다. 특정 시나리오에서 라이프사이클 이벤트의 시작을 억제합니다.
 
    >[!TIP]
-   앱이 백그라운드에 있을 때 실행하는 코드에서만 이 메서드를 호출해야 합니다.
+   이 메서드는 앱이 백그라운드에 있을 때 실행되는 코드에서만 호출되어야 합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -321,7 +323,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
    * 다음은 이 메서드에 대한 구문입니다.
 
-      공개 nbsp; static void tracklifetimevalueincrease (double amount, nsdictionary CDATA);
+      public nbsp;static void TrackLifetimeValueIncrease(double amount, NSDictionary 데이터);
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
@@ -383,11 +385,12 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
       ```objective-c
       ADBMobile.TrackTimedActionEnd  ("level2", (double  arg1,  double  arg2,  NSMutableDictionary  arg3)  =>  { 
       return  Convert.ToSByte(true); 
-      }); 
-      
+      });
+      ```
+
 * **TrackingTimedActionExists**
 
-   Timed Action 이 진행 중 (또는 진행 중) 인지를 반환합니다.
+   시간 작업이 진행 중인지 또는 진행 중인지 여부를 반환합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -483,8 +486,8 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```objective-c
-       NSDictionary  ids  =  NSDictionary.FromObjectAndKey  (NSObject.FromObject  ("value2"),  NSObject.FromObject  ("pushID")); 
-       ADBMobile.VisitorSyncIdentifiers(ids); 
+      NSDictionary  ids  =  NSDictionary.FromObjectAndKey  (NSObject.FromObject  ("value2"),  NSObject.FromObject  ("pushID")); 
+      ADBMobile.VisitorSyncIdentifiers(ids); 
       ```
 
 ## Target methods {#section_C1E4121CAF9D43538511D857A1F549A7}
@@ -502,11 +505,11 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```objective-c
-       NSDictionary  dict  =  NSDictionary.FromObjectAndKey  (NSObject.FromObject  ("value2"),  NSObject.FromObject  ("key1")); 
-       ADBTargetLocationRequest  req  =  ADBMobile.TargetCreateRequest  ("iOSTest",  "defGal",  dict); 
-       ADBMobile.TargetLoadRequest(req,    (context)  =>  { 
-       Console.WriteLine  (context); 
-       });
+      NSDictionary  dict  =  NSDictionary.FromObjectAndKey  (NSObject.FromObject  ("value2"),  NSObject.FromObject  ("key1")); 
+      ADBTargetLocationRequest  req  =  ADBMobile.TargetCreateRequest  ("iOSTest",  "defGal",  dict); 
+      ADBMobile.TargetLoadRequest(req,    (context)  =>  { 
+      Console.WriteLine  (context); 
+      });
       ```
 
 * **TargetCreateRequest**
@@ -528,13 +531,14 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
 * **TargetCreateOrderConfirmRequest**
 
-   를 만듭니다 `ADBTargetLocationRequest`.
+   Create an. `ADBTargetLocationRequest`.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```objective-c
       public static ADBTargetLocationRequest ADBTargetLocationRequest TargetCreateRequest (string name, string defaultContent, NSDictionary parameters);
-      
+      ```
+
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```objective-c
@@ -774,7 +778,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```objective-c
-       ADBMobile.MediaStop (settings.Name, 3);
+      ADBMobile.MediaStop (settings.Name, 3);
       ```
 
 * **MediaClick**
