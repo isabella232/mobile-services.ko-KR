@@ -7,7 +7,7 @@ title: Experience Cloud 솔루션용 iOS SDK 4.x
 topic: 개발자 및 구현
 uuid: 8b374cee-1432-460b-aac2-70623dd80a04
 translation-type: tm+mt
-source-git-commit: 1070450065776fdb7d13e9b21ce62ceeee55b80e
+source-git-commit: 0f6eec995626f4c93f56d59b682083bd0428d9e1
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud 솔루션용 iOS SDK 4.x를 사용하면 기본 Apple iPhone �
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Mobile SDK는 이제 iOS 13 [및 Xcode 11을 지원합니다][https://developer.apple.com/ios/]. 완벽한 호환성을 보장하려면 [최신 버전의 Experience Platform Mobile SDK 익스텐션을](https://app.gitbook.com/@aep-sdks/s/docs/resources/frequently-asked-questions/current-sdk-versions)사용하십시오.
+>Experience Cloud 솔루션용 iOS SDK 4.x는 이제 iOS 13 [및 Xcode 11을 지원합니다][https://developer.apple.com/ios/]. 완벽한 호환성을 위해서는 최신 버전의 4.x iOS SDK를 사용하십시오. 최신 버전에 대한 자세한 내용은 [릴리스 정보를](/help/ios/rel-notes.md)참조하십시오.
 
 ## 새 Adobe Experience Cloud SDK 릴리스
 
@@ -45,13 +45,13 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 
 * 이 SDK의 4.2 버전 이상에서는 모든 히트를 HTTP POST를 사용하여 전송합니다.
 
-   이렇게 하면 수집되거나 보고되는 데이터에는 영향을 주지 않지만 히트를 보려면 POST 데이터 검사를 지원하는 패킷 분석기를 사용해야 합니다.
+   This has no impact on the data that is collected or reported, but you need to use a packet analyzer that supports inspecting POST data to view hits.
 
 * If you are upgrading from a previous version (2.x or 3.x), see the [4.x Migration Guide](/help/ios/getting-started/migration-v3.md).
 
 ## Adobe Mobile 사용자 설명서 {#section_7583FD5FDED143619048E9744A3F2D21}
 
-Adobe Mobile Services는 Adobe Experience Cloud에서 모바일 애플리케이션에 대한 모바일 마케팅 기능을 종합하여 제공하는 신규 UI를 제공합니다. 처음에는 모바일 서비스는 Adobe Analytics, Adobe Audience Manager, Adobe Target 솔루션 및 Adobe Experience Platform Identity Service의 앱 분석 및 타깃팅 기능을 매끄럽게 통합합니다.
+Adobe Mobile Services는 Adobe Experience Cloud에서 모바일 애플리케이션에 대한 모바일 마케팅 기능을 종합하여 제공하는 신규 UI를 제공합니다. Initially, the Mobile service provides seamless integration of app analytics and targeting capabilities from the Adobe Analytics, Adobe Audience Manager, and Adobe Target solutions, and Adobe Experience Platform Identity Service.
 
 Mobile Services UI에 대한 자세한 정보를 확인하고 사용자 설명서를 읽어 보려면 [Adobe Mobile Services](/help/using/home.md)를 참조하십시오.
 
