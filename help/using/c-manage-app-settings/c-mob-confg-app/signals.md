@@ -3,7 +3,7 @@ description: 포스트백을 이용하면 Adobe Mobile로 수집한 데이터를
 seo-description: 포스트백을 이용하면 Adobe Mobile로 수집한 데이터를 별도의 타사 서버에 보낼 수 있습니다. 인앱 메시지를 표시하는 데 사용하는 것과 동일한 트리거와 트레이트를 이용하여 사용자 지정된 데이터를 타사 대상에 전송하도록 SDK를 구성할 수 있습니다.
 seo-title: 포스트백 구성
 title: 포스트백 구성
-uuid: A 026575 C -057 B -4868-B 6 C 8-9514 CBC 32 B 4 D
+uuid: a026575c-057b-4868-b6c8-9514cbc32b4d
 translation-type: tm+mt
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
@@ -32,11 +32,11 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
    * **[!UICONTROL URL]**
 
-      올바른 종단점 URL를 지정합니다 (GET 요청에 필요한 경우 적절한 쿼리 매개 변수 사용). 이 URL은 데이터를 받게 되는 당사자로부터 얻습니다(광고 서버나 자체 종단점). 예 `https://my.server.com/?user=bob&amp;zip=90210&amp;c16=4.6.0-iOS&amp;c27=cln,132`.
+      GET 요청에 필요한 적절한 쿼리 매개 변수를 사용하여 올바른 끝점 URL을 지정하십시오. 이 URL은 데이터를 받게 되는 당사자로부터 얻습니다(광고 서버나 자체 종단점). 예 `https://my.server.com/?user=bob&amp;zip=90210&amp;c16=4.6.0-iOS&amp;c27=cln,132`.
 
    * **[!UICONTROL 컨텍스트 변수]**
 
-      URL의 부분들을 강조 표시하고 드롭다운 목록에서 원하는 컨텍스트 변수를 선택합니다. 컨텍스트 변수를 URL에 삽입할 수도 있으며, URL는 모든 템플릿 변수를 히트의 값으로 바꿉니다.
+      URL의 부분들을 강조 표시하고 드롭다운 목록에서 원하는 컨텍스트 변수를 선택합니다. You can also insert context variables into the URL, and the URL will replace all template variables with values from the hit.
 
    * **[!UICONTROL 게시물 본문 추가]**
 
