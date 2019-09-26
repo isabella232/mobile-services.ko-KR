@@ -3,7 +3,7 @@ description: Adobe Target 미리 가져오기 기능은 Android Mobile SDK를 �
 seo-description: Adobe Target 미리 가져오기 기능은 Android Mobile SDK를 사용하여 서버 응답을 캐싱하여 가능한 한 적은 시간에 오퍼 콘텐츠를 가져옵니다.
 seo-title: Android에서 오퍼 컨텐츠 미리 가져오기
 title: Android에서 오퍼 컨텐츠 미리 가져오기
-uuid: 063451 B 8-E 191-4 D 58-8 ED 8-1723 E 310 AD 1 A
+uuid: 063451b8-e191-4d58-8ed8-1723e310ad1a
 translation-type: tm+mt
 source-git-commit: fa7375ac8a1345d81748bcf635791c46d3943fed
 
@@ -16,7 +16,7 @@ Adobe Target 미리 가져오기 기능은 Android Mobile SDK를 사용하여 �
 
 >[!IMPORTANT]
 >
->Android 용 Mobile SDK의 프리페치 기능은 Adobe Target의 자동 Target, 자동 할당 및 자동화된 개인화 활동 유형에 대해 지원되지 않습니다.
+>Prefetch functionality in the Mobile SDKs for Android is not supported for Auto Target, Auto Allocate, and Automated Personalization activity types in Adobe Target.
 
 이 프로세스는 로드 시간을 줄이고, 다중 네트워크 호출을 방지하며, 모바일 앱 사용자가 방문한 mbox를 Adobe Target에 알려줄 수 있도록 해줍니다. 모든 컨텐츠는 미리 가져오기 호출 중에 검색되고 캐시되며, 이 컨텐츠는 지정된 mbox 이름에 대해 캐시된 컨텐츠를 포함하는 이후의 모든 호출에 대한 캐시에서 검색됩니다.
 
@@ -56,7 +56,7 @@ Android에서 미리 가져오기에 사용할 수 있는 메서드는 다음과
       final TargetCallback<Boolean> callback)
       ```
 
-   * 다음은 이 메서드의 매개 변수입니다.
+   * Here are the parameters for this method:
 
       * **targetPrefetchArray**
 
@@ -76,7 +76,7 @@ Android에서 미리 가져오기에 사용할 수 있는 메서드는 다음과
 
    >[!IMPORTANT]
    >
-   >요청한 위치에 대한 컨텐츠가 이미 캐시되면 제공된 콜백에서 즉시 반환됩니다. 그렇지 않으면 Target 서버에 컨텐츠를 검색하도록 SDK가 네트워크 요청을 보냅니다.
+   >요청된 위치에 대한 컨텐츠가 이미 캐시되면 제공된 콜백에서 즉시 반환됩니다. 그렇지 않으면 Target 서버에 컨텐츠를 검색하도록 SDK가 네트워크 요청을 보냅니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -84,7 +84,7 @@ Android에서 미리 가져오기에 사용할 수 있는 메서드는 다음과
       public static void loadRequests( final List<TargetRequestObject> requestArray,  final Map<String, Object> profileParameters)
       ```
 
-   * 다음은 이 메서드의 매개 변수입니다.
+   * Here are the parameters for this method:
 
       * **requestArray**
 
@@ -104,7 +104,7 @@ Android에서 미리 가져오기에 사용할 수 있는 메서드는 다음과
       public static void clearPrefetchCache();
       ```
 
-   * 이 메서드에 대한 매개 변수는 없습니다.
+   * There are no parameters for this method.
 
 * **createTargetRequestObject**
 
@@ -140,7 +140,7 @@ Android에서 미리 가져오기에 사용할 수 있는 메서드는 다음과
 
 다음은 Android에서 미리 가져오기를 지원하는 공용 클래스입니다.
 
-### 클래스 참조: Targetprefetchobject
+### 클래스 참조:TargetPrefetchObject
 
 mbox 미리 가져오기에 사용되는 mbox 이름 및 매개 변수를 캡슐화합니다.
 
@@ -152,21 +152,21 @@ mbox 미리 가져오기에 사용되는 mbox 이름 및 매개 변수를 캡슐
 * `mboxParameters`
 
    이 `mboxParameters`의 요청에 대해 `TargetPrefetchObject`로서 첨부할 키-값 쌍의 컬렉션입니다.
-   * ****&#x200B;유형: map`<String, Object>`
+   * **유형**:맵`<String, Object>`
 
 * **`orderParameters`**
 
    order 노드 아래에 있는 현재 mbox에 첨부할 키-값 쌍의 컬렉션입니다.
-   * ****&#x200B;유형: map `<String, Object>`
+   * **Type: Map**`<String, Object>`
 
 * **`productParameters`**
 
    product 노드 아래에 있는 현재 mbox에 첨부할 키-값 쌍의 컬렉션입니다.
 
-   * ****&#x200B;유형: map `<String, Object>`
+   * **Type: Map**`<String, Object>`
 
 
-### 클래스 참조: Targetrequestobject
+### 클래스 참조:TargetRequestObject
 
 이 클래스는 Target 위치 요청에 사용되는 mbox 이름, 기본 컨텐츠, mbox 매개 변수 및 반환 콜백을 캡슐화합니다.
 
@@ -180,19 +180,19 @@ mbox 미리 가져오기에 사용되는 mbox 이름 및 매개 변수를 캡슐
 
    이 `mboxParameters`에 대해 `TargetRequestObject`로서 첨부할 키-값 쌍의 컬렉션입니다.
 
-   * **유형: map`<String, Object>`**
+   * **유형:맵`<String, Object>`**
 
 * **`orderParameters`**
 
    order 노드 아래에 있는 현재 mbox에 첨부할 키-값 쌍의 컬렉션입니다.
 
-   * ****&#x200B;유형: map `<String, Object>`
+   * **유형**:맵 `<String, Object>`
 
 * **`productParameters`**
 
    product 노드 아래에 있는 현재 mbox에 첨부할 키-값 쌍의 컬렉션입니다.
 
-   * ****&#x200B;유형: map `<String, Object>`
+   * **Type: Map**`<String, Object>`
 
 * **`defaultContent`**
 
@@ -204,7 +204,7 @@ mbox 미리 가져오기에 사용되는 mbox 이름 및 매개 변수를 캡슐
 
    제공된 `TargetRequestObject`의 컨텐츠를 사용할 수 있을 때 호출되는 함수 포인터입니다.
 
-   * ****&#x200B;유형: target. targetcallback`<String>`
+   * **유형**:Target.TargetCallback`<String>`
 
 
 ## Code sample {#section_BF7F49763D254371B4656E17953D520C}
