@@ -1,18 +1,18 @@
 ---
 description: 다음은 Adobe Analytics에서 iOS SDK를 사용하는 데 유용한 정보입니다.
 seo-description: 다음은 Adobe Analytics에서 iOS SDK를 사용하는 데 유용한 정보입니다.
-seo-title: 분석 개요
-solution: Marketing Cloud, Analytics
+seo-title: Analytics overview
+solution: Marketing Cloud,Analytics
 title: 분석 개요
 topic: 개발자 및 구현
-uuid: 8 c 7 fb 76 a-be 0 b -4465-8151-ece 7 bad 11 b 55
+uuid: 8c7fb76a-be0b-4465-8151-ece7bad11b55
 translation-type: tm+mt
 source-git-commit: 9257d6b6c2c14d0422cda65fcc9c677ac5ac47a9
 
 ---
 
 
-# 분석 개요 {#analytics}
+# Analytics overview {#analytics}
 
 이 섹션의 정보는 Adobe Analytics와 함께 iOS SDK를 사용하는 데 도움이 됩니다.
 
@@ -39,7 +39,7 @@ SDK에서 식별자는 사용자를 추적하는 데 사용되며 여기에서�
 
 >[!TIP]
 >
->Experience Cloud 식별자에 대한 올바른 약어는 ECID 입니다. SDK에서 계속 MID를 사용할 수 있지만 이는 이전 이름입니다.
+>Experience Cloud 식별자의 올바른 약어는 ECID입니다. SDK에서 계속 MID를 사용할 수 있지만 이는 이전 이름입니다.
 Tracking Identifier라고도 하는 AID는 앱이 MID를 사용하도록 구성되지 않은 경우 SDK에서 생성합니다. 값은 `NSUserDefaults`에서 실행 및 앱 업그레이드 사이에서 지속됩니다. 사용자가 장치에서 앱을 삭제한 다음 앱을 다시 설치하거나 앱 개발자가 `NSUserDefaults`를 삭제하는 경우 SDK가 새 식별자를 생성합니다. 이 프로세스로 인해 분석 보고에 새로운 사용자가 생깁니다.
 
 Identity 서비스 지원(MID)을 도입하는 앱에 있는 사용자의 경우 기존 AID 값이 분석 히트로 전송되며 분석 히트에는 AID 및 MID가 포함됩니다. Identity 서비스 지원을 사용하는 앱에 있는 새 사용자의 경우 분석 요청에 MID만 포함됩니다. For more information about identifying visitors, see [Identify visitors](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-visid.html).
