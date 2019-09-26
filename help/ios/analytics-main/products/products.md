@@ -2,10 +2,10 @@
 description: products 변수는 처리 규칙을 사용하여 설정할 수 없습니다. iOS 4.x SDK에서 컨텍스트 데이터 매개 변수에 특수 구문을 사용하여 서버 호출에 대해 직접 products를 설정해야 합니다.
 seo-description: products 변수는 처리 규칙을 사용하여 설정할 수 없습니다. iOS 4.x SDK에서 컨텍스트 데이터 매개 변수에 특수 구문을 사용하여 서버 호출에 대해 직접 products를 설정해야 합니다.
 seo-title: products 변수
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: products 변수
 topic: 개발자 및 구현
-uuid: 6 ece 4 d 27-ef 86-435 c-a 6 f 7-bd 76 be 1 c 95 ca
+uuid: 6ece4d27-ef86-435c-a6f7-bd76be1c95ca
 translation-type: tm+mt
 source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
 
@@ -16,7 +16,7 @@ source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
 
 products 변수는 처리 규칙을 사용하여 설정할 수 없습니다. iOS 4.x SDK에서 컨텍스트 데이터 매개 변수에 특수 구문을 사용하여 서버 호출에 대해 직접 products를 설정해야 합니다.
 
-*`products`* 변수를 설정하려면 컨텍스트 데이터 키를 설정하고 `"&&products"`*`products`* 변수에 대해 정의된 구문을 사용하여 값을 설정합니다.
+To set the *`products`* variable, set a context data key to `"&&products"`, and set the value by using the syntax that is defined for the *`products`* variable:
 
 ```objective-c
 [contextData setObject:@"Category;Product;Quantity;Price[,Category;Product;Quantity;Price]" forKey:@"&&products"];
@@ -41,7 +41,7 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 [ADBMobile trackState:@"Order Confirmation" data:contextData]; 
 ```
 
-*`products`* 는 이미지 요청에 직접 설정되며 다른 변수는 컨텍스트 데이터로 설정됩니다. 모든 컨텍스트 데이터 변수는 처리 규칙을 사용하여 매핑해야 합니다.
+*`products`* 는 이미지 요청에서 직접 설정되며 다른 변수는 컨텍스트 데이터로 설정됩니다. 모든 컨텍스트 데이터 변수는 처리 규칙을 사용하여 매핑해야 합니다.
 
 ![](assets/map-products.png)
 
