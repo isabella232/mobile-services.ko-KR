@@ -3,7 +3,7 @@ description: Adobe Mobile Services UI에서 딥링크 URL을 구성하면 이 UR
 seo-description: Adobe Mobile Services UI에서 딥링크 URL을 구성하면 이 URL은 adb_deeplink 키를 사용하여 푸시 페이로드에 저장됩니다.
 seo-title: 딥링크로 푸시 메시지 구현
 title: 딥링크로 푸시 메시지 구현
-uuid: E 24 F 9248-8 D 48-4 E 57-84 AF -3 A 05 B 72 E 2 A 09
+uuid: e24f9248-8d48-4e57-84af-3a05b72e2a09
 translation-type: tm+mt
 source-git-commit: 13ff2cb549c4b82a4e0285e1c7c6b3f9c1a5bd4b
 
@@ -14,11 +14,11 @@ source-git-commit: 13ff2cb549c4b82a4e0285e1c7c6b3f9c1a5bd4b
 
 Adobe Mobile Services UI에서 딥링크 URL을 구성하면 이 URL은 adb_deeplink 키를 사용하여 푸시 페이로드에 저장됩니다.
 
-에 전화하여 `remoteMessage.getData().get("adb_deeplink")` URL를 가져올 수 있습니다 `FirebaseMessagingService`.
+URL은 에서 `remoteMessage.getData().get("adb_deeplink")` 호출하여 가져올 수 `FirebaseMessagingService`있습니다.
 
 >[!TIP]
 >
->페이로드에 딥 링크 URL 이 있는지 여부에 따라 다른 의도를 정의할 수 있습니다.
+>페이로드에 딥 링크 URL이 있는지 여부에 따라 다른 의도를 정의할 수 있습니다.
 
 1. 다음 작업 중 하나를 완료하십시오.
 
