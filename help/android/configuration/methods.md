@@ -1,12 +1,12 @@
 ---
 description: 다음은 Android 라이브러리에서 제공하는 메서드 목록입니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 다음은 Android 라이브러리에서 제공하는 메서드 목록입니다.
 seo-title: 구성 메서드
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 구성 메서드
 topic: 개발자 및 구현
-uuid: 663 AEB 6 C -1 B 97-4 A 3 A -8 C 0 E-DD 4 C 2 EC 28 C 01
+uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
 translation-type: tm+mt
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
@@ -37,7 +37,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 * **registerAdobeDataCallback**
 
-   * `AdobeDataCallback` 인터페이스를 구현하는 개체를 등록합니다. The overwritten "call" method will be invoked with a `Config.MobileDataEvent` value and the associated data in a `Map<String, Object>` for the triggering event. 이 콜백을 유발할 이벤트에 대한 자세한 내용은 이 항목 하단의 *Mobiledataeventenum* 를 참조하십시오.
+   * `AdobeDataCallback` 인터페이스를 구현하는 개체를 등록합니다. The overwritten "call" method will be invoked with a `Config.MobileDataEvent` value and the associated data in a `Map<String, Object>` for the triggering event. 이 콜백을 트리거할 이벤트에 대한 자세한 내용은 이 *항목* 하단의 MobileDataEventEnum을 참조하십시오.
 
       >[!TIP]
       >
@@ -73,7 +73,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
       public static String getVersion();
       ```
 
-   * 다음은 이 메서드의 코드 예제입니다.
+   * Here is a code example for this method:
 
       ```java
       String libraryVersion = Config.getVersion(); 
@@ -85,8 +85,8 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
       다음은 개인 정보 보호 상태 값입니다.
 
-      * `MOBILE_PRIVACY_STATUS_OPT_IN`를 클릭합니다.
-      * `MOBILE_PRIVACY_STATUS_OPT_OUT`를 무시합니다.
+      * `MOBILE_PRIVACY_STATUS_OPT_IN`, where the hits are sent immediately.
+      * `MOBILE_PRIVACY_STATUS_OPT_OUT`를 채우는 것이 좋습니다.
       * `MOBILE_PRIVACY_STATUS_UNKNOWN`: 보고서 세트에 타임스탬프가 사용되는 경우 개인정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다.
 
          보고서 세트에 타임스탬프가 활성화되어 있지 않을 경우 개인정보 상태가 옵트인으로 변경될 때까지 히트가 삭제됩니다. 기본값은 `ADBMobileConfig.json` 파일에서 설정되어 있습니다.
@@ -96,7 +96,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
       public static MobilePrivacyStatus getPrivacyStatus(); 
       ```
 
-   * 다음은 이 메서드에 대한 코드 샘플입니다.
+   * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
       MobilePrivacyStatus privacyStatus Config.getPrivacyStatus();
@@ -108,8 +108,8 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
    * 현재 사용자의 개인정보 상태를 `status`로 설정합니다.
 
       개인정보 상태를 다음 값 중 하나로 설정할 수 있습니다.
-      * `MOBILE_PRIVACY_STATUS_OPT_IN`를 클릭합니다. 이 히트는 즉시 전송됩니다.
-      * `MOBILE_PRIVACY_STATUS_OPT_OUT`를 무시합니다. 이 히트는 삭제됩니다.
+      * `MOBILE_PRIVACY_STATUS_OPT_IN`가 있는 경우 히트가 즉시 전송됩니다. 이 히트는 즉시 전송됩니다.
+      * `MOBILE_PRIVACY_STATUS_OPT_OUT`, where the its are discarded. 이 히트는 삭제됩니다.
       * `MOBILE_PRIVACY_STATUS_UNKNOWN`: 보고서 세트에 타임스탬프가 사용되는 경우 개인정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다.
 보고서 세트에 타임스탬프가 활성화되어 있지 않을 경우 개인정보 상태가 옵트인으로 변경될 때까지 히트가 삭제됩니다.
    * 다음은 이 메서드에 대한 구문입니다.
@@ -118,7 +118,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
       public static void setPrivacyStatus(MobilePrivacyStatus status); 
       ```
 
-   * 다음은 이 메서드에 대한 코드 샘플입니다.
+   * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
       Config.setPrivacyStatus(MobilePrivacyStatus.MOBILE_PRIVACY_STATUS_OPT_IN); 
@@ -135,7 +135,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
       public static BigDecimal getLifetimeValue();
       ```
 
-   * 다음은 이 메서드에 대한 코드 샘플입니다.
+   * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
       BigDecimal currentLifetimeValue Config.getLifetimeValue(); 
@@ -147,7 +147,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
       >[!TIP]
       >
-      >앱 업그레이드가 Experience Cloud 3. x에서 4. x SDK로 업그레이드되는 경우 이전에 사용자 정의 또는 자동 생성된 방문자 ID가 검색하여 사용자 지정 사용자 식별자로 저장됩니다. 이렇게 하면 SDK 업그레이드 시에도 방문자 데이터가 보존됩니다. 4.x SDK에 새로 설치하는 경우 사용자 ID는 `null`입니다.
+      >앱이 Experience Cloud 3.x에서 4.x SDK로 업그레이드하면 이전 사용자 지정 또는 자동으로 생성된 방문자 ID가 검색되어 사용자 지정 사용자 식별자로 저장됩니다. 이렇게 하면 SDK 업그레이드 시에도 방문자 데이터가 보존됩니다. 4.x SDK에 새로 설치하는 경우 사용자 ID는 `null`입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
