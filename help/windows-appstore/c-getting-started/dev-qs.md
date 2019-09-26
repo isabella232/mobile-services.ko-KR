@@ -2,10 +2,10 @@
 description: 'null'
 seo-description: 'null'
 seo-title: 개발자 빠른 시작
-solution: Marketing Cloud, Analytics
-title: 개발자 빠른 시작
+solution: Marketing Cloud,Analytics
+title: Developer quick start
 topic: 개발자 및 구현
-uuid: B 368959 B-D 985-436 E -8 B 3 E -97 E 355 A 97951
+uuid: b368959b-d985-436e-8b3e-97e355a97951
 translation-type: tm+mt
 source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
@@ -28,7 +28,7 @@ Different `.dll`/ `.winmd` files are provided for each target platform (Windows 
 
 >[!IMPORTANT]
 >
->The version of `ADBMobile.winmd` does not reflect the version of the library. `.winmd` 파일에는 메타데이터만 포함되어 있으며 이에 따라 Microsoft에 따라 `255.255.255.255` 허용되는 비헤이비어가 포함되어 있습니다 (winrt C + [+/CX 구성 요소 DLL에 대한 어셈블리 정보를 추가하는 방법은 참조).](https://social.msdn.microsoft.com/Forums/windowsapps/en-US/6bcccaee-aa53-4770-bd5b-1205977f1ca7/how-do-i-add-assembly-information-for-a-winrt-c-cx-component-dll?forum=winappswithnativecode) 참조). To check the version of the library you are using, check the version of the underlying `ADBMobile.dll` file.
+>The version of `ADBMobile.winmd` does not reflect the version of the library. The `.winmd` file contains metadata only, and as such will have a version number of `255.255.255.255` which is accepted behavior according to Microsoft (see [How do I add assembly information for a WinRT C++ / CX component dll?](https://social.msdn.microsoft.com/Forums/windowsapps/en-US/6bcccaee-aa53-4770-bd5b-1205977f1ca7/how-do-i-add-assembly-information-for-a-winrt-c-cx-component-dll?forum=winappswithnativecode) 참조). To check the version of the library you are using, check the version of the underlying `ADBMobile.dll` file.
 
 ## Syntax differences {#section_A02DE120B6D240F5AFFE7509755C4F14}
 
@@ -41,11 +41,11 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 ## Add the library and config file to your project - C Sharp {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
 
 1. Visual Studio를 시작하고 솔루션을 엽니다.
-1. **솔루션 탐색기에서****[!UICONTROL 참조를]** 마우스 오른쪽 단추로 클릭하고 참조 **[!UIUCONTROL 추가를]**&#x200B;선택합니다.
+1. In the **Solution Explorer**, right-click **[!UICONTROL References]** and select **[!UIUCONTROL Add Reference]**.
 
 1. Select the correct version of the library and browse to the associated `ADBMobile.winmd` file.
 
-   자세한 내용은 아래 올바른 버전 *선택* 섹션을 참조하십시오.
+   자세한 내용은 아래 올바른 *버전* 선택 섹션을 참조하십시오.
 
 1. **[!UICONTROL 추가를 클릭합니다]**.
 
@@ -53,13 +53,13 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
    >[!NOTE]
    >
-   >Windows Phone 앱에 참조를 추가할 때, 구성 `ADBMobile.winmd`**[!UICONTROL 요소 파일에서]** **모든 파일로 기본 파일 필터를 변경합니다**.
+   >Windows Phone 앱에 대한 참조를 추가할 때 `ADBMobile.winmd`선택하려면 기본 파일 필터를 구성 요소 파일에서 **[!UICONTROL 모든]** 파일로 **변경하십시오**.
 
 1. **[!UICONTROL 솔루션 탐색기]**&#x200B;에서 **[!UICONTROL 참조]**&#x200B;를 마우스 오른쪽 버튼으로 클릭하고 **참조 추가[!UICONTROL 를 선택합니다]**.
 
-   솔루션에 C + + 프로젝트가 있는 경우 이 단계를 건너뜁니다.
+   솔루션에 C++ 프로젝트가 있는 경우 이 단계를 건너뛸 수 있습니다.
 
-1. 왼쪽의 **Windows** 탭에서 **[!UICONTROL 확장을]**&#x200B;선택한 다음 Windows 용 **[!UICONTROL Microsoft Visual C + + 2013 런타임 패키지를 선택합니다]**.
+1. In the Windows tab on the left, select Extensions, then select and add Microsoft Visual C++ 2013 Runtime Package for Windows.************
 
 1. 다음 줄을 클래스에 추가합니다.
 
@@ -69,28 +69,28 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
 1. Right-click you your project and select **[!UICONTROL Add]** &gt; **[!UICONTROL Existing Item]**.
 
-1. `ADBMobileConfig.json` 파일을 찾아 ****&#x200B;추가를 클릭합니다.
+1. 파일을 찾아 `ADBMobileConfig.json` 추가를 **[!UICONTROL 클릭합니다]**.
 
 1. Right-click the `ADBMobileConfig.json` file in your solution and select **[!UICONTROL Properties]**.
 
-1. **[!UICONTROL 빌드 작업을]** 콘텐츠로 ****&#x200B;변경
+1. Change **[!UICONTROL Build Action]** to **[!UICONTROL Content]**.
 
 ## Add the library and config file to your project - C++ {#section_A95C1D18F6144F37ADC8F51590F3983E}
 
 1. Visual Studio를 시작하고 솔루션을 엽니다.
-1. **[!UICONTROL 솔루션 탐색기에서]**&#x200B;프로젝트를 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL 추가]** &gt; **[!UICONTROL 참조를 선택합니다]**.
+1. In the **[!UICONTROL Solution Explorer]**, right-click your project and select **[!UICONTROL Add]** &gt; **[!UICONTROL References]**.
 
 1. Select the correct version of the library and then add a reference to the associated `ADBMobile.winmd` file.
 
-   자세한 내용은 아래 올바른 버전 *선택* 섹션을 참조하십시오.
+   자세한 내용은 아래 올바른 *버전 선택* 섹션을 참조하십시오.
 
 1. **[!UICONTROL 추가를 클릭합니다]**.
 
-1. **[!UICONTROL [참조 관리자]** ] 창에서 `ADBMobile.winmd` 선택되었는지 확인하고 **[!UICONTROL [확인]**] 를 클릭합니다.
+1. In the Reference Manager window, verify that  is selected and click OK.****`ADBMobile.winmd`****
 
    >[!TIP]
    >
-   >Windows Phone 앱에 참조를 추가할 때, 구성 `ADBMobile.winmd`**[!UICONTROL 요소 파일에서]** **모든 파일로 기본 파일 필터를 변경합니다**.
+   >When adding a reference to a Windows Phone app, to select , change the default file filter from Component Files to All Files.`ADBMobile.winmd`********
 
 1. 다음 줄을 클래스에 추가합니다.
 
@@ -100,18 +100,18 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
 1. Right-click you your project and select **[!UICONTROL Add]** &gt; **[!UICONTROL Existing Item]**.
 
-1. `ADBMobileConfig.json` 파일을 찾아 ****&#x200B;추가를 클릭합니다.
+1. 파일을 `ADBMobileConfig.json` 찾아 추가를 **[!UICONTROL 클릭합니다]**.
 
 1. Right-click the `ADBMobileConfig.json` file in your solution and select **[!UICONTROL Properties]**.
 
-1. **[!UICONTROL [일반]** ] 탭에서 **[!UICONTROL 콘텐트를]** **[!UICONTROL [예]**] 로 변경한 다음 [ **[!UICONTROL 확인]**] 를 클릭합니다.
+1. On the **[!UICONTROL General]** tab, change **[!UICONTROL Content]** to **[!UICONTROL Yes]**, and click **[!UICONTROL OK]**.
 
 ## Add the library and config file to your project - WinJS {#section_FF83113EBF4742AFA929F4AC28F92DB5}
 
 1. Visual Studio를 시작하고 솔루션을 엽니다.
-1. **솔루션 탐색기에서****[!UICONTROL 참조를]** 마우스 오른쪽 단추로 클릭하고 **[! Uicontrol 참조를 추가합니다**.
+1. In the **Solution Explorer**, right-click **[!UICONTROL References]** and select **[!UICONTROL Add Reference**.
 
-   자세한 내용은 아래 *올바른 버전* 선택 섹션을 참조하십시오.
+   자세한 내용은 아래 올바른 *버전 선택* 섹션을 참조하십시오.
 
 1. Select the correct version of the library and then browse to the associated `ADBMobile.winmd` file.
 
@@ -121,27 +121,27 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
    >[!TIP]
    >
-   >Windows Phone 앱에 참조를 추가할 때, 구성 `ADBMobile.winmd`**[!UICONTROL 요소 파일에서]** **모든 파일로 기본 파일 필터를 변경합니다**.
+   >Windows Phone 앱에 대한 참조를 추가할 때 `ADBMobile.winmd`선택하려면 기본 파일 필터를 구성 요소 파일에서 **[!UICONTROL 모든]** 파일로 **변경하십시오**.
 
 1. **[!UICONTROL 솔루션 탐색기]**&#x200B;에서 **[!UICONTROL 참조]**&#x200B;를 마우스 오른쪽 버튼으로 클릭하고 **참조 추가[!UICONTROL 를 선택합니다]**.
 
-   솔루션에 C + + 프로젝트가 있는 경우 이 단계를 건너뜁니다.
+   솔루션에 C++ 프로젝트가 있는 경우 이 단계를 건너뛸 수 있습니다.
 
-1. 왼쪽의 **[!UICONTROL Windows]** 탭에서 **[!UICONTROL Extension]** 를 선택하고 Windows 용 **[!UICONTROL Microsoft Visual C + + 2013 런타임 패키지를 선택합니다]**.
+1. 왼쪽의 **[!UICONTROL Windows]** 탭에서 **[!UICONTROL 확장을]** 선택하고 Windows용 Microsoft **[!UICONTROL Visual C++ 2013 런타임]**&#x200B;패키지를선택하여 추가합니다.
 
 1. Right-click your project and select **[!UICONTROL Add]** &gt; **[!UICONTROL Existing Item]**.
 
-1. `ADBMobileConfig.json` 파일을 찾아 ****&#x200B;추가를 클릭합니다.
+1. 파일을 `ADBMobileConfig.json` 찾아 추가를 **[!UICONTROL 클릭합니다]**.
 
 1. Right-click the `ADBMobileConfig.json]` file in your solution and select **[!UICONTROL Properties]**.
 
-1. **[!UICONTROL 파일 속성을]** 선택한 상태에서 **[!UICONTROL 패키지 작업이]** 콘텐츠로 **[!UICONTROL 설정되어 있는지]**&#x200B;확인합니다.
+1. [ **[!UICONTROL 파일 속성]** ]을 선택한 상태에서 [패키지 **[!UICONTROL 작업]** ]을 **[!UICONTROL [컨텐트]로]**&#x200B;설정해야 합니다.
 
-   JavaScript 프로젝트의 경우 기본적으로 파일이 **[!UICONTROL [콘텐트]** ] 로 설정됩니다.
+   JavaScript 프로젝트의 경우 기본적으로 파일이 **[!UICONTROL 컨텐츠로]** 설정됩니다.
 
 ## Update the ADBMobileConfig.json config file {#section_0BC8CC0E4AAD4AC385FA0AEDC3C56AFE}
 
-`ADBMobileConfig.json` 파일은 전역 SDK 설정을 포함하며 *프로젝트* 섹션에 라이브러리 및 구성 파일 추가 섹션의 단계를 완료한 후에 프로젝트 루트에 있습니다. If your `ADBMobileConfig.json` file was not pre-configured by Adobe Mobile Services, you need to update a few values to get started.
+The `ADBMobileConfig.json` file contains global SDK settings, and is located at your project root after you complete the steps in the *Add the Library and Config File to your Project* section. If your `ADBMobileConfig.json` file was not pre-configured by Adobe Mobile Services, you need to update a few values to get started.
 
 다음은 `ADBMobileConfig.json` 파일 예제입니다.
 
@@ -173,7 +173,7 @@ Additionally, when using the SDK in a WinJS project, use an empty string ( `""` 
 
 최소한 사용 중인 솔루션에 대해 다음 값을 업데이트하십시오.
 
-* **분석**: `rsids` and `server`
+* **분석**: `rsids` 및 `server`
 * **Target**: `clientCode`
 * **대상 관리**: `server`
 
@@ -183,11 +183,11 @@ For more details, see [ADBMobileConfig.json config](/help/windows-appstore/c-con
 
 SDK에 디버깅을 사용하려면 `ADBMobile.Config.setDebugLogging(true);`);를 호출해야 합니다.
 
-C Sharp 및 JS 앱의 경우 다음 단계를 완료하여 기본 코드 디버깅을 활성화해야 합니다. 기본 코드 디버깅은 C + + 앱에 대한 기본 설정입니다.
+C Sharp 및 JS 앱의 경우 다음 단계를 완료하여 기본 코드 디버깅을 활성화해야 합니다(기본 코드 디버깅은 C++ 앱의 기본 설정).
 
 ### C Sharp
 
-Right-click the project, select **[!UICONTROL Properties]** &gt; **[!UICONTROL Debug tab]**. 디버거 드롭다운에서 **[!UICONTROL 기본값만 선택합니다]**.
+Right-click the project, select **[!UICONTROL Properties]** &gt; **[!UICONTROL Debug tab]**. In the debugger drop-down, select Native Only.****
 
 ### JS
 
