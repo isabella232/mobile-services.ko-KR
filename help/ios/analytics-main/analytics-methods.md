@@ -1,11 +1,11 @@
 ---
 description: 다음은 iOS 라이브러리에서 제공하는 Adobe Analytics 메서드 목록입니다.
 seo-description: 다음은 iOS 라이브러리에서 제공하는 Adobe Analytics 메서드 목록입니다.
-seo-title: Analytics 메서드
-solution: Marketing Cloud, Analytics
-title: Analytics 메서드
+seo-title: 분석 방법
+solution: Marketing Cloud,Analytics
+title: 분석 방법
 topic: 개발자 및 구현
-uuid: d 49 fe 6 de-cb 32-4 b 96-9891-c 567310 e 59 a 6
+uuid: d49fe6de-cb32-4b96-9891-c567310e59a6
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -16,7 +16,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 다음은 iOS 라이브러리에서 제공하는 Adobe Analytics 메서드 목록입니다.
 
-SDK는 현재 Analytics, Target, Audience Manager 및 Adobe Experience Platform Identity Service를 비롯한 다양한 Adobe Experience Cloud 솔루션에 대한 지원을 제공합니다. Methods are prefixed according to the solution. Experience Cloud ID methods are prefixed with `track`.
+The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service. 메서드에는 솔루션에 따라 접두사가 붙습니다. Experience Cloud ID 메서드 앞에는 `track`이 붙습니다.
 
 이러한 각 메서드는 Adobe Analytics 보고서 세트로 데이터를 전송하는 데 사용됩니다.
 
@@ -26,7 +26,7 @@ SDK는 현재 Analytics, Target, Audience Manager 및 Adobe Experience Platform 
 
    >[!TIP]
    >
-   >페이지 보기를 증가시키는 유일한 추적 호출입니다.
+   >이것은 페이지 보기를 증가시키는 유일한 추적 호출입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -86,7 +86,7 @@ SDK는 현재 Analytics, Target, Audience Manager 및 Adobe Experience Platform 
 
    >[!TIP]
    >
-   >앱이 백그라운드에 있을 때 실행하는 코드에서만 이 메서드를 호출해야 합니다.
+   >This method should only be called in code that runs while your app is in the background.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -263,7 +263,7 @@ SDK는 현재 Analytics, Target, Audience Manager 및 Adobe Experience Platform 
 
 * **trackingSendQueuedHits**
 
-   SDK 4.1 이 필요합니다. 현재 큐에 있는 히트 수에 관계 없이, 라이브러리가 오프라인 큐의 모든 히트를 강제로 전송합니다.
+   SDK 4.1이 필요합니다.현재 큐에 있는 히트 수에 관계없이 라이브러리는 오프라인 큐의 모든 히트를 강제로 보냅니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
