@@ -1,12 +1,12 @@
 ---
 description: 처리 규칙에서는 이벤트 일련화가 지원되지 않습니다. Mobile SDK에서 컨텍스트 데이터 매개 변수에 특수 구문을 사용하여 서버 호출에 대해 직접 이벤트 일련화를 설정해야 합니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 처리 규칙에서는 이벤트 일련화가 지원되지 않습니다. Mobile SDK에서 컨텍스트 데이터 매개 변수에 특수 구문을 사용하여 서버 호출에 대해 직접 이벤트 일련화를 설정해야 합니다.
 seo-title: 이벤트 정리
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 이벤트 정리
 topic: 개발자 및 구현
-uuid: acdeda 16-ab 83-4 cfc -907 d -33448 b 801 b 31
+uuid: acdeda16-ab83-4cfc-907d-33448b801b31
 translation-type: tm+mt
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
