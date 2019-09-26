@@ -2,18 +2,18 @@
 description: 다음은 인앱 메시지 문제를 해결하는 데 유용한 정보입니다.
 keywords: mobile
 seo-description: 다음은 인앱 메시지 문제를 해결하는 데 유용한 정보입니다.
-seo-title: 인앱 메시징 문제 해결
-solution: Marketing Cloud, Analytics
-title: 인앱 메시징 문제 해결
+seo-title: 인앱 메시지 문제 해결
+solution: Marketing Cloud,Analytics
+title: Troubleshoot In-App Messaging
 topic: 지표
-uuid: 39 C 3 A 21 D -92 C 2-4004-B 00 F -99 B 6 F 91 D 3696
+uuid: 39c3a21d-92c2-4004-b00f-99b6f91d3696
 translation-type: tm+mt
 source-git-commit: 12e01e112debffd877dd62f1fd2505724b2aae7d
 
 ---
 
 
-# 인앱 메시징 문제 해결{#troubleshooting-in-app-messaging}
+# Troubleshoot in-app messaging{#troubleshooting-in-app-messaging}
 
 다음은 인앱 메시지 문제를 해결하는 데 유용한 정보입니다.
 
@@ -35,11 +35,11 @@ Ensure that you have an [In-App Messaging](/help/android/messaging-main/messagin
 
 메시지가 라이브인지 여부를 확인하려면 In-App 메시지 관리 페이지의 **상태** 열에서 메시지 목록을 확인하십시오.
 
-## *한 번 표시*, *항상 표시*, *오프라인으로 표시* 설정을 대상 페이지에서 확인합니다.
+## Look at show once, show always, show offline  settings on the Audience tab.******
 
 이 설정들이 원하는 방법으로 설정되어 있는지 확인하십시오. **[!UICONTROL 대상]** 탭에서 메시지 표시 빈도를 지정할 수 있는 **트리거[!UICONTROL 옵션을 검토하십시오.]**
 
-## 론치 이벤트를 트리거로 사용하는 경우...
+## 시작 이벤트를 트리거로 사용하는 경우...
 
 시작은 새 세션에서만 실행됩니다. 세션이 시작되는 경우에 대한 자세한 내용은 `lifecycleTimeout`JSON 구성[에서 ](/help/android/configuration/json-config/json-config.md) 행을 참조하십시오.
 
@@ -47,7 +47,7 @@ Ensure that you have an [In-App Messaging](/help/android/messaging-main/messagin
 
 다음 정보를 숙지하십시오.
 
-* 다이내믹 태그 관리가 새 정의로 종단점을 업데이트하는 데에 수 분이 걸릴 수 있습니다. 잠시 기다렸다가 다시 시도하십시오.
+* Dynamic Tag Management가 새 정의로 종단점을 업데이트하는 데에 수 분이 걸릴 수 있습니다. 잠시 기다렸다가 다시 시도하십시오.
 * 구성은 새로운 시작 시에만 업데이트됩니다. 앱이 라이프사이클 세션 제한 시간 내에 다시 시작되었다면 새 구성이 다운로드되지 않았을 수 있습니다.
 
 자세한 내용은 [라이프사이클 지표](/help/android/metrics.md)를 참조하십시오.
