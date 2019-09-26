@@ -3,7 +3,7 @@ description: .xml 파일을 직접 대체하여 TVMLTVJS 앱에서 Adobe Target�
 seo-description: .xml 파일을 직접 대체하여 TVMLTVJS 앱에서 Adobe Target을 활용할 수 있습니다. 사용자 지정 ADBTarget XML 요소를 사용하여 타겟 콘텐츠에서 대체할 페이지 영역을 지정하십시오.
 seo-title: TVML/TVJS용 Adobe Target
 title: TVML/TVJS용 Adobe Target
-uuid: AFD 5 A 583-5266-43 F 2-8 CB 0-0 ACE 89 C 53 A 57
+uuid: afd5a583-5266-43f2-8cb0-0ace89c53a57
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -16,7 +16,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 >[!IMPORTANT]
 >
->Before using the `ADBTarget` element in your TVML pages, you must configure your TVML/TVJS app to use the tvOS SDK. 자세한 내용은 Tvos를 사용한 [Apple TV 구현을 참조하십시오](/help/ios/apple-tv-implementation-tvos/apple-tv-implementation-tvos.md).
+>Before using the `ADBTarget` element in your TVML pages, you must configure your TVML/TVJS app to use the tvOS SDK. For more information, see Apple TV Implementation with tvOS.[](/help/ios/apple-tv-implementation-tvos/apple-tv-implementation-tvos.md)
 
 ## 시작하기 {#section_88445645FD67416EAF6FDC3E3D3F5C33}
 
@@ -30,11 +30,11 @@ The returned content from Target replaces all content between `<ADBTarget>` and 
 
 >[!TIP]
 >
->대체할 항목을 계획해야 합니다.
+>따라서 대체할 항목을 계획해야 합니다.
 
 사용 사례는 레이블의 문자열 값을 대체하는 것처럼 간단하거나, 페이지 전체를 대체하는 것처럼 복잡할 수도 있습니다.
 
-## Adbtarget 요소 구성 {#section_44A7AEC6FC0648ADAD0BACB57D493AFA}
+## Configure your ADBTarget element {#section_44A7AEC6FC0648ADAD0BACB57D493AFA}
 
 `ADBTarget` 요소에서 `mbox` 속성에 Mbox 이름을 제공해야 합니다. You can optionally add custom properties to your request in the `customParameterName="customParameterValue"` format.
 
@@ -42,22 +42,22 @@ The returned content from Target replaces all content between `<ADBTarget>` and 
 
    Mbox 위치 이름.
 
-   * 속성 유형: 문자열
+   * Property type: String
    * 이 속성은 필수입니다.
 
 * **`id`**
 
-   주문 ID.
+   The Order ID.
 
-   * 속성 유형: 문자열
-   * 이 **속성은** 필수가 아닙니다.
+   * Property type: String
+   * 이 속성은 **필요하지 않습니다** .
 
 * **`total`**
 
-   주문 합계.
+   The order total.
 
-   * 속성 유형: 문자열
-   * 이 **속성은** 필수가 아닙니다.
+   * 속성 유형:문자열
+   * This property is not required.****
 
 * **`purchasedProductIds`**
 
@@ -70,12 +70,12 @@ The returned content from Target replaces all content between `<ADBTarget>` and 
       purchasedProductIds="product1,product2,product3" 
       ```
 
-   * 속성 유형: 문자열
-   * 이 **속성은** 필수가 아닙니다.
+   * Property type: String
+   * 이 속성은 **필요하지 않습니다** .
 
 * **`mboxParameters`**
 
-   `mboxParameters`의 키 값 쌍 목록입니다. 이 문자열의 각 항목은 세미콜론으로 구분하고 키 값은 콜론으로 구분됩니다.
+   `mboxParameters`의 키 값 쌍 목록입니다. Each entry in this string is separated by a semicolon, and key-values are separated by a colon.
 
    * 다음은 이 속성의 코드 샘플입니다.
 
@@ -83,15 +83,15 @@ The returned content from Target replaces all content between `<ADBTarget>` and 
       mboxParameters="mboxparameterKey:mboxParameterValue;mboxParameterKey1:mboxParameterValue1;mboxParameterKey2:mboxParameterValue2"
       ```
 
-   * 속성 유형: 문자열
-   * 이 **속성은** 필수가 아닙니다.
+   * 속성 유형:문자열
+   * 이 속성은 **필요하지 않습니다** .
 
 * **`customParameterName`**
 
-   이 속성의 값은 `customParameterValue`입니다.
+   The value of this property is .`customParameterValue`
 
-   * 속성 유형: 문자열
-   * 이 **속성은** 필수가 아닙니다.
+   * 속성 유형:문자열
+   * 이 속성은 **필요하지 않습니다** .
 
 
 ## 예 {#section_6D6D6E8C7FE147168FC30D83CBC06985}
