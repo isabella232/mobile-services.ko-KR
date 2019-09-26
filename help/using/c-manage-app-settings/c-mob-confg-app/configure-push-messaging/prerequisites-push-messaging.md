@@ -3,10 +3,10 @@ description: 응용 프로그램에서 푸시 메시지를 구성하기 전에 �
 keywords: mobile
 seo-description: 응용 프로그램에서 푸시 메시지를 구성하기 전에 이러한 작업을 완료해야 합니다.
 seo-title: 푸시 메시지를 활성화하기 위한 전제 조건
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 푸시 메시지를 활성화하기 위한 전제 조건
 topic: 지표
-uuid: 194 E 6 E 07-B 794-4152-A 838-A 4125 C 3292 D 4
+uuid: 194e6e07-b794-4152-a838-a4125c3292d4
 translation-type: tm+mt
 source-git-commit: 92b1e430293fbded666e8af3f01393898c0e5811
 
@@ -17,29 +17,29 @@ source-git-commit: 92b1e430293fbded666e8af3f01393898c0e5811
 
 응용 프로그램에서 푸시 메시지를 구성하기 전에 이러한 작업을 완료해야 합니다.
 
-## 회사에 대한 Experience Cloud 활성화
+## Enable the Experience Cloud for your company
 
-Adobe Analytics를 사용하는 회사에서는 Experience Cloud가 활성화되어 있어야 합니다. Adobe 계정 관리자에게 상태를 확인할 수 있습니다.
+Adobe Analytics를 사용하는 회사에서는 Experience Cloud가 활성화되어 있어야 합니다. Adobe 계정 담당자의 상태를 확인할 수 있습니다.
 
-## Mobile SDK 설치 및 구성
+## Install and configure the Mobile SDK
 
 * **Mobile SDK 설치**
 
-   푸시 메시지를 구성하려면 Mobile SDK 버전 4.6 이상을 다운로드하여 설치해야 합니다. For more information, see [Download the SDKs](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md).
+   To configure push messaging, you must download and install at least version 4.6 or later of the Mobile SDK. For more information, see [Download the SDKs](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md).
 
 * **푸시 서비스 구성**
 
    Mobile SDK에서 푸시 서비스를 구성해야 합니다.
 자세한 정보는 다음 내용을 참조하십시오.
 
-   * [Android의 푸시 메시지](/help/android/messaging-main/push-messaging/push-messaging.md)
+   * [Push Messaging in Android](/help/android/messaging-main/push-messaging/push-messaging.md)
    * [iOS의 푸시 메시지](/help/ios/messaging-main/push-messaging/push-messaging.md)
 
 ## Adobe ID를 사용하여 Mobile 핵심 서비스에 로그인합니다
 
 >[!IMPORTANT]
 >
->푸시 서비스 기능을 사용하려면 Adobe ID와 Analytics 계정을 사용하여 Mobile 핵심 서비스에 로그인해야 합니다. 푸시 서비스 기능은 기존 Adobe Analytics 계정을 사용하여 로그인한 경우에는 사용할 수 없습니다.
+>To use the Push Services functionality users must log in to the Mobile Core Service by using their Adobe ID and their Analytics account must be linked to their Adobe IDs. 푸시 서비스 기능은 기존 Adobe Analytics 계정을 사용하여 로그인한 경우에는 사용할 수 없습니다.
 
 사용자에게 Adobe ID가 없는 경우 다음 단계를 완료하십시오.
 
@@ -51,7 +51,7 @@ Adobe Analytics를 사용하는 회사에서는 Experience Cloud가 활성화되
 
 1. (**Users**) Log in to Mobile using their Adobe ID.
 
-## Experience Cloud에서 사용자 계정 연결
+## Link users' accounts in the Experience Cloud
 
 각 사용자는 Experience Cloud 조직의 Analytics 솔루션 계정을 연결해야 합니다.
 
@@ -67,11 +67,11 @@ Adobe Analytics를 사용하는 회사에서는 Experience Cloud가 활성화되
 
 자세한 내용은 [계정 연결 문제 해결](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)을 참조하십시오.
 
-## 모바일 사용자 인터페이스에서 푸시 서비스 및 SDK ID 서비스 구성
+## Configure push services and the SDK ID service in the Mobile User Interface
 
-앱에 대해 ID 서비스를 활성화하기 전에는 **[!UICONTROL 푸시 서비스]섹션이 비활성화되어 있습니다.** 그러나 ID 서비스를 활성화한 후에는 푸시 서비스 섹션이 활성화됩니다. 푸시 서비스 활성화에 대한 자세한 내용은 SDK ID 서비스 옵션 [구성을](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md)참조하십시오.
+앱에 대해 ID 서비스를 활성화하기 전에는 **[!UICONTROL 푸시 서비스]섹션이 비활성화되어 있습니다.** 그러나 ID 서비스를 활성화하면 푸시 서비스 섹션이 활성화됩니다. 푸시 서비스 활성화에 대한 자세한 내용은 SDK ID [서비스 옵션](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md)구성을 참조하십시오.
 
->[!IMPORTANT]: 변경 내용을 저장하고 푸시 서비스를 새로 고치려면 **[!UICONTROL 저장을]** 클릭해야 합니다.
+>[!IMPORTANT]:저장을 클릭하여 **[!UICONTROL 변경 사항을]** 저장하고 푸시 서비스를 새로 고쳐야 합니다.
 >
 >각 보고서 세트에서 Apple 및 Google에 대한 앱스토어 앱을 각각 하나씩 구성할 수 있습니다. 추가 앱이 필요한 경우, 예를 들어 프로덕션 환경에 대한 앱과 하나의 개발 환경에 대한 앱이 필요한 경우 새 앱스토어 앱과 각 환경에 대한 새 보고서 세트를 설정합니다.
 
