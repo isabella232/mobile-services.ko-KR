@@ -1,12 +1,12 @@
 ---
 description: 다음은 Android 앱에서 위치 기능을 사용하는 데 유용한 정보입니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 다음은 Android 앱에서 위치 기능을 사용하는 데 유용한 정보입니다.
 seo-title: 위치 개요
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 위치 개요
 topic: 개발자 및 구현
-uuid: 15180 bd 6-616 b -477 d-a 106-96 a 52 c 974 d 7 d
+uuid: 15180bd6-616b-477d-a106-96a52c974d7d
 translation-type: tm+mt
 source-git-commit: a290a0fb4bc5eccae6c7d7065e82b70671f067b0
 
@@ -15,7 +15,7 @@ source-git-commit: a290a0fb4bc5eccae6c7d7065e82b70671f067b0
 
 # 위치 개요 {#location}
 
-이 섹션의 정보는 Android 앱의 위치 기능을 사용하는 데 도움이 됩니다.
+이 섹션의 정보는 Android 앱에서 위치 기능을 사용하는 데 도움이 됩니다.
 
 ## 새 Adobe Experience Cloud SDK 릴리스
 
