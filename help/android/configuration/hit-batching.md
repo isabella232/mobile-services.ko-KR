@@ -1,12 +1,12 @@
 ---
 description: 히트 배치(일괄 처리)를 사용하면 애플리케이션에서 큐의 히트 수가 구성된 한도를 초과할 때까지 히트 전송을 보류할 수 있습니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 히트 배치(일괄 처리)를 사용하면 애플리케이션에서 큐의 히트 수가 구성된 한도를 초과할 때까지 히트 전송을 보류할 수 있습니다.
 seo-title: 히트 일괄 처리
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 히트 일괄 처리
 topic: 개발자 및 구현
-uuid: ADA 35 BE 3-242 B -4 B 2 B-A 828-9 BF 998 DD 58 B 5
+uuid: ada35be3-242b-4b2b-a828-9bf998dd58b5
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -19,7 +19,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 >[!IMPORTANT]
 >
->히트 일괄 처리를 사용하려면 **오프라인 추적을** 활성화하고 SDK 버전 4.1 이상이 있어야 합니다.
+>히트 일괄 처리를 사용하려면 오프라인 추적을 **활성화하고 SDK 버전 4.1 이상이 있어야 합니다** .
 
 To enable hit batching, update your `ADBMobileConfig.json` file and specify a value for `batchLimit`:
 
