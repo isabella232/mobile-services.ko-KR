@@ -2,10 +2,10 @@
 description: 다음은 iOS 앱에서 위치 기능을 사용하는 데 유용한 정보입니다.
 seo-description: 다음은 iOS 앱에서 위치 기능을 사용하는 데 유용한 정보입니다.
 seo-title: 위치
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 위치
 topic: 개발자 및 구현
-uuid: A 4 E 5650 A-F 5 D 3-4 FB 1-BD 11-A 27 A 3918 D 763
+uuid: a4e5650a-f5d3-4fb1-bd11-a27a3918d763
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -14,7 +14,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 # 위치 {#location}
 
-이 섹션의 정보는 iOS 앱의 위치 기능을 사용하는 데 도움이 됩니다.
+이 섹션의 정보는 iOS 앱에서 위치 기능을 사용하는 데 도움이 됩니다.
 
 ## 새 Adobe Experience Cloud SDK 릴리스
 
