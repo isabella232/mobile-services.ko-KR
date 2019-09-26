@@ -2,10 +2,10 @@
 description: 다음은 iOS 앱에서 획득 추적 링크를 사용하는 데 유용한 정보입니다.
 seo-description: 다음은 iOS 앱에서 획득 추적 링크를 사용하는 데 유용한 정보입니다.
 seo-title: 획득
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 획득
 topic: 개발자 및 구현
-uuid: E 22 D 2785-58 F 1-4841-9163-912 C 5 E 0 F 5 D 61
+uuid: e22d2785-58f1-4841-9163-912c5e0f5d61
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -14,7 +14,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 # 획득 {#acquisition}
 
-이 섹션의 정보는 iOS 앱에서 획득 추적 링크를 사용하는 데 도움이 됩니다.
+이 섹션의 정보는 iOS 앱에서 고객 확보 추적 링크를 사용하는 데 도움이 됩니다.
 
 ## 새 Adobe Experience Cloud SDK 릴리스
 
