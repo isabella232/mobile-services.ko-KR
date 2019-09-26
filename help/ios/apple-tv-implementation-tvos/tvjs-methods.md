@@ -2,10 +2,10 @@
 description: 다음은 tvOS 라이브러리에서 제공하는 TVJS 메서드 목록입니다.
 seo-description: 다음은 tvOS 라이브러리에서 제공하는 TVJS 메서드 목록입니다.
 seo-title: TVJS 메서드
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: TVJS 메서드
 topic: 개발자 및 구현
-uuid: A 7 BFA 85 A -0 D 6 E -4 F 51-9 A 9 E -70429 C 2 A 9806
+uuid: a7bfa85a-0d6e-4f51-9a9e-70429c2a9806
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -42,8 +42,8 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    선택 사항은 다음과 같습니다.
 
-   * `ADBMobilePrivacyStatusOptIn`: 히트가 즉시 전송됩니다.
-   * `ADBMobilePrivacyStatusOptOut`: 히트는 무시됩니다.
+   * `ADBMobilePrivacyStatusOptIn`:히트가 즉시 전송됩니다.
+   * `ADBMobilePrivacyStatusOptOut`:히트가 무시됩니다.
    * `ADBMobilePrivacyStatusUnknown`: 오프라인 추적이 활성화되어 있을 경우, 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트를 저장합니다.
 
       오프라인 추적이 활성화되어 있지 않을 경우, 개인 정보 상태가 옵트인으로 변경될 때까지 히트를 삭제합니다. THe default value is set in the `ADBMobileConfig.json` file.
@@ -66,9 +66,9 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    현재 사용자의 개인 정보 상태를 다음 값 중 하나로 설정합니다.
 
-   * `ADBMobilePrivacyStatusOptIn`: 히트가 즉시 전송됩니다.
-   * `ADBMobilePrivacyStatusOptOut`: 히트는 무시됩니다.
-   * `ADBMobilePrivacyStatusUnknown`: 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인 (히트를 전송됨) 또는 옵트아웃 (히트가 무시됨) 로 변경될 때까지 히트가 저장됩니다.
+   * `ADBMobilePrivacyStatusOptIn`: Hits are sent immediately.
+   * `ADBMobilePrivacyStatusOptOut`:히트가 무시됩니다.
+   * `ADBMobilePrivacyStatusUnknown`:오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다.
    오프라인 추적이 활성화되어 있지 않을 경우, 개인 정보 상태가 옵트인으로 변경될 때까지 히트를 삭제합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
@@ -104,11 +104,11 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 * **userIdentifier**
 
-   사용자 지정 식별자가 설정된 경우 사용자 식별자를 반환합니다. 사용자 지정 식별자가 설정되지 않은 경우 nil을 반환합니다. `nil`기본값은 입니다.
+   사용자 지정 식별자가 설정된 경우 사용자 식별자를 반환합니다. 사용자 지정 식별자가 설정되지 않은 경우 nil을 반환합니다. The default is `nil`.
 
    >[!IMPORTANT]
    >
-   >앱 업그레이드가 Experience Cloud 3. x에서 4. x SDK로 업그레이드되면 이전에 사용자 정의 또는 자동 생성된 방문자 ID가 검색하여 사용자 지정 사용자 식별자로 저장됩니다. 이렇게 하면 SDK 업그레이드 시에도 방문자 데이터가 보존됩니다. 4.x SDK에 새로 설치하는 경우 사용자 식별자는 설정할 때까지 nil입니다.
+   >앱이 Experience Cloud 3.x에서 4.x SDK로 업그레이드하면 이전 사용자 지정 또는 자동으로 생성된 방문자 ID가 검색되어 사용자 지정 사용자 식별자로 저장됩니다. 이렇게 하면 SDK 업그레이드 시에도 방문자 데이터가 보존됩니다. 4.x SDK에 새로 설치하는 경우 사용자 식별자는 설정할 때까지 nil입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -149,7 +149,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 * **setAdvertisingIdentifier**
 
-   SDK에서 IDFA를 설정하고 SDK에 설정된 경우 라이프사이클에서 IDFA가 전송됩니다. 또한 IDFA는 신호(포스트백)에서 액세스할 수 있습니다.
+   SDK에서 IDFA를 설정하고, SDK에 설정된 경우 IDFA가 라이프사이클에서 전송됩니다. 또한 IDFA는 신호(포스트백)에서 액세스할 수 있습니다.
 
    >[!IMPORTANT]
    >
@@ -204,7 +204,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!TIP]
    >
-   >페이지 보기를 증가시키는 유일한 추적 호출입니다.
+   >이것은 페이지 보기를 증가시키는 유일한 추적 호출입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -257,7 +257,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    현재 위도 및 경도 좌표를 보냅니다.
 
-   `ADBMobileConfig.json` 또한 파일에 정의된 관심 영역 (POI) 를 사용하여 매개 변수로 입력한 위치가 POIS에 있는지 확인합니다. 정의된 POI 내에 현재 좌표가 있는 경우 컨텍스트 데이터 변수를 채워 `trackLocation` 호출로 전송합니다.
+   Also uses points of interest (POI) that are defined in the `ADBMobileConfig.json` file to determine whether the location that you entered as a parameter is in any of your POIs. 정의된 POI 내에 현재 좌표가 있는 경우 컨텍스트 데이터 변수를 채워 `trackLocation` 호출로 전송합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -368,7 +368,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    시간 제한 작업을 종료합니다.
 
-   콜백 함수를 제공하면 최종 시간 값에 액세스할 수 있습니다. 콜백이 제공되지 않거나 콜백이 true를 반환하면 Adobe SDK는 자동으로 히트를 전송합니다. 콜백에서 false가 반환되면 시간 제한 작업 히트가 억제됩니다.
+   콜백 함수를 제공하면 최종 시간 값에 액세스할 수 있습니다. 콜백이 제공되지 않거나 콜백이 true를 반환하면 Adobe SDK는 자동으로 히트를 전송합니다. 콜백에서 false가 반환되면 시간 작업 히트가 표시되지 않습니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -410,7 +410,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
       * 반환: 부울값
       * 매개 변수: `name`
          * 유형: `String`
-         * 존재를 확인해야 하는 Timed Action의 이름입니다.
+         * 존재함을 확인해야 하는 시간 작업의 이름입니다.
    * 다음은 이 메서드의 코드 샘플입니다.
 
 
@@ -427,7 +427,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!TIP]
    >
-   >앱 업그레이드가 Experience Cloud 3. x에서 4. x SDK로 업그레이드되면 이전에 사용자 정의 또는 자동 생성된 방문자 ID가 검색하여 사용자 지정 사용자 식별자로 저장됩니다. 이렇게 하면 SDK 업그레이드 시에도 방문자 데이터가 보존됩니다. For new installations on the 4.x SDK, the user identifier is `nil`, and the tracking identifier is used. 자세한 내용은 아래의 userIdentifier 행을 참조하십시오.
+   >앱이 Experience Cloud 3.x에서 4.x SDK로 업그레이드하면 이전 사용자 지정 또는 자동으로 생성된 방문자 ID가 검색되어 사용자 지정 사용자 식별자로 저장됩니다. 이렇게 하면 SDK 업그레이드 시에도 방문자 데이터가 보존됩니다. For new installations on the 4.x SDK, the user identifier is `nil`, and the tracking identifier is used. 자세한 내용은 아래의 userIdentifier 행을 참조하십시오.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -625,7 +625,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
       ```
 
       * 반환: 해당 없음
-      * 매개 변수: 없음
+      * 매개 변수:없음
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```objective-c
@@ -692,7 +692,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
          * 이 사용자의 ID 서비스에 동기화할 식별자입니다.
       * 매개 변수: `authState`
          * 유형: ADBMobileVisitorAuthenticationState
-         * 사용자의 인증 상태 및 가능한 값은 다음과 같습니다.
+         * 사용자의 인증 상태와 가능한 값은 다음과 같습니다.
             * `ADBMobileVisitorAuthenticationStateUnknown`
             * `ADBMobileVisitorAuthenticationStateAuthenticated`
             * `ADBMobileVisitorAuthenticationStateLoggedOut`
@@ -714,7 +714,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
       visitorSyncIdentifierWithTypeIdentifierAuthenticationState(idType, identifier, authState)
       ```
 
-      * 반환: N/A
+      * 반환:해당 없음
       * 매개 변수: `idType`
          * 유형: `String`
          * 동기화 중인 식별자의 유형입니다.
@@ -722,8 +722,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
          * 유형: `String`
          * 동기화 중인 식별자의 값입니다.
       * 매개 변수: `authState`
-         * 유형: Adbmobilevisitorauthenticationstate
-인증 상태. 가능한 값은 다음과 같습니다.
+         * 유형:사용자의 ADBMobileVisitorAuthenticationStateAuthentication 상태입니다. 가능한 값은 다음과 같습니다.
             * `ADBMobileVisitorAuthenticationStateUnknown`
             * `ADBMobileVisitorAuthenticationStateAuthenticated`
             * `ADBMobileVisitorAuthenticationStateLoggedOut`
@@ -799,10 +798,9 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
          * 유형: `String`
          * 대상 요청에 사용할 타사 ID입니다.
    * 다음은 이 메서드의 코드 샘플입니다.
-
-      ```objective-c
-      ADBMobile.targetSetThirdPartyID(‘thirdPartyID’);
-      ```
+   ```objective-c
+   ADBMobile.targetSetThirdPartyID(‘thirdPartyID’);
+   ```
 
 * **targetPcID**
 
