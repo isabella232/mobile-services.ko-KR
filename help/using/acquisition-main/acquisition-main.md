@@ -3,10 +3,10 @@ description: 마케터는 추적 링크를 만들어 앱을 홍보하고 앱으�
 keywords: mobile
 seo-description: 마케터는 추적 링크를 만들어 앱을 홍보하고 앱으로의 트래픽을 유도할 수 있습니다. 이러한 추적 링크는 인앱 동작과 상관 관계가 있을 수 있는 앱스토어, 앱 딥링크 및 삽입 광고로 사용자를 유도할 수 있습니다. 마케터는 하나의 링크를 작성하여 사용자를 iOS, Android 또는 기타 플랫폼에 적절하게 라우팅할 수 있습니다.
 seo-title: 획득
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 획득
 topic: 지표
-uuid: 987146 e 4-2 cca -46 e 7-88 aa -74 b 62 d 9 f 1 dc 5
+uuid: 987146e4-2cca-46e7-88aa-74b62d9f1dc5
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -34,13 +34,13 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 >
 >UI에서 기능을 구성할 수 있지만 생성된 구성 파일을 다운로드하고 이 파일을 SDK에 추가해야 이러한 기능이 작동합니다. For information about downloading and configuring the SDKs, see the *SDK documentation* section on this page.)
 
-추적 가능한 모바일 앱 마케팅 링크에 대한 보고서를 만들고, 편집하고, 관리하고, 볼 수 있습니다.
+추적 가능한 모바일 앱 마케팅 링크에 대한 보고서를 만들고, 편집하고, 관리하고 볼 수 있습니다.
 
 >[!TIP]
 >
->이 기능을 사용하려면 Adobe Analytics - Mobile Apps 또는 Adobe Analytics Premium SKU가 필요합니다.
+>This functionality requires the Adobe Analytics - Mobile Apps or the Adobe Analytics Premium SKU.
 
-다음 획득 보고서는 마케팅 링크가 수행되는 방식에 대한 통찰력을 제공합니다.
+The following Acquisition reports provide insight into how your Marketing Links are performing:
 
 * **개요** {#section_5B2BA47F22694919A472AB591101237E}
 
@@ -50,7 +50,7 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 
 * **링크 보고서** {#section_A23A640C363B43569D9D484CF49EA277}
 
-   이 보고서는 마케팅 링크 성과에 등급 보기를 제공합니다. 링크 이름 옆에 주요 성과 지표를 표시하는 것 외에도 보고서 양식을 사용자 지정할 수 있습니다. 자세한 내용은 [보고서 사용자 지정](/help/using/usage/reports-customize/t-reports-customize.md).
+   이 보고서는 마케팅 링크 성과에 대한 등급 보기를 제공합니다. 링크 이름 옆에 주요 성과 지표를 표시하는 것 외에도 보고서 양식을 사용자 지정할 수 있습니다. 자세한 내용은 [보고서 사용자 지정](/help/using/usage/reports-customize/t-reports-customize.md).
 
    다음 정보를 숙지하십시오.
 
