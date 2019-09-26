@@ -3,10 +3,10 @@ description: 새 앱을 만들거나 기존 앱을 편집하는 동안 [앱 설�
 keywords: mobile
 seo-description: 새 앱을 만들거나 기존 앱을 편집하는 동안 [앱 설정 관리] 페이지에서 SDK Audience Manager 옵션을 구성할 수 있습니다.
 seo-title: Audience Manager 옵션 구성
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Audience Manager 옵션 구성
 topic: 지표
-uuid: 471270 CA-CEE 5-401 E-AAC 1-E 48146 EE 8399
+uuid: 471270ca-cee5-401e-aac1-e48146ee8399
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -17,7 +17,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 새 앱을 만들거나 기존 앱을 편집하는 동안 [앱 설정 관리] 페이지에서 SDK Audience Manager 옵션을 구성할 수 있습니다.
 
-1. 새 앱을 추가하거나 기존 앱을 편집할 때 SDK 옵션 아래의 **[!UICONTROL 하위 도메인]** 필드에 **[!UICONTROL 정보를 입력합니다]**.
+1. 새 앱을 추가하거나 기존 앱을 편집하는 동안 SDK 옵션 아래의 **[!UICONTROL 하위 도메인]** 필드에 정보를 **[!UICONTROL 입력합니다]**.
 
 1. Type the subdomain of the Audience Manager server that your app uses, for example, `client.demdex.net`.
 
