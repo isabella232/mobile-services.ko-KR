@@ -3,10 +3,10 @@ description: 보고서를 사용자 지정할 때, 높은 유연성은 필요한
 keywords: mobile
 seo-description: 보고서를 사용자 지정할 때, 높은 유연성은 필요한 데이터를 얻기 위해 가장 적절한 보고서 유형에 대해 몇 가지 질문을 초래할 수 있습니다.
 seo-title: 보고서 유형
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 보고서 유형
 topic: 보고서,지표
-uuid: 8747 b 11 e -31 b 1-47 bc-ad 55-db 5 ab 4 ef 7078
+uuid: 8747b11e-31b1-47bc-ad55-db5ab4ef7078
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -21,11 +21,11 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 * 지표
 
-   지표는 데이터를 측정하는 데 사용됩니다. 지표는 계산 및 추가할 수 있는 값으로서, 앱에서 특정 작업이 발생하는 빈도를 확인하는 데 사용됩니다. 일반적인 지표에는 설치, 시작, 매출액, 라이프타임 값 및 로그인 수가 포함됩니다. 예를 들어, 앱이 시작될 때마다, _ launches_ value가 하나씩 증가합니다.
+   지표는 데이터를 측정하는 데 사용됩니다. 지표는 계산 및 추가할 수 있는 값으로서, 앱에서 특정 작업이 발생하는 빈도를 확인하는 데 사용됩니다. 일반적인 지표에는 설치, 시작, 매출액, 라이프타임 값 및 로그인 수가 포함됩니다. 예를 들어, 앱이 시작될 때마다, _launches_value가 하나씩 증가합니다.
 
 * 차원
 
-   차원은 데이터를 묘사하는 데 사용됩니다. 차원은 문자열 또는 문자열처럼 동작하는 숫자 (예: 우편 번호) 를 사용하여 표현되며, 데이터를 구성하고 세그먼트화하는 데 사용됩니다. 일반적인 차원에는 OS 버전, 캠페인 이름, 제품 이름 및 이동통신사가 포함됩니다. 각 차원에는 해당 차원과 연결된 특정 값이 여러 개 있습니다. For example, the OS version dimension has values such as _iOS 7_ and _Android 4.1.2_.
+   차원은 데이터를 묘사하는 데 사용됩니다. 차원은 문자열 또는 문자열(우편 번호 등)과 같은 기능을 하며 데이터를 구성하고 세그먼트화하는 데 사용됩니다. 일반적인 차원에는 OS 버전, 캠페인 이름, 제품 이름 및 이동통신사가 포함됩니다. 각 차원에는 해당 차원과 연결된 특정 값이 여러 개 있습니다. For example, the OS version dimension has values such as _iOS 7_ and _Android 4.1.2_.
 
 다음은 Mobile UI에서 생성할 수 있는 보고서 유형입니다.
 
@@ -69,7 +69,7 @@ Sunburst 차트와 상호 작용하는 방법을 설명하는 제품 내 자습�
 
 1. in Manage App Settings, click **[!UICONTROL Usage]**.
 
-1. **[!UICONTROL 기술]** &gt; **[!UICONTROL 기술 분류를 클릭합니다]**.
+1. Click **[!UICONTROL Technology]** &gt; **[!UICONTROL Technology Breakdown]**.
 1. In the title bar of the report, click **[!UICONTROL Customize]**, and click the information icon.
 
 ![](assets/report_technology.png)
