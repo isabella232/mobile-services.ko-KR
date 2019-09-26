@@ -1,11 +1,11 @@
 ---
 description: Android SDK 버전 4.5부터 새 Android 확장 기능을 추가하여 Android 웨어러블 앱의 데이터를 수집할 수 있도록 했습니다.
 seo-description: Android SDK 버전 4.5부터 새 Android 확장 기능을 추가하여 Android 웨어러블 앱의 데이터를 수집할 수 있도록 했습니다.
-seo-title: Android Wearable 시작하기
-solution: Marketing Cloud, Analytics
-title: Android Wearable 시작하기
+seo-title: Android Wearables 시작하기
+solution: Marketing Cloud,Analytics
+title: Android Wearables 시작하기
 topic: 개발자 및 구현
-uuid: BFE 5 D 41 E-B 17 C -4634-80 AC -7 A 38671 ECB 81
+uuid: bfe5d41e-b17c-4634-80ac-7a38671ecb81
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -18,7 +18,7 @@ Android SDK 버전 4.5부터 새 Android 확장 기능을 추가하여 Android �
 
 ## Configuring the SDK for a handheld app (Android Studio) {#section_262237484EC44C58953891B105F0D000}
 
-SDK를 프로젝트로 가져오는 방법에 대한 자세한 내용은 [핵심 구현 및 라이프사이클을 참조하십시오](/help/android/getting-started/dev-qs.md).
+SDK를 프로젝트로 가져오는 방법에 대한 자세한 내용은 핵심 구현 [및 라이프사이클을 참조하십시오](/help/android/getting-started/dev-qs.md).
 
 1. 프로젝트의 assets 폴더에 `ADBMobileConfig.json` 파일을 추가합니다.
 1. `adobeMobileLibrary-*.jar` 파일을 libs 폴더에 추가하거나 프로젝트가 이 파일을 참조하도록 합니다.
@@ -40,7 +40,7 @@ SDK를 프로젝트로 가져오는 방법에 대한 자세한 내용은 [핵심
    }
    ```
 
-1. 파일에 다음 코드를 `AndroidManifest.xml` 추가합니다.
+1. 다음 코드를 `AndroidManifest.xml` 파일에 추가합니다.
 
    ```java
        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
@@ -88,7 +88,7 @@ SDK를 프로젝트로 가져오는 방법에 대한 자세한 내용은 [핵심
    }
    ```
 
-1. 파일에 `WearListenerService``AndroidManifest.xml` 추가합니다.
+1. 파일에 `WearListenerService` `AndroidManifest.xml` 추가:
 
    ```java
    If you are using Google Play Services  < 8.2 
@@ -175,7 +175,7 @@ SDK를 프로젝트로 가져오는 방법에 대한 자세한 내용은 [핵심
    }
    ```
 
-1. 파일에 `WearListenerService``AndroidManifest.xml` 추가합니다.
+1. 파일에 `WearListenerService` `AndroidManifest.xml` 추가:
 
    ```java
    If you are using Google Play Services  < 8.2 
