@@ -32,7 +32,7 @@ SDK를 다운로드하려면:
 
    * `ADBMobile.h`: iOS AppMeasurement용으로 사용되는 Objective-C 헤더 파일입니다.
    * `ADBMobileConfig.json`: 앱에 맞게 사용자 지정된 SDK 구성 파일입니다.
-   * `AdobeMobileLibrary.a`, iOS 장치(armv7, armv7s, arm64) 및 시뮬레이터(i386, x86_64)에 대한 라이브러리 빌드가 포함된 bitcode 지원 지방 바이너리입니다.
+   * `AdobeMobileLibrary.a`, a bitcode-enabled fat binary that contains the library builds for iOS devices (armv7, armv7s, arm64), and simulators (i386, x86_64).
 
       iOS 앱이 타겟인 경우 이 패트 바이너리를 연결해야 합니다.
 
