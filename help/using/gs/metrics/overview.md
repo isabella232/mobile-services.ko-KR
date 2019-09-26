@@ -3,10 +3,10 @@ description: 최근에 본 앱의 주요 성능 지표를 표시할 수 있습�
 keywords: mobile
 seo-description: 최근에 본 앱의 주요 성능 지표를 표시할 수 있습니다. 기본적으로 최대 12개의 앱을 볼 수 있습니다. 날짜 범위를 변경하고 필터를 작성하여 개요 페이지에서 데이터를 세그먼트화하고 모든 앱을 편집할 수 있습니다.
 seo-title: 모바일 지표 표시
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 모바일 지표 표시
 topic: 지표
-uuid: 57 DB 0 B 77-6 B 0 A -4 A 0 C -9 AAD -0731275233 FD
+uuid: 57db0b77-6b0a-4a0c-9aad-0731275233fd
 translation-type: tm+mt
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
@@ -38,11 +38,11 @@ If the app you want to view is not displayed, search for it by typing the app's 
    1. **[!UICONTROL 필터]** 아이콘을 클릭하여 **고정 필터[!UICONTROL 대화 상자를 표시합니다.]**
    1. Click **[!UICONTROL Add Rule]**, select an option from the drop-down list, and type the necessary information.
 
-      예를 들어 **[!UICONTROL 앱 버전과]** 버전을 선택할 `4.5` 수 있습니다. **[!UICONTROL 장치 유형]** 및 유형을 선택할 `Android`수 있습니다.
+      예를 들어 앱 버전을 선택하고 **[!UICONTROL 버전에]** 대해 `4.5` 입력할 수 있습니다. You could select **[!UICONTROL Device Type]** and type `Android`.
 
       >[!TIP]
       >
-      >*AND* 및 *OR* 문을 사용하여 복잡한 필터를 만들 수 있습니다.
+      >You can create complex filters by using *AND* and *OR* statements.
 
    1. **[!UICONTROL 업데이트를 클릭합니다]**.
    >[!TIP]
@@ -53,7 +53,7 @@ If the app you want to view is not displayed, search for it by typing the app's 
 
 * **주요 성과 지표 표시**
 
-   앱 이름을 클릭하면 주요 성과 지표에 대한 세부 사항이 표시됩니다. 차트의 선은 컬러로 코딩되어 있으므로, 데이터 포인트를 마우스로 가리키면 특정 날짜에 대한 통계가 표시됩니다. 드릴다운하려면 주요 성능 지표 옆에 있는 ******[!UICONTROL &gt; 아이콘을 클릭합니다]**. 차트의 선은 색으로 구분되어 있으며 데이터 포인트 위로 마우스를 가져가면 특정 날짜에 대한 통계가 표시됩니다. 데이터를 내림차순 또는 오름차순으로 정렬하려면 표에 있는 열 헤더를 클릭하십시오.
+   앱 이름을 클릭하면 주요 성과 지표에 대한 세부 사항이 표시됩니다. 차트의 선은 컬러로 코딩되어 있으므로, 데이터 포인트를 마우스로 가리키면 특정 날짜에 대한 통계가 표시됩니다. 드릴다운하려면 주요 성능 지표 옆에 있는 **** &gt; 아이콘을 **[!UICONTROL 클릭합니다]**. The lines on the chart are color coded, and you can mouse over any data point to see statistics for specific dates. 데이터를 내림차순 또는 오름차순으로 정렬하려면 표에 있는 열 헤더를 클릭하십시오.
 
 ## Edit an app's settings {#section_C1CF227A2E534A798F0073E43AD6A2D1}
 
