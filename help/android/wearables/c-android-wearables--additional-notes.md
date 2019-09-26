@@ -1,11 +1,11 @@
 ---
 description: 다음은 Android 웨어러블 앱에서 데이터를 수집할 수 있도록 Android 확장 기능을 구성할 때 참조할 수 있는 정보입니다.
 seo-description: 다음은 Android 웨어러블 앱에서 데이터를 수집할 수 있도록 Android 확장 기능을 구성할 때 참조할 수 있는 정보입니다.
-seo-title: Android Wearable 추가 참고 사항
-solution: Marketing Cloud, Analytics
-title: Android Wearable 추가 참고 사항
+seo-title: Android 웨어러블 추가 메모
+solution: Marketing Cloud,Analytics
+title: Android Wearables  Additional Notes
 topic: 개발자 및 구현
-uuid: 3 BCF 352 B -4 D 46-4 AB 3-81 EC-C 27 E 86 FE 9 BE 3
+uuid: 3bcf352b-4d46-4ab3-81ec-c27e86fe9be3
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -21,12 +21,12 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    * `RunMode` = `Application`
 
-      히트는 핸드헬드 앱에서 가져옵니다.
+      핸드헬드 앱의 히트
 
    * `RunMode` = `Extension`
 
-      히트는 웨어러블 앱에서 가져옵니다.
+      The hit comes from the wearable app.
 
 * The SDK automatically syncs the `aid`/`vid`/`visitor` `service id`/`privacy` status from the handheld app to the wearable app, so do not call `setPrivacyStatus`/`setUserIdentifier`/`idSync` from the wearable app.
-* [응용 프로그램 내 메시지](/help/android/messaging-main/messaging/messaging.md), [Target](/help/android/target-main/target.md)및 [Audience Manager](/help/android/audience-manager/audiencemgmt.md) 가 웨어러블 앱에 대해 비활성화됩니다.
+* [웨어러블 앱에 대해 인앱 메시지](/help/android/messaging-main/messaging/messaging.md), [Target](/help/android/target-main/target.md)및 [Audience Manager](/help/android/audience-manager/audiencemgmt.md) 를 사용할 수 없습니다.
 
