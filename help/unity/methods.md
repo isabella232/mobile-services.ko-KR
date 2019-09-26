@@ -2,10 +2,10 @@
 description: 'null'
 keywords: Unity
 seo-description: 'null'
-seo-title: Adbmobile. cs 메서드
-solution: Marketing Cloud, 개발자
-title: Adbmobile. cs 메서드
-uuid: AF 504934-FEBD -45 D 9-81 E 2-2 A 310 F 4 C 65 DC
+seo-title: ADBMobile.cs 메서드
+solution: Marketing Cloud,개발자
+title: ADBMobile.cs 메서드
+uuid: af504934-febd-45d9-81e2-2a310f4c65dc
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -14,7 +14,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 # ADBMobile.cs methods {#adbmobile-cs-methods}
 
-## 구성 메서드
+## 구성 방법
 
 * **CollectLifecycleData**
 
@@ -83,8 +83,8 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 * **GetPrivacyStatus**
 
    현재 사용자에 대한 개인 정보 상태의 열거 표현을 반환합니다.
-   * `MOBILE_PRIVACY_STATUS_OPT_IN`: 히트가 즉시 전송됩니다.
-   * `MOBILE_PRIVACY_STATUS_OPT_OUT`: 히트는 무시됩니다.
+   * `MOBILE_PRIVACY_STATUS_OPT_IN`:히트가 즉시 전송됩니다.
+   * `MOBILE_PRIVACY_STATUS_OPT_OUT`:히트가 무시됩니다.
    * `MOBILE_PRIVACY_STATUS_UNKNOWN`: 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다.
 
       오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다. 기본값은 [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md) 파일에서 설정되어 있습니다.
@@ -139,7 +139,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!TIP]
    >
-   >이 메서드는 백그라운드에 있을 때 알림을 등록하는 앱에 사용하기 위해 만들었으며 앱이 백그라운드에 있을 때 실행하는 코드에서만 호출되어야 합니다.
+   >이 메서드는 앱이 백그라운드에 있을 때 알림을 등록하는 앱에 사용되며 앱이 백그라운드에 있을 때 실행하는 코드에서만 호출되어야 합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -171,7 +171,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 * **SetContext (Android만 해당)**
 
-   Unityplayer의 현재 활동에서 애플리케이션 컨텍스트를 설정해야 함을 SDK에 표시합니다.
+   UnityPlayer의 현재 활동에서 응용 프로그램 컨텍스트를 설정해야 함을 SDK에 표시합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -205,8 +205,8 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    현재 사용자의 개인 정보 상태를 상태로 설정합니다. 다음 값 중 하나를 설정합니다.
 
-   * `MOBILE_PRIVACY_STATUS_OPT_IN`: 히트가 즉시 전송됩니다.
-   * `MOBILE_PRIVACY_STATUS_OPT_OUT`: 히트는 무시됩니다.
+   * `MOBILE_PRIVACY_STATUS_OPT_IN`:히트가 즉시 전송됩니다.
+   * `MOBILE_PRIVACY_STATUS_OPT_OUT`:히트가 무시됩니다.
    * `MOBILE_PRIVACY_STATUS_UNKNOWN`: 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다. 오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
@@ -237,7 +237,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
       ADBMobile.SetUserIdentifier("myCustomUserId"); 
       ```
 
-## Analytics 메서드
+## 분석 방법
 
 * **GetTrackingIdentifier**
 
@@ -263,7 +263,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!TIP]
    >
-   >페이지 보기를 증가시키는 유일한 추적 호출입니다.
+   >This is the only tracking call that increments page views.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -305,7 +305,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!TIP]
    >
-   >앱이 백그라운드에 있을 때 실행하는 코드에서만 이 메서드를 호출해야 합니다.
+   >이 메서드는 앱이 백그라운드에 있을 때 실행되는 코드에서만 호출되어야 합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -499,7 +499,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
       var queueSize = ADBMobile.TrackingGetQueueSize();
       ```
 
-## Experience Cloud ID 방법
+## Experience Cloud ID 메서드
 
 * **GetMarketingCloudID**
 
