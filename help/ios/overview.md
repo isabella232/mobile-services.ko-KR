@@ -7,7 +7,7 @@ title: Experience Cloud 솔루션용 iOS SDK 4.x
 topic: 개발자 및 구현
 uuid: 8b374cee-1432-460b-aac2-70623dd80a04
 translation-type: tm+mt
-source-git-commit: a16fe85f44d2ce852e806b2cc41fb5d40952ad6d
+source-git-commit: 6d92beff55f359d667b399e66bae4cbffa4a1a0a
 
 ---
 
@@ -18,24 +18,20 @@ Experience Cloud 솔루션용 iOS SDK 4.x를 사용하면 기본 Apple iPhone �
 
 >[!IMPORTANT]
 >
->The Adobe Analytics Mobile Marketing Add-on SKU is required to enable Mobile Services access to mobile acquisition, deep linking, geolocation, and mobile messaging capabilities. 자세한 내용은 Adobe CSM에 문의하십시오.
+>Mobile Services가 모바일 확보, 딥 링크, 위치 정보 및 모바일 메시징 기능에 액세스할 수 있도록 하려면 Adobe Analytics Mobile Marketing Add-on SKU가 필요합니다. 자세한 내용은 Adobe CSM에 문의하십시오.
 
 >[!IMPORTANT]
 >
->Experience Cloud 솔루션용 iOS SDK 4.x는 이제 iOS 13 [및 Xcode 11을 지원합니다](https://developer.apple.com/ios/). To ensure seamless compatibility, use the latest versions of the 4.x iOS SDKs. For more information about the latest version, see the release notes.[](/help/ios/rel-notes.md)
+>Experience Cloud 솔루션용 iOS SDK 4.x는 이제 iOS 13 [및 Xcode 11을 지원합니다](https://developer.apple.com/ios/). 완벽한 호환성을 위해서는 최신 버전의 4.x iOS SDK를 사용하십시오. 최신 버전에 대한 자세한 내용은 [릴리스 정보를](/help/ios/rel-notes.md)참조하십시오.
 
-## 새 Adobe Experience Cloud SDK 릴리스
+## 새로운 Adobe Experience Platform Mobile SDK 릴리스
 
 Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
 
 2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
-* 시작하려면 Launch로 이동합니다.
+* 시작하려면 Adobe Experience Platform Launch로 이동합니다.
 * Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)로 이동하십시오.
-
->[!IMPORTANT]
->
-> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. 자세한 내용은 [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services)를 참조하십시오.
 
 기억해야 할 정보:
 
@@ -51,7 +47,7 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 
 ## Adobe Mobile 사용자 설명서 {#section_7583FD5FDED143619048E9744A3F2D21}
 
-Adobe Mobile Services는 Adobe Experience Cloud에서 모바일 애플리케이션에 대한 모바일 마케팅 기능을 종합하여 제공하는 신규 UI를 제공합니다. 처음에는 모바일 서비스는 Adobe Analytics, Adobe Audience Manager, Adobe Target 솔루션 및 Adobe Experience Platform Identity Service의 앱 분석 및 타깃팅 기능을 매끄럽게 통합합니다.
+Adobe Mobile Services는 Adobe Experience Cloud에서 모바일 애플리케이션에 대한 모바일 마케팅 기능을 종합하여 제공하는 신규 UI를 제공합니다. Initially, the Mobile service provides seamless integration of app analytics and targeting capabilities from the Adobe Analytics, Adobe Audience Manager, and Adobe Target solutions, and Adobe Experience Platform Identity Service.
 
 Mobile Services UI에 대한 자세한 정보를 확인하고 사용자 설명서를 읽어 보려면 [Adobe Mobile Services](/help/using/home.md)를 참조하십시오.
 
