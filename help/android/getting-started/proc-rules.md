@@ -2,10 +2,10 @@
 description: 처리 규칙은 컨텍스트 데이터 변수로 보내는 데이터를 보고용으로 evar, prop 및 기타 변수에 복사하는 데 사용됩니다.
 seo-description: 처리 규칙은 컨텍스트 데이터 변수로 보내는 데이터를 보고용으로 evar, prop 및 기타 변수에 복사하는 데 사용됩니다.
 seo-title: 처리 규칙 및 컨텍스트 데이터
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 처리 규칙 및 컨텍스트 데이터
 topic: 개발자 및 구현
-uuid: EA 892228-86 F 5-4980-ACB 8-45 AE 43 C 6996 D
+uuid: ea89228-86f5-4980-acb8-45ae43c6996d
 translation-type: tm+mt
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
@@ -14,7 +14,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 # Processing rules and context data {#processing-rules-and-context-data}
 
-처리 규칙은 컨텍스트 데이터 변수로 보내는 데이터를 보고용으로 evar, prop 및 기타 변수에 복사하는 데 사용됩니다. 자세한 내용은 [처리 규칙을 참조하십시오](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+처리 규칙은 컨텍스트 데이터 변수로 보내는 데이터를 보고용으로 evar, prop 및 기타 변수에 복사하는 데 사용됩니다. For more information, see [Processing Rules](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
 처리 규칙을 사용하여 작업할 경우 다음 정보를 숙지하십시오.
 
@@ -54,5 +54,5 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 >[!TIP]
 >
->Adobe는 네임스페이스를 `"a."`예약합니다. 충돌을 피하려면 컨텍스트 데이터 변수가 로그인 회사에서 고유하게 사용되면 됩니다.
+>Adobe는 네임스페이스를 보유합니다 `"a."`. 충돌을 피하려면 컨텍스트 데이터 변수가 로그인 회사에서 고유하게 사용되면 됩니다.
 
