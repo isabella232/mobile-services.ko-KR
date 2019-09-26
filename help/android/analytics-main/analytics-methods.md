@@ -1,12 +1,12 @@
 ---
 description: 다음은 Android 라이브러리에서 제공하는 Adobe Analytics 메서드 목록입니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 다음은 Android 라이브러리에서 제공하는 Adobe Analytics 메서드 목록입니다.
 seo-title: 분석 메서드
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 분석 메서드
 topic: 개발자 및 구현
-uuid: AC 7 C 640 E -9 DCC -4724-B 561-019 CC 025 D 5 A 7
+uuid: ac7c640e-9dcc-4724-b561-019cc025d5a7
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -17,7 +17,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 다음은 Android 라이브러리에서 제공하는 Adobe Analytics 메서드 목록입니다.
 
-현재 SDK는 Analytics], Target], Audience Manager], Adobe Experience Platform Identity Service 등 다양한 Adobe Experience Cloud 솔루션을 지원합니다. 메서드는 솔루션에 따라 접두사가 붙습니다. 예를 들어 Experience Cloud ID 메서드에는 `analytics` 접두사가 붙습니다.
+SDK는 현재 Analytics], Target], Audience Manager] 및 Adobe Experience Platform Identity Service]를 비롯한 다양한 Adobe Experience Cloud Solutions]를 지원합니다. 메서드는 솔루션에 따라 접두사가 붙습니다. 예를 들어 Experience Cloud ID 메서드에는 `analytics` 접두사가 붙습니다.
 
 다음 메서드를 사용하여 Adobe Analytics 보고서 세트에 데이터를 전송합니다.
 
@@ -25,11 +25,11 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    선택적 컨텍스트 데이터로 앱 상태를 추적합니다. States are the views that are available in your app, such as `home dashboard`, `app settings`, `cart`, and so on. 이 상태는 웹 사이트의 페이지와 유사하며 `trackState` 호출은 페이지 보기를 증가시킵니다.
 
-   비어 `state` 있으면 `app name app version (build)` 보고서에 이 표시됩니다. 보고서에 이 값이 표시되면 각각의 `state` 호출에서 `trackState`를 반드시 설정해야 합니다.
+   If  is empty,  is displayed in reports. `state``app name app version (build)` 보고서에 이 값이 표시되면 각각의 `state` 호출에서 `trackState`를 반드시 설정해야 합니다.
 
    >[!TIP]
    >
-   >페이지 보기를 증가시키는 유일한 추적 호출입니다.
+   >이것은 페이지 보기를 증가시키는 유일한 추적 호출입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -43,8 +43,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
       Analytics.trackState("loginScreen",null);
       ```
 
-* **Trackaction**
-은 앱에서 작업을 추적합니다.
+* **trackAction**&#x200B;앱의 동작을 추적합니다.
 
    Actions that you want to measure, such as `logons`, `banner taps`, `feed subscriptions`, and other metrics, that occur in your app.
 
@@ -60,8 +59,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
       Analytics.trackAction("heroBannerTouched",null);
       ```
 
-* **Gettrackingidentifier**
-는 자동으로 생성된 Analytics의 방문자 식별자를 반환합니다.
+* **getTrackingIdentifier** Analytics에 대해 자동으로 생성된 방문자 식별자를 반환합니다.
 
    처음 실행할 때 생성된 후 저장되어 이후에 사용되는 앱별 고유 방문자 ID입니다. 이 ID는 앱 업그레이드 시에도 보존되며 앱을 제거하면 삭제됩니다.
 
@@ -79,7 +77,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 * **trackLocation**
 
-   정의된 관심 영역에서 현재 위도, 경도 및 위치를 보냅니다. 자세한 내용은 [지리적 위치 및 관심 영역을](/help/android/location/geo-poi.md)참조하십시오.
+   현재 위도, 경도 및 위치를 정의된 관심 영역으로 전송합니다. For more information, see Geo-location and points of interest.[](/help/android/location/geo-poi.md)
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -120,10 +118,9 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
    >이 호출은 히트를 전송하지 않습니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
-
-      ```java
-      publicstaticvoidtrackTimedActionStart(Stringaction,Map<String,Object>contextData);
-      ```
+   ```java
+   publicstaticvoidtrackTimedActionStart(Stringaction,Map<String,Object>contextData);
+   ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
@@ -146,7 +143,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
       public static void trackTimedActionUpdate(Stringaction,Map <String,Object> contextData); 
       ```
 
-   * 다음은 이 메서드에 대한 코드 샘플입니다.
+   * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
       HashMap cdata = new HashMap<String Object> (); 
