@@ -1,11 +1,11 @@
 ---
 description: 시간 작업을 사용하면 작업의 시작과 끝 사이의 인앱 시간 및 총 시간을 측정할 수 있습니다. SDK는 각 세션에서 시간의 길이를 계산하고 작업 완료까지 걸리는 총 시간을 모든 세션에 걸쳐 계산합니다. 시간 작업을 사용하여 세그먼트를 정의하고 구매, 전달 수준, 체크아웃 플로우 등에 걸리는 시간을 비교할 수 있습니다.
 seo-description: 시간 작업을 사용하면 작업의 시작과 끝 사이의 인앱 시간 및 총 시간을 측정할 수 있습니다. SDK는 각 세션에서 시간의 길이를 계산하고 작업 완료까지 걸리는 총 시간을 모든 세션에 걸쳐 계산합니다. 시간 작업을 사용하여 세그먼트를 정의하고 구매, 전달 수준, 체크아웃 플로우 등에 걸리는 시간을 비교할 수 있습니다.
-seo-title: 시간 제한 작업
-solution: Marketing Cloud, Analytics
-title: 시간 제한 작업
+seo-title: 시간 작업
+solution: Marketing Cloud,Analytics
+title: 시간 작업
 topic: 개발자 및 구현
-uuid: Dbcbac 5 a -6345-49 f 6-b 050-0 db 05292 f 005
+uuid: dbcbac5a-6345-49f6-b050-0db05292f005
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -31,7 +31,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 1. 프로젝트에 라이브러리를 추가하고 라이프사이클을 구현합니다.
 
-   자세한 내용은 핵심 구현 *및* 라이프사이클에서 [프로젝트에 SDK 및 구성 파일 추가를](/help/ios/getting-started/dev-qs.md)참조하십시오.
+   자세한 내용은 핵심 구현 *및 라이프사이클에서 SDK 및 구성* 파일을 프로젝트에 [추가를 참조하십시오](/help/ios/getting-started/dev-qs.md).
 1. 라이브러리를 가져옵니다:
 
    ```objective-c
