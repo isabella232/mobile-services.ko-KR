@@ -1,12 +1,12 @@
 ---
 description: Mobile Services 구현에 유용한 Mobile Services SDK 및 도구를 다운로드하는 데 도움이 되는 정보입니다.
-keywords: 모바일; Android; Ios; SDK
+keywords: 모바일;android;ios;sdk
 seo-description: Mobile Services 구현에 유용한 Mobile Services SDK 및 도구를 다운로드하는 데 도움이 되는 정보입니다.
 seo-title: Mobile SDK 및 도구 다운로드
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Mobile SDK 및 도구 다운로드
 topic: 개발자 및 구현,지표
-uuid: 4 AF 757 F 7-4 E 4 D -4939-9 B 6 A -49 A 29 C 220192
+uuid: 4af757f7-4e4d-4939-9b6a-49a29c220192
 translation-type: tm+mt
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
@@ -32,5 +32,5 @@ source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 * [iOS 지침](/help/ios/getting-started/requirements.md)
 * [Android 지침](/help/android/getting-started/requirements.md)
 
-Windows Phone 8, Blackberry, Xamarin 등 기본 라이브러리에 대한 설명서를 보려면 Adobe Mobile Services의 *SDK 설명서* 섹션을 [참조하십시오](/help/using/home.md).
+Windows Phone 8, Blackberry, Xamarin 및 기타 기본 라이브러리에 대한 설명서를 보려면 Adobe Mobile Services *의* SDK 설명서 섹션을 [참조하십시오](/help/using/home.md).
 
