@@ -1,11 +1,11 @@
 ---
 description: Universal Windows Platform 라이브러리에서 제공하는 Audience Manager 목록 메서드입니다.
 seo-description: Universal Windows Platform 라이브러리에서 제공하는 Audience Manager 목록 메서드입니다.
-seo-title: Audience Manager 메서드
-solution: Marketing Cloud, Analytics
+seo-title: Audience Manager methods
+solution: Marketing Cloud,Analytics
 title: Audience Manager 메서드
 topic: 개발자 및 구현
-uuid: efbe 8 f 33-7 f 53-40 a 6-b 7 aa-a 36 ac 718 c 047
+uuid: efbe8f33-7f53-40a6-b7aa-a36ac718c047
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -22,9 +22,9 @@ Universal Windows Platform 라이브러리에서 제공하는 Audience Manager �
 >
 >When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
 
-Audience Manager가 JSON 파일에 구성된 경우 라이프사이클 지표를 포함하는 신호가 라이프사이클 히트와 함께 전송됩니다.
+Audience Manager가 JSON 파일에 구성된 경우 라이프사이클 지표가 포함된 신호가 라이프사이클 히트와 함께 전송됩니다.
 
-* **Getvisitorprofile (winjs: Getvisitorprofile)**
+* **GetVisitorProfile (winJS: getVisitorProfile)**
 
    가장 최근 획득한 방문자 프로필을 반환합니다. Returns `null` if no signal has been submitted yet. 방문자 프로필은 앱이 여러 번 시작되는 경우에도 쉽게 액세스할 수 있도록 `SharedPreferences`에 저장됩니다.
 
@@ -41,7 +41,7 @@ Audience Manager가 JSON 파일에 구성된 경우 라이프사이클 지표를
       var profile = ADB.AudienceManager.getVisitorProfile();
       ```
 
-* **Getdpid (winjs: Getdpid)**
+* **GetDpid(winJS:getDpid)**
 
    현재 DPID를 반환합니다.
 
@@ -58,7 +58,7 @@ Audience Manager가 JSON 파일에 구성된 경우 라이프사이클 지표를
       var dpid = ADB.AudienceManager.getDpid(); 
       ```
 
-* **Getdpuuid (winjs: getdpuuid)**
+* **GetDpuuid(winJS:getDpuuid)**
 
    현재 DPUUID를 반환합니다.
 
@@ -75,7 +75,7 @@ Audience Manager가 JSON 파일에 구성된 경우 라이프사이클 지표를
       var dpuuid = ADB.AudienceManager.getDpuuid();
       ```
 
-* **Setdpidanddpuuid (winjs: Setdpidanddpuuid)**
+* **SetDpidAndDpuuid(winJS:setDpidAndDpuuid)**
 
    DPID 및 DPUUID를 설정합니다. DPID 및 DPUUID가 설정되면 각 신호와 함께 전송됩니다.
 
@@ -92,7 +92,7 @@ Audience Manager가 JSON 파일에 구성된 경우 라이프사이클 지표를
       ADB.AudienceManager.setDpidAndDpuuid("newDpid", "newDpuuid");
       ```
 
-* **Signalwithdata (winjs: Signalwithdata)**
+* **SignalWithData(winJS:signalWithData)**
 
    트레이트를 포함한 신호를 고객 관리에 보내고 차단 콜백에서 반환된 일치 세그먼트를 받습니다.
 
