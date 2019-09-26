@@ -1,11 +1,11 @@
 ---
 description: 다음은 iOS 라이브러리에서 제공하는 메서드 목록입니다.
 seo-description: 다음은 iOS 라이브러리에서 제공하는 메서드 목록입니다.
-seo-title: 구성 메서드
-solution: Marketing Cloud, Analytics
-title: 구성 메서드
+seo-title: Configuration methods
+solution: Marketing Cloud,Analytics
+title: 구성 방법
 topic: 개발자 및 구현
-uuid: 623 C 7 B 07-FBB 3-4 D 39-A 5 C 4-E 64 FAEC 4 CA 29
+uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -16,15 +16,15 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 다음은 iOS 라이브러리에서 제공하는 메서드 목록입니다.
 
-SDK는 현재 Analytics, Target, Audience Manager 및 Adobe Experience Platform Identity Service를 비롯한 다양한 Adobe Experience Cloud 솔루션에 대한 지원을 제공합니다.
+SDK는 현재 Analytics, Target, Audience Manager, Adobe Experience Platform Identity Service 등 다양한 Adobe Experience Cloud 솔루션을 지원합니다.
 
 * **setAppExtensionType**
 
    Adobe Mobile SDK 설정을 구성하여 현재 어떤 종류의 확장이 실행되고 있는지 확인합니다.
 
    다음 값 중 하나를 설정합니다.
-   * `ADBMobileAppExtensionTypeRegular` - 익스텐션은 포함된 앱과 함께 번들로 제공됩니다.
-   * `ADBMobileAppExtensionTypeStandAlone` - 익스텐션은 포함된 앱과 함께 번들로 제공되지 않습니다.
+   * `ADBMobileAppExtensionTypeRegular` - 익스텐션은 포함 앱과 번들로 제공됩니다.
+   * `ADBMobileAppExtensionTypeStandAlone` - 확장명이 포함된 앱과 번들로 제공되지 않습니다.
    >[!TIP]
    >
    >This method should **only** be used if your app has an extension or is a stand-alone extension. For more information, see *ADBMobileAppExtensionType* below.
@@ -63,8 +63,8 @@ SDK는 현재 Analytics, Target, Audience Manager 및 Adobe Experience Platform 
 
    현재 사용자에 대한 개인 정보 상태의 열거 표현을 반환합니다:
 
-   * `ADBMobilePrivacyStatusOptIn` - 히트가 즉시 전송됩니다.
-   * `ADBMobilePrivacyStatusOptOut` - 히트는 무시됩니다.
+   * `ADBMobilePrivacyStatusOptIn` - hits are sent immediately.
+   * `ADBMobilePrivacyStatusOptOut` - hits are discarded.
    * `ADBMobilePrivacyStatusUnknown` - 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트 삭제)으로 변경될 때까지 히트가 저장됩니다. 오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다.
 기본값은 `ADBMobileConfig.json` 파일에서 설정되어 있습니다.
 
@@ -87,7 +87,7 @@ SDK는 현재 Analytics, Target, Audience Manager 및 Adobe Experience Platform 
    다음 값 중 하나를 설정합니다.
 
    * `ADBMobilePrivacyStatusOptIn` - 히트가 즉시 전송됩니다.
-   * `ADBMobilePrivacyStatusOptOut` - 히트는 무시됩니다.
+   * `ADBMobilePrivacyStatusOptOut` - 히트가 무시됩니다.
    * `ADBMobilePrivacyStatusUnknown` - 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트 삭제)으로 변경될 때까지 히트가 저장됩니다. 오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
@@ -124,7 +124,7 @@ SDK는 현재 Analytics, Target, Audience Manager 및 Adobe Experience Platform 
 
    >[!TIP]
    >
-   >앱 업그레이드가 Experience Cloud 3. x에서 4. x SDK로 업그레이드되는 경우 이전에 사용자 정의 또는 자동 생성된 방문자 ID가 검색하여 사용자 지정 사용자 식별자로 저장됩니다. 자세한 내용은 아래의 `userIdentifier` 행을 참조하십시오. 이렇게 하면 SDK 업그레이드 시에도 방문자 데이터가 보존됩니다. 4.x SDK에 새로 설치하는 경우 사용자 식별자는 `nil`이며 추적 식별자가 사용됩니다.
+   >If your app upgrades from the Experience Cloud 3.x to the 4.x SDK, the previous custom or automatically generated visitor ID is retrieved and stored as the custom user identifier. 자세한 내용은 아래의 `userIdentifier` 행을 참조하십시오. 이렇게 하면 SDK 업그레이드 시에도 방문자 데이터가 보존됩니다. 4.x SDK에 새로 설치하는 경우 사용자 식별자는 `nil`이며 추적 식별자가 사용됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -144,7 +144,7 @@ SDK는 현재 Analytics, Target, Audience Manager 및 Adobe Experience Platform 
 
    >[!TIP]
    >
-   >앱 업그레이드가 Experience Cloud 3. x에서 4. x SDK로 업그레이드되면 이전에 사용자 정의 또는 자동 생성된 방문자 ID가 검색하여 사용자 지정 사용자 식별자로 저장됩니다. 이렇게 하면 SDK 업그레이드 시에도 방문자 데이터가 보존됩니다.
+   >앱이 Experience Cloud 3.x에서 4.x SDK로 업그레이드하면 이전 사용자 지정 또는 자동으로 생성된 방문자 ID가 검색되어 사용자 지정 사용자 식별자로 저장됩니다. 이렇게 하면 SDK 업그레이드 시에도 방문자 데이터가 보존됩니다.
 
    4.x SDK에 새로 설치하는 경우 사용자 식별자는 설정될 때까지 `nil`입니다.
 
@@ -214,7 +214,7 @@ SDK는 현재 Analytics, Target, Audience Manager 및 Adobe Experience Platform 
 
    >[!TIP]
    >
-   >이 메서드는 백그라운드에 있는 동안 알림을 등록하는 앱에 사용하기 위해 만들었으며 앱이 백그라운드에 있을 때 실행하는 코드에서만 호출되어야 합니다.
+   >이 메서드는 앱이 백그라운드에 있을 때 알림을 등록하는 앱에 사용되며 앱이 백그라운드에 있을 때 실행하는 코드에서만 호출되어야 합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
