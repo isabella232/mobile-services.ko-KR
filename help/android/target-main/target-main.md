@@ -1,12 +1,12 @@
 ---
 description: 다음은 Android 애플리케이션에서 타깃팅된 콘텐츠를 제공하는 데 유용한 정보입니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 다음은 Android 애플리케이션에서 타깃팅된 콘텐츠를 제공하는 데 유용한 정보입니다.
 seo-title: Target 개요
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Target 개요
 topic: 개발자 및 구현
-uuid: 3501 B 76 D-F 83 F -45 EB-B 56 D -39 E 64717772 E
+uuid: 3501b76d-f83f-45eb-b56d-39e6471772e
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -15,7 +15,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 # Target 개요 {#target}
 
-이 섹션의 정보는 Android 응용 프로그램에서 타깃팅된 컨텐츠를 전달하는 데 도움이 됩니다.
+이 섹션의 정보는 Android 애플리케이션에서 타깃팅된 컨텐츠를 전달하는 데 도움이 됩니다.
 
 ## 새 Adobe Experience Cloud SDK 릴리스
 
