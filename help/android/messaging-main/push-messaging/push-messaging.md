@@ -2,10 +2,10 @@
 description: Adobe Mobile 및 Adobe Mobile SDK를 사용하면 사용자에게 푸시 메시지를 보낼 수 있습니다. 또한 SDK를 사용하면 푸시 메시지를 클릭스루하여 앱을 열어 본 사용자를 쉽게 보고할 수도 있습니다.
 seo-description: Adobe Mobile 및 Adobe Mobile SDK를 사용하면 사용자에게 푸시 메시지를 보낼 수 있습니다. 또한 SDK를 사용하면 푸시 메시지를 클릭스루하여 앱을 열어 본 사용자를 쉽게 보고할 수도 있습니다.
 seo-title: 푸시 메시지
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 푸시 메시지
 topic: 개발자 및 구현
-uuid: 729 D 4010-3733-4 DFF-B 188-AD 45 BD 3 E 7 CC 4
+uuid: 729d4010-3733-4dff-b188-ad45bd3e7cc4
 translation-type: tm+mt
 source-git-commit: 17cb91a28966cf32f955a2cb724e89ab228de5b8
 
@@ -28,11 +28,11 @@ Adobe Mobile 및 Adobe Mobile SDK를 사용하면 사용자에게 푸시 메시�
 
 >[!TIP]
 >
->앱이 이미 Firebase 클라우드 메시지 (FCM) 를 통해 메시지를 사용하도록 설정되어 있는 경우 다음 단계 중 일부가 이미 완성될 수 있습니다.
+>앱이 Firebase Cloud Messaging(FCM)을 통해 메시지를 사용하도록 이미 설정된 경우 다음 단계 중 일부가 이미 완료되었을 수 있습니다.
 
-1. `ADBMobileConfig.json` 파일에 푸시 메시지에 대한 필수 설정이 포함되어 있는지 확인합니다.
+1. Verify that the `ADBMobileConfig.json` file contains the required settings for push messaging.
 
-   `"marketingCloud"` 개체에 푸시 메시징을 `"org"` 위해 속성이 구성되어 있어야 합니다.
+   The `"marketingCloud"` object must have its `"org"` property configured for push messaging.
 
    ```js
    "marketingCloud": { 
@@ -43,7 +43,6 @@ Adobe Mobile 및 Adobe Mobile SDK를 사용하면 사용자에게 푸시 메시�
 1. Firebase Cloud Messaging(FCM) API를 사용하여 등록 ID/토큰을 얻습니다.
 
    * FCM 설정에 대한 자세한 내용은 [Android용 Firebase Cloud 메시지 클라이언트 앱 설정](https://firebase.google.com/docs/cloud-messaging/android/client)을 참조하십시오.
-
    ```js
    String token = FirebaseInstanceId.getInstance().getToken();
    ```
@@ -58,8 +57,7 @@ Adobe Mobile 및 Adobe Mobile SDK를 사용하면 사용자에게 푸시 메시�
 
    푸시 클릭스루 보고 기능을 활성화하기 위한 요구 사항은 다음과 같습니다.
 
-   * In your implementation of `FireBaseMessageService`, the Bundle object that contains the message data, which is passed into the `onMessageReceived` method with the RemoteMessage object, must be added to the Intent that is used to open the target activity on a click-through. 이 작업은 `putExtras` 메서드를 사용하여 수행할 수 있습니다. 자세한 내용은 [Putextras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle))를 참조하십시오.
-
+   * In your implementation of `FireBaseMessageService`, the Bundle object that contains the message data, which is passed into the `onMessageReceived` method with the RemoteMessage object, must be added to the Intent that is used to open the target activity on a click-through. 이 작업은 `putExtras` 메서드를 사용하여 수행할 수 있습니다. For more information, see [putExtras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle))).
    ```java
    Intent intent = new Intent(this, MainActivity.class);
       intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -71,9 +69,9 @@ Adobe Mobile 및 Adobe Mobile SDK를 사용하면 사용자에게 푸시 메시�
 
       다음 정보를 숙지하십시오.
 
-      * 사용 `Config.collectLifecycleData(this)` 또는 `Config.collectLifecycleData(this, contextData)`.
+      * Use `Config.collectLifecycleData(this)` or `Config.collectLifecycleData(this, contextData)`.
 
-      * ****`Config.collectLifecycleData()`사용하지 마십시오.
+      * Do **not** use `Config.collectLifecycleData()`.
 
 
 
