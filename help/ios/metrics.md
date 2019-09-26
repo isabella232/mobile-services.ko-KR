@@ -2,10 +2,10 @@
 description: 다음 표에는 라이프사이클이 구현된 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표와 차원이 나열되어 있습니다.
 seo-description: 다음 표에는 라이프사이클이 구현된 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표와 차원이 나열되어 있습니다.
 seo-title: 라이프사이클 지표
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 라이프사이클 지표
 topic: 개발자 및 구현
-uuid: b 795 e 383-d 59 b -4 a 3 c -9 e 14-ffe 8 fb 58412 c
+uuid: b795e383-d59b-4a3c-9e14-ffe8fb58412c
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -14,7 +14,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 # Lifecycle metrics {#lifecycle-metrics}
 
-라이프사이클이 구현된 후 모바일 라이브러리를 통해 자동으로 측정할 수 있는 지표와 차원은 다음과 같습니다.
+라이프사이클이 구현된 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표 및 차원은 다음과 같습니다.
 
 ## 새 Adobe Experience Cloud SDK 릴리스
 
@@ -38,7 +38,7 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
 
 >[!TIP]
 >
->예외는 설명에 제공됩니다.
+>Exceptions are provided in the description.
 
 ### 지표
 
@@ -93,13 +93,13 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
 
 >[!IMPORTANT]
 >
-> *일별 참여 사용자* 및 *월별 참여 사용자* 지표는 Analytics 지표에 자동으로 저장되지 않습니다. 이러한 지표를 캡처하도록 사용자 지정 이벤트를 설정하는 처리 규칙을 만들어야 합니다.
+> The Daily Engaged Users and Monthly Engaged Users metrics are not automatically stored in an Analytics metric. **** You must create a processing rule that sets a custom event to capture these metrics.
 
 ### 차원
 
 * **설치 날짜**
 
-   설치 후 처음 시작하는 날짜  날짜 형식은 `MM/DD/YYYY`입니다.
+   설치 후 처음 시작하는 날짜  The date format is .`MM/DD/YYYY`
 
    * Analytics 컨텍스트 데이터/타겟: `a.InstallDate`
    * 대상 관리: `c_a_InstallDate`
@@ -189,12 +189,12 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
    * 대상 관리: `c_a_Resolution`
    >[!IMPORTANT]
    >
-   >마지막 업그레이드 이후 *일수*, *마지막 업그레이드*&#x200B;이후 실행, *그리고 캐리어 이름* 차원은 Analytics 변수에 자동으로 저장되지 않습니다. 보고를 위해 Analytics 변수로 값을 복사하려면 처리 규칙을 만들어야 합니다.
+   >The Days since last upgrade, Launches since last upgrade, and the Carrier Name dimensions are not automatically stored in an Analytics variable. ****** You must create a processing rule to copy the values to an Analytics variable for reporting.
 
 
 ## Additional mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
-다음 지표와 차원은 나열된 방법을 통해 모바일 솔루션 변수에서 캡처됩니다.
+The following metrics and dimensions are captured in mobile solution variables by the listed method.
 
 ### 지표
 
@@ -230,7 +230,7 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
 
       * `a.loc.lat.a`
       * `a.loc.lon.a`
-   * 고객 관리 트레이트:
+   * 고객 관리 특성:
 
       * `c_a_loc_lat_a`
       * `c_a_loc_lon_a`
@@ -244,7 +244,7 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
 
       * `a.loc.lat.b`
       * `a.loc.lon.b`
-   * 고객 관리 트레이트:
+   * 고객 관리 특성:
 
       * `c_a_loc_lat_b`
       * `c_a_loc_lon_b`
@@ -254,11 +254,11 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
 
    Populated by `trackLocation` methods.
 
-   * Analytics 컨텍스트 데이터/타겟 매개 변수:
+   * Analytics Context Data/Target parameter:
 
       * `a.loc.lat.c`
       * `a.loc.lon.c`
-   * 고객 관리 트레이트:
+   * Audience Management trait:
 
       * `c_a_loc_lat_c`
       * `c_a_loc_lon_c`
