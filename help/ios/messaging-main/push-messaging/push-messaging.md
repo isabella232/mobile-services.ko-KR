@@ -1,11 +1,11 @@
 ---
 description: Adobe Mobile 및 Adobe Mobile SDK를 사용하면 사용자에게 푸시 메시지를 보낼 수 있습니다. 또한 SDK를 사용하면 푸시 메시지를 클릭스루하여 앱을 열어 본 사용자를 쉽게 보고할 수도 있습니다.
 seo-description: Adobe Mobile 및 Adobe Mobile SDK를 사용하면 사용자에게 푸시 메시지를 보낼 수 있습니다. 또한 SDK를 사용하면 푸시 메시지를 클릭스루하여 앱을 열어 본 사용자를 쉽게 보고할 수도 있습니다.
-seo-title: 푸시 메시지
-solution: Marketing Cloud, Analytics
+seo-title: Push messaging
+solution: Marketing Cloud,Analytics
 title: 푸시 메시지
 topic: 개발자 및 구현
-uuid: 2 e 2 d 8175-d 7 d 0-4 b 6 b-a 14 e-d 419 da 1 f 9615
+uuid: 2e2d8175-d7d0-4b6b-a14e-d419da1f9615
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -18,7 +18,7 @@ Adobe Mobile 및 Adobe Mobile SDK를 사용하면 사용자에게 푸시 메시�
 
 >[!IMPORTANT]
 >
->이 항목의 정보는 가능한 구현에 대한 제안입니다. Apple의 iOS 설명서를 검토하여 앱에 가장 적합한 구현을 결정하는 것이 좋습니다. 구현은 사용 중인 프레임워크와 앱이 대상으로 하는 iOS 버전에 의해 결정됩니다.
+>이 항목의 정보는 가능한 구현을 위한 제안입니다. Apple의 iOS 설명서를 검토하여 앱에 가장 적합한 구현을 결정하는 것이 좋습니다. 사용 중인 프레임워크와 앱이 타깃팅할 iOS 버전에 따라 구현이 결정됩니다.
 
 푸시 메시지를 사용하려면 **반드시** SDK 버전 4.6 이상이 있어야 합니다.
 
@@ -33,8 +33,8 @@ Adobe Mobile 및 Adobe Mobile SDK를 사용하면 사용자에게 푸시 메시�
    For more information, see [Lifecycle metrics](/help/ios/metrics.md).
 
 
-* ID 서비스에 대해 SDK를 활성화해야 합니다.
-자세한 내용은 SDK ID 서비스 옵션 [구성을](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md)참조하십시오.
+* SDK가 ID 서비스에 대해 활성화되어 있어야 합니다.
+자세한 내용은 SDK ID [서비스 옵션 구성을 참조하십시오](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md).
 
 >[!IMPORTANT]
 >
@@ -42,9 +42,9 @@ Adobe Mobile 및 Adobe Mobile SDK를 사용하면 사용자에게 푸시 메시�
 
 ## Enabling push messaging {#section_CBD63C5B11FE4424BC2BF552C23F2BD9}
 
-1. `ADBMobileConfig.json` 파일에 푸시 메시지에 대한 필수 설정이 포함되어 있는지 확인합니다.
+1. Verify that the `ADBMobileConfig.json` file contains the required settings for push messaging.
 
-   `"marketingCloud"` 개체에 푸시 메시징을 `"org"` 위해 속성이 구성되어 있어야 합니다.
+   The `"marketingCloud"` object must have its `"org"` property configured for push messaging.
 
    ```objective-c
    "marketingCloud": { 
@@ -58,9 +58,9 @@ Adobe Mobile 및 Adobe Mobile SDK를 사용하면 사용자에게 푸시 메시�
    #import "ADBMobile.h"
    ```
 
-1. 앱에서 권한을 요청해야 하는 설정을 결정하려면 원격 알림 지원 [구성을 검토하십시오](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html#//apple_ref/doc/uid/TP40008194-CH6-SW1).
+1. To determine the settings for which your app needs to ask for permission, review Configuring Remote Notification Support.[](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html#//apple_ref/doc/uid/TP40008194-CH6-SW1)
 
-   다음은 경고, 배지, 사운드 및 원격 알림을 사용할 수 있는 권한을 요청하는 구현의 예입니다.
+   다음은 경고, 배지, 사운드 및 원격 알림을 사용할 수 있는 권한을 요청하는 가능한 구현의 예입니다.
 
    ```objective-c
    // iOS 10 and newer 
@@ -104,7 +104,7 @@ Adobe Mobile 및 Adobe Mobile SDK를 사용하면 사용자에게 푸시 메시�
    }
    ```
 
-1. 환경에 대한 올바른 구현을 결정하려면 [Usernotifications](https://developer.apple.com/documentation/usernotifications)로 이동하십시오.
+1. To determine the correct implementation for your environment, go to UserNotifications.[](https://developer.apple.com/documentation/usernotifications)
 
    이 단계는 사용자가 푸시 메시지의 클릭스루를 사용하여 앱을 열 경우 `userInfo` 사전을 SDK에 전달하여 푸시 보고를 사용하도록 설정하는 데 도움이 됩니다.
 
