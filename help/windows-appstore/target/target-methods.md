@@ -1,11 +1,11 @@
 ---
-description: Windows 8.1 유니버설 앱스토어 라이브러리에서 제공하는 Target 메서드 목록입니다.
-seo-description: Windows 8.1 유니버설 앱스토어 라이브러리에서 제공하는 Target 메서드 목록입니다.
+description: Windows 8.1 Universal App Store 라이브러리에서 제공하는 Target 메서드 목록입니다.
+seo-description: Windows 8.1 Universal App Store 라이브러리에서 제공하는 Target 메서드 목록입니다.
 seo-title: 타겟 메서드
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 타겟 메서드
 topic: 개발자 및 구현
-uuid: 8 C 35 B 31 C-C 70 B -4 DBA -8759-173342 A 301 E 9
+uuid: 8c35b31c-c70b-4dba-8759-173342a301e9
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -14,7 +14,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 # Target methods {#target-methods}
 
-Windows 8.1 유니버설 앱스토어 라이브러리에서 제공하는 Target 메서드 목록입니다.
+Windows 8.1 Universal App Store 라이브러리에서 제공하는 Target 메서드 목록입니다.
 
 현재 SDK는 Analytics, Target 및 Audience Manager을 포함하여 여러 Adobe Experience Cloud 솔루션을 지원합니다. 메서드에는 솔루션에 따라 접두사가 붙습니다. Analytics 메서드는 "Target"으로 시작합니다.
 
@@ -24,7 +24,7 @@ Windows 8.1 유니버설 앱스토어 라이브러리에서 제공하는 Target 
 >
 >When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
 
-## 클래스 참조: Targetlocationrequest
+## 클래스 참조:TargetLocationRequest
 
 ### 속성
 
@@ -68,7 +68,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 }
 ```
 
-* **Loadrequest (winjs: Loadrequest)**
+* **LoadRequest(winJS:loadRequest)**
 
    Sends `request` to your configured Target server and returns the string value of the offer generated in a block `callback`.
 
@@ -87,7 +87,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       });
       ```
 
-* **Createrequest (winjs: Createrequest)**
+* **CreateRequest(winJS:createRequest)**
 
    지정된 매개 변수로 `TargetLocationRequest` 개체를 만듭니다.
 
@@ -104,7 +104,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       var heroBannerRequest = ADB.Target.createRequest("heroBanner", "default.png", null); 
       ```
 
-* **Createorderconfirmrequest (winjs: Createorderconfirmrequest)**
+* **CreateOrder &#x200B; ConfirmRequest(winJS:createOrder &#x200B; ConfirmRequest)**
 
    지정된 매개 변수로 `TargetLocationRequest` 개체를 만듭니다.
 
@@ -121,7 +121,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       var orderConfirm = ADB.Target.createOrderConfirmRequest("orderConfirm", "order", "47.88", "3722", null); 
       ```
 
-* **Clearcookies (winjs: Clearcookies)**
+* **ClearCookies(winJS:clearCookies)**
 
    현재 장치에서 애플리케이션의 Target 쿠키를 지웁니다.
 
@@ -137,7 +137,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       ADBMobile.Target.clearCookies();
       ```
 
-* **Getpcid (winjs: Getpcid)**
+* **GetPcId(winJS:getPcId)**
 
    현재 장치의 PC ID 쿠키를 반환합니다.
 
@@ -153,7 +153,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       auto pcId = ADBMobile.Target.getPcId(); 
       ```
 
-* **Getsessionid (winjs: Getsessionid)**
+* **GetSessionId(winJS:getSessionId)**
 
    현재 장치의 세션 ID 쿠키를 반환합니다.
 
