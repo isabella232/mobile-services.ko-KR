@@ -1,18 +1,18 @@
 ---
 description: 이 섹션에서는 이전 Windows mobile SDK의 3.x 버전에서 Experience Cloud 솔루션용 Windows 8.1 Universal App Store 4.x SDK로 마이그레이션하는 방법에 대해 설명합니다.
 seo-description: 이 섹션에서는 이전 Windows mobile SDK의 3.x 버전에서 Experience Cloud 솔루션용 Windows 8.1 Universal App Store 4.x SDK로 마이그레이션하는 방법에 대해 설명합니다.
-seo-title: 4. x SDK로 마이그레이션
-solution: Marketing Cloud, Analytics
-title: 4. x SDK로 마이그레이션
+seo-title: Migrate to the 4.x SDKs
+solution: Marketing Cloud,Analytics
+title: Migrate to the 4.x SDKs
 topic: 개발자 및 구현
-uuid: E 0 FE 3 B 7 B-CDA 5-4 A 91-834 C -2 C 7 E 17 A 501 A 3
+uuid: e0fe3b7b-cda5-4a91-834c-2c7e17a501a3
 translation-type: tm+mt
 source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 ---
 
 
-# 4. x SDK로 마이그레이션 {#migrate-to-the-x-sdks}
+# Migrate to the 4.x SDKs {#migrate-to-the-x-sdks}
 
 이 섹션에서는 이전 Windows mobile SDK의 3.x 버전에서 Experience Cloud 솔루션용 Windows 8.1 Universal App Store 4.x SDK로 마이그레이션하는 방법에 대해 설명합니다.
 
@@ -22,7 +22,7 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 ## Remove unused properties {#section_145222EAA20F4CC2977DD883FDDBBFC5}
 
-다운로드에 새 `ADBMobileConfig.json` 파일이 포함됩니다. 이 파일에는 애플리케이션별 전역 설정이 포함되어 있으며 이전 버전에서 사용된 대부분의 구성 변수를 대체합니다. 다음은 `ADBMobileConfig.json` 파일 예제입니다.
+다운로드에 새 `ADBMobileConfig.json` 파일이 포함됩니다. This file contains application-specific, global settings and replaces most of the configuration variables that were used in previous versions. 다음은 `ADBMobileConfig.json` 파일 예제입니다.
 
 ```js
 { 
@@ -78,7 +78,7 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 ## Event, Prop, eVar
 
-[SDK 방법을](/help/windows-appstore/c-configuration/methods.md)확인한 경우, 이벤트, evar, prop, heirs 및 목록을 설정하는 위치를 생각해 보십시오. 버전 4에서는 더 이상 이러한 유형의 변수를 앱에서 직접 할당할 수 없습니다. 대신 SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 Analytics 변수에 앱 데이터를 매핑하여 보고합니다.
+If you've looked at the SDK methods, you are probably wondering where to set events, eVars, props, heirs, and lists. [](/help/windows-appstore/c-configuration/methods.md) 버전 4에서는 더 이상 이러한 유형의 변수를 앱에서 직접 할당할 수 없습니다. 대신 SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 Analytics 변수에 앱 데이터를 매핑하여 보고합니다.
 
 처리 규칙은 몇 가지 장점을 제공합니다.
 
@@ -109,11 +109,11 @@ For more information, see *Processing Rules* in [Analytics](/help/windows-appsto
 
 ## Custom visitor ID {#section_2CF930C13BA64F04959846E578B608F3}
 
-`visitorID` 변수를 호출로 바꿉니다 `setUserIdentifier`.
+Replace the `visitorID` variable with a call to `setUserIdentifier`.
 
 ## Offline tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
 
-파일에서 오프라인 추적이 활성화되어 `ADBMobileConfig.json` 있습니다. 다른 모든 오프라인 구성은 자동으로 수행됩니다.
+Offline tracking is enabled in the `ADBMobileConfig.json` file. 다른 모든 오프라인 구성은 자동으로 수행됩니다.
 
 코드에서 다음 메서드 호출을 제거하십시오.
 
