@@ -3,9 +3,9 @@ description: 'null'
 keywords: Unity
 seo-description: 'null'
 seo-title: 라이프사이클 구현
-solution: Marketing Cloud, 개발자
+solution: Marketing Cloud,Developer
 title: 라이프사이클 구현
-uuid: 7 FF 2 C 194-569 C -42 A 6-922 D-DCCD 2 AA 9 EB 8 D
+uuid: 7ff2c194-569c-42a6-922d-dccd2aa9eb8d
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -14,11 +14,11 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 # 라이프사이클 구현{#implement-lifecycle}
 
-라이프사이클이 구현된 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표와 차원에 대한 자세한 내용은 iOS의 [라이프사이클 지표](/help/android/metrics.md) 또는 iOS [의 라이프사이클을 참조하십시오](/help/ios/metrics.md).
+For more information about the metrics and dimensions that can be measured automatically by the mobile library after lifecycle is implemented, see Lifecycle Metrics in Android or Lifecycle in iOS.[](/help/android/metrics.md)[](/help/ios/metrics.md)
 
 ## iOS
 
-라이프사이클 지표는 iOS에서 자동으로 수집됩니다.
+Lifecycle metrics are automatically collected in iOS.
 
 ## Android
 
