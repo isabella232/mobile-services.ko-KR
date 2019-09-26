@@ -1,12 +1,12 @@
 ---
 description: 다음은 Android 장치에서 기존 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 다음은 Android 장치에서 기존 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
 seo-title: 기존 획득 테스트
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 기존 획득 테스트
 topic: 개발자 및 구현
-uuid: bb 7 ace 96-68 eb -4 f 43-b 3 cf-af 80730 b 9 cee
+uuid: bb7ace96-68eb-4f43-b3cf-af80730b9cee
 translation-type: tm+mt
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
@@ -34,7 +34,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 1. 다음 단계를 완료합니다.
    1. `com.example.adobetesttapp.com`을 애플리케이션의 역방향 DNS 시작으로 바꿉니다.
    1. 앱에서 캠페인 추적 수신자 위치 참조로 수신자 참조를 업데이트합니다.
-   1. `utm_source``utm_medium``utm_term``utm_content`, `utm_campaign`와 연관된 값을 적절한 값으로 바꿉니다.
+   1. `utm_source`, `utm_medium`, `utm_term``utm_content`, `utm_campaign`및 기타 등과 연결된 값을 적절한 값으로 바꿉니다.
 
 브로드캐스트가 성공하면 다음과 비슷한 응답이 표시됩니다.
 
