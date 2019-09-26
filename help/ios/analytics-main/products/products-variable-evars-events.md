@@ -2,10 +2,10 @@
 description: 다음은 머천다이징 eVar 및 제품별 이벤트의 products 변수의 예입니다.
 seo-description: 다음은 머천다이징 eVar 및 제품별 이벤트의 products 변수의 예입니다.
 seo-title: 머천다이징 eVar 및 제품 특화 이벤트가 포함된 products 변수
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 머천다이징 eVar 및 제품 특화 이벤트가 포함된 products 변수
 topic: 개발자 및 구현
-uuid: F 913211 E -97 AD -4237-BFE 4-7 DED 01295 CAF
+uuid: f913211e-97ad-4237-bfe4-7d01295caf
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
@@ -36,5 +36,5 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 
 >[!TIP]
 >
->*`&&products`* 변수를 사용하여 제품별 이벤트를 트리거하는 경우 *`&&events`* 변수에서 해당 이벤트도 설정해야 합니다. 이 이벤트를 설정하지 않으면 처리하는 동안 필터링됩니다.
+>변수를 사용하여 제품별 이벤트를 트리거하는 *`&&products`* 경우 *`&&events`* 변수에서 해당 이벤트를 설정해야 합니다. 이 이벤트를 설정하지 않으면 처리하는 동안 필터링됩니다.
 
