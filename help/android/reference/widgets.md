@@ -1,12 +1,12 @@
 ---
 description: Android 위젯은 앱과 동일한 메서드를 사용하여 추적할 수 있습니다. 위젯은 애플리케이션 컨텍스트를 앱과 공유하므로 히트 순서와 방문자 식별이 유지됩니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: Android 위젯은 앱과 동일한 메서드를 사용하여 추적할 수 있습니다. 위젯은 애플리케이션 컨텍스트를 앱과 공유하므로 히트 순서와 방문자 식별이 유지됩니다.
 seo-title: Android 위젯
-solution: Marketing Cloud, Analytics
-title: Android 위젯
+solution: Marketing Cloud,Analytics
+title: Android widgets
 topic: 개발자 및 구현
-uuid: 1 A 3718 FF -967 B -4 C 8 E-AE 0 B-BA 0 B-BA 15 BDDBDA 0 A
+uuid: 1a3718ff-967b-4c8e-ae0b-ba15bddbda0a
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
