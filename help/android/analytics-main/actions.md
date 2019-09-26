@@ -2,10 +2,10 @@
 description: 작업은 측정할 Android 앱에서 발생하는 이벤트입니다.
 seo-description: 작업은 측정할 Android 앱에서 발생하는 이벤트입니다.
 seo-title: 앱 작업 추적
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 앱 작업 추적
 topic: 개발자 및 구현
-uuid: fe 01 c 1 df-f 6 bb -4 b 32-b 3 ef -959 d 2 c 724 af 6
+uuid: fe01c1df-f6bb-4b32-b3ef-959d2c724af6
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -22,7 +22,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 1. 프로젝트에 라이브러리를 추가하고 라이프사이클을 구현합니다.
 
-   자세한 내용은 핵심 구현 *및* 라이프사이클에서 [Intellij 아이디어 또는 Eclipse 프로젝트에 SDK 및 구성 파일 추가를](/help/android/getting-started/dev-qs.md)참조하십시오.
+   자세한 내용은 코어 *구현 및 라이프사이클에서 IntelliJ IDEA 또는 Eclipse 프로젝트에* SDK 및 구성 파일 [추가를 참조하십시오](/help/android/getting-started/dev-qs.md).
 
 1. 라이브러리를 가져옵니다:
 
