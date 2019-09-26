@@ -2,10 +2,10 @@
 description: 시간 작업을 사용하면 작업의 시작과 끝 사이의 인앱 시간 및 총 시간을 측정할 수 있습니다. SDK는 각 세션에서 시간의 길이를 계산하고 작업 완료까지 걸리는 총 시간을 모든 세션에 걸쳐 계산합니다. 시간 작업을 사용하여 세그먼트를 정의하고 구매, 전달 수준, 체크아웃 플로우 등에 걸리는 시간을 비교할 수 있습니다.
 seo-description: 시간 작업을 사용하면 작업의 시작과 끝 사이의 인앱 시간 및 총 시간을 측정할 수 있습니다. SDK는 각 세션에서 시간의 길이를 계산하고 작업 완료까지 걸리는 총 시간을 모든 세션에 걸쳐 계산합니다. 시간 작업을 사용하여 세그먼트를 정의하고 구매, 전달 수준, 체크아웃 플로우 등에 걸리는 시간을 비교할 수 있습니다.
 seo-title: 시간 작업
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 시간 작업
 topic: 개발자 및 구현
-uuid: 5 a 48 a 580-b 942-4 e 49-9 f 1 b -078 fea 7 fccdb
+uuid: 5a48a580-b942-4e49-9f1b-078fea7fccdb
 translation-type: tm+mt
 source-git-commit: 97c0dc17bcc624b38e9eb8023eb1d69d02568d11
 
@@ -31,7 +31,7 @@ source-git-commit: 97c0dc17bcc624b38e9eb8023eb1d69d02568d11
 
 1. 프로젝트에 라이브러리를 추가하고 라이프사이클을 구현합니다.
 
-   자세한 내용은 Core 구현과 *lifeycle* 에서 [intellij 아이디어 또는 Eclipse 프로젝트에 SDK 및 구성 파일 추가를 참조하십시오](/help/android/getting-started/dev-qs.md).
+   자세한 내용은 Core *구현 및 라이프사이클에서 SDK 및 구성 파일을 IntelliJ IDEA 또는 Eclipse 프로젝트에* 추가를 [참조하십시오](/help/android/getting-started/dev-qs.md).
 1. 라이브러리를 가져옵니다:
 
    ```java
