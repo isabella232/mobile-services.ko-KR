@@ -3,7 +3,7 @@ description: Experience Cloud Mobile SDK는 사용자가 로컬로 저장된 ID�
 seo-description: Experience Cloud Mobile SDK는 사용자가 로컬로 저장된 ID를 검색하고 데이터 수집 및 전송에 대한 선택 상태 플래그를 설정할 수 있는 컨트롤러에 GDPR(일반 데이터 보호 규정) 지원 API를 제공합니다.
 seo-title: 개인 정보 및 일반 데이터 보호 규정
 title: 개인 정보 및 일반 데이터 보호 규정
-uuid: 69 BB 82 DE -1993-440 C-A 1 B 0-8 D 37919 B 48 B 6
+uuid: 69bb82de-1993-440c-a1b0-8d37919b48b6
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -40,13 +40,13 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 
 * SDK에서 데이터를 검색하고 이 데이터를 서버에 전송하려면 `getAllIdentifiersAsync` 메서드를 사용합니다.
 
-   자세한 내용은 저장된 식별자 [검색을](/help/ios/c-mob-privacy-gdpr-ios/c-mob-gdpr-ret-stored-ids-ios.md)참조하십시오.
+   자세한 내용은 저장된 식별자 [검색을 참조하십시오](/help/ios/c-mob-privacy-gdpr-ios/c-mob-gdpr-ret-stored-ids-ios.md).
 
 * 선택 상태를 설정하고 GDPR 데이터 삭제 요청을 지원하려면 다음 설정을 사용합니다.
 
    * `privacyDefault`
    * `setPrivacyStatus`
-   자세한 내용은 사용자의 선택 상태 [설정을](/help/ios/c-mob-privacy-gdpr-ios/privacy.md)참조하십시오.
+   자세한 내용은 [사용자의 옵트 상태 설정을 참조하십시오](/help/ios/c-mob-privacy-gdpr-ios/privacy.md).
 
 ## 추가 정보 {#section_7C7124C50D85469C8C8714533FB1A37D}
 
