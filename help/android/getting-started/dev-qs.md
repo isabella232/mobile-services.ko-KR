@@ -1,12 +1,12 @@
 ---
 description: 다음은 Android 라이브러리를 구현하고 시작, 업그레이드, 세션, 참여 사용자 등의 라이프사이클 지표를 수집하는 데 유용한 정보입니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 다음은 Android 라이브러리를 구현하고 시작, 업그레이드, 세션, 참여 사용자 등의 라이프사이클 지표를 수집하는 데 유용한 정보입니다.
 seo-title: 핵심 구현 및 라이프사이클
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 핵심 구현 및 라이프사이클
 topic: 개발자 및 구현
-uuid: AF 4 D 11 AC -8245-46 A 0-9 B 3 A -4 A 0 A 29 CFBBB 2
+uuid: af4d11ac-8245-46a0-9b3a-4a0a29cfbbb2
 translation-type: tm+mt
 source-git-commit: c4da3599c858bfbccb7af954df75f94eb7d8e99a
 
@@ -28,7 +28,7 @@ source-git-commit: c4da3599c858bfbccb7af954df75f94eb7d8e99a
    * [보고서 세트 생성](/help/android/getting-started/requirements.md)
    * [SDK 다운로드](/help/android/getting-started/requirements.md)
 
-1. `[Your_App_Name_]AdobeMobileLibrary-4.*-Android.zip` 파일을 다운로드 및 압축 해제하고 다음 소프트웨어 구성 요소가 있는지 확인합니다.
+1. 파일을 다운로드 및 압축 해제하고 다음 소프트웨어 구성 요소가 있는지 확인합니다. `[Your_App_Name_]AdobeMobileLibrary-4.*-Android.zip`
 
    * `adobeMobileLibrary.jar`Android 장치 및 시뮬레이터와 함께 사용할 라이브러리입니다.
 
@@ -39,7 +39,7 @@ source-git-commit: c4da3599c858bfbccb7af954df75f94eb7d8e99a
 
 ## Add the SDK and config file to your IntelliJ IDEA or Eclipse project {#section_B89510FBB4C646AEA73A185B966E54D3}
 
-**Intellij IDEA Project**
+**IntelliJ IDEA 프로젝트**
 
 프로젝트에 SDK 및 구성 파일을 추가하려면
 
@@ -47,8 +47,8 @@ source-git-commit: c4da3599c858bfbccb7af954df75f94eb7d8e99a
 
 1. 프로젝트 탐색 패널에서 프로젝트를 마우스 오른쪽 단추로 클릭합니다.
 1. **[!UICONTROL 모듈 설정 열기를 선택합니다]**.
-1. **[!UICONTROL 프로젝트 설정에서]****[!UICONTROL 라이브러리를]**&#x200B;선택합니다.
-1. **[!UICONTROL +]** 아이콘을 클릭하여 새 라이브러리를 추가합니다.
+1. Under **[!UICONTROL Project Settings]**, select **[!UICONTROL Libraries]**.
+1. Click the **[!UICONTROL +]** icon to add a new library.
 1. **[!UICONTROL Java]**&#x200B;를 선택하고 `adobeMobileLibrary.jar` 파일로 이동합니다.
 1. 모바일 라이브러리를 사용할 모듈을 선택합니다.
 1. **[!UICONTROL 적용]**&#x200B;을 클릭한 다음 **[!UICONTROL 확인]을 클릭하여 모듈 설정 창을 닫습니다.**
@@ -58,8 +58,8 @@ source-git-commit: c4da3599c858bfbccb7af954df75f94eb7d8e99a
 프로젝트에 SDK 및 구성 파일을 추가하려면
 
 1. Add the `ADBMobileConfig.json` file to the `assets` folder in your project.
-1. **[!UICONTROL Eclipse IDE]**&#x200B;에서 프로젝트 이름을 마우스 오른쪽 버튼으로 클릭합니다.
-1. **[!UICONTROL 작성 경로]** &gt; 외부 아카이브 **[!UICONTROL 추가를]**&#x200B;클릭합니다.
+1. In **[!UICONTROL Eclipse IDE]**, right-click the project name.
+1. Click  **[!UICONTROL Build Path]** &gt; **[!UICONTROL Add External Archives]**.
 1. 선택 `adobeMobileLibrary.jar`.
 1. **[!UICONTROL 열기를 클릭합니다]**.
 1. Right-click the project again and select **[!UICONTROL Build Path]** &gt; **[!UICONTROL Configure Build Path]**.
@@ -81,7 +81,7 @@ AppMeasurement 라이브러리를 사용하려면 데이터를 전송하고 오�
 
 ## Set the application context {#set-application-context}
 
-다음 코드는 주 활동의 `onCreate` 메서드에 추가해야 합니다.
+주 활동의 `onCreate` 메서드에 다음 코드를 추가해야 합니다.
 
 ```java
    @Override
@@ -125,9 +125,9 @@ AppMeasurement 라이브러리를 사용하려면 데이터를 전송하고 오�
 
 >[!IMPORTANT]
 >
->정확한 충돌 보고를 위해 모든 활동에 이러한 호출을 추가해야 합니다. 자세한 내용은 앱 충돌 [추적을](/help/android/analytics-main/crashes.md)참조하십시오.
+>정확한 충돌 보고를 위해 모든 활동에 이러한 호출을 추가해야 합니다. 자세한 내용은 앱 충돌 [추적을 참조하십시오](/help/android/analytics-main/crashes.md).
 
-## 라이프사이클 호출을 사용하여 추가 데이터 포함
+## 라이프사이클 호출과 함께 추가 데이터 포함
 
 라이프사이클 지표 호출을 통해 추가 데이터를 포함하려면 컨텍스트 데이터가 포함된 `collectLifecycleData`에 추가 매개 변수를 전달하십시오.
 
