@@ -2,9 +2,9 @@
 description: 다음은 장치 지문 파일을 기반으로 하는 기존 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
 seo-description: 다음은 장치 지문 파일을 기반으로 하는 기존 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
 seo-title: 기존 획득 테스트
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 기존 획득 테스트
-uuid: E 0591 F 4 A-E 26 B -4 FE 4-97 C 1-A 6831 A 926 FA 5
+uuid: e0591f4a-e26b-4fe4-97c1-a6831a926fa5
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
@@ -17,7 +17,7 @@ source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 모바일 앱이 아직 Google Play에 없을 경우 캠페인 링크를 생성할 때 모바일 앱을 대상으로 선택할 수 있습니다. 이 작업은 획득 링크를 클릭한 후 획득 서버가 사용자를 리디렉션하는 앱에만 영향을 미치며, 획득 링크를 테스트하는 기능에는 영향을 미치지 않습니다.
 
-1. Navigate to **[!UICONTROL Use Legacy Acquisition Links]** in Adobe Mobile Services and generate an acquisition campaign URL.
+1. **[!UICONTROL Adobe Mobile Services]에서 기존 획득 링크 사용으로 이동하고 획득 캠페인 URL을 생성합니다.**
 
    자세한 내용은 [기존 획득 링크 사용](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md)을 참조하십시오.
 
