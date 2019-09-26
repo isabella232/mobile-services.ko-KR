@@ -3,7 +3,7 @@ description: 타겟 미리 보기를 사용하면 타겟 활동에 대해 엔드
 seo-description: 타겟 미리 보기를 사용하면 Target 활동에 대해 엔드투 엔드 QA를 쉽게 수행하고 이러한 활동을 장비에서 미리 볼 수 있습니다.
 seo-title: iOS에서 타겟 미리 보기
 title: iOS에서 타겟 미리 보기
-uuid: D 92867 A 4-0569-4732-A 928-28 F 9 E 2 F 8 B 21 E
+uuid: d92867a4-0569-4732-a928-28f9e2f8b21e
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
@@ -20,7 +20,7 @@ For more information on how to set up and use Target Preview, see [Target Mobile
 >
 >Target 미리 보기를 사용하려면 SDK 버전 4.14.0 이상이 필요합니다.
 
-## Target 미리 보기 메서드
+## Target 미리 보기 방법
 
 * **setPreviewRestartDeeplink**
 
