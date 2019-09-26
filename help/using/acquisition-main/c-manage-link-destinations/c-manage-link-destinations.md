@@ -1,12 +1,12 @@
 ---
-description: 링크 대상 관리 페이지에서 링크 대상을 작성, 편집, 보관/보관 해제 및 삭제할 수 있습니다. 이러한 대상은 마케팅 링크, 푸시 알림 또는 인앱 메시지를 빌드할 때 인라인으로 불릴 수 있습니다.
+description: 링크 대상 관리 페이지에서 링크 대상을 작성, 편집, 보관/보관 해제 및 삭제할 수 있습니다. These destinations can be called inline when building Marketing Links, push notifications, or in-app messages.
 keywords: mobile
-seo-description: 링크 대상 관리 페이지에서 링크 대상을 작성, 편집, 보관/보관 해제 및 삭제할 수 있습니다. 이러한 대상은 마케팅 링크, 푸시 알림 또는 인앱 메시지를 빌드할 때 인라인으로 불릴 수 있습니다.
+seo-description: 링크 대상 관리 페이지에서 링크 대상을 작성, 편집, 보관/보관 해제 및 삭제할 수 있습니다. 이러한 대상은 마케팅 링크, 푸시 알림 또는 인앱 메시지를 빌드할 때 인라인으로 호출할 수 있습니다.
 seo-title: 링크 대상 작성 및 관리
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 링크 대상 작성 및 관리
 topic: 지표
-uuid: 43930 E 3 A -6 A 11-40 C 6-8 A 61-6732 A 673 DAC 7
+uuid: 43930e3a-6a11-40c6-8a61-6732a673dac7
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -15,7 +15,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 # 링크 대상 만들기 및 관리{#create-and-manage-link-destinations}
 
-링크 대상 관리 페이지에서 링크 대상을 작성, 편집, 보관/보관 해제 및 삭제할 수 있습니다. 이러한 대상은 마케팅 링크, 푸시 알림 또는 인앱 메시지를 빌드할 때 인라인으로 불릴 수 있습니다.
+링크 대상 관리 페이지에서 링크 대상을 작성, 편집, 보관/보관 해제 및 삭제할 수 있습니다. 이러한 대상은 마케팅 링크, 푸시 알림 또는 인앱 메시지를 빌드할 때 인라인으로 호출할 수 있습니다.
 
 링크 대상 관리 페이지를 표시하려면 다음 단계를 따르세요. 
 
@@ -23,7 +23,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 1. 앱 이름을 클릭하여 해당 앱 정보 페이지를 표시합니다.
 1. 오른쪽 상단에서 **[!UICONTROL 링크 대상 관리를 클릭합니다]**.
 
-링크 대상 페이지에는 링크 대상이 표시되고 링크 대상을 생성, 보관, 아카이브 취소, 편집 및 삭제하는 옵션이 제공됩니다.
+The Link Destinations page displays your link destinations and provides options to create, archive, unarchive, edit, and delete link destinations.
 
 예:
 
