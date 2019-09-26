@@ -3,7 +3,7 @@ description: Adobe Mobile Services UI에서 딥링크 URL을 구성하면 이 UR
 seo-description: Adobe Mobile Services UI에서 딥링크 URL을 구성하면 이 URL은 adb_deeplink 키를 사용하여 푸시 페이로드에 저장됩니다.
 seo-title: 딥링크로 푸시 메시지 구현
 title: 딥링크로 푸시 메시지 구현
-uuid: EE 9590 FC -8 BD 3-4111-9221-9011 D 9 EDBD 84
+uuid: ee9590fc-8bd3-4111-9221-9011d9edbd84
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
@@ -22,11 +22,11 @@ Adobe Mobile Services UI에서 딥링크 URL을 구성하면 이 URL은 `adb_dee
 
    * 원격 알림용 위임 메서드
 
-      `didReceiveRemoteNotification:` 응용 프로그램 또는 `didReceiveRemoteNotification:fetchCompletionHandler:` 응용 프로그램에서 키가 있는 `userInfo` 사전으로 이동하여 URL를 얻을 `adb_deeplink` 수 있습니다.
+      In the `didReceiveRemoteNotification:` application or in the `didReceiveRemoteNotification:fetchCompletionHandler:` application, you can get the URL by accessing the `userInfo` dictionary with the `adb_deeplink` key.
 
    * The delegate methods for `UNUserNotificationCenter`
 
-      `userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:` 메서드에서 `userInfo` 사전의 푸시 페이로드를 `adb_deeplink` 키에서 가져올 수 있습니다.
+      In the `userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:` method, you can get the push payload from the `userInfo` dictionary, in the `adb_deeplink` key.
 
 예:
 
