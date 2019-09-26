@@ -1,22 +1,22 @@
 ---
 description: 이 섹션에서는 이전 Windows mobile SDK의 3.x 버전에서 Experience Cloud 솔루션용 Universal Windows Platform 4.x SDK로 마이그레이션하는 방법에 대해 설명합니다.
 seo-description: 이 섹션에서는 이전 Windows mobile SDK의 3.x 버전에서 Experience Cloud 솔루션용 Universal Windows Platform 4.x SDK로 마이그레이션하는 방법에 대해 설명합니다.
-seo-title: 4. x로 마이그레이션
-solution: Marketing Cloud, Analytics
-title: 4. x로 마이그레이션
+seo-title: Migrate to 4.x
+solution: Marketing Cloud,Analytics
+title: Migrate to 4.x
 topic: 개발자 및 구현
-uuid: BDD 6 C 5 CD -3892-4 E 99-B 69 E -77105 AD 66 E 25
+uuid: bdd6c5cd-3892-4e99-b69e-77105ad66e25
 translation-type: tm+mt
 source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 ---
 
 
-# 4. x SDK로 마이그레이션{#migrate-to-x}
+# Migrate to the 4.x SDKs{#migrate-to-x}
 
-이 섹션에서는 3. x 버전의 Windows Mobile SDK에서 Experience Cloud 솔루션용 Universal Windows Platform 4. x SDK로 마이그레이션하는 방법에 대해 설명합니다.
+이 섹션에서는 Windows 모바일 SDK의 3.x 버전에서 Experience Cloud 솔루션용 Universal Windows Platform 4.x SDK로 마이그레이션하는 방법에 대해 설명합니다.
 
-이제 버전 4. x로 이동하면 정적 메서드를 통해 모든 기능에 액세스할 수 있습니다. 더 이상 자신의 개체를 추적할 필요가 없습니다.
+버전 4.x로 이동하면 이제 정적 메서드를 통해 모든 기능에 액세스할 수 있습니다. You no longer need to keep track of your own objects.
 
 다음 섹션에서는 버전 3.x에서 버전 4.x로 마이그레이션하는 방법을 설명합니다.
 
@@ -56,7 +56,7 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 ### 3.x에서 마이그레이션 중
 
-다음 표에서는 3. x SDK의 변수 목록과 4. x SDK의 새 이름을 제공합니다.
+The following table provides a list of variables in the 3.x SDKs and the new name in the 4.x SDKs:
 
 | 구성 변수/메서드 | Variable in the `ADBMobileConfig.json` file. |
 |--- |--- |
@@ -80,9 +80,9 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 이 두 메서드의 `contextData` 매개 변수는 컨텍스트 데이터로 전송되는 이름 - 값 쌍을 포함합니다.
 
-### 이벤트, prop, evar
+### 이벤트, prop, eVar
 
-[SDK 방법을](/help/universal-windows/c-configuration/methods.md)확인한 경우, 이벤트, evar, prop, heirs 및 목록을 설정하는 위치를 생각해 보십시오. 버전 4에서는 더 이상 이러한 유형의 변수를 앱에서 직접 할당할 수 없습니다. 대신 SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 Analytics 변수에 앱 데이터를 매핑하여 보고합니다.
+If you've looked at the SDK methods, you are probably wondering where to set events, eVars, props, heirs, and lists. [](/help/universal-windows/c-configuration/methods.md) 버전 4에서는 더 이상 이러한 유형의 변수를 앱에서 직접 할당할 수 없습니다. 대신 SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 Analytics 변수에 앱 데이터를 매핑하여 보고합니다.
 
 처리 규칙은 다음과 같은 이점을 제공합니다.
 
@@ -90,15 +90,15 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 * 보고서 세트와 관련된 변수를 설정하는 대신 의미 있는 이름을 데이터에 사용할 수 있습니다.
 * 추가 데이터를 보내는 작업에는 거의 영향을 미치지 않습니다. 이러한 값은 처리 규칙을 사용하여 매핑될 때까지 보고서에 표시되지 않습니다.
 
-자세한 내용은 분석 개요의 *처리 규칙* 섹션을 [참조하십시오](/help/universal-windows/analytics/analytics.md).
+For more information, see the Processing rules section in Analytics overview.**[](/help/universal-windows/analytics/analytics.md)
 
 변수에 직접 할당한 값은 대신 컨텍스트 데이터에 추가해야 합니다. This means that calls to `SetProp`, `SetEvar`, and assignments to persistent context data should all be removed and the values added to context data.
 
-### Appsection/서버, geozip, 거래 ID, 캠페인 및 기타 표준 변수
+### AppSection/Server, GeoZip, transaction ID, Campaign, and other standard variables
 
-위에 나열된 변수를 포함하여 측정 개체에 설정한 다른 모든 데이터는 대신 컨텍스트 데이터에 추가해야 합니다. 즉, `TrackState` OR `TrackAction` 호출로 전송된 데이터만 `data` 매개 변수의 페이로드입니다.
+위에 나열된 변수를 포함하여 측정 개체에 설정한 다른 모든 데이터는 대신 컨텍스트 데이터에 추가해야 합니다. That is, the only data sent in with a  or  call is the payload in the  parameter.`TrackState``TrackAction``data`
 
-**추적 호출 바꾸기**
+**Replace tracking calls**
 
 코드에서 다음 메서드를 `trackState` 또는 `trackAction` 호출로 바꿉니다.
 
@@ -111,11 +111,11 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 ## 사용자 지정 ID 서비스 {#section_2CF930C13BA64F04959846E578B608F3}
 
-`visitorID` 변수를 호출로 바꿉니다 `setUserIdentifier`.
+Replace the `visitorID` variable with a call to `setUserIdentifier`.
 
 ## Offline tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
 
-파일에서 오프라인 추적이 활성화되어 `ADBMobileConfig.json` 있습니다. 다른 모든 오프라인 구성은 자동으로 수행됩니다.
+Offline tracking is enabled in the  file. `ADBMobileConfig.json` All other offline configuration is done automatically.
 
 코드에서 다음 메서드 호출을 제거하십시오.
 
