@@ -2,10 +2,10 @@
 description: '상태는 애플리케이션의 다양한 화면 또는 보기입니다. 새로운 상태가 애플리케이션에 표시될 때마다(예: 사용자가 홈페이지에서 뉴스피드로 이동할 때) 상태 추적 호출을 보내야 합니다. iOS에서 상태는 일반적으로 각 보기의 viewDidLoad 메서드에서 추적됩니다.'
 seo-description: '상태는 애플리케이션의 다양한 화면 또는 보기입니다. 새로운 상태가 애플리케이션에 표시될 때마다(예: 사용자가 홈페이지에서 뉴스피드로 이동할 때) 상태 추적 호출을 보내야 합니다. iOS에서 상태는 일반적으로 각 보기의 viewDidLoad 메서드에서 추적됩니다.'
 seo-title: 앱 상태 추적
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 앱 상태 추적
 topic: 개발자 및 구현
-uuid: 12 cca 4 eb -1 f 15-4 cec-a 58 f -76 b 69 eaff 99 d
+uuid: 12cca4eb-1f15-4cec-a58f-76b69eaff99d
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -24,7 +24,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 1. 프로젝트에 라이브러리를 추가하고 라이프사이클을 구현합니다.
 
-   자세한 내용은 핵심 구현 *및* 라이프사이클에서 [프로젝트에 SDK 및 구성 파일 추가를](/help/ios/getting-started/dev-qs.md)참조하십시오.
+   For more information, see Add the SDK and Config File to your Project in Core Implementation and Lifecycle.**[](/help/ios/getting-started/dev-qs.md)
 1. 라이브러리를 가져옵니다.
 
    ```objective-c
@@ -42,7 +42,7 @@ In Adobe Mobile services, the **[!UICONTROL State Name]** is reported in the *`V
 
 ## Sending additional data {#section_CFDB4F944496401786A145C209AB387C}
 
-**[!UICONTROL 상태 이름]**&#x200B;외에도 각 추적 작업 호출을 사용하여 추가 컨텍스트 데이터를 보낼 수 있습니다.
+In addition to the **[!UICONTROL State Name]**, you can send additional context data with each track action call:
 
 ```objective-c
 NSMutableDictionary *contextData = [NSMutableDictionary dictionary]; 
