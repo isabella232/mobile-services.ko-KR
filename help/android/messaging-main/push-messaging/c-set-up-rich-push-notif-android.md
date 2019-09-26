@@ -3,7 +3,7 @@ description: Android 알림에 이미지 파일을 첨부할 수 있습니다. �
 seo-description: Android 알림에 이미지 파일을 첨부할 수 있습니다. 시각적 구성 요소를 추가하면 푸시 알림을 통한 사용자 참여도를 크게 높일 수 있습니다.
 seo-title: 리치 푸시 알림 수신
 title: 리치 푸시 알림 수신
-uuid: 4 A 0340 A 6-666 B -49 B 6-907 A -9 AFC 966 DFDBA
+uuid: 4a0340a6-666b-49b6-907a-9afc966dfdba
 translation-type: tm+mt
 source-git-commit: dca3663986b3ecc6e9fb736cc99513279715225c
 
@@ -30,7 +30,7 @@ Android 알림에 이미지 파일을 첨부할 수 있습니다. 시각적 구�
 
 >[!IMPORTANT]
 >
->`onMessageReceived()` 구현이 포함된 클래스는 수신한 데이터를 처리합니다.
+>구현이 포함된 클래스는 `onMessageReceived()` 수신되는 데이터를 처리합니다.
 
 If the push message contains a Media URL, the URL will be available in the `RemoteMessage` parameter that is passed to the `onMessageReceived()` function. 사용할 키는 다음 코드 샘플에서와 같이 `attachment-url`입니다.
 
