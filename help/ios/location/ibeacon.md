@@ -2,10 +2,10 @@
 description: iBeacon 추적을 사용하면 iBeacon 및 저전력 블루투스를 사용하여 미세 위치를 측정하고 타깃팅할 수 있습니다.
 seo-description: iBeacon 추적을 사용하면 iBeacon 및 저전력 블루투스를 사용하여 미세 위치를 측정하고 타깃팅할 수 있습니다.
 seo-title: iBeacon 추적
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: iBeacon 추적
 topic: 개발자 및 구현
-uuid: 390883 DB -027 E -4 D 12-8 A 16-86 D 514579 DB 1
+uuid: 390883db-027e-4d12-8a16-86d514579db1
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -18,7 +18,7 @@ iBeacon 추적을 사용하면 iBeacon 및 저전력 블루투스를 사용하�
 
 `trackBeacon`이 호출되면 다음 비콘 데이터가 Analytics 및 Target으로 전송됩니다.
 
-* `a.beacon.uuid` - 비콘의 Proximityuuid
+* `a.beacon.uuid` - ProximityUUID of the beacon
 * `a.beacon.major` - 주 비콘 번호(예: 스토어 번호)
 * `a.beacon.minor` - 부 비콘 번호(예: 스토어 내 고유 번호)
 * `a.beacon.prox` - 다음 값은 사용자와 비콘이 얼마나 가까운지 나타냅니다.
@@ -28,11 +28,11 @@ iBeacon 추적을 사용하면 iBeacon 및 저전력 블루투스를 사용하�
    * `2`: 근처에 있음
    * `3`: 멀리 있음
 
-## Ibeacons 추적 {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
+## Track iBeacons {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
 
 1. 프로젝트에 라이브러리를 추가하고 라이프사이클을 구현합니다.
 
-   자세한 내용은 핵심 구현 *및* 라이프사이클에서 [프로젝트에 SDK 및 구성 파일 추가를](/help/ios/getting-started/dev-qs.md)참조하십시오.
+   자세한 내용은 핵심 구현 *및 라이프사이클에서 SDK 및 구성* 파일을 프로젝트에 [추가를 참조하십시오](/help/ios/getting-started/dev-qs.md).
 1. 라이브러리를 가져옵니다:
 
    ```objective-c
