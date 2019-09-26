@@ -2,10 +2,10 @@
 description: 다음은 ADBMobile.json 구성 파일을 사용하는 데 유용한 정보입니다.
 seo-description: 다음은 ADBMobile.json 구성 파일을 사용하는 데 유용한 정보입니다.
 seo-title: ADBMobile JSON 구성
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: ADBMobile JSON 구성
 topic: 개발자 및 구현
-uuid: 1 Decf 605-7 BC 3-4 E 73-AD 52-1 ECD 5821599 E
+uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
 translation-type: tm+mt
 source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
@@ -14,7 +14,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 # ADBMobile JSON config file {#adbmobile-json-config}
 
-이 정보는 adbmobile. json 구성 파일의 변수를 이해하는 데 도움이 됩니다.
+This information helps you understand the variables in the ADBMobile.json config file.
 
 ## `ADBMobileConfig.json` 구성 파일 참조 {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
 
@@ -22,19 +22,19 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 >[!TIP]
 >
->**Android**&#x200B;에서는 `ADBMobileConfig.json``assets` 파일을 폴더에 저장해야 합니다.
+>In **Android**, the `ADBMobileConfig.json` file must be placed in the `assets` folder.
 
-다음은 JSON 파일의 변수 목록과 각 변수에 필요한 최소 SDK 버전입니다.
+Here is a list of the variables in the JSON file and the minimum SDK version you need for each variable:
 
-* **고객 확보**
+* **acquisition**
    * 최소 SDK 버전: 4.1
    * 모바일 앱 획득을 사용하도록 설정합니다.
       * `server` - 처음 시작 시 획득 레퍼러가 확인된 획득 서버입니다.
       * `appid` - 획득 서버에서 이 앱을 고유하게 식별하는, 생성된 ID입니다.
-   이 섹션이 없으면 모바일 앱 획득을 사용하도록 설정하고 SDK 구성 파일을 다시 다운로드하십시오. 자세한 내용은 이 변수 목록에서 *Referrertimeout* 를 참조하십시오.
+   이 섹션이 없으면 모바일 앱 획득을 사용하도록 설정하고 SDK 구성 파일을 다시 다운로드하십시오. For more information, see referrerTimeout in this list of variables.**
 
 * **analyticsForwardingEnabled**
-   * 최소 SDK 버전은 4.8.0 입니다.
+   * 최소 SDK 버전은 4.8.0입니다.
    * 기본값은 `false`입니다.
 
       `audienceManager` 개체의 속성입니다. Audience Manager가 구성되어 있고 `analyticsForwardingEnabled`가 `true`로 설정된 경우 모든 Analytics 트래픽도 Audience Manager로 전달됩니다.
@@ -53,7 +53,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
          >[!IMPORTANT]
          >
-         >백데이트된 세션 히트 정보가 세션 정보 서버 호출로 전송되고 추가 서버 호출이 적용될 수 있습니다.
+         >백데이트된 세션 히트 정보는 세션 정보 서버 호출에서 전송되며 추가 서버 호출이 적용될 수 있습니다.
 
 * **batchLimit**
    * 최소 SDK 버전: 4.1
@@ -64,7 +64,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
       다음 정보를 숙지하십시오.
 
       * 기본값은 `0`이며, 이 경우 일괄 처리를 사용할 수 없습니다.
-      * `offlineEnabled = true`필수.
+      * 필요 `offlineEnabled = true`.
 
 * **charset**
    * 최소 SDK 버전: 4.0
@@ -82,7 +82,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 * **coopUnsafe**
    * 최소 SDK 버전: 4.16.1
-   * `marketingCloud` 로 설정하면 장치가 Experience Cloud의 Device `true`Co-op에서 옵트아웃되는 객체의 부울 속성입니다.
+   * The Boolean property of the `marketingCloud` object that, when set to `true`, causes the device to be opted-out of the Experience Cloud's Device Co-Op.
    * Default value is `false`.
    * 이 설정은 Device Co-op 프로비저닝 고객&#x200B;**에게만** 사용됩니다.
    이 값을`true` 로 설정해야 하는 Device Co-op 멤버의 경우, Device Co-op 계정에서 블랙리스트 플래그를 요청하려면 Co-op 팀과 작업해야 합니다. 이 플래그를 활성화하기 위한 셀프 서비스 경로가 없습니다.
@@ -154,7 +154,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
       …/yourfile.json”`,
       ```
 
-      이 설정을 구성하지 않으면 이 행을 포함하도록 `ADBMobile.json` 파일을 업데이트해야 합니다. 업데이트된 구성 파일을 다운로드하려면 [시작하기 전에 참조하십시오](/help/android/getting-started/requirements.md).
+      이 설정을 구성하지 않으면 이 행을 포함하도록 `ADBMobile.json` 파일을 업데이트해야 합니다. 업데이트된 구성 파일을 다운로드하려면 시작하기 [전에 을 참조하십시오](/help/android/getting-started/requirements.md).
 
 * **postback**
    * 최소 SDK 버전: 4.6
@@ -185,7 +185,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
       >[!IMPORTANT]
       >
-      >이 변수는 획득에 필요합니다. 이 변수를 `0`으로 설정하거나 이 변수를 포함하지 않는 경우 SDK는 획득 데이터를 기다리지 않고 획득 지표가 추적되지 않습니다.
+      >This variable is required by Acquisition. 이 변수를 `0`으로 설정하거나 이 변수를 포함하지 않는 경우 SDK는 획득 데이터를 기다리지 않고 획득 지표가 추적되지 않습니다.
 
 * **remotes**
    * 최소 SDK 버전: 4.2
@@ -209,7 +209,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
       >[!IMPORTANT]
       >
-      >이 변수는 Analytics에서 필요합니다.
+      >This variable is required by Analytics.
 
 * **server**
    * 최소 SDK 버전: 4.0
@@ -340,7 +340,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
       * 전체 화면 이미지에 사용할 이미지 URL
    * "altImage"
       * 전체 화면 전용, 선택 사항
-      * 에 지정된 URL 이
+      * URL이
          * 이미지
          * 에 지정된 URL에 연결할 수 없는 경우 번들 이미지의 이름
    * "title"
@@ -383,7 +383,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * gt = 보다 큼
    * ge = 보다 크거나 같음
 * "values"
-   * 변수에서
+   * 에 있는
       * key
       * 에 이름이 지정된 변수 값과 일치시키는 데 사용되는 값의 배열(사용되는 일치 유형:
       * matches
