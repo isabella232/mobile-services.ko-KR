@@ -1,27 +1,27 @@
 ---
-description: URL 매개 변수를 수동으로 구성하여 새 모바일 앱 사용자를 즉석에서 확보하는 마케팅 링크를 만들 수 있습니다.
+description: You can create Marketing Links to acquire new mobile app users on-the-fly by manually configuring the URL parameters.
 keywords: mobile
-seo-description: URL 매개 변수를 수동으로 구성하여 새 모바일 앱 사용자를 즉석에서 확보하는 마케팅 링크를 만들 수 있습니다.
-seo-title: 획득 링크 수동으로 만들기
-solution: Marketing Cloud, Analytics
-title: 획득 링크 수동으로 만들기
+seo-description: URL 매개 변수를 수동으로 구성하여 새로운 모바일 앱 사용자를 즉석에서 획득하는 마케팅 링크를 만들 수 있습니다.
+seo-title: 획득 링크 수동 만들기
+solution: Marketing Cloud,Analytics
+title: 획득 링크 수동 만들기
 topic: 지표
-uuid: D 7709203-F 793-4982-ADAA -9 C 3 C 914 ACA 2 B
+uuid: d7709203-f793-4982-adaa-9c3c914aca2b
 translation-type: tm+mt
 source-git-commit: 54e3b2d673356a616987537d20758bef8b044db4
 
 ---
 
 
-# 획득 링크 수동으로 만들기 {#create-acquisition-link-manually}
+# Manually create Acquisition links {#create-acquisition-link-manually}
 
-URL 매개 변수를 수동으로 구성하여 새 모바일 앱 사용자를 즉석에서 확보하는 마케팅 링크를 만들 수 있습니다.
+URL 매개 변수를 수동으로 구성하여 새로운 모바일 앱 사용자를 즉석에서 획득하는 마케팅 링크를 만들 수 있습니다.
 
 >[!IMPORTANT]
 >
->이 기능을 사용하려면 SDK 버전 4.6 이상이 필요합니다. 자세한 내용은 [획득 전제 조건을](/help/using/acquisition-main/c-acquisition-prerequisites.md)참조하십시오.
+>이 기능을 사용하려면 SDK 버전 4.6 이상이 필요합니다. For more information, see Acquisition prerequisites.[](/help/using/acquisition-main/c-acquisition-prerequisites.md)
 
-다음 다이어그램은 수동으로 작성한 추적 링크의 구성 요소를 보여주며 획득 링크를 수동으로 만들 때 적절히 구성해야 하는 다양한 URL 매개 변수를 표시합니다.
+The following diagram illustrates the components of a manually built tracking link and displays the different URL parameters that you must properly configure when manually creating acquisition links.
 
 ![](assets/acquisition_url.png)
 
@@ -33,7 +33,7 @@ URL 매개 변수를 수동으로 구성하여 새 모바일 앱 사용자를 �
 
 >[!TIP]
 >
->사용 중인 Android SDK 버전은 이 프로세스에 영향을 주지 않습니다.
+>The version of Android SDK you are using has no impact on this process.
 
 iOS의 경우 올바른 프로토콜을 사용하는지 확인합니다.
 
@@ -48,7 +48,7 @@ iOS의 경우 올바른 프로토콜을 사용하는지 확인합니다.
 
    ![](assets/tracking-id.png)
 
-* `{parameters}` 은 특별히 URL 쿼리 매개 변수라는 이름의 표준 목록입니다.
+* `{parameters}` 은 특별히 URL 쿼리 매개 변수라고 하는 표준 목록입니다.
 
 다음은 매개 변수 목록입니다.
 
@@ -90,7 +90,7 @@ iOS의 경우 올바른 프로토콜을 사용하는지 확인합니다.
 
 * **`ctx*`**
 
-   접두사가 앞에 붙는 키는 `ctx` 결과 론치 히트의 컨텍스트 데이터에 있게 됩니다.
+   접두사가 `ctx` 있는 키는 결과 실행 히트의 컨텍스트 데이터에 있습니다.
 
    * 샘플 값: `ctxmy.custom.key=myValue`
 
@@ -100,7 +100,7 @@ iOS의 경우 올바른 프로토콜을 사용하는지 확인합니다.
 
    이 매개 변수는 다른 획득 링크의 성과를 비교하려는 경우 보고에 필요합니다.
 
-   * 샘플 값: 2015 Summit Conference
+   * 샘플 값:2015년 Summit Conference
 
 * **`ctxa.referrer.campaign.trackingcode`**
 
@@ -112,33 +112,33 @@ iOS의 경우 올바른 프로토콜을 사용하는지 확인합니다.
 
 * **`ctxa.referrer.campaign.source`**
 
-   소스.
+   출처.
 
-   * 샘플 값: 광고 네트워크
+   * 샘플 값:광고 네트워크
 
 * **`ctxa.referrer.campaign.medium`**
 
    보통
 
-   * 샘플 값: 이메일
+   * 샘플 값:이메일
 
 * **`ctxa.referrer.campaign.content`**
 
    컨텐츠
 
-   * 샘플 값: image # 325689
+   * 샘플 값:이미지 번호 325689
 
 * **`ctxa.referrer.campaign.term`**
 
    용어
 
-   * 샘플 값: Hiking + Boots
+   * 샘플 값:hiking+boots
 
 
 획득 링크를 수동으로 만들 때는 다음 정보를 기억하십시오.
 
 * 표에 있는 매개 변수와 일치하지 않는 매개 변수는 모두 앱스토어 리디렉션의 일부로 전달됩니다.
-* 하나 이상의 스토어 ID가 지정되면 링크가 작동하지 않지만 모든 매개 변수는 기술적으로 선택 사항입니다.
+* 스토어 ID가 하나 이상 지정된 경우 링크가 작동하지 않지만 모든 매개 변수는 기술적으로 선택 사항입니다.
 
    An example of a store ID is `a_g_id`/ `a_i_id`.
 
