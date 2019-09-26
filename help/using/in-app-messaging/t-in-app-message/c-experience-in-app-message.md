@@ -2,11 +2,11 @@
 description: 표시 유형(전체 화면, 경고 또는 알림), 텍스트 및 단추 옵션 등 인앱 메시지의 환경 옵션을 구성합니다.
 keywords: mobile
 seo-description: 표시 유형(전체 화면, 경고 또는 알림), 텍스트 및 단추 옵션 등 인앱 메시지의 환경 옵션을 구성합니다.
-seo-title: 앱 내 메시지 사용
-solution: Marketing Cloud, Analytics
-title: 앱 내 메시지 사용
+seo-title: 경험 인앱 메시지
+solution: Marketing Cloud,Analytics
+title: 경험 인앱 메시지
 topic: 지표
-uuid: 4 C 6 D 6756-47 FB -4 F 1 B -8338-0 B 0 C 9 B 0 FCEB 0
+uuid: 4c6d6756-47fb-4f1b-8338-0b0c9b0fceb0
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -21,8 +21,8 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 1. 환경 페이지에서 메시지 이름을 입력합니다.
 1. **[!UICONTROL 유형]섹션의 필드를 작성합니다.**
 
-   * **[!UICONTROL 입력]**
-인앱 메시지 캠페인에 대한 메시지 유형을 선택합니다.
+   * **[!UICONTROL Type
+Select the message type for your in-app message campaign:]**
 
       * **[!UICONTROL 전체 화면]**
       * **[!UICONTROL 경고]**
@@ -79,7 +79,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
    * **[!UICONTROL 클릭스루 단추]**
 
-      **[!UICONTROL 클릭스루]단추에 대한 레이블입니다.** 이 단추를 누르면 성공한 클릭스루로 계산됩니다. 사용자가 대상으로 리디렉션됩니다.
+      **[!UICONTROL 클릭스루]단추에 대한 레이블입니다.** 이 단추를 누르면 성공적인 클릭스루로 카운트됩니다. 사용자가 대상으로 리디렉션됩니다.
 
    * **[!UICONTROL 대상]**
 
@@ -87,41 +87,41 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
       이 URL에는 다음 정보가 포함될 수 있습니다.
 
-      * `{userId}`를 사용자 식별자로 바꾸거나 사용자 ID가 설정되지 않은 경우 비어 있습니다.
-      * `{trackingId}`로 대체됩니다 *(s_ vi* 쿠키와 상관 관계).
-      * `{messageId}`을 입력합니다.
-      * `{lifetimeValue}`의 값은 라이프타임 값이 없는 경우 라이프타임 값이나 0로 대체됩니다.
+      * `{userId}`으로 대체되거나 사용자 식별자가 설정되지 않은 경우 비어 있게 됩니다.
+      * `{trackingId}`으로 대체됩니다. 이 값은 *s_vi 쿠키와 관련됨* )
+      * `{messageId}`, which is replaced with the unique ID for the in-app message.
+      * `{lifetimeValue}`, which is replaced with the lifetime value or 0 if no lifetime value exists.
       Here is an example of tracking the user ID: `https://www.mysite.com?uid={userId}`.
 
       If the click-through URL uses `https://` or `https://`, the URL opens in the device browser outside the app. 그렇지 않으면 각 플랫폼에서는 앱이 사용자 지정 구성표를 지원하도록 개발된 경우 앱을 열거나 참조할 수 있게 해주는 구성표를 지원합니다.
 
       >[!TIP]
       >
-      >**[!UICONTROL 웹 링크]** 또는 **[!UICONTROL 사용자 지정 링크]** 대상 유형을 사용할 때 대상 유형은 추적되지 않습니다. **[!UICONTROL 딥링크]만 추적됩니다.** 자세한 내용은 [대상을](/help/using/acquisition-main/c-create-destinations.md)참조하십시오.
+      >When you use the **[!UICONTROL Web Link]** or **[!UICONTROL Custom Link]** destination types, the destination type is not tracked. **[!UICONTROL 딥링크]만 추적됩니다.** For more information, see [Destinations](/help/using/acquisition-main/c-create-destinations.md).
 
 
 1. (선택 사항) 다음 아이콘을 클릭하여 메시지 레이아웃을 미리 보기합니다.
 
-   * **[!UICONTROL 요약은]** 미리 보기 창을 숨깁니다.
+   * **[!UICONTROL [요약]** ]은 미리 보기 창을 숨깁니다.
 
       Click ![preview](assets/icon_preview.png) to redisplay the preview pane.
 
-   * **[!UICONTROL 방향 변경]**
+   * **[!UICONTROL Change the orientation]**
 
-      To change the orientation of the preview from portrait to landscape mode, click ![orientation](assets/icon_orientation.png). 시계의 경우 방향이 원형에서 정사각형으로 바뀝니다.
+      To change the orientation of the preview from portrait to landscape mode, click ![orientation](assets/icon_orientation.png). 시계의 경우 방향이 원면에서 정사각형 시계 면으로 변경됩니다.
 
-   * **[!UICONTROL 사용자 보기 미리 보기]**
+   * **[!UICONTROL Preview on a user's watch]**
 
-      메시지가 사용자의 감시 화면에 나타날 때 미리 보려면 ![[감시 아이콘](assets/icon_watch.png)] 를 클릭합니다.
+      To preview your message as it will appear on a user's watch, click watch icon.![](assets/icon_watch.png)
 
-   * **[!UICONTROL 사용자의 휴대폰에서 미리 보기]**
+   * **[!UICONTROL Preview on a user's mobile phone]**
 
-      메시지가 사용자의 휴대폰에 나타날 때 메시지를 미리 보려면 ![전화 아이콘을 클릭합니다](assets/icon_phone.png).
+      To preview your message as it will appear on a users's mobile phone click phone icon.![](assets/icon_phone.png)
 
-   * **[!UICONTROL 사용자의 태블릿에서 미리 보기]**
+   * **[!UICONTROL Preview on a user's tablet]**
 
-      사용자의 태블릿에서 메시지를 미리 보려면 ![태블릿 아이콘을](assets/icon_tablet.png)클릭합니다.
+      To preview your message in a user's tablet, click tablet icon.![](assets/icon_tablet.png)
 
       미리 보기 패널의 맨 아래에서, 이전 단계에서 선택한 대상에 대한 설명을 볼 수 있습니다. 미리 보기 창의 하단에서 이전 단계에서 선택한 대상에 대한 설명을 볼 수도 있습니다.
 
-1. 예약 옵션 구성을 [](/help/using/in-app-messaging/t-in-app-message/c-schedule-in-app-message.md)참조하십시오.
+1. Configure Schedule options.[](/help/using/in-app-messaging/t-in-app-message/c-schedule-in-app-message.md)
