@@ -1,23 +1,23 @@
 ---
 description: 다음은 Android 라이브러리에서 제공하는 Experience Cloud ID 메서드입니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 다음은 Android 라이브러리에서 제공하는 Experience Cloud ID 메서드입니다.
-seo-title: Adobe Experience Platform Identity Service 방식
-solution: Marketing Cloud, Analytics
-title: Adobe Experience Platform Identity Service 방식
+seo-title: Adobe Experience Platform ID 서비스 메서드
+solution: Marketing Cloud,Analytics
+title: Adobe Experience Platform ID 서비스 메서드
 topic: 개발자 및 구현
-uuid: C 5107 A 7 E -273 B -4 F 71-8738-4 C 603479 B 24 C
+uuid: c5107a7e-273b-4f71-8738-4c603479b24c
 translation-type: tm+mt
 source-git-commit: 8fc515a6e89044b9dac98b3f207c5f43b658a2ec
 
 ---
 
 
-# Adobe Experience Platform Identity Service 방식{#experience-cloud-id-service-methods}
+# Adobe Experience Platform ID 서비스 메서드{#experience-cloud-id-service-methods}
 
 다음은 Android 라이브러리에서 제공하는 Experience Cloud ID 메서드입니다.
 
-SDK는 현재 Analytics, Target, Audience Manager 및 Adobe Experience Platform Identity Service를 비롯한 다양한 Adobe Experience Cloud 솔루션을 지원합니다.
+The SDK currently supports multiple Adobe Experience Cloud Solutions], including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service.
 
 Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `visitor`. For more information, see [Experience Cloud ID Configuration](/help/android/c-marketing-cloud/mcvid.md).
 
@@ -27,7 +27,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
 
    >[!IMPORTANT]
    >
-   >이 방법으로 네트워크 호출이 차단될 수 있습니다. 시간이 중요한 스레드에 대해서는 호출하지 마십시오.
+   >This method can cause a blocking network call. 시간이 중요한 스레드에 대해서는 호출하지 마십시오.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -86,7 +86,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
       Visitor.syncIdentifiers(identifiers);
       ```
 
-* **Syncidentifier**
+* **syncIdentifier**
 
    제공된 식별자 유형 및 값을 방문자 ID 서비스에 동기화합니다.
 
@@ -147,9 +147,9 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
       List<VisitorID> myVisitorIDs = Visitor.getIdentifiers(); 
       ```
 
-* **Geturlvariablesasync**
+* **getUrlVariablesAsync**
 
-   4.16.0 버전에 도입된 이 메서드는 방문자 ID 서비스 URL 변수가 포함된 적절한 형식의 문자열을 반환합니다. 이 방법을 사용하는 방법에 대한 자세한 내용은 [Adobe Experience Platform Identity Service 방법을 참조하십시오](/help/android/reference/hybrid-app.md).
+   버전 4.16.0에서 도입된 이 메서드는 방문자 ID 서비스 URL 변수를 포함하는 적절한 형식의 문자열을 반환합니다. 이 방법을 사용하는 방법에 대한 자세한 내용은 Adobe Experience [Platform ID 서비스 메서드를](/help/android/reference/hybrid-app.md)참조하십시오.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
