@@ -1,12 +1,12 @@
 ---
 description: 모바일 라이브러리에서 자동으로 측정할 수 있는 지표와 차원을 나열합니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 모바일 라이브러리에서 자동으로 측정할 수 있는 지표와 차원을 나열합니다.
 seo-title: 라이프사이클 지표
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 라이프사이클 지표
 topic: 개발자 및 구현
-uuid: c 483271 f-f 620-46 f 4-aad 8-d 5 f 02 d 763 f 7 d
+uuid: c483271f-f620-46f4-aad8-d5f02d763f7d
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -17,13 +17,13 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 모바일 라이브러리에서 자동으로 측정할 수 있는 지표와 차원을 나열합니다.
 
-자세한 내용은 라이프사이클 데이터 [문제 해결을](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html)참조하십시오.
+For more information, see Troubleshoot Lifecycle data.[](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html)
 
 ## Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
-구성되면 라이프사이클 지표가 컨텍스트 데이터 매개 변수로 Analytics에 전송되고, 각 mbox 호출을 통해 매개 변수로 Target에 전송되며, Audience Manager에 신호로 전송됩니다. Analytics와 Target는 동일한 형식을 사용하며 Audience Manager는 각 지표에 다른 접두사를 사용합니다.
+구성되면 라이프사이클 지표가 컨텍스트 데이터 매개 변수로 Analytics에 전송되고, 각 mbox 호출을 통해 매개 변수로 Target에 전송되며, Audience Manager에 신호로 전송됩니다. Analytics와 Target은 동일한 형식을 사용하며 Audience Manager는 각 지표에 대해 다른 접두사를 사용합니다.
 
-Analytics의 경우 각 라이프사이클 추적 호출을 사용하여 전송된 컨텍스트 데이터는 아래 나열된 지표 또는 차원을 사용하여 자동으로 캡처되고 보고되며 예외가 표시됩니다.
+Analytics의 경우, 각 라이프사이클 추적 호출과 함께 전송되는 컨텍스트 데이터는 아래에 나열된 지표 또는 차원을 사용하여 자동으로 캡처되고 보고되며 예외가 표시됩니다.
 
 ### 지표
 
@@ -88,7 +88,7 @@ Analytics의 경우 각 라이프사이클 추적 호출을 사용하여 전송�
 
 * **설치 날짜**
 
-   설치 후 처음 시작하는 날짜 날짜 형식은 `MM/DD/YYYY`입니다.
+   설치 후 처음 시작하는 날짜 The date format is .`MM/DD/YYYY`
 
    * Analytics context data/Target: `a.InstallDate`
    * Audience Manager: `c_a_InstallDate`
@@ -137,7 +137,7 @@ Analytics의 경우 각 라이프사이클 추적 호출을 사용하여 전송�
 
 * **운영 체제 버전**
 
-   OS 버전.
+   The OS version.
 
    * Analytics context data/Target: `a.OSVersion`
    * Audience Manager: `c_a_OSVersion`
@@ -192,7 +192,7 @@ Analytics의 경우 각 라이프사이클 추적 호출을 사용하여 전송�
 
 ## Additional mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
-다음 지표와 차원은 설명에 나열된 방식으로 모바일 솔루션 변수에서 캡처됩니다.
+The following metrics and dimensions are captured in mobile solution variables by the methods listed in the description.
 
 ### 지표
 
@@ -201,21 +201,21 @@ Analytics의 경우 각 라이프사이클 추적 호출을 사용하여 전송�
    Populated by `trackTimedAction` methods.
 
    * Analytics context data/Target parameter: `a.action.time.total`
-   * Audience Manager 특성: `c_a_action_time_total`
+   * Audience Manager trait: `c_a_action_time_total`
 
 * **앱의 동작 시간**
 
    Populated by `trackTimedAction` methods.
 
    * Analytics context data/Target parameter: `a.action.time.inapp`
-   * Audience Manager 특성: `c_a_action_time_inapp`
+   * Audience Manager trait: `c_a_action_time_inapp`
 
 * **라이프타임 값(이벤트)**
 
    Populated by `trackLifetimeValue` methods.
 
    * Analytics context data/Target parameter: `a.ltv.amount`
-   * Audience Manager 특성: `c_a_ltv_amount`
+   * Audience Manager trait: `c_a_ltv_amount`
 
 ## 차원
 
@@ -223,11 +223,11 @@ Analytics의 경우 각 라이프사이클 추적 호출을 사용하여 전송�
 
    Populated by `trackLocation` methods.
 
-   * Analytics 컨텍스트 데이터/타겟 매개 변수:
+   * Analytics context data/Target parameter:
 
       * `a.loc.lat.a`
       * `a.loc.lon.a`
-   * Audience Manager 특성:
+   * Audience Manager trait:
 
       * `c_a_loc_lat_a`
       * `c_a_loc_lon_a`
@@ -237,7 +237,7 @@ Analytics의 경우 각 라이프사이클 추적 호출을 사용하여 전송�
 
    Populated by `trackLocation` methods.
 
-   * Analytics 컨텍스트 데이터/타겟 매개 변수:
+   * Analytics context data/Target parameter:
 
       * `a.loc.lat.b`
       * `a.loc.lon.b`
@@ -266,7 +266,7 @@ Analytics의 경우 각 라이프사이클 추적 호출을 사용하여 전송�
    디바이스가 정의된 POI 내에 있을 때 `trackLocation` 메서드로 채워집니다.
 
    * Analytics context data/Target parameter: `a.loc.poi`
-   * Audience Manager 특성: `c_a_loc_poi`
+   * Audience Manager trait: `c_a_loc_poi`
 
 * **관심 영역 중앙까지의 거리**
 
