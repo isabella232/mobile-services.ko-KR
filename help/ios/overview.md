@@ -22,7 +22,7 @@ Experience Cloud 솔루션용 iOS SDK 4.x를 사용하면 기본 Apple iPhone �
 
 >[!IMPORTANT]
 >
->The iOS SDK 4.x for Experience Cloud Solutions is now supports [iOS 13 and Xcode 11](https://developer.apple.com/ios/). To ensure seamless compatibility, use the latest versions of the 4.x iOS SDKs. For more information about the latest version, see the [release notes](/help/ios/rel-notes.md).
+>Experience Cloud 솔루션용 iOS SDK 4.x는 이제 iOS 13 [및 Xcode 11을 지원합니다](https://developer.apple.com/ios/). To ensure seamless compatibility, use the latest versions of the 4.x iOS SDKs. For more information about the latest version, see the release notes.[](/help/ios/rel-notes.md)
 
 ## 새 Adobe Experience Cloud SDK 릴리스
 
