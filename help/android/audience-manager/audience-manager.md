@@ -1,12 +1,12 @@
 ---
 description: 다음은 Audience Manager에서 신호를 전송하여 방문자 세그먼트를 검색하는 데 유용한 정보입니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 다음은 Audience Manager에서 신호를 전송하여 방문자 세그먼트를 검색하는 데 유용한 정보입니다.
 seo-title: Audience Manager 개요
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Audience Manager 개요
 topic: 개발자 및 구현
-uuid: CFA 4106 D -13 C 1-45 Ba-Bee 6-6 F 992 AAF 9919
+uuid: cfa4106d-13c1-45ba-bee6-6f992aaf919
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -15,7 +15,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 # Audience Manager 개요 {#audience-manager}
 
-이 섹션의 정보는 신호를 보내고 Audience Manager에서 방문자 세그먼트를 가져오는 데 도움이 됩니다.
+The information in this section helps you send signals and retrieve visitor segments from Audience Manager.
 
 ## 새 Adobe Experience Cloud SDK 릴리스
 
