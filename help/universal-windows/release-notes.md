@@ -2,10 +2,10 @@
 description: Experience Cloud 솔루션용 Universal Windows Platform SDK 4.x를 위한 릴리스 노트 및 알려진 문제.
 seo-description: Experience Cloud 솔루션용 Universal Windows Platform SDK 4.x를 위한 릴리스 노트 및 알려진 문제.
 seo-title: 릴리스 노트
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 릴리스 노트
 topic: 개발자 및 구현
-uuid: 9 c 164 e 5 c-CE 2 c -4 eda-bba 6-71324 e 4954 fa
+uuid: 9c164e5c-ce2c-4eda-bba6-71324e4954fa
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
