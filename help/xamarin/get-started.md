@@ -2,10 +2,10 @@
 description: 이번 주제에서는 Mobile solutions 4.x SDK용 Xamarin 구성 요소를 사용하여 시작하는 방법을 설명합니다.
 keywords: Xamarin
 seo-description: 이번 주제에서는 Mobile solutions 4.x SDK용 Xamarin 구성 요소를 사용하여 시작하는 방법을 설명합니다.
-seo-title: Experience Cloud solutions 4. x SDK 용 Xamarin 구성 요소
-solution: Marketing Cloud, 개발자
-title: Experience Cloud solutions 4. x SDK 용 Xamarin 구성 요소
-uuid: E 7 A 48107-BD 0 E -47 D 6-B 49 C-DFDAE 189 AC 37
+seo-title: Experience Cloud Solutions 4.x SDK용 Xamarin 구성 요소
+solution: Marketing Cloud,개발자
+title: Experience Cloud Solutions 4.x SDK용 Xamarin 구성 요소
+uuid: e7a48107-bd0e-47d6-b49c-dfdae189ac37
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -22,18 +22,18 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 >[!IMPORTANT]
 >
->Adobe Mobile SDK는 더 이상 Xamarin 구성 요소 스토어 또는 Nuget 갤러리에서 제공되지 않습니다. Xamarin 구성요소를 다운로드하려면 [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services)이로 이동하십시오.
+>Adobe Mobile SDK is no longer available in the Xamarin Components Store or in the NuGet Gallery. Xamarin 구성요소를 다운로드하려면 [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services)이로 이동하십시오.
 
 
 ## Android {#section_9CAE1BFD359242568D8288C12A4B7A7D}
 
-Adbmobile 구성 요소를 Xamarin. Android 프로젝트로 가져옵니다.
+ADBMobile 구성 요소를 Xamarin.Android 프로젝트로 가져옵니다.
 
 1. Xamarin 프로젝트 열기
 
-1. **[!UICONTROL 참조]** 대화 상자를 열고. NET **[!UICONTROL 어셈블리]** 탭을 클릭합니다.
+1. Open **[!UICONTROL References]** dialog and click the **[!UICONTROL .Net Assembly]** tab.
 
-1. `ADBMobile.XamarinAndroidBinding.dll`**[!UICONTROL lib/android]** 폴더에서 선택합니다.
+1. Select  from the lib/Android folder.`ADBMobile.XamarinAndroidBinding.dll`****
 
 1. Add your `ADBMobileConfig.json` file to the **[!UICONTROL Assets]** folder of your project.
 
@@ -41,7 +41,6 @@ Adbmobile 구성 요소를 Xamarin. Android 프로젝트로 가져옵니다.
 
    * `INTERNET`
    * `ACCESS_NETWORK_STATE`
-
    ```java
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -56,7 +55,7 @@ Adbmobile 구성 요소를 Xamarin. Android 프로젝트로 가져옵니다.
    <receiver android:name="com.adobe.mobile.MessageNotificationHandler" />
    ```
 
-1. 획득을 사용하는 경우 다음 수신기를 추가합니다.
+1. If you are using acquisition, add the following receiver :
 
    ```java
    <receiver android:name="com.your.package.name.GPBroadcastReceiver" android:exported="true">
@@ -68,12 +67,12 @@ Adbmobile 구성 요소를 Xamarin. Android 프로젝트로 가져옵니다.
 
 ## iOS {#section_1531928DDE904D769B3987BF927D0E02}
 
-Adbmobile 구성 요소를 Xamarin. iOS 프로젝트로 가져옵니다.
+ADBMobile 구성 요소를 Xamarin.iOS 프로젝트로 가져옵니다.
 
 1. Xamarin 프로젝트를 엽니다.
-1. **[!UICONTROL 참조]** 대화 상자를 열고. NET **[!UICONTROL 어셈블리]** 탭을 클릭합니다.
+1. Open **[!UICONTROL References]** dialog and click the **[!UICONTROL .Net Assembly]** tab.
 
-1. `ADBMobile.XamarinIOSBinding.dll`**[!UICONTROL lib/ios 통합]** 폴더에서 선택합니다.
+1. Select  from the lib/ios-unified folder.`ADBMobile.XamarinIOSBinding.dll`****
 
 1. `ADBMobileConfig.json` 파일을 프로젝트에 추가합니다.
 
