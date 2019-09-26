@@ -2,10 +2,10 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Analytics
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Analytics
 topic: 개발자 및 구현
-uuid: FA 0 EF 6 C 4-C 04 D -4695-9 EB 4-ADA 4 E 9920 E 6 C
+uuid: fa0ef6c4-c04d-4695-9eb4-ada4e9920e6c
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -14,17 +14,17 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 # Analytics {#analytics}
 
-프로젝트에 라이브러리를 추가한 후 앱의 아무 곳에서나 Analytics 메서드를 호출할 수 있습니다.
+After you add the library to your project, you can make any of the Analytics method calls anywhere in your app.
 
 >[!TIP]
 >
->클래스로 가져올 `ADBMobile.h` 수 있습니다.
+>Ensure that you import  to your class.`ADBMobile.h`
 
 ## Enable mobile application reports in Analytics {#section_F2F9234009184F20BA36B5CDE872B424}
 
 코드를 추가하기 전에, 모바일 앱 라이프사이클 추적을 사용하도록 설정하려면 Analytics 관리자가 다음을 완료하도록 하십시오. 이렇게 하면 개발을 시작할 때 보고서 세트가 메트릭을 캡처할 준비를 합니다.
 
-1. **[!UICONTROL 관리 도구]** &gt; **[!UICONTROL 보고서 세트를]** 열고 모바일 보고서 세트를 선택합니다.
+1. Open **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Report Suites]** and select your mobile report suite(s).
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
 
    ![](assets/mobile-settings.png)
@@ -48,7 +48,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 앱에서 라이프사이클 메트릭을 수집하려면 애플리케이션이 다음 예제에 표시된 대로 활성화될 때 호출을 추가하십시오.
 
 
-### default. js의 winjs
+### default.js의 WinJS
 
 
 ```js
@@ -64,7 +64,7 @@ app.oncheckpoint = function (args) {
 }
 ```
 
-### c # in app. xaml. cs
+### C# in App.xaml.cs
 
 ```js
 public App() 
@@ -93,7 +93,7 @@ private void OnSuspending(object sender, SuspendingEventArgs e)
 }
 ```
 
-### app. xaml. cpp의 c/cx
+### App.xaml.cpp의 C/CX
 
 ```js
 App::App() 
@@ -128,7 +128,7 @@ If `CollectLifecycleData()` is called twice in the same session, then your appli
 ## Events, props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
 
-[Adbmobile 클래스와 메서드 참조를](/help/windows-appstore/c-configuration/methods.md)확인한 경우 이벤트, evar, prop, Heirs 및 목록을 설정하는 위치를 알고 있을 것입니다. 버전 4에서는 더 이상 이러한 유형의 변수를 앱에서 직접 할당할 수 없습니다. 대신 SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 Analytics 변수에 앱 데이터를 매핑하여 보고합니다.
+If you've looked at the ADBMobile Class and Method Reference, you are probably wondering where to set events, eVars, props, heirs, and lists. [](/help/windows-appstore/c-configuration/methods.md) 버전 4에서는 더 이상 이러한 유형의 변수를 앱에서 직접 할당할 수 없습니다. 대신 SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 Analytics 변수에 앱 데이터를 매핑하여 보고합니다.
 
 처리 규칙은 몇 가지 장점을 제공합니다.
 
@@ -147,7 +147,7 @@ If `CollectLifecycleData()` is called twice in the same session, then your appli
 
 [처리 규칙 개요](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
-[처리 규칙 사용 권한 받기](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
+[처리 규칙 사용 권한 부여](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
 
 '네임스페이스'를 사용하여 컨텍스트 데이터 변수를 그룹화하십시오. 이렇게 하면 논리적 순서를 유지할 수 있습니다. 예를 들어 제품에 대한 정보를 수집할 경우 다음 변수를 정의할 수 있습니다.
 
@@ -185,19 +185,19 @@ If `CollectLifecycleData()` is called twice in the same session, then your appli
 
 >[!NOTE]
 >
->Adobe는 네임스페이스를 `a.`예약합니다. 이러한 사소한 제한 사항 외에도 충돌을 방지하기 위해 컨텍스트 데이터 변수는 로그인 회사에서 고유해야 합니다.
+>Adobe reserves the namespace . `a.` 이러한 사소한 제한 사항 외에도 충돌을 방지하기 위해 컨텍스트 데이터 변수는 로그인 회사에서 고유해야 합니다.
 
 ## Products variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
-Mobile SDK *`products`* 에서 설정하려면 특수 구문을 사용해야 합니다. [제품 변수를 참조하십시오](/help/windows-appstore/analytics/products/products.md).
+모바일 SDK *`products`* 에서 설정하려면 특수 구문을 사용해야 합니다. See Products Variable.[](/help/windows-appstore/analytics/products/products.md)
 
 ## (Optional) Enable offline tracking {#section_955B2A03EB854742BDFC4A0A3C287009}
 
-To store hits when the device is offline, you can enable offline tracking in the [ADBMobileConfig.json config](/help/windows-appstore/c-configuration/methods.md). 오프라인 추적을 활성화하려면 먼저 구성 파일 참조에 설명된 타임스탬프 요구 사항에 주의를 기울여야 합니다.
+To store hits when the device is offline, you can enable offline tracking in the [ADBMobileConfig.json config](/help/windows-appstore/c-configuration/methods.md). Before you enable offline tracking, Pay attention to the timestamp requirements described in the config file reference.
 
 ## Geo-location and points of interest {#section_BAD34A8DD013454DB355121316BD7FD4}
 
-지리적 위치를 사용하면 위치 데이터(위도/경도) 및 사전 정의된 관심 영역을 측정할 수 있습니다. `TrackLocation` 각 호출은 다음과 같이 전송됩니다.
+지리적 위치를 사용하면 위치 데이터(위도/경도) 및 사전 정의된 관심 영역을 측정할 수 있습니다. Each `TrackLocation` call sends:
 
 * 경도/위도 및 POI(`ADBMobileConfig.json` 구성 파일에 정의된 POI 내에 있는 경우). 이 정보는 자동 보고를 위해 모바일 솔루션 변수로 전달됩니다.
 * 중심으로부터 떨어진 거리 및 정확도 - 컨텍스트 데이터로 전달됨. 처리 규칙을 사용하여 캡처합니다.
