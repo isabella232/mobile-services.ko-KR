@@ -1,12 +1,12 @@
 ---
 description: 비콘 추적에서 iBeacon 및 Bluetooth 저전력을 사용하여 미세한 위치를 측정하고 타깃팅할 수 있습니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 비콘 추적에서 iBeacon 및 Bluetooth 저전력을 사용하여 미세한 위치를 측정하고 타깃팅할 수 있습니다.
 seo-title: 비콘 추적
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 비콘 추적
 topic: 개발자 및 구현
-uuid: 16 c 1 d 267-85 f 4-4 a 6 a-a 6 d 3-d 6 ffb 0 f 80 b 29
+uuid: 16c1d267-85f4-4a6a6d3-d6ffb0f80b29
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -19,7 +19,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 `trackBeacon`이 호출되면 다음 비콘 데이터가 Analytics 및 Target으로 전송됩니다.
 
-* `a.beacon.uuid` - 비콘의 Proximityuuid
+* `a.beacon.uuid` - 비콘의 ProximityUUID
 * `a.beacon.major` - 주 비콘 번호(예: 스토어 번호)
 * `a.beacon.minor` - 부 비콘 번호(예 : 스토어 내 고유 번호)
 * `a.beacon.prox` - 0-3 값은 사용자와 비콘이 얼마나 가까운지 나타냅니다.
@@ -37,7 +37,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 1. 프로젝트에 라이브러리를 추가하고 라이프사이클을 구현합니다.
 
-   자세한 내용은 핵심 구현 *및* 라이프사이클에서 [Intellij 아이디어 또는 Eclipse 프로젝트에 SDK 및 구성 파일 추가를](/help/android/getting-started/dev-qs.md)참조하십시오.
+   자세한 내용은 코어 *구현 및 라이프사이클에서 IntelliJ IDEA 또는 Eclipse 프로젝트에* SDK 및 구성 파일 [추가를 참조하십시오](/help/android/getting-started/dev-qs.md).
 
 1. 라이브러리를 가져옵니다:
 
@@ -77,7 +77,7 @@ cdata.put("myapp.ImageLiked", imageName);
 Analytics.trackBeacon(beaconUUID, major, minor, proximity, cdata);
 ```
 
-컨텍스트 데이터 값은 Adobe Mobile Services에서 사용자 지정 변수로 매핑되어야 합니다.
+컨텍스트 데이터 값은 Adobe Mobile Services의 사용자 지정 변수에 매핑해야 합니다.
 
 ![](assets/map-variable-context-ltv.png)
 
