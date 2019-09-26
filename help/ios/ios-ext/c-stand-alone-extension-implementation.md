@@ -2,10 +2,10 @@
 description: iOS 10부터는 포함 앱 없이 배포할 수 있는 확장 프로그램, 즉 독립형 확장 프로그램을 만들 수 있습니다. 이 확장 프로그램의 경우 데이터를 공유할 포함 앱이 없으므로 앱 그룹이 필요하지 않습니다.
 seo-description: iOS 10부터는 포함 앱 없이 배포할 수 있는 확장 프로그램, 즉 독립형 확장 프로그램을 만들 수 있습니다. 이 확장 프로그램의 경우 데이터를 공유할 포함 앱이 없으므로 앱 그룹이 필요하지 않습니다.
 seo-title: 독립형 확장 프로그램 구현
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 독립형 확장 프로그램 구현
 topic: 개발자 및 구현
-uuid: 9 B 47 F 082-B 78 F -4611-968 D -014 C 32 EDE 6 BC
+uuid: 9b47f082-b78f-4611-968d-014c32ede6bc
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -18,13 +18,13 @@ iOS 10부터는 포함 앱 없이 배포할 수 있는 확장 프로그램, 즉 
 
 >[!IMPORTANT]
 >
->독립 실행형 확장을 사용하려면 Mobile SDK 버전 4.13.0 이상이 있어야 합니다.
+>To use stand-alone extensions, you must have Mobile SDK version 4.13.0 or later.
 
 ## SDK에서 사용할 독립형 확장 프로그램 구성 {#section_B7A84603BB9D4B48BB46BE8D3B9E3CF0}
 
 독립형 확장 프로그램을 구성하려면
 
-1. `ADBMobileConfig.json` 해당 파일이 확장자 대상의 구성원인지 확인합니다.
+1. Ensure that the `ADBMobileConfig.json` file is a member of your extension's target.
 1. 다음 라이브러리 및 프레임워크를 연결합니다.
 
    * `AdobeMobileLibrary_Extension.a`
