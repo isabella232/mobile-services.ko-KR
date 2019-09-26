@@ -1,12 +1,12 @@
 ---
 description: Experience Cloud 솔루션용 Android SDK 4.x를 사용하면 기본 Android 애플리케이션을 측정하고, 앱에 타겟 콘텐츠를 제공하고, 대상 관리를 통해 대상 데이터를 활용하고 수집할 수 있습니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: Experience Cloud 솔루션용 Android SDK 4.x를 사용하면 기본 Android 애플리케이션을 측정하고, 앱에 타겟 콘텐츠를 제공하고, 대상 관리를 통해 대상 데이터를 활용하고 수집할 수 있습니다.
 seo-title: Android SDK 4.x for Experience Cloud 솔루션
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Android SDK 4.x for Experience Cloud 솔루션
 topic: 개발자 및 구현
-uuid: 56 F 1 FF 41-0365-41 DD-BDDE -245 C 823 DFF 07
+uuid: 56f1ff41-0365-41dd-bdde-245c823dff07
 translation-type: tm+mt
 source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
@@ -19,7 +19,7 @@ Experience Cloud 솔루션용 Android SDK 4.x를 사용하면 기본 Android 애
 
 >[!IMPORTANT]
 >
->Mobile Services의 모바일 확보, 딥 링크, 지리적 위치 및 모바일 메시징 기능에 액세스하려면 Adobe Analytics Mobile Marketing Add-on SKU가 필요합니다. 자세한 내용은 Adobe CSM에 문의하십시오.
+>The Adobe Analytics Mobile Marketing Add-on SKU is required to enable Mobile Services access to mobile acquisition, deep linking, geolocation, and mobile messaging capabilities. 자세한 내용은 Adobe CSM에 문의하십시오.
 
 ## 새 Adobe Experience Cloud SDK 릴리스
 
@@ -38,7 +38,7 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 
 >[!IMPORTANT]
 >
->UI에서 기능을 구성할 수 있지만 생성된 구성 파일을 다운로드하고 이 파일을 SDK에 추가해야 이러한 기능이 작동합니다. SDK 다운로드 및 구성에 대한 자세한 내용은 [핵심 구현 및 라이프사이클을 참조하십시오](/help/android/getting-started/dev-qs.md).
+>UI에서 기능을 구성할 수 있지만 생성된 구성 파일을 다운로드하고 이 파일을 SDK에 추가해야 이러한 기능이 작동합니다. SDK 다운로드 및 구성에 대한 자세한 내용은 핵심 구현 [및 라이프사이클을 참조하십시오](/help/android/getting-started/dev-qs.md).
 
 SDK에서 지원하는 Android 버전은 다음과 같습니다.
 
@@ -49,7 +49,7 @@ SDK에서 지원하는 Android 버전은 다음과 같습니다.
 
 * 4.2 버전 이상에서는 모든 히트를 HTTP POST를 사용하여 전송합니다.
 
-   이 방법은 수집 또는 보고되는 데이터에 영향을 주지 않지만 히트 데이터를 검사하도록 지원하는 패킷 분석기를 사용해야 히트를 볼 수 있습니다.
+   이렇게 하면 수집되거나 보고되는 데이터에는 영향을 주지 않지만 히트를 보려면 POST 데이터 검사를 지원하는 패킷 분석기를 사용해야 합니다.
 
 * If you are upgrading from a previous version, see the [4.x Migration Guide](/help/android/getting-started/migration-v3.md).
 
