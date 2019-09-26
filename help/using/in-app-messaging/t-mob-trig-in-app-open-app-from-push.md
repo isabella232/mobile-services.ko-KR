@@ -3,7 +3,7 @@ description: 사용자가 푸시 메시지에서 앱을 열었을 때 인앱 메
 seo-description: 사용자가 푸시 메시지에서 앱을 열었을 때 인앱 메시지 트리거를 푸시 메시지 ID로 설정할 수 있습니다.
 seo-title: 푸시 메시지에서 앱이 열릴 때 인앱 메시지 트리거하기
 title: 푸시 메시지에서 앱이 열릴 때 인앱 메시지 트리거하기
-uuid: E 1 C 8 E 29 D -1 C 2 B -47 B 2-8 AB 2-6 B 6 E 15 DF 86 F 6
+uuid: e1c8e29d-1c2b-47b2-8ab2-6b6e15df86f6
 translation-type: tm+mt
 source-git-commit: 114bce95e41c8e13695689dd2da2dbc04cb17ad7
 
@@ -28,7 +28,7 @@ source-git-commit: 114bce95e41c8e13695689dd2da2dbc04cb17ad7
 
    >[!TIP]
    >
-   >푸시 메시지 ID는 1 단계에 있는 ID 입니다.
+   >푸시 메시지 ID는 1단계에서 찾은 ID입니다.
 
    이 트리거는 **[!UICONTROL 트리거]드롭다운 목록에서 사용할 수 없으므로 수동으로 추가해야 합니다.**
 
