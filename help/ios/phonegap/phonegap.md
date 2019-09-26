@@ -3,10 +3,10 @@ description: 이 플러그인을 사용하여 PhoneGap 프로젝트에서 iOS Ap
 keywords: phonegap
 seo-description: 이 플러그인을 사용하여 PhoneGap 프로젝트에서 iOS AppMeasurement 호출을 전송할 수 있습니다.
 seo-title: PhoneGap 플러그인
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: PhoneGap 플러그인
 topic: 개발자 및 구현
-uuid: F 88 BCF 10-1 F 9 E -4 C 97-B 348-40 DB 797 C 9923
+uuid: f88bcf10-1f9e-4c97-b348-40db797c9923
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -30,7 +30,7 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 >
 > If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. 자세한 내용은 [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services)를 참조하십시오.
 
-Phonegap 프로젝트를 만들려면 [phonegap](https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap.html)를 참조하십시오.
+PhoneGap 프로젝트를 만들려면 PhoneGap [을 참조하십시오](https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap.html).
 
 ## npm으로 플러그인 설치: {#section_43229E57C16944C0B51531CB92089189}
 
@@ -42,7 +42,7 @@ Phonegap 프로젝트를 만들려면 [phonegap](https://helpx.adobe.com/experie
 
 ## 수동으로 플러그인 설치 {#section_D53BA60D488C4DB8AD2BDF90439C180A}
 
-### Appmeasurement 라이브러리 포함
+### AppMeasurement 라이브러리 포함
 
 AppMeasurement를 포함하려면
 
@@ -53,7 +53,7 @@ AppMeasurement를 포함하려면
    1. AppMeasurement 코드를 사용할 대상을 선택합니다.
 
 1. Drag `ADB_Helper.js` into the `www` folder in your project.
-1. `res/xml` 폴더에서 다음을 추가하여 새 플러그인을 열고 `config.xml` 등록합니다.
+1. In the `res/xml` folder, open `config.xml` and register an new plugin by adding the following:
 
    ```
    <feature name="ADBMobile_PhoneGap"> 
@@ -71,7 +71,7 @@ AppMeasurement 라이브러리에는 다음이 필요합니다.
    1. **[!UICONTROL 대상 그룹의 폴더로 항목 복사를 선택합니다(필요한 경우)]**.
    1. **[!UICONTROL 추가된 폴더에 대해 그룹 만들기를 선택합니다]**.
    1. AppMeasurement 코드를 사용할 대상을 선택하고 **[!UICONTROL 완료를 클릭합니다]**.
-   ![](assets/xcode-settings.png){width = "672"}
+   ![](assets/xcode-settings.png){width="672"}
 
 1. 프로젝트 타겟의 **[!UICONTROL 빌드 단계]** 탭에서 **바이너리를 라이브러리와 연결]섹션을 확장하고 다음 라이브러리를 추가합니다.[!UICONTROL **
 
