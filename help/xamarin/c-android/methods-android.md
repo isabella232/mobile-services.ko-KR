@@ -2,10 +2,10 @@
 description: Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android 메서드입니다.
 keywords: Xamarin
 seo-description: Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android 메서드입니다.
-seo-title: Android 메서드
-solution: Marketing Cloud, 개발자
-title: Android 메서드
-uuid: 860 AF 1 C 4-F 57 E -4 BCB -8308-4 E 316 DA 9 A 27 B
+seo-title: Android methods
+solution: Marketing Cloud,개발자
+title: Android methods
+uuid: 860af1c4-f57e-4bcb-8308-4e316da9a27b
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -18,9 +18,9 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 ## Configuration methods {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
-* **Debuglogging**
+* **디버그 로깅**
 
-   현재 디버그 로깅 환경 설정을 반환하고 기본값은 false 입니다.
+   현재 디버그 로깅 기본 설정을 반환하고 기본값은 false입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -55,7 +55,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
    현재 사용자에 대한 개인 정보 상태의 열거 표현을 반환합니다.
    * `ADBMobilePrivacyStatus.OptIn` - 히트가 즉시 전송됩니다.
-   * `ADBMobilePrivacyStatus.OptOut` - 히트는 무시됩니다.
+   * `ADBMobilePrivacyStatus.OptOut` - 히트가 무시됩니다.
    * `ADBMobilePrivacyStatus.Unknown` - 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트 삭제)으로 변경될 때까지 히트가 저장됩니다. 오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다.
    기본값은 [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md) 파일에서 설정되어 있습니다.
 
@@ -75,7 +75,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **UserIdentifier**
 
-   사용자 지정 식별자가 설정된 경우 이 식별자를 반환합니다. 사용자 지정 식별자가 설정되지 않은 경우 null를 반환합니다. 기본값은 `null`입니다.
+   사용자 지정 식별자가 설정된 경우 이 식별자를 반환합니다. If a custom identifier is not set, returns null. 기본값은 `null`입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -176,7 +176,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **SetLargeIconResourceId(int resourceId)**
 
-   (4.2 이상 버전) SDK에서 만든 알림에 사용되는 큰 아이콘을 설정합니다. 이 아이콘은 사용자가 알림 센터에서 전체 알림을 볼 때 표시되는 기본 이미지입니다.
+   (4.2 이상 버전) SDK에서 만든 알림에 사용되는 큰 아이콘을 설정합니다. This icon is the primary image that is displayed when the user sees the complete notification in the notification center.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -210,7 +210,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **TrackingIdentifier**
 
-   분석을 위해 자동으로 생성된 ID를 반환합니다. 이것은 초기 실행 시 생성되는 앱별 고유 ID 이며, 이후 해당 시점부터 저장되고 사용됩니다. 이 ID는 앱 업그레이드 사이에 보존되며 제거 시 제거됩니다.
+   분석을 위해 자동으로 생성된 ID를 반환합니다. This is an app-specific unique ID that is generated on initial launch and is stored and used from that point forward. 이 ID는 앱 업그레이드 간에 유지되며 제거 시 제거됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -230,7 +230,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
    >[!TIP]
    >
-   >페이지 보기를 증가시키는 유일한 추적 호출입니다.
+   >이것은 페이지 보기를 증가시키는 유일한 추적 호출입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -273,7 +273,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **TrackLocation**
 
-   현재 위도 및 경도 좌표를 보냅니다. `ADBMobileConfig.json` 또한 파일에 정의된 관심 영역을 사용하여 매개 변수로 제공된 위치가 POIS에 있는지 확인합니다. 정의된 POI 내에 현재 좌표가 있는 경우 컨텍스트 데이터 변수를 채워 `TrackLocation` 호출로 전송합니다.
+   현재 위도 및 경도 좌표를 보냅니다. Also uses points of interest defined in the `ADBMobileConfig.json` file to determine whether the location that was provided as a parameter is in any of your POIs. 정의된 POI 내에 현재 좌표가 있는 경우 컨텍스트 데이터 변수를 채워 `TrackLocation` 호출로 전송합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -424,7 +424,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **SendQueuedHits**
 
-   현재 큐에 있는 히트 수에 관계 없이 라이브러리가 오프라인 큐의 모든 히트를 전송하도록 합니다.
+   현재 큐에 있는 히트 수에 관계 없이 라이브러리에서 오프라인 큐의 모든 히트를 강제로 보냅니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -551,7 +551,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **CreateOrderConfirmRequest**
 
-   를 만듭니다 `ADBTargetLocationRequest`.
+   Creates an .`ADBTargetLocationRequest`
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -633,7 +633,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **AudienceSetDpidAndDpuuid**
 
-   `dpid` AND `dpuuid`를 설정합니다. If `dpid` and `dpuuid` are set, they are sent with each signal.
+   Sets the  and . `dpid``dpuuid` If `dpid` and `dpuuid` are set, they are sent with each signal.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -691,7 +691,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 ## 비디오 {#section_CBCE1951CE204A108AD4CA7BB07C7F98}
 
-비디오 분석에 대한 자세한 내용은 [비디오 분석을](/help/android/analytics-main/video-qs.md)참조하십시오.
+비디오 분석에 대한 자세한 내용은 비디오 [분석을 참조하십시오](/help/android/analytics-main/video-qs.md).
 
 * **MediaSettings**
 
