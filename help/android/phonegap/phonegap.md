@@ -8,7 +8,7 @@ title: PhoneGap 플러그인 개요
 topic: 개발자 및 구현
 uuid: c5c32357-d8df-458a-b0e8-e0c56040241d
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 ---
 
@@ -17,15 +17,13 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 이 플러그인을 사용하여 PhoneGap 프로젝트에서 Android AppMeasurement 호출을 전송할 수 있습니다. PhoneGap 프로젝트를 만들려면 PhoneGap [을 참조하십시오](https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap.html).
 
-## 새 Adobe Experience Cloud SDK 릴리스
+## New Adobe Experience Platform Mobile SDK Release
 
 Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
 
->[!IMPORTANT]
->
->2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html)를 통해 구성할 수 있습니다.
+2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
-* 시작하려면 [Launch](https://launch.adobe.com/)로 이동합니다.
+* 시작하려면 Adobe Experience Platform Launch로 이동합니다.
 * Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)로 이동하십시오.
 
 
@@ -41,11 +39,11 @@ cordova plugin add adobe-mobile-services
 
 ## 플러그인 포함
 
-1. 파일을 `ADBMobile_PhoneGap.java` 폴더로 `src` 드래그합니다.
+1. Drag the  file to your  folder.`ADBMobile_PhoneGap.java``src`
 
    이 파일을 이동하려면 **[!UICONTROL 확인을 클릭하십시오]**.
 
-1. 파일을 `ADB_Helper.js` 포함하는 폴더로 `index.html` 드래그합니다
+1. Drag the  file into the folder that contains the  file`ADB_Helper.js``index.html`
 
    이 파일을 이동하려면 **[!UICONTROL 확인을 클릭하십시오]**.
 
@@ -63,10 +61,10 @@ cordova plugin add adobe-mobile-services
    <param name="android-package" value="com.example.phonegaptest.ADBMobile_PhoneGap" />
    ```
 
-## Include the AppMeasurement library
+## AppMeasurement 라이브러리 포함
 
 1. To download the AppMeasurement library, see [Get the SDK](/help/android/getting-started/dev-qs.md).
-1. 파일을 `adobeMobileLibrary.jar` 폴더로 `src` 드래그합니다.
+1. Drag the the  file to your  folder.`adobeMobileLibrary.jar``src`
 
    이 파일을 이동하려면 **[!UICONTROL 확인을 클릭하십시오]**.
 
@@ -77,7 +75,7 @@ cordova plugin add adobe-mobile-services
 
    이 파일을 이동하려면 **[!UICONTROL 확인을 클릭하십시오]**.
 
-## 앱 권한 추가
+## Add app permissions
 
 AppMeasurement 라이브러리를 사용하려면 데이터를 전송하고 오프라인 추적 호출을 기록할 다음 권한이 필요합니다.
 
