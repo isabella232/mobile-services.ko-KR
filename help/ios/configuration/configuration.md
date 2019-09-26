@@ -1,11 +1,11 @@
 ---
-description: '다음 정보는 JSON 구성, 히트 일괄 처리 및 SDK 메서드를 포함한 iOS SDK를 구성하는 데 도움이 됩니다. '
-seo-description: '다음 정보는 JSON 구성, 히트 일괄 처리 및 SDK 메서드를 포함한 iOS SDK를 구성하는 데 도움이 됩니다. '
+description: 'The following information helps you configure the iOS SDK, including JSON configuration, hit batching, and SDK methods '
+seo-description: 'The following information helps you configure the iOS SDK, including JSON configuration, hit batching, and SDK methods '
 seo-title: 구성
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 구성
 topic: 개발자 및 구현
-uuid: 63261 b 61-E 70 A -42 BE-A 56 F -5943173 C 041 E
+uuid: 63261b61-e70a-42be-a56f-5943173c041e
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -14,7 +14,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 # 구성{#configuration}
 
-이 섹션의 정보는 JSON 구성, 히트 배치 및 SDK 메서드를 포함한 iOS SDK를 구성하는 데 도움이 됩니다.
+이 섹션의 정보는 JSON 구성, 히트 배치 및 SDK 메서드를 포함하여 iOS SDK를 구성하는 데 도움이 됩니다.
 
 ## 새 Adobe Experience Cloud SDK 릴리스
 
