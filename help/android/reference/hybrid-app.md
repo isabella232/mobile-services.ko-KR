@@ -1,11 +1,11 @@
 ---
 description: 모바일 웹 콘텐츠를 여는 앱의 경우, 방문자가 기본 웹과 모바일 웹 사이를 이동할 때 개별적으로 식별되지 않도록 합니다.
 seo-description: 모바일 웹 콘텐츠를 여는 앱의 경우, 방문자가 기본 웹과 모바일 웹 사이를 이동할 때 개별적으로 식별되지 않도록 합니다.
-seo-title: 앱과 모바일 웹 간 방문자 추적
-solution: Marketing Cloud, Analytics
-title: 앱과 모바일 웹 간 방문자 추적
+seo-title: 앱과 모바일 웹 간의 방문자 추적
+solution: Marketing Cloud,Analytics
+title: 앱과 모바일 웹 간의 방문자 추적
 topic: 개발자 및 구현
-uuid: 073572 e 4-4 c 55-4 b 27-b 4 a 7-e 4349 ccde 7 bf
+uuid: 073572e4-4c55-4b27-b4a7-e4349cde7bf
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -22,7 +22,7 @@ Android SDK는 앱이 설치될 때 고유 방문자 ID를 생성합니다. 이 
 
 >[!TIP]
 >
->앱 방문자 ID는 업그레이드를 통해 지속됩니다.
+>앱 방문자 ID는 업그레이드를 통해 유지됩니다.
 
 ## 모바일 웹의 방문자 ID
 
@@ -34,7 +34,7 @@ Android SDK는 앱이 설치될 때 고유 방문자 ID를 생성합니다. 이 
 
 1. 프로젝트에 라이브러리를 추가하고 라이프사이클을 구현합니다.
 
-   자세한 내용은 핵심 구현 *및* 라이프사이클에서 [Intellij 아이디어 또는 Eclipse 프로젝트에 SDK 및 구성 파일 추가를](/help/android/getting-started/dev-qs.md)참조하십시오.
+   자세한 내용은 코어 *구현 및 라이프사이클에서 IntelliJ IDEA 또는 Eclipse 프로젝트에* SDK 및 구성 파일 [추가를 참조하십시오](/help/android/getting-started/dev-qs.md).
 
 1. 웹 보기를 여는 데 사용 중인 URL에 방문자 정보를 추가하려면 `visitorAppendToURL`을 호출합니다.
 
@@ -65,7 +65,7 @@ Android SDK는 앱이 설치될 때 고유 방문자 ID를 생성합니다. 이 
 
 ## Troubleshooting visitor tracking {#section_9B641F8569E34A089C52AA28EA4C891D}
 
-### `Visitor.appendToURL`표시되지 않습니다.
+### I do not see `Visitor.appendToURL`.
 
 상위 애플리케이션에서 번들로 제공되는 Adobe SDK 버전이 4.12.0 이상인지 확인하십시오.
 
@@ -90,5 +90,5 @@ To ensure that the IDs that are appended to the URL that is being opened, verify
 
 >[!IMPORTANT]
 >
->Adobe에서 구현을 검증할 수 있도록 하려면 샘플 응용 프로그램과 관련 사이트를 공유해야 합니다.
+>Adobe에서 구현의 유효성을 검사하려면 샘플 응용 프로그램과 관련 사이트를 공유해야 합니다.
 
