@@ -2,26 +2,26 @@
 description: 푸시 메시지에 대해 날짜 범위 옵션, Analytics 세그먼트 및 사용자 지정 세그먼트 등의 대상 옵션을 정의하고 구성할 수 있습니다.
 keywords: mobile
 seo-description: 푸시 메시지에 대해 날짜 범위 옵션, Analytics 세그먼트 및 사용자 지정 세그먼트 등의 대상 옵션을 정의하고 구성할 수 있습니다.
-seo-title: 대상 푸시 메시지의 대상 세그먼트 정의 및 구성
-solution: Marketing Cloud, Analytics
-title: 대상 푸시 메시지의 대상 세그먼트 정의 및 구성
+seo-title: 대상 푸시 메시지에 대한 대상 세그먼트 정의 및 구성
+solution: Marketing Cloud,Analytics
+title: 대상 푸시 메시지에 대한 대상 세그먼트 정의 및 구성
 topic: 지표
-uuid: EFD 410 E 7-3 B 6 C -4 CF 4-A 26 F-B 11688 ADC 491
+uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 translation-type: tm+mt
 source-git-commit: f28ea0db13b8d8f209d7521d1f61f1c290e688aa
 
 ---
 
 
-# 대상: 푸시 메시지{#audience-define-and-configure-audience-segments-for-push-messages}
+# 대상:푸시 메시지{#audience-define-and-configure-audience-segments-for-push-messages}
 
 푸시 메시지에 대해 날짜 범위 옵션, Analytics 세그먼트 및 사용자 지정 세그먼트 등의 대상 옵션을 정의하고 구성할 수 있습니다.
 
 ## Define audience segments {#section_7C4D2393CF7441959FE2381A02867CAC}
 
-푸시 메시지에 대한 대상 세그먼트가 생성될 때 세그먼트에는 하나 이상의 앱 사용자가 포함될 수도 있습니다. 보고서 세트 또는 가상 보고서 세트에 하나 이상의 앱 데이터가 있을 수 있기 때문입니다. 가상 보고서 세트에 대한 자세한 내용은 [가상 보고서 세트를](/help/using/manage-apps/c-mob-vrs.md)참조하십시오.
+푸시 메시지에 대한 대상 세그먼트가 생성될 때 세그먼트에는 하나 이상의 앱 사용자가 포함될 수도 있습니다. 보고서 세트 또는 가상 보고서 세트에 하나 이상의 앱 데이터가 있을 수 있기 때문입니다. 가상 보고서 세트에 대한 자세한 내용은 [Virtual report suites](/help/using/manage-apps/c-mob-vrs.md).
 
-Adobe Mobile Services에서 마케터는 플랫폼당 하나의 앱으로만 푸시할 수 있습니다. 마케터가 여러 앱의 사용자를 포함하는 세그먼트로 푸시하려고 하면 계속 진행할 경우 심각한 푸시 오류가 발생할 수 있으며 사용자가 블랙리스트에 추가될 수 있다는 경고가 표시됩니다. 푸시가 실패하는 경우 *푸시 문제 해결*( [푸시 메시지 문제 해결](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
+Adobe Mobile Services에서 마케터는 플랫폼당 하나의 앱으로만 푸시할 수 있습니다. 마케터가 여러 앱의 사용자를 포함하는 세그먼트로 푸시하려고 하면 계속 진행할 경우 심각한 푸시 오류가 발생할 수 있으며 사용자가 블랙리스트에 추가될 수 있다는 경고가 표시됩니다. 푸시가 실패하는 경우 *푸시 문제 해결*( [Troubleshooting push messaging](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
 
 세그먼트 정의에 Audience Manager 데이터를 사용하려면 [Audience Analytics](https://docs-author-stg.corp.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html)를 참조하십시오.
 
@@ -29,9 +29,9 @@ Adobe Mobile Services에서 마케터는 플랫폼당 하나의 앱으로만 푸
 >
 >If app users are blacklisted, marketers can **never** send push messages to those affected users again.
 
-여러 앱에서 사용자가 포함된 대상 세그먼트를 선택하면 다음과 같은 경고가 표시될 수 있습니다.
+여러 앱에서 사용자가 포함된 대상 세그먼트를 선택하면 다음 경고가 표시될 수 있습니다.
 
-![여러 앱 이름](assets/multiple_appname.png)
+![다중 앱 이름](assets/multiple_appname.png)
 
 The app name is based on the pared down version of the appId, which is automatically sent to Adobe Analytics by the Mobile Services SDK in the `<app name> <version number> (<bundle id>)` format.
 
@@ -43,16 +43,16 @@ The app name is based on the pared down version of the appId, which is automatic
 
 예:
 
-* `Bea[rd]cons 1.0 (123)` will appear as `Bea[rd]cons`
-* `Bea[rd]cons 1.2 (1.2)` will appear as `Bea[rd]cons`
-* `Bea[rd]cons 1.2.3.4.5.6.7 (1111)` will appear as `Bea[rd]cons .7`
-* `Bea[rd]cons 1.2.3. (1.2.3.4.5.6)` will appear as `Bea[rd]cons (.6)`
+* `Bea[rd]cons 1.0 (123)` 가 `Bea[rd]cons`
+* `Bea[rd]cons 1.2 (1.2)` 가 `Bea[rd]cons`
+* `Bea[rd]cons 1.2.3.4.5.6.7 (1111)` 가 `Bea[rd]cons .7`
+* `Bea[rd]cons 1.2.3. (1.2.3.4.5.6)` 가 `Bea[rd]cons (.6)`
 
-표시된 앱으로 푸시 메시지를 계속 보내려면 **예, 진행하겠습니다.** 확인란을 선택하고 **[!UICONTROL [보내기]**] 를 클릭합니다.
+표시된 앱으로 푸시 메시지를 계속 보내려면 **예, 진행하겠습니다.** check box and click **[!UICONTROL Send]**.
 
 ## 우수 사례
 
-다음은 기억해야 할 몇 가지 모범 사례입니다.
+다음은 기억해야 할 몇 가지 우수 사례입니다.
 
 * 혼동을 줄이기 위해 여러 앱의 데이터를 포함하는 모바일 앱 가상 보고서 세트를 정의하지 **마십시오**.
 * 푸시 메시지를 전송할 때&#x200B;**마다** 고유한 앱 ID를 대상 세그먼트의 일부로 사용합니다.
@@ -68,7 +68,7 @@ The app name is based on the pared down version of the appId, which is automatic
 
 ## Configure audience segments {#section_A92C60885A30421B8150820EC1CCBF13}
 
-1. 새 푸시 메시지의 대상 페이지로 이동합니다.
+1. 대상 페이지로 이동하여 새 푸시 메시지를 표시합니다.
 
    For more information, see [Create a push message](/help/using/in-app-messaging/t-create-push-message/t-create-push-message.md).
 
@@ -84,11 +84,11 @@ The app name is based on the pared down version of the appId, which is automatic
 
       즉, SDK가 푸시 메시지 옵트인 evar에 대해 `True` 값을 보냈습니다.
 
-   * 장치에 유효한 장치 토큰이 있더라도 Adobe Analytics에서 옵트인 플래그를 설정하지 않으면 메시지가 장치로 푸시되지 않습니다.
+   * 장치에 유효한 장치 토큰이 있어도 Adobe Analytics에서 옵트인 플래그를 설정하지 않으면 메시지가 장치로 푸시되지 않습니다.
 
    * 푸시 메시지 문제 해결에 대한 자세한 내용은 다음을 참조하십시오.
 
-      * [iOS의 푸시 메시지](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/push-messaging.html)
+      * [iOS에서 푸시 메시지](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/push-messaging.html)
 
       * [Android의 푸시 메시지](https://docs.adobe.com/content/help/en/mobile-services/android/messaging-android/push-messaging/push-messaging.html)
 
@@ -115,4 +115,4 @@ The app name is based on the pared down version of the appId, which is automatic
       Select a metric or variable from the drop-down list (for example, **[!UICONTROL Days Since Last Use]** or **[!UICONTROL Point of Interest]**) and configure the filter as desired. 예를 들어, 다음 사용자 지정 세그먼트는 iOS를 실행하는 휴대 전화를 사용하고, 캘리포니아(미국) 지역 내에 있는 사용자를 타깃팅합니다.
    >[!IMPORTANT]
    >
-   >In the **[!UICONTROL Create Audience]** section, if you click **[!UICONTROL And]**, a dialog box appears that reminds you to ensure that each app that is listed **must** have a valid certificate. **[!UICONTROL 클릭하거나]**&#x200B;클릭하면 기본 대화 상자가 나타납니다. For more information about valid certificates and report suites, see [Virtual report suites](/help/using/manage-apps/c-mob-vrs.md).
+   >In the **[!UICONTROL Create Audience]** section, if you click **[!UICONTROL And]**, a dialog box appears that reminds you to ensure that each app that is listed **must** have a valid certificate. If you clicked **[!UICONTROL Or]**, the default dialog box appears. For more information about valid certificates and report suites, see [Virtual report suites](/help/using/manage-apps/c-mob-vrs.md).
