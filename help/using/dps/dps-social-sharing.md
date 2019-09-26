@@ -1,12 +1,12 @@
 ---
-description: 소셜 공유 보고서에는 기존 데이터에 대한 선버스트 시각화가 표시됩니다. 이 보고서는 Digital Publishing Suite (DPS) 고객에게만 제공됩니다.
+description: 소셜 공유 보고서에는 기존 데이터에 대한 선버스트 시각화가 표시됩니다. This report is available to Digital Publishing Suites (DPS) customers only.
 keywords: mobile
-seo-description: 소셜 공유 보고서에는 기존 데이터에 대한 선버스트 시각화가 표시됩니다. 이 보고서는 Digital Publishing Suite (DPS) 고객에게만 제공됩니다.
+seo-description: 소셜 공유 보고서에는 기존 데이터에 대한 선버스트 시각화가 표시됩니다. 이 보고서는 DPS(Digital Publishing Suite) 고객에게만 제공됩니다.
 seo-title: 소셜 공유
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 소셜 공유
 topic: 지표
-uuid: 900 e 58 aa-c 1 d 3-4590-af 44-df 67575214 a 4
+uuid: 900e58aa-c1d3-4590-af44-df67575214a4
 translation-type: tm+mt
 source-git-commit: b11a03226ff6100554d072b4ef523d703b80a6e5
 
@@ -15,7 +15,7 @@ source-git-commit: b11a03226ff6100554d072b4ef523d703b80a6e5
 
 # 소셜 공유{#social-sharing}
 
-**[!UICONTROL 소셜 공유]보고서에는 기존 데이터에 대한 선버스트 시각화가 표시됩니다.** 이 보고서는 DPS 고객에게만 제공됩니다.
+**[!UICONTROL 소셜 공유]보고서에는 기존 데이터에 대한 선버스트 시각화가 표시됩니다.** This report is available to DPS customers only.
 
 ![](assets/dps_social_share.png)
 
