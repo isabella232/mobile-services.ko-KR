@@ -3,10 +3,10 @@ description: 이 정보는 Adobe Mobile Services를 이해하고 사용하는 �
 keywords: mobile
 seo-description: 이 정보는 Adobe Mobile Services를 이해하고 사용하는 데 도움이 됩니다.
 seo-title: 시작하기
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 시작하기
 topic: 지표
-uuid: a 7 ae 7 c 5 a-dab 8-4603-b 4 cd-af 73 a 2 f 09 f 71
+uuid: a7ae7c5a-dab8-4603-b4cd-af73a2f09f71
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -41,7 +41,7 @@ Adobe Mobile Services는 다음과 같은 방식으로 모바일 앱 참여를 �
 
 *획득*&#x200B;에서 유료 미디어, 소유한 미디어 및 수익을 창출하는 미디어 사용하여 앱스토어에서 앱 다운로드에 대한 사용자 획득을 얻도록 유도합니다. Adobe Mobile Services를 사용하여 앱 사용자 획득 프로세스를 가속화할 수 있습니다.
 
-Adobe Mobile Services는 앱 사용자를 확보하는 데 사용되는 채널의 효율성을 측정하는 획득 추적 및 심층 연결을 포함하여 사용자 획득 워크플로우를 제공합니다. 어떤 채널을 통해 어떤 채널을 사용했는지에 대한 마케팅 링크를 통해 수익성과 참여도가 높은 사용자를 유도하는 데 가장 효과적인 고객 확보 채널을 파악할 수 있습니다.
+Adobe Mobile Services는 앱 사용자를 확보하는 데 사용되는 채널의 효율성을 측정하는 획득 추적 및 심층 연결을 포함하여 사용자 획득 워크플로우를 제공합니다. With Marketing Links that track which users came from which channel, you can gain visibility into which acquisition channels are most effective in driving profitable and engaged users.
 
 또한 심층 연결을 사용하여 사용자가 보고자 하는 앱 컨텐츠로 사용자를 직접 유도하고 필요한 경우 앱을 설치하도록 장려할 수 있습니다.
 
@@ -82,7 +82,7 @@ Adobe Audience Manager를 사용하면 다양한 데이터를 포함하는 대�
 * 인앱 메시지는 실시간 분석, 경고 및 오퍼/컨텐츠에 의해 트리거됩니다.
 * 보기, 클릭스루 비율 및 다운스트림 동작 이해
 
-### Adobe 모바일 메시징
+### Adobe 모바일 메시지
 
 푸시 및 인앱 알림을 사용하여 사용자와 통신할 수 있습니다. 푸시 알림은 장치의 운영 체제를 통해 전송되지만, 인앱 메시지는 사용자가 앱과 능동적으로 상호 작용할 때 앱에서 전송됩니다. 인앱 메시지에는 일반적으로 팝업 및 편집과 같은 다양한 추가 형식이 포함될 수 있습니다.
 
