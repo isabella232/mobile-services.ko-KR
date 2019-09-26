@@ -7,7 +7,7 @@ title: 라이프사이클 지표
 topic: 개발자 및 구현
 uuid: b795e383-d59b-4a3c-9e14-ffe8fb58412c
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: a6608bf4d36a6fb6aca00f50cc058c09dbd931b1
 
 ---
 
@@ -16,18 +16,14 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 라이프사이클이 구현된 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표 및 차원은 다음과 같습니다.
 
-## 새 Adobe Experience Cloud SDK 릴리스
+## 새로운 Adobe Experience Platform Mobile SDK 릴리스
 
 Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
 
 2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
-* 시작하려면 Launch로 이동합니다.
+* To get started, go to [Experience Platform Launch](https://launch.adobe.com/).
 * Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)로 이동하십시오.
-
->[!IMPORTANT]
->
-> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. 자세한 내용은 [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services)를 참조하십시오.
 
 
 ## Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
@@ -38,7 +34,7 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
 
 >[!TIP]
 >
->Exceptions are provided in the description.
+>설명에 예외가 제공됩니다.
 
 ### 지표
 
@@ -93,13 +89,13 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
 
 >[!IMPORTANT]
 >
-> The Daily Engaged Users and Monthly Engaged Users metrics are not automatically stored in an Analytics metric. **** You must create a processing rule that sets a custom event to capture these metrics.
+> 일별 *참여 사용자* 및 *월별 참여 사용자* 지표는 Analytics 지표에 자동으로 저장되지 않습니다. 이러한 지표를 캡처하려면 사용자 지정 이벤트를 설정하는 처리 규칙을 만들어야 합니다.
 
-### 차원
+#### 차원
 
 * **설치 날짜**
 
-   설치 후 처음 시작하는 날짜  The date format is .`MM/DD/YYYY`
+   설치 후 처음 시작하는 날짜  날짜 형식은 `MM/DD/YYYY`입니다.
 
    * Analytics 컨텍스트 데이터/타겟: `a.InstallDate`
    * 대상 관리: `c_a_InstallDate`
@@ -189,12 +185,12 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
    * 대상 관리: `c_a_Resolution`
    >[!IMPORTANT]
    >
-   >The Days since last upgrade, Launches since last upgrade, and the Carrier Name dimensions are not automatically stored in an Analytics variable. ****** You must create a processing rule to copy the values to an Analytics variable for reporting.
+   >마지막 *업그레이드*&#x200B;이후 일 수, *마지막 업그레이드*&#x200B;이후 시작 수 및 *통신사 이름* 차원은 Analytics 변수에자동으로 저장되지 않습니다. 보고를 위해 값을 Analytics 변수에 복사하려면 처리 규칙을 만들어야 합니다.
 
 
 ## Additional mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
-The following metrics and dimensions are captured in mobile solution variables by the listed method.
+다음 지표 및 차원은 나열된 방법으로 모바일 솔루션 변수에서 캡처됩니다.
 
 ### 지표
 
