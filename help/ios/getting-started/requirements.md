@@ -2,10 +2,10 @@
 description: 다음 단계를 완료하여, iOS 앱 데이터를 수집하도록 보고서 세트를 구성하십시오.
 seo-description: 다음 단계를 완료하여, iOS 앱 데이터를 수집하도록 보고서 세트를 구성하십시오.
 seo-title: 시작하기 전에
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 시작하기 전에
 topic: 개발자 및 구현
-uuid: 04133 F 68-3618-41 FD -8 A 13-AEC 5 B 6 F 04 DF 6
+uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
@@ -31,7 +31,7 @@ source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 >[!IMPORTANT]
 >
->새 보고서 세트를 만들고 SDK를 다운로드하려면 Analytics 관리자여야 합니다.
+>To create a new report suite and download the SDKs, you must be an Analytics Administrator.
 
 ### 앱 개발자
 
@@ -52,11 +52,11 @@ Adobe Mobile Services는 모바일 앱 분석 및 타깃팅용 주요 보고 인
 
    Adobe ID를 사용하여 [Experience Cloud](https://marketing.adobe.com)에 로그인합니다.
 
-   이 방법은 회사가 프로비저닝되었으며 Analytics 계정을 연결했다고 가정합니다. 프로비저닝에 대한 자세한 내용은 Experience Cloud 사용자 및 제품 [관리를](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)참조하십시오. 계정 연결에 대한 자세한 내용은 [조직 및 계정 연결을 참조하십시오](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
+   This method assumes that your company has been provisioned and you have linked your Analytics account. 프로비저닝에 대한 자세한 내용은 Experience [Cloud 사용자 및 제품](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)관리를 참조하십시오. 계정 연결에 대한 자세한 내용은 조직 [및 계정 연결을](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)참조하십시오.
 
    >[!TIP]
    >
-   >회사가 Experience Cloud에서 프로비저닝되었는지 확신할 수 없는 경우 기존 Adobe Analytics 계정을 사용하십시오.
+   >If you are unsure whether your company has been provisioned in the Experience Cloud, use your existing Adobe Analytics account.
 
 * **Adobe Analytics**
 
@@ -70,11 +70,11 @@ Adobe Mobile Services는 모바일 앱 분석 및 타깃팅용 주요 보고 인
 
    If you do not see this button, click **[!UICONTROL Manage Apps]** &gt; **[!UICONTROL Add]**.
 
-1. **[!UICONTROL 보고서 세트]** 드롭다운에서 **[!UICONTROL 새 보고서 세트를 선택합니다]**.
+1. In the **[!UICONTROL Report Suite]** drop-down, select **[!UICONTROL New Report Suite]**.
 
 1. 앱 이름을 입력하고 고유 보고서 세트 ID를 선택합니다.
 
-   보고서 세트 ID의 예는 `mycomobileappdev`입니다. 개발 및 프로덕션 버전에 대해 별도의 보고서 세트와 앱을 설정해야 합니다. 프로덕션 버전을 설정할 준비가 되었으면 다음 단계를 반복합니다.
+   보고서 세트 ID의 예는 `mycomobileappdev`입니다. 개발 및 제작 버전에 대해 개별 보고서 세트와 앱을 설정해야 합니다. When you are ready to set up the production version, repeat these steps.
 1. **[!UICONTROL 모바일 앱 템플릿]을 선택한 상태로 둡니다.**
 
    이 템플릿을 사용하면 타임스탬프에서 오프라인 데이터를 수집할 수 있으며, 라이프사이클 지표를 캡처하는 모바일 솔루션 변수를 활성화합니다.
@@ -85,7 +85,7 @@ Adobe Mobile Services는 모바일 앱 분석 및 타깃팅용 주요 보고 인
 
 모바일 SDK를 다운로드하려면 다음을 수행하십시오.
 
-1. Mobile Services에 로그인하여 다음 방법 중 하나를 사용하여 앱을 엽니다.
+1. Log in to Mobile Services and open your app in one of the following ways:
 
    * **[!UICONTROL 모든 앱]드롭다운 목록에서 앱을 선택합니다.**
    * 오른쪽 패널에서 앱을 찾아서 엽니다.
@@ -97,5 +97,5 @@ Adobe Mobile Services는 모바일 앱 분석 및 타깃팅용 주요 보고 인
 
 >[!TIP]
 >
->앱에 대한 구성 파일은 SDK 다운로드에 자동으로 포함되므로 해당 파일을 별도로 다운로드할 필요가 없습니다. 그러나 이미 SDK를 다운로드한 경우 업데이트된 설정을 가져오려면 구성 파일을 다시 다운로드하십시오.
+>앱용 구성 파일은 SDK 다운로드에 자동으로 포함되므로 별도로 다운로드할 필요가 없습니다. 그러나 이미 SDK를 다운로드한 경우 업데이트된 설정을 가져오려면 구성 파일을 다시 다운로드하십시오.
 
