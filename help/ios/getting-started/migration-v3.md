@@ -1,11 +1,11 @@
 ---
 description: 다음은 iOS 라이브러리를 버전 3.x 또는 2.x에서 4.x 버전으로 마이그레이션하는 데 유용한 정보입니다.
 seo-description: 다음은 iOS 라이브러리를 버전 3.x 또는 2.x에서 4.x 버전으로 마이그레이션하는 데 유용한 정보입니다.
-seo-title: 4. x iOS 라이브러리로 마이그레이션
-solution: Marketing Cloud, Analytics
-title: 4. x iOS 라이브러리로 마이그레이션
+seo-title: 4.x iOS 라이브러리로 마이그레이션
+solution: Marketing Cloud,Analytics
+title: 4.x iOS 라이브러리로 마이그레이션
 topic: 개발자 및 구현
-uuid: 5668972 b-f 355-4 e 03-9 df 0-8 c 82 ddf 6809 b
+uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
 translation-type: tm+mt
 source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
@@ -20,7 +20,7 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 >
 >The SDK uses `NSUserDefaults` to store data that is needed to calculate unique users, lifecycle metrics, and other data related to core SDK functionality.  SDK에 필요한 `NSUserDefaults`의 값을 수정하거나 제거하면 예기치 않은 동작으로 인해 데이터 형식이 일치하지 않을 수 있습니다.
 
-iOS SDK 라이브러리의 4. x 버전에서 공개 메서드는 하나의 헤더에 통합됩니다. 또한 이제 클래스 수준 메서드를 통해 기능에 액세스할 수 있으므로 포인터, 인스턴스 또는 singletons를 추적할 필요가 없습니다.
+iOS SDK 라이브러리 버전 4.x에서 공개 메서드는 하나의 헤더로 통합됩니다. 또한 이제 클래스 수준 메서드를 통해 이 기능에 액세스할 수 있으므로 포인터, 인스턴스 또는 singleons를 추적할 필요가 없습니다.
 
 ## Events, props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
@@ -106,7 +106,7 @@ iOS SDK 라이브러리의 4. x 버전에서 공개 메서드는 하나의 헤�
 | trackOffline | "offlineEnabled" |
 | offlineLimit | "batchLimit" |
 | account | "rsids" |
-| trackingServer | "server"`"https://"` 에서 접두사를 제거합니다. 프로토콜 접두사는 "ssl"설정에 따라 자동으로 추가됩니다. |
+| trackingServer | "server"를 눌러 `"https://"` 접두사를 제거합니다. 프로토콜 접두사는 "ssl"설정에 따라 자동으로 추가됩니다. |
 | trackingServerSecure | 제거. 보안 연결을 위해 "server"를 정의한 다음 "ssl"을 사용하도록 설정합니다. |
 | charSet | "charset" |
 | currencyCode | "currency" |
@@ -119,22 +119,22 @@ iOS SDK 라이브러리의 4. x 버전에서 공개 메서드는 하나의 헤�
 | dynamicVariablePrefix | 제거합니다. 더 이상 사용되지 않습니다. |
 | visitorNamespace | 제거합니다. 더 이상 사용되지 않습니다. |
 | usePlugins | 제거합니다. 더 이상 사용되지 않습니다. |
-| useBestPractices  churn 측정에 대한 모든 호출(getChurnInstance ) | 제거, 라이프사이클 지표로 대체되었습니다. 자세한 내용은 [라이프사이클 지표](//help/ios/metrics.md)를 참조하십시오. |
+| useBestPractices  churn 측정에 대한 모든 호출(getChurnInstance ) | 라이프사이클 지표로 대체되고 제거 자세한 내용은 [라이프사이클 지표](//help/ios/metrics.md)를 참조하십시오. |
 
 
 ## Update track calls and tracking variables {#section_96E7D9B3CDAC444789503B7E7F139AB9}
 
 버전 4 SDK는 웹 중심의 `track` 및 `trackLink` 호출 대신 다음과 같은 방법을 사용합니다.
 
-* `trackState:data:` 상태는 앱에서 사용 가능한 보기 (예: `home dashboard`, `app settings`등) `cart`입니다.
+* `trackState:data:` states are the views that are available in your app, such as `home dashboard`, `app settings`, `cart`, and so on.
 
    이 상태는 웹 사이트의 페이지와 유사하며 `trackState` 호출은 페이지 보기를 증가시킵니다.
 
-* `trackAction:data:` 앱에서 `logons``banner taps``feed subscriptions`발생하여 측정하려는 동작과 같은 작업.
+* `trackAction:data:` 동작과 같이, `logons``banner taps`, `feed subscriptions`및 앱에서 발생하며 측정하려는 기타 지표와 같은 동작입니다.
 
 이 두 메서드의 `data` 매개 변수는 컨텍스트 데이터로 전송되는 이름 - 값 쌍을 포함하는 `NSDictionary`입니다.
 
-### 이벤트, prop, evar
+### 이벤트, prop, eVar
 
 버전 4에서는 더 이상 events, eVars, props, heirs 및 lists와 같은 변수를 앱에서 직접 할당할 수 없습니다. SDK는 이제 컨텍스트 데이터 및 처리 규칙을 사용하여 Analytics 변수에 앱 데이터를 매핑하여 보고합니다.
 
@@ -148,7 +148,7 @@ iOS SDK 라이브러리의 4. x 버전에서 공개 메서드는 하나의 헤�
 
 변수에 직접 할당한 값은 대신 `data``NSDictionary` 에 추가해야 합니다. This means that calls to `setProp`, `setEvar`, and assignments to persistent context data should all be removed and the values be added to the `data` parameter.
 
-### Appsection/서버, geozip, 거래 ID, 캠페인 및 기타 표준 변수
+### AppSection/Server, GeoZip, 거래 ID, 캠페인 및 기타 표준 변수
 
 위에 나열된 변수를 포함하여 측정 개체에 설정한 데이터는 대신 `data``NSDictionary` 에 추가해야 합니다. `trackState` 또는 `trackAction` 호출과 함께 전송되는 데이터는 `data` 매개 변수의 페이로드뿐입니다.
 
@@ -171,7 +171,7 @@ iOS SDK 라이브러리의 4. x 버전에서 공개 메서드는 하나의 헤�
 
 ## Custom visitor ID {#section_2CF930C13BA64F04959846E578B608F3}
 
-`visitorID` 변수를 호출로 바꿉니다 `setUserIdentifier:`.
+Replace the `visitorID` variable with a call to `setUserIdentifier:`.
 
 ## Offline tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
 
