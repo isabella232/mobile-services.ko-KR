@@ -2,10 +2,10 @@
 description: 작업은 측정할 앱에서 발생하는 이벤트입니다. 각 작업에는 이벤트가 발생할 때마다 늘어나는 하나 이상의 해당 지표가 있습니다. 예를 들어 문서를 볼 때마다 또는 수준이 완료될 때마다 새 가입을 추적할 수 있습니다. 이러한 이벤트에 대한 해당 지표는 가입, 읽은 문서 및 완료 수준으로 구성됩니다.
 seo-description: 작업은 측정할 앱에서 발생하는 이벤트입니다. 각 작업에는 이벤트가 발생할 때마다 늘어나는 하나 이상의 해당 지표가 있습니다. 예를 들어 문서를 볼 때마다 또는 수준이 완료될 때마다 새 가입을 추적할 수 있습니다. 이러한 이벤트에 대한 해당 지표는 가입, 읽은 문서 및 완료 수준으로 구성됩니다.
 seo-title: 앱 작업 추적
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 앱 작업 추적
 topic: 개발자 및 구현
-uuid: 62017 BE 1-5395-4 D 16-BDE 3-4 C 40 A 2 C 012 D 4
+uuid: 62017be1-5395-4d16-bde3-4c40a2c012d4
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -22,7 +22,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 1. 프로젝트에 라이브러리를 추가하고 라이프사이클을 구현합니다.
 
-   자세한 내용은 핵심 구현 *및* 라이프사이클에서 [프로젝트에 SDK 및 구성 파일 추가를](/help/ios/getting-started/dev-qs.md)참조하십시오.
+   자세한 내용은 핵심 구현 *및 라이프사이클에서 SDK 및 구성* 파일을 프로젝트에 [추가를 참조하십시오](/help/ios/getting-started/dev-qs.md).
 1. 라이브러리를 가져옵니다.
 
    ```objective-c
@@ -62,7 +62,7 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 [ADBMobile trackAction:@"myapp.SocialShare" data:contextData];
 ```
 
-컨텍스트 데이터 값은 사용자 지정 변수에 매핑되어야 합니다.
+Context data values must be mapped to custom variables:
 
 ![](assets/map-variable-context-action.png)
 
