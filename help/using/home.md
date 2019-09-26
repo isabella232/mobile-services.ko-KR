@@ -1,10 +1,10 @@
 ---
-description: Adobe Mobile Services 기술 문서
-seo-description: 본 가이드에서는 Adobe Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능을 통합하는 Adobe Mobile Services에 대한 기술 설명서 및 자체 도움말에 대해 개괄적으로 설명하고, 이를 통해 사용자는 모바일 애플리케이션을 통해 사용자의 참여를 이해하고 향상시킬 수 있습니다.
+description: Adobe Mobile Services용 기술 문서
+seo-description: 본 가이드는 Adobe Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능을 제공하는 Adobe Mobile Services에 대한 기술 설명서와 자체 지원에 대해 간략하게 설명합니다. 이를 통해 모바일 애플리케이션을 사용한 사용자 참여도를 이해하고 향상시킬 수 있습니다.
 seo-title: Adobe Mobile Services
 solution: Marketing Cloud, Analytics, Experience Cloud
 title: Adobe Mobile Services
-uuid: E 86 A 77 C 9-4 FF 1-403 F-A 5 A 1-4 AFBDC 4 E 6 F 68
+uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
 translation-type: tm+mt
 source-git-commit: 20fdbba819f7c182a23a01cd06e1738ad83eba38
 
@@ -13,11 +13,11 @@ source-git-commit: 20fdbba819f7c182a23a01cd06e1738ad83eba38
 
 # Adobe Mobile Services {#adobe-mobile-services}
 
-본 가이드에서는 Adobe Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능을 통합하는 Adobe Mobile Services에 대한 기술 설명서 및 자체 도움말에 대해 개괄적으로 설명하고, 이를 통해 사용자는 모바일 애플리케이션을 통해 사용자의 참여를 이해하고 향상시킬 수 있습니다.
+본 가이드는 Adobe Experience Cloud에서 모바일 애플리케이션을 위한 모바일 마케팅 기능을 제공하는 Adobe Mobile Services에 대한 기술 설명서와 자체 지원에 대해 간략하게 설명합니다. 이를 통해 모바일 애플리케이션을 사용한 사용자 참여도를 이해하고 향상시킬 수 있습니다.
 
 >[!IMPORTANT]
 >
->Mobile Services의 모바일 확보, 딥 링크, 지리적 위치 및 모바일 메시징 기능에 액세스하려면 Adobe Analytics Mobile Marketing Add-on SKU가 필요합니다. 자세한 내용은 Adobe CSM에 문의하십시오.
+>Mobile Services가 모바일 확보, 딥 링크, 위치 정보 및 모바일 메시징 기능에 액세스할 수 있도록 하려면 Adobe Analytics Mobile Marketing Add-on SKU가 필요합니다. 자세한 내용은 Adobe CSM에 문의하십시오.
 
 ## 새 Adobe Experience Cloud SDK 릴리스
 
@@ -40,7 +40,7 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 
 ## 인기 있는 항목 {#section_AFFBC9EDDE5B4E4493A7C2896121A773}
 
-다음은 이 안내서의 인기 있는 주제들입니다.
+다음은 이 안내서에서 인기 있는 몇 가지 주제입니다.
 
 * [시작하기](/help/using/gs/gs.md)
 * [로그인 중](/help/using/gs/gs-signin.md)
@@ -53,14 +53,14 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 
 ## 개발자
 
-개발자 도움말 링크는 다음과 같습니다.
+Here are some links to help developers:
 
 * [모바일 SDK 및 도구 다운로드](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
 * [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
 
 ## 커뮤니티 리소스
 
-다음은 몇 가지 추가 리소스입니다.
+Here are some additional resources:
 
 * [Experience Cloud 포럼](https://forums.adobe.com/community/experience-cloud)
 * [Adobe Marketing Cloud 커뮤니티](https://helpx.adobe.com/marketing-cloud.html?promoid=KAWSE)
