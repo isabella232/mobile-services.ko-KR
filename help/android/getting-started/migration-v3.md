@@ -1,12 +1,12 @@
 ---
 description: 다음은 Android 라이브러리를 3.x 또는 2.x 버전에서 4.x 버전으로 마이그레이션하는 데 유용한 정보입니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 다음은 Android 라이브러리를 3.x 또는 2.x 버전에서 4.x 버전으로 마이그레이션하는 데 유용한 정보입니다.
 seo-title: Android 4.x 라이브러리로 마이그레이션
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Android 4.x 라이브러리로 마이그레이션
 topic: 개발자 및 구현
-uuid: 906 e 83 bb -2 faf -4 aa 2-ac 9 b -3 fba 6 b 833 c 7 e
+uuid: 906e83bb-2faf-4aa2-ac9b-3fba6b833c7e
 translation-type: tm+mt
 source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
@@ -80,7 +80,7 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 ### 버전 3.x에서 마이그레이션
 
-버전 3. x에서 4로 마이그레이션하려면 구성 변수/방법 값을 `ADBMobileConfig.json` 변수로 이동합니다.
+버전 3.x에서 4로 마이그레이션하려면 구성 변수/메서드 값을 `ADBMobileConfig.json` 변수로 이동합니다.
 
 | 구성 변수 또는 메서드 | Variable in the `ADBMobileConfig.json` file |
 |--- |--- |
@@ -96,14 +96,14 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 ### 버전 2.x에서 마이그레이션
 
-버전 2. x에서 버전 4로 마이그레이션하려면 첫 번째 열에서 두 번째 열의 변수로 값을 이동합니다.
+버전 2.x에서 버전 4로 마이그레이션하려면 첫 번째 열에서 두 번째 열의 변수로 값을 이동합니다.
 
 | 구성 변수 | Variable in the `ADBMobileConfig.json` file |
 | --- |--- |
 | trackOffline | "offlineEnabled" |
 | offlineLimit | "batchLimit" |
 | account | "rsids" |
-| trackingServer | "server"`"https://"` 에서 접두사를 제거합니다. 프로토콜 접두사는 "ssl"설정에 따라 자동으로 추가됩니다. |
+| trackingServer | "server"를 눌러 `"https://"` 접두사를 제거합니다. 프로토콜 접두사는 "ssl"설정에 따라 자동으로 추가됩니다. |
 | trackingServerSecure | 제거. 보안 연결을 위해 "server"를 정의한 다음 "ssl"을 사용하도록 설정합니다. |
 | charSet | "charset" |
 | currencyCode | "currency" |
@@ -116,21 +116,21 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 | dynamicVariablePrefix | 제거합니다. 더 이상 사용되지 않습니다. |
 | visitorNamespace | 제거합니다. 더 이상 사용되지 않습니다. |
 | usePlugins | 제거합니다. 더 이상 사용되지 않습니다. |
-| useBestPractices  churn 측정에 대한 모든 호출(getChurnInstance) | 제거, 라이프사이클 지표로 대체되었습니다. |
+| useBestPractices  churn 측정에 대한 모든 호출(getChurnInstance) | 라이프사이클 지표로 대체되고 제거 |
 
 ## Update track calls and tracking variables {#section_96E7D9B3CDAC444789503B7E7F139AB9}
 
 버전 4 SDK는 웹 중심의 `track` 및 `trackLink` 호출 대신 다음과 같은 방법을 사용합니다.
 
-* `trackState`- 앱에서 사용 가능한 보기 (예: `home dashboard``app settings`, `cart`등) 입니다.
+* `trackState`,, `home dashboard``app settings`, `cart`등 앱에서 사용할 수 있는 보기입니다.
 
    이 상태는 웹 사이트의 페이지와 유사하며 `trackState` 호출은 페이지 보기를 증가시킵니다.
 
-* `trackAction` 앱에서 `logons``banner taps``feed subscriptions`발생하여 측정하려는 동작과 같은 작업.
+* `trackAction` actions, such as `logons`, `banner taps`, `feed subscriptions`, and so on that occur in your app and that you want to measure.
 
 The `contextData` parameter for both of these methods is a `HashMap<String, Object>`, which contains the name-value pairs that are sent as context data.
 
-## 이벤트, prop 및 evar
+## Events, props, and eVars
 
 버전 4에서는 더 이상 events, eVars, props, heirs 및 lists와 같은 변수를 앱에서 직접 할당할 수 없습니다. SDK는 이제 컨텍스트 데이터 및 처리 규칙을 사용하여 Analytics 변수에 앱 데이터를 매핑하여 보고합니다.
 
@@ -144,7 +144,7 @@ The `contextData` parameter for both of these methods is a `HashMap<String, Obje
 
 변수에 직접 할당한 값은 `data` HashMap에 추가해야 합니다. This means that calls to `setProp`, `setEvar`, and assignments to persistent context data should be removed and the values be added to the `data` parameter.
 
-## Appsection/서버, geozip, 거래 ID, 캠페인 및 기타 표준 변수
+## AppSection/서버, GeoZip, 거래 ID, 캠페인 및 기타 표준 변수
 
 위에 나열된 변수를 포함하여 측정 개체에 설정한 데이터는 대신 `data` HashMap에 추가해야 합니다. `trackState` 또는 `trackAction` 호출과 함께 전송되는 데이터는 `data` 매개 변수의 페이로드뿐입니다.
 
@@ -166,7 +166,7 @@ The `contextData` parameter for both of these methods is a `HashMap<String, Obje
 
 ## Custom visitor ID {#section_2CF930C13BA64F04959846E578B608F3}
 
-`visitorID` 변수를 호출로 바꿉니다 `setUserIdentifier`.
+Replace the `visitorID` variable with a call to `setUserIdentifier`.
 
 ## Offline tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
 
