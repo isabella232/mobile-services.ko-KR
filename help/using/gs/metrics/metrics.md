@@ -3,10 +3,10 @@ description: Adobe Mobile을 사용하여 여러 메트릭을 측정하고, 앱�
 keywords: mobile
 seo-description: Adobe Mobile을 사용하여 여러 메트릭을 측정하고, 앱에 대해 추적할 지표를 수집할 수 있습니다.
 seo-title: 모바일 지표
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 모바일 지표
 topic: 지표
-uuid: c 4457 f 4 a -9 d 1 c -4 fe 9-ad 4 a -9 eb 2 e 37 feab 7
+uuid: c4457f4a-9d1c-4fe9-ad4a-9eb2e37feab7
 translation-type: tm+mt
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
@@ -43,7 +43,7 @@ Adobe Mobile을 사용하여 여러 메트릭을 측정하고, 앱에 대해 추
 
 * **위치 및 관심 영역**
 
-   지리 보고 기능이 Analytics 보고서 세트에 활성화되어 있는 경우, 몇 가지 위치 기반 보고서를 사용할 수 있습니다. Wi-Fi에서 지리 보고 기능의 정확성은 데스크탑 웹 브라우저의 정확도와 유사합니다. 데이터 연결 사진 정확성은 제공자와 요청이 전달되는 방법에 따라 달라집니다.
+   지리 보고 기능이 Analytics 보고서 세트에 활성화되어 있는 경우, 몇 가지 위치 기반 보고서를 사용할 수 있습니다. On Wi-Fi, GeoReporting accuracy is similar to that of a desktop web browser. 데이터 연결 사진 정확성은 제공자와 요청이 전달되는 방법에 따라 달라집니다.
 
    정확성을 높이기 위해 앱에 위치 및 관심 영역 추적을 추가할 수 있습니다. 이러한 옵션을 사용하면 세부 위도와 경도 위치 데이터를 보고하고, Geofence를 사용하여 사용자가 사전에 정의된 관심 영역의 반경 내에 있는 시점을 파악할 수 있습니다.
 
