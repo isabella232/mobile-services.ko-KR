@@ -3,7 +3,7 @@ description: 이 정보는 iOS 앱에서 GDPR 데이터 액세스 요청으로 �
 seo-description: 이 정보는 iOS 앱에서 GDPR 데이터 액세스 요청으로 로컬에 저장된 Experience Cloud SDK ID를 검색하는 데 도움이 됩니다.
 seo-title: 저장된 식별자 검색
 title: 저장된 식별자 검색
-uuid: 4 FB 2 C 166-6700-4 F 8 B-B 60 B -137 B 199 E 0509
+uuid: 4fb2c166-6700-4f8b-b60b-137b199e0509
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
@@ -18,7 +18,7 @@ GDPR에 대한 자세한 내용은 [GDPR 및 비즈니스](https://www.adobe.com
 
 >[!IMPORTANT]
 >
->`getAllIdentifiersAsync` 이 메서드는 Experience Cloud SDK에 저장된 ID를 검색합니다. 사용자가 옵트아웃하기 **전에** 이 메서드를 호출해야 합니다.
+>이 `getAllIdentifiersAsync` 메서드는 Experience Cloud SDK에 저장된 ID를 검색합니다. 사용자가 옵트아웃하기 **전에** 이 메서드를 호출해야 합니다.
 
 Experience Cloud SDK ID(해당하는 경우)는 로컬로 저장되며 JSON 문자열에 반환됩니다. 이 문자열에는 다음이 포함될 수 있습니다.
 
