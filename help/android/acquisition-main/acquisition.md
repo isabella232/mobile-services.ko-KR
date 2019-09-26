@@ -1,5 +1,5 @@
 ---
-description: Adobe Mobile Services에서 고유한 추적 코드가 있는 획득 링크를 생성할 수 있습니다. 사용자가 생성된 링크를 클릭한 후 App Store에서 앱을 다운로드하고 실행하면 SDK는 자동으로 획득 데이터를 수집하여 Adobe Mobile Services로 전송합니다.
+description: Adobe Mobile Services에서 고유한 추적 코드가 있는 획득 링크를 생성할 수 있습니다. When a user downloads and runs an app from the App store after clicking on the generated link, the SDK automatically collects and sends the acquisition data to Adobe Mobile services.
 keywords: android;library;mobile;sdk
 seo-description: Adobe Mobile Services에서 고유한 추적 코드가 있는 획득 링크를 생성할 수 있습니다. 사용자가 생성된 링크를 클릭한 후 App Store에서 앱을 다운로드하고 실행하면 SDK는 자동으로 획득 데이터를 수집하여 Adobe Mobile Services로 전송합니다.
 seo-title: 모바일 앱 획득
@@ -8,7 +8,7 @@ title: 모바일 앱 획득
 topic: 개발자 및 구현
 uuid: 4d32eae9-e856-4e40-8a29-2b5bccd106e0
 translation-type: tm+mt
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 ---
 
@@ -17,18 +17,14 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 Adobe Mobile Services에서 고유한 추적 코드가 있는 획득 링크를 생성할 수 있습니다. 사용자가 생성된 링크를 클릭한 후 App Store에서 앱을 다운로드하고 실행하면 SDK는 자동으로 획득 데이터를 수집하여 Adobe Mobile Services로 전송합니다.
 
-## 새 Adobe Experience Cloud SDK 릴리스
+## 새로운 Adobe Experience Platform Mobile SDK 릴리스
 
 Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
 
 2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
-* 시작하려면 [Launch](https://launch.adobe.com/)로 이동합니다.
+* 시작하려면 Adobe Experience Platform Launch로 이동합니다.
 * Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)로 이동하십시오.
-
->[!IMPORTANT]
->
-> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as Acquisition links. 자세한 내용은 [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services)를 참조하십시오. For more information about using Acquisition and Marketing Links with the Experience Cloud SDKs, see [Acquisition and Marketing Links](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services#acquisition-and-marketing-links).
 
 >[!IMPORTANT]
 >
@@ -50,7 +46,7 @@ Adobe Mobile Services에서 생성된 획득 링크를 사용할 수 없는 경�
 
    * The data is stored and available in the `AdobeDataCallback` instance that was registered earlier with the SDK.
 
-      For more information, see Configuration Methods.[](/help/android/configuration/methods.md)
+      자세한 내용은 구성 [방법을 참조하십시오](/help/android/configuration/methods.md).
 
    * 또는 `MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL` 이벤트 `MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH` 유형이 사용됩니다.
 
@@ -62,13 +58,13 @@ Adobe Mobile Services에서 만든 획득 링크를 사용하는 경우 다음 �
 
    When the SDK receives the acquisition data from Adobe Mobile Services (on first launch), that data will be stored and also available in the `AdobeDataCallback` instance registered earlier with the SDK, as mentioned in [Configuration Methods](/help/android/configuration/methods.md).
 
-1. The `MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL` or the `MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH` event type will be used.
+1. 또는 `MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL` 이벤트 `MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH` 유형이 사용됩니다.
 
 1. The custom data keys are prefixed with "`a.acquisition.custom.`"
 
 >[!TIP]
 >
->여러 보고서 세트로 데이터를 전송하는 경우 보고서 세트 ID 목록의 첫 번째 보고서 세트와 연관된 앱의 획득 데이터를 사용합니다.
+>If you are sending data to multiple report suites, use the acquisition data from the app that is associated with the first report suite in your list of report suite IDs.
 
 이 섹션의 업데이트를 통해 SDK는 획득 링크에서 획득 데이터를 전송할 수 있습니다.
 
