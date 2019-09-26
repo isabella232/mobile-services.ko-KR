@@ -3,10 +3,10 @@ description: 웹으로 또는 앱의 딥링크로 사용자를 안내하는 새 
 keywords: mobile
 seo-description: 웹으로 또는 앱의 딥링크로 사용자를 안내하는 새 링크 대상을 만들 수 있습니다.
 seo-title: 새 링크 대상 만들기
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 새 링크 대상 만들기
 topic: 지표
-uuid: 390 E 3 DEA -0221-4 F 97-980 D-A 90 CA 9 F 162 FA
+uuid: 390e3dea-0221-4f97-980d-a90ca9f162fa
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -24,7 +24,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 1. 다음 필드에 정보를 입력하십시오.
    * **[!UICONTROL 직함]**
 
-      앱 링크 대상에 대해 설명하는 이름을 입력합니다. Adobe Mobile Services UI의 링크 대상 관리 페이지에만 표시되는 제목입니다. 수사적 이름을 사용하면 작성자나 조직의 다른 직원이 특정 링크 대상을 신속하게 찾고 작성 목적에 대한 자세한 정보를 제공할 수 있습니다.
+      앱 링크 대상에 대해 수사적 이름을 입력합니다. Adobe Mobile Services UI의 링크 대상 관리 페이지에만 표시되는 제목입니다. 수사적 이름을 사용하면 작성자나 조직의 다른 직원이 특정 링크 대상을 신속하게 찾고 작성 목적에 대한 자세한 정보를 제공할 수 있습니다.
 
    * **[!UICONTROL 링크 유형]**
 
@@ -41,8 +41,8 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
       * **[!UICONTROL 하이브리드 링크]**
 
          iOS 범용 링크 또는 Android 앱 링크(예: `https://yourwebsite.com`)를 입력합니다. 하이브리드 링크는 iOS 범용 링크 또는 Android 앱 링크를 지원합니다.
-   * **[!UICONTROL 앱제공할]**
-링크와 연계된 앱을 선택합니다.
+   * **[!UICONTROL App]**
+Select the app that is associated with the link you are going to provide.
 
       >[!TIP]
       >
@@ -50,7 +50,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
    * **[!UICONTROL 링크 유형]**
 
-      선택한 링크에 대한 실제 URL를 입력합니다. 이 필드의 레이블은 선택한 링크의 유형에 따라 달라집니다.
+      선택한 링크의 실제 URL을 입력합니다. 이 필드의 레이블은 선택한 링크 유형에 따라 달라집니다.
 
    * **[!UICONTROL 참고]**
 
