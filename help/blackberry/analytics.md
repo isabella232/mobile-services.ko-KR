@@ -3,7 +3,7 @@ description: 라이브러리를 프로젝트에 추가한 후에는 앱의 모�
 seo-description: 라이브러리를 프로젝트에 추가한 후에는 앱의 모든 위치에서 Analytics 메서드를 호출할 수 있습니다(ADBMobile.h를 클래스로 가져와야 함).
 seo-title: Analytics
 title: Analytics
-uuid: de 018 EDA-B 37 D -4 AFE -83 A 0-8011381 D 7 AFF
+uuid: de018eda-b37d-4afe-83a0-8011381d7aff
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -19,7 +19,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 코드를 추가하기 전에, 모바일 앱 라이프사이클 추적을 사용하도록 설정하려면 Analytics 관리자가 다음을 완료하도록 하십시오. 이렇게 하면 개발을 시작할 때 보고서 세트가 메트릭을 캡처할 준비를 합니다.
 
 
-1. **[!UICONTROL 관리 도구]** &gt; **[!UICONTROL 보고서 세트를]** 열고 모바일 보고서 세트를 선택합니다.
+1. Open **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Report Suites]** and select your mobile report suite(s).
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
 
    ![](assets/mobile-settings.png)
@@ -50,7 +50,7 @@ Lifecycle metrics are now ready to be captured, and Mobile Application Reports] 
 ## Events, props, and eVars {#concept_B885D5A71A5D45129CE7C1C3426A7D28}
 
 
-[Adbmobile 클래스와 메서드 참조를](/help/blackberry/methods.md)확인한 경우 이벤트, evar, prop, Heirs 및 목록을 설정하는 위치를 알고 있을 것입니다. 버전 4에서는 더 이상 이러한 유형의 변수를 앱에서 직접 할당할 수 없습니다. 대신 SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 Analytics 변수에 앱 데이터를 매핑하여 보고합니다.
+ADBMobile 클래스 및 [메서드 참조를](/help/blackberry/methods.md)살펴본 경우 이벤트, eVar, prop, 상속인 및 목록을 어디에 설정해야 하는지 궁금해 할 수 있습니다. 버전 4에서는 더 이상 이러한 유형의 변수를 앱에서 직접 할당할 수 없습니다. 대신 SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 Analytics 변수에 앱 데이터를 매핑하여 보고합니다.
 
 처리 규칙은 몇 가지 장점을 제공합니다.
 
@@ -68,7 +68,7 @@ Lifecycle metrics are now ready to be captured, and Mobile Application Reports] 
 
 [처리 규칙](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
-[처리 규칙 사용 권한 받기](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
+[처리 규칙 사용 권한 부여](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
 
 '네임스페이스'를 사용하여 컨텍스트 데이터 변수를 그룹화하십시오. 이렇게 하면 논리적 순서를 유지할 수 있습니다. 예를 들어 제품에 대한 정보를 수집할 경우 다음 변수를 정의할 수 있습니다.
 
@@ -106,14 +106,14 @@ Lifecycle metrics are now ready to be captured, and Mobile Application Reports] 
 
 >[!TIP]
 >
->Adobe는 네임스페이스를 `a.`예약합니다. 이러한 사소한 제한 사항 외에도 충돌을 방지하기 위해 컨텍스트 데이터 변수는 로그인 회사에서 고유해야 합니다.
+>Adobe는 네임스페이스를 보유합니다 `a.`. 이러한 사소한 제한 사항 외에도 충돌을 방지하기 위해 컨텍스트 데이터 변수는 로그인 회사에서 고유해야 합니다.
 
-## 오프라인 추적 활성화 {#concept_402F4ECE240B4CA1B779322A7BFCB8DE}
+## 오프라인 추적 사용 {#concept_402F4ECE240B4CA1B779322A7BFCB8DE}
 
 To store hits when the device is offline, you can optionally enable offline tracking in the `ADBMobileConfig.json` file.
 
 오프라인 추적을 사용하기 전에 구성 파일 참조에 설명된 타임스탬프 요구 사항에 주의하십시오. 
 
-## Analytics 메서드
+## 분석 방법
 
-BlackBerry에 사용할 수 있는 분석 방법의 목록은 Adobe Mobile 클래스 *및 메서드* 참조에서 [분석 방법을 참조하십시오](/help/blackberry/methods.md).
+BlackBerry에 사용할 수 있는 Analytics 메서드 목록은 Adobe Mobile *클래스* 및 메서드 [참조의 Analytics 메서드를 참조하십시오](/help/blackberry/methods.md).
