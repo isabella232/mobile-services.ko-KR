@@ -2,10 +2,10 @@
 description: 상태는 애플리케이션의 다양한 화면 또는 보기입니다.
 seo-description: 상태는 애플리케이션의 다양한 화면 또는 보기입니다.
 seo-title: 앱 상태 추적
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 앱 상태 추적
 topic: 개발자 및 구현
-uuid: 69 c 99 D 05-5816-4 c 86-97 c 5-d 218 dc 26 c 129
+uuid: 69c99d05-5816-4c86-97c5-d218dc26c129
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -22,7 +22,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 1. 프로젝트에 라이브러리를 추가하고 라이프사이클을 구현합니다.
 
-   자세한 내용은 핵심 구현 *및* 라이프사이클에서 [Intellij 아이디어 또는 Eclipse 프로젝트에 SDK 및 구성 파일 추가를](/help/android/getting-started/dev-qs.md)참조하십시오.
+   자세한 내용은 코어 *구현 및 라이프사이클에서 IntelliJ IDEA 또는 Eclipse 프로젝트에* SDK 및 구성 파일 [추가를 참조하십시오](/help/android/getting-started/dev-qs.md).
 
 1. 라이브러리를 가져옵니다:
 
@@ -43,7 +43,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
    }
    ```
 
-The `"State Name"` is reported in the `View State` variable in Adobe Mobile services, and a view is recorded for each `trackState` call. 다른 Analytics 인터페이스에서 `View State` 보고되고로 `Page Name``state views` 보고됩니다 `page views`.
+The `"State Name"` is reported in the `View State` variable in Adobe Mobile services, and a view is recorded for each `trackState` call. 다른 Analytics 인터페이스에서는 `View State` 로 보고되며 `Page Name`로 `state views` 보고됩니다 `page views`.
 
 ## Send additional data {#section_CFDB4F944496401786A145C209AB387C}
 
