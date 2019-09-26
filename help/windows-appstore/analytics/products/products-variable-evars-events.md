@@ -2,10 +2,10 @@
 description: 머천다이징 eVar 및 제품별 이벤트의 products 변수의 예입니다.
 seo-description: 머천다이징 eVar 및 제품별 이벤트의 products 변수의 예입니다.
 seo-title: 머천다이징 eVar 및 제품 특화 이벤트가 포함된 products 변수
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 머천다이징 eVar 및 제품 특화 이벤트가 포함된 products 변수
 topic: 개발자 및 구현
-uuid: 94 E 882 E 4-B 19 D -4 C 48-9 DFB -331465490347
+uuid: 94e882e4-b19d-4c48-9dfb-331465490347
 translation-type: tm+mt
 source-git-commit: b630c5cf09be7fbe31018cbf50564001eb6e2a5a
 
@@ -37,5 +37,5 @@ ADB.Analytics.trackState("Order Confirmation", cdata);
 
 >[!TIP]
 >
->*`&&products`* 변수를 사용하여 제품별 이벤트를 트리거하는 경우 *`&&events`* , 변수에서 해당 이벤트도 설정해야 하며, 그렇지 않으면 처리 중에 이벤트가 필터링됩니다.
+>변수를 사용하여 제품별 이벤트를 트리거하는 경우 *`&&products`* *`&&events`* 변수에서 해당 이벤트를 설정해야 하며, 그렇지 않으면 처리 중에 이벤트가 필터링됩니다.
 
