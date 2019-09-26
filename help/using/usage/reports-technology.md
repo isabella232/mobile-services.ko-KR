@@ -2,11 +2,11 @@
 description: 기술 보고서를 통해 앱이 사용되는 다양한 장치 유형, 운영 체제, 운영 체제 버전 및 이동통신사를 확인할 수 있습니다.
 keywords: mobile
 seo-description: 기술 보고서를 통해 앱이 사용되는 다양한 장치 유형, 운영 체제, 운영 체제 버전 및 이동통신사를 확인할 수 있습니다.
-seo-title: 기술 보고서
-solution: Marketing Cloud, Analytics
+seo-title: Technology report
+solution: Marketing Cloud,Analytics
 title: 기술 보고서
 topic: 보고서,지표
-uuid: 4 b 7322 c 4-8920-43 cd-bb 72-5 a 5 bd 515 ae 84
+uuid: 4b7322c4-8920-43cd-bb72-5a5bd515ae84
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -25,7 +25,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 >[!TIP]
 >
->이 정보 외에도 선버스트 차트와 상호 작용하는 방법을 설명하는 제품 내 자습서를 볼 수 있습니다. To start the tutorial, click **[!UICONTROL Technology Breakdown]** in the title bar of the report, click **[!UICONTROL Customize]**, and click the **[!UICONTROL i]** icon.
+>In addition to this information, you can view an in-product tutorial that describes how to interact with the sunburst chart. To start the tutorial, click **[!UICONTROL Technology Breakdown]** in the title bar of the report, click **[!UICONTROL Customize]**, and click the **[!UICONTROL i]** icon.
 
 ![](assets/report_technology.png)
 
@@ -51,7 +51,7 @@ Sunburst 차트는 대화식으로 표시되므로, 다음 작업을 완료할 �
 
 >[!TIP]
 >
->**[!UICONTROL 통신사]** 보고서에서 Wi-Fi 사용자는 `none`으로 보고됩니다.
+>통신사 **[!UICONTROL 보고서에서]** Wi-Fi 사용자는 로 보고됩니다 `none`.
 
 
 ## 분류 및 지표 추가 {#section_15833511E82648869E7B1EFC24EF7B82}
@@ -60,7 +60,7 @@ Sunburst 차트는 대화식으로 표시되므로, 다음 작업을 완료할 �
 
 >[!IMPORTANT]
 >
->선버스트 추가 고리가 많을수록 처리 시간이 길어집니다.
+>선버스트에 고리를 추가할수록 처리 시간이 더 오래 걸립니다.
 
 To add breakdowns and secondary metrics, click **[!UICONTROL Technology Breakdown]** in the title bar of the report and click **[!UICONTROL Customize]**.
 
