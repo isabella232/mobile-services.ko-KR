@@ -1,11 +1,11 @@
 ---
 description: 다음은 충돌을 추적하는 방법을 이해하고 허위 충돌을 처리하는 우수 사례를 확인하는 데 유용한 정보입니다.
 seo-description: 다음은 충돌을 추적하는 방법을 이해하고 허위 충돌을 처리하는 우수 사례를 확인하는 데 유용한 정보입니다.
-seo-title: 앱 충돌 추적
-solution: Marketing Cloud, Analytics
+seo-title: Track App crashes
+solution: Marketing Cloud,Analytics
 title: 앱 충돌 추적
 topic: 개발자 및 구현
-uuid: 4 F 81988 B -198 A -4 BA 9-AD 53-78 AF 90 E 43856
+uuid: 4f81988b-198a-4ba9-ad53-78af90e43856
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -18,7 +18,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 >[!IMPORTANT]
 >
->잘못된 충돌이 보고되지 않도록 하는 중요한 변경 사항이 포함된 iOS SDK 버전 4.8.6로 업그레이드해야 합니다.
+>잘못된 충돌이 보고되지 않도록 중요한 변경 사항이 포함된 iOS SDK 버전 4.8.6으로 업그레이드해야 합니다.
 
 ## Adobe는 언제 충돌을 보고합니까?
 
@@ -44,13 +44,13 @@ SDK에서 허위로 충돌을 보고하는 원인이 되는 것으로 알려진 
 
    >[!TIP]
    >
-   >Xcode에서 앱을 다시 실행하기 전에 앱을 백접지하여 이 시나리오에서 충돌을 방지할 수 있습니다.
+   >Xcode에서 앱을 다시 시작하기 전에 앱을 백그라운드로 전환하여 이 시나리오의 충돌을 방지할 수 있습니다.
 
 * If your app is in the background and sends Analytics hits through a call other than `trackActionFromBackground`, `trackLocation`, or `trackBeacon`, and the app is terminated (manually or by the OS) while in the background, and the next launch will be a crash.
 
    >[!TIP]
    >
-   >`lifecycleTimeout` 임계값을 넘는 백그라운드 활동은 추가로 잘못된 론치를 발생시킬 수 있습니다.
+   >Background activity that occurs beyond the `lifecycleTimeout` threshold might also result in an additional false launch.
 
 * 앱이 백그라운드 가져오기, 위치 업데이트 등의 이유로 백그라운드에서 시작된 후 포그라운드로 전환되지 않은 채 OS에 의해 종료되는 경우 다음에 백그라운드나 포그라운드에서 앱이 시작될 때 충돌이 발생합니다.
 * 앱이 백그라운드에 있는 동안 `NSUserDefaults`에서 Adobe의 일시 중지 플래그를 프로그래밍 방식으로 삭제하면 다음에 시작하거나 다시 시작할 때 충돌이 발생합니다.
@@ -66,5 +66,5 @@ SDK에서 허위로 충돌을 보고하는 원인이 되는 것으로 알려진 
 * 허위 충돌 #1이 발생하지 않도록, 비프로덕션 보고서 세트에 대해 개발을 수행해야 합니다.
 * AdobeMobile SDK가 `NSUserDefaults`에 입력하는 값을 삭제하거나 수정하지 마십시오.
 
-   이러한 값이 SDK 외부에서 수정되면 보고된 데이터가 유효하지 않게 됩니다.
+   If these values are modified outside the SDK, the reported data will be invalid.
 
