@@ -1,9 +1,9 @@
 ---
 description: BlackBerry 라이브러리에서 제공하는 클래스 및 메서드입니다.
 seo-description: BlackBerry 라이브러리에서 제공하는 클래스 및 메서드입니다.
-seo-title: Adobe 모바일 클래스 및 메서드 참조
-title: Adobe 모바일 클래스 및 메서드 참조
-uuid: 1 e 42 d 759-be 43-4 bb 3-ac 1 a-c 7 d 64133 d 61 c
+seo-title: Adobe Mobile class and method reference
+title: Adobe Mobile class and method reference
+uuid: 1e42d759-be43-4bb3-ac1a-c7d64133d61c
 translation-type: tm+mt
 source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
@@ -14,7 +14,7 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 BlackBerry 라이브러리에서 제공하는 클래스 및 메서드입니다.
 
-SDK는 현재 Adobe Analytics에 대한 지원을 가지고 있으며, 메서드를 기반으로 별도의 클래스에 있습니다.
+현재 SDK는 Adobe Analytics를 지원하고 메서드는 솔루션을 기반으로 별도의 클래스에 있습니다.
 
 ## SDK settings {#section_C1EB977043C04D2B93E5A63DB72828B6}
 
@@ -44,8 +44,8 @@ SDK는 현재 Adobe Analytics에 대한 지원을 가지고 있으며, 메서드
 
    현재 사용자의 개인정보 상태를 `status`로 설정합니다. 다음 값 중 하나를 설정합니다.
 
-   * `ADBMobilePrivacyStatusOptIn` - 히트가 즉시 전송됩니다.
-   * `ADBMobilePrivacyStatusOptOut` - 히트는 무시됩니다.
+   * `ADBMobilePrivacyStatusOptIn` - hits are sent immediately.
+   * `ADBMobilePrivacyStatusOptOut` - hits are discarded.
    * `ADBMobilePrivacyStatusUnknown` - 보고서 세트에 타임스탬프가 사용되면 개인정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다. 보고서 세트에 타임스탬프가 사용되지 않으면 개인정보 상태가 옵트인으로 변경될 때까지 히트가 삭제됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
@@ -153,7 +153,7 @@ SDK는 현재 Adobe Analytics에 대한 지원을 가지고 있으며, 메서드
 
    >[!TIP]
    >
-   >페이지 보기를 증가시키는 유일한 추적 호출입니다.
+   >이것은 페이지 보기를 증가시키는 유일한 추적 호출입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -235,7 +235,7 @@ The `ADBMobileConfig.json` file must be placed in the *assets* folder.
 
    >[!TIP]
    >
-   >If timestamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. 보고서 세트에서 타임스탬프가 사용되지 않는 경우에는 `offlineEnabled` 구성 속성이 *반드시* false여야 합니다. 이 속성이 제대로 구성되지 않으면 데이터가 손실됩니다. 보고서 세트 타임 스탬프 활성화 여부가 확실치 않으면 [엔터프라이즈 지원에 문의하십시오](https://helpx.adobe.com/contact/enterprise-support.ec.html).
+   >If timestamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. 보고서 세트에서 타임스탬프가 사용되지 않는 경우에는 `offlineEnabled` 구성 속성이 *반드시* false여야 합니다. 이 속성이 제대로 구성되지 않으면 데이터가 손실됩니다. 보고서 세트 타임 스탬프 활성화 여부가 확실치 않으면 엔터프라이즈 [지원에 문의하십시오](https://helpx.adobe.com/contact/enterprise-support.ec.html).
 
    현재 JavaScript의 데이터도 수집하는 보고서 세트에 AppMeasurement 데이터를 보고하는 경우, 모바일 데이터에 별도의 보고서 세트를 설정하거나 `s.timestamp` 변수를 사용하는 모든 JavaScript 히트에 사용자 지정 타임스탬프를 포함해야 할 수도 있습니다.
 
@@ -245,20 +245,20 @@ The `ADBMobileConfig.json` file must be placed in the *assets* folder.
 
    앱 시작이 새 세션으로 간주되기 전에 다음 앱이 시작되기까지 경과되어야 하는 시간(초)을 지정합니다. 이 시간 초과는 응용 프로그램이 백그라운드로 전송되고 다시 활성화될 때도 적용됩니다. 앱이 백그라운드에서 소요하는 시간은 세션 길이에 포함되지 않습니다.
 
-   기본값은 300 초입니다.
+   The default value is 300 seconds.
 
 * **batchLimit**
 
-   큐에 저장되는 최대 오프라인 히트 수입니다. 기본값은 0 (제한 없음) 입니다.
+   큐에 저장되는 최대 오프라인 히트 수입니다. 기본값은 0(제한 없음)입니다.
 
 * **privacyDefault**
 
-   * `optedin` - 히트가 즉시 전송됩니다.
-   * `optedout` - 히트는 무시됩니다.
+   * `optedin` - hits are sent immediately.
+   * `optedout` - 히트가 무시됩니다.
    * `optunknown` - 보고서 세트에 타임스탬프가 사용되면 개인정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다. 
 
       보고서 세트에 타임스탬프가 사용되지 않으면 개인정보 상태가 옵트인으로 변경될 때까지 히트가 삭제됩니다.
-   이 변수는 초기값만 설정합니다. 코드에서 이 값을 설정하거나 변경하고 나면 해당 값을 변경하거나 앱을 제거하고 다시 설치할 때까지 새 값이 사용됩니다.
+   이 변수는 초기 값만 설정합니다. 코드에서 이 값을 설정하거나 변경하고 나면 해당 값을 변경하거나 앱을 제거하고 다시 설치할 때까지 새 값이 사용됩니다.
 
    기본값은 `optedin`입니다.
 
