@@ -3,9 +3,9 @@ description: Android용 라이프사이클 지표를 구현하는 데 도움이 
 keywords: Xamarin
 seo-description: Android용 라이프사이클 지표를 구현하는 데 도움이 되는 정보입니다. iOS에서는 라이프사이클 지표가 자동으로 수집됩니다.
 seo-title: 라이프사이클 구현
-solution: Marketing Cloud, 개발자
+solution: Marketing Cloud,Developer
 title: 라이프사이클 구현
-uuid: 6 DCCC 12 E -8 B 57-4231-9 C 74-D 47 BC 0 AC 93 BA
+uuid: 6dccc12e-8b57-4231-9c74-d47bc0ac93ba
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -14,7 +14,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 # Implement lifecycle {#implement-lifecycle}
 
-이 정보는 Android의 라이프사이클 지표를 구현하는 데 도움이 됩니다.
+This information helps you implement Lifecycle metrics for Android.
 
 >[!TIP]
 >
@@ -24,11 +24,11 @@ For the metrics and dimensions that can be measured automatically by the mobile 
 
 ## iOS
 
-iOS에서 라이프사이클 지표는 자동으로 수집됩니다.
+iOS에서는 라이프사이클 지표가 자동으로 수집됩니다.
 
 ## Android
 
-기본 활동에서 Android SDK 용 응용 프로그램 컨텍스트를 설정합니다.
+기본 활동에서 Android SDK에 대한 애플리케이션 컨텍스트를 설정합니다.
 
 ```java
 protected override void OnCreate (Bundle bundle) 
@@ -39,7 +39,7 @@ protected override void OnCreate (Bundle bundle)
 }
 ```
 
-모든 활동에서 라이프사이클 호출을 구현합니다.
+In every activity, implement lifecycle calls.
 
 ```java
 protected override void OnResume()
