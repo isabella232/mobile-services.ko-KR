@@ -3,10 +3,10 @@ description: 버전 보고서는 사용자의 장치에서 실행되는 다양�
 keywords: mobile
 seo-description: 버전 보고서는 사용자의 장치에서 실행되는 다양한 앱 버전에 대한 정보를 표시하는 시간 보고서입니다.
 seo-title: 버전 보고서
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 버전 보고서
 topic: 보고서,지표
-uuid: 67 E 759 D 3-7 E 4 F -4985-9 E 74-61 C 782 F 0 FBB 5
+uuid: 67e759d3-7e4f-4985-9e74-61c782f0fbb5
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
