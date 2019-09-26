@@ -1,9 +1,9 @@
 ---
 description: 이 정보는 Android 앱에서 GDPR 데이터 액세스 요청으로 로컬에 저장된 SDK ID를 검색하는 데 도움이 됩니다.
 seo-description: 이 정보는 Android 앱에서 GDPR 데이터 액세스 요청으로 로컬에 저장된 SDK ID를 검색하는 데 도움이 됩니다.
-seo-title: 저장된 식별자 검색
-title: 저장된 식별자 검색
-uuid: 6 FD 3 D 202-B 0 A 1-4 C 80-96 F 4-369 FC 24 AC 0 A 3
+seo-title: Retrieving stored identifiers
+title: Retrieving stored identifiers
+uuid: 6fd3d202-b0a1-4c80-96f4-369fc24ac0a3
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -16,7 +16,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 >[!IMPORTANT]
 >
->`getAllIdentifiersAsync` 이 메서드는 SDK에 저장된 ID를 검색합니다. 사용자가 옵트아웃하기 **전에** 이 메서드를 호출해야 합니다.
+>The `getAllIdentifiersAsync` method retrieves identities stored in the SDK. 사용자가 옵트아웃하기 **전에** 이 메서드를 호출해야 합니다.
 
 SDK ID(해당하는 경우)는 로컬로 저장되며, JSON 문자열에 반환됩니다. 이 문자열에는 다음이 포함될 수 있습니다.
 
