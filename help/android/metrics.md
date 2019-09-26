@@ -1,12 +1,12 @@
 ---
 description: 다음은 라이프사이클을 구현한 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표 및 차원을 안내합니다. 또한 라이프사이클 데이터 문제 해결을 안내하는 링크도 제공합니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 다음은 라이프사이클을 구현한 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표 및 차원을 안내합니다. 또한 라이프사이클 데이터 문제 해결을 안내하는 링크도 제공합니다.
 seo-title: 라이프사이클 지표
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 라이프사이클 지표
 topic: 개발자 및 구현
-uuid: a 8 f 3 ebac-be 3 b -4948-82 bb -105 d 46 cfff 6 d
+uuid: a8f3ebac-be3b-4948-82bb-105d46cfff6d
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -15,7 +15,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 # Lifecycle metrics{#lifecycle-metrics}
 
-이 섹션에서는 라이프사이클이 구현된 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표 및 차원, 라이프사이클 데이터 문제 해결에 대한 링크를 제공합니다. 문제 해결에 대한 자세한 내용은 라이프사이클 데이터 [문제 해결을](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html)참조하십시오.
+This section provides information about the metrics and dimensions that can be measured automatically by the mobile library, after lifecycle is implemented, and a link to troubleshoot Lifecycle data. For more information about troubleshooting, go to Troubleshoot Lifecycle data.[](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html)
 
 ## 새 Adobe Experience Cloud SDK 릴리스
 
@@ -32,7 +32,7 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 
 구성된 경우 라이프사이클 지표가 컨텍스트 데이터 매개 변수로 Analytics에 전송되고, 각 mbox 호출을 통해 매개 변수로 Target에 전송되며, 고객 관리에 신호로 전송됩니다. 분석 및 타겟은 같은 형식을 사용하지만, 대상 관리는 각 지표에 다른 접두사를 사용합니다.
 
-Analytics의 경우 각 라이프사이클 추적 호출을 사용하여 전송된 컨텍스트 데이터는 지표 또는 차원을 사용하여 자동으로 캡처되고 보고되며 예외가 표시됩니다.
+Analytics의 경우, 각 라이프사이클 추적 호출과 함께 전송되는 컨텍스트 데이터는 지표나 차원을 사용하여 자동으로 캡처되고 보고되며 예외가 기록됩니다.
 
 ### 지표
 
@@ -56,7 +56,7 @@ Analytics의 경우 각 라이프사이클 추적 호출을 사용하여 전송�
 
    >[!IMPORTANT]
    >
-   >이 지표는 Analytics 지표에 자동으로 저장되지 않습니다. 이 지표를 캡처하려면 사용자 지정 이벤트를 설정하는 처리 규칙을 만들어야 합니다.
+   >This metric is not automatically stored in an Analytics metric. 이 지표를 캡처하려면 사용자 지정 이벤트를 설정하는 처리 규칙을 만들어야 합니다.
 
    * Analytics 컨텍스트 데이터/타겟 매개 변수: `a.DailyEngUserEvent`
    * Audience Manager 신호: `c_a_DailyEngUserEvent`
@@ -67,7 +67,7 @@ Analytics의 경우 각 라이프사이클 추적 호출을 사용하여 전송�
 
    >[!IMPORTANT]
    >
-   >이 지표는 Analytics 지표에 자동으로 저장되지 않습니다. 이 지표를 캡처하려면 사용자 지정 이벤트를 설정하는 처리 규칙을 만들어야 합니다.
+   >This metric is not automatically stored in an Analytics metric. 이 지표를 캡처하려면 사용자 지정 이벤트를 설정하는 처리 규칙을 만들어야 합니다.
 
    * Analytics 컨텍스트 데이터/타겟 매개 변수: `a.MonthlyEngUserEvent`
    * Audience Manager 신호: `c_a_MonthlyEngUserEvent`
@@ -151,7 +151,7 @@ Analytics의 경우 각 라이프사이클 추적 호출을 사용하여 전송�
 
 * **운영 체제 버전**
 
-   OS 버전.
+   The OS version.
 
    * Analytics 컨텍스트 데이터/타겟 매개 변수: `a.OSVersion`
    * Audience Manager: `c_a_OSVersion`
@@ -162,7 +162,7 @@ Analytics의 경우 각 라이프사이클 추적 호출을 사용하여 전송�
 
    >[!IMPORTANT]
    >
-   >이 지표는 Analytics 변수에 자동으로 저장되지 않습니다. 보고를 위해 이 값을 Analytics 변수에 복사하려면 처리 규칙을 생성해야 합니다.
+   >This metric is not automatically stored in an Analytics variable. 보고를 위해 이 값을 Analytics 변수에 복사하려면 처리 규칙을 생성해야 합니다.
 
    * Analytics 컨텍스트 데이터/타겟 매개 변수: `a.DaysSinceLastUpgrade`
    * Audience Manager: `c_a_DaysSinceLastUpgrade`
@@ -214,21 +214,21 @@ Analytics의 경우 각 라이프사이클 추적 호출을 사용하여 전송�
    Populated by `trackTimedAction` methods.
 
    * Analytics 컨텍스트 데이터/타겟 매개 변수: `a.action.time.total`
-   * Audience Manager 특성: `c_a_action_time_total`
+   * Audience Manager Trait: `c_a_action_time_total`
 
 * **앱의 동작 시간**
 
    Populated by `trackTimedAction` methods.
 
    * Analytics 컨텍스트 데이터/타겟 매개 변수: `a.action.time.inapp`
-   * Audience Manager 특성: `c_a_action_time_inapp`
+   * Audience Manager Trait: `c_a_action_time_inapp`
 
 * **라이프타임 값(이벤트)**
 
    Populated by `trackLifetimeValue` methods.
 
    * Analytics 컨텍스트 데이터/타겟 매개 변수: `a.ltv.amount`
-   * Audience Manager 특성: `c_a_ltv_amount`
+   * Audience Manager Trait: `c_a_ltv_amount`
 
 ### 차원
 
@@ -250,7 +250,7 @@ Analytics의 경우 각 라이프사이클 추적 호출을 사용하여 전송�
 
    trackLocation 메서드로 채워집니다.
 
-   * Analytics 컨텍스트 데이터/타겟 매개 변수:
+   * Analytics Context Data/Target Parameters:
 
       * `a.loc.lat.b`
       * `a.loc.lon.b`
@@ -307,7 +307,7 @@ Analytics의 경우 각 라이프사이클 추적 호출을 사용하여 전송�
    캠페인의 이름으로, 캠페인 변수에도 저장됩니다. 모바일 앱 획득을 통해 채워집니다.
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.name`
-   * Audience Manager 특성: `c_a_referrer_campaign_name`
+   * Audience Manager Trait: `c_a_referrer_campaign_name`
 
 * **캠페인 내용**
 
@@ -328,7 +328,7 @@ Analytics의 경우 각 라이프사이클 추적 호출을 사용하여 전송�
    뉴스레터 또는 소셜 미디어 네트워크와 같은 원본 레퍼러입니다. 모바일 앱 획득을 통해 채워집니다.
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.source`
-   * Audience Manager 특성: `c_a_referrer_campaign_source`
+   * Audience Manager Trait: `c_a_referrer_campaign_source`
 
 * **캠페인 용어**
 
