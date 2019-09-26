@@ -3,7 +3,7 @@ description: Android SDK를 사용하여 타사의 지연 딥링크 추적을 �
 seo-description: Android SDK를 사용하여 타사의 지연 딥링크 추적을 구현할 수 있습니다.
 seo-title: 타사의 지연 딥링크 추적
 title: 타사의 지연 딥링크 추적
-uuid: 4 c 798 e 47-7988-4 a 06-a 191-6 c 4 d 05 f 6 ee 61
+uuid: 4c798e47-7988-4a06-a191-6c4d05f6ee61
 translation-type: tm+mt
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
@@ -22,17 +22,17 @@ Android SDK를 사용하여 타사의 지연 딥링크 추적을 구현할 수 �
 
 광고 제작자는 Facebook에 게시하는 광고를 딥링크로 만들 수 있습니다. 사용자가 광고를 클릭하면 앱에서 관심 있는 정보로 바로 이동합니다. 딥링크는 핑거프린터 URL이 **아닙니다**. 그러나 광고 구성 중에 타사 딥링크 URL을 제공하는 옵션이 있습니다. Adobe Mobile SDK 및 서비스를 사용하는 앱 개발자는 이 필드에 Adobe Mobile Service 구성 핑거프린터 URL을 입력해야 합니다. 모든 것이 제대로 설정되면 Facebook SDK는 앱이 설치되거나 시작될 때 이 URL을 애플리케이션에 전달합니다.
 
-## SDK 설정 {#section_834CD3109175432B8173ECB6EA7DE315}
+## iOS에서 SDK {#section_834CD3109175432B8173ECB6EA7DE315}
 
 Adobe Mobile SDK를 사용하는 Facebook 딥링크 지원을 추가하려면 먼저 앱 개발자가 다음 작업을 완료합니다.
 
-* Android SDK 시작하기
+* Get started with the Android SDK
 
    For more information, see [Getting Started Android SDK](https://developers.facebook.com/docs/android/getting-started) .
 
-* 딥 링크 설정
+* Set up deep linking
 
-   자세한 내용은 [딥 링크 설정을](https://developers.facebook.com/docs/app-ads/deep-linking#os)참조하십시오.
+   For more information, see Deep Linking Set up.[](https://developers.facebook.com/docs/app-ads/deep-linking#os)
 
 If the application is set up correctly, the `trackAdobeDeepLink()` API should enable collecting the deep link information from the Facebook acquisition campaign and send it to Adobe Mobile Service. 첫 시작 시 설치 히트가 Adobe Mobile Service로 전송되지 않았다면 이 정보가 라이프사이클 히트에 추가됩니다. 첫 실행 시 전송된 경우에는 Adobe 딥링크 히트로 전송됩니다.
 
@@ -53,7 +53,7 @@ If the application is set up correctly, the `trackAdobeDeepLink()` API should en
    앱에 Facebook Gradle 종속성을 추가하려면 [Android SDK 시작하기](https://developers.facebook.com/docs/android/getting-started)의 단계를 완료하십시오.
 
 1. Facebook SDK를 초기화하려면 *Android Studio 설치* 섹션의 지침을 따릅니다.
-1. Call `trackAdobeDeepLink()` from the main activity.
+1. 기본 활동에서 `trackAdobeDeepLink()`를 호출합니다.
 
    ```java
    @Override 
