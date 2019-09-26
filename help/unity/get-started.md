@@ -3,9 +3,9 @@ description: 이 플러그인으로 Unity 애플리케이션에서 Adobe Analyti
 keywords: Unity
 seo-description: 이 플러그인으로 Unity 애플리케이션에서 Adobe Analytics 호출을 보낼 수 있습니다.
 seo-title: iOS 및 Android 4.x SDK용 Unity 플러그인
-solution: Marketing Cloud, 개발자
+solution: Marketing Cloud,Developer
 title: iOS 및 Android 4.x SDK용 Unity 플러그인
-uuid: 83289 a 73-982 D -4472-A 8 C 8-00 B 562 DC 80 F 5
+uuid: 83289a73-982d-4472-a8c8-00b562dc80f5
 translation-type: tm+mt
 source-git-commit: 5fbba02eb61679344f638b6465e47b0d9ae5a988
 
@@ -22,7 +22,7 @@ source-git-commit: 5fbba02eb61679344f638b6465e47b0d9ae5a988
 
 GitHub 또는 Developer Connection에서 [ADBMobile.unitypackage](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases) 파일을 다운로드합니다.
 
-파일의 내용은 `ADBMobile.unitypackage` 다음과 같습니다.
+Here are the contents of the  file:`ADBMobile.unitypackage`
 
 * Assets (root)
 
