@@ -1,12 +1,12 @@
 ---
 description: 다음은 Android 장치에서 버전 3 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 다음은 Android 장치에서 버전 3 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
 seo-title: 버전 3 획득 테스트
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 버전 3 획득 테스트
 topic: 개발자 및 구현
-uuid: 5 E 38 B 43 D -389 E -4412-99 E 5-3 E 6223 B 6 AD 28
+uuid: 5e38b43d-38 파섹
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -19,13 +19,13 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 >[!IMPORTANT]
 >
->v 3의 획득은 Adobe Mobile Services UI에서 획득 빌더를 사용하여 만든 획득 링크를 나타냅니다. 이 기능을 사용하려면 Experience Cloud Solutions 4.6.0 이상을 위한 Android SDK 4.x로 업그레이드해야 합니다.
+>V3에서의 획득은 Adobe Mobile Services UI에서 획득 빌더로 만든 획득 링크를 의미합니다. 이 기능을 사용하려면 Experience Cloud Solutions 4.6.0 이상을 위한 Android SDK 4.x로 업그레이드해야 합니다.
 
 모바일 앱이 아직 Google Play에 없으면 캠페인 링크를 만들 때 임의의 모바일 앱을 대상으로 선택할 수 있습니다. 이 작업은 획득 링크를 클릭한 후 획득 서버가 사용자를 리디렉션하는 앱에만 영향을 미치며, 획득 링크를 테스트하는 기능에는 영향을 미치지 않습니다. 쿼리 문자열 매개 변수는 Google Play 스토어에 전달되며, 설치할 때 캠페인 브로드캐스트의 일부로 앱에 전달됩니다. 왕복 모바일 앱 획득 테스트에는 이러한 유형의 브로드캐스트 시뮬레이션이 필요합니다.
 
 The app must be freshly installed, or have data cleared in **[!UICONTROL Settings]**, each time a test is run. 이렇게 하면 앱을 처음 시작할 때 캠페인 쿼리 문자열 매개 변수와 연결된 초기 라이프사이클 지표를 전달할 수 있습니다.
 
-1. [모바일 앱 확보에서](/help/android/acquisition-main/acquisition.md) 사전 요구 사항을 완료하고, 브로드캐스트 수신기를 올바르게 `INSTALL_REFERRER`구현했는지 확인합니다.
+1. Complete the prerequisite tasks in Mobile App Acquisition and ensure that you have correctly implemented the broadcast receiver for .[](/help/android/acquisition-main/acquisition.md)`INSTALL_REFERRER`
 1. In the Adobe Mobile Services UI, click  **[!UICONTROL Acquisition]** &gt; **[!UICONTROL Marketing Links Builder]** and generate an Acquisition Marketing Link URL that sets Google Play as the destination for Android devices.
 
    자세한 정보는 [마케팅 링크 빌더](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md)를 참조하십시오.
@@ -34,7 +34,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
    >[!TIP]
    >
-   >획득 링크에서 Android 및 iOS 앱 모두를 참조하는 경우 Google Play를 기본 스토어로 사용합니다.
+   >획득 링크에서 Android 앱과 iOS 앱을 모두 참조하는 경우 Google Play를 기본 스토어로 사용하십시오.
 
 1. 데스크탑 브라우저에서 생성된 링크를 엽니다.
 
@@ -43,7 +43,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
 1. Copy the unique ID after `utm_content%3D`.
 
-   이전 예에서 ID는 `91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`입니다.
+   In the previous example, the ID is .`91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`
 
 1. 3단계의 고유 ID를 사용하여 다음 형식의 획득 종료 링크를 구성합니다.
 
@@ -61,9 +61,9 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 1. 3단계를 반복하여 새 고유 ID를 얻습니다.
 1. 구성 파일에서 다음 설정이 올바른지 확인합니다.
 
-   | 이 예에서 | 값 |
+   | 설정 | 값 |
    |--- |--- |
-   | acquisition | `c00.adobe.com`서버가 있어야 합니다. *`appid`* 의 값은 획득 `appid` 링크와 같아야 합니다. |
+   | acquisition | The server should be `c00.adobe.com`.   *`appid`*  should equal the `appid`  in your acquisition link. |
    | analytics | 테스트 목적을 위해 수동으로 브로드캐스트를 전송하는 데 적당한 시간(60초 이상)을 고려하도록 레퍼러 시간제한을 설정하십시오. 테스트 후 원래 시간제한 설정을 복원할 수 있습니다. |
 
 1. 장치를 컴퓨터에 연결하고 앱을 제거한 다음 다시 설치합니다.
@@ -97,7 +97,7 @@ Broadcast completed: result=0`
 | Analytics - Unable to decode response(*String*). | 응답 형식이 잘못되었습니다. |
 | Analytics - Unable to parse response (*a JSON Response*). | JSON 문자열의 형식이 잘못되었습니다. |
 | Analytics - Unable to parse acquisition service response (no contextData parameter in response). | 응답에 contextData 매개 변수가 없습니다. |
-| Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | `a.referrer.campaign.name` 은 Contextdata에 포함되지 않습니다. |
+| Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | `a.referrer.campaign.name`  is not included in contextData. |
 | Analytics - Acquisition referrer timed out. | `referrerTimeout`에 정의된 시간 내에 응답을 가져오지 못했습니다. 값을 늘린 다음 다시 시도하십시오.  또한 앱을 설치하기 전에 획득 링크를 열었는지 확인해야 합니다. |
 
 다음 정보를 숙지하십시오.
