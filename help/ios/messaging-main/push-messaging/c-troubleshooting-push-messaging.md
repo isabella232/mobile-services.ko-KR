@@ -3,10 +3,10 @@ description: 다음은 푸시 메시지 문제를 해결하는 데 유용한 정
 keywords: mobile
 seo-description: 다음은 푸시 메시지 문제를 해결하는 데 유용한 정보입니다.
 seo-title: 푸시 메시지 문제 해결
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 푸시 메시지 문제 해결
 topic: 지표
-uuid: 87 D 7 DCB 6-82 A 8-46 E 3-A 6 ED -7 F 895 A 22 F 2 AF
+uuid: 87d7dcb6-82a8-46e3-a6ed-7f895a22f2af
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -33,7 +33,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
    >[!TIP]
    >
-   >푸시 서비스는 메시지가 전송될 것이라고 보장하지 않습니다. 서비스의 안정성에 대한 자세한 내용은 다음 설명서를 참조하십시오.
+   >푸시 서비스에서는 메시지가 전송될 것임을 보장하지 않습니다. 서비스의 안정성에 대한 자세한 내용은 다음 설명서를 참조하십시오.
    >
    >* **APNS**: [서비스 품질](https://developer.apple.com/documentation/usernotifications)
       >
