@@ -1,9 +1,9 @@
 ---
-description: '앱 설정 관리 페이지에서 다음 유형의 변경 사항을 만들 수 있습니다. '
-seo-description: '앱 설정 관리 페이지에서 다음 유형의 변경 사항을 만들 수 있습니다. '
+description: 'On the Manage App Settings page, you can make the following types of changes '
+seo-description: '앱 설정 관리 페이지에서 다음과 같은 유형의 변경을 수행할 수 있습니다 '
 seo-title: 앱 구성
 title: 앱 구성
-uuid: C 088 E 12 D -73 B 6-40 C 4-B 8 CC-EC 3 BB 3 D 3 AA 4 A
+uuid: c088e12d-73b6-40c4-b8cc-ec3bb3d3aa4a
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -59,7 +59,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    >[!IMPORTANT]
    >
-   >SDK 및 도구를 다운로드하기 전에 SDK 분석 옵션을 구성해야 합니다. 자세한 내용은 SDK 분석 옵션 [구성을](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)참조하십시오.
+   >SDK 및 도구를 다운로드하기 전에 SDK Analytics 옵션을 구성해야 합니다. 자세한 내용은 SDK Analytics [옵션 구성을 참조하십시오](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md).
 
    4.x SDK로 업그레이드할 준비가 되었거나 새 앱에서 작업 중인 경우 [앱 설정 관리] 페이지 하단에서 최신 SDK 및 개발 도구를 다운로드합니다.
 
