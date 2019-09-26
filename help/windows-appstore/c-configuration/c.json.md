@@ -1,11 +1,11 @@
 ---
 description: ADBMobile JSON 구성 파일을 사용하는 데 유용한 정보입니다.
 seo-description: ADBMobile JSON 구성 파일을 사용하는 데 유용한 정보입니다.
-seo-title: Adbmobileconfig. json 구성 파일
-solution: Marketing Cloud, Analytics
-title: Adbmobileconfig. json 구성 파일
+seo-title: ADBMobileConfig.json 구성 파일
+solution: Marketing Cloud,Analytics
+title: ADBMobileConfig.json 구성 파일
 topic: 개발자 및 구현
-uuid: a 45 b 91 cc -982 e -4 d 6 c-a 4 e 4-d 2 e 4 b 4 fa 7556
+uuid: a45b91cc-982e-4d6c-a4e4-d2e4b4fa7556
 translation-type: tm+mt
 source-git-commit: 1dbdb998228bd3b0ae41e774b6e9aa111d8dbe1c
 
@@ -40,7 +40,7 @@ Information to help you use the `ADBMobile.json` config file.
 
 * **charset**
 
-   Analytics로 전송되는 데이터에 사용하는 문자 세트를 정의합니다. charset은 들어오는 데이터를 저장 및 보고용으로 UTF-8로 변환하는 데 사용됩니다. 자세한 내용은 [s. charset](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html)를 참조하십시오.
+   Analytics로 전송되는 데이터에 사용하는 문자 세트를 정의합니다. charset은 들어오는 데이터를 저장 및 보고용으로 UTF-8로 변환하는 데 사용됩니다. For more information, see [s.charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html).
 
 * **ssl**
 
@@ -56,23 +56,23 @@ Information to help you use the `ADBMobile.json` config file.
 
 * **lifecycleTimeout**
 
-   앱 시작이 새 세션으로 간주되기 전에 다음 앱이 시작되기까지 경과되어야 하는 시간(초)을 지정합니다. 이 시간 초과는 응용 프로그램이 백그라운드로 전송되고 다시 활성화될 때도 적용됩니다. 앱이 백그라운드에서 소요하는 시간은 세션 길이에 포함되지 않습니다. 기본값은 300 초입니다.
+   앱 시작이 새 세션으로 간주되기 전에 다음 앱이 시작되기까지 경과되어야 하는 시간(초)을 지정합니다. 이 시간 초과는 응용 프로그램이 백그라운드로 전송되고 다시 활성화될 때도 적용됩니다. 앱이 백그라운드에서 소요하는 시간은 세션 길이에 포함되지 않습니다. The default value is 300 seconds.
 
 * **batchLimit**
 
-   일괄 처리에서 히트를 보냅니다. 예를 들어, 50으로 설정된 경우 50이 저장될 때까지 히트가 큐에 대기된 다음 큐에 대기된 모든 히트가 전송됩니다. `offlineEnabled=true`필수. 기본값은 `0` (일괄 처리 없음) 입니다.
+   일괄 처리에서 히트를 보냅니다. 예를 들어, 50으로 설정된 경우 50이 저장될 때까지 히트가 큐에 대기된 다음 큐에 대기된 모든 히트가 전송됩니다. 필요 `offlineEnabled=true`. 기본값은 `0` (일괄 처리 없음)입니다.
 
 * **privacyDefault**
 
    * `optedin` - 히트가 즉시 전송됩니다.
-   * `optedout` - 히트는 무시됩니다.
+   * `optedout` - 히트가 무시됩니다.
    * `optunknown` - 보고서 세트에 타임스탬프가 사용되면 개인정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다. 보고서 세트에 타임스탬프가 사용되지 않으면 개인정보 상태가 옵트인으로 변경될 때까지 히트가 삭제됩니다.
 
       기본값은 `optedin`입니다.
 
       >[!TIP]
       >
-      >이렇게 하면 기본값이 설정됩니다. 이 값이 코드에서 설정되거나 변경되면 코드에 설정된 값은 로컬 스토리지에 저장되고 변경될 때까지 계속 사용되거나 앱이 제거된 다음 다시 설치됩니다.
+      >이 경우 기본값만 설정됩니다. 이 값이 코드에서 설정되거나 변경되면 코드에 설정된 값은 로컬 스토리지에 저장되고 변경될 때까지 계속 사용되거나 앱이 제거된 다음 다시 설치됩니다.
 
 * **poi**
 
