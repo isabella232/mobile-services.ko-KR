@@ -2,10 +2,10 @@
 description: 다음은 iOS 앱에서 메시지를 사용하는 데 유용한 정보입니다.
 seo-description: 다음은 iOS 앱에서 메시지를 사용하는 데 유용한 정보입니다.
 seo-title: 메시징
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 메시징
 topic: 개발자 및 구현
-uuid: c 6475 ab 4-015 d -46 b 0-af 28-5 d 0 df 3 f 4459 e
+uuid: c6475ab4-015d-46b0-af28-5d0df3f4459e
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
