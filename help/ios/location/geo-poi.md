@@ -2,10 +2,10 @@
 description: 지리적 위치는 iOS 앱에서 위도와 경도 및 사전 정의된 관심 영역을 사용하여 위치 데이터를 측정할 수 있도록 합니다.
 seo-description: 지리적 위치는 iOS 앱에서 위도와 경도 및 사전 정의된 관심 영역을 사용하여 위치 데이터를 측정할 수 있도록 합니다.
 seo-title: 지리적 위치 및 관심 영역
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 지리적 위치 및 관심 영역
 topic: 개발자 및 구현
-uuid: c 800 ec 85-a 33 f -425 d-b 28 f-bfe 8 bf 229 ae 8
+uuid: c800ec85-a3 파섹
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -34,15 +34,15 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 “analytics.poi”: “https://assets.adobedtm.com/…/yourfile.json”,
 ```
 
-자세한 내용은 [Adbmobile JSON 구성을](/help/ios/configuration/json-config/json-config.md)참조하십시오.
+자세한 내용은 ADBMobile [JSON 구성을 참조하십시오](/help/ios/configuration/json-config/json-config.md).
 
-구성되지 않은 경우 `ADBMobile.json` 파일의 업데이트된 버전을 다운로드하여 앱에 추가해야 합니다. 자세한 내용 및 지침은 시작하기 *전에* SDK [및 테스트 도구 다운로드를](/help/ios/getting-started/requirements.md)참조하십시오.
+구성되지 않은 경우 `ADBMobile.json` 파일의 업데이트된 버전을 다운로드하여 앱에 추가해야 합니다. 자세한 내용 및 지침은 시작하기 전에 *SDK 및 테스트 도구* 다운로드를 [참조하십시오](/help/ios/getting-started/requirements.md).
 
 ## 지리적 위치 및 POI 추적 {#section_B1616E400A7548F9A672F97FEC75AE27}
 
 1. 프로젝트에 라이브러리를 추가하고 라이프사이클을 구현합니다.
 
-   자세한 내용은 핵심 구현 *및* 라이프사이클에서 [프로젝트에 SDK 및 구성 파일 추가를](/help/ios/getting-started/dev-qs.md)참조하십시오.
+   자세한 내용은 핵심 구현 *및 라이프사이클에서 SDK 및 구성* 파일을 프로젝트에 [추가를 참조하십시오](/help/ios/getting-started/dev-qs.md).
 1. 라이브러리를 가져옵니다:
 
    ```objective-c
@@ -58,9 +58,9 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
    >[!TIP]
    >
-   >`trackLocation` 언제든지 전화할 수 있습니다.
+   >언제든지 `trackLocation` 전화하실 수 있습니다
 
-   호출에 전달되는 위치를 결정하려면 사용자 `trackLocation` 위치 [가져오기를 사용합니다](https://developer.apple.com/Library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html).
+   호출로 전달되는 위치를 확인하려면 `trackLocation` 사용자 위치 [가져오기를 사용합니다](https://developer.apple.com/Library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html).
 
 또한 정의된 POI 반경 내에 위치가 있는 것으로 확인되면 `a.loc.poi` 컨텍스트 데이터 변수가 `trackLocation` 히트와 함께 전송되며 위치 보고서에서 POI로 보고됩니다. `a.loc.dist` 컨텍스트 변수도 정의된 좌표로부터 떨어진 거리(단위: 미터)와 함께 전송됩니다.
 
@@ -74,7 +74,7 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 [ADBMobile trackLocation: currentLocation data:contextData];
 ```
 
-컨텍스트 데이터 값은 사용자 지정 변수에 매핑되어야 합니다.
+Context data values must be mapped to custom variables:
 
 ![](assets/map-location-context-data.png)
 
@@ -97,7 +97,7 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 
 다음 정보를 숙지하십시오.
 
-* `trackLocation` 요청은 호출과 동일한 방식으로 전송됩니다 `trackAction` .
+* A `trackLocation` request sends in the equivalent of a `trackAction` call.
 
 * POI는 일반적인 `trackAction` 및 `trackState` 호출의 일부로 전달되지 않으므로, POI를 추적하려면 `trackLocation` 호출을 사용해야 합니다.
 
