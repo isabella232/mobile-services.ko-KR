@@ -1,11 +1,11 @@
 ---
 description: 다음은 ADBMobile.json 구성 파일을 사용하는 데 유용한 정보입니다.
 seo-description: 다음은 ADBMobile.json 구성 파일을 사용하는 데 유용한 정보입니다.
-seo-title: Adbmobile JSON 구성
-solution: Marketing Cloud, Analytics
-title: Adbmobile JSON 구성
+seo-title: ADBMobile JSON 구성
+solution: Marketing Cloud,Analytics
+title: ADBMobile JSON 구성
 topic: 개발자 및 구현
-uuid: D 9708 D 59-E 30 A -4 F 6 C-AB 1 B-D 9499855 D 0 C 2
+uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
 translation-type: tm+mt
 source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
@@ -24,7 +24,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 >
 >**iOS**&#x200B;에서 `ADBMobileConfig.json` 파일은 번들에서 액세스할 수 있는 모든 위치에 배치할 수 있습니다.
 
-* **고객 확보**
+* **acquisition**
 
    모바일 앱 획득을 사용하도록 설정합니다.
 
@@ -57,7 +57,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * 최소 SDK 버전: 4.6
    >[!IMPORTANT]
    >
-   >백데이트된 세션 히트 정보가 세션 정보 서버 호출로 전송되고 추가 서버 호출이 적용될 수 있습니다.
+   >백데이트된 세션 히트 정보는 세션 정보 서버 호출에서 전송되며 추가 서버 호출이 적용될 수 있습니다.
 
 
 * **batchLimit**
@@ -65,12 +65,12 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    연속적인 호출 시 전송할 히트 수에 대한 임계값입니다. 예를 들어 `batchLimit`이 10으로 설정되면 10번째 히트 전에 발생한 각 히트가 큐에 저장됩니다. 10번째 히트가 들어오면 10개의 히트가 모두 연속적으로 전송됩니다.
 
    * Default value is `0`, which means that batching is not enabled.
-   * `offlineEnabled = true`필수.
+   * Requires .`offlineEnabled = true`
    * 최소 SDK 버전: 4.1
 
 * **charset**
 
-   Analytics로 전송되는 데이터에 사용하는 문자 세트를 정의합니다. charset은 들어오는 데이터를 저장 및 보고용으로 UTF-8로 변환하는 데 사용됩니다. 자세한 내용은 [s. charset](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html)를 참조하십시오.
+   Analytics로 전송되는 데이터에 사용하는 문자 세트를 정의합니다. charset은 들어오는 데이터를 저장 및 보고용으로 UTF-8로 변환하는 데 사용됩니다. For more information, see [s.charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html).
 
    * 최소 SDK 버전: 4.0
 
@@ -95,7 +95,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    다음은 몇 가지 추가 정보입니다.
 
    * 최소 SDK 버전: 4.16.1
-   * `marketingCloud` 로 설정하면 장치가 Experience Cloud의 Device `true`Co-op에서 옵트아웃되는 객체의 부울 속성입니다.
+   * The Boolean property of the `marketingCloud` object that, when set to `true`, causes the device to be opted-out of the Experience Cloud's Device Co-Op.
    * Default value is `false`.
    * 이 설정은 Device Co-op 프로비저닝 고객&#x200B;**에게만** 사용됩니다.
 
@@ -125,7 +125,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
    사용하도록 설정하면 히트는 장치가 오프라인일 때 큐에 있다가 나중에 장치가 온라인으로 전환될 때 전송됩니다. 오프라인 추적을 사용하려면 보고서 세트에 타임스탬프가 설정되어 있어야 합니다. 기본값은 `false`입니다.
 
-   다음은 중요한 정보입니다.
+   다음은 몇 가지 중요한 정보입니다.
 
    * 보고서 세트에서 타임스탬프가 활성화된 경우 `offlineEnabled` 구성 속성이 *true*&#x200B;이어야 합니다.
    * If your report suite is not timestamp enabled, your `offlineEnabled` configuration property *must* be false.
@@ -136,7 +136,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 * **org**
 
-   Adobe Experience Platform Identity Service 용 Experience Cloud 조직 ID를 지정합니다.
+   Adobe Experience Platform ID 서비스에 대한 Experience Cloud 조직 ID를 지정합니다.
 
    * 최소 SDK 버전: 4.3
 
@@ -145,7 +145,6 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    각 POI 배열에는 해당 지점의 POI 이름, 위도, 경도 및 반경(미터 단위)이 저장됩니다. POI 이름은 임의의 문자열일 수 있습니다. `trackLocation` 호출이 전송될 때 현재 좌표가 정의된 POI 내에 있는 경우 컨텍스트 데이터 변수를 채워 `trackLocation` 호출로 보냅니다.
 
    * 최소 SDK 버전: 4.0
-
    ```js
    "poi" [ 
            ["sanfrancisco",37.757144,-122.44812,7000]
@@ -161,7 +160,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    “analytics.poi”: “`https://assets.adobedtm.com/…/yourfile.json`”,
    ```
 
-   이 설정을 구성하지 않으면 이 행을 포함하도록 `ADBMobile.json` 파일을 업데이트해야 합니다. 업데이트된 구성 파일을 다운로드하려면 [시작하기 전에 참조하십시오](/help/ios/getting-started/requirements.md).
+   이 설정을 구성하지 않으면 이 행을 포함하도록 `ADBMobile.json` 파일을 업데이트해야 합니다. To download an updated configuration file, see Before you start.[](/help/ios/getting-started/requirements.md)
 
 * **postback**
 
@@ -225,7 +224,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
    >[!IMPORTANT]
    >
-   >이 변수는 Analytics에서 필요합니다.
+   >이 변수는 Analytics에 필요합니다.
 
    * 최소 SDK 버전: 4.0
 
@@ -363,7 +362,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * "altImage"
 
       * 전체 화면 전용, 선택 사항
-      * 에 지정된 URL 이
+      * URL이
          `image` 에 지정된 URL에 연결할 수 없는 경우 번들 이미지의 이름
    * "title"
 
