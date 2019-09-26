@@ -2,10 +2,10 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Analytics
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Analytics
 topic: 개발자 및 구현
-uuid: c 2 CEF 3 D 3-77 a 7-4 a 8 e-bbe 4-3 DB 10 A 77996 A
+uuid: c2cef3d3-77a7-4a8e-bbe4-3db10a77996a
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -14,17 +14,17 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 # Analytics {#analytics}
 
-프로젝트에 라이브러리를 추가한 후 앱의 아무 곳에서나 Analytics 메서드를 호출할 수 있습니다.
+After you add the library to your project, you can make any of the Analytics method calls anywhere in your app.
 
 >[!TIP]
 >
->클래스로 가져올 `ADBMobile.h` 수 있습니다.
+>Ensure that you import  to your class.`ADBMobile.h`
 
 ## Enable mobile application reports in Analytics {#section_F2F9234009184F20BA36B5CDE872B424}
 
 코드를 추가하기 전에, 모바일 앱 라이프사이클 추적을 사용하도록 설정하려면 Analytics 관리자가 다음을 완료하도록 하십시오. 이렇게 하면 개발을 시작할 때 보고서 세트가 메트릭을 캡처할 준비를 합니다.
 
-1. **[!UICONTROL 관리 도구]** &gt; **[!UICONTROL 보고서 세트를]** 열고 모바일 보고서 세트를 선택합니다.
+1. Open **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Report Suites]** and select your mobile report suite(s).
 
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
 
@@ -46,7 +46,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 앱에서 라이프사이클 메트릭을 수집하려면 애플리케이션이 다음 예제에 표시된 대로 활성화될 때 호출을 추가하십시오.
 
-### default. js의 winjs
+### WinJS in default.js
 
 ```js
 app.onactivated = function (args) { 
@@ -61,7 +61,7 @@ app.oncheckpoint = function (args) {
 }
 ```
 
-### c # in app. xaml. cs
+### App.xaml.cs의 C#
 
 ```js
 public App() 
@@ -122,7 +122,7 @@ If `CollectLifecycleData()` is called twice in the same session, your applicatio
 
 ## Events, props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
-[SDK 방법을](/help/universal-windows/c-configuration/methods.md)확인한 경우 이벤트, evar, prop, Heirs 및 목록을 설정하는 위치를 알고 있을 것입니다. 버전 4에서는 더 이상 이러한 유형의 변수를 앱에서 직접 할당할 수 없습니다. 대신 SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 Analytics 변수에 앱 데이터를 매핑하여 보고합니다.
+If you've looked at [SDK methods](/help/universal-windows/c-configuration/methods.md), you are probably wondering where to set events, eVars, props, heirs, and lists. 버전 4에서는 더 이상 이러한 유형의 변수를 앱에서 직접 할당할 수 없습니다. 대신 SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 Analytics 변수에 앱 데이터를 매핑하여 보고합니다.
 
 처리 규칙은 몇 가지 장점을 제공합니다.
 
@@ -178,19 +178,19 @@ If `CollectLifecycleData()` is called twice in the same session, your applicatio
 
 >[!TIP]
 >
->Adobe는 네임스페이스를 `a.`예약합니다. 이 제한 외에는 로그인 회사에서 컨텍스트 데이터 변수가 고유한 경우에만 충돌을 방지할 수 있습니다.
+>Adobe reserves the namespace . `a.` 이러한 제한 사항 외에 컨텍스트 데이터 변수는 충돌을 방지하기 위해 로그인 회사에서 고유해야 합니다.
 
 ## Products variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
-Mobile SDK *`products`* 에서 설정하려면 특수 구문을 사용해야 합니다. 자세한 내용은 [products 변수를](/help/universal-windows/analytics/products.md)참조하십시오.
+To set  in the mobile SDK, you must use a special syntax. *`products`* For more information, see Products variable.[](/help/universal-windows/analytics/products.md)
 
 ## (Optional) Enable offline tracking {#section_955B2A03EB854742BDFC4A0A3C287009}
 
-To store hits when the device is offline, you can enable offline tracking in the [SDK methods](/help/universal-windows/c-configuration/methods.md) file. 오프라인 추적을 활성화하기 전에 구성 파일 참조에 설명된 타임스탬프 요구 사항에 주의를 기울입니다.
+To store hits when the device is offline, you can enable offline tracking in the [SDK methods](/help/universal-windows/c-configuration/methods.md) file. 오프라인 추적을 활성화하기 전에 구성 파일 참조에 설명된 타임스탬프 요구 사항에 주의하십시오.
 
 ## Geo-location and points of interest {#section_BAD34A8DD013454DB355121316BD7FD4}
 
-지리적 위치를 사용하면 위치 데이터(위도/경도) 및 사전 정의된 관심 영역을 측정할 수 있습니다. `TrackLocation` 각 호출은 다음과 같이 전송됩니다.
+지리적 위치를 사용하면 위치 데이터(위도/경도) 및 사전 정의된 관심 영역을 측정할 수 있습니다. Each `TrackLocation` call sends:
 
 * 경도/위도 및 POI(`ADBMobileConfig.json` 구성 파일에 정의된 POI 내에 있는 경우).
 
