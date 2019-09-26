@@ -3,7 +3,7 @@ description: Apple 알림에 이미지 파일을 첨부할 수 있습니다. 시
 seo-description: Apple 알림에 이미지 파일을 첨부할 수 있습니다. 시각적 구성 요소를 추가하면 푸시 알림을 통한 사용자 참여도를 크게 높일 수 있습니다.
 seo-title: 리치 푸시 알림 수신
 title: 리치 푸시 알림 수신
-uuid: 0 DBDA 409-CF 49-4 EB 8-90 EE-BAF 27911 DC 07
+uuid: 0dbda409-cf49-4eb8-90ee-baf27911dc07
 translation-type: tm+mt
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
@@ -35,7 +35,7 @@ iOS 앱에서 리치 푸시 알림을 받으려면
       (void)didReceiveNotificationRequest:(UNNotificationRequest *)request withContentHandler:(void (^)(UNNotificationContent *contentToDeliver))contentHandler;
       ```
 
-      이 방식에서는 키를 사용하여 미디어 `userInfo` URL를 가져올 `attachment-url` 수 있습니다. 파일을 로컬 디렉토리에 다운로드한 `bestAttemptContent.attachments`후 로컬 경로를 추가합니다.
+      이 방법에서는 키를 `userInfo` 사용하여 미디어 URL을 가져올 수 `attachment-url` 있습니다. 파일을 로컬 디렉토리에 다운로드한 후 로컬 경로를 `bestAttemptContent.attachments`추가합니다.
 
       다음은 이 메서드의 코드 예입니다.
 
