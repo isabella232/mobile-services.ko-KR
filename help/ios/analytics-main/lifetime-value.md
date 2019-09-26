@@ -2,10 +2,10 @@
 description: 라이프타임 값을 통해 각 사용자의 라이프타임 값을 측정하고 타깃팅할 수 있습니다.
 seo-description: 라이프타임 값을 통해 각 사용자의 라이프타임 값을 측정하고 타깃팅할 수 있습니다.
 seo-title: 방문자 라이프타임 값
-solution: Marketing Cloud, Analytics
-title: 방문자 라이프타임 값
+solution: Marketing Cloud,Analytics
+title: Visitor lifetime value
 topic: 개발자 및 구현
-uuid: D 830 D 18 B -4313-43 BB -8 D 75-3789869 D 0 F 1 D
+uuid: d830d18b-4313-43bb-8d75-3789869d0f1d
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -22,7 +22,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 1. 프로젝트에 라이브러리를 추가하고 라이프사이클을 구현합니다.
 
-   자세한 내용은 핵심 구현 *및* 라이프사이클에서 [프로젝트에 SDK 및 구성 파일 추가를](/help/ios/getting-started/dev-qs.md)참조하십시오.
+   자세한 내용은 핵심 구현 *및 라이프사이클에서 SDK 및 구성* 파일을 프로젝트에 [추가를 참조하십시오](/help/ios/getting-started/dev-qs.md).
 1. 라이브러리를 가져옵니다:
 
    ```objective-c
@@ -45,7 +45,7 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 [ADBMobile trackLifetimeValueIncrease:increaseAmount data:contextData];
 ```
 
-컨텍스트 데이터 값은 사용자 지정 변수에 매핑되어야 합니다.
+Context data values must be mapped to custom variables:
 
 ![](assets/map-variable-context-ltv.png)
 
