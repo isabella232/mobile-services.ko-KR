@@ -3,7 +3,7 @@ description: Adobe Analytics에서는 관리 도구 홈 페이지에서 역할�
 seo-description: Adobe Analytics에서는 관리 도구 홈 페이지에서 역할을 관리할 수 있습니다.
 seo-title: 역할 및 권한
 title: 역할 및 권한
-uuid: AD 350 F 8 D-EF 51-4519-98 AA -3025 BC 0 F 5588
+uuid: ad350f8d-ef51-4519-9 파섹
 translation-type: tm+mt
 source-git-commit: c7cac006340e01d0fd1f6afe3419e6fd17294a98
 
@@ -24,7 +24,7 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
 
 >[!TIP]
 >
->기존 Analytics 관리자는 Analytics 관리자 역할을 모든 사용자에게 할당할 수 있습니다.
+>An existing Analytics Admin has the ability to assign the Analytics Admin role to any user.
 
 이 역할에 대한 자세한 내용은 다음 컨텐츠를 참조하십시오.
 
@@ -44,7 +44,7 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
 
 다음은 Mobile Services UI의 옵션에 액세스하는 방법에 대한 몇 가지 추가 정보입니다.
 
-### 앱 및 보고서 세트
+### Apps and report suites
 
 모든 Mobile Service 앱은 보고서 세트에 연결됩니다. 사용자에게 보고서 세트에 액세스할 권한이 없는 경우 해당 보고서 세트와 연결된 앱에 액세스할 수 없습니다.
 
@@ -58,13 +58,13 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
 
 ### Analytics 관리
 
-* 모든 사용자 및 모바일 앱 관리 권한
+* 모든 사용자 및 모바일 앱 관리자 권한
 * 새 보고서 세트로 앱 만들기
 * Mobile Services에서 앱 삭제
 
    >[!IMPORTANT]
    >
-   >앱이 Mobile Services UI에서 삭제되었지만 여전히 Analytics에 보고서 세트가 있습니다.
+   >앱이 Mobile Services UI에서 삭제되었지만 보고서 세트는 여전히 Analytics에 있습니다.
 
 * 앱 설정 관리
 
@@ -97,7 +97,7 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
 * [사용자 그룹 설정](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html)
 * [사용자를 그룹에 추가](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/t-add-user-to-group.html)
 
-### Mobile Services 사용자
+### Mobile Services user
 
 이 역할은 보기 권한만 있으며, Mobile Services UI에서 피드백을 제공할 수 있습니다.
 
@@ -106,7 +106,7 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
 
    >[!IMPORTANT]
    >
-   >사용자는 Adobe Analytics에서 액세스 권한이 있는 보고서 세트만 볼 수 있습니다.
+   >사용자는 Adobe Analytics에서 액세스할 수 있는 보고서 세트만 볼 수 있습니다.
 
 * 앱 설정 보기
 
@@ -116,7 +116,7 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
    * 포스트백 보기
    * 링크 대상 보기
 
-* 보고서 보기 및 실행
+* View and Run Reports
 * 마케팅 링크 보기
 * 기존 획득 링크 보기 및 내보내기
 * 위치(관심 영역) 구성 보기 및 내보내기
