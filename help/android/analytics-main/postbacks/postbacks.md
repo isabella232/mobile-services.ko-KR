@@ -1,12 +1,12 @@
 ---
 description: 포스트백을 사용하면 SDK에서 수집한 데이터를 타사 서버로 전송할 수 있습니다. 인앱 메시지를 표시하는 데 사용하는 것과 동일한 트리거와 트레이트를 이용하면 사용자 지정된 데이터를 타사 대상에 전송하도록 SDK를 구성할 수 있습니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 포스트백을 사용하면 SDK에서 수집한 데이터를 타사 서버로 전송할 수 있습니다. 인앱 메시지를 표시하는 데 사용하는 것과 동일한 트리거와 트레이트를 이용하면 사용자 지정된 데이터를 타사 대상에 전송하도록 SDK를 구성할 수 있습니다.
 seo-title: 포스트백
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 포스트백 개요
 topic: 개발자 및 구현
-uuid: 8 BFD 4374-2767-421 D -891 D-E 1 E 9 A 99 B 6977
+uuid: 8bfd4374-2767-421d-891d-e1e9a99b6977
 translation-type: tm+mt
 source-git-commit: f26dcd5cf9b19de49c9d034c854d9738c7843fb2
 
@@ -19,7 +19,7 @@ source-git-commit: f26dcd5cf9b19de49c9d034c854d9738c7843fb2
 
 >[!IMPORTANT]
 >
->이 기능을 사용하려면 SDK 4.6.0 이상이 필요합니다.
+>이 기능을 사용하려면 SDK 버전 4.6.0 이상이 필요합니다.
 
 포스트백 메시지는 큐에 추가되고 분석 데이터 수집을 제어하는 기존의 모든 온라인/오프라인 규칙을 따릅니다. 표시된 메시지의 경우와 같이 메시지가 일치하면 포스트백 메시지는 나머지 메시지를 취소하지 않습니다. 이를 통해 동일한 분석 히트에서 포스트백이 여러 번 발생할 수 있습니다. 정의에 대한 내용은 *포스트백* 행( [ADBMobile JSON 구성](/help/android/configuration/json-config/json-config.md)을 참조하십시오.
 
