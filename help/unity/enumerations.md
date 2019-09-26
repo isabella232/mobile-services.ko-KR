@@ -3,9 +3,9 @@ description: 'null'
 keywords: Unity
 seo-description: 'null'
 seo-title: 열거
-solution: Marketing Cloud, 개발자
+solution: Marketing Cloud,개발자
 title: 열거
-uuid: 7109 CD 0 B -554 F -4 C 4 A -9 ACC -4 B 60812 FB 747
+uuid: 7109cd0b-554f-4c4a-9acc-4b60812fb747
 translation-type: tm+mt
 source-git-commit: 04a55b2f73a5ed7fe629ff8ab06217fafd3a2c71
 
