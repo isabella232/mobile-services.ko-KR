@@ -8,7 +8,7 @@ title: PhoneGap 플러그인
 topic: 개발자 및 구현
 uuid: f88bcf10-1f9e-4c97-b348-40db797c9923
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: 517ae533864aebe9c6a20d877a9638d5d3e2a071
 
 ---
 
@@ -17,18 +17,17 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 이 플러그인을 사용하여 PhoneGap 프로젝트에서 iOS AppMeasurement 호출을 전송할 수 있습니다.
 
-## 새 Adobe Experience Cloud SDK 릴리스
+## 새로운 Adobe Experience Platform Mobile SDK 릴리스
 
 Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
 
 2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
-* 시작하려면 Launch로 이동합니다.
+* 시작하려면 Adobe Experience Platform Launch로 이동합니다.
 * Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)로 이동하십시오.
 
->[!IMPORTANT]
->
-> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. 자세한 내용은 [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services)를 참조하십시오.
+
+## PhoneGap 프로젝트 만들기
 
 PhoneGap 프로젝트를 만들려면 PhoneGap [을 참조하십시오](https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap.html).
 
@@ -42,7 +41,7 @@ PhoneGap 프로젝트를 만들려면 PhoneGap [을 참조하십시오](https://
 
 ## 수동으로 플러그인 설치 {#section_D53BA60D488C4DB8AD2BDF90439C180A}
 
-### AppMeasurement 라이브러리 포함
+### Include the AppMeasurement library
 
 AppMeasurement를 포함하려면
 
@@ -61,7 +60,7 @@ AppMeasurement를 포함하려면
    </feature>
    ```
 
-### 앱 권한 추가
+### Add app permissions
 
 AppMeasurement 라이브러리에는 다음이 필요합니다.
 
