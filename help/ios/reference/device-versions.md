@@ -2,10 +2,10 @@
 description: 다음 표에는 여러 iOS 장치에서 전송한 iOS 버전 문자열이 포함되어 있습니다.
 seo-description: 다음 표에는 여러 iOS 장치에서 전송한 iOS 버전 문자열이 포함되어 있습니다.
 seo-title: iOS 장치 버전
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: iOS 장치 버전
 topic: 개발자 및 구현
-uuid: 8 B 8 A 9 BC 3-0737-4 DE 2-9792-0 B 112 AA 4 CF 65
+uuid: 8b8a9bc3-0737-4de2-9792-0b112aa4cf65
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
@@ -18,7 +18,7 @@ source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 >[!IMPORTANT]
 >
->이 목록은 내부 테스트 및 온라인 정보를 기반으로 하며 부정확하거나 불완전한 정보를 포함할 수 있습니다.
+>This list is based on internal tests and online information and might contain inaccuracies or incomplete information.
 
 iOS 장치에 대한 자세한 내용은 [iPhone Wiki](https://theiphonewiki.com/wiki/Models)와 같은 사이트를 참조하십시오.
 
