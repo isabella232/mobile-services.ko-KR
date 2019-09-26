@@ -2,11 +2,11 @@
 description: 단계 보고서를 사용하면 고객이 마케팅 캠페인을 포기하는 상황이나, 모바일 앱과 상호 작용할 때 정의된 전환 경로를 벗어나는 상황을 식별할 수 있으며, 서로 다른 세그먼트의 작업을 비교하는 데에 사용할 수도 있습니다.
 keywords: mobile
 seo-description: 단계 보고서를 사용하면 고객이 마케팅 캠페인을 포기하는 상황이나, 모바일 앱과 상호 작용할 때 정의된 전환 경로를 벗어나는 상황을 식별할 수 있으며, 서로 다른 세그먼트의 작업을 비교하는 데에 사용할 수도 있습니다.
-seo-title: 단계 보고서
-solution: Marketing Cloud, Analytics
+seo-title: Funnel report
+solution: Marketing Cloud,Analytics
 title: 단계 보고서
 topic: 보고서,지표
-uuid: 268 B 4 AB 9-2 E 29-4423-9 F 79-AD 93 F 5231 EDE
+uuid: 268b4ab9-2e29-4423-9f79-ad93f5231ede
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -23,7 +23,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 >[!TIP]
 >
->사용자 지정 단계를 저장하려면 해당 설정을 구성하고 보고서를 실행한 후에 URL를 저장합니다. URL을 공유하거나 문서에 저장할 수 있습니다.
+>사용자 지정 단계를 저장하려면 해당 설정을 구성하고 보고서를 실행한 후 URL을 저장합니다. URL을 공유하거나 문서에 저장할 수 있습니다.
 
 다음은 이 보고서의 예입니다.
 
@@ -50,10 +50,10 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
    **[!UICONTROL 달력]아이콘을 클릭하여 사용자 지정 기간을 선택하거나 드롭다운 목록에서 사전 설정된 기간을 선택합니다.**
 * **[!UICONTROL 사용자 지정]**
 
-   **[!UICONTROL 표시 방법]** 옵션별 표시, 지표 및 필터 추가, 추가 시리즈 (지표) 추가 등을 통해 보고서를 사용자 지정할 수 있습니다. For more information, see [Customize Reports](/help/using/usage/reports-customize/reports-customize.md).
+   Customize your reports by changing the **[!UICONTROL Show By]** options, adding metrics and filters, and adding additional series (metrics), and more. For more information, see [Customize Reports](/help/using/usage/reports-customize/reports-customize.md).
 * **[!UICONTROL 필터]**
 
-   **[!UICONTROL 필터]를 클릭하면 다른 보고서에 적용되는 필터를 생성하여 세그먼트가 모든 모바일 보고서에서 어떻게 작동하는지 확인할 수 있습니다.** 고정 필터를 사용하면 경로 지정 외의 모든 보고서에 적용되는 필터를 정의할 수 있습니다. 자세한 내용은 고정 필터 [추가를](/help/using/usage/reports-customize/t-sticky-filter.md)참조하십시오.
+   **[!UICONTROL 필터]를 클릭하면 다른 보고서에 적용되는 필터를 생성하여 세그먼트가 모든 모바일 보고서에서 어떻게 작동하는지 확인할 수 있습니다.** 고정 필터를 사용하면 경로 지정 외의 모든 보고서에 적용되는 필터를 정의할 수 있습니다. For more information, see Add Sticky Filter.[](/help/using/usage/reports-customize/t-sticky-filter.md)
 * **[!UICONTROL 다운로드]**
 
-   **[!UICONTROL PDF]** 또는 **[!UICONTROL CSV]** 를 클릭하여 문서를 다운로드하거나 열거나 Mobile Services에 액세스할 수 없는 사용자와 공유하거나 프레젠테이션에 파일을 사용할 수 있습니다.
+   Click **[!UICONTROL PDF]** or **[!UICONTROL CSV]** to download or open documents and share with users who do not have access to Mobile Services or to use the file in presentations.
