@@ -1,9 +1,9 @@
 ---
 description: Xamarin 응용 프로그램에서 사용할 클래스 및 열거 목록입니다.
 seo-description: Xamarin 응용 프로그램에서 사용할 클래스 및 열거 목록입니다.
-seo-title: 클래스 및 교육 과정
-title: 클래스 및 교육 과정
-uuid: 410 D 27 EE-CE 2 B -4183-971 E -39 A 7031 D 1 BD 5
+seo-title: Classes and enums
+title: 클래스 및 열거형
+uuid: 410d27ee-ce2b-4183-971e-39a7031d1bd5
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
