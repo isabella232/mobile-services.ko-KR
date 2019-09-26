@@ -1,12 +1,12 @@
 ---
 description: 다음은 머천다이징 eVar 및 제품별 이벤트의 products 변수의 예입니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 다음은 머천다이징 eVar 및 제품별 이벤트의 products 변수의 예입니다.
 seo-title: 머천다이징 eVar 및 제품 특화 이벤트가 포함된 products 변수
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 머천다이징 eVar 및 제품 특화 이벤트가 포함된 products 변수
 topic: 개발자 및 구현
-uuid: 64 F 822 A 0-6 CCF -48 E 7-8886-31 B 93 D 8198 A 3
+uuid: 64f822a0-6ccf-48e7-8886-31b93d8198a3
 translation-type: tm+mt
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
@@ -37,5 +37,5 @@ Analytics.trackState("Order Confirmation", cdata);
 
 >[!TIP]
 >
->*`&&products`* 변수를 사용하여 제품별 이벤트를 트리거하는 경우 *`&&events`* 변수에서 해당 이벤트도 설정해야 합니다. 이 이벤트를 설정하지 않으면 처리하는 동안 필터링됩니다.
+>If you trigger a product-specific event by using the  variable, you must also set that event in the  variable. *`&&products`**`&&events`* 이 이벤트를 설정하지 않으면 처리하는 동안 필터링됩니다.
 
