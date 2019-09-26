@@ -2,10 +2,10 @@
 description: 분석 데이터 또는 이벤트에서 트리거되는 인앱 메시지를 제공할 수 있습니다. 구현하고 나면 메시지가 앱에 동적으로 전달되므로 코드를 업데이트할 필요가 없습니다.
 seo-description: 분석 데이터 또는 이벤트에서 트리거되는 인앱 메시지를 제공할 수 있습니다. 구현하고 나면 메시지가 앱에 동적으로 전달되므로 코드를 업데이트할 필요가 없습니다.
 seo-title: 인앱 메시징
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 인앱 메시징
 topic: 개발자 및 구현
-uuid: 351 EE 3 D 2-80 B 9-4 F 2 D -9696-21 F 274 D 89 F 5 A
+uuid: 351ee3d2-80b9-4f2d-9696-21f274d89f5a
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -41,9 +41,9 @@ Adobe Mobile Services에서 메시지가 표시되는 시기를 정의하는 메
 
 1. 프로젝트에 라이브러리를 추가하고 라이프사이클을 구현합니다.
 
-   자세한 내용은 핵심 구현 *및* 라이프사이클에서 [Intellij 아이디어 또는 Eclipse 프로젝트에 SDK 및 구성 파일 추가를](/help/android/getting-started/dev-qs.md)참조하십시오.
+   For more information, see Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project in Core implementation and lifecycle.**[](/help/android/getting-started/dev-qs.md)
 
-1. `AndroidManifest.xml` 파일을 업데이트하여 전체 화면 활동을 선언하고 메시지 알림 핸들러를 활성화합니다.
+1. Update the `AndroidManifest.xml` file to declare the full screen activity and enable the Message Notification Handler:
 
    ```java
    <activity  
@@ -82,11 +82,11 @@ Adobe Mobile Services에서 메시지가 표시되는 시기를 정의하는 메
    }
    ```
 
-1. `ADBMobileConfig.json` 파일에 인앱 메시지에 대한 필수 설정이 포함되어 있는지 확인합니다.
+1. Verify that the `ADBMobileConfig.json` file contains the required settings for in-app messaging.
 
    >[!IMPORTANT]
    >
-   >`messages``remotes` 또는 필수입니다.
+   >`messages` or  is required.`remotes`
 
    시작 시 인앱 메시지를 동적으로 업데이트하려면 `remotes` 개체가 존재하고 올바르게 구성되어 있어야 합니다.
 
@@ -122,8 +122,8 @@ Android Mobile SDK는 in-app 메시지에 대한 다음 지표를 추적합니�
 * 전체 화면 및 경고 스타일 in-app 메시지에 대한 지표:
 
    * **노출 횟수**: 사용자가 in-app 메시지를 트리거할 때입니다.
-   * **클릭스루**: 사용자가 클릭스루를 누를 **[!UICONTROL 때.]**
-   * **취소**: 사용자가 취소를 누를 ****&#x200B;때.
+   * **클릭스루**:사용자가 클릭스루를 **[!UICONTROL 누를]**&#x200B;때
+   * **Cancels: when user presses Cancel.******
 
 * 사용자 지정 전체 화면 in-app 메시지의 경우 메시지에서 HTML 컨텐츠에 다음 단추에 대한 SDK 추적을 알리는 올바른 코드를 포함해야 합니다.
 
@@ -140,7 +140,7 @@ Android Mobile SDK는 in-app 메시지에 대한 다음 지표를 추적합니�
 
 >[!IMPORTANT]
 >
->폴백 이미지 자산 이름은 Adobe Mobile Services에서 메시지를 구성할 때 지정되며, 지정된 리소스를 사용할 수 있도록 해야 합니다.
+>Adobe Mobile Services에서 메시지를 구성할 때 대체 이미지 자산 이름이 지정되며, 지정한 리소스를 사용할 수 있는지 확인해야 합니다.
 
 ## Configuring notification icons {#section_DDA28BDBCBB748BCBECF3AB50A177D48}
 
@@ -156,7 +156,7 @@ Android Mobile SDK는 in-app 메시지에 대한 다음 지표를 추적합니�
       public static void setSmallIconResourceId(final int resourceId); 
       ```
 
-   * 다음은 이 메서드의 코드 예제입니다.
+   * 다음은 이 메서드의 코드 예입니다.
 
       ```java
       Config.setSmallIconResourceId(R.drawable.appIcon);
@@ -164,7 +164,7 @@ Android Mobile SDK는 in-app 메시지에 대한 다음 지표를 추적합니�
 
 * **Config.setLargeIconResourceId(int resourceId)**
 
-   SDK로 만든 알림에 사용할 큰 아이콘을 설정합니다. 이 아이콘은 사용자가 알림 센터에서 전체 알림을 볼 때 표시되는 기본 이미지입니다.
+   SDK로 만든 알림에 사용할 큰 아이콘을 설정합니다. This icon is the primary image that is displayed when the user sees the complete notification in the notification center.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
