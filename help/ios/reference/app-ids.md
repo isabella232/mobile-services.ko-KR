@@ -2,10 +2,10 @@
 description: 다음 표에서는 iOS SDK 및 Adobe Mobile Services에서 사용되는 다양한 앱 식별자에 대해 설명합니다.
 seo-description: 다음 표에서는 iOS SDK 및 Adobe Mobile Services에서 사용되는 다양한 앱 식별자에 대해 설명합니다.
 seo-title: 앱 ID
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 앱 ID
 topic: 개발자 및 구현
-uuid: 24 EBC 716-23 C 7-4 EE 8-8256-B 534210367 E 0
+uuid: 24ebc716-23c7-4ee8-8256-b534210367e0
 translation-type: tm+mt
 source-git-commit: 0e22d5e080b680ff6b23462f1bc12f27d99e6d42
 
