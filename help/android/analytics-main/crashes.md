@@ -2,10 +2,10 @@
 description: 다음은 충돌을 추적하는 방법을 이해하고 허위 충돌을 처리하는 우수 사례를 확인하는 데 유용한 정보입니다.
 seo-description: 다음은 충돌을 추적하는 방법을 이해하고 허위 충돌을 처리하는 우수 사례를 확인하는 데 유용한 정보입니다.
 seo-title: 앱 충돌 추적
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 앱 충돌 추적
 topic: 개발자 및 구현
-uuid: 3 ab 98 c 14-ccdf -4060-ad 88-ec 07 c 1 c 6 bf 07
+uuid: 3ab98c14-ccdf-4060-ad88-ec07c1c6bf07
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -18,7 +18,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 >[!TIP]
 >
->앱 충돌은 라이프사이클 지표의 일부로 추적됩니다. 충돌을 추적하려면 프로젝트에 라이브러리를 추가하고 라이프사이클을 구현하십시오. 자세한 내용은 핵심 구현 *및* 라이프사이클에서 [Intellij 아이디어 또는 Eclipse 프로젝트에 SDK 및 구성 파일 추가를](/help/android/getting-started/dev-qs.md)참조하십시오.
+>App crashes are tracked as part of lifecycle metrics. Before you can track crashes, add the library to your project and implement lifecycle. 자세한 내용은 코어 *구현 및 라이프사이클에서 IntelliJ IDEA 또는 Eclipse 프로젝트에* SDK 및 구성 파일 [추가를 참조하십시오](/help/android/getting-started/dev-qs.md).
 
 라이프사이클 지표가 구현되면 각 활동의 `Config.collectLifecycleData` 메서드에서 `OnResume`에 대한 호출이 수행됩니다. In the `onPause` method, a call is made to `Config.pauseCollectingLifeCycleData`.
 
@@ -38,7 +38,7 @@ Android 활동 라이프사이클에 대한 자세한 내용은 [활동](https:/
 
    >[!TIP]
    >
-   >IDE에서 다시 시작하기 전에 앱을 백접지하여 충돌을 방지할 수 있습니다.
+   >IDE에서 다시 시작하기 전에 앱을 백그라운드로 전환하여 이 충돌을 방지할 수 있습니다.
 
 1. If the last foreground Activity of your app is backgrounded and does not call `Config.pauseCollectingLifecycleData();` in `onPause`, and your app is manually closed or killed by the OS, the next launch results in a crash.
 
@@ -48,11 +48,11 @@ Android 활동 라이프사이클에 대한 자세한 내용은 [활동](https:/
 
 >[!IMPORTANT]
 >
->포함 활동이 코드를 실행할 수 있는 라이프사이클 이벤트에 의존해야 합니다. 이 작업은 조각의 상위 보기에서 처리됩니다.
+>포함 활동이 코드를 실행할 수 있는 라이프사이클 이벤트를 사용해야 합니다. 이 작업은 조각의 상위 보기에서 처리됩니다.
 
-## (옵션) 활동 라이프사이클 콜백 구현
+## (선택 사항) 활동 라이프사이클 콜백을 구현합니다.
 
-API 레벨 14부터 Android에서는 활동에 대한 전역 라이프사이클 콜백이 허용됩니다. 자세한 내용은 [애플리케이션을](https://developer.android.com/reference/android/app/Application)참조하십시오.
+API 레벨 14부터 Android에서는 활동에 대한 전역 라이프사이클 콜백이 허용됩니다. For more information, see [Application](https://developer.android.com/reference/android/app/Application).
 
 You can use these callbacks to ensure that all of your Activities correctly call `collectLifecycleData()` and `pauseCollectingLifecycleData()`. 이 코드는 기본 활동 및 앱을 시작할 수 있는 다른 활동에만 추가해야 합니다.
 
