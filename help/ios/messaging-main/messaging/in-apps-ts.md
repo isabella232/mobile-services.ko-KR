@@ -3,10 +3,10 @@ description: 다음은 인앱 메시지 문제를 해결하는 데 유용한 정
 keywords: mobile
 seo-description: 다음은 인앱 메시지 문제를 해결하는 데 유용한 정보입니다.
 seo-title: 인앱 메시징 문제 해결
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 인앱 메시징 문제 해결
 topic: 지표
-uuid: 58533 AA 3-2 EB 2-4597-8525-77 E 4 E 5975 E 56
+uuid: 58533aa3-2eb2-4597-8525-77e4e5975e56
 translation-type: tm+mt
 source-git-commit: 1154bab39b5215e00d47ad8e66caeec15e4e98de
 
@@ -35,13 +35,13 @@ SDK 버전이 4. 2 이상이고 SDK가 올바르게 구성되어 있는지 확�
 
 인앱 메시지 관리 페이지의 [상태] 열에 있는 목록 보기에서 라이브인지 확인하십시오.
 
-## *한 번 표시*, *항상 표시*, *오프라인으로 표시* 설정을 대상 페이지에서 확인합니다.
+## 한 번 **&#x200B;표시, 항상 **&#x200B;표시, 대상 탭에 오프라인 *설정* 표시
 
 이 설정들이 원하는 방법으로 설정되어 있는지 확인하십시오. **[!UICONTROL 대상]** 탭에서 메시지 표시 빈도를 지정할 수 있는 **트리거[!UICONTROL 옵션을 검토하십시오.]**
 
 ## 시작 이벤트를 트리거로 사용하는 경우...
 
-시작은 새 세션에서만 실행됩니다. For more information about when a session begins, see the `lifecycleTimeout` row in the JSON Config file. 자세한 내용은 [Adbmobile JSON 구성을](/help/ios/configuration/json-config/json-config.md)참조하십시오.
+시작은 새 세션에서만 실행됩니다. For more information about when a session begins, see the `lifecycleTimeout` row in the JSON Config file. 자세한 내용은 ADBMobile [JSON 구성을 참조하십시오](/help/ios/configuration/json-config/json-config.md).
 
 ## 내 메시지를 원격으로 업데이트했지만 아직 이전 메시지가 표시됩니다.
 
