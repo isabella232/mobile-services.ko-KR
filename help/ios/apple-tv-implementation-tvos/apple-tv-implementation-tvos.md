@@ -2,10 +2,10 @@
 description: 다음은 tvOS로 Apple TV를 구현하는 데 유용한 정보입니다.
 seo-description: 다음은 tvOS로 Apple TV를 구현하는 데 유용한 정보입니다.
 seo-title: tvOS를 사용한 Apple TV 구현
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: tvOS를 사용한 Apple TV 구현
 topic: 개발자 및 구현
-uuid: D 1571 EA 2-A 5 DE -4 B 96-A 527-72 ABBF 51 FAB 8
+uuid: d1571ea2-a5de-4b96-a527-72abbf51fab8
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -33,20 +33,20 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 
 >[!TIP]
 >
->TVOS 지원은 버전 4.7.0 부터 `AdobeMobileLibrary` 사용할 수 있습니다.
+>tvOS 지원은 `AdobeMobileLibrary` 버전 4.7.0부터 제공됩니다.
 
 ## 시작하기 {#section_CAB40A5B5FC745068C8A5DF8F9AB6199}
 
 >[!TIP]
 >
->귀하의 프로젝트는 Tvos를 타깃팅하는 Apple TV 앱인 타겟을 가지고 있다고 가정합니다. 자세한 내용은 [tvOS](https://developer.apple.com/tvos/documentation/)를 참조하십시오.
+>프로젝트에 tvOS를 대상으로 하는 Apple TV 앱인 대상이 있다고 가정합니다. 자세한 내용은 [tvOS](https://developer.apple.com/tvos/documentation/)를 참조하십시오.
 
 ## Configure a native app for tvOS {#section_5095F19B3C4545F68E8C1E37A7E303AE}
 
 Xcode 프로젝트에서 다음 단계를 완료하십시오.
 
 1. AdobeMobileLibrary 폴더를 프로젝트로 드래그합니다.
-1. `ADBMobileConfig.json` 파일이 Target의 구성원인지 확인합니다.
+1. Ensure that the `ADBMobileConfig.json` file is a member of your target.
 1. tvOS 앱 타겟의 **[!UICONTROL 빌드 단계]** 탭에서 **바이너리를 라이브러리와 연결]섹션을 확장하고 다음 라이브러리를 추가합니다.[!UICONTROL **
 
    * `AdobeMobileLibrary_TV.a`
@@ -58,7 +58,7 @@ Xcode 프로젝트에서 다음 단계를 완료하십시오.
 ## Configure a TVML/TVJS app for tvOS {#section_AB2EC8C326654F3387658EBBD990BB12}
 
 1. `AdobeMobileLibrary` 폴더를 프로젝트로 드래그합니다.
-1. `ADBMobileConfig.json` 파일이 Target의 구성원인지 확인합니다.
+1. Ensure that the `ADBMobileConfig.json` file is a member of your target.
 1. tvOS 앱 타겟의 **[!UICONTROL 빌드 단계]** 탭에서 **바이너리를 라이브러리와 연결]섹션을 확장하고 다음 라이브러리를 추가합니다.[!UICONTROL **
 
    * `AdobeMobileLibrary_TV.a`
