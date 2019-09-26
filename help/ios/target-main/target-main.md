@@ -2,10 +2,10 @@
 description: 다음은 iOS 애플리케이션에서 타깃팅된 콘텐츠를 제공하는 데 유용한 정보입니다.
 seo-description: 다음은 iOS 애플리케이션에서 타깃팅된 콘텐츠를 제공하는 데 유용한 정보입니다.
 seo-title: Target
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Target
 topic: 개발자 및 구현
-uuid: C 2 B 134 BB -1 C 29-4617-BD 9 E-FA 3940483361
+uuid: c2b134bb-1c29-4617-bd9e-fa394048361
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
