@@ -1,11 +1,11 @@
 ---
 description: 다음은 Experience Cloud 솔루션에 Android SDK를 사용하는 데 유용한 참조 자료입니다.
 seo-description: 다음은 Experience Cloud 솔루션에 Android SDK를 사용하는 데 유용한 참조 자료입니다.
-seo-title: Android SDK 참조 개요
-solution: Marketing Cloud, Analytics
+seo-title: Android SDK reference overview
+solution: Marketing Cloud,Analytics
 title: Android SDK 참조 개요
 topic: 개발자 및 구현
-uuid: CE 8 F 6 DCB -0 E 2 B -47 EB -99 F 2-FBDB 97079161
+uuid: ce8f6dcb-0e2b-47eb-99f2-fbdb97079161
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
