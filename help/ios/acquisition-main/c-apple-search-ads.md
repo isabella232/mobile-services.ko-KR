@@ -27,7 +27,7 @@ Apple 광고를 사용할 경우 다음과 같은 이점이 있습니다.
 
 >[!TIP]
 >
->Apple Ads를 구현하려면 iOS SDK 버전 4.13.2 이상이 있어야 합니다.
+>To implement Apple Ads, you must have iOS SDK version 4.13.2 or later.
 
 앱에서 검색 광고 속성을 사용하려면
 
@@ -43,7 +43,7 @@ Apple 광고를 사용할 경우 다음과 같은 이점이 있습니다.
 
    If attribution = `true`, all of the `iad-*` fields will be included in the lifecycle hit.
 
-   In addition, the following values will be mapped from the `"iad"` dictionary to our typical acquisition context data fields:
+   또한 다음 값이 `"iad"` 사전에서 Adobe의 일반적인 획득 컨텍스트 데이터 필드에 매핑됩니다.
 
    * `"iad-campaign-id"` --&gt; `"a.referrer.campaign.trackingcode"`
    * `"iad-campaign-name"` --&gt; `"a.referrer.campaign.name"`
