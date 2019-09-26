@@ -2,10 +2,10 @@
 description: 라이프타임 값을 통해 각 Android 사용자의 라이프타임 값을 측정하고 타깃팅할 수 있습니다. 이 값은 라이프타임 구매, 광고 보기, 비디오 전체 보기, 소셜 네트워크 공유, 사진 업로드 등을 저장하는 데 사용할 수 있습니다.
 seo-description: 라이프타임 값을 통해 각 Android 사용자의 라이프타임 값을 측정하고 타깃팅할 수 있습니다. 이 값은 라이프타임 구매, 광고 보기, 비디오 전체 보기, 소셜 네트워크 공유, 사진 업로드 등을 저장하는 데 사용할 수 있습니다.
 seo-title: 방문자 라이프타임 값
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 방문자 라이프타임 값
 topic: 개발자 및 구현
-uuid: BA 0308 DE -282 E -46 F 9-A 14 C -19 FB 6 D 5 C 363 E
+uuid: ba0308de-282e-46f9-a14c-19fb6d5c363e
 translation-type: tm+mt
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
@@ -20,9 +20,9 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 ## Track the visitor lifetime value {#section_390943A49AF841F2941E65D6DF2B3F5A}
 
-1. [라이브러리] 를 프로젝트에 추가하고 라이프사이클을 구현합니다.
+1. Add the [library to your project and implement lifecycle.
 
-   자세한 내용은 핵심 구현 *및* 라이프사이클에서 [Intellij 아이디어 또는 Eclipse 프로젝트에 SDK 및 구성 파일 추가를](/help/android/getting-started/dev-qs.md)참조하십시오.
+   자세한 내용은 코어 *구현 및 라이프사이클에서 IntelliJ IDEA 또는 Eclipse 프로젝트에* SDK 및 구성 파일 [추가를 참조하십시오](/help/android/getting-started/dev-qs.md).
 1. 라이브러리를 가져옵니다:
 
    ```java
