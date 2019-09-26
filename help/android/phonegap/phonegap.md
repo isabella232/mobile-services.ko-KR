@@ -1,21 +1,21 @@
 ---
 description: 이 플러그인을 사용하여 PhoneGap 프로젝트에서 Android AppMeasurement 호출을 전송할 수 있습니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 이 플러그인을 사용하여 PhoneGap 프로젝트에서 Android AppMeasurement 호출을 전송할 수 있습니다.
-seo-title: Phonegap 플러그인 개요
-solution: Marketing Cloud, Analytics
-title: Phonegap 플러그인 개요
+seo-title: PhoneGap 플러그인 개요
+solution: Marketing Cloud,Analytics
+title: PhoneGap 플러그인 개요
 topic: 개발자 및 구현
-uuid: C 5 C 32357-D 8 DF -458 A-B 0 E 8-E 0 C 56040241 D
+uuid: c5c32357-d8df-458a-b0e8-e0c56040241d
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
 
 
-# Phonegap 플러그인 개요 {#phonegap-plug-in}
+# PhoneGap 플러그인 개요 {#phonegap-plug-in}
 
-이 플러그인을 사용하여 PhoneGap 프로젝트에서 Android AppMeasurement 호출을 전송할 수 있습니다. Phonegap 프로젝트를 만들려면 [phonegap](https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap.html)를 참조하십시오.
+이 플러그인을 사용하여 PhoneGap 프로젝트에서 Android AppMeasurement 호출을 전송할 수 있습니다. PhoneGap 프로젝트를 만들려면 PhoneGap [을 참조하십시오](https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap.html).
 
 ## 새 Adobe Experience Cloud SDK 릴리스
 
@@ -41,15 +41,15 @@ cordova plugin add adobe-mobile-services
 
 ## 플러그인 포함
 
-1. 파일을 폴더로 `ADBMobile_PhoneGap.java``src` 드래그합니다.
+1. 파일을 `ADBMobile_PhoneGap.java` 폴더로 `src` 드래그합니다.
 
    이 파일을 이동하려면 **[!UICONTROL 확인을 클릭하십시오]**.
 
-1. 파일을 `ADB_Helper.js` 파일이 들어 있는 폴더로 `index.html` 드래그합니다.
+1. 파일을 `ADB_Helper.js` 포함하는 폴더로 `index.html` 드래그합니다
 
    이 파일을 이동하려면 **[!UICONTROL 확인을 클릭하십시오]**.
 
-1. `res/xml` 폴더에서 `config.xml` 파일을 열고 다음을 추가하여 새 플러그인을 등록합니다.
+1. In the `res/xml` folder, open the `config.xml` file and register an new plugin by adding the following:
 
    ```xml
    <feature name="ADBMobile_PhoneGap"> 
@@ -63,10 +63,10 @@ cordova plugin add adobe-mobile-services
    <param name="android-package" value="com.example.phonegaptest.ADBMobile_PhoneGap" />
    ```
 
-## Appmeasurement 라이브러리 포함
+## Include the AppMeasurement library
 
 1. To download the AppMeasurement library, see [Get the SDK](/help/android/getting-started/dev-qs.md).
-1. `adobeMobileLibrary.jar` 파일을 `src` 폴더로 드래그합니다.
+1. 파일을 `adobeMobileLibrary.jar` 폴더로 `src` 드래그합니다.
 
    이 파일을 이동하려면 **[!UICONTROL 확인을 클릭하십시오]**.
 
@@ -120,7 +120,7 @@ android:windowSoftInputMode="adjustUnspecified|stateHidden" />
 
 ## Implement custom tracking {#section_FD102B3CDAA4492FB04E56BF17E28663}
 
-`html` 파일에서 추적을 사용할 `<head>` 태그에 다음을 추가합니다.
+In `html` files, add the following to the `<head>` tag where you want to use tracking:
 
 ```
 <script type="text/javascript" charset="utf-8" src="ADB_Helper.js"></script>
