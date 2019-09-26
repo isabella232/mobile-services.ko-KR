@@ -1,12 +1,12 @@
 ---
 description: 다음은 Adobe Experience Cloud에서 Android SDK를 사용하는 데 유용한 정보입니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 다음은 Adobe Experience Cloud에서 Android SDK를 사용하는 데 유용한 정보입니다.
-seo-title: Experience Cloud Overivew
-solution: Marketing Cloud, Analytics
-title: Experience Cloud 개요
+seo-title: Experience Cloud 개요
+solution: Marketing Cloud,Analytics
+title: Experience Cloud overview
 topic: 개발자 및 구현
-uuid: DBF 6 E 019-8707-42 E 7-97 B 8-E 18 A 8 A 7 D 5 E 2 C
+uuid: dbf6e0 파섹19-8707-42e7-97b8-e18a8a7d5e2c
 translation-type: tm+mt
 source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
