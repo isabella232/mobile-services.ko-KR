@@ -3,10 +3,10 @@ description: Adobe Mobile Services에 대한 FAQ 및 답변과 기능에 대한 
 keywords: mobile
 seo-description: Adobe Mobile Services에 대한 FAQ 및 답변과 기능에 대한 일반 설명.
 seo-title: FAQ
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: FAQ
 topic: 지표
-uuid: 62 A 9241 C -2 ADA -483 A-A 594-B 023916 CB 0 B 6
+uuid: 62a9241c-2ada-483a-a594-b023916cb0b6
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -15,7 +15,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 # FAQ {#frequently-asked-questions}
 
-다음 표는 Adobe Mobile Services에 대한 FAQ 목록입니다.
+The following table contains a list of frequently asked questions for Adobe Mobile Services:
 
 ## Adobe 모바일 SDK {#section_9C2181F7B39A4BEB8EE6BCEFCF14C72F}
 
@@ -29,24 +29,24 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ### 어디에서 SDK를 다운로드할 수 있나요?
 
-개별 모바일 플랫폼에 대한 SDK는 앱 설정 [관리](/help/using/c-manage-app-settings/c-manage-app-settings.md) 섹션을 방문하여 다운로드할 수 있습니다.
+The SDKs for individual mobile platforms may be downloaded by visiting the Manage App Settings section.[](/help/using/c-manage-app-settings/c-manage-app-settings.md)
 
 ### SDK를 어떻게 구성해야 하나요?
 
-새 앱 보고서 세트를 만든 후 앱 설정 관리 및 앱 정보 페이지에서 필요한 모든 옵션을 구성하려면 이동하십시오. 구성을 저장한 후 앱 설정 관리 페이지 하단에서 필요한 SDK를 다운로드합니다. The SDK will come pre-configured with the options you have saved and can be found in the `ADBMobileConfig.json` file in the SDK package. If you change any SDK settings on the Manage App Settings page, make sure you re-download the SDK files or update your `ADBMobileConfig.json` file with the necessary changes.
+새 앱 보고서 세트를 만든 후 앱 설정 관리로 이동하고 앱 정보 페이지에서 필요한 모든 옵션을 구성합니다. 구성을 저장한 후 앱 설정 관리 페이지 하단에서 필요한 SDK를 다운로드합니다. The SDK will come pre-configured with the options you have saved and can be found in the `ADBMobileConfig.json` file in the SDK package. If you change any SDK settings on the Manage App Settings page, make sure you re-download the SDK files or update your `ADBMobileConfig.json` file with the necessary changes.
 
 ### Adobe 모바일 SDK에서 IPv6 for iOS를 지원하나요?
 
-Adobe 모바일 SDK는 iOS 및 Android 표준 네트워크 스택을 사용합니다. iOS의 경우 SDK는 IPv 6와 완벽하게 호환되는 nsurlsession (iOS 버전 7 +) 및 nsurlconnection (iOS 버전 7 이상) 를 사용합니다. 자체 네트워킹 스택을 구축했거나 사용하는 개발자는 다른 완화 고려 사항이 있을 경우 검토할 수 있습니다. 다음은 Apple의 추가 정보입니다.
+Adobe 모바일 SDK는 iOS 및 Android 표준 네트워크 스택을 사용합니다. iOS의 경우 SDK는 IPv6를 완전히 준수하는 NSURLSession(iOS 버전 7+) 및 NSURLConnection(iOS 버전 7 이상)을 사용합니다. 자체 네트워킹 스택을 빌드하거나 사용하는 개발자는 다른 완화 고려 사항이 있는지 검토할 수 있습니다. Here is some additional information from Apple:
 
-*Nsurlsession 및 CFNETWORK 프레임워크와 같은 고급 네트워킹 API를 사용하여 클라이언트측 앱을 작성할 때 이름별로 연결할 경우, 응용 프로그램을 IPv 6 주소로 작동하도록 변경할 필요는 없습니다.* 자세한 내용은 IPv 6 DNS 64/NAT 64 네트워크 [지원을](https://developer.apple.com/library/content/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/UnderstandingandPreparingfortheIPv6Transition/UnderstandingandPreparingfortheIPv6Transition.html#__/apple_ref/doc/uid/TP40010220-CH213-SW1)참조하십시오.
+*If you're writing a client-side app using high-level networking APIs such as NSURLSession and the CFNetwork frameworks and you connect by name, you should not need to change anything for your app to work with IPv6 addresses.* For more information see, Supporting IPv6 DNS64/NAT64 Networks.[](https://developer.apple.com/library/content/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/UnderstandingandPreparingfortheIPv6Transition/UnderstandingandPreparingfortheIPv6Transition.html#__/apple_ref/doc/uid/TP40010220-CH213-SW1)
 
 
 ## Adobe Analytics {#section_78EC9D83791F477AAED678720CEBA9F6}
 
 ### 라이프사이클 지표란 무엇인가요?
 
-라이프사이클 지표란 SDK가 앱으로 처음 구현될 때 자동으로 수집되는 "기본(out-of-the-box)" 지표입니다. 자세한 내용은 [라이프사이클 지표 (Android)](/help/android/metrics.md) 및 [라이프사이클 지표 (iOS)](/help/ios/metrics.md)를 참조하십시오.
+라이프사이클 지표란 SDK가 앱으로 처음 구현될 때 자동으로 수집되는 "기본(out-of-the-box)" 지표입니다. For more information, see Lifecycle Metrics (Android) and Lifecycle Metrics (iOS).[](/help/android/metrics.md)[](/help/ios/metrics.md)
 
 ### 처리 규칙 문제는 어떻게 해결해야 하나요?
 
@@ -54,7 +54,7 @@ Adobe 모바일 SDK는 iOS 및 Android 표준 네트워크 스택을 사용합�
 
 ### 분석 데이터를 여러 보고서 세트로 전송할 수 있나요?
 
-예. SDK에서 복수의 Adobe Analytics 보고서 세트로 데이터를 전송할 수 있는 기능을 제공합니다. 이미지 요청을 사용하여 여러 보고서 세트의 데이터를 캡처하려면 파일에서 **[!UICONTROL 분석]** 섹션의 **rsids[!UICONTROL 필드에 있는 여러 보고서 세트 ID를 쉼표로(공백 없음) 구분하여 설정합니다.]**`ADBMobileConfig.json` 자세한 내용은 [Adbmobile JSON 구성을](/help/ios/configuration/json-config/json-config.md)참조하십시오.
+예. SDK에서 복수의 Adobe Analytics 보고서 세트로 데이터를 전송할 수 있는 기능을 제공합니다. 이미지 요청을 사용하여 여러 보고서 세트의 데이터를 캡처하려면 파일에서 **[!UICONTROL 분석]** 섹션의 **rsids[!UICONTROL 필드에 있는 여러 보고서 세트 ID를 쉼표로(공백 없음) 구분하여 설정합니다.]**`ADBMobileConfig.json` For more information, see ADBMobile JSON Config.[](/help/ios/configuration/json-config/json-config.md)
 
 ### 모바일 방문은 실행과 어떻게 다른가요?
 
@@ -68,7 +68,7 @@ Adobe 모바일 SDK는 iOS 및 Android 표준 네트워크 스택을 사용합�
 
 ### 푸시 알림에 대한 사용자 지정 페이로드를 지원하나요?
 
-예, JSON 형식으로 코딩 가능한 사용자 지정 푸시 페이로드를 허용합니다. Android 및 iOS 페이로드는 각각 4KB 및 2KB로 제한됩니다. 이러한 페이로드는 푸시 또는 로컬 알림을 통해 앱으로 전송됩니다. 자세한 내용은 [경험을 참조하십시오. 푸시 메시지](/help/using/in-app-messaging/t-create-push-message/c-experience-push-message.md).
+예, JSON 형식으로 코딩 가능한 사용자 지정 푸시 페이로드를 허용합니다. Android 및 iOS 페이로드는 각각 4KB 및 2KB로 제한됩니다. 이러한 페이로드는 푸시 또는 로컬 알림을 통해 앱으로 전송됩니다. For more information, see Experience: Push Message.[](/help/using/in-app-messaging/t-create-push-message/c-experience-push-message.md)
 
 ### 인앱 메시지에 크기 제한이 있나요?
 
@@ -84,13 +84,13 @@ Adobe Mobile Services에서 만들어 게시된 활성 인앱 메시지는 앱 �
 
 푸시 메시지는 이미 수집된 Analytics 내역 데이터에 만들어져 있을 수 있는 이미 존재하는 Adobe Analytics 세그먼트 또는 사용자 지정 세그먼트를 사용하여 발송됩니다. 자세한 내용은 [환경: 푸시 메시지](/help/using/in-app-messaging/t-create-push-message/c-experience-push-message.md).
 
-### 입력한 인앱, 푸시 또는 마케팅 링크 이름으로 인해 오류가 발생하는 이유는 무엇입니까?
+### Why am I getting an error with the in-app, push, or Marketing Link name that I typed?
 
-동일한 부모 보고서 세트 또는 VRS를 사용하는 여러 앱에서 동일한 인앱 메시지, 푸시 메시지 또는 마케팅 링크 이름을 사용할 수 없습니다. 이 문제를 해결하려면 인앱 메시지, 푸시 메시지 또는 마케팅 링크에 다른 이름을 입력합니다.
+동일한 부모 보고서 세트 또는 VRS를 사용하는 여러 앱에서 동일한 인앱 메시지, 푸시 메시지 또는 마케팅 링크 이름을 사용할 수 없습니다. 이 문제를 해결하려면 인앱 메시지, 푸시 메시지 또는 마케팅 링크에 다른 이름을 입력하십시오.
 
 ## 위치 {#section_01208FE3B7764E0DADDCB9AD9E1FCD87}
 
-### 사용할 수 있는 관심 영역 (POIS) 의 제한이 있습니까?
+### Is there a limit on how many oints of interest (POIs) I can have?
 
 특정 제한 사항은 없지만, 이상적인 성능을 위해 그리고 사용자 장치의 메모리 제한으로 인해 최대 5000개의 POI를 만들거나 업로드하는 것이 좋습니다.
 
@@ -98,7 +98,7 @@ Adobe Mobile Services에서 만들어 게시된 활성 인앱 메시지는 앱 �
 
 ### 캠페인을 인앱 활동과 연관지어 생각할 수 있나요?
 
-예. Adobe Mobile Services는 앱을 홍보하고 앱으로의 트래픽을 유도하는 데 도움이 되는 마케팅 링크를 작성하게 하고 획득 캠페인을 인앱 활동 및 대화와 연결하게 해줍니다. 자세한 내용은 [획득을 참조하십시오.](/help/using/acquisition-main/acquisition-main.md)
+예. Adobe Mobile Services는 앱을 홍보하고 앱으로의 트래픽을 유도하는 데 도움이 되는 마케팅 링크를 작성하게 하고 획득 캠페인을 인앱 활동 및 대화와 연결하게 해줍니다. For more information, see [Acquisition](/help/using/acquisition-main/acquisition-main.md).
 
 ### 새 앱 사용자를 확보하고 추적하는 링크를 설정하려면 어떻게 하나요?
 
