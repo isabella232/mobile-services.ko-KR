@@ -3,10 +3,10 @@ description: '[위치 개요] 보고서에서는 앱이 사용되는 다양한 �
 keywords: mobile
 seo-description: '[위치 개요] 보고서에서는 앱이 사용되는 다양한 국가, 지역 및 관심 영역을 볼 수 있습니다.'
 seo-title: 개요(위치)
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 개요(위치)
 topic: 보고서,지표
-uuid: A 701 ABC 3-001 B -4015-843 F -5 FB 2 C 6 C 80 D 17
+uuid: a701abc3-001b-4015-843f-5fb2c6c80d17
 translation-type: tm+mt
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
@@ -15,11 +15,11 @@ source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 # 개요(위치){#overview-location}
 
-**[!UICONTROL 위치 개요]** 보고서에서는 앱이 사용되는 다른 국가, 지역 및 관심 영역 (POI) 를 볼 수 있습니다.
+The **[!UICONTROL Location Overview]** report lets you see the different countries, regions, and points of interest (POI) where your app is being used.
 
 이 보고서는 기존 데이터에 대한 Sunburst 시각화 시각화를 제공하므로, 이 보고서를 사용하여 타깃팅할 대상 세그먼트(방문자 컬렉션)를 검색할 수 있습니다. 대상을 만들고 관리하는 일은 현재 Experience Cloud에서 대상을 이용할 수 있다는 점을 제외하고, 세그먼트를 만들고 사용하는 일과 비슷합니다.
 
-다음은 이 보고서에 대한 추가 정보입니다.
+다음은 이 보고서에 대한 몇 가지 추가 정보입니다.
 
 ## Navigation and usage {#section_4A88C3849B5847BF8CF433CCFD99FDC3}
 
@@ -59,7 +59,7 @@ Here is the visualization when you select **[!UICONTROL Points of Interest]**:
 
 >[!TIP]
 >
->선버스트 추가 고리가 많을수록 처리 시간이 길어집니다.
+>선버스트에 고리를 추가할수록 처리 시간이 더 오래 걸립니다.
 
 분류 및 보조 지표를 추가하려면, 보고서의 제목 표시줄에서 **[!UICONTROL 위치 분류]**&#x200B;를 클릭한 다음, **사용자 지정]을 클릭하여 오른쪽의 레일을 엽니다.[!UICONTROL **
 
