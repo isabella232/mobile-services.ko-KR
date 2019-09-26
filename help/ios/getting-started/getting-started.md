@@ -1,20 +1,20 @@
 ---
-description: '다음 정보는 Experience Cloud 솔루션용 iOS SDK를 시작하는 데 도움이 됩니다. '
-seo-description: '다음 정보는 Experience Cloud 솔루션용 iOS SDK를 시작하는 데 도움이 됩니다. '
-seo-title: 시작하기 개요
-solution: Marketing Cloud, Analytics
-title: 시작하기 개요
+description: '다음 정보는 Experience Cloud 솔루션용 iOS SDK를 시작하는 데 도움이 됩니다 '
+seo-description: '다음 정보는 Experience Cloud 솔루션용 iOS SDK를 시작하는 데 도움이 됩니다 '
+seo-title: Getting started overview
+solution: Marketing Cloud,Analytics
+title: Getting started overview
 topic: 개발자 및 구현
-uuid: A 2 B 9 Baad-B 959-4 B 9 A -893 D -99 C 0 F 4072 E 8 D
+uuid: a2b9baad-b959-4b9a-893d-99c0f4072e8d
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
 
 
-# 시작하기 개요 {#getting-started}
+# Getting started overview {#getting-started}
 
-다음 정보는 Experience Cloud 솔루션용 iOS SDK를 시작하는 데 도움이 됩니다.
+The following information helps you get started with the iOS SDK for Experience Cloud Solutions.
 
 ## 새 Adobe Experience Cloud SDK 릴리스
 
