@@ -2,10 +2,10 @@
 description: Universal Windows Platform 라이브러리에서 제공하는 타겟 목록 메서드입니다.
 seo-description: Universal Windows Platform 라이브러리에서 제공하는 타겟 목록 메서드입니다.
 seo-title: 타겟 메서드
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 타겟 메서드
 topic: 개발자 및 구현
-uuid: 2 AD 5953 B -7850-446 A -8053-B 3715 B 86329 B
+uuid: 2ad5953b-7850-446a-8053-b3715b86329b
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -36,7 +36,7 @@ property Windows::Foundation::Collections::IMap<Platform::String^, Platform::Obj
 
 ## 문자열 상수
 
-이 정보는 사용자 지정 매개 변수에 대한 키를 설정하는 데 도움이 됩니다.
+This information helps you set keys for custom parameters.
 
 ```
 static property Platform::String ^TARGET_PARAMETER_ORDER_ID { 
@@ -68,7 +68,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 }
 ```
 
-* **Loadrequest (winjs: Loadrequest)**
+* **LoadRequest(winJS:loadRequest)**
 
    Sends `request` to your configured Target server and returns the string value of the offer generated in a block `callback`.
 
@@ -87,7 +87,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
        });
       ```
 
-* **Createrequest (winjs: Createrequest)**
+* **CreateRequest(winJS:createRequest)**
 
    지정된 매개 변수로 `TargetLocationRequest` 개체를 만듭니다.
 
@@ -104,7 +104,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       var heroBannerRequest = ADB.Target.createRequest("heroBanner","default.png", null); 
       ```
 
-* **Createorderconfirmrequest (winjs: Createorderconfirmrequest)**
+* **CreateOrder &#x200B; ConfirmRequest(winJS:createOrder &#x200B; ConfirmRequest)**
 
    지정된 매개 변수로 `TargetLocationRequest` 개체를 만듭니다.
 
@@ -121,7 +121,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       var orderConfirm = ADB.Target.createOrderConfirmRequest("orderConfirm","order","47.88","3722",null);
       ```
 
-* **Clearcookies (winjs: Clearcookies)**
+* **ClearCookies (winJS: clearCookies)**
 
    현재 장치에서 애플리케이션의 Target 쿠키를 지웁니다.
 
@@ -137,7 +137,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       ADBMobile.Target.clearCookies();
       ```
 
-* **Getpcid (winjs: Getpcid)**
+* **GetPcId (winJS: getPcId)**
 
    현재 장치의 PC ID 쿠키를 반환합니다.
 
@@ -153,7 +153,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       autopcId = ADBMobile.Target.getPcId();
       ```
 
-* **Getsessionid (winjs: Getsessionid)**
+* **GetSessionId(winJS:getSessionId)**
 
    현재 장치의 세션 ID 쿠키를 반환합니다.
 
