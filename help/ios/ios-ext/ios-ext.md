@@ -2,10 +2,10 @@
 description: iOS 확장 프로그램을 사용하면 Apple Watch 앱(WatchOS 1), 오늘 위젯, 사진 편집 위젯 및 기타 iOS 확장 앱에서 사용 데이터를 효율적으로 수집할 수 있습니다.
 seo-description: iOS 확장 프로그램을 사용하면 Apple Watch 앱(WatchOS 1), 오늘 위젯, 사진 편집 위젯 및 기타 iOS 확장 앱에서 사용 데이터를 효율적으로 수집할 수 있습니다.
 seo-title: iOS 확장 프로그램 구현
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: iOS 확장 프로그램 구현
 topic: 개발자 및 구현
-uuid: 8 AFC 03 FE -403 E -4643-ADA 1-30 E 403 EDE 238
+uuid: 8afc03fe-403e-4643-ada1-30e403ede238
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -33,7 +33,7 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 
 >[!IMPORTANT]
 >
->wrapper 대신 iOS SDK를 사용하는 것이 좋습니다.
+>Adobe에서는 래퍼 대신 iOS SDK를 사용하는 것이 좋습니다.
 
 Apple에서는 Watch 앱에서 요청을 포함 앱에 보낸 다음 응답을 받는 방식으로, 포함 앱과 통신할 수 있도록 하는 API 세트를 제공합니다. 추적 데이터를 (사전 형태로) Watch 앱에서 포함 앱으로 전송한 후에 포함 앱에서 추적 메서드를 호출하여 데이터를 전송할 수 있지만, 이 해결 방법에는 제한이 있습니다.
 
@@ -45,7 +45,7 @@ In most cases when a user is using the Watch app, the containing app is running 
 
 >[!IMPORTANT]
 >
->최소한 다음 타겟을 갖는 프로젝트가 있는지 확인합니다.
+>다음과 같은 대상이 있는 프로젝트가 있는지 확인합니다.
 >
 >* 앱을 포함할 타겟 한 개
 >* 확장 프로그램용 타겟 한 개
@@ -53,14 +53,14 @@ In most cases when a user is using the Watch app, the containing app is running 
 
 
 
-WatchKit 앱에서 작업하는 경우 세 번째 타겟이 있어야 합니다. Apple Watch 개발에 대한 자세한 내용은 Apple Watch [개발을](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1)참조하십시오.
+WatchKit 앱에서 작업하는 경우 세 번째 타겟이 있어야 합니다. For more information on developing for Apple Watch, see Developing for Apple Watch.[](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1)
 
-## 포함된 앱 구성 {#section_0BAB0842E4C04A62B5E03DFC4BA77851}
+## 포함 앱 구성 {#section_0BAB0842E4C04A62B5E03DFC4BA77851}
 
 Xcode 프로젝트에서 다음 단계를 완료하십시오.
 
 1. AdobeMobileLibrary 폴더를 프로젝트로 드래그합니다.
-1. `ADBMobileConfig.json` 해당 파일이 포함된 앱의 대상인지 확인합니다.
+1. Ensure that the `ADBMobileConfig.json` file is a member of the containing app's target.
 1. 포함 앱 타겟의 **[!UICONTROL 빌드 단계]** 탭에서 **바이너리을 라이브러리와 연결]섹션을 확장하고 다음 라이브러리를 추가합니다.[!UICONTROL **
 
    * `AdobeMobileLibrary.a`
@@ -78,9 +78,9 @@ Xcode 프로젝트에서 다음 단계를 완료하십시오.
 
 1. 예기치 않은 오류 없이 앱이 빌드되는지 확인합니다.
 
-## 확장 구성 {#section_28C994B7892340AC8D1F07AF26FF3946}
+##  확장 구성{#section_28C994B7892340AC8D1F07AF26FF3946}
 
-1. `ADBMobileConfig.json` 해당 파일이 확장 대상의 구성원인지 확인합니다.
+1. Ensure that the `ADBMobileConfig.json` file is a member of the extension's target.
 1. 확장 프로그램 타겟의 **[!UICONTROL 빌드 단계]** 탭에서 **바이너리를 라이브러리와 연결]섹션을 확장하고 다음 라이브러리를 추가합니다.[!UICONTROL **
 
    * `AdobeMobileLibrary_Extension.a`
