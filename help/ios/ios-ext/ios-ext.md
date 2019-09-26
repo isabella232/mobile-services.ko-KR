@@ -7,7 +7,7 @@ title: iOS 확장 프로그램 구현
 topic: 개발자 및 구현
 uuid: 8afc03fe-403e-4643-ada1-30e403ede238
 translation-type: tm+mt
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
 
 ---
 
@@ -16,24 +16,20 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 iOS 확장 프로그램을 사용하면 Apple Watch 앱(WatchOS 1), 오늘 위젯, 사진 편집 위젯 및 기타 iOS 확장 앱에서 사용 데이터를 효율적으로 수집할 수 있습니다.
 
-## 새 Adobe Experience Cloud SDK 릴리스
+## New Adobe Experience Platform Mobile SDK Release
 
 Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
 
 2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
-* 시작하려면 Launch로 이동합니다.
+* To get started, go to Adobe Experience Platform Launch.
 * Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)로 이동하십시오.
-
->[!IMPORTANT]
->
-> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. 자세한 내용은 [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services)를 참조하십시오.
 
 ## Recommendations for using the iOS SDK instead of your wrapper {#section_97577331FD9E4FFBBE05D402C67AEE69}
 
 >[!IMPORTANT]
 >
->Adobe에서는 래퍼 대신 iOS SDK를 사용하는 것이 좋습니다.
+>We strongly recommend that you use the iOS SDK rather than your wrapper.
 
 Apple에서는 Watch 앱에서 요청을 포함 앱에 보낸 다음 응답을 받는 방식으로, 포함 앱과 통신할 수 있도록 하는 API 세트를 제공합니다. 추적 데이터를 (사전 형태로) Watch 앱에서 포함 앱으로 전송한 후에 포함 앱에서 추적 메서드를 호출하여 데이터를 전송할 수 있지만, 이 해결 방법에는 제한이 있습니다.
 
@@ -55,7 +51,7 @@ In most cases when a user is using the Watch app, the containing app is running 
 
 WatchKit 앱에서 작업하는 경우 세 번째 타겟이 있어야 합니다. For more information on developing for Apple Watch, see Developing for Apple Watch.[](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1)
 
-## 포함 앱 구성 {#section_0BAB0842E4C04A62B5E03DFC4BA77851}
+## Configure the containing app {#section_0BAB0842E4C04A62B5E03DFC4BA77851}
 
 Xcode 프로젝트에서 다음 단계를 완료하십시오.
 
