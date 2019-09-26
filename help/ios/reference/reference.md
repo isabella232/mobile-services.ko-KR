@@ -2,10 +2,10 @@
 description: 다음은 Experience Cloud 솔루션에 iOS SDK를 사용하는 데 유용한 참조 자료입니다.
 seo-description: 다음은 Experience Cloud 솔루션에 iOS SDK를 사용하는 데 유용한 참조 자료입니다.
 seo-title: iOS SDK 참조 문서
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: iOS SDK 참조 문서
 topic: 개발자 및 구현
-uuid: 4 E 80 B 0 CE-D 36 E -440 E -96 FF-DE 5 DF 6804 E 3 E
+uuid: 4e80b0ce-d3 파섹
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
