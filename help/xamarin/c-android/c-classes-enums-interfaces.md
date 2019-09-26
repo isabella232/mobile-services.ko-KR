@@ -1,9 +1,9 @@
 ---
 description: Xamarin 응용 프로그램에서 사용할 클래스 및 열거 목록입니다.
 seo-description: Xamarin 응용 프로그램에서 사용할 클래스 및 열거 목록입니다.
-seo-title: 클래스, 데모 및 인터페이스
-title: 클래스, 데모 및 인터페이스
-uuid: 2527 B 3 AE-A 447-4 B 2 E -9 E 90-B 3 B 8 EC 8 CB 47 A
+seo-title: Classes, enums, and interfaces
+title: 클래스, 열거형 및 인터페이스
+uuid: 2527b3ae-a447-4b2e-9e90-b3b8ec8cb47a
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
