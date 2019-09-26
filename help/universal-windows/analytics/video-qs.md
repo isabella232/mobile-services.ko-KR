@@ -2,10 +2,10 @@
 description: 비디오 분석을 사용하는 데 도움이 되는 정보입니다.
 seo-description: 비디오 분석을 사용하는 데 도움이 되는 정보입니다.
 seo-title: Video Analytics
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: Video Analytics
 topic: 개발자 및 구현
-uuid: f 45 dac 3 b-cd 2 e -4 fba-a 3 b 2-c 243640 ecfa 4
+uuid: f45dac3b-cd2e-4fba-a3b2-c243640ecfa4
 translation-type: tm+mt
 source-git-commit: 1c0b7dadc28f772e903baa8605016e70f05081d7
 
@@ -26,7 +26,7 @@ Video measurement is described in detail in the [Measuring video and audio in Ad
 
    (**선택 사항**) Custom Insight 변수는 비디오 경로 지정 정보를 제공합니다.
 
-   * 변수 유형: Evar
+   * 변수 유형:eVar
    * 기본 만료: 방문
    * Custom Insight(s.prop, 비디오 경로 지정에 사용됨)
 
@@ -35,7 +35,7 @@ Video measurement is described in detail in the [Measuring video and audio in Ad
    (**선택 사항**) 비디오 경로 지정 정보를 제공합니다. ClientCare에서 이 변수에 대해 경로 지정을 활성화해야 합니다.
 
    * 이벤트 유형: 사용자 지정 통찰력(s.prop).
-   * 변수 유형: 커스텀 인사이트 (s. prop)
+   * 변수 유형:커스텀 인사이트(s.prop)
 
 * **a.media.segment**
 
@@ -45,7 +45,7 @@ Video measurement is described in detail in the [Measuring video and audio in Ad
 
    기본 비디오 데이터 컬렉션 메서드는 비디오 시작(재생), 세그먼트 시작 및 비디오 종료(중지) 시 데이터를 컬렉션합니다. Analytics에서는 방문자가 시청을 시작하면 세그먼트 시작 시 첫 번째 세그먼트 보기를 카운트합니다. 이후 세그먼트 보기는 세그먼트가 시작될 때 카운트됩니다.
 
-   * 변수 유형: Evar
+   * 변수 유형:eVar
    * 기본 만료: 페이지 보기
 
 * **a.contentType**
@@ -54,35 +54,35 @@ Video measurement is described in detail in the [Measuring video and audio in Ad
 
    비디오 측정 관점에서 컨텐츠 유형을 사용하면 비디오 방문자를 식별할 수 있고 비디오 전환율을 계산할 수 있습니다.
 
-   * 변수 유형: Evar
+   * 변수 유형:eVar
    * 기본 만료: 페이지 보기
 
 * **a.media.timePlayed**
 
    마지막 데이터 컬렉션 처리(이미지 요청) 이후 비디오를 시청하는 데 걸린 시간(초)을 계산합니다.
 
-   * 변수 유형: 이벤트
+   * 변수 유형:이벤트
    * 유형:카운터
 
 * **a.media.view**
 
    방문자가 비디오를 일정 부분 보았음을 나타냅니다. 그러나 방문자가 비디오에서 본 내용이나 분량에 대한 정보는 제공하지 않습니다.
 
-   * 변수 유형: 이벤트
+   * 변수 유형:이벤트
    * 유형:카운터
 
 * **a.media.segmentView**
 
    방문자가 비디오 세그먼트의 일정 부분을 보았음을 나타냅니다. 그러나 방문자가 비디오에서 본 내용이나 분량에 대한 정보는 제공하지 않습니다.
 
-   * 변수 유형: 이벤트
+   * 변수 유형:이벤트
    * 유형:카운터
 
 * **a.media.complete**
 
    사용자가 비디오 전체를 보았음을 의미합니다. 기본적으로 완료 이벤트는 비디오 종료 1초 전에 측정됩니다. 구현 중에 비디오 종료 몇 초 전을 보기 완료로 고려할 것인지 지정할 수 있습니다. 정의된 끝이 없는 라이브 비디오 및 기타 스트림의 경우 완료를 측정할 사용자 지정 지점을 지정할 수 있습니다. 예를 들어 특정 시간을 시청한 후로 지정할 수 있습니다.
 
-   * 변수 유형: 이벤트
+   * 변수 유형:이벤트
    * 유형:카운터
 
 ## Configure media settings {#section_929945D4183C428AAF3B983EFD3E2500}
@@ -124,7 +124,7 @@ property bool isMediaAd;
 
 ### Media measurement class and method reference {#section_50DF9359A7B14DF092634C8E913C77FE}
 
-* **Settingswith (winjs: Settingswith)**
+* **설정(winJS:settingsWith)**
 
    지정된 매개 변수와 함께 `MediaSettings` 개체를 반환합니다.
 
@@ -140,7 +140,7 @@ property bool isMediaAd;
       var  mySettings  =  ADB.Media.settingsWith("name", 10,  "playerName", "playerId"); 
       ```
 
-* **Adsettingswith (winjs: Adsettingswith)**
+* **AdSettingsWith(winJS:adSettingsWith)**
 
    광고 비디오 추적에 사용할 `MediaSettings` 개체를 반환합니다.
 
@@ -156,7 +156,7 @@ property bool isMediaAd;
       var  myAdSettings = ADB.Media.adSettingsWith("name", 10,  "playerName", "parentName", "parentPod", 5, "myCPM");
       ```
 
-* **열기 (Winjs: 열림)**
+* **열기(winJS:open)**
 
    Tracks a media open using the settings defined in `settings`.
 
@@ -172,7 +172,7 @@ property bool isMediaAd;
       ADB.Media.open(mySettings);
       ```
 
-* **닫기 (Winjs: 닫기)**
+* **닫기(winJS:close)**
 
    Tracks a media close for the media item named *`name`*.
 
@@ -188,7 +188,7 @@ property bool isMediaAd;
       ADB.Media.close("mediaName"); 
       ```
 
-* **재생 (Winjs: 재생)**
+* **Play (winJS: play)**
 
    제공된 *offset`name`*(초)에서 이름이 **&#x200B;인 미디어 항목에 대해 재생되는 미디어를 추적합니다.
 
@@ -204,7 +204,7 @@ property bool isMediaAd;
       ADB.Media.play("mediaName",  0);
       ```
 
-* **complete (winjs: 전체)**
+* **Complete (winJS: complete)**
 
    제공된 *오프셋*(초)에서 완료된 미디어 항목을 수동으로 표시합니다.
 
@@ -220,7 +220,7 @@ property bool isMediaAd;
       ADB.Media.complete("mediaName", 8);
       ```
 
-* **중지 (Winjs: 중지)**
+* **중지(winJS:stop)**
 
    *제공된 오프셋에서 비디오가 중지 또는 일시 중지되었음을 미디어 모듈에 알립니다*.
 
@@ -236,7 +236,7 @@ property bool isMediaAd;
       ADB.Media.stop("mediaName",  4);
       ```
 
-* **클릭 (Winjs: 클릭)**
+* **클릭(winJS:클릭)**
 
    미디어 항목이 클릭되었음을 미디어 모듈에 알립니다.
 
@@ -252,7 +252,7 @@ property bool isMediaAd;
       ADB.Media.click("mediaName",  3); 
       ```
 
-* **track (winjs: 추적)**
+* **추적(winJS:track)**
 
    현재 미디어 상태에 대한 추적 작업 호출(페이지 보기 없음)을 보냅니다.
 
