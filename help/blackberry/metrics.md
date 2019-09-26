@@ -1,12 +1,12 @@
 ---
 description: 다음은 라이프사이클을 구현한 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표 및 차원을 안내합니다. 또한 라이프사이클 데이터 문제 해결을 안내하는 링크도 제공합니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 다음은 라이프사이클을 구현한 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표 및 차원을 안내합니다. 또한 라이프사이클 데이터 문제 해결을 안내하는 링크도 제공합니다.
 seo-title: 라이프사이클 지표
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 라이프사이클 지표
 topic: 개발자 및 구현
-uuid: 5 A 371 F 11-6521-410 F-A 01 F-FC 3 B 285 B 050 F
+uuid: 5a371f11-6521-410f-a01f-fc3b285b050f
 translation-type: tm+mt
 source-git-commit: 6c440c2130781943796cdfb581a39a8167f5ba13
 
@@ -23,7 +23,7 @@ source-git-commit: 6c440c2130781943796cdfb581a39a8167f5ba13
 
 구성된 경우 라이프사이클 지표가 컨텍스트 데이터 매개 변수로 Analytics에 전송되고, 각 mbox 호출을 통해 매개 변수로 Target에 전송되며, 고객 관리에 신호로 전송됩니다. 분석 및 타겟은 같은 형식을 사용하지만, 대상 관리는 각 지표에 다른 접두사를 사용합니다.
 
-Analytics의 경우 각 라이프사이클 추적 호출과 함께 전송되는 컨텍스트 데이터는 지표 또는 차원을 사용하여 자동으로 캡처되고 보고됩니다.
+Analytics의 경우 각 라이프사이클 추적 호출과 함께 전송되는 컨텍스트 데이터는 지표나 차원을 사용하여 자동으로 캡처되고 보고됩니다.
 
 ### 지표
 
@@ -88,7 +88,7 @@ Analytics의 경우 각 라이프사이클 추적 호출과 함께 전송되는 
 
 * **설치 날짜**
 
-   설치 후 처음 시작하는 날짜 날짜 형식은 `MM/DD/YYYY`입니다.
+   설치 후 처음 시작하는 날짜 The date format is .`MM/DD/YYYY`
 
    * Analytics context data/Target parameter: `a.InstallDate`
    * Audience Manager signal: `c_a_InstallDate`
@@ -140,7 +140,7 @@ Analytics의 경우 각 라이프사이클 추적 호출과 함께 전송되는 
 
 * **운영 체제 버전**
 
-   OS 버전.
+   The version of the OS.
 
    * Analytics context data/Target parameter: `a.OSVersion`
    * Audience Manager signal: `c_a_OSVersion`
@@ -194,17 +194,17 @@ Analytics의 경우 각 라이프사이클 추적 호출과 함께 전송되는 
 
 ## Additional mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
-다음 지표와 차원은 나열된 방법을 통해 모바일 솔루션 변수에서 캡처됩니다.
+The following metrics and dimensions are captured in mobile solution variables by the listed method.
 
 * **위치(10km까지)**
 
    Populated by `trackLocation` methods.
 
-   * Analytics 컨텍스트 데이터/타겟 매개 변수:
+   * Analytics context data/Target parameter:
 
       * `a.loc.lat.a`
       * `a.loc.lon.a`
-   * 고객 관리 트레이트:
+   * 고객 관리 특성:
 
       * `c_a_loc_lat_a`
       * `c_a_loc_lon_a`
@@ -214,11 +214,11 @@ Analytics의 경우 각 라이프사이클 추적 호출과 함께 전송되는 
 
    Populated by `trackLocation` methods.
 
-   * Analytics 컨텍스트 데이터/타겟 매개 변수:
+   * Analytics context data/Target parameter:
 
       * `a.loc.lat.b`
       * `a.loc.lon.b`
-   * 고객 관리 트레이트:
+   * 고객 관리 특성:
 
       * `c_a_loc_lat_b`
       * `c_a_loc_lon_b`
@@ -232,7 +232,7 @@ Analytics의 경우 각 라이프사이클 추적 호출과 함께 전송되는 
 
       * `a.loc.lat.c`
       * `a.loc.lon.c`
-   * 고객 관리 트레이트:
+   * 고객 관리 특성:
 
       * `c_a_loc_lat_c`
       * `c_a_loc_lon_c`
@@ -245,7 +245,7 @@ Analytics의 경우 각 라이프사이클 추적 호출과 함께 전송되는 
    * Analytics 컨텍스트 데이터/타겟 매개 변수:
 
       * `a.loc.poi`
-   * 고객 관리 트레이트:
+   * 고객 관리 특성:
 
       * `c_a_loc_poi`
 
@@ -257,6 +257,6 @@ Analytics의 경우 각 라이프사이클 추적 호출과 함께 전송되는 
    * Analytics 컨텍스트 데이터/타겟 매개 변수:
 
       * `a.loc.dist`
-   * 고객 관리 트레이트:
+   * Audience Management trait:
 
       * `c_a_loc_dist`
