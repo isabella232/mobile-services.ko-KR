@@ -1,23 +1,23 @@
 ---
 description: 다음은 Android 라이브러리에서 제공하는 Adobe Target 메서드 목록입니다.
-keywords: Android; 라이브러리; 모바일; SDK
+keywords: android;library;mobile;sdk
 seo-description: 다음은 Android 라이브러리에서 제공하는 Adobe Target 메서드 목록입니다.
-seo-title: Android 용 타겟 메서드
-solution: Marketing Cloud, Analytics
-title: Android 용 타겟 메서드
+seo-title: Target methods for Android
+solution: Marketing Cloud,Analytics
+title: Android용 Target 메서드
 topic: 개발자 및 구현
-uuid: 8 E 9808 B 2-BA 80-4646-BA 05-8 E 62 D 4 FDE 065
+uuid: 8e9808b2-ba80-4646-ba05-8e62d4fde065
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
 
 
-# Android 용 타겟 메서드{#target-methods}
+# Android용 Target 메서드{#target-methods}
 
 다음은 Android 라이브러리에서 제공하는 Adobe Target 메서드 목록입니다.
 
-현재 SDK는 Analytics, Target, Audience Manager, Adobe Experience Platform Identity Service 등 다양한 Adobe Experience Cloud 솔루션을 지원합니다. Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `target`.
+SDK는 현재 Analytics, Target, Audience Manager 및 Adobe Experience Platform Identity Service]를 비롯한 여러 Adobe Experience Cloud 솔루션을 지원합니다. Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `target`.
 
 >[!TIP]
 >
@@ -33,11 +33,11 @@ public String defaultContent;
 public HashMap<String, Object> parameters;
 ```
 
-**문자열 상수**
+**String constants**
 
 >[!TIP]
 >
->사용자 지정 매개 변수에 대한 키를 설정할 때 다음 상수를 사용할 수 있습니다.
+>The following constants are for ease of use when you set keys for custom parameters.
 
 ```java
 public static final String TARGET_PARAMETER_ORDER_ID   = "orderId"; 
@@ -122,38 +122,38 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 
          검색할 Target mbox/위치의 이름입니다.
 
-         * **유형:** 문자열
+         * **** 유형:문자열
       * **defaultContent**
 
          Target 서버에 도달할 수 없거나 사용자가 캠페인에 적합하지 않은 경우 콜백에서 반환되는 값입니다.
 
-         * **유형:** 문자열
+         * **** 유형:문자열
       * **profileParameters**
 
          이 사전의 값은 Target에 전송되는 요청의 "profileParameters" 개체에 삽입합니다.
 
-         * **유형:** map `<String, Object>`
+         * **** 유형:맵 `<String, Object>`
       * **orderParameters**
 
          이 사전의 값은 Target에 전송되는 요청의 "order" 개체에 삽입합니다.
 
-         * **유형:** map `<String, Object>`
+         * **** 유형:맵 `<String, Object>`
       * **mboxParameters**
 
-         이 사전의 값은 Target에 대한 요청으로 이동합니다.
+         이 사전의 값은 Target으로 요청됩니다.
 
-         * **유형:** map `<String, Object>`
+         * **** 유형:맵 `<String, Object>`
       * **requestLocationParameters**
 
          이 사전의 값은 Target에 전송되는 요청의 "requestLocation" 개체에 삽입됩니다.
 
-         * **유형:** map `<String, Object>`
+         * **** 유형:맵 `<String, Object>`
       * **callback**
 
          이 메서드는 Target 서버의 오퍼 콘텐츠를 사용하여 호출됩니다. Target 서버에 연결할 수 없거나 사용자가 캠페인에 적합하지 않으면 defaultContent가 반환됩니다.
 
-         * **유형:** Targetcallback `<String>`
-   * 다음은 이 메서드에 대한 샘플 코드입니다.
+         * **** 유형:TargetCallback `<String>`
+   * 다음은 이 메서드의 샘플 코드입니다.
 
       ```java
       Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put(“profile-parameter-key”, “profile-parameter-value”); 
