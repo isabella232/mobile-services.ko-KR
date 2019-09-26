@@ -3,7 +3,7 @@ description: Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대�
 keywords: Xamarin
 seo-description: Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서드입니다.
 seo-title: iOS 메서드
-solution: Marketing Cloud,개발자
+solution: Marketing Cloud,Developer
 title: iOS 메서드
 uuid: d6a056db-80c1-44d0-970f-c961ad01b0bc
 translation-type: tm+mt
@@ -106,8 +106,8 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 * **SetPrivacyStatus**
 
    현재 사용자의 개인 정보 상태를 상태로 설정합니다. 다음 값 중 하나를 설정합니다.
-   * `ADBMobilePrivacyStatus.OptIn` - 히트가 즉시 전송됩니다.
-   * `ADBMobilePrivacyStatus.OptOut` - 히트가 무시됩니다.
+   * `ADBMobilePrivacyStatus.OptIn` - hits are sent immediately.
+   * `ADBMobilePrivacyStatus.OptOut` - hits are discarded.
    * `ADBMobilePrivacyStatus.Unknown` - 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트 삭제)으로 변경될 때까지 히트가 저장됩니다. 오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
@@ -176,7 +176,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
    >[!TIP]
    >
-   >이 메서드는 앱이 백그라운드에 있을 때 알림을 등록하는 앱에 사용되며 앱이 백그라운드에 있을 때 실행하는 코드에서만 호출되어야 합니다.
+   >This method is intended to be used for apps that register for notifications while in background and should only be called from your code that runs while your app is in the background.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
