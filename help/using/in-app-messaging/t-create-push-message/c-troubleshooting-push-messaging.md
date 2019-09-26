@@ -3,10 +3,10 @@ description: 이 정보를 통해 푸시 메시지 문제를 해결할 수 있�
 keywords: mobile
 seo-description: 이 정보를 통해 푸시 메시지 문제를 해결할 수 있습니다.
 seo-title: 푸시 메시지 문제 해결
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 푸시 메시지 문제 해결
 topic: 지표
-uuid: c 7 be 4 ab 7-0 cfe -4296-84 a 8-01412 f 4 fd 93 f
+uuid: c7be4ab7-0cfe-4296-84a8-01412f4fd93f
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -33,7 +33,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
    >[!TIP]
    >
-   >이 횟수는 푸시 서비스에 성공한 전송 수입니다. 푸시 서비스는 메시지가 전송될 것임을 보장하지 않습니다.
+   >This count is the number of successful sends to the Push Service(s). 푸시 서비스는 메시지가 전송될 것임을 보장하지 않습니다.
 
    서비스의 신뢰성에 대한 자세한 내용은 다음을 참조하십시오.
 
@@ -82,7 +82,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ## 푸시 메시지 오류 해결
 
-**예**
+**An example**
 
 다음 예는 VRS를 사용할 때 푸시 오류를 해결하는 방법을 보여 줍니다.
 
@@ -94,13 +94,13 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
    * VRSID 정의 세그먼트: `a.appid contains “PhotoShop_iOS_app_SF”`
 * 앱 이름: PhotoShop_app_iOS
    * 상위 RSID: AllAdobe PhotoShop_apps
-   * RSID: photoshop_ ios_ app_ la
+   * RSID:PhotoShop_iOS_app_LA
    * VRSID 정의 세그먼트: `a.os contains “iOS”`
 
 In this example, if a Photoshop employee sends a push to the *PhotoShop_iOS_app_SF* app, all *PhotoShop_iOS_app_SF app* users receive the push message as expected. But, if the employee sends a message to the *PhotoShop_iOS_app_LA* app, because its VRSID Definition Segment is incorrect (`iOS` instead of `a.os contains "PhotoShop_iOS_app_LA"`), the message is sent to **all** iOS users in *AllAdobe PhotoShop_apps*. Although the message still goes to *PhotoShop_iOS_app_LA* users, the message also blacklists the push IDs for *PhotoShop_iOS_app_SF* users because the *PhotoShop_iOS_app_SF* app has a different certificate. If the segment had been defined as `a.os contains “PhotoShop_iOS_app_LA”`, the push message would have been sent to only *PhotoShop_iOS_app_LA* users.
 
-*photoshop_ ios_ app_ la* 푸시 인증서와 함께 전달된 경우 *photoshop_ ios_ app_ sf에 대한 푸시 식별자는 다른 이름으로* `invalid`돌아옵니다.
+If passed with the *PhotoShop_IOS_app_LA* push certificate, the push identifiers for the *PhotoShop_iOS_app_SF* come back as `invalid`.
 
 >[!CAUTION]
 >
->After you create a push message for an app that is using a VRS and click **[!UICONTROL Save &amp; Send]**, an alert appears that reminds you ensure that each app that is listed **must** have a valid certificate. 각 앱에 유효한 인증서가 **없으면** 대상 세그먼트가 무한정 차단된 상태일 수 있으므로 이후 푸시 메시지를 영향을 받는 사용자에게 보내지 못할 수 있습니다. 대상 세그먼트에 대한 자세한 내용은 [대상을 참조하십시오. 푸시 메시지의 대상 옵션을 정의하고 구성합니다](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md).
+>After you create a push message for an app that is using a VRS and click **[!UICONTROL Save &amp; Send]**, an alert appears that reminds you ensure that each app that is listed **must** have a valid certificate. 각 앱에 유효한 인증서가 **없으면** 대상 세그먼트가 무한정 차단된 상태일 수 있으므로 이후 푸시 메시지를 영향을 받는 사용자에게 보내지 못할 수 있습니다. 대상 세그먼트에 대한 자세한 내용은 대상: [푸시 메시지에](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md)대한 대상 옵션을 정의하고 구성합니다.
