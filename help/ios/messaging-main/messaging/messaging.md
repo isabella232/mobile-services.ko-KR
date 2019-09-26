@@ -2,10 +2,10 @@
 description: 다음은 iOS 앱에서 인앱 메시지를 사용하는 데 유용한 정보입니다.
 seo-description: 다음은 iOS 앱에서 인앱 메시지를 사용하는 데 유용한 정보입니다.
 seo-title: 인앱 메시징
-solution: Marketing Cloud, Analytics
+solution: Marketing Cloud,Analytics
 title: 인앱 메시징
 topic: 개발자 및 구현
-uuid: 21 FA 6 A 94-BB 7 F -4 C 78-843 B-A 50 F 1974 DB 22
+uuid: 21fa6a94-bb7f-4c78-843b-a50f1974db22
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -25,13 +25,13 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!TIP]
    >
-   >정의된 메시지가 없는 경우에도 이러한 단계를 완료할 수 있습니다. 메시지를 정의한 후에는 앱스토어 업데이트 없이 앱에 동적으로 전달되고 표시됩니다.
+   >정의된 메시지가 없어도 이러한 단계를 완료할 수 있습니다. 메시지를 정의한 후 앱으로 동적으로 전달되고 앱스토어 업데이트 없이 표시됩니다.
 
 ## Enabling in-app messages {#section_79F984271C3B4366B7B04F864F4FF8C2}
 
 1. 프로젝트에 라이브러리를 추가하고 라이프사이클을 구현합니다.
 
-   자세한 내용은 핵심 구현 *및* 라이프사이클에서 [프로젝트에 SDK 및 구성 파일 추가를](/help/ios/getting-started/requirements.md)참조하십시오.
+   For more information, see Add the SDK and Config File to your Project in Core Implementation and Lifecycle.**[](/help/ios/getting-started/requirements.md)
 
 1. 라이브러리를 가져옵니다:
 
@@ -39,7 +39,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    #import "ADBMobile.h"
    ```
 
-1. `ADBMobileConfig.json` 파일에 인앱 메시지에 대한 필수 설정이 포함되어 있는지 확인합니다.
+1. Verify that the `ADBMobileConfig.json` file contains the required settings for In-App messaging.
 1. 시작 시 인앱 메시지를 동적으로 업데이트하려면 `remotes` 개체가 존재하고 올바르게 구성되어 있어야 합니다.
 
    ```js
@@ -67,9 +67,9 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!TIP]
    >
-   >`messages``remotes` 또는 필수입니다.
+   >`messages` or  is required.`remotes`
 
-   If these objects are not configured, download an updated `ADBMobileConfig.json` file from Adobe Mobile services. 자세한 내용은 [핵심 구현 및 라이프사이클을](/help/ios/getting-started/requirements.md)참조하십시오.
+   If these objects are not configured, download an updated `ADBMobileConfig.json` file from Adobe Mobile services. For more information, see Core Implementation and Lifecycle.[](/help/ios/getting-started/requirements.md)
 
 ## Tracking in-app messages {#section_B85CDF6929564AAEA79338B55E5CB1E8}
 
@@ -77,13 +77,13 @@ iOS Mobile Services SDK는 in-app 메시지에 대한 다음 지표를 추적합
 
 * 전체 화면 및 경고 스타일 in-app 메시지에 대한 지표:
 
-   * **[!UICONTROL 노출 횟수]**: 사용자가 인앱 메시지를 트리거하는 경우.
-   * **[!UICONTROL 클릭스루]**: 사용자가 **[!UICONTROL 클릭스루]** 단추를 누를 때.
-   * **[!UICONTROL 취소]**: 사용자가 **[!UICONTROL 취소]** 버튼을 누를 때.
+   * **[!UICONTROL 노출 횟수]**:사용자가 인앱 메시지를 트리거하는 경우
+   * **[!UICONTROL 클릭스루]**:사용자가 클릭스루 **[!UICONTROL 단추를 누를]** 때
+   * **[!UICONTROL 취소]**:사용자가 취소 **[!UICONTROL 단추를 누를]** 때
 
 * 사용자 지정 전체 화면 in-app 메시지의 경우 메시지에서 HTML 컨텐츠에 다음 단추에 대한 SDK 추적을 알리는 올바른 코드를 포함해야 합니다.
 
-   * **[!UICONTROL 클릭스루]** (리디렉션) 예제 추적: `adbinapp://confirm/?url=https://www.yoursite.com`
+   * **[!UICONTROL Click-through (redirect) example tracking:]**`adbinapp://confirm/?url=https://www.yoursite.com`
    * **[!UICONTROL 취소]** (닫기) 예제 추적: `adbinapp://cancel`
 
 * 로컬(원격) 알림의 경우:
