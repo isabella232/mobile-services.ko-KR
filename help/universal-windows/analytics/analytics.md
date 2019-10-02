@@ -61,7 +61,7 @@ app.oncheckpoint = function (args) {
 }
 ```
 
-### App.xaml.cs의 C#
+### C# in App.xaml.cs
 
 ```js
 public App() 
