@@ -7,7 +7,7 @@ title: 핵심 구현 및 라이프사이클
 topic: 개발자 및 구현
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
 translation-type: tm+mt
-source-git-commit: be980e0e639d5b0df3f1b6a6f91f3ad0a5efe8d7
+source-git-commit: 4db9781e6e1e75a04d9715a41c5a32c10ede1bf4
 
 ---
 
@@ -32,7 +32,7 @@ SDK를 다운로드하려면:
 
    * `ADBMobile.h`: iOS AppMeasurement용으로 사용되는 Objective-C 헤더 파일입니다.
    * `ADBMobileConfig.json`: 앱에 맞게 사용자 지정된 SDK 구성 파일입니다.
-   * `AdobeMobileLibrary.a`, a bitcode-enabled fat binary that contains the library builds for iOS devices (armv7, armv7s, arm64), and simulators (i386, x86_64).
+   * `AdobeMobileLibrary.a`, iOS 장치(armv7, armv7s, arm64) 및 시뮬레이터(i386, x86_64)에 대한 라이브러리 빌드가 포함된 bitcode 지원 지방 바이너리입니다.
 
       iOS 앱이 타겟인 경우 이 패트 바이너리를 연결해야 합니다.
 
@@ -78,6 +78,7 @@ SDK를 다운로드하려면:
       * `WebKit.framework`
       * `libsqlite3.0.tbd`
       * `AdobeMobileLibrary.a`
+      * `CoreLocation.framework` (선택 사항이지만 지역 추적 기능에 필요합니다.)
    * **iOS 확장 프로그램 타겟**
 
       * `SystemConfiguration.framework`
@@ -115,7 +116,7 @@ After you enable lifecycle, each time your app is launched, one hit is sent to m
 }
 ```
 
-### 라이프사이클 호출과 함께 추가 데이터 포함
+### Include additional data with lifecycle calls
 
 라이프사이클 지표 호출을 통해 추가 데이터를 포함하려면 `collectLifecycleDataWithAdditionalData`를 사용하십시오.
 
