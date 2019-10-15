@@ -2,12 +2,12 @@
 description: 이 항목에서는 획득 테스트 중 발생할 수 있는 문제를 해결하는 방법에 대한 정보를 제공합니다.
 keywords: android;library;mobile;sdk
 seo-description: 이 항목에서는 획득 테스트 중 발생할 수 있는 문제를 해결하는 방법에 대한 정보를 제공합니다.
-seo-title: Troubleshoot Acquisition testing
+seo-title: 획득 테스트 문제 해결
 solution: Marketing Cloud,Analytics
 title: 획득 테스트 문제 해결
 topic: 개발자 및 구현
 translation-type: tm+mt
-source-git-commit: 97202c672d7349496f83b9ac0c365dd8b3e13eda
+source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 97202c672d7349496f83b9ac0c365dd8b3e13eda
 
    이름은 대/소문자를 구분하므로 대문자 또는 소문자는 사용하지 마십시오.
 
-* Ensure that `Config.setContext(this.getApplicationContext())` is called from your main activity.
+* 주 활동에서 `Config.setContext(this.getApplicationContext())` 호출되는지 확인합니다.
 
    자세한 내용은 구성 [방법을](https://docs.adobe.com/content/help/en/mobile-services/android/configuration-android/methods.html)참조하십시오.
 
