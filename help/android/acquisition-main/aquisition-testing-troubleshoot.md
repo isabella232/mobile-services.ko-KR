@@ -1,17 +1,17 @@
 ---
-description: The following information helps you troubleshoot Acquisition testing issues.
+description: 다음 정보는 획득 테스트 문제를 해결하는 데 도움이 됩니다.
 keywords: android;Acquisition;testing
-seo-description: The following information helps you troubleshoot Acquisition testing issues.
-seo-title: Troubleshooting Acquisition testing
+seo-description: 다음 정보는 획득 테스트 문제를 해결하는 데 도움이 됩니다.
+seo-title: 획득 테스트 문제 해결
 solution: Marketing Cloud,Analytics
-title: Troubleshooting Acquisition testing
+title: 획득 테스트 문제 해결
 translation-type: tm+mt
-source-git-commit: da8798d7ee1f05dcade31cced5404d78c9cf360a
+source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ---
 
 
-# Troubleshooting Acquisition testing {#aquistion-testing-troubleshooting}
+# 획득 테스트 문제 해결 {#aquistion-testing-troubleshooting}
 
 다음은 고객 확보 및 일부 가능한 솔루션을 테스트할 때 발생할 수 있는 몇 가지 문제입니다.
 
@@ -31,7 +31,7 @@ source-git-commit: da8798d7ee1f05dcade31cced5404d78c9cf360a
    </manifest>
    ```
 
-* 구성에서 레퍼러 시간 초과가 설정된 `referrerTimeout: 5`경우, 이것은 애플리케이션이 설치 및 시작된 후 5초 내에 설치 의도를 전송해야 설치 히트에 추가된 레퍼러 정보를 볼 수 있음을 의미합니다.
+* 구성에서 레퍼러 시간 초과가 로 설정된 `referrerTimeout: 5`경우, 이것은 애플리케이션이 설치 및 시작된 후 5초 내에 설치 의도를 전송해야 설치 히트에 추가된 레퍼러 정보를 볼 수 있음을 의미합니다.
 
    수동 테스트의 경우 설치 히트가 처리되기 전에 레퍼러 정보를 전송할 충분한 시간이 있도록 10-15 `referrerTimeout` 초로 늘리십시오.
 
