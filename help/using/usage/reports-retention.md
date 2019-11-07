@@ -2,18 +2,18 @@
 description: 유지 보고서(이전의 첫 번째 실행 그룹)는 처음으로 앱을 시작했다가 그 다음 달에 적어도 한 번 앱을 다시 시작한 고유 사용자의 수를 표시하는 집단 보고서입니다.
 keywords: mobile
 seo-description: 유지 보고서(이전의 첫 번째 실행 그룹)는 처음으로 앱을 시작했다가 그 다음 달에 적어도 한 번 앱을 다시 시작한 고유 사용자의 수를 표시하는 집단 보고서입니다.
-seo-title: Retention report
+seo-title: 유지 보고서
 solution: Marketing Cloud,Analytics
-title: Retention report
+title: 유지 보고서
 topic: 보고서,지표
 uuid: e7639e7f-c9ed-4b19-9ac5-b36774ea9dd6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ---
 
 
-# Retention report {#retention}
+# 유지 보고서 {#retention}
 
 **[!UICONTROL 유지]보고서(이전의 첫 번째 실행 그룹)는 처음으로 앱을 시작했다가 그 다음 달에 적어도 한 번 앱을 다시 시작한 고유 사용자의 수를 표시하는 집단 보고서입니다.**
 
