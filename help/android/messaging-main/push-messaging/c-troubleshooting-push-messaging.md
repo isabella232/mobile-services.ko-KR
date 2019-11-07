@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: 푸시 메시지 문제 해결
 topic: 지표
 uuid: 9c4a9371-6691-4a2c-a6c1-b9f901a41599
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12e01e112debffd877dd62f1fd2505724b2aae7d
 
 ---
@@ -27,16 +27,16 @@ source-git-commit: 12e01e112debffd877dd62f1fd2505724b2aae7d
 
 * 푸시 서비스 대기 중
 
-   The push service (APNS or FCM) might not immediately send out the message. 일반적이지는 않지만, 5-10분의 지연이 발생한 적이 있습니다. 메시지 페이지에서 메시지의 **보기** 링크를 클릭하여 푸시 메시지가 푸시 서비스로 전송되었는지 확인할 수 있습니다. 푸시 서비스로의 전송 횟수는 보고서의 **[!UICONTROL 게시됨]열에 나열됩니다.**
+   푸시 서비스(APNS 또는 FCM)가 메시지를 바로 전송하지 않을 수 있습니다. 일반적이지는 않지만, 5-10분의 지연이 발생한 적이 있습니다. 메시지 페이지에서 메시지의 **보기** 링크를 클릭하여 푸시 메시지가 푸시 서비스로 전송되었는지 확인할 수 있습니다. 푸시 서비스로의 전송 횟수는 보고서의 **[!UICONTROL 게시됨]열에 나열됩니다.**
 
    >[!TIP]
    >
-   >The push services do not guarantee that a message will be sent.
+   >푸시 서비스는 메시지가 전송될 것임을 보장하지 않습니다.
 
    서비스의 안정성에 대한 자세한 내용은 다음 설명서를 참조하십시오.
 
    * **APNS**: [서비스 품질](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5)
-   * **FCM: Lifetime of a Message**[](https://firebase.google.com/docs/cloud-messaging/concept-options#lifetime)
+   * **GCM**: [메시지 수명](https://firebase.google.com/docs/cloud-messaging/concept-options#lifetime)
 
 ## 푸시 메시지가 잘리거나 확장되지 않는 이유는 무엇입니까?
 
