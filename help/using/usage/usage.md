@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: 보고서
 topic: 보고서,지표
 uuid: 2abc2bd1-dbae-4af1-9b8d-1df2f6d3a81f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 ---
@@ -31,5 +31,5 @@ Mobile UI에서 다음 보고서를 생성할 수 있습니다.
 * [앱스토어 개요 보고서](/help/using/usage/c-app-store-store-performance.md)
 * [보고서 사용자 지정](/help/using/usage/reports-customize/reports-customize.md)
 * [보고서에 필터 추가](/help/using/usage/reports-customize/t-reports-customize.md)를 참조하십시오
-* [Add Series (Metrics) to Reports](/help/using/usage/reports-customize/t-reports-series.md)
+* [보고서에 시리즈(지표) 추가](/help/using/usage/reports-customize/t-reports-series.md)
 * [고정 필터 추가](/help/using/usage/reports-customize/t-sticky-filter.md)를 참조하십시오
