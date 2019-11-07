@@ -1,22 +1,22 @@
 ---
-description: '보고서 세트를 구성하고 Android 앱 데이터를 수집하기 전에 다음 전제 조건 작업을 완료하십시오 '
-seo-description: '보고서 세트를 구성하고 Android 앱 데이터를 수집하기 전에 다음 전제 조건 작업을 완료하십시오 '
+description: '보고서 세트를 구성하고 Android 앱 데이터를 수집하려면 먼저 다음 사전 요구 작업을 완료하십시오. '
+seo-description: '보고서 세트를 구성하고 Android 앱 데이터를 수집하려면 먼저 다음 사전 요구 작업을 완료하십시오. '
 seo-title: 시작하기 전에
 solution: Marketing Cloud,Analytics
 title: 시작하기 전에
 topic: 개발자 및 구현
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
 
 
-# Before you start {#before-you-start}
+# 시작하기 전에 {#before-you-start}
 
 보고서 세트를 구성하고 Android 앱 데이터를 수집하려면 먼저 다음 사전 요구 작업을 완료하십시오.
 
-## Role-specific tasks {#section_8B9EA1FA189F4C6DB7D829F0B5844FBC}
+## 역할별 작업 {#section_8B9EA1FA189F4C6DB7D829F0B5844FBC}
 
 분석 관리자 및 앱 개발자는 다음 작업을 완료해야 합니다.
 
@@ -31,7 +31,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 >[!IMPORTANT]
 >
->To create a new report suite and download the SDKs, you must be an Analytics Administrator.
+>새 보고서 세트를 생성하고 SDK를 다운로드하려면 Analytics 관리자여야 합니다.
 
 ### 앱 개발자
 
@@ -50,30 +50,30 @@ Adobe Mobile Services는 모바일 앱 분석 및 타깃팅용 주요 보고 인
 
 ### Experience Cloud
 
-Adobe ID를 사용하여 [Experience Cloud](https://marketing.adobe.com)에 로그인합니다. 이 방법에서는 회사가 Experience Cloud에서 프로비저닝되었으며, 사용자가 Analytics 계정을 연결했다고 가정합니다. For more information, see Manage Experience Cloud users and products.[](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)
+Adobe ID를 사용하여 [Experience Cloud](https://marketing.adobe.com)에 로그인합니다. 이 방법에서는 회사가 Experience Cloud에서 프로비저닝되었으며, 사용자가 Analytics 계정을 연결했다고 가정합니다. 자세한 내용은 [Experience Cloud 사용자 및 제품 관리](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
 
 >[!TIP]
 >
->회사가 Experience Cloud에서 프로비저닝되었는지 확실하지 않은 경우 기존 Adobe Analytics 계정을 사용하십시오.
+>회사가 Experience Cloud에서 프로비저닝되었는지 확실하지 않을 경우 기존 Adobe Analytics 계정을 사용하십시오.
 
 ### Adobe Analytics
 
 **[!UICONTROL Analytics으로 로그인]**&#x200B;을 클릭하고 Analytics 회사 이름, 사용자 이름 및 암호를 입력합니다.
 
-## Create a report suite {#section_7BC602ED1ABA42C6AB722F506B5219F3}
+## 보고서 세트 생성 {#section_7BC602ED1ABA42C6AB722F506B5219F3}
 
 보고서 세트를 생성하여 앱 데이터를 수집하고 앱을 정의하려면
 
 1. **[!UICONTROL 새 앱 만들기를 클릭합니다]**.
 
-   If you do not see this button, click **[!UICONTROL Manage Apps]** &gt; **[!UICONTROL Add]**.
+   이 단추가 표시되지 않으면 **[!UICONTROL 앱 관리]** &gt; **[!UICONTROL 추가]**&#x200B;를 클릭하십시오.
 
-1. In the **[!UICONTROL Report Suite]** drop-down, select **[!UICONTROL New Report Suite]**.
+1. **[!UICONTROL 보고서 세트]** 드롭다운에서 **[!UICONTROL 새 보고서 세트]**&#x200B;를 선택합니다.
 
 1. 앱 이름을 입력하고 보고서 세트 유형을 선택합니다.
 
    보고서 세트 ID의 예는 `mycomobileappdev`입니다. 개발 및 프로덕션 버전에 대해 별도의 보고서 세트 및 앱을 설정해야 하므로 프로덕션 버전을 설정할 준비가 되면 이 단계를 반복할 수 있습니다.
-1. In **[!UICONTROL Report Suite ID]**, verify that your report suite name is displayed.
+1. **[!UICONTROL 보고서 세트 ID]에서 보고서 세트 이름이 표시되는지 확인합니다.**
 1. **[!UICONTROL 다음에서 설정 복사]**&#x200B;에서 **모바일 앱 템플릿[!UICONTROL 이 선택되어 있는지 확인합니다.]**
 
    이 템플릿을 사용하면 타임스탬프에서 오프라인 데이터를 수집할 수 있으며, 라이프사이클 지표를 캡처하는 모바일 솔루션 변수를 활성화합니다.
@@ -95,7 +95,7 @@ Adobe ID를 사용하여 [Experience Cloud](https://marketing.adobe.com)에 로�
 
 >[!TIP]
 >
->앱용 구성 파일은 SDK 다운로드에 자동으로 포함되므로 별도로 다운로드할 필요가 없습니다. 그러나 이미 SDK를 다운로드한 경우 업데이트된 설정을 가져오려면 구성 파일을 다시 다운로드하십시오.
+>앱의 구성 파일은 SDK 다운로드에 자동으로 포함되므로 별도로 이 파일을 다운로드할 필요가 없습니다. 그러나 이미 SDK를 다운로드한 경우 업데이트된 설정을 가져오려면 구성 파일을 다시 다운로드하십시오.
 
 Android Studio를 사용하는 경우 앱의 `build.gradle` 파일에 다음을 추가할 수도 있습니다.
 
