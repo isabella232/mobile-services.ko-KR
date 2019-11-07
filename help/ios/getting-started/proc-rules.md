@@ -6,22 +6,22 @@ solution: Marketing Cloud,Analytics
 title: 처리 규칙 및 컨텍스트 데이터
 topic: 개발자 및 구현
 uuid: 51338ccd-fa52-4d9c-97c4-947a4100465d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ---
 
 
-# Processing rules and context data{#processing-rules-and-context-data}
+# 처리 규칙 및 컨텍스트 데이터 {#processing-rules-and-context-data}
 
 처리 규칙은 컨텍스트 데이터 변수로 보내는 데이터를 보고용으로 evar, prop 및 기타 변수에 복사하는 데 사용됩니다.
 
 자세한 정보는 다음 내용을 참조하십시오.
 
 * [처리 규칙 교육](https://tv.adobe.com/embed/1181/16506/)(Summit 2013)
-* 처리 규칙 사용 권한 부여
+* 처리 규칙 사용 인증 받기
 
-   For more information about processing rules, see Processing rules overview.[](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)
+   처리 규칙에 대한 자세한 내용은 [처리 규칙 개요](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/processing-rules/processing-rules.html)를 참조하십시오.
 
 처리 규칙을 사용하여 작업할 경우 다음 정보를 숙지하십시오.
 
@@ -63,5 +63,5 @@ source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 >[!TIP]
 >
->Adobe는 "" 네임스페이스를 예약합니다. `a.` 이 제한 사항 이외에도 충돌을 피하려면 컨텍스트 데이터 변수가 로그인 회사에서 공유하게 사용되면 됩니다.
+>Adobe는 "`a.`" 네임스페이스를 예약합니다. 이 제한 사항 이외에도 충돌을 피하려면 컨텍스트 데이터 변수가 로그인 회사에서 공유하게 사용되면 됩니다.
 
