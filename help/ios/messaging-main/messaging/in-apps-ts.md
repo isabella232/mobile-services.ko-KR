@@ -7,13 +7,13 @@ solution: Marketing Cloud,Analytics
 title: 인앱 메시징 문제 해결
 topic: 지표
 uuid: 58533aa3-2eb2-4597-8525-77e4e5975e56
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1154bab39b5215e00d47ad8e66caeec15e4e98de
 
 ---
 
 
-# Troubleshooting in-app messaging{#troubleshooting-in-app-messaging}
+# 인앱 메시징 문제 해결{#troubleshooting-in-app-messaging}
 
 다음은 인앱 메시지 문제를 해결하는 데 유용한 정보입니다.
 
@@ -21,7 +21,7 @@ source-git-commit: 1154bab39b5215e00d47ad8e66caeec15e4e98de
 
 ## 앱에 새 구성 및 새 SDK를 적용하고 있습니까?
 
-SDK 버전이 4. 2 이상이고 SDK가 올바르게 구성되어 있는지 확인하십시오. Ensure that you have a `Messages` section in your configuration (downloaded JSON file), or have a Messages remote endpoint, so that it can be retrieved from dynamic tag management.
+SDK 버전이 4. 2 이상이고 SDK가 올바르게 구성되어 있는지 확인하십시오. 구성(다운로드한 JSON 파일)에 `Messages` 섹션이 있거나 메시지 원격 엔드포인트가 있어서 Dynamic Tag Management에서 검색할 수 있는지 확인합니다..
 
 ## Android에서 내 전체 화면 메시지가 표시되지 않습니다. 올바른 SDK, 구성을 사용하고 있으며 내 트리거가 충족됩니다.
 
@@ -29,19 +29,19 @@ SDK 버전이 4. 2 이상이고 SDK가 올바르게 구성되어 있는지 확�
 
 ## Android에서 내 로컬 알림 메시지가 작동하지 않습니다.
 
-로컬 알림 브로드캐스트 수신기가 매니페스트에 선언되어 있는지 확인하십시오. For more information, see step 2 in [Enabling In-App Messages](/help/android/messaging-main/messaging/messaging.md).
+로컬 알림 브로드캐스트 수신기가 매니페스트에 선언되어 있는지 확인하십시오. 자세한 내용은 [인앱 메시지 사용](/help/android/messaging-main/messaging/messaging.md)의 2단계를 참조하십시오.
 
 ## 메시지가 라이브입니까?
 
-인앱 메시지 관리 페이지의 [상태] 열에 있는 목록 보기에서 라이브인지 확인하십시오.
+인앱 메시지 관리 페이지의 상태 열에 있는 목록 보기에서 라이브인지 확인하십시오.
 
-## 한 번 **&#x200B;표시, 항상 **&#x200B;표시, 대상 탭에 오프라인 *설정* 표시
+## 대상 탭에서 *한 번 표시*, *항상 표시*, *오프라인으로 표시* 설정을 확인합니다.
 
 이 설정들이 원하는 방법으로 설정되어 있는지 확인하십시오. **[!UICONTROL 대상]** 탭에서 메시지 표시 빈도를 지정할 수 있는 **트리거[!UICONTROL 옵션을 검토하십시오.]**
 
 ## 시작 이벤트를 트리거로 사용하는 경우...
 
-시작은 새 세션에서만 실행됩니다. For more information about when a session begins, see the `lifecycleTimeout` row in the JSON Config file. 자세한 내용은 ADBMobile [JSON 구성을 참조하십시오](/help/ios/configuration/json-config/json-config.md).
+시작은 새 세션에서만 실행됩니다. 세션이 시작되는 경우에 대한 자세한 내용은 JSON 구성 파일에서 `lifecycleTimeout` 행을 참조하십시오. 자세한 내용은 [ADBMobile JSON 구성](/help/ios/configuration/json-config/json-config.md)을 참조하십시오.
 
 ## 내 메시지를 원격으로 업데이트했지만 아직 이전 메시지가 표시됩니다.
 
@@ -80,7 +80,7 @@ SDK 버전이 4. 2 이상이고 SDK가 올바르게 구성되어 있는지 확�
 
 iPhone X의 전체 화면 모드에서 인앱 메시지를 표시하려면 다음을 수행하십시오.
 
-1. Add `viewport-fit=cover` in the meta tag.
+1. 메타 태그에 `viewport-fit=cover`를 추가합니다.
 
    ```html
    <meta name="viewport" content="viewport-fit=cover">
