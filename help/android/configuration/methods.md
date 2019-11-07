@@ -1,23 +1,23 @@
 ---
 description: 다음은 Android 라이브러리에서 제공하는 메서드 목록입니다.
-keywords: android;library;mobile;sdk
+keywords: android;라이브러리;모바일;sdk
 seo-description: 다음은 Android 라이브러리에서 제공하는 메서드 목록입니다.
 seo-title: 구성 메서드
 solution: Marketing Cloud,Analytics
 title: 구성 메서드
 topic: 개발자 및 구현
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 ---
 
 
-# Configuration methods{#configuration-methods}
+# 구성 메서드 {#configuration-methods}
 
 다음은 Android 라이브러리에서 제공하는 메서드 목록입니다.
 
-## Initial configuration {#section_9169243ECC4744A899A8271F92090ECD}
+## 초기 구성 {#section_9169243ECC4744A899A8271F92090ECD}
 
 다음 메서드는 기본 활동의 `onCreate` 메서드에서 한 번은 호출해야 합니다.
 
@@ -33,15 +33,15 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
    ````
 
 
-## SDK settings (Config Class) {#section_C1EB977043C04D2B93E5A63DB72828B6}
+## SDK 설정(구성 클래스) {#section_C1EB977043C04D2B93E5A63DB72828B6}
 
 * **registerAdobeDataCallback**
 
-   * `AdobeDataCallback` 인터페이스를 구현하는 개체를 등록합니다. The overwritten "call" method will be invoked with a `Config.MobileDataEvent` value and the associated data in a `Map<String, Object>` for the triggering event. 이 콜백을 트리거할 이벤트에 대한 자세한 내용은 이 *항목* 하단의 MobileDataEventEnum을 참조하십시오.
+   * `AdobeDataCallback` 인터페이스를 구현하는 개체를 등록합니다. 덮어쓴 "call" 메서드는 `Config.MobileDataEvent` 값 및 트리거링 이벤트에 대한 `Map<String, Object>`의 관련 데이터와 함께 호출됩니다. 이 콜백을 트리거할 이벤트에 대한 자세한 내용은 이 항목 하단에 있는 *MobileDataEventEnum*&#x200B;을 참조하십시오.
 
       >[!TIP]
       >
-      >이 방법을 사용하려면 버전 4.9.0 이상이 필요합니다.
+      >이 메서드를 사용하려면 버전 4.9.0 이상이 필요합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -73,7 +73,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
       public static String getVersion();
       ```
 
-   * Here is a code example for this method:
+   * 다음은 이 메서드의 코드 예입니다.
 
       ```java
       String libraryVersion = Config.getVersion(); 
@@ -85,8 +85,8 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
       다음은 개인 정보 보호 상태 값입니다.
 
-      * `MOBILE_PRIVACY_STATUS_OPT_IN`, where the hits are sent immediately.
-      * `MOBILE_PRIVACY_STATUS_OPT_OUT`를 채우는 것이 좋습니다.
+      * `MOBILE_PRIVACY_STATUS_OPT_IN`: 히트를 즉시 보냅니다.
+      * `MOBILE_PRIVACY_STATUS_OPT_OUT`: 히트가 삭제됩니다.
       * `MOBILE_PRIVACY_STATUS_UNKNOWN`: 보고서 세트에 타임스탬프가 사용되는 경우 개인정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다.
 
          보고서 세트에 타임스탬프가 활성화되어 있지 않을 경우 개인정보 상태가 옵트인으로 변경될 때까지 히트가 삭제됩니다. 기본값은 `ADBMobileConfig.json` 파일에서 설정되어 있습니다.
@@ -108,8 +108,8 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
    * 현재 사용자의 개인정보 상태를 `status`로 설정합니다.
 
       개인정보 상태를 다음 값 중 하나로 설정할 수 있습니다.
-      * `MOBILE_PRIVACY_STATUS_OPT_IN`가 있는 경우 히트가 즉시 전송됩니다. 이 히트는 즉시 전송됩니다.
-      * `MOBILE_PRIVACY_STATUS_OPT_OUT`, where the its are discarded. 이 히트는 삭제됩니다.
+      * `MOBILE_PRIVACY_STATUS_OPT_IN`: 히트를 즉시 보냅니다. 이 히트는 즉시 전송됩니다.
+      * `MOBILE_PRIVACY_STATUS_OPT_OUT`: 히트가 삭제됩니다. 이 히트는 삭제됩니다.
       * `MOBILE_PRIVACY_STATUS_UNKNOWN`: 보고서 세트에 타임스탬프가 사용되는 경우 개인정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다.
 보고서 세트에 타임스탬프가 활성화되어 있지 않을 경우 개인정보 상태가 옵트인으로 변경될 때까지 히트가 삭제됩니다.
    * 다음은 이 메서드에 대한 구문입니다.
@@ -147,7 +147,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
       >[!TIP]
       >
-      >앱이 Experience Cloud 3.x에서 4.x SDK로 업그레이드하면 이전 사용자 지정 또는 자동으로 생성된 방문자 ID가 검색되어 사용자 지정 사용자 식별자로 저장됩니다. 이렇게 하면 SDK 업그레이드 시에도 방문자 데이터가 보존됩니다. 4.x SDK에 새로 설치하는 경우 사용자 ID는 `null`입니다.
+      >앱을 Experience Cloud 3.x에서 4.x SDK로 업그레이드할 경우 이전 사용자 지정 또는 자동 생성된 방문자 ID가 검색되어 사용자 지정 사용자 식별자로 저장됩니다. 이렇게 하면 SDK 업그레이드 시에도 방문자 데이터가 보존됩니다. 4.x SDK에 새로 설치하는 경우 사용자 ID는 `null`입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -344,7 +344,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
       >[!IMPORTANT]
       > 
-      >If you want to use the Advertising Identifier in Acquisition or Lifecycle, call it before calling `Config.collectLifecycleData`.
+      >획득 또는 라이프사이클에서 광고 식별자를 사용하려면 `Config.collectLifecycleData`를 호출하기 전에 먼저 광고 식별자를 호출하십시오.
 
       * 다음은 이 메서드에 대한 구문입니다.
 
