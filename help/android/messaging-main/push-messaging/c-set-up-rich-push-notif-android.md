@@ -4,17 +4,17 @@ seo-description: Android 알림에 이미지 파일을 첨부할 수 있습니�
 seo-title: 리치 푸시 알림 수신
 title: 리치 푸시 알림 수신
 uuid: 4a0340a6-666b-49b6-907a-9afc966dfdba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dca3663986b3ecc6e9fb736cc99513279715225c
 
 ---
 
 
-# Receive rich push notifications {#receive-rich-push-notifications}
+# 리치 푸시 알림 수신 {#receive-rich-push-notifications}
 
 Android 알림에 이미지 파일을 첨부할 수 있습니다. 시각적 구성 요소를 추가하면 푸시 알림을 통한 사용자 참여도를 크게 높일 수 있습니다.
 
-## Handle the incoming rich push message (FCM) {#section_AF1A3BC2312C4E1DA517CC90296C11E2}
+## 수신되는 리치 푸시 메시지 처리(FCM) {#section_AF1A3BC2312C4E1DA517CC90296C11E2}
 
 앱이 포그라운드에 있는 경우 푸시 메시지는 `FirebaseMessagingService` 클래스를 확장하는 앱에서 처리되며 매니페스트 파일에서 다음과 같은 방법으로 선언됩니다.
 
@@ -30,9 +30,9 @@ Android 알림에 이미지 파일을 첨부할 수 있습니다. 시각적 구�
 
 >[!IMPORTANT]
 >
->구현이 포함된 클래스는 `onMessageReceived()` 수신되는 데이터를 처리합니다.
+>`onMessageReceived()` 구현이 포함된 클래스는 수신되는 데이터를 처리합니다.
 
-If the push message contains a Media URL, the URL will be available in the `RemoteMessage` parameter that is passed to the `onMessageReceived()` function. 사용할 키는 다음 코드 샘플에서와 같이 `attachment-url`입니다.
+푸시 메시지에 미디어 URL이 포함된 경우 해당 URL은 `onMessageReceived()` 함수에 전달되는 `RemoteMessage` 매개 변수에서 사용할 수 있습니다. 사용할 키는 다음 코드 샘플에서와 같이 `attachment-url`입니다.
 
 ```java
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
@@ -90,9 +90,9 @@ private void sendNotification(RemoteMessage message) {
 
 >[!IMPORTANT]
 >
->When you set `NotificationCompat.BigPictureStyle`, large images might not be displayed. 대형 이미지가 항상 표시되도록 하려면 기본 `Notification.BigPictureStyle`을 설정하십시오.
+>`NotificationCompat.BigPictureStyle`을 설정하면 큰 이미지가 표시되지 않을 수 있습니다. 대형 이미지가 항상 표시되도록 하려면 기본 `Notification.BigPictureStyle`을 설정하십시오.
 
-## Sample rich push notification {#section_6819316BEDDE45108413B541CA2BB2DC}
+## 리치 푸시 알림 샘플 {#section_6819316BEDDE45108413B541CA2BB2DC}
 
 다음은 이미지가 포함된 리치 푸시 알림의 예입니다.
 
