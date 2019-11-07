@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: 보고서 유형
 topic: 보고서,지표
 uuid: 8747b11e-31b1-47bc-ad55-db5ab4ef7078
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 * 차원
 
-   차원은 데이터를 묘사하는 데 사용됩니다. 차원은 문자열 또는 문자열(우편 번호 등)과 같은 기능을 하며 데이터를 구성하고 세그먼트화하는 데 사용됩니다. 일반적인 차원에는 OS 버전, 캠페인 이름, 제품 이름 및 이동통신사가 포함됩니다. 각 차원에는 해당 차원과 연결된 특정 값이 여러 개 있습니다. For example, the OS version dimension has values such as _iOS 7_ and _Android 4.1.2_.
+   차원은 데이터를 묘사하는 데 사용됩니다. 차원은 문자열이나, 문자열처럼 동작하는 숫자(예: 우편 번호)를 사용하여 나타내며, 데이터를 구성하고 세그먼트화하는 데 사용됩니다. 일반적인 차원에는 OS 버전, 캠페인 이름, 제품 이름 및 이동통신사가 포함됩니다. 각 차원에는 해당 차원과 연결된 특정 값이 여러 개 있습니다. 예를 들어 OS 버전 차원에는 _iOS 7_ 및 _Android 4.1.2_&#x200B;와 같은 값이 있습니다.
 
 다음은 Mobile UI에서 생성할 수 있는 보고서 유형입니다.
 
@@ -67,10 +67,10 @@ Sunburst 차트와 상호 작용하는 방법을 설명하는 제품 내 자습�
 
 자습서를 시작하려면 다음을 수행하십시오.
 
-1. in Manage App Settings, click **[!UICONTROL Usage]**.
+1. 앱 설정 관리에서 **[!UICONTROL 사용]**&#x200B;을 클릭합니다.
 
-1. Click **[!UICONTROL Technology]** &gt; **[!UICONTROL Technology Breakdown]**.
-1. In the title bar of the report, click **[!UICONTROL Customize]**, and click the information icon.
+1. **[!UICONTROL 기술]** &gt; **[!UICONTROL 기술 분류]**&#x200B;를 클릭합니다.
+1. 보고서의 제목 표시줄에서 **[!UICONTROL 사용자 지정]**&#x200B;을 클릭하고 정보 아이콘을 클릭합니다.
 
 ![](assets/report_technology.png)
 
@@ -84,7 +84,7 @@ Sunburst 차트와 상호 작용하는 방법을 설명하는 제품 내 자습�
 
 ### 단계 보고서 {#section_AF3B0C899D844FC3AD1F91A2C452C92F}
 
-단계 보고서를 사용하면 고객이 마케팅 캠페인을 포기하는 상황이나, 모바일 앱과 상호 작용할 때 정의된 전환 경로를 벗어나는 상황을 식별할 수 있으며, 서로 다른 세그먼트의 작업을 비교하는 데에 사용할 수도 있습니다.
+단계 보고서를 사용하면 고객이 마케팅 캠페인을 포기하는 상황이나, 모바일 앱과 상호 작용할 때 정의된 전환 경로를 벗어나는 상황을 식별할 수 있으며, 단계 보고서를 사용하여 서로 다른 세그먼트의 작업을 비교할 수도 있습니다.
 
 단계 시각화를 사용하면 고객이 프로세스를 벗어나는 상황을 알 수 있습니다. 각 단계에서 고객 결정을 시각화하면 고객이 단념하는 상황, 고객이 잘 따르는 경로, 고객이 앱을 나가는 시점을 이해할 수 있습니다.
 
