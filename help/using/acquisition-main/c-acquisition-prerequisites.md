@@ -7,25 +7,25 @@ solution: Marketing Cloud,Analytics
 title: 획득 전제 조건
 topic: 지표
 uuid: a224499a-5a51-4ca5-a37b-06792b774671
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
 
 
-# Acquisition prerequisites{#acquisition-prerequisites}
+# 획득 전제 조건{#acquisition-prerequisites}
 
 획득 링크를 사용하기 전에 다음 전제 조건을 완료하십시오.
 
-마케팅 링크를 추적하려면 다음 전제 조건을 충족해야 합니다.
+마케팅 링크를 추적하려면 다음 전제 조건을 충족하는지 확인하십시오.
 
-1. Ensure that you have a mobile app report suite.
+1. 모바일 앱 보고서 세트가 있는지 확인합니다.
 
-   새 모바일 앱 보고서 세트를 만들거나 마케팅 링크에서 수집된 데이터를 수집, 추적 및 보고할 수 있는 기존 보고서 세트가 있어야 합니다. 새 모바일 앱 보고서 세트를 만드는 방법에 대한 자세한 내용은 새 앱 [추가를 참조하십시오](/help/using/manage-apps/t-new-app.md).
+   마케팅 링크에서 수집된 데이터를 수집하고, 추적하고, 보고할 수 있는 새 모바일 앱 보고서 세트를 만들거나 기존 보고서 세트가 있어야 합니다. 새 모바일 앱 보고서 세트를 만드는 방법에 대한 자세한 내용은 [새 앱 추가](/help/using/manage-apps/t-new-app.md)를 참조하십시오.
 
-1. Verify your SDK version.
+1. SDK 버전을 확인합니다.
 
-   The latest Marketing Link tracking functionality requires SDK version 4.9 or later.
+   최신 마케팅 링크 추적 기능을 사용하려면 SDK 버전 4.9 이상이 필요합니다.
 
    **지원 기능**
 
@@ -37,8 +37,8 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 1. SDK 획득 옵션 활성화
 
-   링크를 추적하고 보고하기 전에 SDK 구성에서 추적을 사용하도록 설정해야 합니다. For more information, see [Configure Acquisition](/help/using/acquisition-main/t-enable-acquisition.md).
+   링크를 추적하고 보고하기 전에 SDK 구성에서 추적을 사용하도록 설정해야 합니다. 자세한 내용은 [획득 구성](/help/using/acquisition-main/t-enable-acquisition.md)을 참조하십시오.
 
 1. 앱스토어 앱 추가
 
-   Apple App Store 또는 Google Play에서 앱을 추가해야 합니다. 자세한 내용은 [Add an app from an app store](/help/using/manage-apps/c-app-store/t-app-store-app.md).
+   Apple App Store 또는 Google Play에서 앱을 추가해야 합니다. 자세한 내용은 [앱스토어에서 앱 추가](/help/using/manage-apps/c-app-store/t-app-store-app.md)를 참조하십시오.
