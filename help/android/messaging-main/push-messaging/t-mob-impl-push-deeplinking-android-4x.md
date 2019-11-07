@@ -4,21 +4,21 @@ seo-description: Adobe Mobile Services UI에서 딥링크 URL을 구성하면 �
 seo-title: 딥링크로 푸시 메시지 구현
 title: 딥링크로 푸시 메시지 구현
 uuid: e24f9248-8d48-4e57-84af-3a05b72e2a09
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 13ff2cb549c4b82a4e0285e1c7c6b3f9c1a5bd4b
 
 ---
 
 
-# Implement push messaging with deep linking {#implement-push-messaging-with-deep-linking}
+# 딥링크로 푸시 메시지 구현 {#implement-push-messaging-with-deep-linking}
 
 Adobe Mobile Services UI에서 딥링크 URL을 구성하면 이 URL은 adb_deeplink 키를 사용하여 푸시 페이로드에 저장됩니다.
 
-URL은 에서 `remoteMessage.getData().get("adb_deeplink")` 호출하여 가져올 수 `FirebaseMessagingService`있습니다.
+URL은 `FirebaseMessagingService`에서 `remoteMessage.getData().get("adb_deeplink")`을 호출하여 가져올 수 있습니다.
 
 >[!TIP]
 >
->페이로드에 딥 링크 URL이 있는지 여부에 따라 다른 의도를 정의할 수 있습니다.
+>페이로드에 딥링크 URL이 있는지 여부에 따라 다양한 의도를 정의할 수 있습니다.
 
 1. 다음 작업 중 하나를 완료하십시오.
 
@@ -30,7 +30,7 @@ URL은 에서 `remoteMessage.getData().get("adb_deeplink")` 호출하여 가져�
 
 ## 예
 
-Here is a sample implementation for the class extending from `FirebaseMessagingService`:
+다음은 `FirebaseMessagingService`에서 확장하는 클래스에 대한 샘플 구현입니다.
 
 ```java
 public void onMessageReceived(RemoteMessage message) { 
