@@ -2,26 +2,26 @@
 description: 지속 시간, 요일 및 시간 옵션을 포함하여 인앱 메시지에 대한 예약 옵션을 구성할 수 있습니다.
 keywords: mobile
 seo-description: 지속 시간, 요일 및 시간 옵션을 포함하여 인앱 메시지에 대한 예약 옵션을 구성할 수 있습니다.
-seo-title: Schedule  In-App Message
+seo-title: '예약: 인앱 메시지'
 solution: Marketing Cloud,Analytics
-title: Schedule  In-App Message
+title: '예약: 인앱 메시지'
 topic: 지표
 uuid: d10e691b-105a-4165-a49d-d046ce250acd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 ---
 
 
-# Schedule: in-app message {#schedule-in-app-message}
+# 예약: 인앱 메시지 {#schedule-in-app-message}
 
 지속 시간, 요일 및 시간 옵션을 포함하여 인앱 메시지에 대한 예약 옵션을 구성할 수 있습니다.
 
 >[!TIP]
 >
->날짜 범위는 시간대로 정의됩니다. 특정 날짜 및 시간 범위는 사용자의 장치에 상대적입니다.
+>날짜 범위는 사용자가 위치한 표준 시간대로 정의됩니다. 특정 날짜 및 시간 범위는 사용자의 장치에 상대적입니다.
 
-1. In your app, click **[!UICONTROL Messaging]** &gt; **[!UICONTROL Manage Messages]** &gt; **[!UICONTROL Create Message]** &gt; **[!UICONTROL Create In-App]**.
+1. 앱에서 **[!UICONTROL 메시징]** &gt; **[!UICONTROL 메시지 관리]** &gt; **[!UICONTROL 메시지 작성]** &gt; **[!UICONTROL 앱 내 메시지 만들기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 예약을 클릭합니다]**.
 1. **[!UICONTROL 기간]섹션에서 다음 필드를 작성합니다.**
 
@@ -53,4 +53,4 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
       슬라이더를 조정하여 메시지를 표시할 하루 중 시간을 지정합니다.
 
-1. Click **[!UICONTROL Save]** or **[!UICONTROL Save &amp; Activate]**.
+1. **[!UICONTROL 저장]** 또는 **[!UICONTROL 저장 및 활성화]**&#x200B;를 클릭합니다.
