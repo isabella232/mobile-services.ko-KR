@@ -7,13 +7,13 @@ solution: Marketing Cloud,Analytics
 title: 인앱 메시징 문제 해결
 topic: 지표
 uuid: 8813e8d8-bb1e-46ad-83cd-98ae68f73ce6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ---
 
 
-# Troubleshooting in-app messaging{#troubleshooting-in-app-messaging}
+# 인앱 메시징 문제 해결{#troubleshooting-in-app-messaging}
 
 이 정보를 통해 인앱 메시지 문제를 해결할 수 있습니다.
 
@@ -23,7 +23,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 * SDK 버전이 4.2 이상이고 SDK가 올바르게 구성되어 있는지 확인하십시오.
 
-* Ensure that you have a [Messaging](/help/using/in-app-messaging/in-app-messaging.md) section in your configuration (the downloaded JSON file) or have a Messages remote endpoint, so that it can be retrieved from dynamic tag management.
+* Dynamic Tag Management에서 검색할 수 있도록 구성(다운로드한 JSON 파일)에 [메시징](/help/using/in-app-messaging/in-app-messaging.md) 섹션이 있거나 메시지 원격 엔드포인트가 있는지 확인합니다.
 
 ## Android에서 내 전체 화면 메시지가 표시되지 않습니다. 올바른 SDK, 구성을 사용하고 있으며 내 트리거가 충족됩니다.
 
@@ -31,19 +31,19 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ## Android에서 내 로컬 알림 메시지가 작동하지 않습니다.
 
-로컬 알림 브로드캐스트 수신기가 매니페스트에 선언되어 있는지 확인하십시오. For more information, see step #1 in [In-app messaging](/help/android/messaging-main/messaging/messaging.md).
+로컬 알림 브로드캐스트 수신기가 매니페스트에 선언되어 있는지 확인하십시오. 자세한 내용은 [인앱 메시지](/help/android/messaging-main/messaging/messaging.md)의 1단계를 참조하십시오.
 
 ## 메시지가 라이브입니까?
 
 **인앱 메시지 관리 페이지의상태** 열에서 목록 보기를 확인하고, 메시지가 라이브 상태인지 확인합니다.
 
-## 한 번 **&#x200B;표시, 항상 **&#x200B;표시, 대상 페이지에 오프라인 *설정* 표시 등을 살펴봅니다.
+## 대상 페이지에서 *한 번 표시*, *항상 표시*, *오프라인으로 표시* 설정을 확인합니다.
 
 이러한 설정이 올바른지 확인합니다. 대상 페이지에서 메시지 표시 빈도를 지정할 수 있는 **트리거** 탭의 옵션을 검토하십시오.
 
 ## 시작 이벤트를 트리거로 사용하는 경우...
 
-시작은 새 세션에서만 실행됩니다. 세션이 시작되는 시간에 대한 정보는 ADBMobile `lifecycleTimeout` JSON 구성 [](/help/ios/configuration/json-config/json-config.md) 파일에 있습니다.
+시작은 새 세션에서만 실행됩니다. 세션이 시작되는 시간에 대한 정보는 `lifecycleTimeout`ADBMobile JSON 구성[ 파일에서 ](/help/ios/configuration/json-config/json-config.md)을 참조하십시오.
 
 ## 내 메시지를 원격으로 업데이트했지만 아직 이전 메시지가 표시됩니다.
 
@@ -77,7 +77,7 @@ SDK는 라이프사이클이 시작될 때 새/업데이트된 메시지를 가�
 
 다음 단계를 완료합니다.
 
-1. 구성 파일에서 메시지 URL을 말려 원격 메시지가 업데이트되었는지 확인합니다(예: `curl "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-542c62859662383b1a0008f4.json"`).
+1. 구성 파일에 메시지 URL을 포함하여 원격 메시지가 업데이트되는지 확인합니다(예: `curl "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-542c62859662383b1a0008f4.json"`).
 1. 애플리케이션을 닫습니다.
-1. Wait for a time period that is longer than the `lifecycleTimeout` in the config file.
+1. 구성 파일에서 `lifecycleTimeout`보다 오래 동안 기다립니다.
 1. 앱을 열고 메시지가 표시되어야 하는 위치로 이동하여 메시지가 업데이트되었는지 확인합니다.
