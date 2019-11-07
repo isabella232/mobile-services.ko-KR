@@ -7,30 +7,30 @@ solution: Marketing Cloud,Analytics
 title: PhoneGap 플러그인 메서드
 topic: 개발자 및 구현
 uuid: bd830fe5-804a-4d0a-bbb6-99a6d8da6a03
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 ---
 
 
-# PhoneGap plug-in methods {#phonegap-plug-in-methods}
+# PhoneGap 플러그인 메서드 {#phonegap-plug-in-methods}
 
 iOS PhoneGap 플러그인 메서드를 사용하여 다양한 작업을 완료할 수 있습니다.
 
-In `html` files where you want to use tracking, add the following to the `<head>` tag:
+추적 기능을 사용할 `html` 파일의 `<head>` 태그에 다음을 추가하십시오.
 
 ```html
 <script type="text/javascript" charset="utf-8" src="ADB_Helper.js"></script>
 ```
 
-## Configuration methods {#section_CC429F68292D4601AEEF0A91445E1185}
+## 구성 메서드 {#section_CC429F68292D4601AEEF0A91445E1185}
 
 * **getPrivacyStatus**
 
    현재 사용자의 개인 정보 상태를 반환합니다. 사용 가능한 상태는 다음과 같습니다.
 
    * `ADB.optedIn`: 히트가 즉시 전송됩니다.
-   * `ADB.optedOut`으로 설정되어 있는 경우 히트가 무시됩니다.
+   * `ADB.optedOut`: 히트가 무시됩니다.
    * `ADB.optUnknown`보고서 세트에 타임스탬프가 활성화되어 있을 경우 개인정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다. **** 보고서 세트에 타임스탬프가 활성화되어 있지 **않을** 경우 개인정보 상태가 옵트인으로 변경될 때까지 히트가 삭제됩니다.\
       기본값은 `ADBMobileConfig.json` 파일에서 설정되어 있습니다.
 
@@ -44,7 +44,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
 
    현재 사용자의 개인정보 상태를 `status`로 설정합니다. 다음 상태 중 하나를 설정할 수 있습니다.
    * `ADB.optedIn`: 히트가 즉시 전송됩니다.
-   * `ADB.optedOut`으로 설정되어 있는 경우 히트가 무시됩니다.
+   * `ADB.optedOut`: 히트가 무시됩니다.
    * `ADB.optUnknown`****: 보고서 세트에 타임스탬프가 활성화되어 있을 경우 개인정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다. 
 
       보고서 세트에 타임스탬프가 활성화되어 있지 **않을** 경우 개인정보 상태가 옵트인으로 변경될 때까지 히트가 삭제됩니다.
@@ -67,7 +67,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
 
 * **setDebugLogging**
 
-   Enables (`true`) or disables (`false`) viewing debug information. 기본적으로 이 변수는 `false`입니다.
+   디버그 정보 보기를 활성화(`true`) 또는 비활성화(`false`)합니다. 기본적으로 이 변수는 `false`입니다.
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
@@ -91,7 +91,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
 
    >[!TIP]
    >
-   >If your app upgrades from the Experience Cloud 3.x to 4.x SDK, the previous visitor ID (custom or automatically generated) is retrieved and stored as the custom user identifier (see `getUserIdentifier` below). 이렇게 하면 SDK 업그레이드 시에도 방문자 데이터가 보존됩니다. For new installations on the 4.x SDK, the user identifier is `null`, and tracking identifier is used.
+   >앱을 Experience Cloud 3.x에서 4.x SDK로 업그레이드할 경우 이전 방문자 ID는 사용자 지정 또는 자동 생성 여부에 상관없이 검색 후 사용자 지정 사용자 식별자로 저장됩니다(아래의 `getUserIdentifier` 참조). 이렇게 하면 SDK 업그레이드 시에도 방문자 데이터가 보존됩니다. 4.x SDK에 새로 설치하는 경우 사용자 식별자는 `null`이며 추적 식별자가 사용됩니다.
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
@@ -141,7 +141,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
 
    >[!IMPORTANT]
    >
-   >Calling `keepLifecycleSessionAlive` prevents your app from launching a new session the next time it is resumed from background. 이 메서드는 앱이 백그라운드 알림에 등록되어 있을 경우에만 사용해야만 합니다.
+   >`keepLifecycleSessionAlive`를 호출하면 다음에 앱을 백그라운드에서 다시 시작할 때 새로운 세션이 시작되지 않도록 합니다. 이 메서드는 앱이 백그라운드 알림에 등록되어 있을 경우에만 사용해야만 합니다.
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
@@ -199,7 +199,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
 
 * **collectLifecycleData**
 
-   SDK의 솔루션 전체에서 사용하기 위해 라이프사이클 데이터를 수집해야 함을 SDK에 표시합니다. For more information, see [Lifecycle metrics](/help/ios/metrics.md).
+   SDK의 솔루션 전체에서 사용하기 위해 라이프사이클 데이터를 수집해야 함을 SDK에 표시합니다. 자세한 내용은 [라이프사이클 지표](/help/ios/metrics.md)를 참조하십시오.
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
@@ -208,7 +208,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
       ```
 
 
-## PII methods {#section_DB27270D2CEB4D369E0090FD9D1A7F81}
+## PII 메서드 {#section_DB27270D2CEB4D369E0090FD9D1A7F81}
 
 * **collectPII**
 
@@ -226,7 +226,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
       ADB.collectPII({'k1':'v1','k2':'v2','k3':'v3'}, function (value) { alert('success'); },function (value) { alert('fail'); });
       ```
 
-## Tracking methods {#section_7946BB753A4446FE8A3ED728AEF97D04}
+## 추적 메서드 {#section_7946BB753A4446FE8A3ED728AEF97D04}
 
 * **trackAdobeDeepLink**
 
@@ -234,7 +234,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
 
    >[!TIP]
    >
-   >If the Lifecycle call is a launch event, the Adobe Link data will be appended, otherwise an extra call will be sent.
+   >라이프사이클 호출이 시작 이벤트인 경우 Adobe Link 데이터가 추가되고, 그렇지 않으면 추가 호출이 전송됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -282,7 +282,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
 
 * **trackState**
 
-   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. States are the views that are available in your app, such as `home dashboard`, `app settings`, `cart`, and so on. 이 상태는 웹 사이트의 페이지와 유사하며 `trackState` 호출은 페이지 보기를 증가시킵니다. cData는 컨텍스트 데이터로 전송할 키-값 쌍이 있는 JSON 개체입니다.
+   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. 상태는 `home dashboard`, `app settings`, `cart` 등과 같이 앱에서 사용할 수 있는 보기입니다. 이 상태는 웹 사이트의 페이지와 유사하며 `trackState` 호출은 페이지 보기를 증가시킵니다. cData는 컨텍스트 데이터로 전송할 키-값 쌍이 있는 JSON 개체입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -290,7 +290,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
       ADB.trackState(stringstateName[,JSONcData]); 
       ```
 
-   * Here are the code samples for this method:
+   * 다음은 이 메서드의 코드 샘플입니다.
 
       ```javascript
       ADB.trackState("loginpage");
@@ -302,7 +302,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
 
 * **trackAction**
 
-   앱의 작업을 추적합니다. Actions are the things that happen in your app that you want to measure, include `logins`, `banner taps`, `feed subscriptions` and other metrics.
+   앱의 작업을 추적합니다. 작업은 `logins`, `banner taps`, `feed subscriptions` 및 기타 지표 등 앱에서 발생하여 측정하려는 것입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -310,7 +310,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
       ADB.trackAction(stringaction[,JSONcData]);
       ```
 
-   * Here are the code samples for this method:
+   * 다음은 이 메서드의 코드 샘플입니다.
 
       ```javascript
       ADB.trackAction("login");
@@ -342,7 +342,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
 
 * **trackLocation**
 
-   현재 x 및 y 좌표를 전송합니다. Also uses the points of interest that were defined in the `ADBMobileConfig.json` file to determine if the location provided as a parameter is within any of your POIs. 현재 좌표가 정의된 POI 내에 있을 경우 컨텍스트 데이터 변수를 채워 `trackLocation` 호출로 보냅니다.
+   현재 x와 y 좌표를 보냅니다. 또한 `ADBMobileConfig.json` 파일에서 정의된 관심 영역을 사용하여 매개 변수로 제공된 위치가 POI 내에 있는지 파악합니다. 현재 좌표가 정의된 POI 내에 있을 경우 컨텍스트 데이터 변수를 채워 `trackLocation` 호출로 보냅니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -433,7 +433,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
       ```
 
 
-## Target methods {#section_C45D2FE54AE04EB5BD24D3508F8A3212}
+## 타겟 메서드 {#section_C45D2FE54AE04EB5BD24D3508F8A3212}
 
 * **targetLoadRequest**
 
@@ -566,7 +566,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
       ADB.targetSetThirdPartyID(thirdPartyID,success,fail); 
       ```
 
-   * Here is the code sample for this group:
+   * 다음은 이 그룹의 코드 샘플입니다.
 
       ```java
       ADB.targetSetThirdPartyID('test-third-party-id',function(value){alert('success');},function(value){alert('fail');}); 
@@ -588,7 +588,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
       ADB.targetThirdPartyID(function(value){alert(value);},function(value){alert('fail');}); 
       ```
 
-## Acquisition methods {#section_EDEA25C4B2884487827069E9257A0BA6}
+## 획득 메서드 {#section_EDEA25C4B2884487827069E9257A0BA6}
 
 * **acquisitionCampaignStartForApp**
 
@@ -607,11 +607,11 @@ In `html` files where you want to use tracking, add the following to the `<head>
       ```
 
 
-## Advertising identifier {#section_194607D101B047A19C51B19E176E1500}
+## 광고 식별자 {#section_194607D101B047A19C51B19E176E1500}
 
-In the `AppDelegate` generated by Cordova, call `[ADBMobile setAdvertisingIdentifier:]` in the `application:didFinishLaunchingWithOptions:` delegate method. 자세한 내용은 구성 [방법을 참조하십시오](/help/ios/configuration/sdk-methods.md).
+Cordova에서 생성한 `AppDelegate`에서 `application:didFinishLaunchingWithOptions:` 위임 메서드의 `[ADBMobile setAdvertisingIdentifier:]`를 호출합니다. 자세한 내용은 [구성 메서드](/help/ios/configuration/sdk-methods.md)를 참조하십시오.
 
-## Audience Manager methods {#section_1FD12B29A0AF41D3BEACBB3D624EA0E4}
+## Audience Manager 메서드 {#section_1FD12B29A0AF41D3BEACBB3D624EA0E4}
 
 * **audienceGetVisitorProfile**
 
@@ -671,7 +671,7 @@ In the `AppDelegate` generated by Cordova, call `[ADBMobile setAdvertisingIdenti
       ADB.audienceSetDpidAndDpuuid(dpid,dpuuid,success,fail);
       ```
 
-   * Here are the code samples for this method:
+   * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
       ADB.audienceSetDpidAndDpuuid(‘dpid’,‘dpuuid’,function(){…},function(){…});
@@ -691,7 +691,7 @@ In the `AppDelegate` generated by Cordova, call `[ADBMobile setAdvertisingIdenti
       ADB.audienceSignalWithData(success,fail,data);
       ```
 
-   * Here are the code samples for this method:
+   * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
       ADB.audienceSignalWithData(function(){},function(){},{‘key1’:’value1’,‘key2’:‘value2’});
@@ -711,7 +711,7 @@ In the `AppDelegate` generated by Cordova, call `[ADBMobile setAdvertisingIdenti
       ADB.audienceReset(); 
       ```
 
-## ID Service methods {#section_840B4FAEA55B466F9754148ABA15EBDA}
+## ID 서비스 메서드 {#section_840B4FAEA55B466F9754148ABA15EBDA}
 
 * **visitorGetMarketingCloudId**
 
