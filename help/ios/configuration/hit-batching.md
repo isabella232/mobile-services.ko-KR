@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: 히트 배치 처리
 topic: 개발자 및 구현
 uuid: 3dda7372-0695-4cb7-b779-6abca2d6e0d9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
@@ -18,9 +18,9 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 >[!IMPORTANT]
 >
->히트 일괄 처리에는 SDK 버전 4.1 이상이 필요합니다.
+>히트 일괄 처리를 수행하려면 SDK 버전 4.1 이상이 필요합니다.
 
-To enable hit batching, update your `ADBMobileConfig.json` file and specify a value for `batchLimit`:
+히트 일괄 처리를 사용하려면 `ADBMobileConfig.json` 파일을 업데이트하고 `batchLimit` 값을 지정하십시오.
 
 ```js
 "analytics": {
@@ -33,11 +33,11 @@ To enable hit batching, update your `ADBMobileConfig.json` file and specify a va
 
 다음 메서드가 히트 일괄 처리에 사용됩니다.
 
-* `trackingGetQueueSize()` 현재 히트 일괄 처리 큐에 있는 히트 수와 함께 `NSUInteger` 를 반환합니다.
-* `trackingSendQueuedHits()` 현재 큐에 있는 히트 수에 관계없이 라이브러리에서 큐에 있는 모든 히트를 강제로 보냅니다.
+* `trackingGetQueueSize()`: 현재 히트 일괄 처리 큐에 있는 히트 수와 함께 `NSUInteger`를 반환합니다.
+* `trackingSendQueuedHits()`: 현재 큐에 있는 히트 수와 상관없이 라이브러리에서 큐에 있는 모든 히트를 강제로 보냅니다.
 * `trackingClearQueue()`: 큐에 있는 히트를 전송하지 않고 모두 지웁니다.
 
 >[!CAUTION]
 >
->히트 일괄 처리를 사용하려면 오프라인 추적을 활성화해야 합니다.
+>히트 일괄 처리를 사용하려면 오프라인 추적을 사용하도록 설정해야 합니다.
 
