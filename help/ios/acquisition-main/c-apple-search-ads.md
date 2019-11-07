@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: Apple 검색 광고
 topic: 개발자 및 구현
 uuid: 790080e8-067e-4bfd-a169-0027db4fdff3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebcc04ab3e80aafb9d9ec2e1fbc809c743554cb7
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: ebcc04ab3e80aafb9d9ec2e1fbc809c743554cb7
 
 # Apple 검색 광고 {#apple-search-ads}
 
-Adobe SDK는 Apple의 Search Ads App Attribution API를 활용하여 개발자와 마케팅 담당자가 Apple App Store의 검색 광고 캠페인에서 발생한 앱 다운로드를 추적하고 그 속성을 파악할 수 있도록 합니다. 검색 광고 캠페인에 대한 자세한 내용은 [Apple Search Ads](https://searchads.apple.com)를 참조하십시오.
+Adobe SDK는 Apple의 Search Ads App Attribution API를 활용하여 개발자와 마케팅 담당자가 Apple App Store의 검색 광고 캠페인에서 발생한 앱 다운로드를 추적하고 그 속성을 파악할 수 있도록 합니다. 검색 광고 캠페인에 대한 자세한 내용은 [Apple Search Ads](https://searchads.apple.com)/kr/를 참조하십시오.
 
 ## 이점 {#section_CEA30C652AC8470784B8054E299B80FA}
 
@@ -27,13 +27,13 @@ Apple 광고를 사용할 경우 다음과 같은 이점이 있습니다.
 
 >[!TIP]
 >
->To implement Apple Ads, you must have iOS SDK version 4.13.2 or later.
+>Apple 광고를 구현하려면 iOS SDK 버전 4.13.2 이상이 있어야 합니다.
 
 앱에서 검색 광고 속성을 사용하려면
 
 1. Adobe SDK 버전 4.13.2 이상을 구현합니다.
 
-   자세한 내용은 [Core implementation and lifecycle](/help/ios/getting-started/dev-qs.md).
+   자세한 내용은 [핵심 구현 및 라이프사이클](/help/ios/getting-started/dev-qs.md)을 참조하십시오.
 
 1. 앱의 Xcode 프로젝트 파일에 iAd 프레임워크를 추가합니다.
 
@@ -41,7 +41,7 @@ Apple 광고를 사용할 경우 다음과 같은 이점이 있습니다.
 
 1. Apple 검색 광고 속성 데이터는 획득 이름, 소스 및 용어 값으로 제공됩니다.
 
-   If attribution = `true`, all of the `iad-*` fields will be included in the lifecycle hit.
+   속성이 `true`이면 라이프사이클 히트에 모든 `iad-*` 필드가 포함됩니다.
 
    또한 다음 값이 `"iad"` 사전에서 Adobe의 일반적인 획득 컨텍스트 데이터 필드에 매핑됩니다.
 
@@ -49,4 +49,4 @@ Apple 광고를 사용할 경우 다음과 같은 이점이 있습니다.
    * `"iad-campaign-name"` --&gt; `"a.referrer.campaign.name"`
    * `"iad-adgroup-id"` --&gt; `"a.referrer.campaign.content"`
    * `"iad-keyword"` --&gt; `"a.referrer.campaign.term"`
-   이 매핑을 통해 표준 보고에서 값을 사용할 수 있습니다.
+   이렇게 매핑되면 해당 값을 Adobe의 표준 보고에 사용할 수 있습니다.
