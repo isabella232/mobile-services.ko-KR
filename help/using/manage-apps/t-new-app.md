@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: 새 앱 추가
 topic: 지표
 uuid: 706b5e4d-1318-4a9e-8c69-ffabf51fa02c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
@@ -24,9 +24,9 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 1. Adobe Mobile Services에 로그인하고 다음 작업 중 하나를 완료합니다. 
 
    * **[!UICONTROL 새로 만들기]를 클릭하여 앱을 만듭니다.**
-   * To add additional apps, click Manage Apps in the left navigation menu and click **[!UICONTROL Add]**.
+   * 다른 앱을 추가하려면 왼쪽 탐색 메뉴에서 앱 관리를 클릭한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
-      로그인에 대한 자세한 내용은 로그인을 [참조하십시오](/help/using/gs/gs-signin.md).
+      로그인에 대한 자세한 내용은 [로그인](/help/using/gs/gs-signin.md)을 참조하십시오.
 
       >[!TIP]
       >
@@ -38,34 +38,34 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    Adobe Analytics에서보고 데이터를 수집하고 저장하는 보고서 세트를 지정합니다. 각 앱은 하나의 Analytics 보고서 세트에 연결됩니다. 앱 데이터를 여러 보고서 세트에 전송하는 경우에는 각 보고서 세트에 대한 새 앱을 추가하십시오. 각 앱은 하나의 Analytics 보고서 세트에 연결됩니다. 앱 데이터를 여러 보고서 세트에 전송하는 경우에는 각 보고서 세트에 대한 새 앱을 추가하십시오.
 
-   Adobe Mobile에서 Analytics 관리자 권한이 제공된 경우 Adobe Mobile에서 새 보고서 세트를 만들 수 있습니다. To create a new report suite, select **[!UICONTROL New Report Suite]** and type information into the following fields:
+   Adobe Mobile에서 Analytics 관리자 권한이 제공된 경우 Adobe Mobile에서 새 보고서 세트를 만들 수 있습니다. 새 보고서 세트를 만들려면 **[!UICONTROL 새 보고서 세트]**&#x200B;를 선택하고 다음 필드에 정보를 입력합니다.
 
    * **[!UICONTROL 보고서 세트 ID]**
 
-      This ID uniquely identifies the report suite in Adobe Analytics. 회사 접두사가 ID 시작 부분에 자동으로 추가됩니다.
+      이 ID는 Adobe Analytics에서 보고서 세트를 고유하게 식별합니다. 회사 접두사가 ID 시작 부분에 자동으로 추가됩니다.
 
    * **[!UICONTROL 다음에서 설정 복사]**
 
-      변수, 이벤트, 처리 규칙 및 기타 설정은 이 보고서 세트에 있는 것과 정확히 동일한 방식으로 새 보고서 세트에 설정됩니다. Mobile Services에서 만든 보고서 세트는 사용된 **다음에서 설정 복사** 보고서 세트가 모바일 앱 템플릿이거나 오프라인이 활성화된 보고서 세트를 만들 경우에만 오프라인이 활성화됩니다.(또는 타임스탬프가 지정됩니다.)
+      변수, 이벤트, 처리 규칙 및 기타 설정이 이 보고서 세트에 되어 있던 것과 동일하게 새 보고서 세트에 지정됩니다. Mobile Services에서 만든 보고서 세트는 사용된 **다음에서 설정 복사** 보고서 세트가 모바일 앱 템플릿이거나 오프라인이 활성화된 보고서 세트를 만들 경우에만 오프라인이 활성화됩니다.(또는 타임스탬프가 지정됩니다.)
 
-   * **[!UICONTROL 시간대]**
+   * **[!UICONTROL 표준 시간대]**
 
-      모든 보고 날짜는 이 표준 시간대로 되어 있습니다. 이 설정은 브라우저에서 사용하는 시간대와 가까운 표준 시간대 사용을 시도합니다.
+      모든 보고 날짜는 이 표준 시간대에 있습니다. 이 설정은 브라우저에서 사용하는 시간대와 가까운 표준 시간대 사용을 시도합니다.
 
    * **[!UICONTROL 통화]**
 
-      Revenue is tracked and reported as this type of currency.
+      매출액은 이 유형의 통화로 추적되고 보고됩니다.
    >[!TIP]
    >
-   >가상 보고 세트(VRS)를 사용하려면 가상 보고서 [세트를 참조하십시오](/help/using/manage-apps/c-mob-vrs.md).
+   >VRS(가상 보고 세트)를 사용하려면 [가상 보고서 세트](/help/using/manage-apps/c-mob-vrs.md)를 참조하십시오.
 
    * **[!UICONTROL 아이콘]**
 
-      (**Optional**) To browse to and select an icon for your app, click **[!UICONTROL Icon]**.
+      (**선택사항**) 앱 아이콘을 찾아보고 선택하려면 **[!UICONTROL 아이콘]**&#x200B;을 클릭하십시오.
 
    * **[!UICONTROL 이름]**
 
-      (**Optional**) Type a descriptive name for the app. 이 이름은 앱을 빠르게 찾는 데 도움이 되며, 의미 있는 이름을 사용하면 앱의 용도와 설정을 신속하게 이해할 수 있습니다.
+      (**선택사항**) 앱의 수사적 이름을 입력합니다. 이 이름을 사용하면 앱을 빠르게 찾을 수 있으며, 의미 있는 이름을 사용하면 앱의 용도와 설정을 빠르게 이해할 수 있습니다.
 
    * **[!UICONTROL 유형]**
 
@@ -75,7 +75,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
       * **[!UICONTROL 표준]**
 
-         You can leave the **[!UICONTROL Standard}** option selected for most apps.
+         대부분의 앱에 대해 선택한 **[!UICONTROL Standard}** 옵션을 그대로 둘 수 있습니다.
 
       * **[!UICONTROL 발행]**
 
@@ -86,10 +86,10 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
          이 옵션은 ****&#x200B;게임]이 보고서에서 사용된 용어를 게임 용어로 업데이트한다는 것을 제외하고, **[!UICONTROL 표준]옵션과 비슷합니다.[!UICONTROL ** 예를 들어 사용자가 플레이어로 변경됩니다. 게임에 대한 보고서가 게임 앱에 대해 자동으로 표시됩니다.
    * **[!UICONTROL 설명]**
 
-      (**Optional**) Type a description for the app.
+      (**선택사항**) 앱을 설명하는 이름을 입력합니다
 
 
 
-1. Click **[!UICONTROL Save]** to add the new app.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 새 앱을 추가합니다.
 
-   앱이 추가되었으면 앱 정보 페이지에서 추가 옵션 구성에 대해 확인할 수 있습니다. For more information, see [Manage App Settings](/help/using/c-manage-app-settings/c-manage-app-settings.md).
+   앱이 추가되었으면 앱 정보 페이지에서 추가 옵션 구성에 대해 확인할 수 있습니다. 자세한 내용은 [앱 설정 관리](/help/using/c-manage-app-settings/c-manage-app-settings.md)를 참조하십시오.
