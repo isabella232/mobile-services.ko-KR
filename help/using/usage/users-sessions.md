@@ -4,20 +4,20 @@ keywords: mobile
 seo-description: 사용자 및 세션 보고서에는 선택한 기간 동안 고유 방문자에 대한 지표가 표시됩니다.
 seo-title: 사용자 및 세션 보고서
 solution: Marketing Cloud,Analytics
-title: Users and Sessions report
+title: 사용자 및 세션 보고서
 topic: 보고서,지표
 uuid: 6d70d7f6-de81-4307-a4f3-14f18fc3c9b3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ---
 
 
-# Users and sessions report{#users-and-sessions}
+# 사용자 및 세션 보고서{#users-and-sessions}
 
 사용자 및 세션 보고서에는 선택한 기간 동안 고유 방문자에 대한 지표가 표시됩니다.
 
-![Users and Sessions report](assets/users_sessions.png)
+![사용자 및 세션 보고서](assets/users_sessions.png)
 
 이 보고서에 대해 다음 옵션을 구성할 수 있습니다.
 
@@ -27,12 +27,12 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 * **[!UICONTROL 사용자 지정]**
 
-   Customize your reports by changing the **[!UICONTROL Show By]** options, adding metrics and filters, and adding additional series (metrics), and more. For more information, see [Customize Reports](/help/using/usage/reports-customize/t-reports-customize.md).
+   **[!UICONTROL 표시 기준]** 옵션 변경, 지표 및 필터 추가, 시리즈(지표) 추가 등을 통해 보고서를 사용자 지정합니다. 자세한 내용은 [보고서 사용자 지정](/help/using/usage/reports-customize/t-reports-customize.md)을 참조하십시오.
 
 * **[!UICONTROL 필터]**
 
-   **[!UICONTROL 필터]를 클릭하면 다른 보고서에 적용되는 필터를 생성하여 세그먼트가 모든 모바일 보고서에서 어떻게 작동하는지 확인할 수 있습니다.** 고정 필터를 사용하면 경로 지정 외의 모든 보고서에 적용되는 필터를 정의할 수 있습니다. For more information, see Add sticky filter.[](/help/using/usage/reports-customize/t-sticky-filter.md)
+   **[!UICONTROL 필터]를 클릭하면 다른 보고서에 적용되는 필터를 생성하여 세그먼트가 모든 모바일 보고서에서 어떻게 작동하는지 확인할 수 있습니다.** 고정 필터를 사용하면 경로 지정 외의 모든 보고서에 적용되는 필터를 정의할 수 있습니다. 자세한 내용은 [고정 필터 추가](/help/using/usage/reports-customize/t-sticky-filter.md)를 참조하십시오.
 
 * **[!UICONTROL 다운로드]**
 
-   Click **[!UICONTROL PDF]** or **[!UICONTROL CSV]** to download or open documents and share with users who do not have access to Mobile Services or to use the file in presentations.
+   **[!UICONTROL PDF]**&#x200B;나 **[!UICONTROL CSV]**&#x200B;를 클릭하여 문서를 다운로드하거나 열고, Mobile Services에 대한 액세스 권한이 없는 사용자와 공유하거나 프레젠테이션의 파일을 사용할 수 있습니다.
