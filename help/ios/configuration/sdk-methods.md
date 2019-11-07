@@ -1,33 +1,33 @@
 ---
 description: 다음은 iOS 라이브러리에서 제공하는 메서드 목록입니다.
 seo-description: 다음은 iOS 라이브러리에서 제공하는 메서드 목록입니다.
-seo-title: Configuration methods
+seo-title: 구성 메서드
 solution: Marketing Cloud,Analytics
-title: 구성 방법
+title: 구성 메서드
 topic: 개발자 및 구현
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 ---
 
 
-# Configuration methods {#configuration-methods}
+# 구성 메서드 {#configuration-methods}
 
 다음은 iOS 라이브러리에서 제공하는 메서드 목록입니다.
 
-SDK는 현재 Analytics, Target, Audience Manager, Adobe Experience Platform Identity Service 등 다양한 Adobe Experience Cloud 솔루션을 지원합니다.
+현재 SDK는 Analytics, Target, Audience Manager 및 Adobe Experience Platform ID 서비스 등 여러 Adobe Experience Cloud 솔루션을 지원합니다.
 
 * **setAppExtensionType**
 
    Adobe Mobile SDK 설정을 구성하여 현재 어떤 종류의 확장이 실행되고 있는지 확인합니다.
 
    다음 값 중 하나를 설정합니다.
-   * `ADBMobileAppExtensionTypeRegular` - 익스텐션은 포함 앱과 번들로 제공됩니다.
-   * `ADBMobileAppExtensionTypeStandAlone` - 확장명이 포함된 앱과 번들로 제공되지 않습니다.
+   * `ADBMobileAppExtensionTypeRegular` - 확장 프로그램이 포함된 앱과 번들로 제공됩니다.
+   * `ADBMobileAppExtensionTypeStandAlone` - 확장 프로그램이 포함된 앱과 번들로 제공되지 않습니다.
    >[!TIP]
    >
-   >This method should **only** be used if your app has an extension or is a stand-alone extension. For more information, see *ADBMobileAppExtensionType* below.
+   >이 메서드는 앱에 확장 프로그램이 있거나 독립형 확장 프로그램인 경우에&#x200B;**만** 사용해야 합니다. 자세한 내용은 아래 *ADBMobileAppExtensionType*&#x200B;을 참조하십시오.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -63,8 +63,8 @@ SDK는 현재 Analytics, Target, Audience Manager, Adobe Experience Platform Ide
 
    현재 사용자에 대한 개인 정보 상태의 열거 표현을 반환합니다:
 
-   * `ADBMobilePrivacyStatusOptIn` - hits are sent immediately.
-   * `ADBMobilePrivacyStatusOptOut` - hits are discarded.
+   * `ADBMobilePrivacyStatusOptIn` - 히트가 즉시 전송됩니다.
+   * `ADBMobilePrivacyStatusOptOut` - 히트가 삭제됩니다.
    * `ADBMobilePrivacyStatusUnknown` - 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트 삭제)으로 변경될 때까지 히트가 저장됩니다. 오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다.
 기본값은 `ADBMobileConfig.json` 파일에서 설정되어 있습니다.
 
@@ -87,7 +87,7 @@ SDK는 현재 Analytics, Target, Audience Manager, Adobe Experience Platform Ide
    다음 값 중 하나를 설정합니다.
 
    * `ADBMobilePrivacyStatusOptIn` - 히트가 즉시 전송됩니다.
-   * `ADBMobilePrivacyStatusOptOut` - 히트가 무시됩니다.
+   * `ADBMobilePrivacyStatusOptOut` - 히트가 삭제됩니다.
    * `ADBMobilePrivacyStatusUnknown` - 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트 삭제)으로 변경될 때까지 히트가 저장됩니다. 오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
@@ -124,7 +124,7 @@ SDK는 현재 Analytics, Target, Audience Manager, Adobe Experience Platform Ide
 
    >[!TIP]
    >
-   >If your app upgrades from the Experience Cloud 3.x to the 4.x SDK, the previous custom or automatically generated visitor ID is retrieved and stored as the custom user identifier. 자세한 내용은 아래의 `userIdentifier` 행을 참조하십시오. 이렇게 하면 SDK 업그레이드 시에도 방문자 데이터가 보존됩니다. 4.x SDK에 새로 설치하는 경우 사용자 식별자는 `nil`이며 추적 식별자가 사용됩니다.
+   >앱을 Experience Cloud 3.x에서 4.x SDK로 업그레이드할 경우 이전 사용자 지정 또는 자동 생성된 방문자 ID가 검색되어 사용자 지정 사용자 식별자로 저장됩니다. 자세한 내용은 아래의 `userIdentifier` 행을 참조하십시오. 이렇게 하면 SDK 업그레이드 시에도 방문자 데이터가 보존됩니다. 4.x SDK에 새로 설치하는 경우 사용자 식별자는 `nil`이며 추적 식별자가 사용됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -144,7 +144,7 @@ SDK는 현재 Analytics, Target, Audience Manager, Adobe Experience Platform Ide
 
    >[!TIP]
    >
-   >앱이 Experience Cloud 3.x에서 4.x SDK로 업그레이드하면 이전 사용자 지정 또는 자동으로 생성된 방문자 ID가 검색되어 사용자 지정 사용자 식별자로 저장됩니다. 이렇게 하면 SDK 업그레이드 시에도 방문자 데이터가 보존됩니다.
+   >앱을 Experience Cloud 3.x에서 4.x SDK로 업그레이드할 경우 이전 사용자 지정 또는 자동 생성된 방문자 ID가 검색되어 사용자 지정 사용자 식별자로 저장됩니다. 이렇게 하면 SDK 업그레이드 시에도 방문자 데이터가 보존됩니다.
 
    4.x SDK에 새로 설치하는 경우 사용자 식별자는 설정될 때까지 `nil`입니다.
 
@@ -214,7 +214,7 @@ SDK는 현재 Analytics, Target, Audience Manager, Adobe Experience Platform Ide
 
    >[!TIP]
    >
-   >이 메서드는 앱이 백그라운드에 있을 때 알림을 등록하는 앱에 사용되며 앱이 백그라운드에 있을 때 실행하는 코드에서만 호출되어야 합니다.
+   >이 메서드는 앱이 백그라운드에 있을 때 알림을 등록하는 앱에 사용하기 위한 것으로, 앱이 백그라운드에 있을 때 실행하는 코드에서만 호출되어야 합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -234,7 +234,7 @@ SDK는 현재 Analytics, Target, Audience Manager, Adobe Experience Platform Ide
 
    >[!TIP]
    >
-   >The preferred location to invoke this method is in `application:didFinishLaunchingWithOptions:`.
+   >이 메서드를 호출하는 기본 위치는 `application:didFinishLaunchingWithOptions:`입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -252,11 +252,11 @@ SDK는 현재 Analytics, Target, Audience Manager, Adobe Experience Platform Ide
 
    라이프사이클 지표를 수집할 때 추가 데이터를 전달할 수 있게 합니다.
 
-   이 메서드는 앱의 시작 지점에서 호출해야 합니다. Where applicable, this may include one or both of the methods `application:didFinishLaunchingWithOptions:` and/or `applicationWillEnterForeground:` in your AppDelegate class.
+   이 메서드는 앱의 시작 지점에서 호출해야 합니다. 적용 가능한 경우 AppDelegate 클래스에서 `application:didFinishLaunchingWithOptions:` 및/또는 `applicationWillEnterForeground:` 메서드 중 하나 또는 둘 다를 포함할 수 있습니다.
 
    >[!IMPORTANT]
    >
-   >Data that is passed to the SDK via `collectLifecycleDataWithAdditionalData:` will be persisted by the SDK in `NSUserDefaults`. SDK는 `NSDictionary` 또는 `NSString` 유형이 아닌 `NSNumber` 매개 변수에서 값을 제거합니다. To use  `collectLifecycleDataWithAdditionalData:`, you must have SDK **version 4.4** or later.
+   >`collectLifecycleDataWithAdditionalData:`를 통해 SDK에 전달되는 데이터는 `NSUserDefaults`에서 SDK에 의해 유지됩니다. SDK는 `NSDictionary` 또는 `NSString` 유형이 아닌 `NSNumber` 매개 변수에서 값을 제거합니다. `collectLifecycleDataWithAdditionalData:`를 사용하려면 SDK **버전 4.4** 이상이 있어야 합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -276,7 +276,7 @@ SDK는 현재 Analytics, Target, Audience Manager, Adobe Experience Platform Ide
 
    >[!IMPORTANT]
    >
-   >To use `overrideConfigPath`, you must have SDK version 4.2 or later.
+   >`overrideConfigPath`를 사용하려면 SDK 버전 4.2 이상이 있어야 합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -297,7 +297,7 @@ SDK는 현재 Analytics, Target, Audience Manager, Adobe Experience Platform Ide
 
    >[!IMPORTANT]
    >
-   >This method should only be used in the  `application:didRegisterForRemoteNotificationsWithDeviceToken:` method.
+   >이 메서드는 `application:didRegisterForRemoteNotificationsWithDeviceToken:` 메서드에만 사용해야 합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -319,7 +319,7 @@ SDK는 현재 Analytics, Target, Audience Manager, Adobe Experience Platform Ide
 
    >[!TIP]
    >
-   >Retrieve the IDFA from Apple APIs **only** if you are using an ad service. IDFA를 검색하고 올바르게 사용하지 않으면 앱이 거부될 수 있습니다.
+   >광고 서비스를 사용하는 경우&#x200B;**에만** Apple API에서 IDFA를 검색합니다. IDFA를 검색하고 올바르게 사용하지 않으면 앱이 거부될 수 있습니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
