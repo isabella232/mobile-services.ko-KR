@@ -4,7 +4,7 @@ seo-description: .xml 파일을 직접 대체하여 TVMLTVJS 앱에서 Adobe Tar
 seo-title: TVML/TVJS용 Adobe Target
 title: TVML/TVJS용 Adobe Target
 uuid: afd5a583-5266-43f2-8cb0-0ace89c53a57
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
@@ -16,48 +16,48 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 >[!IMPORTANT]
 >
->Before using the `ADBTarget` element in your TVML pages, you must configure your TVML/TVJS app to use the tvOS SDK. For more information, see Apple TV Implementation with tvOS.[](/help/ios/apple-tv-implementation-tvos/apple-tv-implementation-tvos.md)
+>TVML 페이지에서 `ADBTarget` 요소를 사용하기 전에 tvOS SDK를 사용하도록 TVML/TVJS 앱을 구성해야 합니다. 자세한 내용은 [tvOS를 사용한 Apple TV 구현](/help/ios/apple-tv-implementation-tvos/apple-tv-implementation-tvos.md)을 참조하십시오.
 
 ## 시작하기 {#section_88445645FD67416EAF6FDC3E3D3F5C33}
 
-1. Identify the `.xml` file in which you want to use your Target location.
-1. Add an `ADBTarget` element to the file as a child of the `<document>` element.
-1. If Target fails to find your Mbox location, or it times out, the value between your `<ADBTarget>` and `</ADBTarget>` tags is used as default content.
+1. Target 위치를 사용할 `.xml` 파일을 확인합니다.
+1. `ADBTarget` 요소를 `<document>` 요소의 하위 요소로 파일에 추가합니다.
+1. Target이 Mbox 위치를 찾지 못하거나 시간이 초과되면 `<ADBTarget>` 및 `</ADBTarget>` 태그 사이의 값이 기본 콘텐츠로 사용됩니다.
 
-## Configure your mbox in Target {#section_F2DA140C34B0421D976046F825B23123}
+## Target에서 Mbox 구성 {#section_F2DA140C34B0421D976046F825B23123}
 
-The returned content from Target replaces all content between `<ADBTarget>` and `</ADBTarget>`, including both `ADBTarget` tags.
+Target에서 반환된 콘텐츠는 `<ADBTarget>` 태그를 모두 포함하여 `</ADBTarget>`과 `ADBTarget` 사이에서 모든 콘텐츠를 대체합니다.
 
 >[!TIP]
 >
->따라서 대체할 항목을 계획해야 합니다.
+>어떤 콘텐츠를 대체할 것인지 적절히 계획해야 합니다.
 
 사용 사례는 레이블의 문자열 값을 대체하는 것처럼 간단하거나, 페이지 전체를 대체하는 것처럼 복잡할 수도 있습니다.
 
-## Configure your ADBTarget element {#section_44A7AEC6FC0648ADAD0BACB57D493AFA}
+## ADBTarget 요소 구성 {#section_44A7AEC6FC0648ADAD0BACB57D493AFA}
 
-`ADBTarget` 요소에서 `mbox` 속성에 Mbox 이름을 제공해야 합니다. You can optionally add custom properties to your request in the `customParameterName="customParameterValue"` format.
+`ADBTarget` 요소에서 `mbox` 속성에 Mbox 이름을 제공해야 합니다. 요청에 사용자 지정 속성을 `customParameterName="customParameterValue"` 형식으로 선택적으로 추가할 수 있습니다.
 
 * **`mbox`**
 
    Mbox 위치 이름.
 
-   * Property type: String
+   * 속성 유형: 문자열
    * 이 속성은 필수입니다.
 
 * **`id`**
 
-   The Order ID.
+   주문 ID.
 
-   * Property type: String
-   * 이 속성은 **필요하지 않습니다** .
+   * 속성 유형: 문자열
+   * 이 속성은 필수가 **아닙니다**.
 
 * **`total`**
 
-   The order total.
+   주문 총계.
 
-   * 속성 유형:문자열
-   * This property is not required.****
+   * 속성 유형: 문자열
+   * 이 속성은 필수가 **아닙니다**.
 
 * **`purchasedProductIds`**
 
@@ -70,12 +70,12 @@ The returned content from Target replaces all content between `<ADBTarget>` and 
       purchasedProductIds="product1,product2,product3" 
       ```
 
-   * Property type: String
-   * 이 속성은 **필요하지 않습니다** .
+   * 속성 유형: 문자열
+   * 이 속성은 필수가 **아닙니다**.
 
 * **`mboxParameters`**
 
-   `mboxParameters`의 키 값 쌍 목록입니다. Each entry in this string is separated by a semicolon, and key-values are separated by a colon.
+   `mboxParameters`의 키 값 쌍 목록입니다. 이 문자열의 각 항목은 세미콜론(;)으로 구분되며 키 값은 콜론(:)으로 구분됩니다.
 
    * 다음은 이 속성의 코드 샘플입니다.
 
@@ -83,15 +83,15 @@ The returned content from Target replaces all content between `<ADBTarget>` and 
       mboxParameters="mboxparameterKey:mboxParameterValue;mboxParameterKey1:mboxParameterValue1;mboxParameterKey2:mboxParameterValue2"
       ```
 
-   * 속성 유형:문자열
-   * 이 속성은 **필요하지 않습니다** .
+   * 속성 유형: 문자열
+   * 이 속성은 필수가 **아닙니다**.
 
 * **`customParameterName`**
 
-   The value of this property is .`customParameterValue`
+   이 속성 값은 `customParameterValue`입니다.
 
-   * 속성 유형:문자열
-   * 이 속성은 **필요하지 않습니다** .
+   * 속성 유형: 문자열
+   * 이 속성은 필수가 **아닙니다**.
 
 
 ## 예 {#section_6D6D6E8C7FE147168FC30D83CBC06985}
@@ -100,7 +100,7 @@ The returned content from Target replaces all content between `<ADBTarget>` and 
 
 다음 예에서는 `ADBTarget` 페이지의 `LandingPage.xml.js` 요소를 사용하여 경고 내용을 바꿉니다.
 
-#### 타겟 구성
+#### Target 구성
 
 `landingPage`라는 이름의 Mbox 위치가 있고 오퍼 콘텐츠가 다음과 같이 설정되어 있다고 가정합니다.
 
