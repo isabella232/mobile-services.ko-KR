@@ -2,18 +2,18 @@
 description: 다음은 인앱 메시지 문제를 해결하는 데 유용한 정보입니다.
 keywords: mobile
 seo-description: 다음은 인앱 메시지 문제를 해결하는 데 유용한 정보입니다.
-seo-title: 인앱 메시지 문제 해결
+seo-title: 인앱 메시징 문제 해결
 solution: Marketing Cloud,Analytics
-title: Troubleshoot In-App Messaging
+title: 인앱 메시징 문제 해결
 topic: 지표
 uuid: 39c3a21d-92c2-4004-b00f-99b6f91d3696
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12e01e112debffd877dd62f1fd2505724b2aae7d
 
 ---
 
 
-# Troubleshoot in-app messaging{#troubleshooting-in-app-messaging}
+# 인앱 메시징 문제 해결{#troubleshooting-in-app-messaging}
 
 다음은 인앱 메시지 문제를 해결하는 데 유용한 정보입니다.
 
@@ -21,7 +21,7 @@ source-git-commit: 12e01e112debffd877dd62f1fd2505724b2aae7d
 
 ## 앱에 새 구성 및 새 SDK를 적용하고 있습니까?
 
-Ensure that you have an [In-App Messaging](/help/android/messaging-main/messaging/messaging.md) section in your configuration (downloaded JSON file) or have a Messages remote endpoint, so that it can be retrieved from dynamic tag management.
+구성(다운로드한 JSON 파일)에 [인앱 메시지](/help/android/messaging-main/messaging/messaging.md) 섹션이 있거나 메시지 원격 엔드포인트가 있어서 Dynamic Tag Management에서 검색할 수 있는지 확인합니다.
 
 ## Android에서 내 전체 화면 메시지가 표시되지 않습니다. 올바른 SDK, 구성을 사용하고 있으며 내 트리거가 충족됩니다.
 
@@ -29,13 +29,13 @@ Ensure that you have an [In-App Messaging](/help/android/messaging-main/messagin
 
 ## Android에서 내 로컬 알림 메시지가 작동하지 않습니다.
 
-로컬 알림 브로드캐스트 수신기가 매니페스트에 선언되어 있는지 확인하십시오. For more information, see step 2 in *Enabling In-App Messaging* in [In-App Messaging](/help/android/messaging-main/messaging/messaging.md).
+로컬 알림 브로드캐스트 수신기가 매니페스트에 선언되어 있는지 확인하십시오. 자세한 내용은 [인앱 메시지](/help/android/messaging-main/messaging/messaging.md)의 *인앱 메시지 사용* 2단계를 참조하십시오.
 
 ## 메시지가 라이브입니까?
 
 메시지가 라이브인지 여부를 확인하려면 In-App 메시지 관리 페이지의 **상태** 열에서 메시지 목록을 확인하십시오.
 
-## Look at show once, show always, show offline  settings on the Audience tab.******
+## 대상 탭에서 *한 번 표시*, *항상 표시*, *오프라인으로 표시* 설정을 확인합니다.
 
 이 설정들이 원하는 방법으로 설정되어 있는지 확인하십시오. **[!UICONTROL 대상]** 탭에서 메시지 표시 빈도를 지정할 수 있는 **트리거[!UICONTROL 옵션을 검토하십시오.]**
 
