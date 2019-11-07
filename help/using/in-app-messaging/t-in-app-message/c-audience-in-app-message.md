@@ -2,22 +2,22 @@
 description: 보기, 트리거 및 트레이트 옵션을 비롯한 인앱 메시지의 대상 옵션을 구성할 수 있습니다.
 keywords: mobile
 seo-description: 보기, 트리거 및 트레이트 옵션을 비롯한 인앱 메시지의 대상 옵션을 구성할 수 있습니다.
-seo-title: 대상 인앱 메시지
+seo-title: '대상: 인앱 메시지'
 solution: Marketing Cloud,Analytics
-title: 대상 인앱 메시지
+title: '대상: 인앱 메시지'
 topic: 지표
 uuid: 6c815d4c-7626-4cf4-9158-3f059c79317a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 ---
 
 
-# Audience: in-app message {#audience-in-app-message}
+# 대상: 인앱 메시지 {#audience-in-app-message}
 
 보기, 트리거 및 트레이트 옵션을 비롯한 인앱 메시지의 대상 옵션을 구성할 수 있습니다.
 
-1. In your app, click **[!UICONTROL Messaging]** &gt; **[!UICONTROL Manage Messages]** &gt; **[!UICONTROL Create Message]** &gt; **[!UICONTROL Create In-App]**.
+1. 앱에서 **[!UICONTROL 메시징]** &gt; **[!UICONTROL 메시지 관리]** &gt; **[!UICONTROL 메시지 작성]** &gt; **[!UICONTROL 앱 내 메시지 만들기]**&#x200B;를 클릭합니다.
 1. 대상 페이지에서 다음 필드에 정보를 입력하십시오.
 
    * **[!UICONTROL 보기]**
@@ -41,19 +41,20 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
       >[!IMPORTANT]
       >
-      >여러 트리거를 선택하는 경우 메시지가 표시되려면 동일한 히트에서 모든 트리거가 발생해야 합니다.
+      >여러 트리거를 선택하는 경우 메시지를 표시하려면 모든 트리거가 동일한 히트에서 발생해야 합니다.
 
-   * **[!UICONTROL 트레이트]**&#x200B;인앱 메시지가 트리거될 때 누가 인앱 메시지를 표시해야 하는지 결정하고, 지정된 데이터가 있는 히트에 대해 대상을 필터링(세그먼트)할 수 있습니다. 예를 들어, 관심 영역에 Denver가 들어 있는 규칙을 정의할 수 있습니다. 이 필터를 사용하면 트리거 시 이름에 Denver가 있는 관심 영역 중 하나에 있는 고객에게 메시지를 표시할 수 있습니다.
+   * **[!UICONTROL 트레이트]**
+인앱 메시지가 트리거될 때 인앱 메시지를 볼 수 있고 지정된 데이터가 있는 히트로 대상을 필터링(세그먼트)할 수 있는 사용자를 결정할 수 있습니다. 예를 들어, 관심 영역에 Denver가 들어 있는 규칙을 정의할 수 있습니다. 이 필터를 사용하면 트리거 시 이름에 Denver가 있는 관심 영역 중 하나에 있는 고객에게 메시지를 표시할 수 있습니다.
 
 
 
-## Additional information about traits and triggers {#section_48C39EFB8CAA4F62B994FCC91DF588E6}
+## 트레이트 및 트리거에 대한 추가 정보 {#section_48C39EFB8CAA4F62B994FCC91DF588E6}
 
 >[!IMPORTANT]
 >
->트리거 및 트레이트는 앱에서 Analytics로 전달된 데이터를 사용합니다. 이러한 값은 컨텍스트 데이터, 매핑된 변수 및 지표로 전달됩니다. 변수는 텍스트 기반 값이며 지표는 숫자 값입니다.
+>트리거 및 트레이트는 앱에서 Analytics로 전달되는 데이터를 사용합니다. 이러한 값은 컨텍스트 데이터, 매핑된 변수 및 지표로 전달됩니다. 변수는 텍스트 기반 값이며 지표는 숫자 값입니다.
 
-To see the mapping of these key value pairs in the Mobile Services UI and validate the value for your trigger, click **[!UICONTROL Manage App Settings]** &gt;  **[!UICONTROL Manage Variables &amp; Metrics]** &gt;, which displays the following tabs:
+Mobile Services UI에서 이러한 키 값 쌍의 매핑을 보고 트리거에 대한 값을 확인하려면 다음 탭에 표시되는 **[!UICONTROL 앱 설정 관리]** &gt; **[!UICONTROL 변수 및 지표 관리]**&#x200B;를 클릭하십시오.
 
 * **[!UICONTROL 표준 변수 및 지표]**
 * **[!UICONTROL 사용자 지정 변수]**
@@ -61,32 +62,32 @@ To see the mapping of these key value pairs in the Mobile Services UI and valida
 
 매핑의 유효성을 검사한 후 적절한 항목 또는 논리 연산자를 선택하여 메시지에 대한 대상을 구성하십시오.
 
-### Selecting metrics and variables {#example_AB126F03BD1C4094B791E230B3DB1189}
+### 지표 및 변수 선택 {#example_AB126F03BD1C4094B791E230B3DB1189}
 
-![trigger options](assets/custom_trigger_matcher_options.png)
+![트리거 옵션](assets/custom_trigger_matcher_options.png)
 
-다음 시나리오는 지표를 트리거로 선택할지 또는 변수를 선택할지를 결정하는 데 도움이 됩니다.
+다음 시나리오는 트리거로 지표 또는 변수를 선택하는지 여부를 판별하는 데 도움이 됩니다.
 
 ### 지표
 
 지표는 숫자이며 예로는 구입 횟수가 있습니다.
 
-1. Click **[!UICONTROL Manage Messages]** &gt; **[!UICONTROL Create Message]**.
+1. **[!UICONTROL 메시지 관리]** &gt; **[!UICONTROL 메시지 작성]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 대상]탭의****트리거[!UICONTROL 섹션에서 다음 단계를 완료합니다.]**
 
-   1. Select a standard event such as **[!UICONTROL Launched]** and select **[!UICONTROL exists]**.
+   1. **[!UICONTROL 시작됨]**&#x200B;과 같은 표준 이벤트를 선택하고 **[!UICONTROL 존재함]**&#x200B;을 선택합니다.
    1. 사용자 지정 데이터 포인트이며 지표에 매핑된 두 번째 트리거를 선택합니다.
-   1. Under **[!UICONTROL Number]**, select a matcher option.
+   1. **[!UICONTROL 번호]**&#x200B;에서 적절한 항목 옵션을 선택합니다.
 
 ### 변수
 
 변수는 고유 식별자인 텍스트 문자열이며 예로는 국가, 공항 등이 있습니다.
 
-1. Click **[!UICONTROL Manage Messages]** &gt; **[!UICONTROL Create Message]**.
+1. **[!UICONTROL 메시지 관리]** &gt; **[!UICONTROL 메시지 작성]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 대상]탭의****트리거[!UICONTROL 섹션에서 다음 단계를 완료합니다.]**
 
-   1. Select a standard event such as **[!UICONTROL Launched]** and select **[!UICONTROL exists]**.
+   1. **[!UICONTROL 시작됨]**&#x200B;과 같은 표준 이벤트를 선택하고 **[!UICONTROL 존재함]**&#x200B;을 선택합니다.
    1. 사용자 지정 데이터 포인트이며 변수에 매핑된 두 번째 트리거를 선택합니다.
-   1. Under **[!UICONTROL Text]**, select a matcher option.
+   1. **[!UICONTROL 텍스트]**&#x200B;에서 적절한 항목 옵션을 선택합니다.
 
-For more information about context data, variables, and metrics, see [Managing your app](/help/using/manage-apps/manage-apps.md).
+컨텍스트 데이터, 변수 및 지표에 대한 자세한 내용은 [앱 관리](/help/using/manage-apps/manage-apps.md)를 참조하십시오.
