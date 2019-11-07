@@ -1,31 +1,31 @@
 ---
 description: Android SDK 버전 4.5부터 새 Android 확장 기능을 추가하여 Android 웨어러블 앱의 데이터를 수집할 수 있도록 했습니다.
 seo-description: Android SDK 버전 4.5부터 새 Android 확장 기능을 추가하여 Android 웨어러블 앱의 데이터를 수집할 수 있도록 했습니다.
-seo-title: Android Wearables 시작하기
+seo-title: Android 웨어러블 기기 시작하기
 solution: Marketing Cloud,Analytics
-title: Android Wearables 시작하기
+title: Android 웨어러블 기기 시작하기
 topic: 개발자 및 구현
 uuid: bfe5d41e-b17c-4634-80ac-7a38671ecb81
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
 
 
-# Android Wearables: getting started{#android-wearables-getting-started}
+# Android 웨어러블 기기: 시작하기{#android-wearables-getting-started}
 
 Android SDK 버전 4.5부터 새 Android 확장 기능을 추가하여 Android 웨어러블 앱의 데이터를 수집할 수 있도록 했습니다.
 
-## Configuring the SDK for a handheld app (Android Studio) {#section_262237484EC44C58953891B105F0D000}
+## 휴대폰 앱용 SDK 구성(Android Studio) {#section_262237484EC44C58953891B105F0D000}
 
-SDK를 프로젝트로 가져오는 방법에 대한 자세한 내용은 핵심 구현 [및 라이프사이클을 참조하십시오](/help/android/getting-started/dev-qs.md).
+SDK를 프로젝트로 가져오는 방법에 대한 자세한 내용은 [핵심 구현 및 라이프사이클](/help/android/getting-started/dev-qs.md)을 참조하십시오.
 
 1. 프로젝트의 assets 폴더에 `ADBMobileConfig.json` 파일을 추가합니다.
 1. `adobeMobileLibrary-*.jar` 파일을 libs 폴더에 추가하거나 프로젝트가 이 파일을 참조하도록 합니다.
 
    >[!TIP]
    >
-   >You might need to sync the gradle project after adding the `.jar` file.
+   >`.jar` 파일을 추가한 후 gradle 프로젝트를 동기화해야 할 수도 있습니다.
 
 1. `onCreate` 메서드에서 `Config.setContext`를 사용하여 SDK가 애플리케이션 컨텍스트에 액세스할 수 있도록 합니다.
 
@@ -55,7 +55,7 @@ SDK를 프로젝트로 가져오는 방법에 대한 자세한 내용은 핵심 
    ```
 
 1. 프로젝트가 Google Play 서비스 라이브러리를 포함하는지 확인합니다.
-1. Implement `WearableListenerService` or add the corresponding code to your `WearableListenerService`:
+1. `WearableListenerService`를 구현하거나 `WearableListenerService`에 해당 코드를 추가합니다.
 
    ```java
    public class WearListenerService extends WearableListenerService { 
@@ -88,7 +88,7 @@ SDK를 프로젝트로 가져오는 방법에 대한 자세한 내용은 핵심 
    }
    ```
 
-1. 파일에 `WearListenerService` `AndroidManifest.xml` 추가:
+1. `WearListenerService`를 `AndroidManifest.xml` 파일에 추가합니다.
 
    ```java
    If you are using Google Play Services  < 8.2 
@@ -117,7 +117,7 @@ SDK를 프로젝트로 가져오는 방법에 대한 자세한 내용은 핵심 
    Permalink Edit
    ```
 
-## Configuring the SDK for a Wearable app (Android Studio) {#section_2268EC03E20B4A228A28BDCFEA2E9AE4}
+## 웨어러블 앱용 SDK 구성(Android Studio) {#section_2268EC03E20B4A228A28BDCFEA2E9AE4}
 
 1. 다음 작업 중 하나를 완료하십시오.
 
@@ -162,7 +162,7 @@ SDK를 프로젝트로 가져오는 방법에 대한 자세한 내용은 핵심 
    ```
 
 1. 프로젝트가 Google Play 서비스 라이브러리를 포함하는지 확인합니다.
-1. Implement `WearableListenerService` or add the corresponding code to your `WearableListenerService`:
+1. `WearableListenerService`를 구현하거나 `WearableListenerService`에 해당 코드를 추가합니다.
 
    ```java
    public class WearListenerService extends WearableListenerService { 
@@ -175,7 +175,7 @@ SDK를 프로젝트로 가져오는 방법에 대한 자세한 내용은 핵심 
    }
    ```
 
-1. 파일에 `WearListenerService` `AndroidManifest.xml` 추가:
+1. `WearListenerService`를 `AndroidManifest.xml` 파일에 추가합니다.
 
    ```java
    If you are using Google Play Services  < 8.2 
