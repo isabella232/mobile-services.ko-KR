@@ -1,13 +1,13 @@
 ---
 description: 다음은 Android 라이브러리에서 제공하는 Experience Cloud ID 메서드입니다.
-keywords: android;library;mobile;sdk
+keywords: android;라이브러리;모바일;sdk
 seo-description: 다음은 Android 라이브러리에서 제공하는 Experience Cloud ID 메서드입니다.
 seo-title: Adobe Experience Platform ID 서비스 메서드
 solution: Marketing Cloud,Analytics
 title: Adobe Experience Platform ID 서비스 메서드
 topic: 개발자 및 구현
 uuid: c5107a7e-273b-4f71-8738-4c603479b24c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8fc515a6e89044b9dac98b3f207c5f43b658a2ec
 
 ---
@@ -17,17 +17,17 @@ source-git-commit: 8fc515a6e89044b9dac98b3f207c5f43b658a2ec
 
 다음은 Android 라이브러리에서 제공하는 Experience Cloud ID 메서드입니다.
 
-The SDK currently supports multiple Adobe Experience Cloud Solutions], including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service.
+현재 SDK는 Analytics, Target, Audience Manager 및 Adobe Experience Platform ID 서비스 등 여러 Adobe Experience Cloud 솔루션을 지원합니다.
 
-Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `visitor`. For more information, see [Experience Cloud ID Configuration](/help/android/c-marketing-cloud/mcvid.md).
+메서드에는 솔루션에 따라 접두사가 추가됩니다. 예를 들면 Experience Cloud ID 메서드에는 `visitor` 접두사가 추가됩니다. 자세한 내용은 [Experience Cloud ID 구성](/help/android/c-marketing-cloud/mcvid.md)을 참조하십시오.
 
 * **public static String appendToURL(최종 문자열 URL)**
 
-   Adobe JavaScript 라이브러리에서 사용할 수 있도록 URL 문자열에 Adobe 방문자 데이터를 추가합니다. 이 메서드를 사용하려면 Mobile SDK 4.12 이상이 있어야 합니다. 자세한 내용은 [방문자 ID 지원 기능 추가](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-appendvisitorid.html)를 참조하십시오.
+   Adobe JavaScript 라이브러리에서 사용할 수 있도록 URL 문자열에 Adobe 방문자 데이터를 추가합니다. 이 메서드를 사용하려면 Mobile SDK 4.12 이상이 있어야 합니다. 자세한 내용은 [방문자 ID 지원 기능 추가](https://marketing.adobe.com/resources/help/ko_KR/mcvid/mcvid-appendvisitorid.html)를 참조하십시오.
 
    >[!IMPORTANT]
    >
-   >This method can cause a blocking network call. 시간이 중요한 스레드에 대해서는 호출하지 마십시오.
+   >이 메서드로 인해 네트워크 호출이 차단될 수 있습니다. 시간이 중요한 스레드에 대해서는 호출하지 마십시오.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -66,7 +66,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
 
       >[!IMPORTANT]
       >
-      >This method can cause a blocking network call and should **not** be called from a UI thread.
+      >이 메서드로 인해 네트워크 호출이 차단될 수 있으므로 UI 스레드에서 호출해서는 **안 됩니다**.
 
 * **syncIdentifiers**
 
@@ -149,7 +149,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
 
 * **getUrlVariablesAsync**
 
-   버전 4.16.0에서 도입된 이 메서드는 방문자 ID 서비스 URL 변수를 포함하는 적절한 형식의 문자열을 반환합니다. 이 방법을 사용하는 방법에 대한 자세한 내용은 Adobe Experience [Platform ID 서비스 메서드를](/help/android/reference/hybrid-app.md)참조하십시오.
+   버전 4.16.0에서 도입된 이 메서드는 방문자 ID 서비스 URL 변수를 포함하는 적절한 형식의 문자열을 반환합니다. 이 메서드를 사용하는 방법에 대한 자세한 내용은 [Adobe Experience Platform ID 서비스 메서드](/help/android/reference/hybrid-app.md)를 참조하십시오.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -170,7 +170,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
       });
       ```
 
-## Public methods {#section_8AC744B431A3438C9B45629CA3EA0F51}
+## 공용 메서드 {#section_8AC744B431A3438C9B45629CA3EA0F51}
 
 ```java
 public class VisitorID { 
