@@ -5,22 +5,22 @@ seo-title: 포스트백 예시
 solution: Marketing Cloud,Analytics
 title: 포스트백 예시
 topic: 개발자 및 구현
-uuid: 809c5646-7a80-4 파섹
-translation-type: tm+mt
+uuid: 809c5646-7a80-40df-984b-0af89d854259
+translation-type: ht
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 ---
 
 
-# Postback example {#postback-example}
+# 포스트백 예시 {#postback-example}
 
 포스트백 기능에 대한 정의 및 소스 코드 예입니다.
 
 >[!CAUTION]
 >
->This example is provided for informational purposes only. `ADBMobileConfig.json` 파일은 Adobe Mobile UI에서 구성해야 하며 수동으로 수정하면 안 됩니다. 수동으로 편집한 구성 파일은 원격 메시지 구성이 활성화되었을 경우 위험할 수 있습니다.
+>이 예는 정보 제공 용도로만 제공됩니다. `ADBMobileConfig.json` 파일은 Adobe Mobile UI에서 구성해야 하며 수동으로 수정하면 안 됩니다. 수동으로 편집한 구성 파일은 원격 메시지 구성이 활성화되었을 경우 위험할 수 있습니다.
 
-## ADBMobileConfig.json definition {#section_0F6EC001AB6D488E815F50C7F5DA022E}
+## ADBMobileConfig.json 정의 {#section_0F6EC001AB6D488E815F50C7F5DA022E}
 
 ```js
 "messages": [ 
@@ -51,13 +51,13 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 ] 
 ```
 
-## Code sample {#section_8169B88A2C634CB788DA574EE8C4B1DC}
+## 코드 샘플 {#section_8169B88A2C634CB788DA574EE8C4B1DC}
 
 ```objective-c
 NSDictionary *contextData = @{@"user.name":@"bob", @"user.zip":@"90210"}; 
 [ADBMobile trackState:@"MainMenu" data:contextData];
 ```
 
-Because its state is `“MainMenu”`, this tracking call triggers the above postback message. The URL replaces all template variables with values from the hit. 사용자의 이전 세션이 132초이고 해당 사용자가 iOS SDK 버전 4.6.0을 사용하고 있다고 가정할 때 다음은 결과 URL의 예입니다.
+상태가 `“MainMenu”`이므로 이 추적 호출은 위의 포스트백 메시지를 트리거합니다. 이 URL은 모든 템플릿 변수를 히트의 값으로 대체합니다. 사용자의 이전 세션이 132초이고 사용자가 iOS SDK 버전 4.6.0을 사용하고 있다고 가정할 때 다음은 결과 URL의 예입니다.
 
 `https://my.server.com/?user=bob&zip=90210&c16=4.6.0-iOS&c27=cln,132`
