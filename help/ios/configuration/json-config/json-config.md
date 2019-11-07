@@ -6,17 +6,17 @@ solution: Marketing Cloud,Analytics
 title: ADBMobile JSON 구성
 topic: 개발자 및 구현
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 ---
 
 
-# ADBMobile JSON config {#adbmobile-json-config}
+# ADBMobile JSON 구성 {#adbmobile-json-config}
 
 다음은 `ADBMobile.json` 구성 파일을 사용하는 데 유용한 정보입니다.
 
-## ADBMobileConfig.json config file reference {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
+## ADBMobileConfig.json 구성 파일 참조 {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
 
 여러 플랫폼에서 동일한 설정 파일을 앱에 사용할 수 있습니다.
 
@@ -36,7 +36,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 * **analyticsForwardingEnabled**
 
-   `audienceManager` 개체의 속성입니다. If `Audience Manager` is configured and `analyticsForwardingEnabled` is set to `true`, all Analytics traffic is also forwarded to Audience Manager. 기본값은 `false`입니다.
+   `audienceManager` 개체의 속성입니다. `Audience Manager`가 구성되어 있고 `analyticsForwardingEnabled`가 `true`로 설정된 경우 모든 Analytics 트래픽도 Audience Manager로 전달됩니다. 기본값은 `false`입니다.
 
    * 최소 SDK 버전: 4.8.0
 
@@ -46,7 +46,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
    세션 정보 히트는 현재 충돌과 세션 길이로 구성되며 활성화 또는 비활성화할 수 있습니다.
 
-   * 값을 `false`로 설정한 경우 히트가 **비활성화**&#x200B;됩니다.
+   * 이 값을 `false`로 설정한 경우 히트가 **비활성화**&#x200B;됩니다. 
 
       SDK는 이전 세션에 대한 세션 정보를 이후 세션의 첫 번째 히트와 함께 일괄 처리하는 4.1 이전 동작으로 돌아갑니다. 또한 Adobe SDK는 세션 정보를 현재 라이프사이클에 첨부하여 과도한 방문이 발생하지 않도록 합니다. 과도한 방문이 더 이상 생성되지 않으므로 방문 횟수가 즉시 줄어듭니다.
 
@@ -57,20 +57,20 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * 최소 SDK 버전: 4.6
    >[!IMPORTANT]
    >
-   >백데이트된 세션 히트 정보는 세션 정보 서버 호출에서 전송되며 추가 서버 호출이 적용될 수 있습니다.
+   >오래된 세션 히트 정보는 세션 정보 서버 호출 시 전송되며, 추가 서버 호출이 적용될 수 있습니다.
 
 
 * **batchLimit**
 
    연속적인 호출 시 전송할 히트 수에 대한 임계값입니다. 예를 들어 `batchLimit`이 10으로 설정되면 10번째 히트 전에 발생한 각 히트가 큐에 저장됩니다. 10번째 히트가 들어오면 10개의 히트가 모두 연속적으로 전송됩니다.
 
-   * Default value is `0`, which means that batching is not enabled.
-   * Requires .`offlineEnabled = true`
+   * 기본값은 `0`이며, 이 경우 일괄 처리를 사용할 수 없습니다.
+   * `offlineEnabled = true`가 필요합니다.
    * 최소 SDK 버전: 4.1
 
 * **charset**
 
-   Analytics로 전송되는 데이터에 사용하는 문자 세트를 정의합니다. charset은 들어오는 데이터를 저장 및 보고용으로 UTF-8로 변환하는 데 사용됩니다. For more information, see [s.charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html).
+   Analytics로 전송되는 데이터에 사용하는 문자 세트를 정의합니다. charset은 들어오는 데이터를 저장 및 보고용으로 UTF-8로 변환하는 데 사용됩니다. 자세한 내용은 [s.charSet](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/charset.html)을 참조하십시오.
 
    * 최소 SDK 버전: 4.0
 
@@ -80,7 +80,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
    >[!IMPORTANT]
    >
-   >이 변수는 Target에서 필요합니다.
+   >이 변수는 Target에 필수입니다.
 
    * 최소 SDK 버전: 4.0
 
@@ -90,13 +90,13 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
    다음 정보를 숙지하십시오.
 
-   * When `coopUnsafe` is set to `true`, `coop_unsafe=1` will always be appended to Audience Manager and Visitor ID hits.
+   * `coopUnsafe`가 `true`로 설정되면 `coop_unsafe=1`이 항상 Audience Manager 및 방문자 ID 히트에 추가됩니다.
    * Audience Manager에 Analytics 서버측 전달을 활성화하는 경우, Analytics 조회수에 `coop_unsafe=1`이 표시됩니다.
    다음은 몇 가지 추가 정보입니다.
 
    * 최소 SDK 버전: 4.16.1
-   * The Boolean property of the `marketingCloud` object that, when set to `true`, causes the device to be opted-out of the Experience Cloud's Device Co-Op.
-   * Default value is `false`.
+   * `marketingCloud`로 설정된 경우 `true` 개체의 부울 속성으로 인해 장치가 Experience Cloud의 Device Co-Op에서 옵트아웃됩니다.
+   * 기본값은 `false`입니다.
    * 이 설정은 Device Co-op 프로비저닝 고객&#x200B;**에게만** 사용됩니다.
 
 
@@ -128,7 +128,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    다음은 몇 가지 중요한 정보입니다.
 
    * 보고서 세트에서 타임스탬프가 활성화된 경우 `offlineEnabled` 구성 속성이 *true*&#x200B;이어야 합니다.
-   * If your report suite is not timestamp enabled, your `offlineEnabled` configuration property *must* be false.
+   * 보고서 세트에서 타임스탬프가 사용되지 않는 경우에는 `offlineEnabled` 구성 속성이 *반드시* false여야 합니다.
 
       이 속성이 제대로 구성되지 않으면 데이터가 손실됩니다. 보고서 세트 타임 스탬프 활성화 여부가 확실치 않으면 Customer Care에 문의하거나 Adobe Mobile Services에서 구성 파일을 다운로드하십시오. 현재 JavaScript의 데이터도 수집하는 보고서 세트에 AppMeasurement 데이터를 보고하는 경우, 모바일 데이터에 별도의 보고서 세트를 설정하거나 `s.timestamp` 변수를 사용하는 모든 JavaScript 히트에 사용자 지정 타임스탬프를 포함해야 할 수도 있습니다.
 
@@ -160,7 +160,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    “analytics.poi”: “`https://assets.adobedtm.com/…/yourfile.json`”,
    ```
 
-   이 설정을 구성하지 않으면 이 행을 포함하도록 `ADBMobile.json` 파일을 업데이트해야 합니다. To download an updated configuration file, see Before you start.[](/help/ios/getting-started/requirements.md)
+   이 설정을 구성하지 않으면 이 행을 포함하도록 `ADBMobile.json` 파일을 업데이트해야 합니다. 업데이트된 구성 파일을 다운로드하려면 [시작하기 전에](/help/ios/getting-started/requirements.md)를 참조하십시오.
 
 * **postback**
 
@@ -174,7 +174,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
        "timeout": 0 //optional-number of seconds to wait before timingout.Defaultis2.}
    ```
 
-   The `payload` object in the code is an example payload for a message definition that would go in the `ADBMobileConfig.json` file. For more information, see [Postbacks](/help/ios/analytics-main/postback/postback.md).
+   코드에서 `payload` 개체는 `ADBMobileConfig.json` 파일에 적용할 메시지 정의에 대한 예제 페이로드입니다. 자세한 내용은 [포스트백](/help/ios/analytics-main/postback/postback.md)을 참조하십시오.
 
    * 최소 SDK 버전: 4.6
 
@@ -184,7 +184,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * `optedout`의 경우 히트가 삭제됩니다.
    * `optunknown`의 경우 보고서 세트에 타임스탬프가 사용되면 개인정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다.
 
-      보고서 세트에 타임스탬프가 사용되지 않으면 개인정보 상태가 옵트인으로 변경될 때까지 히트가 삭제됩니다.
+      보고서 세트에 타임스탬프가 활성화되어 있지 않을 경우 개인정보 상태가 옵트인으로 변경될 때까지 히트가 삭제됩니다.
 
       초기값만 설정됩니다. 코드에서 이 값을 설정하거나 변경하고 나면 해당 값을 다시 변경하거나 앱을 제거하고 다시 설치할 때까지 새 값이 사용됩니다. 기본값은 `optedin`입니다.
 
@@ -196,7 +196,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
    >[!IMPORTANT]
    >
-   >이 변수는 획득에 필요합니다. If the variable is set to `0`, or is not included, the SDK does not wait for acquisition data, and acquisition metrics are not tracked.
+   >고객 확보의 경우 이 변수는 필수입니다. 이 변수를 `0`으로 설정하거나 이 변수를 포함하지 않는 경우 SDK는 획득 데이터를 기다리지 않고 획득 지표가 추적되지 않습니다.
 
    * 최소 SDK 버전: 4.1
 
@@ -224,7 +224,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
    >[!IMPORTANT]
    >
-   >이 변수는 Analytics에 필요합니다.
+   >Analytics의 경우 이 변수는 필수입니다.
 
    * 최소 SDK 버전: 4.0
 
@@ -232,13 +232,13 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
    Analytics 또는 고객 관리 서버로, 상위 노드를 기반으로 합니다.
 
-   This variable should be populated with the server domain, without an `https://` or `https://` protocol prefix. 이 접두사는 라이브러리에서 자동으로 처리되며 `ssl` 변수를 기반으로 합니다.
+   이 변수는 `https://` 또는 `https://` 프로토콜 접두사 없이 서버 도메인으로 채워야 합니다. 이 접두사는 라이브러리에서 자동으로 처리되며 `ssl` 변수를 기반으로 합니다.
 
    `ssl`이 `true`이면 이 서버에 보안 연결이 설정됩니다. `ssl`이 `false`이면 이 서버에 비보안 연결이 설정됩니다.
 
    >[!IMPORTANT]
    >
-   >이 변수는 Analytics 및/또는 고객 관리에서 필요합니다.
+   >Analytics 및/또는 고객 관리의 경우 이 변수는 필수입니다.
 
    * 최소 SDK 버전: 4.0
 
@@ -256,7 +256,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
        "timeout":0//optional-numberofsecondstowaitbeforetimingout.Defaultis2.} 
    ```
 
-   The `payload` object in the code is an sample payload for a message definition that goes in the `ADBMobileConfig.json` file. For more information, see [Postbacks](/help/ios/analytics-main/postback/postback.md).
+   코드에서 `payload` 개체는 `ADBMobileConfig.json` 파일에 적용할 메시지 정의에 대한 샘플 페이로드입니다. 자세한 내용은 [포스트백](/help/ios/analytics-main/postback/postback.md)을 참조하십시오.
 
    * 최소 SDK 버전: 4.0
 
@@ -267,7 +267,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * 최소 SDK 버전: 4.0
 
 
-## Sample `ADBMobileConfig.json` file {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
+## 샘플 `ADBMobileConfig.json` 파일 {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
 
 다음은 `ADBMobileConfig.json` 파일 샘플입니다.
 
@@ -362,7 +362,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * "altImage"
 
       * 전체 화면 전용, 선택 사항
-      * URL이
+      * 
          `image` 에 지정된 URL에 연결할 수 없는 경우 번들 이미지의 이름
    * "title"
 
