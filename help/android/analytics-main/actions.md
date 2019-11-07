@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: 앱 작업 추적
 topic: 개발자 및 구현
 uuid: fe01c1df-f6bb-4b32-b3ef-959d2c724af6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 각 작업에는 이벤트가 발생할 때마다 늘어나는 하나 이상의 해당 지표가 있습니다. 예를 들어 문서를 볼 때마다 또는 수준이 완료될 때마다 각각의 새 가입에 대한 `trackAction` 호출을 보낼 수 있습니다. 작업이 자동으로 추적되지 않으므로 추적하려는 이벤트가 발생할 때 `trackAction`을 호출한 다음 사용자 지정 이벤트에 해당 작업을 매핑해야 합니다.
 
-## Tracking actions {#section_380DF56C4EE4432A823940E4AE4C9E91}
+## 작업 추적 {#section_380DF56C4EE4432A823940E4AE4C9E91}
 
 1. 프로젝트에 라이브러리를 추가하고 라이프사이클을 구현합니다.
 
-   자세한 내용은 코어 *구현 및 라이프사이클에서 IntelliJ IDEA 또는 Eclipse 프로젝트에* SDK 및 구성 파일 [추가를 참조하십시오](/help/android/getting-started/dev-qs.md).
+   자세한 내용은 [핵심 구현 및 라이프사이클](/help/android/getting-started/dev-qs.md)에서 *IntelliJ IDEA 또는 Eclipse 프로젝트에 SDK 및 구성 파일 추가*&#x200B;를 참조하십시오.
 
 1. 라이브러리를 가져옵니다:
 
@@ -43,11 +43,11 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
    ![](assets/map-event-context-data.png)
 
-You can also set a prop to hold all action values by mapping a custom prop with a name like **[!UICONTROL Custom Actions]** and setting the value to `a.action`.
+**[!UICONTROL 사용자 지정 작업]**&#x200B;과 같은 이름으로 사용자 지정 prop을 매핑하고 값을 `a.action`으로 설정하여 모든 작업 값을 유지할 prop을 설정할 수도 있습니다.
 
 ![](assets/map-custom-prop.png)
 
-## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## 추가 데이터 보내기 {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 작업 이름 외에도 각 작업 추적 호출로 추가 컨텍스트 데이터를 전송할 수 있습니다.
 
@@ -61,7 +61,7 @@ Analytics.trackAction("myapp.SocialShare", exampleContextData);
 
 ![](assets/map-variable-context-action.png)
 
-## Action reporting {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
+## 작업 보고 {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
 
 | 인터페이스 | 보고서 |
 |--- |--- |
