@@ -1,27 +1,27 @@
 ---
-description: Adobe Mobile Services에서 고유한 추적 코드가 있는 획득 링크를 생성할 수 있습니다. When a user downloads and runs an app from the App store after clicking on the generated link, the SDK automatically collects and sends the acquisition data to Adobe Mobile services.
-keywords: android;library;mobile;sdk
-seo-description: Adobe Mobile Services에서 고유한 추적 코드가 있는 획득 링크를 생성할 수 있습니다. 사용자가 생성된 링크를 클릭한 후 App Store에서 앱을 다운로드하고 실행하면 SDK는 자동으로 획득 데이터를 수집하여 Adobe Mobile Services로 전송합니다.
+description: Adobe Mobile Services에서 고유한 추적 코드가 있는 획득 링크를 생성할 수 있습니다. 사용자가 생성된 링크를 클릭한 후 앱스토어에서 앱을 다운로드하여 실행하면 SDK에서 자동으로 획득 데이터를 수집하여 Adobe Mobile Services로 보냅니다.
+keywords: android;라이브러리;모바일;sdk
+seo-description: Adobe Mobile Services에서 고유한 추적 코드가 있는 획득 링크를 생성할 수 있습니다. 사용자가 생성된 링크를 클릭한 후 앱스토어에서 앱을 다운로드하여 실행하면 SDK에서 자동으로 획득 데이터를 수집하여 Adobe Mobile Services로 보냅니다.
 seo-title: 모바일 앱 획득
 solution: Marketing Cloud,Analytics
 title: 모바일 앱 획득
 topic: 개발자 및 구현
 uuid: 4d32eae9-e856-4e40-8a29-2b5bccd106e0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 ---
 
 
-# Mobile app acquisition {#mobile-app-acquisition}
+# 모바일 앱 획득 {#mobile-app-acquisition}
 
-Adobe Mobile Services에서 고유한 추적 코드가 있는 획득 링크를 생성할 수 있습니다. 사용자가 생성된 링크를 클릭한 후 App Store에서 앱을 다운로드하고 실행하면 SDK는 자동으로 획득 데이터를 수집하여 Adobe Mobile Services로 전송합니다.
+Adobe Mobile Services에서 고유한 추적 코드가 있는 획득 링크를 생성할 수 있습니다. 사용자가 생성된 링크를 클릭한 후 앱스토어에서 앱을 다운로드하여 실행하면 SDK에서 자동으로 획득 데이터를 수집하여 Adobe Mobile Services로 보냅니다.
 
 ## 새로운 Adobe Experience Platform Mobile SDK 릴리스
 
 Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
 
-2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html)를 통해 구성할 수 있습니다.
+2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/kr/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
 * 시작하려면 Adobe Experience Platform Launch로 이동합니다.
 * Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)로 이동하십시오.
@@ -30,7 +30,7 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 >
 >획득을 사용하려면 **반드시** SDK 버전 4.1 이상이 있어야 합니다.
 
-획득 링크는 Adobe Mobile Services에서 만들어야 합니다. For more information, see [Acquisition](/help/using/acquisition-main/acquisition-main.md).
+획득 링크는 Adobe Mobile Services에서 만들어야 합니다. 자세한 내용은 [획득](/help/using/acquisition-main/acquisition-main.md)을 참조하십시오.
 
 **SDK 버전 4.13.1 이상**:
 
@@ -44,11 +44,11 @@ Adobe Mobile Services에서 생성된 획득 링크를 사용할 수 없는 경�
 
 * 사용자가 Google Play 스토어를 통해 앱을 다운로드하고 실행하면 레퍼러의 데이터가 획득되어 Adobe Mobile Services로 전송됩니다.
 
-   * The data is stored and available in the `AdobeDataCallback` instance that was registered earlier with the SDK.
+   * 데이터는 저장되고 SDK와 함께 이전에 등록된 `AdobeDataCallback` 인스턴스에서 사용할 수 있습니다.
 
-      자세한 내용은 구성 [방법을 참조하십시오](/help/android/configuration/methods.md).
+      자세한 내용은 [구성 메서드](/help/android/configuration/methods.md)를 참조하십시오.
 
-   * 또는 `MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL` 이벤트 `MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH` 유형이 사용됩니다.
+   * `MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL` 또는 `MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH` 이벤트 유형이 사용됩니다.
 
    * Google Play에서 획득한 데이터의 일부인 사용자 지정 키의 이름은 "`a.acquisition.custom.`"."으로 지정됩니다.
 
@@ -56,23 +56,23 @@ Adobe Mobile Services에서 만든 획득 링크를 사용하는 경우 다음 �
 
 1. 획득 변수 접두사로 "`adb`"를 사용합니다.
 
-   When the SDK receives the acquisition data from Adobe Mobile Services (on first launch), that data will be stored and also available in the `AdobeDataCallback` instance registered earlier with the SDK, as mentioned in [Configuration Methods](/help/android/configuration/methods.md).
+   SDK가 Adobe Mobile Services를 처음 시작할 때 획득 데이터를 받으면 해당 데이터가 저장되며 SDK와 함께 이전에 등록된 `AdobeDataCallback` 인스턴스에서도 사용할 수 있습니다. 자세한 내용은 [구성 메서드](/help/android/configuration/methods.md)에 나와 있습니다.
 
-1. 또는 `MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL` 이벤트 `MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH` 유형이 사용됩니다.
+1. `MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL` 또는 `MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH` 이벤트 유형이 사용됩니다.
 
-1. The custom data keys are prefixed with "`a.acquisition.custom.`"
+1. 사용자 지정 데이터 키의 접두사로 "`a.acquisition.custom.`"이 사용됩니다.
 
 >[!TIP]
 >
->If you are sending data to multiple report suites, use the acquisition data from the app that is associated with the first report suite in your list of report suite IDs.
+>여러 보고서 세트로 데이터를 보내는 경우 보고서 세트 ID 목록의 첫 번째 보고서 세트와 연결된 앱의 획득 데이터를 사용하십시오.
 
 이 섹션의 업데이트를 통해 SDK는 획득 링크에서 획득 데이터를 전송할 수 있습니다.
 
-## Tracking mobile acquisition {#section_CEA30C652AC8470784B8054E299B80FA}
+## 모바일 획득 추적 {#section_CEA30C652AC8470784B8054E299B80FA}
 
-1. 프로젝트에 라이브러리[을(를) 추가하고 라이프사이클을 구현합니다.
+1. 프로젝트에 라이브러리를 추가하고 라이프사이클을 구현합니다.
 
-   자세한 내용은 코어 *구현 및 라이프사이클에서 IntelliJ IDEA 또는 Eclipse 프로젝트에* SDK 및 구성 파일 [추가를 참조하십시오](/help/android/getting-started/dev-qs.md).
+   자세한 내용은 [핵심 구현 및 라이프사이클](/help/android/getting-started/dev-qs.md)에서 *IntelliJ IDEA 또는 Eclipse 프로젝트에 SDK 및 구성 파일 추가*&#x200B;를 참조하십시오.
 
 1. 라이브러리를 가져옵니다:
 
@@ -107,7 +107,7 @@ Adobe Mobile Services에서 만든 획득 링크를 사용하는 경우 다음 �
    </receiver>
    ```
 
-1. Verify that the `ADBMobileConfig.json` file contains the required acquisition settings:
+1. `ADBMobileConfig.json` 파일에 필요한 획득 설정이 포함되어 있는지 확인합니다.
 
    ```xml
    "acquisition": { 
@@ -123,7 +123,7 @@ Adobe Mobile Services에서 만든 획득 링크를 사용하는 경우 다음 �
    >
    > 여러 보고서 세트로 데이터를 보내는 경우 보고서 세트 ID 목록의 첫 번째 보고서 세트와 연결된 앱의 획득 설정(획득 서버 및 appid)을 사용하십시오.
 
-   `acquisition` 설정은 Adobe Mobile Services에 의해 생성되므로 변경해서는 안 됩니다. For more information about how to download a customized `ADBMobileConfig.json` file with the `acquisition` settings pre-configured, see [Before You Start](/help/android/getting-started/requirements.md).
+   `acquisition` 설정은 Adobe Mobile Services에 의해 생성되므로 변경해서는 안 됩니다. `acquisition` 설정이 미리 구성된 사용자 지정 `ADBMobileConfig.json` 파일을 다운로드하는 방법에 대한 자세한 내용은 [시작하기 전에](/help/android/getting-started/requirements.md)를 참조하십시오.
 
 이 설정을 사용하면 첫 번째 앱 시작 이후 초기 라이프사이클 호출과 함께 획득 데이터가 자동으로 전송됩니다.
 
