@@ -1,28 +1,28 @@
 ---
-description: The following instructions help you roundtrip an acquisition campaign with a Marketing Link on an Android device.
-keywords: android;library;mobile;sdk
-seo-description: The following instructions help you roundtrip an acquisition campaign with a Marketing Link on an Android device.
+description: 다음은 Android 장치에서 마케팅 링크가 포함된 획득 캠페인을 왕복하는 데 유용한 정보입니다.
+keywords: android;라이브러리;모바일;sdk
+seo-description: 다음은 Android 장치에서 마케팅 링크가 포함된 획득 캠페인을 왕복하는 데 유용한 정보입니다.
 seo-title: 마케팅 링크 획득 테스트
 solution: Marketing Cloud,Analytics
 title: 마케팅 링크 획득 테스트
 topic: 개발자 및 구현
-uuid: d0933dcc-8fc3-4f60-987f-7a5459aacf5
-translation-type: tm+mt
+uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
 
 
-# Testing Marketing Link acquisition {#testing-marketing-link-acquisition}
+# 마케팅 링크 획득 테스트 {#testing-marketing-link-acquisition}
 
-다음 지침은 Android 장치에서 Marketing Link를 사용하여 획득 캠페인을 양방향 탐색하는 데 도움이 됩니다.
+다음은 Android 장치에서 마케팅 링크가 포함된 획득 캠페인을 왕복하는 데 유용한 정보입니다.
 
-If your mobile app is not yet in Google Play, you can select any mobile app as a destination when creating the Marketing Link. 이 작업은 획득 링크를 클릭한 후 획득 서버가 사용자를 리디렉션하는 앱에만 영향을 주며, 획득 링크를 테스트하는 기능에는 영향을 주지 않습니다. 쿼리 문자열 매개 변수는 Google Play 스토어에 전달되며, 설치할 때 캠페인 브로드캐스트의 일부로 앱에 전달됩니다. 왕복 모바일 앱 획득 테스트에는 이러한 유형의 브로드캐스트 시뮬레이션이 필요합니다.
+모바일 앱이 아직 Google Play에 없을 경우 마케팅 링크를 생성할 때 모바일 앱을 대상으로 선택할 수 있습니다. 이 작업은 획득 링크를 클릭한 후 획득 서버가 사용자를 리디렉션하는 앱에만 영향을 주며, 획득 링크를 테스트하는 기능에는 영향을 주지 않습니다. 쿼리 문자열 매개 변수는 Google Play 스토어에 전달되며, 설치할 때 캠페인 브로드캐스트의 일부로 앱에 전달됩니다. 왕복 모바일 앱 획득 테스트에는 이러한 유형의 브로드캐스트 시뮬레이션이 필요합니다.
 
-The app must be freshly installed, or have data cleared in **[!UICONTROL Settings]**, each time a test is run. 이렇게 하면 앱을 처음 시작할 때 캠페인 쿼리 문자열 매개 변수와 연결된 초기 라이프사이클 지표를 전달할 수 있습니다.
+테스트가 실행될 때마다 앱을 새로 설치하거나 **[!UICONTROL 설정]**&#x200B;에서 데이터를 지워야 합니다. 이렇게 하면 앱을 처음 시작할 때 캠페인 쿼리 문자열 매개 변수와 연결된 초기 라이프사이클 지표를 전달할 수 있습니다.
 
-1. 모바일 앱 획득에서 [사전 요구](/help/android/acquisition-main/acquisition.md) 작업을 완료하고 브로드캐스트 수신기를 올바르게 구현했는지 확인합니다 `INSTALL_REFERRER`.
-1. In the Adobe Mobile Services] UI, click  **[!UICONTROL Acquisition]** &gt; **[!UICONTROL Marketing Links Builder]** and generate an Acquisition Marketing Link URL that sets Google Play as the destination for Android devices.
+1. [모바일 앱 획득](/help/android/acquisition-main/acquisition.md)에서 사전 요구 작업을 완료하고 `INSTALL_REFERRER`에 대한 브로드캐스트 수신기를 올바르게 구현했는지 확인합니다.
+1. Adobe Mobile Services UI에서 **[!UICONTROL 획득]** &gt; **[!UICONTROL 마케팅 링크 빌더]**&#x200B;를 클릭하고 Google Play를 Android 장치의 대상으로 설정하는 획득 마케팅 링크 URL을 생성합니다.
 
    자세한 정보는 [마케팅 링크 빌더](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md)를 참조하십시오.
 
@@ -36,9 +36,9 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
    `https://play.google.com/store/apps/details?id=com.adobe.android&referrer=utm_campaign%3Dadb_acq_v3%26utm_source%3Dadb_acq_v3%26utm_content%3D91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`
 
-1. Copy the unique ID after `utm_content%3D`.
+1. `utm_content%3D` 뒤의 고유 ID를 복사합니다.
 
-   이전 예에서 ID는 `91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`입니다.
+   이전 예에서 이 ID는 `91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`입니다.
 
    장치에서 고유 ID를 가져올 수 없을 경우 바탕 화면에서 다음 `CURL` 명령을 실행하여 응답 문자열에서 고유 ID를 가져옵니다.
 
@@ -69,7 +69,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
    | 설정 | 값 |
    |--- |--- |
-   | acquisition | The server should be `c00.adobe.com`, and      *`appid`*  should equal the `appid` in your acquisition link. |
+   | acquisition | 서버는 `c00.adobe.com`이어야 하고, *`appid`*&#x200B;는 획득 링크에서 `appid`와 같아야 합니다. |
    | analytics | 테스트 목적을 위해 수동으로 브로드캐스트를 전송하는 데 적당한 시간(60초 이상)을 고려하도록 레퍼러 시간제한을 설정하십시오. 테스트 후 원래 시간제한 설정을 복원할 수 있습니다. |
 
 1. 장치를 컴퓨터에 연결하고 앱을 제거한 다음 다시 설치합니다.
@@ -114,7 +114,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
    | Analytics - Unable to decode response(`<string>`). | 응답 형식이 잘못되었습니다. |
    | Analytics - Unable to parse response (`a JSON Response`). | JSON 문자열의 형식이 잘못되었습니다. |
    | Analytics - Unable to parse acquisition service response (no `contextData` parameter in response). | 응답에 `contextData` 매개 변수가 없습니다. |
-   | Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | `a.referrer.campaign.name` is not included in contextData. |
+   | Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | `a.referrer.campaign.name`이 contextData에 포함되어 있지 않습니다. |
    | Analytics - Acquisition referrer timed out. | `referrerTimeout`에 정의된 시간 내에 응답을 가져오지 못했습니다. 값을 늘린 다음 다시 시도하십시오.  또한 앱을 설치하기 전에 획득 링크를 열었는지 확인해야 합니다. |
 
 다음 정보를 숙지하십시오.
@@ -127,7 +127,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
 Java 도구를 설치하려면
 
-1. Download the [`acquistionTester.zip`](../assets/acquisitionTester.zip) file.
+1. [`acquistionTester.zip`](../assets/acquisitionTester.zip) 파일을 다운로드합니다.
 1. .jar 파일의 압축을 풉니다.
 
    명령줄에서 .jar 파일을 실행할 수 있습니다.
@@ -138,4 +138,4 @@ Java 도구를 설치하려면
 java -jar acquisitionTester.jar -a com.adobe.test -r com.adobe.test.ReferrerReceiver -l "https://c00.adobe.com/v3/appid/start?a_i_id=123456&a_g_id=com.adobe.test&a_dd=i&ctxa.referrer.campaign.name=name&ctxa.referrer.campaign.trackingcode=1234
 ```
 
-마케팅 링크는 10분 만료 시간과 함께 서버측에서 캐시됩니다. 표시 링크를 변경할 때 링크를 다시 사용하기 전에 변경 사항이 적용되도록 10분 정도 기다리십시오.
+마케팅 링크는 서버 측에 캐시되며 만료 시간은 10분입니다. 표시 링크를 변경할 때 링크를 다시 사용하기 전에 변경 사항이 적용되도록 10분 정도 기다리십시오.
