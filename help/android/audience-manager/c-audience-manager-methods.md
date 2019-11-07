@@ -1,23 +1,23 @@
 ---
 description: 다음은 Android 라이브러리에서 제공하는 Audience Manager 메서드 목록입니다.
-keywords: android;library;mobile;sdk
+keywords: android;라이브러리;모바일;sdk
 seo-description: 다음은 Android 라이브러리에서 제공하는 Audience Manager 메서드 목록입니다.
 seo-title: Audience Manager 메서드
 solution: Marketing Cloud,Analytics
-title: Audience Manager methods
+title: Audience Manager 메서드
 topic: 개발자 및 구현
 uuid: 2f6e4664-1306-41d4-9fa7-e3a99f1df4ab
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 ---
 
 
-# Audience Manager methods{#audience-manager-methods}
+# Audience Manager 메서드{#audience-manager-methods}
 
 다음은 Android 라이브러리에서 제공하는 Audience Manager 메서드 목록입니다.
 
-The SDK currently supports multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service. Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `audience manager`.
+현재 SDK는 Analytics, Target, Audience Manager 및 Adobe Experience Platform ID 서비스 등 여러 Adobe Experience Cloud 솔루션을 지원합니다. 메서드에는 솔루션에 따라 접두사가 추가됩니다. 예를 들면 Experience Cloud ID 메서드에는 `audience manager` 접두사가 추가됩니다.
 
 Audience Manager가 JSON 파일에 구성되어 있으면 라이프사이클 지표가 포함된 신호가 라이프사이클 히트와 함께 전송됩니다.
 
@@ -73,7 +73,7 @@ Audience Manager가 JSON 파일에 구성되어 있으면 라이프사이클 지
 
    DPID 및 DPUUID를 설정하며 이 값들은 각 신호와 함께 전송됩니다.
 
-   이 메서드에 전달된 DPUUID 값에 URL에 안전하지 않은 문자가 포함된 경우 고객은 매개 변수를 인코딩하여 SDK에 전달해야 합니다.
+   이 메서드에 전달된 DPUUID 값에 URL에 안전하지 않은 문자가 포함된 경우 고객이 매개 변수를 인코딩한 후에 SDK에 전달해야 합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
