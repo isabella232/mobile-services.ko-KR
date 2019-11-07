@@ -2,27 +2,27 @@
 description: 표시 유형(전체 화면, 경고 또는 알림), 텍스트 및 단추 옵션 등 인앱 메시지의 환경 옵션을 구성합니다.
 keywords: mobile
 seo-description: 표시 유형(전체 화면, 경고 또는 알림), 텍스트 및 단추 옵션 등 인앱 메시지의 환경 옵션을 구성합니다.
-seo-title: 경험 인앱 메시지
+seo-title: '환경: 인앱 메시지'
 solution: Marketing Cloud,Analytics
-title: 경험 인앱 메시지
+title: '환경: 인앱 메시지'
 topic: 지표
 uuid: 4c6d6756-47fb-4f1b-8338-0b0c9b0fceb0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ---
 
 
-# Experience: in-app message {#experience-in-app-message}
+# 환경: 인앱 메시지 {#experience-in-app-message}
 
 표시 유형(전체 화면, 경고 또는 알림), 텍스트 및 단추 옵션 등 인앱 메시지의 환경 옵션을 구성합니다.
 
-1. In your app, click **[!UICONTROL Messaging]** &gt; **[!UICONTROL Manage Messages]** &gt; **[!UICONTROL Create Message]** &gt; **[!UICONTROL Create In-App]**.
+1. 앱에서 **[!UICONTROL 메시징]** &gt; **[!UICONTROL 메시지 관리]** &gt; **[!UICONTROL 메시지 작성]** &gt; **[!UICONTROL 앱 내 메시지 만들기]**&#x200B;를 클릭합니다.
 1. 환경 페이지에서 메시지 이름을 입력합니다.
 1. **[!UICONTROL 유형]섹션의 필드를 작성합니다.**
 
-   * **[!UICONTROL Type
-Select the message type for your in-app message campaign:]**
+   * **[!UICONTROL 유형]**
+인앱 메시지 캠페인에 대한 메시지 유형을 선택합니다.
 
       * **[!UICONTROL 전체 화면]**
       * **[!UICONTROL 경고]**
@@ -33,7 +33,7 @@ Select the message type for your in-app message campaign:]**
 
       >[!TIP]
       >
-      >This option is displayed only when you select the **[!UICONTROL Full Screen]** message type.
+      >이 옵션은 **[!UICONTROL 전체 화면]** 메시지 유형을 선택한 경우에만 표시됩니다.
 
    * **[!UICONTROL 사용자 지정]**
 
@@ -43,7 +43,7 @@ Select the message type for your in-app message campaign:]**
       1. 샘플 사용자 지정 HTML 컨텐츠를 보려면 **[!UICONTROL 예제 다운로드]를 클릭하십시오.**
       >[!TIP]
       >
-      >This option is displayed only when you select the **[!Full Screen]** message type.
+      >이 옵션은 **[!F전체 화면]** 메시지 유형을 선택한 경우에만 표시됩니다.
 
 
 
@@ -58,11 +58,11 @@ Select the message type for your in-app message campaign:]**
 
    * **[!UICONTROL 이미지 URL]**
 
-      이미지의 URL. If you have sizing issues when using the full-screen template, see *My image does not fit exactly into the space provided by the template* in [Troubleshooting in-app messaging](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md).
+      이미지의 URL. 전체 화면 템플릿을 사용할 때 크기 조절 문제가 발생하면 [인앱 메시징 문제 해결](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md)에서 *내 이미지가 템플릿에서 제공한 공간에 정확히 맞지는 않습니다*&#x200B;를 참조하십시오.
 
    * **[!UICONTROL 번들 이미지]**
 
-      앱 코드 번들에 있는 이미지 경로. 이 옵션은 이미지가 없거나 이미지를 사용할 수 없는 경우에 사용됩니다. 예를 들어, 장치가 오프라인 상태인 경우 이미지를 사용하지 못할 수도 있습니다. If you have sizing issues when using the full-screen template, see *My image does not fit exactly into the space provided by the template* in [Troubleshooting in-app messaging](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md).
+      앱 코드 번들에 있는 이미지 경로. 이 옵션은 이미지가 없거나 이미지를 사용할 수 없는 경우에 사용됩니다. 예를 들어, 장치가 오프라인 상태인 경우 이미지를 사용하지 못할 수도 있습니다. 전체 화면 템플릿을 사용할 때 크기 조절 문제가 발생하면 [인앱 메시징 문제 해결](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md)에서 *내 이미지가 템플릿에서 제공한 공간에 정확히 맞지는 않습니다*&#x200B;를 참조하십시오.
 
 
 1. **[!UICONTROL 텍스트]섹션의 필드를 작성합니다.**
@@ -79,7 +79,7 @@ Select the message type for your in-app message campaign:]**
 
    * **[!UICONTROL 클릭스루 단추]**
 
-      **[!UICONTROL 클릭스루]단추에 대한 레이블입니다.** 이 단추를 누르면 성공적인 클릭스루로 카운트됩니다. 사용자가 대상으로 리디렉션됩니다.
+      **[!UICONTROL 클릭스루]단추에 대한 레이블입니다.** 이 단추를 탭하면 성공한 클릭스루로 계산됩니다. 사용자가 대상으로 리디렉션됩니다.
 
    * **[!UICONTROL 대상]**
 
@@ -87,41 +87,41 @@ Select the message type for your in-app message campaign:]**
 
       이 URL에는 다음 정보가 포함될 수 있습니다.
 
-      * `{userId}`으로 대체되거나 사용자 식별자가 설정되지 않은 경우 비어 있게 됩니다.
-      * `{trackingId}`으로 대체됩니다. 이 값은 *s_vi 쿠키와 관련됨* )
-      * `{messageId}`, which is replaced with the unique ID for the in-app message.
-      * `{lifetimeValue}`, which is replaced with the lifetime value or 0 if no lifetime value exists.
-      Here is an example of tracking the user ID: `https://www.mysite.com?uid={userId}`.
+      * `{userId}`: 사용자 ID로 교체되거나, 사용자 ID가 설정되지 않은 경우 비어 있습니다.
+      * `{trackingId}`: aid(*s_vi* 쿠키와 상관 관계가 있음)로 대체됩니다.
+      * `{messageId}`: 인앱 메시지에 대한 고유한 ID로 대체됩니다.
+      * `{lifetimeValue}`: 라이프타임 값으로 대체되거나, 라이프타임 값이 없는 경우 0으로 대체됩니다.
+      다음은 사용자 ID 추적의 예입니다. `https://www.mysite.com?uid={userId}`
 
-      If the click-through URL uses `https://` or `https://`, the URL opens in the device browser outside the app. 그렇지 않으면 각 플랫폼에서는 앱이 사용자 지정 구성표를 지원하도록 개발된 경우 앱을 열거나 참조할 수 있게 해주는 구성표를 지원합니다.
+      클릭스루 URL에서 `https://` 또는 `https://`를 사용하는 경우 URL이 앱 외부의 장치 브라우저에서 열립니다. 그렇지 않으면 각 플랫폼에서는 앱이 사용자 지정 구성표를 지원하도록 개발된 경우 앱을 열거나 참조할 수 있게 해주는 구성표를 지원합니다.
 
       >[!TIP]
       >
-      >When you use the **[!UICONTROL Web Link]** or **[!UICONTROL Custom Link]** destination types, the destination type is not tracked. **[!UICONTROL 딥링크]만 추적됩니다.** For more information, see [Destinations](/help/using/acquisition-main/c-create-destinations.md).
+      >**[!UICONTROL 웹 링크]** 또는 **[!UICONTROL 사용자 지정 링크]** 대상 유형을 사용하는 경우 대상 유형이 추적되지 않습니다. **[!UICONTROL 딥링크]만 추적됩니다.** 자세한 내용은 [대상](/help/using/acquisition-main/c-create-destinations.md)을 참조하십시오.
 
 
 1. (선택 사항) 다음 아이콘을 클릭하여 메시지 레이아웃을 미리 보기합니다.
 
-   * **[!UICONTROL [요약]** ]은 미리 보기 창을 숨깁니다.
+   * **[!UICONTROL 요약]**&#x200B;은 미리 보기 창을 숨깁니다.
 
-      Click ![preview](assets/icon_preview.png) to redisplay the preview pane.
+      미리 보기 창을 다시 표시하려면 ![미리 보기](assets/icon_preview.png)를 클릭합니다.
 
-   * **[!UICONTROL Change the orientation]**
+   * **[!UICONTROL 방향 변경]**
 
-      To change the orientation of the preview from portrait to landscape mode, click ![orientation](assets/icon_orientation.png). 시계의 경우 방향이 원면에서 정사각형 시계 면으로 변경됩니다.
+      미리 보기 방향을 세로에서 가로 모드로 변경하려면 ![방향](assets/icon_orientation.png)을 클릭합니다. 시계의 경우, 방향이 둥근 시계 면에서 사각 시계 면으로 바뀝니다.
 
-   * **[!UICONTROL Preview on a user's watch]**
+   * **[!UICONTROL 사용자의 시계에서 미리 보기]**
 
-      To preview your message as it will appear on a user's watch, click watch icon.![](assets/icon_watch.png)
+      사용자의 시계에 표시되는 메시지를 미리 보려면 ![시계 아이콘](assets/icon_watch.png)을 클릭합니다.
 
-   * **[!UICONTROL Preview on a user's mobile phone]**
+   * **[!UICONTROL 사용자의 휴대폰에서 미리 보기]**
 
-      To preview your message as it will appear on a users's mobile phone click phone icon.![](assets/icon_phone.png)
+      사용자의 휴대폰에 표시되는 메시지를 미리 보려면 ![전화 아이콘](assets/icon_phone.png)을 클릭합니다.
 
-   * **[!UICONTROL Preview on a user's tablet]**
+   * **[!UICONTROL 사용자의 태블릿에서 미리 보기]**
 
-      To preview your message in a user's tablet, click tablet icon.![](assets/icon_tablet.png)
+      사용자의 태블릿에서 메시지를 미리 보려면 ![태블릿 아이콘](assets/icon_tablet.png)을 클릭합니다.
 
       미리 보기 패널의 맨 아래에서, 이전 단계에서 선택한 대상에 대한 설명을 볼 수 있습니다. 미리 보기 창의 하단에서 이전 단계에서 선택한 대상에 대한 설명을 볼 수도 있습니다.
 
-1. Configure Schedule options.[](/help/using/in-app-messaging/t-in-app-message/c-schedule-in-app-message.md)
+1. [예약 옵션](/help/using/in-app-messaging/t-in-app-message/c-schedule-in-app-message.md)을 구성합니다.
