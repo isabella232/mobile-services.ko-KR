@@ -1,32 +1,32 @@
 ---
 description: 다음은 iOS 라이브러리에서 제공하는 Adobe Analytics 메서드 목록입니다.
 seo-description: 다음은 iOS 라이브러리에서 제공하는 Adobe Analytics 메서드 목록입니다.
-seo-title: 분석 방법
+seo-title: Analytics 메서드
 solution: Marketing Cloud,Analytics
-title: 분석 방법
+title: Analytics 메서드
 topic: 개발자 및 구현
 uuid: d49fe6de-cb32-4b96-9891-c567310e59a6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 ---
 
 
-# Analytics methods {#analytics-methods}
+# Analytics 메서드 {#analytics-methods}
 
 다음은 iOS 라이브러리에서 제공하는 Adobe Analytics 메서드 목록입니다.
 
-The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service. 메서드에는 솔루션에 따라 접두사가 붙습니다. Experience Cloud ID 메서드 앞에는 `track`이 붙습니다.
+현재 SDK는 Analytics, Target, Audience Manager 및 Adobe Experience Platform ID 서비스 등 여러 Adobe Experience Cloud 솔루션을 지원합니다. 메서드에는 솔루션에 따라 접두사가 붙습니다. Experience Cloud ID 메서드 앞에는 `track`이 붙습니다.
 
 이러한 각 메서드는 Adobe Analytics 보고서 세트로 데이터를 전송하는 데 사용됩니다.
 
 * **trackState:&#x200B;data:**
 
-   States are the views that are available in your app, such as `home dashboard`, `app settings`, `cart`, and so on. 이 상태는 웹 사이트의 페이지와 유사하며 `trackState` 호출은 페이지 보기를 증가시킵니다. `state`가 비어 있는 경우 보고서에 *app name app version (build)*&#x200B;이 표시됩니다. 보고서에 이 값이 표시되면 각각의 `state` 호출에서 `trackState`를 반드시 설정해야 합니다.
+   상태는 `home dashboard`, `app settings`, `cart` 등과 같이 앱에서 사용할 수 있는 보기입니다. 이 상태는 웹 사이트의 페이지와 유사하며 `trackState` 호출은 페이지 보기를 증가시킵니다. `state`가 비어 있는 경우 보고서에 *app name app version (build)*&#x200B;이 표시됩니다. 보고서에 이 값이 표시되면 각각의 `state` 호출에서 `trackState`를 반드시 설정해야 합니다.
 
    >[!TIP]
    >
-   >이것은 페이지 보기를 증가시키는 유일한 추적 호출입니다.
+   >페이지 보기 횟수를 늘리는 유일한 추적 호출입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -44,11 +44,11 @@ The SDK currently has support for multiple Adobe Experience Cloud Solutions, inc
 
 * **trackAction:&#x200B;data:**
 
-   앱의 작업을 추적합니다. Actions that you want to measure, such as `logons`, `banner taps`, `feed subscriptions`, and other metrics, occur in your app.
+   앱의 작업을 추적합니다. `logons`, `banner taps`, `feed subscriptions` 및 기타 지표 등 앱에서 발생하여 측정하려는 작업입니다.
 
    >[!TIP]
    >
-   >If you have code that might run while the app is in the background (for example, a background data retrieval), use `trackActionFromBackground` instead.
+   >백그라운드에 앱이 있을 때 실행할 수 있는 코드가 있는 경우(예: 백그라운드 데이터 검색) `trackActionFromBackground`를 대신 사용합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -86,7 +86,7 @@ The SDK currently has support for multiple Adobe Experience Cloud Solutions, inc
 
    >[!TIP]
    >
-   >This method should only be called in code that runs while your app is in the background.
+   >이 메서드는 백그라운드에 앱이 있을 때 실행되는 코드에서만 호출해야 합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -222,7 +222,7 @@ The SDK currently has support for multiple Adobe Experience Cloud Solutions, inc
 
    >[!TIP]
    >
-   >If you provide `block`, you must return `YES` to send a hit. Passing in `nil` for `block` sends the final hit.
+   >`block`을 지정하는 경우 히트를 전송하려면 `YES`를 반환해야 합니다. `block`에 대해 `nil`을 전달하면 최종 히트를 전송합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -263,7 +263,7 @@ The SDK currently has support for multiple Adobe Experience Cloud Solutions, inc
 
 * **trackingSendQueuedHits**
 
-   SDK 4.1이 필요합니다.현재 큐에 있는 히트 수에 관계없이 라이브러리는 오프라인 큐의 모든 히트를 강제로 보냅니다.
+   SDK 4.1이 필요합니다. 현재 큐에 있는 히트 수에 상관없이 라이브러리에서 오프라인 큐의 모든 히트를 강제로 보냅니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -321,7 +321,7 @@ The SDK currently has support for multiple Adobe Experience Cloud Solutions, inc
 
    >[!IMPORTANT]
    >
-   >이 방법은 페이지 보기를 증가시키지 않습니다.
+   >이 방법은 페이지 보기 횟수를 늘리지 않습니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
