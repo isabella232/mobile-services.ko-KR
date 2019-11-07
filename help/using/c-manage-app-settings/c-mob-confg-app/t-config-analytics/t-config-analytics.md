@@ -1,23 +1,23 @@
 ---
-description: 새 앱을 만들거나 기존 앱을 편집하는 동안 [앱 설정 관리] 페이지에서 SDK Analytics 옵션을 구성할 수 있습니다.
+description: 새 앱을 만들거나 기존 앱을 편집하는 동안 앱 설정 관리 페이지에서 SDK Analytics 옵션을 구성할 수 있습니다.
 keywords: mobile
-seo-description: 새 앱을 만들거나 기존 앱을 편집하는 동안 [앱 설정 관리] 페이지에서 SDK Analytics 옵션을 구성할 수 있습니다.
+seo-description: 새 앱을 만들거나 기존 앱을 편집하는 동안 앱 설정 관리 페이지에서 SDK Analytics 옵션을 구성할 수 있습니다.
 seo-title: SDK Analytics 옵션 구성
 solution: Marketing Cloud,Analytics
 title: SDK Analytics 옵션 구성
 topic: 지표
 uuid: fd3a21d2-6560-4e96-92fe-b99caac5e834
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 ---
 
 
-# Configure SDK Analytics options {#configure-sdk-analytics-options}
+# SDK Analytics 옵션 구성 {#configure-sdk-analytics-options}
 
-새 앱을 만들거나 기존 앱을 편집하는 동안 [앱 설정 관리] 페이지에서 SDK Analytics 옵션을 구성할 수 있습니다.
+새 앱을 만들거나 기존 앱을 편집하는 동안 앱 설정 관리 페이지에서 SDK Analytics 옵션을 구성할 수 있습니다.
 
-Type information in the following fields under **[!UICONTROL SDK Analytics Options]**:
+**[!UICONTROL SDK Analytics 옵션]**&#x200B;의 다음 필드에 정보를 입력합니다. 
 
 * **[!UICONTROL HTTPS 사용]**
 
@@ -25,7 +25,7 @@ Type information in the following fields under **[!UICONTROL SDK Analytics Optio
 
 * **[!UICONTROL 세션 히트 소급 적용]**
 
-   Enable or disable the ability for the Adobe SDK to backdate session info hits. 세션 정보 히트는 현재 충돌과 세션 길이로 구성됩니다. 활성화되면, Adobe SDK에서는 세션 정보 히트를 이전 세션의 마지막 히트 다음 1초로 소급 적용합니다. 이는 충돌과 세션 데이터가 충돌과 세션이 발생한 올바른 날짜와 상관 관계를 갖게 됨을 의미합니다. 애플리케이션을 매번 새로 시작할 때마다 하나의 히트가 소급 적용됩니다. 비활성화하면, Adobe SDK에서는 현재 라이프사이클에 세션 정보를 추가합니다.
+   세션 정보 히트를 소급 적용하는 Adobe SDK용 기능을 활성화하거나 비활성화합니다. 세션 정보 히트는 현재 충돌과 세션 길이로 구성됩니다. 활성화되면, Adobe SDK에서는 세션 정보 히트를 이전 세션의 마지막 히트 다음 1초로 소급 적용합니다. 이는 충돌과 세션 데이터가 충돌과 세션이 발생한 올바른 날짜와 상관 관계를 갖게 됨을 의미합니다. 애플리케이션을 매번 새로 시작할 때마다 하나의 히트가 소급 적용됩니다. 비활성화하면, Adobe SDK에서는 현재 라이프사이클에 세션 정보를 추가합니다.
 
 * **[!UICONTROL 개인 정보 보호]**
 
