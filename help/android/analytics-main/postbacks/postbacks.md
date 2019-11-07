@@ -1,13 +1,13 @@
 ---
 description: 포스트백을 사용하면 SDK에서 수집한 데이터를 타사 서버로 전송할 수 있습니다. 인앱 메시지를 표시하는 데 사용하는 것과 동일한 트리거와 트레이트를 이용하면 사용자 지정된 데이터를 타사 대상에 전송하도록 SDK를 구성할 수 있습니다.
-keywords: android;library;mobile;sdk
+keywords: android;라이브러리;모바일;sdk
 seo-description: 포스트백을 사용하면 SDK에서 수집한 데이터를 타사 서버로 전송할 수 있습니다. 인앱 메시지를 표시하는 데 사용하는 것과 동일한 트리거와 트레이트를 이용하면 사용자 지정된 데이터를 타사 대상에 전송하도록 SDK를 구성할 수 있습니다.
 seo-title: 포스트백
 solution: Marketing Cloud,Analytics
 title: 포스트백 개요
 topic: 개발자 및 구현
 uuid: 8bfd4374-2767-421d-891d-e1e9a99b6977
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f26dcd5cf9b19de49c9d034c854d9738c7843fb2
 
 ---
@@ -23,9 +23,9 @@ source-git-commit: f26dcd5cf9b19de49c9d034c854d9738c7843fb2
 
 포스트백 메시지는 큐에 추가되고 분석 데이터 수집을 제어하는 기존의 모든 온라인/오프라인 규칙을 따릅니다. 표시된 메시지의 경우와 같이 메시지가 일치하면 포스트백 메시지는 나머지 메시지를 취소하지 않습니다. 이를 통해 동일한 분석 히트에서 포스트백이 여러 번 발생할 수 있습니다. 정의에 대한 내용은 *포스트백* 행( [ADBMobile JSON 구성](/help/android/configuration/json-config/json-config.md)을 참조하십시오.
 
-## Template expansions {#section_6758AD05A24C4E9E965F5253294C164A}
+## 템플릿 확장 {#section_6758AD05A24C4E9E965F5253294C164A}
 
-Template expansions are available in the `templateurl` and `templatebody` properties. Template items take the form of `{key}`, where `key` is a context data key or traditional data key. The values that are available for template expansion are limited to the [Lifecycle metrics](/help/android/metrics.md), in addition to any custom data that is attached to the hit that triggers the message. 현재 사용할 수 있는 기록 기반 및 세그먼트 기반 데이터가 없습니다.
+템플릿 확장은 `templateurl` 및 `templatebody`속성에서 사용할 수 있습니다. 템플릿 항목은 `{key}`의 형태로 가져옵니다. 여기서 `key`는 컨텍스트 데이터 키 또는 기존 데이터 키입니다. 템플릿 확장에 사용할 수 있는 값은 메시지를 트리거하는 히트에 첨부된 모든 사용자 지정 데이터와 [라이프사이클 지표](/help/android/metrics.md)로 제한됩니다. 현재 사용할 수 있는 기록 기반 및 세그먼트 기반 데이터가 없습니다.
 
 또한 특정 예약 템플릿은 SDK에 알려진 내부 데이터로 자동 대체됩니다.
 
