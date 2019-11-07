@@ -7,19 +7,19 @@ solution: Marketing Cloud,Analytics
 title: 모바일 지표 표시
 topic: 지표
 uuid: 57db0b77-6b0a-4a0c-9aad-0731275233fd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 ---
 
 
-# Display mobile metrics {#display-mobile-metrics}
+# 모바일 지표 표시 {#display-mobile-metrics}
 
 최근에 본 앱의 주요 성능 지표를 표시할 수 있습니다. 기본적으로 최대 12개의 앱을 볼 수 있습니다. 날짜 범위를 변경하고 필터를 작성하여 개요 페이지에서 데이터를 세그먼트화하고 모든 앱을 편집할 수 있습니다.
 
 각 앱에 표시되는 지표는 앱을 만들 때 선택한 주요 지표를 반영합니다. 자세한 내용은 [새 앱 추가](/help/using/manage-apps/t-new-app.md).
 
-If the app you want to view is not displayed, search for it by typing the app's name or by clicking the drop-down list in **[!UICONTROL All Apps]**.
+보려는 앱이 표시되지 않으면 앱 이름을 입력하거나 **[!UICONTROL 모든 앱]**&#x200B;에서 드롭다운 목록을 클릭하여 검색합니다.
 
 개요 페이지에서는 다음 작업을 수행할 수 있습니다.
 
@@ -27,7 +27,7 @@ If the app you want to view is not displayed, search for it by typing the app's 
 
    주요 지표에 대해 이전 30일 간의 데이터가 표시됩니다. 오른쪽 상단에서 달력 아이콘을 클릭하여 변경할 수 있습니다. 드롭다운 목록에서 날짜 범위 또는 미리 결정된 기간을 선택할 수 있습니다.
 
-* **데이터 필터링**
+* **데이터 필터**
 
    각 앱에 대한 데이터를 세그먼트화하도록 필터를 사용할 있습니다.
 
@@ -36,26 +36,26 @@ If the app you want to view is not displayed, search for it by typing the app's 
    필터를 만들려면 다음을 수행하십시오.
 
    1. **[!UICONTROL 필터]** 아이콘을 클릭하여 **고정 필터[!UICONTROL 대화 상자를 표시합니다.]**
-   1. Click **[!UICONTROL Add Rule]**, select an option from the drop-down list, and type the necessary information.
+   1. **[!UICONTROL 규칙 추가]**&#x200B;를 클릭하고 드롭다운 목록에서 옵션을 선택한 다음, 필요한 정보를 입력합니다.
 
-      예를 들어 앱 버전을 선택하고 **[!UICONTROL 버전에]** 대해 `4.5` 입력할 수 있습니다. You could select **[!UICONTROL Device Type]** and type `Android`.
+      예를 들어 **[!UICONTROL 앱 버전]**&#x200B;을 선택하고 버전에 대해 `4.5`를 입력할 수 있습니다. **[!UICONTROL 장치 유형]**&#x200B;을 선택하고 `Android`를 입력합니다.
 
       >[!TIP]
       >
-      >You can create complex filters by using *AND* and *OR* statements.
+      >*AND*&#x200B;와 *OR* 문을 사용하여 복잡한 필터를 만들 수 있습니다.
 
    1. **[!UICONTROL 업데이트를 클릭합니다]**.
    >[!TIP]
    >
-   >A blue bubble displays next to the **[!UICONTROL Filter]** icon to indicate the number of active filters.
+   >**[!UICONTROL 필터]** 아이콘 옆에 활성 필터의 수를 나타내는 파란색 풍선이 표시됩니다.
 
-   To cancel filters, click the **[!UICONTROL Filter]** icon, and click **[!UICONTROL Cancel]**.
+   필터를 취소하려면 **[!UICONTROL 필터]** 아이콘을 클릭한 다음, **[!UICONTROL 취소]**&#x200B;를 클릭합니다.
 
 * **주요 성과 지표 표시**
 
-   앱 이름을 클릭하면 주요 성과 지표에 대한 세부 사항이 표시됩니다. 차트의 선은 컬러로 코딩되어 있으므로, 데이터 포인트를 마우스로 가리키면 특정 날짜에 대한 통계가 표시됩니다. 드릴다운하려면 주요 성능 지표 옆에 있는 **** &gt; 아이콘을 **[!UICONTROL 클릭합니다]**. The lines on the chart are color coded, and you can mouse over any data point to see statistics for specific dates. 데이터를 내림차순 또는 오름차순으로 정렬하려면 표에 있는 열 헤더를 클릭하십시오.
+   앱 이름을 클릭하면 주요 성과 지표에 대한 세부 사항이 표시됩니다. 차트의 선은 컬러로 코딩되어 있으므로, 데이터 포인트를 마우스로 가리키면 특정 날짜에 대한 통계가 표시됩니다. 자세히 살펴보려면 **[!UICONTROL 주요 성능 지표]** 옆에 있는 **** &gt; 아이콘을 클릭합니다. 차트의 선은 컬러로 코딩되어 있으므로, 데이터 포인트를 마우스로 가리키면 특정 날짜에 대한 통계가 표시됩니다. 데이터를 내림차순 또는 오름차순으로 정렬하려면 표에 있는 열 헤더를 클릭하십시오.
 
-## Edit an app's settings {#section_C1CF227A2E534A798F0073E43AD6A2D1}
+## 앱 설정 편집 {#section_C1CF227A2E534A798F0073E43AD6A2D1}
 
 1. 앱 타일에서 톱니바퀴 아이콘을 클릭하여 앱 정보 페이지를 엽니다.
 1. 앱 설정을 편집합니다.
