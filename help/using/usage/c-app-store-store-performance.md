@@ -7,19 +7,19 @@ solution: Marketing Cloud,Analytics
 title: 앱스토어 개요 보고서
 topic: 지표
 uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 ---
 
 
-# App Store Overview report{#app-store-overview-report}
+# 앱스토어 개요 보고서{#app-store-overview-report}
 
 **[!UICONTROL 앱스토어 개요]보고서는 다운로드 수, 인앱 구매, 앱스토어 평균 등급, 다운로드 매출, 인앱 매출, 국가별 다운로드 수, 앱스토어별 다운로드 수, 이름별 인앱 구매를 포함한 앱스토어 측정 지표 스냅숏을 제공합니다.**
 
 >[!TIP]
 >
->In the Mobile Services UI, the **[!UICONTROL App Store]** menu item and **[!UICONTROL Overview]** report appear in the left navigation menu after you configure the integration.
+>통합을 구성하고 나면 Mobile Services UI에서 **[!UICONTROL 앱스토어]** 메뉴 항목 및 **[!UICONTROL 개요]** 보고서가 왼쪽 탐색 메뉴에 표시됩니다.
 
 **[!UICONTROL 개요]보고서에는 앱스토어 다운로드 수, 앱을 사용한 인앱 구매 및 앱 평균 등급 정보를 표시하는 시간 그래프가 포함되어 있습니다.**
 
@@ -29,11 +29,11 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 >[!IMPORTANT]
 >
->Adobe Analytics의 다운로드, 등급, 매출, 등급 등과 같은 앱스토어 지표는 해당 공급업체와 데이터 커넥터 통합이 필요합니다. `appFigures`는 통합을 활성화하기 전에`appFigures` ****&#x200B;에서 적절한 제품이나/또는 서비스 구매를 필요로 하는 통합을 현재 제공합니다. Data Connector에 대한 더 자세한 내용은 [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)를 확인하세요.
+>Adobe Analytics에서 다운로드, 순위, 수익, 평점 등과 같은 앱스토어 지표를 사용하려면 Data Connector와 적절한 공급업체의 통합이 필요합니다. `appFigures`는 통합을 활성화하기 전에`appFigures` ****&#x200B;에서 적절한 제품이나/또는 서비스 구매를 필요로 하는 통합을 현재 제공합니다. Data Connector에 대한 더 자세한 내용은 [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)를 확인하세요.
 
 >[!TIP]
 >
->오른쪽 상단의 달력 아이콘을 클릭하여 보고서의 날짜 범위를 변경하는 것 외에도 일부 드릴다운 보고서를 사용자 정의하고 필터 및 시리즈(지표)를 추가하고 고정 필터를 추가하고 보고서를 PDF 또는 CSV 형식으로 다운로드할 수 있습니다. For more information, see [Customize reports](/help/using/usage/reports-customize/reports-customize.md).
+>오른쪽 상단에 있는 달력 아이콘을 클릭하여 보고서의 날짜 범위를 변경하는 기능 외에도, 드릴다운 보고서의 일부를 사용자 지정하고, 필터 및 시리즈(지표)를 추가하고, 고정 필터를 추가하고, PDF 또는 CSV 형식으로 보고서를 다운로드할 수 있습니다. 자세한 내용은 [보고서 사용자 지정](/help/using/usage/reports-customize/reports-customize.md)을 참조하십시오.
 
 ## 앱스토어 평균 등급 {#section_60D0D21824AE4450BC3E34D7ACA12A7A}
 
@@ -41,7 +41,7 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 ![](assets/app_store_rating.png)
 
-You can click anywhere on the **[!UICONTROL App Store Average Rating]** widget to display a graph and chart that displays the average rating by date. 하루에 대한 데이터를 보려면 해당 날짜를 마우스로 가리킵니다.
+**[!UICONTROL 앱스토어 평균 등급]** 위젯의 아무 곳이나 클릭하여 평균 등급을 날짜별로 나타내는 그래프와 차트를 표시할 수 있습니다. 하루에 대한 데이터를 보려면 해당 날짜를 마우스로 가리킵니다.
 
 ![](assets/app_store_downloads_detail.png)
 
