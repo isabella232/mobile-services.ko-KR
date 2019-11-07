@@ -6,13 +6,13 @@ solution: Marketing Cloud,Analytics
 title: 핵심 구현 및 라이프사이클
 topic: 개발자 및 구현
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4db9781e6e1e75a04d9715a41c5a32c10ede1bf4
 
 ---
 
 
-# Core implementation and lifecycle {#core-implementation-and-lifecycle}
+# 핵심 구현 및 라이프사이클 {#core-implementation-and-lifecycle}
 
 다음은 iOS 라이브러리를 구현하고 시작, 업그레이드, 세션, 참여 사용자 등의 라이프사이클 지표를 수집하는 데 유용한 정보입니다.
 
@@ -20,19 +20,19 @@ source-git-commit: 4db9781e6e1e75a04d9715a41c5a32c10ede1bf4
 
 >[!IMPORTANT]
 >
->To download the SDKs, you **must** use iOS 6 or later.
+>SDK를 다운로드하려면 iOS 6 이상을 사용&#x200B;**해야** 합니다.
 
 **전제 조건**
 
-SDK를 다운로드하기 전에 Core 구현 및 *라이프사이클에서* 보고서 세트 [](/help/ios/getting-started/requirements.md) 만들기의 단계를 완료하여 개발 보고서 세트를 설정하고 미리 채워진 구성 파일 버전을 다운로드합니다.
+SDK를 다운로드하기 전에 [핵심 구현 및 라이프사이클](/help/ios/getting-started/requirements.md)에서 *보고서 세트 생성*&#x200B;의 단계를 완료하여 개발 보고서 세트를 설정하고 미리 채워진 구성 파일 버전을 다운로드합니다.
 
 SDK를 다운로드하려면:
 
-1. Download, unzip the `[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip` file and verify that you have the following software components:
+1. `[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip` 파일을 다운로드하여 압축을 푼 후에 다음 소프트웨어 구성 요소가 있는지 확인합니다.
 
    * `ADBMobile.h`: iOS AppMeasurement용으로 사용되는 Objective-C 헤더 파일입니다.
    * `ADBMobileConfig.json`: 앱에 맞게 사용자 지정된 SDK 구성 파일입니다.
-   * `AdobeMobileLibrary.a`, iOS 장치(armv7, armv7s, arm64) 및 시뮬레이터(i386, x86_64)에 대한 라이브러리 빌드가 포함된 bitcode 지원 지방 바이너리입니다.
+   * `AdobeMobileLibrary.a` iOS 장치(armv7, armv7s, arm64)와 시뮬레이터(i386, x86_64)의 라이브러리 빌드가 포함된 비트코드 사용 패트 바이너리입니다.
 
       iOS 앱이 타겟인 경우 이 패트 바이너리를 연결해야 합니다.
 
@@ -50,9 +50,9 @@ SDK를 다운로드하려면:
 
 >[!IMPORTANT]
 >
->If you download the SDK outside the Adobe Mobile services UI, the `ADBMobileConfig.json` file must be manually configured. If you are new to Analytics and the Mobile SDK, see [Before You Start](/help/ios/getting-started/requirements.md) to set up a development report suite and download a pre-populated version of the configuration file.
+>Adobe Mobile Services UI 외부에서 SDK를 다운로드하는 경우에는 `ADBMobileConfig.json` 파일을 수동으로 구성해야 합니다. Analytics 및 Mobile SDK를 처음 사용하는 경우 [시작하기 전에](/help/ios/getting-started/requirements.md)를 참조하여 개발 보고서 세트를 설정하고 미리 채워진 구성 파일 버전을 다운로드합니다.
 
-## Add the SDK and config file to your project {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
+## 프로젝트에 SDK 및 구성 파일 추가 {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
 
 1. Xcode IDE를 실행하고 앱을 엽니다.
 1. Project Navigator에서 `AdobeMobileLibrary` 폴더를 드래그하여 프로젝트 아래에 놓습니다.
@@ -64,12 +64,12 @@ SDK를 다운로드하려면:
    ![](assets/step_3.png)
 
 1. **[!UICONTROL 마침을 클릭합니다]**.
-1. In **[!UICONTROL Project Navigator]**, select **[!UICONTROL`ADBMobileConfig.json`]**.
-1. In **[!UICONTROL File Inspector]**, add the JSON file to any targets in your project that will use the Adobe SDK.
+1. **[!UICONTROL Project Navigator]**&#x200B;에서 **[!UICONTROL`ADBMobileConfig.json`]**&#x200B;를 선택합니다.
+1. **[!UICONTROL File Inspector]**&#x200B;에서 Adobe SDK를 사용할 프로젝트의 타겟에 JSON 파일을 추가합니다.
 
    ![](assets/step_4.png)
 
-1. In **[!UICONTROL Project Navigator]**, complete the following steps:
+1. **[!UICONTROL Project Navigator]**&#x200B;에서 다음 단계를 완료합니다.
 
    1. 앱을 클릭합니다.
    1. **[!UICONTROL 일반]** 탭에서 타겟을 선택하고 **[!UICONTROL 연결된 프레임워크]및**&#x200B;라이브러리&#x200B;**섹션에서 필요한 프레임워크 및 라이브러리를 연결합니다.**
@@ -78,7 +78,7 @@ SDK를 다운로드하려면:
       * `WebKit.framework`
       * `libsqlite3.0.tbd`
       * `AdobeMobileLibrary.a`
-      * `CoreLocation.framework` (선택 사항이지만 지역 추적 기능에 필요합니다.)
+      * `CoreLocation.framework`(선택 사항이지만 지역 추적 기능에 필요함)
    * **iOS 확장 프로그램 타겟**
 
       * `SystemConfiguration.framework`
@@ -95,19 +95,19 @@ SDK를 다운로드하려면:
       * `AdobeMobileLibrary\_TV.a`
    >[!CAUTION]
    >
-   > Linking more than one `AdobeMobileLibrary*.a` file in the same target will result in unexpected behavior or the inability to build.
+   > 두 개 이상의 `AdobeMobileLibrary*.a` 파일을 동일한 타겟에 연결하면 예기치 않은 동작이 발생하거나 빌드할 수 없게 됩니다.
 
 1. 오류 없이 앱이 빌드되는지 확인합니다.
 
-## Implement lifecycle metrics {#section_532702562A7A43809407C9A2CBA80E1E}
+## 라이프사이클 지표 구현 {#section_532702562A7A43809407C9A2CBA80E1E}
 
 >[!IMPORTANT]
 >
->iOS will send lifecycle information with or without calling `collectlifecycledata`, and `collectlifecycledata` is only a way to initiate lifecycle earlier in the application's launch sequence.
+>iOS는 `collectlifecycledata`를 호출하거나 호출하지 않고 라이프사이클 정보를 전송하며 `collectlifecycledata`는 애플리케이션의 실행 시퀀스에서 이전의 라이프사이클을 시작하는 유일한 방법입니다.
 
-After you enable lifecycle, each time your app is launched, one hit is sent to measure launches, upgrades, sessions, engaged users, and other [Lifecycle Metrics](/help/ios/metrics.md).
+라이프사이클을 사용하면 앱이 시작될 때마다 시작, 업그레이드, 세션, 참여 사용자 및 기타 [라이프사이클 지표](/help/ios/metrics.md)를 측정하기 위해 한 번의 히트가 전송됩니다.
 
-추가 `collectLifecycleData`/ `collectLifecycleDataWithAdditionalData` 호출 `application:didFinishLaunchingWithOptions`:
+`application:didFinishLaunchingWithOptions`에 `collectLifecycleData`/`collectLifecycleDataWithAdditionalData` 호출을 추가합니다.
 
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions { 
@@ -116,13 +116,13 @@ After you enable lifecycle, each time your app is launched, one hit is sent to m
 }
 ```
 
-### Include additional data with lifecycle calls
+### 라이프사이클 호출로 추가 데이터 포함
 
 라이프사이클 지표 호출을 통해 추가 데이터를 포함하려면 `collectLifecycleDataWithAdditionalData`를 사용하십시오.
 
 >[!IMPORTANT]
 >
->Any data that is passed to the SDK through `collectLifecycleDataWithAdditionalData:` is persisted in `NSUserDefaults` by the SDK. SDK는 `NSDictionary` 또는 `NSString` 유형이 아닌 `NSNumber` 매개 변수에서 값을 제거합니다.
+>`collectLifecycleDataWithAdditionalData:`를 통해 SDK에 전달되는 모든 데이터는 SDK에 의해 `NSUserDefaults`에서 유지됩니다. SDK는 `NSDictionary` 또는 `NSString` 유형이 아닌 `NSNumber` 매개 변수에서 값을 제거합니다.
 
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions { 
