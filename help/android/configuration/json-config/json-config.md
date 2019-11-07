@@ -6,15 +6,15 @@ solution: Marketing Cloud,Analytics
 title: ADBMobile JSON 구성
 topic: 개발자 및 구현
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 ---
 
 
-# ADBMobile JSON config file {#adbmobile-json-config}
+# ADBMobile JSON 구성 파일 {#adbmobile-json-config}
 
-This information helps you understand the variables in the ADBMobile.json config file.
+이 정보는 ADBMobile.json 구성 파일의 변수를 이해하는 데 유용합니다.
 
 ## `ADBMobileConfig.json` 구성 파일 참조 {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
 
@@ -22,16 +22,16 @@ This information helps you understand the variables in the ADBMobile.json config
 
 >[!TIP]
 >
->In **Android**, the `ADBMobileConfig.json` file must be placed in the `assets` folder.
+>**Android**&#x200B;에서는 `ADBMobileConfig.json` 파일을 `assets` 폴더에 배치해야 합니다.
 
-Here is a list of the variables in the JSON file and the minimum SDK version you need for each variable:
+다음은 JSON 파일의 변수 목록과 각 변수에 필요한 최소 SDK 버전입니다.
 
 * **acquisition**
    * 최소 SDK 버전: 4.1
    * 모바일 앱 획득을 사용하도록 설정합니다.
       * `server` - 처음 시작 시 획득 레퍼러가 확인된 획득 서버입니다.
       * `appid` - 획득 서버에서 이 앱을 고유하게 식별하는, 생성된 ID입니다.
-   이 섹션이 없으면 모바일 앱 획득을 사용하도록 설정하고 SDK 구성 파일을 다시 다운로드하십시오. For more information, see referrerTimeout in this list of variables.**
+   이 섹션이 없으면 모바일 앱 획득을 사용하도록 설정하고 SDK 구성 파일을 다시 다운로드하십시오. 자세한 내용은 이 변수 목록에서 *referrerTimeout*&#x200B;을 참조하십시오.
 
 * **analyticsForwardingEnabled**
    * 최소 SDK 버전은 4.8.0입니다.
@@ -47,13 +47,13 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
 
       **히트 활성화 또는 비활성화**
 
-      * If you set the value to `false`, the hits are **disabled**. SDK는 이전 세션에 대한 세션 정보를 이후 세션의 첫 번째 히트와 함께 일괄 처리하는 4.1 이전 동작으로 돌아갑니다. 또한 Adobe SDK는 세션 정보를 현재 라이프사이클에 첨부하여 과도한 방문이 발생하지 않도록 합니다. 과도한 방문이 더 이상 생성되지 않으므로 방문 횟수가 즉시 줄어듭니다.
+      * 이 값을 `false`로 설정한 경우 히트가 **비활성화**&#x200B;됩니다. SDK는 이전 세션에 대한 세션 정보를 이후 세션의 첫 번째 히트와 함께 일괄 처리하는 4.1 이전 동작으로 돌아갑니다. 또한 Adobe SDK는 세션 정보를 현재 라이프사이클에 첨부하여 과도한 방문이 발생하지 않도록 합니다. 과도한 방문이 더 이상 생성되지 않으므로 방문 횟수가 즉시 줄어듭니다.
 
       * 값을 제공하지 않은 경우 기본 값은 `true`이며 히트가 **활성화됩니다**. 히트가 활성화되면 Adobe SDK는 이전 세션에서 최종 히트 후 세션 정보 히트를 1초로 소급 적용합니다. 다시 말해서, 충돌 및 세션 데이터가 충돌과 세션이 발생한 올바른 날짜와 상호 연결됩니다. 한 가지 부작용으로, SDK에서 오래된 히트에 대한 방문을 만들 수도 있습니다. 애플리케이션의 모든 새로운 시작 시 하나의 히트가 소급 적용됩니다.
 
          >[!IMPORTANT]
          >
-         >백데이트된 세션 히트 정보는 세션 정보 서버 호출에서 전송되며 추가 서버 호출이 적용될 수 있습니다.
+         >오래된 세션 히트 정보는 세션 정보 서버 호출 시 전송되며, 추가 서버 호출이 적용될 수 있습니다.
 
 * **batchLimit**
    * 최소 SDK 버전: 4.1
@@ -64,7 +64,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
       다음 정보를 숙지하십시오.
 
       * 기본값은 `0`이며, 이 경우 일괄 처리를 사용할 수 없습니다.
-      * 필요 `offlineEnabled = true`.
+      * `offlineEnabled = true`가 필요합니다.
 
 * **charset**
    * 최소 SDK 버전: 4.0
@@ -78,19 +78,19 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
 
       >[!IMPORTANT]
       >
-      >이 변수는 Target에서 필요합니다.
+      >이 변수는 Target에 필수입니다.
 
 * **coopUnsafe**
    * 최소 SDK 버전: 4.16.1
-   * The Boolean property of the `marketingCloud` object that, when set to `true`, causes the device to be opted-out of the Experience Cloud's Device Co-Op.
-   * Default value is `false`.
+   * `marketingCloud`로 설정된 경우 `true` 개체의 부울 속성으로 인해 장치가 Experience Cloud의 Device Co-Op에서 옵트아웃됩니다.
+   * 기본값은 `false`입니다.
    * 이 설정은 Device Co-op 프로비저닝 고객&#x200B;**에게만** 사용됩니다.
    이 값을`true` 로 설정해야 하는 Device Co-op 멤버의 경우, Device Co-op 계정에서 블랙리스트 플래그를 요청하려면 Co-op 팀과 작업해야 합니다. 이 플래그를 활성화하기 위한 셀프 서비스 경로가 없습니다.
 
    다음 정보를 숙지하십시오.
 
-   * When `coopUnsafe` is set to `true`, `coop_unsafe=1` will always be appended to Audience Manager and Visitor ID hits.
-   * If you enable Analytics server-side forwarding to Audience Manager, you will also see `coop_unsafe=1` Analytics hits.
+   * `coopUnsafe`가 `true`로 설정되면 `coop_unsafe=1`이 항상 Audience Manager 및 방문자 ID 히트에 추가됩니다.
+   * Audience Manager에 Analytics 서버측 전달을 활성화하는 경우, `coop_unsafe=1` Analytics 히트가 표시됩니다.
 
 
 * **environmentId**
@@ -103,7 +103,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
    * 최소 SDK 버전: 4.0
    * 기본값은 300초입니다.
 
-      앱 시작이 새로운 세션으로 간주되기 전에 다음 앱이 시작되기까지 경과해야 하는 시간(초)을 지정합니다. 이 시간 초과는 애플리케이션이 백그라운드로 전송되고 다시 활성화될 때도 적용됩니다.
+      앱 시작이 새로운 세션으로 간주되기 전에 다음 앱이 시작되기까지 경과해야 하는 시간(초)을 지정합니다. 이 시간 초과는 응용 프로그램이 백그라운드로 전송되고 다시 활성화될 때도 적용됩니다. 
 
       앱이 백그라운드에서 소요하는 시간은 세션 길이에 포함되지 않습니다.
 
@@ -154,7 +154,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
       …/yourfile.json”`,
       ```
 
-      이 설정을 구성하지 않으면 이 행을 포함하도록 `ADBMobile.json` 파일을 업데이트해야 합니다. 업데이트된 구성 파일을 다운로드하려면 시작하기 [전에 을 참조하십시오](/help/android/getting-started/requirements.md).
+      이 설정을 구성하지 않으면 이 행을 포함하도록 `ADBMobile.json` 파일을 업데이트해야 합니다. 업데이트된 구성 파일을 다운로드하려면 [시작하기 전에](/help/android/getting-started/requirements.md)를 참조하십시오.
 
 * **postback**
    * 최소 SDK 버전: 4.6
@@ -168,7 +168,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
         "timeout": 0 // optional - number of seconds to wait before timing out.  Default is 2.}
       ```
 
-      The `payload` object in the code is a sample payload for a message definition that goes in the `ADBMobileConfig.json` file. For more information, see [Postbacks](/help/android/analytics-main/postbacks/postbacks.md).
+      코드에서 `payload` 개체는 `ADBMobileConfig.json` 파일에 적용할 메시지 정의에 대한 샘플 페이로드입니다. 자세한 내용은 [포스트백](/help/android/analytics-main/postbacks/postbacks.md)을 참조하십시오.
 
 * **privacyDefault**
    * 최소 SDK 버전: 4.0
@@ -176,7 +176,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
       * `optedin`의 경우 히트가 즉시 전송됩니다.
       * `optedout`의 경우 히트가 삭제됩니다.
       * `optunknown`의 경우 보고서 세트에 타임스탬프가 사용되면 개인정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다.
-      If your report suite is not timestamp-enabled, hits are discarded until the privacy status changes to `optedin`.  초기값만 설정됩니다. 코드에서 이 값을 설정하거나 변경하고 나면 해당 값을 다시 변경하거나 앱을 제거하고 다시 설치할 때까지 새 값이 사용됩니다.
+      보고서 세트에 타임스탬프가 사용되지 않으면 개인정보 상태가 `optedin`으로 변경될 때까지 히트가 삭제됩니다. 초기값만 설정됩니다. 코드에서 이 값을 설정하거나 변경하고 나면 해당 값을 다시 변경하거나 앱을 제거하고 다시 설치할 때까지 새 값이 사용됩니다.
 
 
 * **referrerTimeout**
@@ -185,7 +185,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
 
       >[!IMPORTANT]
       >
-      >This variable is required by Acquisition. 이 변수를 `0`으로 설정하거나 이 변수를 포함하지 않는 경우 SDK는 획득 데이터를 기다리지 않고 획득 지표가 추적되지 않습니다.
+      >고객 확보의 경우 이 변수는 필수입니다. 이 변수를 `0`으로 설정하거나 이 변수를 포함하지 않는 경우 SDK는 획득 데이터를 기다리지 않고 획득 지표가 추적되지 않습니다.
 
 * **remotes**
    * 최소 SDK 버전: 4.2
@@ -209,11 +209,11 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
 
       >[!IMPORTANT]
       >
-      >This variable is required by Analytics.
+      >Analytics의 경우 이 변수는 필수입니다.
 
 * **server**
    * 최소 SDK 버전: 4.0
-   * Analytics 또는 고객 관리 서버로, 상위 노드를 기반으로 합니다. This variable should be populated with the server domain, without an `https://` or `https://` protocol prefix. 이 접두사는 라이브러리에서 자동으로 처리되며 `ssl` 변수를 기반으로 합니다. `ssl`이 `true`이면 이 서버에 보안 연결이 설정됩니다. `ssl`이 `false`이면 이 서버에 비보안 연결이 설정됩니다.
+   * Analytics 또는 고객 관리 서버로, 상위 노드를 기반으로 합니다. 이 변수는 `https://` 또는 `https://` 프로토콜 접두사 없이 서버 도메인으로 채워야 합니다. 이 접두사는 라이브러리에서 자동으로 처리되며 `ssl` 변수를 기반으로 합니다. `ssl`이 `true`이면 이 서버에 보안 연결이 설정됩니다. `ssl`이 `false`이면 이 서버에 비보안 연결이 설정됩니다.
 
 * **ssl**
    * 최소 SDK 버전: 4.0
@@ -236,7 +236,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
    * Target이 응답을 기다리는 시간을 결정합니다.
 
 
-## Sample `ADBMobileConfig.json` file {#section_4655EF79744649E5A5AE19E3224C472C}
+## 샘플 `ADBMobileConfig.json` 파일 {#section_4655EF79744649E5A5AE19E3224C472C}
 
 다음은 `ADBMobileConfig.json` 파일 샘플입니다.
 
@@ -340,7 +340,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
       * 전체 화면 이미지에 사용할 이미지 URL
    * "altImage"
       * 전체 화면 전용, 선택 사항
-      * URL이
+      * name of the bundled image to use if the url specified in
          * 이미지
          * 에 지정된 URL에 연결할 수 없는 경우 번들 이미지의 이름
    * "title"
@@ -383,7 +383,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
    * gt = 보다 큼
    * ge = 보다 크거나 같음
 * "values"
-   * 에 있는
+   * an array of values used to match against the value of the variable named in
       * key
       * 에 이름이 지정된 변수 값과 일치시키는 데 사용되는 값의 배열(사용되는 일치 유형:
       * matches
