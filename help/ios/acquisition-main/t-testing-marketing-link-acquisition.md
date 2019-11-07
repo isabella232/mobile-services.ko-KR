@@ -1,24 +1,24 @@
 ---
-description: 다음 지침은 장치 지문을 기반으로 하는 Marketing Link를 사용하여 획득 캠페인을 라운드트립하는 데 도움이 됩니다.
-keywords: android;library;mobile;sdk
-seo-description: The following instructions help you roundtrip an acquisition campaign with a Marketing Link that is based on a device fingerprint.
-seo-title: Marketing Link 획득 테스트
+description: 다음은 장치 지문을 기반으로 하는 마케팅 링크를 사용하는 획득 캠페인을 왕복하는 데 유용한 지침입니다.
+keywords: android;라이브러리;모바일;sdk
+seo-description: 다음은 장치 지문을 기반으로 하는 마케팅 링크를 사용하는 획득 캠페인을 왕복하는 데 유용한 지침입니다.
+seo-title: 마케팅 링크 획득 테스트
 solution: Marketing Cloud,Analytics
-title: Testing Marketing Link acquisition
+title: 마케팅 링크 획득 테스트
 topic: 개발자 및 구현
 uuid: 69503e01-182d-44c6-b0fb-e1c012ffa3bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
 
 
-# Testing Marketing Link acquisition {#testing-marketing-link-acquisition}
+# 마케팅 링크 획득 테스트 {#testing-marketing-link-acquisition}
 
-다음 지침은 장치 지문을 기반으로 하는 Marketing Link를 사용하여 획득 캠페인을 라운드트립하는 데 도움이 됩니다.
+다음은 장치 지문을 기반으로 하는 마케팅 링크를 사용하는 획득 캠페인을 왕복하는 데 유용한 지침입니다.
 
 1. [모바일 앱 획득](/help/ios/acquisition-main/acquisition.md)의 필수 조건 작업을 완료합니다.
-1. In the Adobe Mobile Services UI, click **[!UICONTROL Marketing Links Builder]** and generate an acquisition Marketing Link URL that sets the App Store as the destination for iOS devices.
+1. Adobe Mobile Services UI에서 **[!UICONTROL 마케팅 링크 빌더]**&#x200B;를 클릭하고 앱스토어를 iOS 장치의 대상으로 설정하는 획득 마케팅 링크 URL을 생성합니다.
 
    예:
 
@@ -29,7 +29,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
    자세한 정보는 [마케팅 링크 빌더](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md)를 참조하십시오.
 
 
-1. Open the generated link on the iOS device and open `https://c00.adobe.com/v3/<appid>/end`.
+1. iOS 기기에서 생성된 링크를 열고 `https://c00.adobe.com/v3/<appid>/end`를 엽니다.
 
    다음과 같이 JSON 응답에 contextData가 표시되어야 합니다.
 
@@ -42,7 +42,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
    | 설정 | 값 |
    |--- |--- |
-   | acquisition | The server should be  `c00.adobe.com`. `appid` should equal the  *`appid`* in your acquisition link. |
+   | acquisition | 서버는 `c00.adobe.com`이어야 합니다. `appid`는 획득 링크에서 *`appid`*&#x200B;와 같아야 합니다. |
    | analytics | `referrerTimeout` 값은 0보다 커야 합니다. |
 
 1. (선택 사항) 앱 구성 파일의 SSL 설정이`false`일 경우 HTTPS 대신 HTTP 프로토콜을 사용하도록 획득 링크를 업데이트합니다.
@@ -59,9 +59,9 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
    `"Analytics - Trying to fetch referrer data from <acquisition end url>"`
    `"Analytics - Received Referrer Data(<Json Object>)"`
 
-   이러한 로그가 표시되지 않으면 4단계와 5단계를 완료했는지 확인하십시오.
+   이러한 로그가 표시되지 않으면 4~5단계를 완료했는지 확인하십시오.
 
-   다음은 가능한 오류에 대한 몇 가지 정보입니다.
+   다음은 가능한 오류에 대한 정보입니다.
 
    * `Analytics - Unable to retrieve acquisition service response (<error message>)`:
 
@@ -77,7 +77,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
    * `Analytics - Acquisition referrer data was not complete, ignoring`
 
-      `a.referrer.campaign.name` 에 포함되지 않습니다 `contextData`.
+      `a.referrer.campaign.name`이 `contextData`에 포함되어 있지 않습니다.
 
    * `Analytics - Acquisition referrer timed out`
 
@@ -95,12 +95,12 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 * 전송된 사용자 에이전트의 변형으로 인해 속성 확인이 실패할 수 있습니다.
 
-   사용자 에이전트 값이 동일한지 `https://c00.adobe.com/v3/<appid>/start` 확인하고 `https://c00.adobe.com/v3/<appid>/end` 보유합니다.
+   `https://c00.adobe.com/v3/<appid>/start` 및 `https://c00.adobe.com/v3/<appid>/end`에 동일한 사용자 에이전트 값이 있는지 확인합니다.
 
 * 획득 링크와 SDK의 히트는 동일한 HTTP/HTTPS 프로토콜을 사용해야 합니다.
 
-   링크와 히트가 서로 다른 프로토콜을 사용하는 경우(예: 링크가 HTTP를 사용하고 SDK가 HTTPS를 사용하는 경우) IP 주소가 각 요청에 대해 일부 통신 사업자의 주소와 다를 수 있습니다. 이로 인해 속성 확인이 실패할 수 있습니다.
+   링크는 HTTP를 사용하고 SDK는 HTTPS를 사용하는 것과 같이 링크와 히트가 다른 프로토콜을 사용하는 경우 통신사에 따라 각 요청의 IP 주소가 다를 수 있습니다. 이로 인해 속성 확인이 실패할 수 있습니다.
 
-* The Marketing Links are cached on the server side with a ten-minutes expiration time.
+* 마케팅 링크는 서버 측에 캐시되며 만료 시간은 10분입니다. 
 
-   마케팅 링크를 변경할 때는 링크를 사용하기 전에 약 10분 정도 기다려야 합니다.
+   마케팅 링크를 변경할 경우 링크를 사용하기 전에 변경 사항이 적용되도록 10분 정도 기다려야 합니다.
