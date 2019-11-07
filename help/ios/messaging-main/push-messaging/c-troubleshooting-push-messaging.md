@@ -7,13 +7,13 @@ solution: Marketing Cloud,Analytics
 title: 푸시 메시지 문제 해결
 topic: 지표
 uuid: 87d7dcb6-82a8-46e3-a6ed-7f895a22f2af
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
 
 
-# Troubleshooting push messaging {#troubleshooting-push-messaging}
+# 푸시 메시지 문제 해결 {#troubleshooting-push-messaging}
 
 다음은 푸시 메시지 문제를 해결하는 데 유용한 정보입니다.
 
@@ -33,9 +33,9 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
    >[!TIP]
    >
-   >푸시 서비스에서는 메시지가 전송될 것임을 보장하지 않습니다. 서비스의 안정성에 대한 자세한 내용은 다음 설명서를 참조하십시오.
+   >푸시 서비스로 메시지의 전송이 보장되지는 않습니다. 서비스의 안정성에 대한 자세한 내용은 다음 설명서를 참조하십시오.
    >
-   >* **APNS**: [서비스 품질](https://developer.apple.com/documentation/usernotifications)
+   >* **APNS**: [서비스 품질](https://developer.apple.com/kr/documentation/usernotifications)
       >
       >
    * **GCM**: [메시지 수명](https://developers.google.com/cloud-messaging/concept-options)
@@ -46,7 +46,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 푸시 메시지를 보내려면 유효한 푸시 서비스 인증서가 필요합니다. 인증서가 곧 만료되거나 만료된 경우 Mobile Services에서 알림을 보냅니다. 이 알림을 받으면 다음 단계를 완료하여 인증서를 갱신하십시오.
 
 1. **[!UICONTROL 앱 설정 관리를 클릭합니다]**.
-2. To delete the current certificate, scroll to **[!UICONTROL Push Services]** and click **[!UICONTROL Delete]**.
+2. 현재 인증서를 삭제하려면 **[!UICONTROL 푸시 서비스]**&#x200B;로 스크롤한 다음 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
 3. 새 인증서를 구성하고 테스트합니다.
 
    자세한 내용은 [푸시 메시지 활성화를 위한 사전 요구 사항](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)을 참조하십시오.
@@ -55,4 +55,4 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ## iOS 시뮬레이터에서 내 푸시 메시지가 확인되지 않는 이유는 무엇인가요?
 
-iOS 시뮬레이터는 푸시 메시지를 지원하지 않습니다.
+iOS 시뮬레이터는 푸시 메시지를 지
