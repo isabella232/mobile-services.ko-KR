@@ -5,13 +5,13 @@ seo-title: 기존 획득 테스트
 solution: Marketing Cloud,Analytics
 title: 기존 획득 테스트
 uuid: e0591f4a-e26b-4fe4-97c1-a6831a926fa5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ---
 
 
-# Testing legacy acquisition {#testing-legacy-acquisition}
+# 기존 획득 테스트 {#testing-legacy-acquisition}
 
 다음은 장치 지문 파일을 기반으로 하는 기존 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
 
