@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: Experience Cloud
 topic: 개발자 및 구현
 uuid: fb498937-b263-4cff-adde-8d709f51b950
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 ---
@@ -14,13 +14,13 @@ source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 # Experience Cloud {#experience-cloud}
 
-이 섹션의 정보는 Adobe Experience Cloud와 함께 iOS SDK를 사용하는 데 도움이 됩니다.
+이 섹션의 정보는 Adobe Experience Cloud에서 iOS SDK를 사용하는 데 유용합니다.
 
 ## 새로운 Adobe Experience Platform Mobile SDK 릴리스
 
 Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
 
-2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html)를 통해 구성할 수 있습니다.
+2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/kr/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
 * 시작하려면 Adobe Experience Platform Launch로 이동합니다.
 * Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)로 이동하십시오.
