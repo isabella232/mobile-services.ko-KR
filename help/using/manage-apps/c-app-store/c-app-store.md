@@ -7,21 +7,21 @@ solution: Marketing Cloud,Analytics
 title: 앱스토어
 topic: 지표
 uuid: a194364d-faaf-4995-befd-cf48f9c1f11b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 ---
 
 
-# App store{#app-store}
+# 앱스토어 {#app-store}
 
-The `appFigures` data connector integration combines the power of the appFigures integrated mobile app store analytics and the direct app tracking of Adobe Analytics to create powerful analytics and optimization opportunities for your organization.
+`appFigures` 데이터 커넥터 통합에서는 appFigures 통합 모바일 앱스토어 분석 기능과 Adobe Analytics의 직접 앱 추적 기능을 결합하여 조직을 위한 강력한 분석 및 최적화 기회를 만듭니다.
 
 >[!TIP]
 >
 >Mobile Services UI에서 통합을 구성한 후 **[!UICONTROL 앱스토어]** 메뉴 항목 및 관련 보고서가 왼쪽 탐색 창에 표시됩니다.
 
-[Adobe Analytics용 appFigures Data Connector](https://marketing.adobe.com/resources/help/en_US/connectors/appfigures/)에는 다음 정보가 포함되어 있습니다.
+[Adobe Analytics용 appFigures Data Connector](https://marketing.adobe.com/resources/help/ko_KR/connectors/appfigures/)에는 다음 정보가 포함되어 있습니다.
 <!--REKHA: no idea where this guide lives-->
 
 * 통합의 주요 이점 및 기능
