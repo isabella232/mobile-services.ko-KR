@@ -3,14 +3,14 @@ description: Adobe Analytics에서는 관리 도구 홈 페이지에서 역할�
 seo-description: Adobe Analytics에서는 관리 도구 홈 페이지에서 역할을 관리할 수 있습니다.
 seo-title: 역할 및 권한
 title: 역할 및 권한
-uuid: ad350f8d-ef51-4519-9 파섹
-translation-type: tm+mt
+uuid: ad350f8d-ef51-4519-98aa-3025bc0f5588
+translation-type: ht
 source-git-commit: c7cac006340e01d0fd1f6afe3419e6fd17294a98
 
 ---
 
 
-# Roles and permissions{#roles-and-permissions}
+# 역할 및 권한{#roles-and-permissions}
 
 Adobe Analytics에서는 관리 도구 홈 페이지에서 역할을 관리할 수 있습니다.
 
@@ -20,17 +20,17 @@ Adobe Analytics에서는 관리 도구 홈 페이지에서 역할을 관리할 �
 
 ### Analytics 관리
 
-Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당하며, 이 중 하나가 모바일 앱 관리자입니다. Experience Cloud 관리는 사용자 Adobe ID를 Adobe Analytics 계정에 연결하여 사용자가 Adobe ID를 사용하여 Mobile Services UI에 로그인할 수 있도록 합니다. Experience Cloud 관리자에 대한 자세한 내용은 [관리 - 사용자 관리 및 FAQ](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
+Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당하며, 이 중 하나가 모바일 앱 관리자입니다. Experience Cloud 관리는 사용자 Adobe ID를 Adobe Analytics 계정에 연결하여 사용자가 Adobe ID를 사용하여 Mobile Services UI에 로그인할 수 있도록 합니다. Experience Cloud 관리자에 대한 자세한 내용은 [관리 - 사용자 관리 및 FAQ](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
 
 >[!TIP]
 >
->An existing Analytics Admin has the ability to assign the Analytics Admin role to any user.
+>기존 Analytics 관리자는 사용자에게 Analytics 관리자 역할을 지정할 수 있습니다.
 
 이 역할에 대한 자세한 내용은 다음 컨텐츠를 참조하십시오.
 
-* [사용자 관리 개요](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/users.html)
+* [사용자 관리 개요](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-management/users.html)
 
-* [사용자 및 그룹 권한 변경](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/permissions-changes.html)
+* [사용자 및 그룹 권한 변경 사항](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-management/permissions-changes.html)
 
 ### 모바일 앱 관리
 
@@ -38,21 +38,21 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
 
 >[!IMPORTANT]
 >
->For some features, such as push messaging, the Analytics Admin must select the **[!UICONTROL Segment Creation]** check box in User Management.
+>Analytics 관리자는 푸시 메시지와 같은 일부 기능에 대해 사용자 관리에서 **[!UICONTROL 세그먼트 생성]** 확인란을 선택해야 합니다.
 
-## Managing access {#section_E6939C2695AA4A0DBF432D50B2670920}
+## 액세스 관리 {#section_E6939C2695AA4A0DBF432D50B2670920}
 
 다음은 Mobile Services UI의 옵션에 액세스하는 방법에 대한 몇 가지 추가 정보입니다.
 
-### Apps and report suites
+### 앱 및 보고서 세트
 
 모든 Mobile Service 앱은 보고서 세트에 연결됩니다. 사용자에게 보고서 세트에 액세스할 권한이 없는 경우 해당 보고서 세트와 연결된 앱에 액세스할 수 없습니다.
 
-### 모바일 서비스 및 분석 기능
+### Mobile Services 및 Analytics 기능
 
 사용자의 회사에 푸시 메시지와 같은 UI의 기능에 액세스에 대한 Analytics 계약이 없는 경우, 회사 사용자는 권한 수준에 관계없이 해당 기능에 액세스할 수 없습니다.
 
-## Roles and permissions {#section_20AA029D5B8C413C8659777E79B11620}
+## 역할 및 권한 {#section_20AA029D5B8C413C8659777E79B11620}
 
 다음은 Mobile Services UI에서 관련 권한이 있는 역할입니다.
 
@@ -64,7 +64,7 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
 
    >[!IMPORTANT]
    >
-   >앱이 Mobile Services UI에서 삭제되었지만 보고서 세트는 여전히 Analytics에 있습니다.
+   >앱이 Mobile Services UI에서 삭제되었지만 보고서 세트가 여전히 Analytics에 있습니다.
 
 * 앱 설정 관리
 
@@ -94,10 +94,10 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
 
 그룹 및 사용자에 대한 자세한 내용은 다음을 참조하십시오.
 
-* [사용자 그룹 설정](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html)
-* [사용자를 그룹에 추가](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/t-add-user-to-group.html)
+* [사용자 그룹 설정](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-groups/groups.html)
+* [사용자를 그룹에 추가](https://docs.adobe.com/content/help/ko-KR/analytics/admin/user-product-management/user-management/t-add-user-to-group.html)
 
-### Mobile Services user
+### Mobile Services 사용자
 
 이 역할은 보기 권한만 있으며, Mobile Services UI에서 피드백을 제공할 수 있습니다.
 
@@ -116,7 +116,7 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
    * 포스트백 보기
    * 링크 대상 보기
 
-* View and Run Reports
+* 보고서 보기 및 실행
 * 마케팅 링크 보기
 * 기존 획득 링크 보기 및 내보내기
 * 위치(관심 영역) 구성 보기 및 내보내기
