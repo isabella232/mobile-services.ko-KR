@@ -1,13 +1,13 @@
 ---
 description: 비콘 추적에서 iBeacon 및 Bluetooth 저전력을 사용하여 미세한 위치를 측정하고 타깃팅할 수 있습니다.
-keywords: android;library;mobile;sdk
+keywords: android;라이브러리;모바일;sdk
 seo-description: 비콘 추적에서 iBeacon 및 Bluetooth 저전력을 사용하여 미세한 위치를 측정하고 타깃팅할 수 있습니다.
 seo-title: 비콘 추적
 solution: Marketing Cloud,Analytics
 title: 비콘 추적
 topic: 개발자 및 구현
-uuid: 16c1d267-85f4-4a6a6d3-d6ffb0f80b29
-translation-type: tm+mt
+uuid: 16c1d267-85f4-4a6a-a6d3-d6ffb0f80b29
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
@@ -37,7 +37,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 1. 프로젝트에 라이브러리를 추가하고 라이프사이클을 구현합니다.
 
-   자세한 내용은 코어 *구현 및 라이프사이클에서 IntelliJ IDEA 또는 Eclipse 프로젝트에* SDK 및 구성 파일 [추가를 참조하십시오](/help/android/getting-started/dev-qs.md).
+   자세한 내용은 [핵심 구현 및 라이프사이클](/help/android/getting-started/dev-qs.md)에서 *IntelliJ IDEA 또는 Eclipse 프로젝트에 SDK 및 구성 파일 추가*&#x200B;를 참조하십시오.
 
 1. 라이브러리를 가져옵니다:
 
@@ -67,7 +67,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
    Analytics.clearBeacon();
    ```
 
-## Send additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## 추가 데이터 보내기 {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 비콘 데이터 외에도 각 `trackBeacon` 호출에서 추가 컨텍스트 데이터를 전송할 수 있습니다.
 
@@ -77,7 +77,7 @@ cdata.put("myapp.ImageLiked", imageName);
 Analytics.trackBeacon(beaconUUID, major, minor, proximity, cdata);
 ```
 
-컨텍스트 데이터 값은 Adobe Mobile Services의 사용자 지정 변수에 매핑해야 합니다.
+컨텍스트 데이터 값은 Adobe Mobile Services의 사용자 지정 변수에 매핑되어야 합니다.
 
 ![](assets/map-variable-context-ltv.png)
 
