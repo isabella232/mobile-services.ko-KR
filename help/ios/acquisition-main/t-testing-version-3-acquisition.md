@@ -5,13 +5,13 @@ seo-title: V3 획득 테스트
 solution: Marketing Cloud,Analytics
 title: V3 획득 테스트
 uuid: 89137ccf-4839-4b37-926e-303cf8e511a5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
 
 
-# Testing V3 acquisition{#testing-v-acquisition}
+# V3 획득 테스트 {#testing-v-acquisition}
 
 다음은 장치 지문 파일을 기반으로 V3 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
 
@@ -40,17 +40,17 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
    {"fingerprint":"228d7e6058b1d731dc7a8b8bd0c15e1d78242f31","timestamp":1457989293,"appguid":"","contextData":{"a.referrer.campaign.name":"name","a.referrer.campaign.trackingcode":"trackingcode"}}.
    ```
 
-   If you do not see `contextData`, or some of it is missing, ensure that the acquisition URL follows the format that is specified in [Create Acquisition Link Manually](/help/using/acquisition-main/c-marketing-links-builder/acquisition-link-manual.md).
+   `contextData`가 표시되지 않거나 일부가 누락된 경우 획득 URL이 수[동으로 획득 링크 작성](/help/using/acquisition-main/c-marketing-links-builder/acquisition-link-manual.md)에 지정된 형식을 따르는지 확인하십시오.
 1. 구성 파일에서 다음 설정이 올바른지 확인합니다.
 
    | 설정 | 값 |
    |--- |--- |
-   | acquisition | The server should be  `c00.adobe.com`. *`appid`* should equal the *`appid`* in your acquisition link. |
+   | acquisition | 서버는 `c00.adobe.com`이어야 합니다. *`appid`*&#x200B;는 획득 링크에서 *`appid`*&#x200B;와 같아야 합니다. |
    | analytics | `referrerTimeout` 값은 0보다 커야 합니다. |
 
 
 1. (선택 사항) 앱 구성 파일의 `ssl` 설정이 true일 경우 HTTPS 프로토콜을 사용하도록 획득 링크를 업데이트합니다.
-1. Click the generated link from the mobile device on which you plan to install the app.
+1. 앱을 설치하려는 모바일 장치에서 생성된 링크를 클릭합니다.
 
    Adobe 서버(`c00.adobe.com`)는 지문 파일을 저장한 다음 앱스토어로 리디렉션합니다. 테스트를 위해 앱을 다운로드할 필요는 없습니다.
 1. 6단계에서 사용한 것과 동일한 모바일 장치에서 처음으로 애플리케이션을 시작합니다.
@@ -65,7 +65,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    위의 로그가 보이지 않으면 4단계와 5단계를 완료했는지 확인하십시오.
 
-   Here is some information about possible errors:
+   다음은 가능한 오류에 대한 정보입니다.
 
    * `Analytics - Unable to retrieve acquisition service response (<error message>)`
 네트워크 오류가 발생했습니다.
@@ -80,7 +80,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    * `Analytics - Acquisition referrer data was not complete, ignoring`
 
-      `a.referrer.campaign.name` 에 포함되지 않습니다 `contextData`.
+      `a.referrer.campaign.name`이 `contextData`에 포함되어 있지 않습니다.
 
    * `Analytics - Acquisition referrer timed out`
 
@@ -98,7 +98,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
          >[!TIP]
          >
-         >Ensure that `https://c00.adobe.com/v3/<appid>/start` and `https://c00.adobe.com/v3/<appid>/end` have the same user-agent values.
+         >`https://c00.adobe.com/v3/<appid>/start` 및 `https://c00.adobe.com/v3/<appid>/end`에 동일한 사용자 에이전트 값이 있는지 확인합니다.
 
       * 획득 링크와 SDK의 히트는 동일한 HTTP/HTTPS 프로토콜을 사용해야 합니다.
 
