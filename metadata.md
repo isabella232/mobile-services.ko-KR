@@ -5,12 +5,12 @@ solution-title: 학습 및 지원
 solution-hub-url: https://helpx.adobe.com/kr/support/experience-cloud/core-services.html
 solution-icon: help/assets/experience-cloud-logo-24.png
 getting-started-title: 시작하기
-getting-started-url: https://docs.adobe.com/content/help/en/mobile-services/using/get-started-ug/gs.html
+getting-started-url: https://docs.adobe.com/content/help/ko-KR/mobile-services/using/get-started-ug/gs.html
 tutorials-title: 자습서
 tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
 git-repo: https://github.com/AdobeDocs/mobile-services.en
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aad8cec624ea2dd4741d1cc3d1d76af5dba44227
 
 ---
@@ -33,7 +33,7 @@ metadata.md 파일에는 리포지토리의 사용 안내서 TOC.md 파일에 �
 | tutorials-url | 비디오 튜토리얼 — Helpx 튜토리얼 또는 KT 튜토리얼 링크 |
 | mini-toc-levels | 오른쪽 레일에 나타나는 제목 수준 개수를 결정합니다. 기본값은 2입니다. |
 | git-repo | 공동 작업 리포지토리 위치를 지정합니다. 공개된 문서에 github.com 미러링 사용 |
-| index | set index=no for soft launch |
+| 색인 | 소프트 출시에 대해 index=no 설정 |
 
 TOC.md 파일에서
 
