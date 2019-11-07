@@ -1,12 +1,12 @@
 ---
-description: 다음은 iOS 라이브러리에서 제공하는 Adobe Experience Platform Identity Service 메서드입니다.
-seo-description: 다음은 iOS 라이브러리에서 제공하는 Adobe Experience Platform Identity Service 메서드입니다.
+description: 다음은 iOS 라이브러리에서 제공하는 Adobe Experience Platform ID 서비스 메서드입니다.
+seo-description: 다음은 iOS 라이브러리에서 제공하는 Adobe Experience Platform ID 서비스 메서드입니다.
 seo-title: Adobe Experience Platform ID 서비스 메서드
 solution: Marketing Cloud,Analytics
 title: Adobe Experience Platform ID 서비스 메서드
 topic: 개발자 및 구현
 uuid: cdd307bc-8b7d-47a8-b77e-00902b9e2968
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cbbb85b4d117fcaa502a1e01423f1f5d3b2ecc2b
 
 ---
@@ -14,22 +14,21 @@ source-git-commit: cbbb85b4d117fcaa502a1e01423f1f5d3b2ecc2b
 
 # Adobe Experience Platform ID 서비스 메서드 {#experience-cloud-id-service-methods}
 
-다음은 iOS 라이브러리에서 제공하는 Adobe Experience Platform Identity Service 메서드입니다.
+다음은 iOS 라이브러리에서 제공하는 Adobe Experience Platform ID 서비스 메서드입니다.
 
 현재 SDK는 Analytics, Target, Audience Manager, Experience Cloud 방문자 ID 서비스 등 여러 Adobe Experience Cloud 솔루션을 지원합니다.
 
-Methods are prefixed according to the solution, and Experience Cloud ID methods are prefixed with `visitor`. 자세한 내용은 [Experience Cloud ID 사용](/help/ios/marketing-cloud/mcvid.md)을 참조하십시오.
+메서드에는 솔루션에 따라 접두사가 추가되며, Experience Cloud ID 메서드의 경우 `visitor` 접두사가 추가됩니다. 자세한 내용은 [Experience Cloud ID 사용](/help/ios/marketing-cloud/mcvid.md)을 참조하십시오.
 
-* **`+`(nullable NSURL )visitorAppendToURL:(nullable NSURL )url;`*``*`**
+* **`+`(nullable NSURL`*`)visitorAppendToURL:(nullable NSURL`*`)url;**
 
-   Adobe JavaScript 라이브러리에서 사용할 수 있도록 URL 문자열에 Adobe 방문자 데이터를 추가합니다. To use this method, you must have Mobile SDK version 4.12 or higher. 자세한 내용은 [방문자 ID 지원 기능 추가](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-appendvisitorid.html)를 참조하십시오.
+   Adobe JavaScript 라이브러리에서 사용할 수 있도록 URL 문자열에 Adobe 방문자 데이터를 추가합니다. 이 메서드를 사용하려면 Mobile SDK 버전 4.12 이상이 있어야 합니다. 자세한 내용은 [방문자 ID 지원 기능 추가](https://marketing.adobe.com/resources/help/ko_KR/mcvid/mcvid-appendvisitorid.html)를 참조하십시오.
 
    >[!IMPORTANT]
    >
-   >이 방법으로 인해 차단 네트워크 호출이 발생할 수 있습니다. 시간이 중요한 스레드에 대해서는 호출하지 마십시오.
+   >이 메서드로 인해 네트워크 호출이 차단될 수 있습니다. 시간이 중요한 스레드에 대해서는 호출하지 마십시오.
 
-   * Input: `URL<NSURL>`
-A required URL string that the visitor information will be appended to.
+   * 입력: `URL<NSURL>`방문자 정보를 추가할 필수 URL 문자열입니다.
    * `URL<NSURL>`
 방문자 정보가 추가된 문자열입니다.
 
@@ -59,7 +58,7 @@ A required URL string that the visitor information will be appended to.
 
       >[!IMPORTANT]
       >
-      >This method can cause a blocking network call and should **not** be called from a UI thread.
+      >이 메서드로 인해 네트워크 호출이 차단될 수 있으므로 UI 스레드에서 호출해서는 **안 됩니다**.
 
 * **visitorSyncIdentifiers:**
 
@@ -99,7 +98,7 @@ A required URL string that the visitor information will be appended to.
 
 * **visitorSyncIdentifierWithType:identifier:authenticationState:**
 
-   제공된 식별자 유형 및 값을 ID 서비스에 동기화합니다. Pass in the `authState` one of the following values:
+   제공된 식별자 유형 및 값을 ID 서비스에 동기화합니다. 다음 값 중 하나로 `authState`에 전달하십시오.
 
    * `ADBMobileVisitorAuthenticationStateUnknown`
    * `ADBMobileVisitorAuthenticationStateAuthenticated`
@@ -138,7 +137,7 @@ A required URL string that the visitor information will be appended to.
 
 * **visitorgetUrlVariablesAsync**
 
-   Introduced in version 4.16.0, this method returns an appropriately formed string that contains Visitor ID Service URL variables. For more information about how this method is used, see Adobe Experience Platform Identity Service methods.[](/help/ios/reference/hybrid-app.md)
+   버전 4.16.0에서 도입된 이 메서드는 방문자 ID 서비스 URL 변수를 포함하는 적절한 형식의 문자열을 반환합니다. 이 메서드를 사용하는 방법에 대한 자세한 내용은 [Adobe Experience Platform ID 서비스 메서드](/help/ios/reference/hybrid-app.md)를 참조하십시오.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
