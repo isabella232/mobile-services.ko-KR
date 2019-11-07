@@ -1,19 +1,19 @@
 ---
 description: 다음은 머천다이징 eVar 및 제품별 이벤트의 products 변수의 예입니다.
-keywords: android;library;mobile;sdk
+keywords: android;라이브러리;모바일;sdk
 seo-description: 다음은 머천다이징 eVar 및 제품별 이벤트의 products 변수의 예입니다.
-seo-title: 머천다이징 eVar 및 제품 특화 이벤트가 포함된 products 변수
+seo-title: 머천다이징 eVar 및 제품별 이벤트가 포함된 Products 변수
 solution: Marketing Cloud,Analytics
-title: 머천다이징 eVar 및 제품 특화 이벤트가 포함된 products 변수
+title: 머천다이징 eVar 및 제품별 이벤트가 포함된 Products 변수
 topic: 개발자 및 구현
 uuid: 64f822a0-6ccf-48e7-8886-31b93d8198a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 ---
 
 
-# Products variable with merchandising eVars and product-specific events {#products-variable-with-merchandising-evars-and-product-specific-events}
+# 머천다이징 eVar 및 제품별 이벤트가 포함된 Products 변수 {#products-variable-with-merchandising-evars-and-product-specific-events}
 
 다음은 머천다이징 eVar 및 제품별 이벤트의 products 변수의 예입니다.
 
@@ -37,5 +37,5 @@ Analytics.trackState("Order Confirmation", cdata);
 
 >[!TIP]
 >
->If you trigger a product-specific event by using the  variable, you must also set that event in the  variable. *`&&products`**`&&events`* 이 이벤트를 설정하지 않으면 처리하는 동안 필터링됩니다.
+>*`&&products`* 변수를 사용하여 제품별 이벤트를 트리거하는 경우 *`&&events`* 변수에서도 해당 이벤트를 설정해야 합니다. 이 이벤트를 설정하지 않으면 처리하는 동안 필터링됩니다.
 
