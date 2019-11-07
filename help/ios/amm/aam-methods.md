@@ -6,17 +6,17 @@ solution: Marketing Cloud,Analytics
 title: Audience Manager 메서드
 topic: 개발자 및 구현
 uuid: 97658bd6-4c4f-4875-abe9-36dad4ec8bae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 ---
 
 
-# Audience Manager methods {#audience-manager-methods}
+# Audience Manager 메서드 {#audience-manager-methods}
 
 다음은 iOS 라이브러리에서 제공하는 Audience Manager 메서드 목록입니다.
 
-SDK는 현재 Analytics, Target, Audience Manager, Adobe Experience Platform Identity Service 등 다양한 Adobe Experience Cloud 솔루션을 지원합니다. 메서드는 솔루션에 따라 접두사가 사용되고 Manager 메서드 앞에는 "`audience`audience" 접두사가 붙습니다.
+현재 SDK는 Analytics, Target, Audience Manager 및 Adobe Experience Platform ID 서비스 등 여러 Adobe Experience Cloud 솔루션을 지원합니다. 메서드는 솔루션에 따라 접두사가 사용되고 Manager 메서드 앞에는 "`audience`audience" 접두사가 붙습니다.
 
 Audience Manager가 JSON 파일에 구성되어 있으면 `application:didFinishLaunchingWithOptions:`:와 함께 라이프사이클 지표가 포함된 신호가 전송됩니다.
 
@@ -77,7 +77,7 @@ Audience Manager가 JSON 파일에 구성되어 있으면 `application:didFinish
 
       >[!IMPORTANT]
       >
-      >버전 4.13.x 이전에는 DPUUID가 자동으로 인코딩되지 않았습니다. 버전 4.13.x부터 SDK는 전달된 값의 인코딩을 먼저 취소한 다음 이 값을 다시 인코딩합니다. 이 프로세스를 통해 SDK는 이전 버전과의 호환성이 끊어지지 않습니다.
+      >버전 4.13.x 이전에서는 DPUUID가 자동으로 인코딩되지 않았습니다. 버전 4.13.x부터 SDK는 전달된 값의 인코딩을 먼저 취소한 다음 이 값을 다시 인코딩합니다. 이 프로세스를 통해 SDK는 이전 버전과의 호환성이 끊어지지 않습니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
