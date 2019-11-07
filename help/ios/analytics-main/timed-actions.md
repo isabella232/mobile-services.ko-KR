@@ -6,13 +6,13 @@ solution: Marketing Cloud,Analytics
 title: 시간 작업
 topic: 개발자 및 구현
 uuid: dbcbac5a-6345-49f6-b050-0db05292f005
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
 
 
-# Timed actions {#timed-actions}
+# 시간 작업 {#timed-actions}
 
 시간 작업을 사용하면 작업의 시작과 끝 사이의 인앱 시간 및 총 시간을 측정할 수 있습니다. SDK는 각 세션에서 시간의 길이를 계산하고 작업 완료까지 걸리는 총 시간을 모든 세션에 걸쳐 계산합니다. 시간 작업을 사용하여 세그먼트를 정의하고 구매, 전달 수준, 체크아웃 플로우 등에 걸리는 시간을 비교할 수 있습니다.
 
@@ -27,11 +27,11 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 * 지속 시간을 전달하기 전에 컨텍스트 데이터를 추가합니다.
 * 아직 전송하지 않은 히트와 기간을 취소합니다.
 
-## Tracking timed actions {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
+## 시간 작업 추적 {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
 
 1. 프로젝트에 라이브러리를 추가하고 라이프사이클을 구현합니다.
 
-   자세한 내용은 핵심 구현 *및 라이프사이클에서 SDK 및 구성* 파일을 프로젝트에 [추가를 참조하십시오](/help/ios/getting-started/dev-qs.md).
+   자세한 내용은 [핵심 구현 및 라이프사이클](/help/ios/getting-started/dev-qs.md)에서 *프로젝트에 SDK 및 구성 파일 추가*&#x200B;를 참조하십시오.
 1. 라이브러리를 가져옵니다:
 
    ```objective-c
@@ -61,7 +61,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
                             logic:nil];
    ```
 
-## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## 추가 데이터 보내기 {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 시간 작업 이름 외에도 작업 시작 및 작업 업데이트 호출로 추가 컨텍스트 데이터를 전송할 수 있습니다.
 
@@ -70,7 +70,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
                              data:@{@"myapp.ImageLiked" : imageName}];
 ```
 
-컨텍스트 데이터 값은 사용자 지정 변수에 매핑되어야 합니다.
+컨텍스트 데이터 사용자 지정 변수에 매핑해야 합니다.
 
 ![](assets/map-variable-context-ltv.png)
 
