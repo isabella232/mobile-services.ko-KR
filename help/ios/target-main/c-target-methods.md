@@ -1,12 +1,12 @@
 ---
 description: 다음은 iOS 라이브러리에서 제공하는 Adobe Target 메서드 목록입니다.
 seo-description: 다음은 iOS 라이브러리에서 제공하는 Adobe Target 메서드 목록입니다.
-seo-title: iOS Target Methods for Adobe Mobile Services
+seo-title: Adobe Mobile Services용 iOS Target 메서드
 solution: Marketing Cloud,Analytics
-title: Target Methods for iOS
+title: iOS용 Target 메서드
 topic: 개발자 및 구현
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8dc075603544aaab7fdedb1ff10a12f7fa7e21f5
 
 ---
@@ -16,13 +16,13 @@ source-git-commit: 8dc075603544aaab7fdedb1ff10a12f7fa7e21f5
 
 다음은 iOS 라이브러리에서 제공하는 Adobe Target 메서드 목록입니다.
 
-SDK는 현재 Analytics, Target, Audience Manager, Adobe Experience Platform Identity Service 등 다양한 Adobe Experience Cloud 솔루션을 지원합니다. 메서드에는 솔루션에 따라 접두사가 붙습니다. 예를 들어 메서드의 경우 앞에 `target`target이 붙습니다.
+현재 SDK는 Analytics, Target, Audience Manager 및 Adobe Experience Platform ID 서비스 등 여러 Adobe Experience Cloud 솔루션을 지원합니다. 메서드에는 솔루션에 따라 접두사가 붙습니다. 예를 들어 메서드의 경우 앞에 `target`target이 붙습니다.
 
 >[!TIP]
 >
->라이프사이클 지표는 각 mbox 로드에 매개 변수로 전송됩니다. 자세한 내용은 [라이프사이클 지표](/help/ios/metrics.md)를 참조하십시오. 위임 메서드 내에서 Target 요청을 보내는 경우 Target 구현 코드 앞에 `didFinishLaunching` 또는 `[ADBMobile trackAction:data:]` `[ADBMobile trackState:data:]` 호출을 추가하십시오. 이렇게 하면 Target 요청에는 전체 라이프사이클 데이터가 포함됩니다.
+>라이프사이클 지표는 각 mbox 로드에 매개 변수로 전송됩니다. 자세한 내용은 [라이프사이클 지표](/help/ios/metrics.md)를 참조하십시오. `didFinishLaunching` 위임 메서드 내에서 Target 요청을 보내는 경우 Target 구현 코드 앞에 `[ADBMobile trackAction:data:]` 또는 `[ADBMobile trackState:data:]` 호출을 추가합니다. 이렇게 하면 Target 요청에 전체 라이프사이클 데이터가 포함됩니다.
 
-## 클래스 참조:ADBTargetLocationRequest
+## 클래스 참조: ADBTargetLocationRequest
 
 ### 속성
 
@@ -36,7 +36,7 @@ NSMutableDictionary *parameters;
 
 >[!TIP]
 >
->The following constants are for ease of use when you set keys for custom parameters.
+>다음 상수는 사용자 지정 매개 변수에 대한 키를 설정할 때 쉽게 사용됩니다.
 
 ```iOS
 NSString *const ADBTargetParameterOrderId; 
@@ -52,10 +52,10 @@ NSString *const ADBTargetParameterMboxHost;
 
 >[!IMPORTANT]
 >
->* If you are using SDKs **before** version 4.14.0, see [Input Parameters](https://developers.adobetarget.com/api/#input-parameters) for parameters limitations.
+>* 4.14.0 **이전** 버전의 SDK를 사용하는 경우 [입력 매개 변수](https://developers.adobetarget.com/api/#input-parameters)에서 매개 변수 제한 사항을 참조하십시오.
    >
    >
-* If you are using SDKs version 4.14.0 **or after**, see [Batch Input Parameters](https://developers.adobetarget.com/api/#batch-input-parameters) for parameters limitations.
+* 4.14.0 **이상** 버전의 SDK를 사용하는 경우 [배치 입력 매개 변수](https://developers.adobetarget.com/api/#batch-input-parameters)에서 매개 변수 제한 사항을 참조하십시오.
 
 
 ### 메서드에서 사용할 수 있습니다
@@ -99,7 +99,7 @@ NSString *const ADBTargetParameterMboxHost;
 
    * 반환: 해당 없음
 
-   * Here are the parameters for this method:
+   * 다음은 이 메서드에 대한 매개 변수입니다.
 
       * **`name`**
 
@@ -152,7 +152,7 @@ NSString *const ADBTargetParameterMboxHost;
                                  }];
       ```
 
-      For more information about the underlying Target API, see Adobe Target Developers.[](https://docs.adobe.com/dev/products/target/reference/delivery.html)
+      기본 Target API에 대한 자세한 내용은 [Adobe Target 개발자](https://docs.adobe.com/dev/products/target/reference/delivery.html)를 참조하십시오.
 
 
 
@@ -191,7 +191,7 @@ NSString *const ADBTargetParameterMboxHost;
 
 * **targetCreateOrder&#x200B;ConfirmRequestWithName:&#x200B;orderId:&#x200B;orderTotal:&#x200B;productPurchasedId:&#x200B;parameters**
 
-   Create an. `ADBTargetLocationRequest`.
+   `ADBTargetLocationRequest`를 생성합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -264,7 +264,7 @@ NSString *const ADBTargetParameterMboxHost;
 
    >[!TIP]
    >
-   >SDK 버전 4.10.0부터 Target은 더 이상 쿠키를 사용하지 않습니다. 이 메서드는 thirdPartyID 및 sessionID를 재설정합니다.
+   >SDK 버전 4.10.0부터 Target에서 더 이상 쿠키를 사용하지 않습니다. 이 메서드는 thirdPartyID 및 sessionID를 재설정합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
