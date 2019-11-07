@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: 인앱 메시징
 topic: 개발자 및 구현
 uuid: 21fa6a94-bb7f-4c78-843b-a50f1974db22
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 ---
@@ -25,13 +25,13 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!TIP]
    >
-   >정의된 메시지가 없어도 이러한 단계를 완료할 수 있습니다. 메시지를 정의한 후 앱으로 동적으로 전달되고 앱스토어 업데이트 없이 표시됩니다.
+   >메시지가 정의되지 않은 경우에도 이 단계를 완료할 수 있습니다. 메시지를 정의하면 앱스토어를 업데이트하지 않아도 메시지가 앱에 동적으로 전달되어 표시됩니다.
 
-## Enabling in-app messages {#section_79F984271C3B4366B7B04F864F4FF8C2}
+## 인앱 메시지 사용 {#section_79F984271C3B4366B7B04F864F4FF8C2}
 
 1. 프로젝트에 라이브러리를 추가하고 라이프사이클을 구현합니다.
 
-   For more information, see Add the SDK and Config File to your Project in Core Implementation and Lifecycle.**[](/help/ios/getting-started/requirements.md)
+   자세한 내용은 [핵심 구현 및 라이프사이클](/help/ios/getting-started/requirements.md)에서 *프로젝트에 SDK 및 구성 파일 추가*&#x200B;를 참조하십시오.
 
 1. 라이브러리를 가져옵니다:
 
@@ -39,7 +39,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    #import "ADBMobile.h"
    ```
 
-1. Verify that the `ADBMobileConfig.json` file contains the required settings for In-App messaging.
+1. `ADBMobileConfig.json` 파일에 인앱 메시지에 대한 필수 설정이 포함되어 있는지 확인합니다.
 1. 시작 시 인앱 메시지를 동적으로 업데이트하려면 `remotes` 개체가 존재하고 올바르게 구성되어 있어야 합니다.
 
    ```js
@@ -67,24 +67,24 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!TIP]
    >
-   >`messages` or  is required.`remotes`
+   >`messages` 또는 `remotes`는 필수입니다.
 
-   If these objects are not configured, download an updated `ADBMobileConfig.json` file from Adobe Mobile services. For more information, see Core Implementation and Lifecycle.[](/help/ios/getting-started/requirements.md)
+   이러한 개체가 구성되어 있지 않으면 업데이트된 `ADBMobileConfig.json` 파일을 Adobe Mobile Services에서 다운로드합니다. 자세한 내용은 [핵심 구현 및 라이프사이클](/help/ios/getting-started/requirements.md)을 참조하십시오.
 
-## Tracking in-app messages {#section_B85CDF6929564AAEA79338B55E5CB1E8}
+## 인앱 메시지 추적 {#section_B85CDF6929564AAEA79338B55E5CB1E8}
 
 iOS Mobile Services SDK는 in-app 메시지에 대한 다음 지표를 추적합니다.
 
 * 전체 화면 및 경고 스타일 in-app 메시지에 대한 지표:
 
-   * **[!UICONTROL 노출 횟수]**:사용자가 인앱 메시지를 트리거하는 경우
-   * **[!UICONTROL 클릭스루]**:사용자가 클릭스루 **[!UICONTROL 단추를 누를]** 때
-   * **[!UICONTROL 취소]**:사용자가 취소 **[!UICONTROL 단추를 누를]** 때
+   * **[!UICONTROL 노출 횟수]**: 사용자가 인앱 메시지를 트리거할 때입니다.
+   * **[!UICONTROL 클릭스루]**: 사용자가 **[!UICONTROL 클릭스루]** 단추를 누를 때입니다.
+   * **[!UICONTROL 취소]**: 사용자가 **[!UICONTROL 취소]** 단추를 푸시할 때입니다.
 
 * 사용자 지정 전체 화면 in-app 메시지의 경우 메시지에서 HTML 컨텐츠에 다음 단추에 대한 SDK 추적을 알리는 올바른 코드를 포함해야 합니다.
 
-   * **[!UICONTROL Click-through (redirect) example tracking:]**`adbinapp://confirm/?url=https://www.yoursite.com`
-   * **[!UICONTROL 취소]** (닫기) 예제 추적: `adbinapp://cancel`
+   * **[!UICONTROL 클릭스루]**(리디렉션) 예 추적: `adbinapp://confirm/?url=https://www.yoursite.com`
+   * **[!UICONTROL 취소]**(닫기) 예 추적: `adbinapp://cancel`
 
 * 로컬(원격) 알림의 경우:
 
@@ -105,7 +105,7 @@ iOS Mobile Services SDK는 in-app 메시지에 대한 다음 지표를 추적합
    }
    ```
 
-## Local fallback image {#section_DEACC1CE549B4573B556A44A52409941}
+## 로컬 대체 이미지 {#section_DEACC1CE549B4573B556A44A52409941}
 
 Adobe Mobile Services에서 전체 화면 메시지를 만들 때 선택적으로 대체 이미지를 지정할 수 있습니다. 메시지가 웹에서 원하는 이미지를 검색할 수 없는 경우 SDK는 애플리케이션의 자산 폴더에서 이름이 같은 이미지를 로드합니다. 이렇게 하면 사용자가 오프라인 상태이거나 미리 설정된 이미지에 연결할 수 없는 경우에도 메시지를 원래 형식으로 표시할 수 있습니다.
 
@@ -113,5 +113,5 @@ Adobe Mobile Services에서 전체 화면 메시지를 만들 때 선택적으�
 
 >[!IMPORTANT]
 >
->지정된 리소스를 사용할 수 있는지 확인해야 합니다.
+>지정된 리소스가 사용 가능한지 확인해야 합니다.
 
