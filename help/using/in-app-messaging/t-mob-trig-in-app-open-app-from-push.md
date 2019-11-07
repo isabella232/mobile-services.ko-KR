@@ -4,13 +4,13 @@ seo-description: 사용자가 푸시 메시지에서 앱을 열었을 때 인앱
 seo-title: 푸시 메시지에서 앱이 열릴 때 인앱 메시지 트리거하기
 title: 푸시 메시지에서 앱이 열릴 때 인앱 메시지 트리거하기
 uuid: e1c8e29d-1c2b-47b2-8ab2-6b6e15df86f6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 114bce95e41c8e13695689dd2da2dbc04cb17ad7
 
 ---
 
 
-# Trigger an in-app message when the app is opened from a push message{#trigger-an-in-app-message-when-the-app-is-opened-from-a-push-message}
+# 푸시 메시지에서 앱이 열릴 때 인앱 메시지 트리거하기{#trigger-an-in-app-message-when-the-app-is-opened-from-a-push-message}
 
 사용자가 푸시 메시지에서 앱을 열었을 때 인앱 메시지 트리거를 푸시 메시지 ID로 설정할 수 있습니다.
 
@@ -28,7 +28,7 @@ source-git-commit: 114bce95e41c8e13695689dd2da2dbc04cb17ad7
 
    >[!TIP]
    >
-   >푸시 메시지 ID는 1단계에서 찾은 ID입니다.
+   >푸시 메시지 ID는 1단계에서 지정한 ID입니다.
 
    이 트리거는 **[!UICONTROL 트리거]드롭다운 목록에서 사용할 수 없으므로 수동으로 추가해야 합니다.**
 
