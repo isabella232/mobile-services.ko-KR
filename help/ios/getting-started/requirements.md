@@ -6,17 +6,17 @@ solution: Marketing Cloud,Analytics
 title: 시작하기 전에
 topic: 개발자 및 구현
 uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ---
 
 
-# Before you start {#before-you-start}
+# 시작하기 전에 {#before-you-start}
 
 다음 단계를 완료하여, iOS 앱 데이터를 수집하도록 보고서 세트를 구성하십시오.
 
-## Role-specific tasks {#section_8B9EA1FA189F4C6DB7D829F0B5844FBC}
+## 역할별 작업 {#section_8B9EA1FA189F4C6DB7D829F0B5844FBC}
 
 분석 관리자 및 앱 개발자는 다음 작업을 완료해야 합니다.
 
@@ -31,14 +31,14 @@ source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 >[!IMPORTANT]
 >
->To create a new report suite and download the SDKs, you must be an Analytics Administrator.
+>새 보고서 세트를 생성하고 SDK를 다운로드하려면 Analytics 관리자여야 합니다.
 
 ### 앱 개발자
 
-1. Ensure that your Analytics administrator has completed the steps in the *Analytics Administrators* section above.
+1. Analytics 관리자가 위의 *Analytics 관리자* 섹션에 있는 단계를 완료했는지 확인합니다.
 
-1. Verify that your Analytics administrator has completed one of the sections in the *Log in to the Adobe Mobile Services UI* below.
-1. After the report suite has been configured, complete steps in the *Download the SDK* section below.
+1. Analytics 관리자가 아래 *Adobe Mobile Services UI에 로그인*&#x200B;의 섹션 중 하나를 완료했는지 확인합니다.
+1. 보고서 세트를 구성한 후 아래의 *SDK 다운로드* 섹션의 단계를 완료합니다.
 
 역할 및 사용 권한에 대한 자세한 내용은 [역할 및 권한](/help/using/gs/c-mob-roles-and-permissions.md)을 참조하십시오.
 
@@ -52,29 +52,29 @@ Adobe Mobile Services는 모바일 앱 분석 및 타깃팅용 주요 보고 인
 
    Adobe ID를 사용하여 [Experience Cloud](https://marketing.adobe.com)에 로그인합니다.
 
-   This method assumes that your company has been provisioned and you have linked your Analytics account. 프로비저닝에 대한 자세한 내용은 Experience [Cloud 사용자 및 제품](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)관리를 참조하십시오. 계정 연결에 대한 자세한 내용은 조직 [및 계정 연결을](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)참조하십시오.
+   이 방법에서는 회사가 프로비저닝되었으며, 사용자가 Analytics 계정을 연결했다고 가정합니다. 프로비저닝에 대한 자세한 내용은 [Experience Cloud 사용자 및 제품 관리](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오. 계정 연결에 대한 자세한 내용은 [조직 및 계정 연결](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/organizations.html)을 참조하십시오.
 
    >[!TIP]
    >
-   >If you are unsure whether your company has been provisioned in the Experience Cloud, use your existing Adobe Analytics account.
+   >회사가 Experience Cloud에서 프로비저닝되었는지 확실하지 않을 경우 기존 Adobe Analytics 계정을 사용하십시오.
 
 * **Adobe Analytics**
 
    **[!UICONTROL Analytics으로 로그인]**&#x200B;을 클릭하고 Analytics 회사 이름, 사용자 이름 및 암호를 입력합니다.
 
-## 보고서 세트 만들기 {#section_7BC602ED1ABA42C6AB722F506B5219F3}
+## 보고서 세트 생성 {#section_7BC602ED1ABA42C6AB722F506B5219F3}
 
 보고서 세트를 생성하여 앱 데이터를 수집하고 앱을 정의하려면
 
 1. **[!UICONTROL 새 앱 만들기를 클릭합니다]**.
 
-   If you do not see this button, click **[!UICONTROL Manage Apps]** &gt; **[!UICONTROL Add]**.
+   이 단추가 표시되지 않으면 **[!UICONTROL 앱 관리]** &gt; **[!UICONTROL 추가]**&#x200B;를 클릭하십시오.
 
-1. In the **[!UICONTROL Report Suite]** drop-down, select **[!UICONTROL New Report Suite]**.
+1. **[!UICONTROL 보고서 세트]** 드롭다운에서 **[!UICONTROL 새 보고서 세트]**&#x200B;를 선택합니다.
 
 1. 앱 이름을 입력하고 고유 보고서 세트 ID를 선택합니다.
 
-   보고서 세트 ID의 예는 `mycomobileappdev`입니다. 개발 및 제작 버전에 대해 개별 보고서 세트와 앱을 설정해야 합니다. When you are ready to set up the production version, repeat these steps.
+   보고서 세트 ID의 예는 `mycomobileappdev`입니다. 개발 및 프로덕션 버전에 대해 별도의 보고서 세트와 앱을 설정해야 합니다. 프로덕션 버전을 설정할 준비가 되면 다음 단계를 반복합니다.
 1. **[!UICONTROL 모바일 앱 템플릿]을 선택한 상태로 둡니다.**
 
    이 템플릿을 사용하면 타임스탬프에서 오프라인 데이터를 수집할 수 있으며, 라이프사이클 지표를 캡처하는 모바일 솔루션 변수를 활성화합니다.
@@ -85,7 +85,7 @@ Adobe Mobile Services는 모바일 앱 분석 및 타깃팅용 주요 보고 인
 
 모바일 SDK를 다운로드하려면 다음을 수행하십시오.
 
-1. Log in to Mobile Services and open your app in one of the following ways:
+1. 다음 방법 중 하나로 Mobile Services에 로그인하고 앱을 엽니다.
 
    * **[!UICONTROL 모든 앱]드롭다운 목록에서 앱을 선택합니다.**
    * 오른쪽 패널에서 앱을 찾아서 엽니다.
@@ -97,5 +97,5 @@ Adobe Mobile Services는 모바일 앱 분석 및 타깃팅용 주요 보고 인
 
 >[!TIP]
 >
->앱용 구성 파일은 SDK 다운로드에 자동으로 포함되므로 별도로 다운로드할 필요가 없습니다. 그러나 이미 SDK를 다운로드한 경우 업데이트된 설정을 가져오려면 구성 파일을 다시 다운로드하십시오.
+>앱의 구성 파일은 SDK 다운로드에 자동으로 포함되므로 별도로 이 파일을 다운로드할 필요가 없습니다. 그러나 이미 SDK를 다운로드한 경우 업데이트된 설정을 가져오려면 구성 파일을 다시 다운로드하십시오.
 
