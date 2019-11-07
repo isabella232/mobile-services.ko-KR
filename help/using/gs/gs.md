@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: 시작하기
 topic: 지표
 uuid: a7ae7c5a-dab8-4603-b4cd-af73a2f09f71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
@@ -41,7 +41,7 @@ Adobe Mobile Services는 다음과 같은 방식으로 모바일 앱 참여를 �
 
 *획득*&#x200B;에서 유료 미디어, 소유한 미디어 및 수익을 창출하는 미디어 사용하여 앱스토어에서 앱 다운로드에 대한 사용자 획득을 얻도록 유도합니다. Adobe Mobile Services를 사용하여 앱 사용자 획득 프로세스를 가속화할 수 있습니다.
 
-Adobe Mobile Services는 앱 사용자를 확보하는 데 사용되는 채널의 효율성을 측정하는 획득 추적 및 심층 연결을 포함하여 사용자 획득 워크플로우를 제공합니다. With Marketing Links that track which users came from which channel, you can gain visibility into which acquisition channels are most effective in driving profitable and engaged users.
+Adobe Mobile Services는 앱 사용자를 확보하는 데 사용되는 채널의 효율성을 측정하는 획득 추적 및 심층 연결을 포함하여 사용자 획득 워크플로우를 제공합니다. 채널을 통해 제공된 사용자를 추적하는 마케팅 링크를 사용하여 수익 및 참여한 사용자를 추진하는 데 가장 효과적인 획득 채널에 대한 가시성을 얻을 수 있습니다.
 
 또한 심층 연결을 사용하여 사용자가 보고자 하는 앱 컨텐츠로 사용자를 직접 유도하고 필요한 경우 앱을 설치하도록 장려할 수 있습니다.
 
@@ -82,7 +82,7 @@ Adobe Audience Manager를 사용하면 다양한 데이터를 포함하는 대�
 * 인앱 메시지는 실시간 분석, 경고 및 오퍼/컨텐츠에 의해 트리거됩니다.
 * 보기, 클릭스루 비율 및 다운스트림 동작 이해
 
-### Adobe 모바일 메시지
+### Adobe Mobile Messaging
 
 푸시 및 인앱 알림을 사용하여 사용자와 통신할 수 있습니다. 푸시 알림은 장치의 운영 체제를 통해 전송되지만, 인앱 메시지는 사용자가 앱과 능동적으로 상호 작용할 때 앱에서 전송됩니다. 인앱 메시지에는 일반적으로 팝업 및 편집과 같은 다양한 추가 형식이 포함될 수 있습니다.
 
@@ -111,7 +111,7 @@ Adobe Mobile에서 다음 유형의 메시지를 구성할 수 있습니다.
 
 *최적화*&#x200B;에서 전환(가입, 상거래, 광고 수익 등)을 최적화하고 고객 유지를 개선할 수 있습니다. 앱에서 사용자 환경을 최적화하면 사용자의 컨텐츠를 개인화하여 최대 ROI 및 전환을 유도할 수 있습니다.
 
-테스트 및 Adobe Target에 대한 자세한 내용을 보려면 [Adobe Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)로 이동하십시오.
+테스트 및 Adobe Target에 대한 자세한 내용을 보려면 [Adobe Target](https://docs.adobe.com/content/help/ko-KR/target/using/target-home.html)로 이동하십시오.
 
 ### 지역 타깃팅
 
@@ -119,9 +119,9 @@ Adobe Mobile에서 다음 유형의 메시지를 구성할 수 있습니다.
 
 이제 모바일 앱용 Adobe Target은 Adobe Analytics를 통해 사용할 수 있는 향상된 세그멘테이션 및 보고를 최대한 활용합니다. 즉, Adobe Target에서는 타깃팅 및 개인화에 Analytics의 모든 주요 앱 지표를 사용하여 활용할 수 있습니다. 또한, 또한 테스트 성공에 대한 보고 수준을 세분화하여 마케터가 그러한 '~라면'에 대한 질문을 더 잘 이해할 수 있도록 합니다. 이에 대한 답변을 통해 앱 투자에 대한 수익을 보여 주어야 한다는 앱 마케터의 부담을 피할 수 있습니다. 앱 통합용 분석/타겟은 시장에서 이용할 수 있는 가장 강력한 앱 참여 솔루션을 나타내는 결합된 오퍼링에 도움이 됩니다.
 
-위치에 대한 자세한 내용은 다음 컨텐츠를 참조하십시오.
+위치에 대한 자세한 내용은 다음 콘텐츠를 참조하십시오.
 
-* [Mobile Services 사용자 안내서의 위치](/help/using/location/c-location-overview.md)
+* [Mobile Services 사용 안내서의 위치](/help/using/location/c-location-overview.md)
 * [위치(Android SDK 안내서)](/help/android/location/location.md)
 * [위치(iOS SDK 안내서)](/help/ios/location/location.md)
 
@@ -158,4 +158,4 @@ Adobe Mobile SDK는 다음 기능을 제공합니다.
    * Adobe 서버 및 타사 시스템으로 데이터를 전송하기 위한 장치 처리 로드를 최소화합니다.
    * 작은 풋프린트는 앱스토어에 제출된 앱 패키지의 크기를 최소화합니다.
 
-Adobe Mobile SDK에 대한 자세한 내용은 [Experience 솔루션용 Android SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html) 및 [Experience Cloud 솔루션용 iOS SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/ios/rel-notes.html)를 참조하십시오.
+Adobe Mobile SDK에 대한 자세한 내용은 [Experience 솔루션용 Android SDK 4.x](https://docs.adobe.com/content/help/ko-KR/mobile-services/android/overview.html) 및 [Experience Cloud 솔루션용 iOS SDK 4.x](https://docs.adobe.com/content/help/ko-KR/mobile-services/ios/rel-notes.html)를 참조하십시오.
