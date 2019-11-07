@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: Video Analytics
 topic: 개발자 및 구현
 uuid: d75fa415-78f6-4f50-a563-76949f040138
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 >[!TIP]
 >
->비디오 재생 중 빈번한 "하트비트" 호출이 이 서비스로 전송되어 재생 시간이 측정됩니다. 이러한 하트비트 호출은 10초 간격으로 전송되므로 더 세부적인 비디오 참여 지표와 더 정확한 비디오 폴아웃 보고서를 얻을 수 있습니다. 자세한 내용은 Adobe Analytics [에서 오디오 및 비디오 측정을 참조하십시오](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
+>비디오 재생 중 빈번한 "하트비트" 호출이 이 서비스로 전송되어 재생 시간이 측정됩니다. 이러한 하트비트 호출은 10초 간격으로 전송되므로 더 세부적인 비디오 참여 지표와 더 정확한 비디오 폴아웃 보고서를 얻을 수 있습니다. 자세한 내용은 [Adobe Analytics에서 오디오 및 비디오 측정](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html)을 참조하십시오.
 
 비디오를 측정하는 일반 프로세스는 모든 플랫폼에서 매우 유사합니다. 이 콘텐츠는 코드 샘플을 사용하는 개발자 작업에 대한 기본 개요를 제공합니다.
 
-## Map player events to Analytics variables {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
+## 플레이어 이벤트를 Analytics 변수에 매핑 {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
 
 다음 표에는 Analytics에 전송되는 미디어 데이터가 나열되어 있습니다. 처리 규칙을 사용하여 컨텍스트 데이터를 Analytics 변수에 매핑합니다.
 
@@ -32,7 +32,7 @@ source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
    (선택 사항) Custom Insight 변수는 비디오 경로 지정 정보를 제공합니다.
 
-   * 변수 유형:eVar
+   * 변수 유형: eVar
    * 기본 만료: 방문
    * Custom Insight(s.prop, 비디오 경로 지정에 사용됨)
 
@@ -40,12 +40,12 @@ source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
    (선택 사항) 비디오 경로 지정 정보를 제공합니다. 고객 지원에서 이 변수에 대해 경로 지정을 활성화해야 합니다.
 
-   * 변수 유형:커스텀 인사이트(s.prop)
+   * 변수 유형: 사용자 지정 통찰력(s.prop)
    * 이벤트 유형: 사용자 지정 통찰력(s.prop)
 
 * **a.media.segment**
 
-   (필수) 세그먼트 이름 및 비디오에서 세그먼트가 발생하는 순서를 포함하여 비디오 세그먼트 데이터를 수집합니다. 이 변수는 플레이어 이벤트를 자동으로 추적할 때 `segmentByMilestones` 변수를 활성화하거나, 플레이어 이벤트를 수동으로 추적할 때 사용자 지정 세그먼트 이름을 설정하여 채워집니다. For example, when a visitor views the first segment in a video, SiteCatalyst might collect the following in the `1:M:0-25` Segments evar.
+   (필수) 세그먼트 이름 및 비디오에서 세그먼트가 발생하는 순서를 포함하여 비디오 세그먼트 데이터를 수집합니다. 이 변수는 플레이어 이벤트를 자동으로 추적할 때 `segmentByMilestones` 변수를 활성화하거나, 플레이어 이벤트를 수동으로 추적할 때 사용자 지정 세그먼트 이름을 설정하여 채워집니다. 예를 들어 방문자가 비디오에서 첫 번째 세그먼트를 볼 경우 SiteCatalyst가 `1:M:0-25` 세그먼트 eVar에서 다음을 수집할 수 있습니다. 
 
    기본 비디오 데이터 수집 메서드는 다음 시점에서 데이터를 수집합니다.
 
@@ -54,7 +54,7 @@ source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
    * 비디오 종료(중지)
    Analytics에서는 방문자가 시청을 시작하면 세그먼트 시작 시 첫 번째 세그먼트 보기를 카운트합니다. 이후 세그먼트 보기는 세그먼트가 시작될 때 카운트됩니다.
 
-   * 변수 유형:eVar
+   * 변수 유형: eVar
    * 기본 만료: 페이지 보기
 
 
@@ -62,38 +62,38 @@ source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
    방문자가 본 콘텐츠 유형에 대한 데이터를 수집합니다. 비디오 측정에서 전송한 히트에는 `video` 콘텐츠 유형이 할당됩니다. 이 변수는 비디오 추적을 위해 배타적으로 예약하지 않아도 됩니다. 이와 동일한 변수를 사용하는 다른 콘텐츠 보고서 콘텐츠 유형이 있으면 여러 콘텐츠 유형에 대해 방문자 분포를 분석할 수 있습니다. 예를 들어 이 변수를 사용하여 "article" 또는 "product page"와 같은 값을 사용하는 다른 콘텐츠 유형에 태그를 지정할 수 있습니다. 비디오 측정 관점에서 콘텐츠 유형을 사용하면 비디오 방문자를 식별할 수 있고 비디오 전환율을 계산할 수 있습니다.
 
-   * 변수 유형:eVar
+   * 변수 유형: eVar
    * 기본 만료: 페이지 보기
 
 * **a.media.timePlayed**
 
    마지막 데이터 컬렉션 처리(이미지 요청) 이후 비디오를 시청하는 데 걸린 시간(초)을 계산합니다.
 
-   * 변수 유형:이벤트
+   * 변수 유형: 이벤트
    * 유형:카운터
 
 * **a.media.view**
 
    방문자가 비디오를 일정 부분 보았음을 나타냅니다. 그러나 방문자가 비디오에서 본 내용이나 분량에 대한 정보는 제공하지 않습니다.
 
-   * 변수 유형:이벤트
+   * 변수 유형: 이벤트
    * 유형:카운터
 
 * **a.media.segmentView**
 
    방문자가 비디오 세그먼트의 일정 부분을 보았음을 나타냅니다. 그러나 방문자가 비디오에서 본 내용이나 분량에 대한 정보는 제공하지 않습니다.
 
-   * 변수 유형:이벤트
+   * 변수 유형: 이벤트
    * 유형:카운터
 
 * **a.media.complete**
 
    사용자가 비디오 전체를 보았음을 의미합니다. 기본적으로 완료 이벤트는 비디오 종료 1초 전에 측정됩니다. 구현 중에 비디오 종료 몇 초 전을 보기 완료로 고려할 것인지 지정할 수 있습니다. 정의된 끝이 없는 라이브 비디오 및 기타 스트림의 경우 특정 시간 이후와 같이 사용자 지정 지점을 지정하여 완료를 측정할 수 있습니다.
 
-   * 변수 유형:이벤트
+   * 변수 유형: 이벤트
    * 유형:카운터
 
-## Configure media settings {#section_929945D4183C428AAF3B983EFD3E2500}
+## 미디어 설정 구성 {#section_929945D4183C428AAF3B983EFD3E2500}
 
 비디오를 추적하는 데 사용할 설정으로 `ADBMediaSettings` 객체를 구성합니다.
 
@@ -120,9 +120,9 @@ mediaSettings.trackSeconds = 30; // sends a hit every 30 seconds
 // event handlers described in the next section
 ```
 
-## Track player events {#section_C7F43AECBC0D425390F7FCDF3035B65D}
+## 플레이어 이벤트 추적 {#section_C7F43AECBC0D425390F7FCDF3035B65D}
 
-To measure video playback, The `mediaPlay`, `mediaStop`, and `mediaClose` methods need to be called at the appropriate times. 예를 들어 플레이어가 일시 중지된 경우에는 `mediaStop`입니다. 재생이 시작되거나 다시 시작된 경우에는 `mediaPlay`를 호출합니다.
+비디오 재생을 측정하려면 적절한 시간에 `mediaPlay`, `mediaStop` 및 `mediaClose` 메서드를 호출해야 합니다. 예를 들어 플레이어가 일시 중지된 경우에는 `mediaStop`입니다. 재생이 시작되거나 다시 시작된 경우에는 `mediaPlay`를 호출합니다.
 
 다음 예에서는 알림을 구성하고 미디어 메서드를 호출하여 비디오를 측정하는 방법을 보여줍니다.
 
@@ -220,7 +220,7 @@ NSUInteger segmentNum
 NSUInteger eventType
 ```
 
-## Media measurement class and method reference {#section_50DF9359A7B14DF092634C8E913C77FE}
+## 미디어 측정 클래스 및 메서드 참조 {#section_50DF9359A7B14DF092634C8E913C77FE}
 
 * **mediaCreateSettings&#x200B;WithName:&#x200B;length:&#x200B;playerName:&#x200B;playerID:**
 
