@@ -202,6 +202,7 @@ Android PhoneGap 플러그인 메서드를 사용하여 다양한 작업을 완�
    PII 컬렉션 요청을 제출합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
+
    ```javascript
    ADB.collectPII(piiData,success, fail);
    ```

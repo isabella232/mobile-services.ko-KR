@@ -43,6 +43,7 @@ Adobe Mobile 및 Adobe Mobile SDK를 사용하면 사용자에게 푸시 메시�
 1. Firebase Cloud Messaging(FCM) API를 사용하여 등록 ID/토큰을 얻습니다.
 
    * FCM 설정에 대한 자세한 내용은 [Android용 Firebase Cloud 메시지 클라이언트 앱 설정](https://firebase.google.com/docs/cloud-messaging/android/client)을 참조하십시오.
+
    ```js
    String token = FirebaseInstanceId.getInstance().getToken();
    ```
@@ -58,6 +59,7 @@ Adobe Mobile 및 Adobe Mobile SDK를 사용하면 사용자에게 푸시 메시�
    푸시 클릭스루 보고 기능을 활성화하기 위한 요구 사항은 다음과 같습니다.
 
    * `FireBaseMessageService` 구현 시 RemoteMessage 개체와 함께 `onMessageReceived` 메서드에 전달된 메시지 데이터가 포함된 번들 개체를 클릭스루시 타겟 활동을 여는 데 사용하는 인텐트에 추가해야 합니다. 이 작업은 `putExtras` 메서드를 사용하여 수행할 수 있습니다. 자세한 내용은 [putExtras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle))를 참조하십시오.
+
    ```java
    Intent intent = new Intent(this, MainActivity.class);
       intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

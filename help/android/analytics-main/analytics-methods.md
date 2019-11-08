@@ -120,6 +120,7 @@ Analytics에 대해 자동으로 생성된 방문자 식별자를 반환합니�
    >이 호출은 히트를 전송하지 않습니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
+
    ```java
    publicstaticvoidtrackTimedActionStart(Stringaction,Map<String,Object>contextData);
    ```

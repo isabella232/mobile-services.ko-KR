@@ -799,6 +799,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
          * 유형: `String`
          * 대상 요청에 사용할 타사 ID입니다.
    * 다음은 이 메서드의 코드 샘플입니다.
+
    ```objective-c
    ADBMobile.targetSetThirdPartyID(‘thirdPartyID’);
    ```
