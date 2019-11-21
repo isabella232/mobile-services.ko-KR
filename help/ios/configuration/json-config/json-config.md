@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: ADBMobile JSON 구성
 topic: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
 
 ---
@@ -70,7 +70,7 @@ source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
 
 * **charset**
 
-   Analytics로 전송되는 데이터에 사용하는 문자 세트를 정의합니다. charset은 들어오는 데이터를 저장 및 보고용으로 UTF-8로 변환하는 데 사용됩니다. 자세한 내용은 [s.charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html)을 참조하십시오.
+   Analytics로 전송되는 데이터에 사용하는 문자 세트를 정의합니다. charset은 들어오는 데이터를 저장 및 보고용으로 UTF-8로 변환하는 데 사용됩니다. 자세한 내용은 [s.charSet](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/charset.html)을 참조하십시오.
 
    * 최소 SDK 버전: 4.0
 
@@ -247,7 +247,7 @@ source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
 
    >[!IMPORTANT]
    >
-   > 버전 4.10.0을 시작하면 플래그가 설정되지 않은 경우 SSL이 기본적으로 true로 설정됩니다.
+   > 버전 4.10.0부터는 플래그가 설정되지 않은 경우 SSL이 기본적으로 true로 설정됩니다.
 
    SSL(HTTPS)을 사용하여 측정 데이터를 전송하는 기능을 활성화(`true`)하거나 비활성화(`false`)합니다.
 
@@ -367,7 +367,7 @@ source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
    * "altImage"
 
       * 전체 화면 전용, 선택 사항
-      * URL이
+      * 
          `image` 에 지정된 URL에 연결할 수 없는 경우 번들 이미지의 이름
    * "title"
 
