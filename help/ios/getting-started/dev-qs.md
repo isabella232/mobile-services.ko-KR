@@ -4,10 +4,10 @@ seo-description: 다음은 iOS 라이브러리를 구현하고 시작, 업그레
 seo-title: 핵심 구현 및 라이프사이클
 solution: Marketing Cloud,Analytics
 title: 핵심 구현 및 라이프사이클
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
-translation-type: ht
-source-git-commit: 4db9781e6e1e75a04d9715a41c5a32c10ede1bf4
+translation-type: tm+mt
+source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
 
 ---
 
@@ -64,7 +64,7 @@ SDK를 다운로드하려면:
    ![](assets/step_3.png)
 
 1. **[!UICONTROL 마침을 클릭합니다]**.
-1. **[!UICONTROL Project Navigator]**&#x200B;에서 **[!UICONTROL`ADBMobileConfig.json`]**&#x200B;를 선택합니다.
+1. **[!UICONTROL Project Navigator]**&#x200B;에서 **`ADBMobileConfig.json`**&#x200B;를 선택합니다.
 1. **[!UICONTROL File Inspector]**&#x200B;에서 Adobe SDK를 사용할 프로젝트의 타겟에 JSON 파일을 추가합니다.
 
    ![](assets/step_4.png)
