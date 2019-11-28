@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: 모바일 지표 표시
 topic: Metrics
 uuid: 57db0b77-6b0a-4a0c-9aad-0731275233fd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
 
 ---
@@ -35,7 +35,7 @@ source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
 
    필터를 만들려면 다음을 수행하십시오.
 
-   1. **[!UICONTROL 필터]** 아이콘을 클릭하여 **고정 필터[!UICONTROL 대화 상자를 표시합니다.]**
+   1. **[!UICONTROL 필터]** 아이콘을 클릭하여 **[!UICONTROL 고정 필터]** 대화 상자를 표시합니다.
    1. **[!UICONTROL 규칙 추가]**&#x200B;를 클릭하고 드롭다운 목록에서 옵션을 선택한 다음, 필요한 정보를 입력합니다.
 
       예를 들어 **[!UICONTROL 앱 버전]**&#x200B;을 선택하고 버전에 대해 `4.5`를 입력할 수 있습니다. **[!UICONTROL 장치 유형]**&#x200B;을 선택하고 `Android`를 입력합니다.
@@ -53,7 +53,7 @@ source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
 
 * **주요 성과 지표 표시**
 
-   앱 이름을 클릭하면 주요 성과 지표에 대한 세부 사항이 표시됩니다. 차트의 선은 컬러로 코딩되어 있으므로, 데이터 포인트를 마우스로 가리키면 특정 날짜에 대한 통계가 표시됩니다. To drill down, click the icon next to **[!UICONTROL Key Performance Indicators]**. 차트의 선은 컬러로 코딩되어 있으므로, 데이터 포인트를 마우스로 가리키면 특정 날짜에 대한 통계가 표시됩니다. 데이터를 내림차순 또는 오름차순으로 정렬하려면 표에 있는 열 헤더를 클릭하십시오.
+   앱 이름을 클릭하면 주요 성과 지표에 대한 세부 사항이 표시됩니다. 차트의 선은 컬러로 코딩되어 있으므로, 데이터 포인트를 마우스로 가리키면 특정 날짜에 대한 통계가 표시됩니다. 자세히 살펴보려면 **[!UICONTROL 주요 성능 지표]** 옆에 있는 아이콘을 클릭합니다. 차트의 선은 컬러로 코딩되어 있으므로, 데이터 포인트를 마우스로 가리키면 특정 날짜에 대한 통계가 표시됩니다. 데이터를 내림차순 또는 오름차순으로 정렬하려면 표에 있는 열 헤더를 클릭하십시오.
 
 ## 앱 설정 편집 {#section_C1CF227A2E534A798F0073E43AD6A2D1}
 
