@@ -7,7 +7,7 @@ title: 시작하기 전에
 topic: Developer and implementation
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
 translation-type: tm+mt
-source-git-commit: 3249a0f35807b230f8200e81772957fbb255832b
+source-git-commit: 0720b2004097eb288bd8f59723eeb09a79dd81e7
 
 ---
 
@@ -35,10 +35,9 @@ source-git-commit: 3249a0f35807b230f8200e81772957fbb255832b
 
 ### 앱 개발자
 
-1. Analytics 관리자가 [역할별 작업](../getting-started/requirements.md#section_8B9EA1FA189F4C6DB7D829F0B5844FBC)의 *Analytics 관리자* 섹션에 있는 단계를 완료했는지 확인합니다.
-
+1. Ensure that your Analytics administrator has completed the steps in the *Analytics Administrators* in [Role-Specific Tasks](../getting-started/requirements.md#section_8B9EA1FA189F4C6DB7D829F0B5844FBC).
 1. Analytics 관리자가 [Adobe Mobile Services UI에 로그인](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8)의 섹션 중 하나를 완료했는지 확인합니다.
-1. 보고서 세트를 구성한 후 [SDK 다운로드](../getting-started/requirements.md#section_044C17DF82BC4FD8A3E409C456CE9A46)의 단계를 완료합니다.
+1. After the report suite has been configured, complete steps in the [Download the SDK](../getting-started/requirements.md#section_044C17DF82BC4FD8A3E409C456CE9A46).
 
 역할 및 사용 권한에 대한 자세한 내용은 [역할 및 권한](/help/using/gs/c-mob-roles-and-permissions.md)을 참조하십시오.
 
@@ -91,11 +90,15 @@ Adobe ID를 사용하여 [Experience Cloud](https://marketing.adobe.com)에 로�
 
    >[!IMPORTANT]
    >
-   >오른쪽 창에 표시되는 앱을 보려면 먼저 앱을 만들어야 합니다. 앱 만들기에 대한 자세한 내용은 [새 앱](https://docs.adobe.com/content/help/en/mobile-services/using/manage-apps-ug/t-new-app.html)추가를 참조하십시오.
+   >오른쪽 창에 표시되는 앱을 보려면 먼저 앱을 만들어야 합니다. 앱 만들기에 대한 자세한 내용은 [새 앱 추가를 참조하십시오.](https://docs.adobe.com/content/help/en/mobile-services/using/manage-apps-ug/t-new-app.html)
 
 1. 앱의 왼쪽 창에서 앱 설정 **[!UICONTROL 관리를 클릭합니다]**.
-1. 페이지 하단에서 아래로 스크롤하여 앱 SDK 다운로드 **[!UICONTROL 섹션으로]**이동합니다.
-1. 플랫폼용 SDK 및 샘플 앱을 다운로드합니다.
+
+   >[!IMPORTANT]
+   >
+   >앱 설정 관리 **[!UICONTROL 옵션이 표시되지 않는]**경우 Adobe Mobile Services에 로그인되어 있는지 확인하십시오. 확인하려면 페이지 오른쪽 상단에 있는![솔루션 전환기](assets/solution-switcher.png)아이콘을 클릭하고**[!UICONTROL  Adobe Mobile Services]** 가 왼쪽 상단에 표시되는지 확인합니다.
+
+1. 앱 설정 관리 페이지 하단의 앱 SDK **[!UICONTROL 다운로드]**섹션에서 SDK 및 플랫폼용 샘플 앱을 다운로드합니다.
 
 >[!TIP]
 >
