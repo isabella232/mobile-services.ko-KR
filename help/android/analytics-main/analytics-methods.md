@@ -1,14 +1,14 @@
 ---
 description: 다음은 Android 라이브러리에서 제공하는 Adobe Analytics 메서드 목록입니다.
-keywords: android;라이브러리;모바일;sdk
+keywords: android;library;mobile;sdk
 seo-description: 다음은 Android 라이브러리에서 제공하는 Adobe Analytics 메서드 목록입니다.
 seo-title: Analytics 메서드
 solution: Marketing Cloud,Analytics
 title: Analytics 메서드
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: ac7c640e-9dcc-4724-b561-019cc025d5a7
-translation-type: ht
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+translation-type: tm+mt
+source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
 
 ---
 
@@ -34,13 +34,13 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      public staticvoidtrackState(Stringstate, Map<String,Object> contextData);
+      public static void trackState(String state, Map<String, Object> contextData);
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      Analytics.trackState("loginScreen",null);
+      Analytics.trackState("loginScreen", null);
       ```
 
 * **trackAction**
@@ -51,13 +51,13 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      publicstaticvoidtrackAction(Stringstate,Map<String,Object> contextData);
+      public static void trackAction(String state, Map<String, Object> contextData);
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      Analytics.trackAction("heroBannerTouched",null);
+      Analytics.trackAction("heroBannerTouched", null);
       ```
 
 * **getTrackingIdentifier**
@@ -68,13 +68,13 @@ Analytics에 대해 자동으로 생성된 방문자 식별자를 반환합니�
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      public static String getTrackingIdentifier(); 
+      public static String getTrackingIdentifier();
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      String trackingId = Analytics.getTrackingIdentifier(); 
+      String trackingId = Analytics.getTrackingIdentifier();
       ```
 
 * **trackLocation**
@@ -84,7 +84,7 @@ Analytics에 대해 자동으로 생성된 방문자 식별자를 반환합니�
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      public static void trackLocation(Location location, Map<String,Object> contextData); 
+      public static void trackLocation(Location location, Map<String, Object> contextData);
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
@@ -100,7 +100,7 @@ Analytics에 대해 자동으로 생성된 방문자 식별자를 반환합니�
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      publicstaticvoidtrackLifetimeValueIncrease(BigDecimalamount,Map<String,Object>contextData);
+      public static void trackLifetimeValueIncrease(BigDecimal amount, Map<String, Object> contextData);
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
@@ -122,13 +122,13 @@ Analytics에 대해 자동으로 생성된 방문자 식별자를 반환합니�
    * 다음은 이 메서드에 대한 구문입니다.
 
    ```java
-   publicstaticvoidtrackTimedActionStart(Stringaction,Map<String,Object>contextData);
+   public static void trackTimedActionStart(String action, Map<String, Object> contextData);
    ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      Analytics.trackTimedActionStart("cartToCheckout",null)
+      Analytics.trackTimedActionStart("cartToCheckout", null)
       ```
 
 
@@ -143,14 +143,14 @@ Analytics에 대해 자동으로 생성된 방문자 식별자를 반환합니�
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      public static void trackTimedActionUpdate(Stringaction,Map <String,Object> contextData); 
+      public static void trackTimedActionUpdate(String action, Map<String, Object> contextData);
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      HashMap cdata = new HashMap<String Object> (); 
-      cdata.put("quantity",3); 
+      HashMap cdata = new HashMap<String Object> ();
+      cdata.put("quantity",3);
       Analytics.trackTimedActionUpdate("cartToCheckout", cdata);
       ```
 
@@ -165,7 +165,7 @@ Analytics에 대해 자동으로 생성된 방문자 식별자를 반환합니�
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      public static void trackTimedActionEnd(Stringaction,TimedActionBlock<Boolean> logic); 
+      public static void trackTimedActionEnd(String action, TimedActionBlock<Boolean> logic);
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
@@ -173,12 +173,11 @@ Analytics에 대해 자동으로 생성된 방문자 식별자를 반환합니�
       ```java
       Analytics.trackTimedActionEnd("cartToCheckout",new
       Analytics.TimedActionBlock<Boolean>(){
-        @Override
-        public Booleancall(long inAppDuration,long totalDuration, Map<String,
-      Object> contextData) {
+          @Override
+          public Boolean call(long inAppDuration, long totalDuration, Map<String, Object> contextData) {
               contextData.put("price", 49.95);
               return true;
-         }
+          }
       });
       ```
 
@@ -191,7 +190,7 @@ Analytics에 대해 자동으로 생성된 방문자 식별자를 반환합니�
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      voidsendQueuedHits()
+      public static void sendQueuedHits();
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
@@ -207,13 +206,13 @@ Analytics에 대해 자동으로 생성된 방문자 식별자를 반환합니�
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      long getQueueSize()
+      public static long getQueueSize();
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      long queueSize = Analytics.getQueueSize(); 
+      long queueSize = Analytics.getQueueSize();
       ```
 
 * **clearQueue**
@@ -223,7 +222,7 @@ Analytics에 대해 자동으로 생성된 방문자 식별자를 반환합니�
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      voidclearQueue()
+      public static void clearQueue();
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
@@ -235,3 +234,45 @@ Analytics에 대해 자동으로 생성된 방문자 식별자를 반환합니�
       >[!WARNING]
       >
       > 큐를 수동으로 지울 때는 주의하십시오. 이 프로세스는 되돌릴 수 없습니다.
+
+* **processReferrer**
+
+   나중에 사용하기 위해 Google Play Store의 레퍼러 캠페인 데이터를 처리합니다.
+
+   * 다음은 이 메서드에 대한 구문입니다.
+
+      ```java
+      public static void processReferrer(final Context context, final Intent intent);
+      ```
+
+   * 다음은 이 메서드의 코드 샘플입니다.
+
+      ```java
+      Analytics.processReferrer(getApplicationContext(), intent);
+      ```
+
+* **processGooglePlayInstallReferrerUrl**
+
+   >[!IMPORTANT]
+   >
+   > 이 API는 SDK 버전 4.18.0부터 사용할 수 있습니다
+
+   제공된 Google Play 설치 레퍼러 URL에서 획득 데이터를 검색합니다.
+
+   이 API에서 수집된 데이터는 Analytics로 전송된 설치 히트 시 전송되며 Adobe 데이터 콜백에서 사용할 수 있습니다.
+
+   SDK에서 레퍼러 데이터를 이미 수집한 경우 이 메서드를 호출하면 작업이 수행되지 않습니다.
+
+   레퍼러 URL을 검색하는 방법에 대한 자세한 내용은 Google 설명서를 참조하십시오.https://developer.android.com/google/play/installreferrer/library.
+
+   * 다음은 이 메서드에 대한 구문입니다.
+
+      ```java
+      public static void processGooglePlayInstallReferrerUrl(final String referrerUrl);
+      ```
+
+   * 다음은 이 메서드의 코드 샘플입니다.
+
+      ```java
+      Analytics.processGooglePlayInstallReferrerUrl(referrerUrl);
+      ```
