@@ -8,14 +8,14 @@ title: SDK ID 서비스 옵션 구성
 topic: Metrics
 uuid: e69b57f7-153a-4a95-9c1e-c07fe29dea2d
 translation-type: tm+mt
-source-git-commit: 27b9b262876271ba8bdec27e5d27b802082a43f4
+source-git-commit: 712a1107b317f02216e4df8d75fddda67a6f1feb
 
 ---
 
 
 # SDK ID 서비스 옵션 구성 {#configure-sdk-id-service-options}
 
-새 앱을 만들거나 기존 앱을 편집하는 동안 앱 설정 관리 페이지에서 Adobe Experience Platform ID 서비스 옵션을 구성할 수 있습니다.
+새 앱을 만들거나 기존 앱을 편집할 때 [앱 설정 관리] 페이지에서 Adobe Experience Cloud Identity Service 옵션을 구성할 수 있습니다.
 
 1. Type information in the following fields under **[!UICONTROL Visitor ID Service]**:
 
