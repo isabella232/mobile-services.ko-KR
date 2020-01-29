@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: 버전 3 획득 테스트
 topic: Developer and implementation
 uuid: 5e38b43d-389e-4412-99e5-3e6223b6ad28
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
 
 ---
@@ -25,13 +25,13 @@ source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
 
 >[!IMPORTANT]
 >
->Google Play Install Referrer API를 사용하여 구현하는 경우 앱이 Google Play Store에 있기 전에 획득을 테스트할 수 없습니다.
+>Google Play 설치 레퍼러 API를 사용하여 구현하는 경우 Google Play Store에 앱이 있기 전에 획득을 테스트할 수 없습니다.
 
 테스트가 실행될 때마다 앱을 새로 설치하거나 **[!UICONTROL 설정]**에서 데이터를 지워야 합니다. 이렇게 하면 앱을 처음 시작할 때 캠페인 쿼리 문자열 매개 변수와 연결된 초기 라이프사이클 지표를 전달할 수 있습니다.
 
 1. [모바일 앱 획득](/help/android/acquisition-main/acquisition.md)에서 사전 요구 작업을 완료하고 `INSTALL_REFERRER`에 대한 브로드캐스트 수신기를 올바르게 구현했는지 확인합니다.
 
-1. In the Adobe Mobile Services UI, click  **[!UICONTROL Acquisition]**>**[!UICONTROL  Marketing Links Builder]** and generate an Acquisition Marketing Link URL that sets Google Play as the destination for Android devices.
+1. Adobe Mobile Services UI에서 **[!UICONTROL 획득]**>**[!UICONTROL &#x200B;마케팅 링크 빌더]**를 클릭하고 Google Play를 Android 장치의 대상으로 설정하는 획득 마케팅 링크 URL을 생성합니다.
 
    자세한 정보는 [마케팅 링크 빌더](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md)를 참조하십시오.
 
@@ -68,7 +68,7 @@ source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
 
    | 설정 | 값 |
    |--- |--- |
-   | acquisition | 서버는 `c00.adobe.com`이어야 합니다. *`appid`*는 획득 링크에서`appid`와 같아야 합니다. |
+   | acquisition | 서버는 `c00.adobe.com`이어야 합니다.   *`appid`*는 획득 링크에서`appid`와 같아야 합니다. |
    | analytics | 테스트 목적을 위해 수동으로 브로드캐스트를 전송하는 데 적당한 시간(60초 이상)을 고려하도록 레퍼러 시간제한을 설정하십시오. 테스트 후 원래 시간제한 설정을 복원할 수 있습니다. |
 
 1. 장치를 컴퓨터에 연결하고 앱을 제거한 다음 다시 설치합니다.
