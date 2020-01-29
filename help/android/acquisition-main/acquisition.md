@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: 모바일 앱 획득
 topic: Developer and implementation
 uuid: 4d32eae9-e856-4e40-8a29-2b5bccd106e0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a25259732a916f977f733cd22971b1d847aae5f
 
 ---
@@ -21,7 +21,7 @@ Adobe Mobile Services에서 고유한 추적 코드가 있는 획득 링크를 �
 
 Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
 
-2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html)를 통해 구성할 수 있습니다.
+2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/kr/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
 * 시작하려면 Adobe Experience Platform Launch로 이동합니다.
 * Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)로 이동하십시오.
@@ -34,15 +34,15 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 
 **SDK 버전 4.18.0 이상**:
 
-2020년 3월 1일부터 Google은 install_referrer intent broadcast 메커니즘을 더 이상 사용하지 않습니다. 자세한 내용은 InstallBroadcast [사용을 참조하십시오. 2020년 3월 1일까지 Play Referrer API로 전환](https://android-developers.googleblog.com/2019/11/still-using-installbroadcast-switch-to.html)을 참조하십시오. Google Play 스토어에서 설치 레퍼러 정보를 계속 수집하려면 SDK 버전 4.18.0 이상을 사용하도록 응용 프로그램을 업데이트하십시오.
+2020년 3월 1일부터 Google은 install_referrer 인텐트 브로드캐스트 메커니즘을 더는 사용하지 않습니다. 자세한 내용은 [InstallBroadcast를 계속 사용하십니까? 2020년 3월 1일까지 Play 레퍼러 API로 전환하십시오](https://android-developers.googleblog.com/2019/11/still-using-installbroadcast-switch-to.html)를 참조하십시오. Google Play 스토어에서 설치 레퍼러 정보를 계속 수집하려면 SDK 버전 4.18.0 이상을 사용하도록 애플리케이션을 업데이트하십시오.
 
-사용 중단 시 SDK를 만드는 대신 새 Google API에서 설치 레퍼러 URL을 `BroadcastReceiver`수집하고 결과 URL을 SDK에 전달해야 합니다.
+사용 중단 시 `BroadcastReceiver`를 생성하는 대신 새 Google API에서 설치 레퍼러 URL을 수집하고 결과 URL을 SDK에 전달해야 합니다.
 
-1. Google Play 설치 레퍼러 패키지를 일반 파일의 종속성에 추가합니다.
+1. Google Play 설치 레퍼러 패키지를 gradle 파일의 종속성에 추가합니다.
 
    `implementation 'com.android.installreferrer:installreferrer:1.1'`
 
-1. Install Referrer API에서 레퍼러 URL을 검색하려면 설치 레퍼러 [가져오기의 단계를 완료하십시오](https://developer.android.com/google/play/installreferrer/library#install-referrer).
+1. Install Referrer API에서 레퍼러 URL을 검색하려면 [설치 레퍼러 가져오기](https://developer.android.com/google/play/installreferrer/library#install-referrer)의 단계를 완료하십시오.
 
 1. 레퍼러 URL을 SDK에 전달합니다.
 
@@ -52,7 +52,7 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 >
 >앱에서 불필요한 API 호출을 방지하려면 설치 후 바로 API를 한 번만 호출하는 것이 좋습니다.
 
-앱에서 Google Play 설치 레퍼러 API를 사용하는 최상의 방법을 결정하려면 Google 설명서를 참조하십시오. 다음은 Google Play Install Referrer API와 함께 Adobe SDK를 사용하는 방법의 예입니다.
+앱에서 Google Play 설치 레퍼러 API를 사용하는 최고의 방법을 결정하려면 Google 설명서를 참조하십시오. 다음은 Google Play 설치 레퍼러 API와 함께 Adobe SDK를 사용하는 방법의 예입니다.
 
 ```java
 void handleGooglePlayReferrer() {
@@ -141,7 +141,7 @@ Adobe Mobile Services에서 만든 획득 링크를 사용하는 경우 다음 �
 
 1. 획득 변수 접두사로 &quot;`adb`&quot;를 사용합니다.
 
-   SDK가 처음 실행 시 Adobe Mobile Services로부터 획득 데이터를 받으면 데이터가 저장되고 SDK에 이전에 등록한 `AdobeDataCallback` 인스턴스에서 사용할 수 있습니다. 자세한 내용은 [구성 메서드](/help/android/configuration/methods.md)를 참조하십시오.
+   SDK 첫 실행 시 Adobe Mobile Services에서 획득 데이터를 받으면 데이터가 저장되고 SDK에 이전에 등록한 `AdobeDataCallback` 인스턴스에서 사용할 수 있습니다. 자세한 내용은 [구성 메서드](/help/android/configuration/methods.md)를 참조하십시오.
 
 1. `MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL` 또는 `MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH` 이벤트 유형이 사용됩니다.
 
