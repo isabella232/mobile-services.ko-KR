@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: Analytics 메서드
 topic: Developer and implementation
 uuid: ac7c640e-9dcc-4724-b561-019cc025d5a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
 
 ---
@@ -237,7 +237,7 @@ Analytics에 대해 자동으로 생성된 방문자 식별자를 반환합니�
 
 * **processReferrer**
 
-   나중에 사용하기 위해 Google Play Store의 레퍼러 캠페인 데이터를 처리합니다.
+   나중에 사용하기 위해 Google Play 스토어의 레퍼러 캠페인 데이터를 처리합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -255,15 +255,15 @@ Analytics에 대해 자동으로 생성된 방문자 식별자를 반환합니�
 
    >[!IMPORTANT]
    >
-   > 이 API는 SDK 버전 4.18.0부터 사용할 수 있습니다
+   > 이 API는 SDK 버전 4.18.0부터 사용할 수 있습니다.
 
    제공된 Google Play 설치 레퍼러 URL에서 획득 데이터를 검색합니다.
 
-   이 API에서 수집된 데이터는 Analytics로 전송된 설치 히트 시 전송되며 Adobe 데이터 콜백에서 사용할 수 있습니다.
+   이 API에서 수집된 데이터는 Analytics로 전송된 설치 히트에 전송되고 Adobe Data Callback에서 사용할 수 있습니다.
 
-   SDK에서 레퍼러 데이터를 이미 수집한 경우 이 메서드를 호출하면 작업이 수행되지 않습니다.
+   SDK에서 이미 레퍼러 데이터를 수집한 경우 이 메서드를 호출하면 작업이 수행되지 않습니다.
 
-   레퍼러 URL을 검색하는 방법에 대한 자세한 내용은 Google 설명서를 참조하십시오.https://developer.android.com/google/play/installreferrer/library.
+   레퍼러 URL을 검색하는 방법에 대한 자세한 내용은 Google 설명서를 https://developer.android.com/google/play/installreferrer/library에서 참조하십시오.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
