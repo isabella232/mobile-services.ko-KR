@@ -4,10 +4,10 @@ seo-description: 다음은 iOS 라이브러리에서 제공하는 메서드 목�
 seo-title: 구성 메서드
 solution: Marketing Cloud,Analytics
 title: 구성 메서드
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: ea4b054fbeea3967c28ee938aed5997a4c287a0d
 
 ---
 
@@ -269,6 +269,40 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
       ```objective-c
       [ADBMobile collectLifecycleDataWithAdditionalData:@{@"entryType":@"appShortcutIcon"}]; 
       ```
+
+* **pauseCollectingLifecycleData**
+
+   이 API를 사용하여 라이프사이클 데이터 수집을 일시 중지합니다. 자세한 내용은 [라이프사이클 지표](/help/ios/metrics.md)를 참조하십시오.
+
+   >[!IMPORTANT]
+   >
+   >delegate 메서드에서 먼저 `applicationDidEnterBackground` `pauseCollectingLifecycleData` 메서드를 호출해야 합니다.
+   >
+   >iOS 13에서 iPhone7/7s 또는 이전 장치의 세션 길이 지표가 비정상인 문제를 완화하도록 API가 제공됩니다. 이는 iOS 13에서 발생한 알 수 없는 변경 사항 때문이었으며, iOS에서는 앱을 백그라운드로 백업할 때 백그라운드 작업이 완료되는 데 시간이 충분하지 않았습니다.
+
+   * 다음은 이 메서드에 대한 구문입니다.
+
+      ```objective-c
+      + (void) pauseCollectingLifecycleData;
+      ```
+
+   * 다음은 이 메서드의 코드 샘플입니다.
+
+      ```objective-c
+      - (void)applicationDidEnterBackground:(UIApplication *)application{
+          // manually stop the lifecycle of SDK
+          // important: do NOT call any track state or track action after this line
+          [ADBMobile pauseCollectingLifecycleData];   
+      
+      
+          // the following code is optional, may help to mitigate the issue a bit more. If you have other logic to run here that probably takes more than 10ms, then there is no need to add this line of code.
+          [NSThread sleepForTimeInterval:0.01];
+      
+      
+          // app's code to handle applicationDidEnterBackground
+      }
+      ```
+
 
 * **overrideConfigPath**
 
