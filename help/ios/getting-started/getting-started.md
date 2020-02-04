@@ -7,7 +7,7 @@ title: 시작하기 개요
 topic: Developer and implementation
 uuid: a2b9baad-b959-4b9a-893d-99c0f4072e8d
 translation-type: tm+mt
-source-git-commit: 71e11b23badfcddaa8c2e61a12197982dfd31f57
+source-git-commit: a424eb9be750e22e7130dae0d1c54a081ac475cd
 
 ---
 
@@ -25,5 +25,6 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 * 시작하려면 Adobe Experience Platform Launch로 이동합니다.
 * Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)로 이동하십시오.
 
->[!IMPORTANT}
+>[!IMPORTANT]
+>
 >2020년 4월 1일부터 Apple은 더 이상 UIWebView API를 지원하지 않습니다. 문제를 방지하려면 iOS 버전 4.18.8 이상용 v4 SDK를 사용하고 있는지 확인하십시오. UIWebView API에 대한 자세한 내용은 UIWebView [를 참조하십시오](https://developer.apple.com/documentation/uikit/uiwebview).
