@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: 릴리스 노트
 topic: Developer and implementation
 uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 712a1107b317f02216e4df8d75fddda67a6f1feb
 
 ---
@@ -16,11 +16,11 @@ source-git-commit: 712a1107b317f02216e4df8d75fddda67a6f1feb
 
 다음은 Experience Cloud 솔루션용 Android SDK 4.x에 대한 릴리스 노트, 알려진 문제 및 핫픽스 정보입니다.
 
-**2020년 1월 16일:4.18.0**
+**2020년 1월 16일: 4.18.0**
 
-* Acquisition - Added a new API, `Analytics.processGooglePlayInstallReferrerUrl(final String url)`, to support Google Play Install Referrer APIs.
+* 고객 확보 - Google Play Install Referrer API를 지원하기 위해 새로운 API, `Analytics.processGooglePlayInstallReferrerUrl(final String url)`을 추가했습니다.
 
-   Install Referrer API에 대한 자세한 내용은 [InstallBroadcast를 아직 사용합니까? 2020년 3월 1일까지 Play Referrer API로 전환](https://android-developers.googleblog.com/2019/11/still-using-installbroadcast-switch-to.html)을 참조하십시오 .
+   Install Referrer API에 대한 자세한 내용은 [InstallBroadcast를 아직 사용합니까? 2020년 3월 1일까지 Play Referrer API로 전환하십시오](https://android-developers.googleblog.com/2019/11/still-using-installbroadcast-switch-to.html)를 참조하십시오.
 
 **2019년 9월 20일: 버전 4.17.10**
 
@@ -47,4 +47,4 @@ source-git-commit: 712a1107b317f02216e4df8d75fddda67a6f1feb
 * 방문자 ID 서비스 - 연결 및 읽기 제한 시간이 2초에서 5초로 늘어났습니다.
 
 
-모든 솔루션의 현재 및 과거 릴리스 노트에 대한 자세한 내용은 [Adobe Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/)를 참조하십시오.
+모든 솔루션의 현재 및 과거 릴리스 노트에 대한 자세한 내용은 [Adobe Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/)를 참조하십시오.
