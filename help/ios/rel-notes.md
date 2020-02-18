@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: 릴리스 노트
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c7a0fde8b981ae5cfb0f54131d8ae59a008825b3
 
 ---
@@ -16,11 +16,11 @@ source-git-commit: c7a0fde8b981ae5cfb0f54131d8ae59a008825b3
 
 다음은 Experience Cloud 솔루션용 iOS SDKs 4.x에 대한 릴리스 노트, 알려진 문제 및 핫픽스 정보입니다.
 
-**2020년 2월 4일:버전 4.19.0**
+**2020년 2월 4일: 버전 4.19.0**
 
-* 라이프사이클 - 일부 이전 iOS 장치에서 보고된 비정상적인 세션 길이 데이터를 완화하도록 새 API pauseCollectingLifecycleData를 추가했습니다.
+* 라이프사이클 - 일부 이전 iOS 장치에서 보고된 비정상적인 세션 길이 데이터를 완화하도록 새 API인 pauseCollectingLifecycleData를 추가했습니다.
 
-**2019년 11월 8일:버전 4.18.9**
+**2019년 11월 8일: 버전 4.18.9**
 
 * 앱 메시지 - 캐시된 이미지나 번들 이미지를 전체 화면 메시지에서 로드할 수 없는 버그를 수정했습니다.
 
@@ -60,4 +60,4 @@ source-git-commit: c7a0fde8b981ae5cfb0f54131d8ae59a008825b3
 
 * 방문자 ID 서비스 - 이제 `setPushIdentifier` API가 호출될 때마다 방문자 ID 서비스에 동기화 호출을 보냅니다.
 
-모든 솔루션의 현재 및 과거 릴리스 노트에 대한 자세한 내용은 [Adobe Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/)를 참조하십시오.
+모든 솔루션의 현재 및 과거 릴리스 노트에 대한 자세한 내용은 [Adobe Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/)를 참조하십시오.
