@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: 구성 메서드
 topic: Developer and implementation
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea4b054fbeea3967c28ee938aed5997a4c287a0d
 
 ---
@@ -276,9 +276,9 @@ source-git-commit: ea4b054fbeea3967c28ee938aed5997a4c287a0d
 
    >[!IMPORTANT]
    >
-   >delegate 메서드에서 먼저 `applicationDidEnterBackground` `pauseCollectingLifecycleData` 메서드를 호출해야 합니다.
+   >`applicationDidEnterBackground` delegate 메서드에서 먼저 `pauseCollectingLifecycleData` 메서드를 호출해야 합니다.
    >
-   >iOS 13에서 iPhone7/7s 또는 이전 장치의 세션 길이 지표가 비정상인 문제를 완화하도록 API가 제공됩니다. 이는 iOS 13에서 발생한 알 수 없는 변경 사항 때문이었으며, iOS에서는 앱을 백그라운드로 백업할 때 백그라운드 작업이 완료되는 데 시간이 충분하지 않았습니다.
+   >iOS 13으로 운영되는 iPhone7/7s 또는 이전 장치의 세션 길이 지표가 비정상인 문제를 완화하도록 API가 제공됩니다. 이는 iOS 13에서 발생한 알 수 없는 변경 사항 때문이었으며, iOS에서 앱을 백그라운드로 백업할 때 백그라운드 작업이 완료되는 데 시간이 충분하지 않은 문제였습니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
