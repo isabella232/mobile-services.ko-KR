@@ -3,18 +3,18 @@ description: 'null'
 keywords: Unity
 seo-description: 'null'
 seo-title: ADBMobile.cs 메서드
-solution: Marketing Cloud,개발자
+solution: Marketing Cloud,Developer
 title: ADBMobile.cs 메서드
 uuid: af504934-febd-45d9-81e2-2a310f4c65dc
 translation-type: tm+mt
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 ---
 
 
 # ADBMobile.cs methods {#adbmobile-cs-methods}
 
-## 구성 방법
+## 구성 메서드
 
 * **CollectLifecycleData**
 
@@ -29,7 +29,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      ADBMobile.CollectLifecycleData(); 
+      ADBMobile.CollectLifecycleData();
       ```
 
 * **EnableLocalNotifications(iOS만 해당)**
@@ -45,7 +45,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      ADBMobile.EnableLocalNotifications(); 
+      ADBMobile.EnableLocalNotifications();
       ```
 
 * **GetDebugLogging**
@@ -83,8 +83,8 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 * **GetPrivacyStatus**
 
    현재 사용자에 대한 개인 정보 상태의 열거 표현을 반환합니다.
-   * `MOBILE_PRIVACY_STATUS_OPT_IN`:히트가 즉시 전송됩니다.
-   * `MOBILE_PRIVACY_STATUS_OPT_OUT`:히트가 무시됩니다.
+   * `MOBILE_PRIVACY_STATUS_OPT_IN`: 히트가 즉시 전송됩니다.
+   * `MOBILE_PRIVACY_STATUS_OPT_OUT`: 히트가 삭제됩니다.
    * `MOBILE_PRIVACY_STATUS_UNKNOWN`: 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다.
 
       오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다. 기본값은 [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md) 파일에서 설정되어 있습니다.
@@ -114,7 +114,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      var userId = ADBMobile.GetUserIdentifier(); 
+      var userId = ADBMobile.GetUserIdentifier();
       ```
 
 * **GetVersion**
@@ -144,13 +144,13 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      public static void KeepLifecycleSessionAlive(); 
+      public static void KeepLifecycleSessionAlive();
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      ADBMobile.KeepLifecycleSessionAlive(); 
+      ADBMobile.KeepLifecycleSessionAlive();
       ```
 
 * **PauseCollectingLifecycleData(Android만 해당)**
@@ -166,7 +166,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      ADBMobile.PauseCollectingLifecycleData(); 
+      ADBMobile.PauseCollectingLifecycleData();
       ```
 
 * **SetContext (Android만 해당)**
@@ -182,7 +182,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      ADBMobile.SetContext(); 
+      ADBMobile.SetContext();
       ```
 
 * **SetDebugLogging**
@@ -192,27 +192,27 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      public static void SetDebugLogging (bool enabled); 
+      public static void SetDebugLogging (bool enabled);
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      ADBMobile.SetDebugLogging(true); 
+      ADBMobile.SetDebugLogging(true);
       ```
 
 * **SetPrivacyStatus**
 
    현재 사용자의 개인 정보 상태를 상태로 설정합니다. 다음 값 중 하나를 설정합니다.
 
-   * `MOBILE_PRIVACY_STATUS_OPT_IN`:히트가 즉시 전송됩니다.
-   * `MOBILE_PRIVACY_STATUS_OPT_OUT`:히트가 무시됩니다.
+   * `MOBILE_PRIVACY_STATUS_OPT_IN`: 히트가 즉시 전송됩니다.
+   * `MOBILE_PRIVACY_STATUS_OPT_OUT`: 히트가 삭제됩니다.
    * `MOBILE_PRIVACY_STATUS_UNKNOWN`: 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다. 오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      public static void SetPrivacyStatus(ADBPrivacyStatusstatus); 
+      public static void SetPrivacyStatus(ADBPrivacyStatusstatus);
       ```
 
    * 다음은 이 구문에 대한 코드 샘플입니다.
@@ -228,16 +228,16 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      public static void SetUserIdentifier(string userId); 
+      public static void SetUserIdentifier(string userId);
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      ADBMobile.SetUserIdentifier("myCustomUserId"); 
+      ADBMobile.SetUserIdentifier("myCustomUserId");
       ```
 
-## 분석 방법
+## Analytics 메서드
 
 * **GetTrackingIdentifier**
 
@@ -252,18 +252,18 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      var trackingId = ADBMobile.GetTrackingIdentifier(); 
+      var trackingId = ADBMobile.GetTrackingIdentifier();
       ```
 
 * **TrackState**
 
-   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. 상태는 "제목 화면", "레벨 1", "일시 중지" 등 앱에서 사용할 수 있는 보기입니다. 이 상태는 웹 사이트의 페이지와 유사하며 `TrackState` 호출은 페이지 보기를 증가시킵니다.
+   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. 상태는 &quot;제목 화면&quot;, &quot;레벨 1&quot;, &quot;일시 중지&quot; 등 앱에서 사용할 수 있는 보기입니다. 이 상태는 웹 사이트의 페이지와 유사하며 `TrackState` 호출은 페이지 보기를 증가시킵니다.
 
    If state is empty, it displays as *`app name app version (build)`* in reports. 보고서에서 이 값이 표시되면 반드시 각각의 `TrackState` 호출에서 상태를 설정해야 합니다.
 
    >[!TIP]
    >
-   >This is the only tracking call that increments page views.
+   >페이지 보기 횟수를 늘리는 유일한 추적 호출입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -274,29 +274,29 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      var contextData = new Dictionary<string, object>); 
+      var contextData = new Dictionary<string, object>);
       contextData.Add ("user", "jim");
       ADBMobile.TrackState("title screen", contextData);
       ```
 
 * **TrackAction**
 
-   앱의 작업을 추적합니다. 작업은 "예기치 못한 종료", "획득 레벨", "피드 구독" 및 기타 지표 등 측정하려는 앱에서 발생하는 일을 의미합니다.
+   앱의 작업을 추적합니다. 작업은 &quot;예기치 못한 종료&quot;, &quot;획득 레벨&quot;, &quot;피드 구독&quot; 및 기타 지표 등 측정하려는 앱에서 발생하는 일을 의미합니다.
 
    >[!TIP]
    >
-   >If you have code that might run while the app is in the background (for example, a background data retrieval), use `trackActionFromBackground` instead.
+   >백그라운드에 앱이 있을 때 실행할 수 있는 코드가 있는 경우(예: 백그라운드 데이터 검색) `trackActionFromBackground`를 대신 사용합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      public static void TrackAction(string action, Dictionary<string, object> cdata); 
+      public static void TrackAction(string action, Dictionary<string, object> cdata);
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      ADBMobile.TrackAction("level gained", null); 
+      ADBMobile.TrackAction("level gained", null);
       ```
 
 * **TrackActionFromBackground(iOS만 해당)**
@@ -305,12 +305,12 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!TIP]
    >
-   >이 메서드는 앱이 백그라운드에 있을 때 실행되는 코드에서만 호출되어야 합니다.
+   >이 메서드는 백그라운드에 앱이 있을 때 실행되는 코드에서만 호출해야 합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      public static void TrackActionFromBackground(string action, Dictionary<string,object> cdata); 
+      public static void TrackActionFromBackground(string action, Dictionary<string,object> cdata);
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
@@ -326,13 +326,13 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      public static void TrackLocation(float latValue, float lonValue, Dictionary<string, object> cdata); 
+      public static void TrackLocation(float latValue, float lonValue, Dictionary<string, object> cdata);
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      ADBMobile.TrackLocation(28.418649, -81.581324, null); 
+      ADBMobile.TrackLocation(28.418649, -81.581324, null);
       ```
 
 * **TrackBeacon**
@@ -342,7 +342,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      public static void TrackBeacon(int major, int minor, string uuid, ADBBeaconProximity proximity, Dictionary<string, object> cdata); 
+      public static void TrackBeacon(int major, int minor, string uuid, ADBBeaconProximity proximity, Dictionary<string, object> cdata);
       ```
 
 * **TrackingClearCurrentBeacon**
@@ -352,7 +352,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      public static void TrackingClearCurrentBeacon(); 
+      public static void TrackingClearCurrentBeacon();
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
@@ -374,7 +374,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      ADBMobile.TrackLifetimeValueIncrease(5, null); 
+      ADBMobile.TrackLifetimeValueIncrease(5, null);
       ```
 
 * **TrackTimedActionStart**
@@ -388,7 +388,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      public static void TrackTimedActionStart(string action, Dictionary<string,object> cdata); 
+      public static void TrackTimedActionStart(string action, Dictionary<string,object> cdata);
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
@@ -408,14 +408,14 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      public static void TrackTimedActionUpdate(string action, Dictionary<string, object> cdata); 
+      public static void TrackTimedActionUpdate(string action, Dictionary<string, object> cdata);
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      var contextData = new Dictionary<string, object>; 
-      contextData.Add("checkpoint", "1:32"); 
+      var contextData = new Dictionary<string, object>;
+      contextData.Add("checkpoint", "1:32");
          ADBMobile.TrackTimedActionUpdate("level2", contextData);
       ```
 
@@ -426,13 +426,13 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      public static void TrackTimedActionEnd(string action); 
+      public static void TrackTimedActionEnd(string action);
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      ADBMobile.TrackTimedActionEnd("level2"); 
+      ADBMobile.TrackTimedActionEnd("level2");
       ```
 
 * **TrackingTimedActionExists**
@@ -442,13 +442,13 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      public static bool TrackingTimedActionExists(string action); 
+      public static bool TrackingTimedActionExists(string action);
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-       var level2InProgress = ADBMobile.TrackingTimedActionExists("level2"); 
+       var level2InProgress = ADBMobile.TrackingTimedActionExists("level2");
       ```
 
 * **TrackingSendQueuedHits**
@@ -464,7 +464,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      ADBMobile.TrackingSendQueuedHits(); 
+      ADBMobile.TrackingSendQueuedHits();
       ```
 
 * **TrackingClearQueue**
@@ -480,7 +480,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      ADBMobile.TrackingClearQueue(); 
+      ADBMobile.TrackingClearQueue();
       ```
 
 * **TrackingGetQueueSize**
@@ -508,7 +508,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      public static string GetMarketingCloudID(); 
+      public static string GetMarketingCloudID();
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
@@ -524,14 +524,34 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
-      public static void VisitorSyncIdentifiers(Dictionary<string, object> identifiers); 
+      public static void VisitorSyncIdentifiers(Dictionary<string, object> identifiers);
       ```
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      var ids = new Dictionary<string, object> (); 
-      ids.Add ("player1", "jimbob"); 
+      var ids = new Dictionary<string, object> ();
+      ids.Add ("player1", "jimbob");
       ADBMobile.VisitorSyncIdentifiers(ids);
       ```
 
+## 획득 메서드
+
+* **ProcessGooglePlayInstallReferrerUrl** *(Android만 해당)*
+
+   Google Play 설치 레퍼러 API에 대한 호출에서 반환된 레퍼러 URL을 이 메서드에 전달합니다.
+
+   * 다음은 이 메서드에 대한 구문입니다.
+
+      ```java
+      public static void ProcessGooglePlayInstallReferrerUrl(string referrerUrl);
+      ```
+
+   * 다음은 이 메서드의 코드 샘플입니다.
+
+      ```java
+      // in actual implementation, the referrer url should be retrieved
+      // from the Google Play Install Referrer API.
+      var myReferrer = "utm_source=unityTestSource&utm_content=unityTestContent&utm_campaign=unityTestCampaign";
+      ADBMobile.ProcessGooglePlayInstallReferrerUrl(myReferrer);
+      ```
