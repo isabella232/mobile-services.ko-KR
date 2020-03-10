@@ -7,7 +7,7 @@ solution: Marketing Cloud,Developer
 title: 프로젝트 빌드
 uuid: 5550a394-6f3f-4b87-b840-89621d8a0c1e
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 ---
 
@@ -25,7 +25,7 @@ iOS용을 빌드할 경우 Xcode 프로젝트가 생성됩니다. 기본적으�
 1. In the **[!UICONTROL Build Phases]** tab of your project, add a link to the following libraries:
 
    * `SystemConfiguration.framework`
-(This library might be linked already.)
+(이 라이브러리는 이미 연결되어 있을 수 있습니다.)
 
    * `libsqlite3.0.dylib`
 
@@ -45,24 +45,14 @@ Android용을 빌드할 경우 `apk` 파일에는 이미 `ADBMobileConfig.json` 
 * `ACCESS_NETWORK_STATE`
 
 ```java
-<uses-permission android:name="android.permission.INTERNET" /> 
+<uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 ```
 
-If you are using In-app messaging, add the following activity and receiver:
+인앱 메시지를 사용하는 경우 다음 활동 및 수신기를 추가합니다.
 
 ```java
 <activity android:name="com.adobe.mobile.MessageFullScreenActivity"  
-android:theme="@android:style/Theme.Translucent.NoTitleBar" /> 
-<receiver android:name="com.adobe.mobile.MessageNotificationHandler" /> 
-```
-
-If you are using acquisition, add the following receiver:
-
-```java
-<receiver android:name="com.your.package.name.GPBroadcastReceiver" android:exported="true"> 
-   <intent-filter> 
-      <action android:name="com.android.vending.INSTALL_REFERRER" /> 
-   </intent-filter> 
-</receiver>
+android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+<receiver android:name="com.adobe.mobile.MessageNotificationHandler" />
 ```
