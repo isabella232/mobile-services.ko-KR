@@ -6,7 +6,7 @@ solution: Marketing Cloud, Analytics, Experience Cloud
 title: Adobe Mobile Services
 uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
 translation-type: tm+mt
-source-git-commit: 6cb8c0a12c39287209e9f0060ace179ab563cd61
+source-git-commit: 322fdab0ff5eeb54fdbb04502508849e86d05a50
 
 ---
 
@@ -56,7 +56,7 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고
 다음은 개발자를 위한 몇 가지 링크입니다.
 
 * [모바일 SDK 및 도구 다운로드](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
+* [Developer](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
 
 ## 커뮤니티 리소스
 
@@ -74,16 +74,16 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고
 
 기본 라이브러리는 다음 플랫폼에 제공됩니다.
 
-* [Experience Cloud 솔루션용 Android SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
-* [Experience Cloud 솔루션용 iOS SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
-* [iOS 및 Android 4.x SDK용 Unity 플러그인](https://docs.adobe.com/content/help/en/mobile-services/unity/get-started.html)
-* [Experience Cloud Solutions 4.x SDK용 Xamarin 구성 요소](https://docs.adobe.com/content/help/en/mobile-services/xamarin/get-started.html)
-* [Experience Cloud 솔루션용 Universal Windows Platform SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/universal-windows/overview.html)
-* [Windows 8.1 유니버설 앱 스토어](https://docs.adobe.com/content/help/en/mobile-services/windows-universal-appstore/overview.html)
+* [Experience Cloud 솔루션용 Android SDK 4.x](/help/android/overview.md)
+* [Experience Cloud 솔루션용 iOS SDK 4.x](/help/ios/overview.md)
+* [iOS 및 Android 4.x SDK용 Unity 플러그인](/help/unity/get-started.md)
+* [Experience Cloud Solutions 4.x SDK용 Xamarin 구성 요소](/help/xamarin/get-started.md)
+* [Experience Cloud 솔루션용 Universal Windows Platform SDK 4.x](/help/universal-windows/overview.md)
+* [Windows 8.1 유니버설 앱 스토어](/help/windows-appstore/overview.md)
 
-   * [Experience Cloud 솔루션 4.x SDK용 Windows Visual Studio 확장](https://docs.adobe.com/content/help/en/mobile-services/windows-universal-appstore/win-vse-4x.html)
+   * [Experience Cloud 솔루션 4.x SDK용 Windows Visual Studio 확장](/help/windows-appstore/extensions/win-vse-4x.md)
 
-* [Experience Cloud 솔루션용 BlackBerry 10 SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/blackberry/overview.html)
+* [Experience Cloud 솔루션용 BlackBerry 10 SDK 4.x](/help/blackberry/overview.md)
 
 ## Adobe Mobile Webinar 시작하기 {#section_420EA66F39FE44B9B531ADF5F5465543}
 
