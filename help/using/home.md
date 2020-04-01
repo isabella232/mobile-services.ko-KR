@@ -6,7 +6,7 @@ solution: Marketing Cloud, Analytics, Experience Cloud
 title: Adobe Mobile Services
 uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
 translation-type: tm+mt
-source-git-commit: 322fdab0ff5eeb54fdbb04502508849e86d05a50
+source-git-commit: 9e3f199582351165d0a76ce5042b5eaeec2cc981
 
 ---
 
@@ -19,9 +19,17 @@ source-git-commit: 322fdab0ff5eeb54fdbb04502508849e86d05a50
 >
 >Adobe Analytics Mobile Marketing 추가 기능 SKU는 Mobile Services를 사용하여 모바일 획득, 딥링크, 지리적 위치 및 모바일 메시징 기능에 액세스하는 데 필요합니다. 자세한 내용은 Adobe CSM에게 문의하십시오.
 
+## 4x SDK 지원 종료 발표
+
+2020년 9월 30일 이후에는 고객이 버전 4 SDK를 계속 다운로드하여 사용할 수 있지만 고객 지원 또는 포럼 액세스 권한은 없습니다. Adobe Experience Platform Mobile SDK(이전의 v5)는 예정된 Adobe Experience Cloud 기능 및 기능을 독점적으로 지원합니다.
+
+자세한 내용은 지원 FAQ [를](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq) 참조하십시오.
+
+가능할 경우 새로운 Experience Platform Mobile SDK로 마이그레이션하는 것이 좋습니다.
+
 ## 새로운 Adobe Experience Cloud SDK 릴리스
 
-Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고 계십니까? Click [here](https://aep-sdks.gitbook.io/docs/) for our latest documentation.
+Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고 계십니까? [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하여 최신 설명서를 확인하십시오.
 
 2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
@@ -70,23 +78,23 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고
 
 ## SDK 설명서 {#section_3A500233347C4305AB545E298A827CEA}
 
-사용자 안내서 외에 Adobe Mobile에서 앱을 구성하는 데 필요한 구성 파일의 미리 채워진 버전을 포함하는 사용자 정의 패키지가 포함된 SDK(Software Development Kit)를 다운로드할 수 있습니다.
+사용 안내서 외에 Adobe Mobile에서 앱을 구성하는 데 필요한 구성 파일의 미리 입력된 버전을 포함하는 사용자 정의 패키지가 있는 SDK(Software Development Kit)를 다운로드할 수 있습니다.
 
 기본 라이브러리는 다음 플랫폼에 제공됩니다.
 
 * [Experience Cloud 솔루션용 Android SDK 4.x](/help/android/overview.md)
 * [Experience Cloud 솔루션용 iOS SDK 4.x](/help/ios/overview.md)
 * [iOS 및 Android 4.x SDK용 Unity 플러그인](/help/unity/get-started.md)
-* [Experience Cloud Solutions 4.x SDK용 Xamarin 구성 요소](/help/xamarin/get-started.md)
+* [Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소](/help/xamarin/get-started.md)
 * [Experience Cloud 솔루션용 Universal Windows Platform SDK 4.x](/help/universal-windows/overview.md)
-* [Windows 8.1 유니버설 앱 스토어](/help/windows-appstore/overview.md)
+* [Windows 8.1 유니버설 앱스토어](/help/windows-appstore/overview.md)
 
-   * [Experience Cloud 솔루션 4.x SDK용 Windows Visual Studio 확장](/help/windows-appstore/extensions/win-vse-4x.md)
+   * [Experience Cloud 솔루션 4.x SDK용 Windows Visual Studio 확장 프로그램](/help/windows-appstore/extensions/win-vse-4x.md)
 
 * [Experience Cloud 솔루션용 BlackBerry 10 SDK 4.x](/help/blackberry/overview.md)
 
 ## Adobe Mobile Webinar 시작하기 {#section_420EA66F39FE44B9B531ADF5F5465543}
 
-*Adobe Mobile 시작하기* 웨비나를 시청해 보십시오. ( [재생](https://adobe.ly/PsxCFn))
+*Adobe Mobile 시작하기* 웨비나를 시청해 보십시오. ([재생](https://adobe.ly/PsxCFn))
 
 [  ![](assets/webinar.png) ](https://adobe.ly/PsxCFn)
