@@ -1,13 +1,13 @@
 ---
-description: Experience Cloud 솔루션용 iOS SDK 4.x에 대한 릴리스 노트 및 알려진 문제입니다.
-seo-description: Experience Cloud 솔루션용 iOS SDK 4.x에 대한 릴리스 노트 및 알려진 문제입니다.
+description: Experience Cloud 솔루션용 iOS SDK 4.x에 대한 릴리스 노트 및 알려진 문제
+seo-description: Experience Cloud 솔루션용 iOS SDK 4.x에 대한 릴리스 노트 및 알려진 문제
 seo-title: 릴리스 노트
 solution: Marketing Cloud,Analytics
 title: 릴리스 노트
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: ht
-source-git-commit: b608516b0103db3ae0eed1deaa4fb9733a98f7fa
+translation-type: tm+mt
+source-git-commit: c9ee89ef5039c52ebab41a9495f1794c08a415ba
 
 ---
 
@@ -15,6 +15,15 @@ source-git-commit: b608516b0103db3ae0eed1deaa4fb9733a98f7fa
 # 릴리스 노트 {#release-notes}
 
 다음은 Experience Cloud 솔루션용 iOS SDKs 4.x에 대한 릴리스 노트, 알려진 문제 및 핫픽스 정보입니다.
+
+**2020년 3월 24일:버전 4.19.2**
+
+* 일반 - Target 코드의 일부 누수를 수정했습니다.
+
+**2020년 3월 12일:버전 4.19.1**
+
+* 일반 - Swift 열거형이 추적 호출을 위해 컨텍스트 데이터에 포함될 때 발생하는 잠재적인 충돌을 해결했습니다.
+* Target - 타겟 세션 ID가 이제 Adobe Analytics로 전송된 Target용 내부 Analytics 히트에서 컨텍스트 데이터 매개 변수 &#39;a.target.sessionId&#39;로 추가됩니다.
 
 **2020년 2월 4일: 버전 4.19.0**
 
