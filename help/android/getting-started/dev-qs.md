@@ -1,14 +1,14 @@
 ---
 description: 다음은 Android 라이브러리를 구현하고 시작, 업그레이드, 세션, 참여 사용자 등의 라이프사이클 지표를 수집하는 데 유용한 정보입니다.
-keywords: android;라이브러리;모바일;sdk
+keywords: android;library;mobile;sdk
 seo-description: 다음은 Android 라이브러리를 구현하고 시작, 업그레이드, 세션, 참여 사용자 등의 라이프사이클 지표를 수집하는 데 유용한 정보입니다.
 seo-title: 핵심 구현 및 라이프사이클
 solution: Marketing Cloud,Analytics
 title: 핵심 구현 및 라이프사이클
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: af4d11ac-8245-46a0-9b3a-4a0a29cfbbb2
-translation-type: ht
-source-git-commit: c4da3599c858bfbccb7af954df75f94eb7d8e99a
+translation-type: tm+mt
+source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: c4da3599c858bfbccb7af954df75f94eb7d8e99a
 
 1. 다음 섹션의 단계를 완료하여 개발 보고서 세트를 설정하고 미리 채워진 구성 파일 버전을 다운로드합니다.
 
-   * [보고서 세트 생성](/help/android/getting-started/requirements.md)
+   * [보고서 세트 만들기](/help/android/getting-started/requirements.md)
    * [SDK 다운로드](/help/android/getting-started/requirements.md)
 
 1. `[Your_App_Name_]AdobeMobileLibrary-4.*-Android.zip` 파일을 다운로드하고 압축 해제한 후 다음 소프트웨어 구성 요소가 있는지 확인합니다. 
@@ -48,10 +48,10 @@ source-git-commit: c4da3599c858bfbccb7af954df75f94eb7d8e99a
 1. 프로젝트 탐색 패널에서 프로젝트를 마우스 오른쪽 단추로 클릭합니다.
 1. **[!UICONTROL 모듈 설정 열기를 선택합니다]**.
 1. **[!UICONTROL 프로젝트 설정]**&#x200B;에서 **[!UICONTROL 라이브러리]**&#x200B;를 선택합니다.
-1. **[!UICONTROL +]** 아이콘을 클릭하여 새 라이브러리를 추가합니다.
+1. Click the **[!UICONTROL +]** icon to add a new library.
 1. **[!UICONTROL Java]**&#x200B;를 선택하고 `adobeMobileLibrary.jar` 파일로 이동합니다.
 1. 모바일 라이브러리를 사용할 모듈을 선택합니다.
-1. **[!UICONTROL 적용]**&#x200B;을 클릭한 다음 **[!UICONTROL 확인]을 클릭하여 모듈 설정 창을 닫습니다.**
+1. **[!UICONTROL 적용]**&#x200B;을 클릭한 다음 **[!UICONTROL 확인]**&#x200B;을 클릭하여 모듈 설정 창을 닫습니다.
 
 **Eclipse 프로젝트**
 
@@ -59,11 +59,11 @@ source-git-commit: c4da3599c858bfbccb7af954df75f94eb7d8e99a
 
 1. 프로젝트의 `assets` 폴더에 `ADBMobileConfig.json` 파일을 추가합니다.
 1. **[!UICONTROL Eclipse IDE]**&#x200B;에서 프로젝트 이름을 마우스 오른쪽 단추로 클릭합니다.
-1. **[!UICONTROL 빌드 경로]** &gt; **[!UICONTROL 외부 아카이브 추가]**&#x200B;를 클릭합니다.
+1. Click  **[!UICONTROL Build Path]** > **[!UICONTROL Add External Archives]**.
 1. 선택 `adobeMobileLibrary.jar`.
 1. **[!UICONTROL 열기를 클릭합니다]**.
-1. 다시 프로젝트를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 빌드 경로]** &gt; **[!UICONTROL 빌드 경로 구성]**&#x200B;을 선택합니다.
-1. **[!UICONTROL 주문 및 내보내기]** 탭에서 **`adobeMobileLibrary.jar`이 선택되었는지 확인합니다.**
+1. Right-click the project again and select **[!UICONTROL Build Path]** > **[!UICONTROL Configure Build Path]**.
+1. **[!UICONTROL 주문 및 내보내기]** 탭에서 **`adobeMobileLibrary.jar`**&#x200B;이 선택되었는지 확인합니다.
 
 ## 앱 권한 추가 {#section_2EAF73ABF6424647B219A63B33B02CD5}
 
@@ -90,13 +90,13 @@ AppMeasurement 라이브러리를 사용하려면 데이터를 전송하고 오�
      setContentView(R.layout.main);
      Config.setContext(this.getApplicationContext());
    }
-````
+```
 
 ## 라이프사이클 지표 구현 {#section_BA686C09021F474AADDE8690BBB910F7}
 
 라이프사이클을 사용하면 앱이 시작될 때마다 시작, 업그레이드, 세션, 참여 사용자 및 기타 여러 지표를 측정하기 위해 한 번의 히트가 전송됩니다. 자세한 내용은 [라이프사이클 지표](/help/android/metrics.md)를 참조하십시오.
 
-**애플리케이션의 각 활동에서 다음 단계를 완료하십시오.**
+**애플리케이션의 각 활동에서 다음 단계를 완료합니다.**
 
 1. 라이브러리를 가져옵니다:
 
