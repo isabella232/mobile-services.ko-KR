@@ -1,14 +1,14 @@
 ---
 description: 다음은 Android 라이브러리에서 제공하는 메서드 목록입니다.
-keywords: android;라이브러리;모바일;sdk
+keywords: android;library;mobile;sdk
 seo-description: 다음은 Android 라이브러리에서 제공하는 메서드 목록입니다.
 seo-title: 구성 메서드
 solution: Marketing Cloud,Analytics
 title: 구성 메서드
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
-translation-type: ht
-source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
+translation-type: tm+mt
+source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
 
 ---
 
@@ -30,14 +30,13 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
       setContentView(R.layout.main);
       Config.setContext(this.getApplicationContext());
     }
-   ````
-
+   ```
 
 ## SDK 설정(구성 클래스) {#section_C1EB977043C04D2B93E5A63DB72828B6}
 
 * **registerAdobeDataCallback**
 
-   * `AdobeDataCallback` 인터페이스를 구현하는 개체를 등록합니다. 덮어쓴 "call" 메서드는 `Config.MobileDataEvent` 값 및 트리거링 이벤트에 대한 `Map<String, Object>`의 관련 데이터와 함께 호출됩니다. 이 콜백을 트리거할 이벤트에 대한 자세한 내용은 이 항목 하단에 있는 *MobileDataEventEnum*&#x200B;을 참조하십시오.
+   * `AdobeDataCallback` 인터페이스를 구현하는 개체를 등록합니다. 덮어쓴 &quot;call&quot; 메서드는 `Config.MobileDataEvent` 값 및 트리거링 이벤트에 대한 `Map<String, Object>`의 관련 데이터와 함께 호출됩니다. 이 콜백을 트리거할 이벤트에 대한 자세한 내용은 이 항목 하단에 있는 *MobileDataEventEnum*&#x200B;을 참조하십시오.
 
       >[!TIP]
       >
@@ -83,7 +82,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
    * 현재 사용자에 대한 개인 정보 상태의 열거 표현을 반환합니다.
 
-      다음은 개인 정보 보호 상태 값입니다.
+      다음은 개인 정보 상태 값입니다.
 
       * `MOBILE_PRIVACY_STATUS_OPT_IN`: 히트를 즉시 보냅니다.
       * `MOBILE_PRIVACY_STATUS_OPT_OUT`: 히트가 삭제됩니다.
@@ -273,7 +272,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 * **setSmallIconResourceId(int resourceId)**
 
-   * (**버전 4.2 이상**) SDK로 만든 알림에 사용할 작은 아이콘을 설정합니다. 이 아이콘은 상태 표시줄에 나타나며 사용자가 알림 센터에서 전체 알림을 볼 때 표시되는 보조 이미지입니다.
+   * (**버전 4.2 이상**) SDK에서 만든 알림에 사용할 작은 아이콘을 설정합니다. 이 아이콘은 상태 표시줄에 나타나며 사용자가 알림 센터에서 전체 알림을 볼 때 표시되는 보조 이미지가 됩니다.
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
@@ -288,7 +287,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 * **setLargeIconResourceId(int resourceId)**
 
-   * (**버전 4.2 이상**) SDK로 만든 알림에 사용할 큰 아이콘을 설정합니다. 이 아이콘이 사용자가 알림 센터에서 전체 알림을 볼 때 표시되는 기본 이미지가 됩니다.
+   * (**버전 4.2 이상**) SDK에서 만든 알림에 사용할 큰 아이콘을 설정합니다. 이 아이콘이 사용자가 알림 센터에서 전체 알림을 볼 때 표시되는 기본 이미지가 됩니다.
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
@@ -303,7 +302,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 * **overrideConfigStream(InputStream configInput)**
 
-   * (**버전 4.2 이상**) 애플리케이션 시작 시 다른 ADBMobile JSON 구성 파일을 로드할 수 있습니다. 애플리케이션이 닫힐 때까지 다른 구성을 사용합니다.
+   * (**버전 4.2 이상**) 응용 프로그램이 시작될 때 다른 ADBMobile JSON 구성 파일을 로드할 수 있습니다. 애플리케이션이 닫힐 때까지 다른 구성을 사용합니다.
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
