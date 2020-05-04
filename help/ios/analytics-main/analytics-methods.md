@@ -4,10 +4,10 @@ seo-description: 다음은 iOS 라이브러리에서 제공하는 Adobe Analytic
 seo-title: Analytics 메서드
 solution: Marketing Cloud,Analytics
 title: Analytics 메서드
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: d49fe6de-cb32-4b96-9891-c567310e59a6
-translation-type: ht
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+translation-type: tm+mt
+source-git-commit: 82c8e82ce5ce333c2482252e96f928829d322e7e
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
       ```objective-c
       [ADBMobile  trackState:@"loginScreen"
                         data:nil]; 
-      ````
+      ```
 
 * **trackAction:&#x200B;data:**
 
