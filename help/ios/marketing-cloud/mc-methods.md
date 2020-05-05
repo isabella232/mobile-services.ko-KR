@@ -4,10 +4,10 @@ seo-description: 다음은 iOS 라이브러리에서 제공하는 Adobe Experien
 seo-title: Adobe Experience Platform ID 서비스 메서드
 solution: Marketing Cloud,Analytics
 title: Adobe Experience Platform ID 서비스 메서드
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: cdd307bc-8b7d-47a8-b77e-00902b9e2968
-translation-type: ht
-source-git-commit: cbbb85b4d117fcaa502a1e01423f1f5d3b2ecc2b
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: cbbb85b4d117fcaa502a1e01423f1f5d3b2ecc2b
 
 * **`+`(nullable NSURL`*`)visitorAppendToURL:(nullable NSURL`*`)url;**
 
-   Adobe JavaScript 라이브러리에서 사용할 수 있도록 URL 문자열에 Adobe 방문자 데이터를 추가합니다. 이 메서드를 사용하려면 Mobile SDK 버전 4.12 이상이 있어야 합니다. 자세한 내용은 [방문자 ID 지원 기능 추가](https://marketing.adobe.com/resources/help/ko_KR/mcvid/mcvid-appendvisitorid.html)를 참조하십시오.
+   Adobe JavaScript 라이브러리에서 사용할 수 있도록 URL 문자열에 Adobe 방문자 데이터를 추가합니다. 이 메서드를 사용하려면 Mobile SDK 버전 4.12 이상이 있어야 합니다. 자세한 내용은 [방문자 ID 지원 기능 추가](https://docs.adobe.com/content/help/ko-KR/id-service/using/id-service-api/methods/appendvisitorid.html)를 참조하십시오.
 
    >[!IMPORTANT]
    >
@@ -165,7 +165,7 @@ source-git-commit: cbbb85b4d117fcaa502a1e01423f1f5d3b2ecc2b
 - (ADBMobileVisitorAuthenticationState) authenticationState; 
 ```
 
-## ADBMobileVisitorAuthenticationState enum {#section_A55A3F336DDF4F838900632087F51430}
+## ADBMobileVisitorAuthenticationState 열거형 {#section_A55A3F336DDF4F838900632087F51430}
 
 ```objective-c
 ADBMobileVisitorAuthenticationStateUnknown, 
