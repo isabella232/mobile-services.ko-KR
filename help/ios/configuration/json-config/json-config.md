@@ -1,13 +1,13 @@
 ---
-description: 다음은 ADBMobile.json 구성 파일을 사용하는 데 유용한 정보입니다.
-seo-description: 다음은 ADBMobile.json 구성 파일을 사용하는 데 유용한 정보입니다.
+description: 이 정보는 ADBMobile.json 구성 파일을 사용하는 데 도움이 됩니다.
+seo-description: 이 정보는 ADBMobile.json 구성 파일을 사용하는 데 도움이 됩니다.
 seo-title: ADBMobile JSON 구성
 solution: Marketing Cloud,Analytics
 title: ADBMobile JSON 구성
 topic: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
-translation-type: ht
-source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
 
    모바일 앱 획득을 사용하도록 설정합니다.
 
-   이 섹션이 없으면 모바일 앱 획득을 사용하도록 설정하고 SDK 구성 파일을 다시 다운로드하십시오. 자세한 내용은 아래 *referrerTimeout*&#x200B;을 참조하십시오.
+   이 섹션이 없으면 모바일 앱 획득을 사용하도록 설정하고 SDK 구성 파일을 다시 다운로드하십시오. For more information, see *referrerTimeout* below.
 
    * `server` - 처음 시작 시 획득 레퍼러가 확인된 획득 서버입니다.
    * `appid` - 획득 서버에서 이 앱을 고유하게 식별하는, 생성된 ID입니다.
@@ -44,15 +44,15 @@ source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
 
    세션 정보 히트를 소급 적용하는 Adobe SDK용 기능을 활성화하거나 비활성화합니다.
 
-   세션 정보 히트는 현재 충돌과 세션 길이로 구성되며 활성화 또는 비활성화할 수 있습니다.
+   세션 정보 히트는 현재 충돌 및 세션 길이로 구성되며 활성화하거나 비활성화할 수 있습니다.
 
    * 이 값을 `false`로 설정한 경우 히트가 **비활성화**&#x200B;됩니다. 
 
-      SDK는 이전 세션에 대한 세션 정보를 이후 세션의 첫 번째 히트와 함께 일괄 처리하는 4.1 이전 동작으로 돌아갑니다. 또한 Adobe SDK는 세션 정보를 현재 라이프사이클에 첨부하여 과도한 방문이 발생하지 않도록 합니다. 과도한 방문이 더 이상 생성되지 않으므로 방문 횟수가 즉시 줄어듭니다.
+      SDK는 이전 세션의 세션 정보를 이후 세션의 첫 번째 히트와 묶는 4.1 이전 동작으로 돌아갑니다. 또한 Adobe SDK는 세션 정보를 현재 라이프사이클에 첨부하므로 부풀려진 방문이 생성되지 않습니다. 부풀려진 방문이 더 이상 만들어지지 않으므로 방문 횟수가 즉시 줄어듭니다.
 
    * 값을 제공하지 않은 경우 기본 값은 `true`이며 히트가 **활성화됩니다**.
 
-      히트가 활성화되면 Adobe SDK는 이전 세션에서 최종 히트 후 세션 정보 히트를 1초로 소급 적용합니다. 다시 말해서, 충돌 및 세션 데이터가 충돌과 세션이 발생한 올바른 날짜와 상호 연결됩니다. 한 가지 부작용으로, SDK에서 오래된 히트에 대한 방문을 만들 수도 있습니다. 애플리케이션의 모든 새로운 시작 시 하나의 히트가 소급 적용됩니다.
+      히트가 활성화되면 Adobe SDK는 이전 세션에서 최종 히트 이후 세션 정보 히트를 1초로 소급 적용합니다. 즉, 충돌과 세션 데이터가 발생한 정확한 날짜와 상관 관계를 맺게 됩니다. 한 가지 효과는 SDK가 백데이트된 히트에 대한 방문을 만들 수 있다는 것입니다. 애플리케이션의 모든 새로운 시작 시 하나의 히트가 소급 적용됩니다.
 
    * 최소 SDK 버전: 4.6
    >[!IMPORTANT]
@@ -70,7 +70,7 @@ source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
 
 * **charset**
 
-   Analytics로 전송되는 데이터에 사용하는 문자 세트를 정의합니다. charset은 들어오는 데이터를 저장 및 보고용으로 UTF-8로 변환하는 데 사용됩니다. 자세한 내용은 [s.charSet](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/charset.html)을 참조하십시오.
+   Analytics로 전송되는 데이터에 사용하는 문자 세트를 정의합니다. charset은 들어오는 데이터를 저장 및 보고용으로 UTF-8로 변환하는 데 사용됩니다. 자세한 내용은 [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/charset.html)을 참조하십시오.
 
    * 최소 SDK 버전: 4.0
 
@@ -111,13 +111,13 @@ source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
 
    기본값은 300초입니다.
 
-   앱 시작이 새로운 세션으로 간주되기 전에 다음 앱이 시작되기까지 경과해야 하는 시간(초)을 지정합니다. 이 시간 초과는 응용 프로그램이 백그라운드로 전송되고 다시 활성화될 때도 적용됩니다. 앱이 백그라운드에서 소요하는 시간은 세션 길이에 포함되지 않습니다.
+   앱 실행 시간과 론치가 새 세션으로 간주되기 전까지 경과해야 하는 시간(초)을 지정합니다. 이 시간 초과는 응용 프로그램이 백그라운드로 전송되고 다시 활성화될 때도 적용됩니다. 앱이 백그라운드에서 보내는 시간은 세션 길이에 포함되지 않습니다.
 
    * 최소 SDK 버전: 4.0
 
 * **messages**
 
-   Adobe Mobile Services에서 자동으로 생성되며, 인앱 메시지의 설정을 정의합니다. 자세한 내용은 아래의 *메시지 설명* 섹션을 참조하십시오.
+   Adobe Mobile Services에서 자동으로 생성된 인앱 메시지 설정을 정의합니다. 자세한 내용은 아래의 *메시지 설명* 섹션을 참조하십시오.
 
    * 최소 SDK 버전: 4.2
 
@@ -130,7 +130,7 @@ source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
    * 보고서 세트에서 타임스탬프가 활성화된 경우 `offlineEnabled` 구성 속성이 *true*&#x200B;이어야 합니다.
    * 보고서 세트에서 타임스탬프가 사용되지 않는 경우에는 `offlineEnabled` 구성 속성이 *반드시* false여야 합니다.
 
-      이 속성이 제대로 구성되지 않으면 데이터가 손실됩니다. 보고서 세트 타임 스탬프 활성화 여부가 확실치 않으면 Customer Care에 문의하거나 Adobe Mobile Services에서 구성 파일을 다운로드하십시오. 현재 JavaScript의 데이터도 수집하는 보고서 세트에 AppMeasurement 데이터를 보고하는 경우, 모바일 데이터에 별도의 보고서 세트를 설정하거나 `s.timestamp` 변수를 사용하는 모든 JavaScript 히트에 사용자 지정 타임스탬프를 포함해야 할 수도 있습니다.
+      이 속성이 제대로 구성되지 않으면 데이터가 손실됩니다. 보고서 세트 타임 스탬프 활성화 여부가 확실치 않으면  Customer Care에 문의하거나 Adobe Mobile Services에서 구성 파일을 다운로드하십시오. 현재 JavaScript의 데이터도 수집하는 보고서 세트에 AppMeasurement 데이터를 보고하는 경우, 모바일 데이터에 별도의 보고서 세트를 설정하거나 `s.timestamp` 변수를 사용하는 모든 JavaScript 히트에 사용자 지정 타임스탬프를 포함해야 할 수도 있습니다.
 
    * 최소 SDK 버전: 4.0
 
@@ -165,7 +165,7 @@ source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
 
 * **postback**
 
-   "콜백" 메시지 템플릿에 대한 정의는 다음과 같습니다.
+   &quot;콜백&quot; 메시지 템플릿에 대한 정의는 다음과 같습니다.
 
    ```js
    "payload":{
@@ -187,13 +187,13 @@ source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
 
       보고서 세트에 타임스탬프가 활성화되어 있지 않을 경우 개인정보 상태가 옵트인으로 변경될 때까지 히트가 삭제됩니다.
 
-      초기값만 설정됩니다. 코드에서 이 값을 설정하거나 변경하고 나면 해당 값을 다시 변경하거나 앱을 제거하고 다시 설치할 때까지 새 값이 사용됩니다. 기본값은 `optedin`입니다.
+      초기 값만 설정합니다. 코드에서 이 값을 설정하거나 변경하고 나면 해당 값을 다시 변경하거나 앱을 제거하고 다시 설치할 때까지 새 값이 사용됩니다. 기본값은 `optedin`입니다.
 
    * 최소 SDK 버전: 4.0
 
 * **referrerTimeout**
 
-   SDK가 시간 초과 전까지 처음 시작 시 획득 레퍼러 데이터를 대기하는 시간(초)입니다. 획득을 사용 중인 경우 5초의 시간제한이 권장됩니다.
+   SDK가 시간 초과 전에 초기 실행 시 획득 레퍼러 데이터를 기다리는 시간(초)입니다. 고객 확보를 사용하는 경우 5초 제한 시간을 사용하는 것이 좋습니다.
 
    >[!IMPORTANT]
    >
@@ -213,7 +213,7 @@ source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
 
 * **rsids**
 
-   Analytics 데이터를 수신할 하나 이상의 보고서 세트입니다. 여러 보고서 세트 ID는 공백 없이 쉼표로 구분해야 합니다.
+   하나 이상의 보고서 세트가 Analytics 데이터를 수신합니다. 여러 보고서 세트 ID는 쉼표 구분 후 사이에 공백이 없어야 합니다.
 
    ```js
    "rsids": "rsid"
@@ -251,7 +251,7 @@ source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
 
    SSL(HTTPS)을 사용하여 측정 데이터를 전송하는 기능을 활성화(`true`)하거나 비활성화(`false`)합니다.
 
-   "콜백" 메시지 템플릿에 대한 정의는 다음과 같습니다.
+   &quot;콜백&quot; 메시지 템플릿에 대한 정의는 다음과 같습니다.
 
    ```js
    "payload":{
@@ -343,56 +343,56 @@ source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
 
 ## 메시지 설명 {#section_B97D654BA92149CE91F525268D7AD71F}
 
-메시지 노드는 Adobe Mobile Services에서 자동으로 생성되며, 일반적으로 수동으로 변경하지 않아도 됩니다. 다음 설명은 문제 해결 용도로 제공됩니다.
+메시지 노드는 Adobe Mobile Services에 의해 자동으로 생성되므로 수동으로 변경할 필요가 없습니다. 문제 해결 목적으로 다음 설명이 제공됩니다.
 
-* "messageId"
+* &quot;messageId&quot;
 
    * 생성된 ID, 필수
 
-* "template"
+* &quot;template&quot;
 
-   * "alert", "fullscreen" 또는 "local"
-   * 필수
+   * &quot;alert&quot;, &quot;fullscreen&quot; 또는 &quot;local&quot;
+   * required
 
-* "payload"
+* &quot;payload&quot;
 
-   * "html"
+   * &quot;html&quot;
 
-      * 전체 화면 템플릿 전용, 필수
-      * 메시지를 정의하는 html
-   * "image"
+      * 전체 화면 템플릿만 해당, 필수
+      * html 메시지 정의
+   * &quot;image&quot;
 
-      * 전체 화면 전용, 선택 사항
-      * 전체 화면 이미지에 사용할 이미지 URL
-   * "altImage"
+      * 전체 화면만, 선택 사항
+      * 전체 화면 이미지에 사용할 이미지의 url
+   * &quot;altImage&quot;
 
-      * 전체 화면 전용, 선택 사항
-      * 
+      * 전체 화면만, 선택 사항
+      * URL이
          `image` 에 지정된 URL에 연결할 수 없는 경우 번들 이미지의 이름
-   * "title"
+   * &quot;title&quot;
 
       * 전체 화면 및 경고, 필수
       * 전체 화면 또는 경고 메시지의 제목 텍스트
-   * "content"
+   * &quot;콘텐츠&quot;
 
       * 경고 및 로컬 알림, 필수
       * 경고 메시지의 하위 텍스트 또는 로컬 알림 메시지의 알림 텍스트
-   * "confirm"
+   * &quot;confirm&quot;
 
       * 경고, 선택 사항
       * 확인 단추에 사용되는 텍스트
-   * "cancel"
+   * &quot;취소&quot;
 
       * 경고, 필수
-      * 취소 단추에 사용되는 텍스트
-   * "url"
+      * 취소 단추에 사용된 텍스트
+   * &quot;url&quot;
 
       * 경고, 선택 사항
-      * 확인 단추를 클릭하면 로드할 URL 작업
-   * "wait"
+      * 확인 단추를 클릭할 경우 로드할 url 동작
+   * &quot;wait&quot;
 
       * 로컬 알림, 필수
-      * 기준에 일치하는 항목을 찾은 후 로컬 알림 게시를 위해 대기하는 시간(초)
+      * 기준 일치 후 로컬 알림을 게시하는 대기 시간(초)
 
 
 
@@ -402,63 +402,63 @@ source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
 
 
 
-* "showOffline"
+* &quot;showOffline&quot;
 
-   * True 또는 False
-   * 기본값은 false입니다.
+   * true 또는 false
+   * default is false
 
-* "showRule"
+* &quot;showRule&quot;
 
-   * "always", "once" 또는 "untilClick"
-   * 필수
+   * &quot;always&quot;, &quot;once&quot; 또는 &quot;untilClick&quot;
+   * required
 
-* "endDate"
+* &quot;endDate&quot;
 
-   * 1970년 1월 1일 이후 시간(초)
+   * 1970년 1월 1일 이후 경과한 초
    * 기본값은 2524730400입니다.
 
-* "startDate"
+* &quot;startDate&quot;
 
-   * 1970년 1월 1일 이후 시간(초)
+   * 1970년 1월 1일 이후 경과한 초
    * 기본값은 0입니다.
 
-* "audiences"
+* &quot;audiences&quot;
 
    메시지를 표시하는 방법을 정의하는 객체 배열입니다.
 
-   * "key"
+   * &quot;key&quot;
 
       히트에서 찾을 변수 이름 및 필수 필드입니다.
 
-   * "matches"
+   * &quot;matches&quot;
 
       비교를 수행할 때 사용하는 선택기 유형:
 
       * eq = 같음
       * ne = 같지 않음
-      * co = 포함
+      * co = contains
       * nc = 포함하지 않음
       * sw = 다음으로 시작
-      * ew = 다음으로 끝남
-      * ex = 존재
+      * new = 다음으로 끝남
+      * ex = exists
       * nx = 존재하지 않음
-      * lt = 보다 작음
-      * le = 보다 작거나 같음
+      * lite = 보다 작음
+      * le = 작거나 같음
       * gt = 보다 큼
-      * ge = 보다 크거나 같음
-   * "values"
+      * ge = 크거나 같음
+   * &quot;values&quot;
 
       다음에서 이름이 지정된 변수의 값에 대해 일치시키는 데 사용되는 값의 배열입니다.
 
       * key
-      * 에 이름이 지정된 변수 값과 일치시키는 데 사용되는 값의 배열(사용되는 일치 유형:
+      * With with matcher type in
       * matches
 
 
-* "triggers"
+* &quot;triggers&quot;
 
    대상과 동일하지만 대상 대신 다음과 같은 작업이 있습니다.
 
-   * "key"
-   * "matches"
-   * "values"
+   * &quot;key&quot;
+   * &quot;matches&quot;
+   * &quot;values&quot;
