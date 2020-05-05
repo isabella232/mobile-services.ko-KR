@@ -1,13 +1,13 @@
 ---
-description: Experience Cloud 솔루션용 Android SDK 4.x를 위한 릴리스 노트 및 알려진 문제.
-seo-description: Experience Cloud 솔루션용 Android SDK 4.x를 위한 릴리스 노트 및 알려진 문제.
+description: Experience Cloud 솔루션용 Android SDK 4.x의 릴리스 노트 및 알려진 문제
+seo-description: Experience Cloud 솔루션용 Android SDK 4.x의 릴리스 노트 및 알려진 문제
 seo-title: 릴리스 노트
 solution: Marketing Cloud,Analytics
 title: 릴리스 노트
 topic: Developer and implementation
 uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
-translation-type: ht
-source-git-commit: 712a1107b317f02216e4df8d75fddda67a6f1feb
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -47,4 +47,4 @@ source-git-commit: 712a1107b317f02216e4df8d75fddda67a6f1feb
 * 방문자 ID 서비스 - 연결 및 읽기 제한 시간이 2초에서 5초로 늘어났습니다.
 
 
-모든 솔루션의 현재 및 과거 릴리스 노트에 대한 자세한 내용은 [Adobe Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/)를 참조하십시오.
+모든 솔루션의 현재 및 과거 릴리스 노트에 대한 자세한 내용은 [Adobe Experience Cloud 릴리스 노트](hhttps://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)를 참조하십시오.
