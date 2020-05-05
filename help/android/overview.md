@@ -1,14 +1,14 @@
 ---
 description: Experience Cloud 솔루션용 Android SDK 4.x를 사용하면 기본 Android 애플리케이션을 측정하고, 앱에 타겟 콘텐츠를 제공하고, 대상 관리를 통해 대상 데이터를 활용하고 수집할 수 있습니다.
-keywords: android;라이브러리;모바일;sdk
+keywords: android;library;mobile;sdk
 seo-description: Experience Cloud 솔루션용 Android SDK 4.x를 사용하면 기본 Android 애플리케이션을 측정하고, 앱에 타겟 콘텐츠를 제공하고, 대상 관리를 통해 대상 데이터를 활용하고 수집할 수 있습니다.
 seo-title: Experience Cloud 솔루션용 Android SDK 4.x
 solution: Marketing Cloud,Analytics
 title: Experience Cloud 솔루션용 Android SDK 4.x
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 56f1ff41-0365-41dd-bdde-245c823dff07
-translation-type: ht
-source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -19,7 +19,7 @@ Experience Cloud 솔루션용 Android SDK 4.x를 사용하면 기본 Android 애
 
 ## 새로운 Adobe Experience Platform Mobile SDK 릴리스
 
-Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
+Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고 계십니까? [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하여 최신 설명서를 확인하십시오.
 
 2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/kr/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
@@ -34,14 +34,14 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 >
 >UI에서 기능을 구성할 수 있지만, 이러한 기능은 생성된 구성 파일을 다운로드하고 이 파일을 SDK에 추가할 때까지 작동하지 않습니다. SDK 다운로드 및 구성에 대한 자세한 내용은 [핵심 구현 및 라이프사이클](/help/android/getting-started/dev-qs.md)을 참조하십시오.
 
-SDK에서 지원하는 Android 버전은 다음과 같습니다.
+SDK는 다음 버전의 Android를 지원합니다.
 
-* 4.6.0 이전 버전은 Android 2.2(API 8) ~ Android 5.1.1(API 22)을 지원합니다.
-* 4.6.1 이상 버전은 Android 2.3(API 9) 이상을 지원합니다.
+* 버전 4.6.0 이전 버전은 Android 2.2(API 8) - Android 5.1.1(API 22)을 지원합니다.
+* 버전 4.6.1 이상 버전은 Android 2.3(API 9) 이상 버전을 지원합니다.
 
 기억해야 할 정보:
 
-* 4.2 버전 이상에서는 모든 히트를 HTTP POST를 사용하여 전송합니다.
+* 버전 4.2 이상에서 이제 모든 히트가 HTTP POST를 사용하여 전송됩니다.
 
    이 작업은 수집 및 보고된 데이터에는 영향을 미치지 않지만 히트를 보려면 POST 데이터 검사를 지원하는 패킷 분석기를 사용해야 합니다.
 
@@ -49,11 +49,11 @@ SDK에서 지원하는 Android 버전은 다음과 같습니다.
 
 ## Adobe Mobile 사용자 설명서 {#section_7583FD5FDED143619048E9744A3F2D21}
 
-Adobe Mobile Services는 Adobe Experience Cloud에서 모바일 애플리케이션에 대한 모바일 마케팅 기능을 종합하여 제공하는 UI를 제공합니다.  UI에 대한 자세한 정보를 확인하고 사용자 설명서를 읽어 보려면 [Adobe Mobile Services](https://marketing.adobe.com/resources/help/ko_KR/mobile/)를 참조하십시오.
+Adobe Mobile Services는 Adobe Experience Cloud에서 모바일 애플리케이션에 대한 모바일 마케팅 기능을 종합하여 제공하는 UI를 제공합니다.  UI에 대한 자세한 정보를 확인하고 사용자 설명서를 읽어 보려면 [Adobe Mobile Services](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/home.html)를 참조하십시오.
 
 ## 릴리스 노트 {#section_F8181DC052D44DD2A99AB40A41F6792C}
 
-Experience Cloud 릴리스에 대한 최신 정보는 [Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/ko_KR/whatsnew/)를 참조하십시오.
+Experience Cloud 릴리스에 대한 최신 정보는 [Experience Cloud 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)를 참조하십시오.
 
 ## Bloodhound 사용
 
