@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: 구성 메서드
 topic: Developer and implementation
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
 
 ---
@@ -272,7 +272,7 @@ source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
 
 * **setSmallIconResourceId(int resourceId)**
 
-   * (**버전 4.2 이상**) SDK에서 만든 알림에 사용할 작은 아이콘을 설정합니다. 이 아이콘은 상태 표시줄에 나타나며 사용자가 알림 센터에서 전체 알림을 볼 때 표시되는 보조 이미지가 됩니다.
+   * (**버전 4.2 이상**) SDK에서 만든 알림에 사용할 작은 아이콘을 설정합니다. 이 아이콘은 상태 표시줄에 표시되며, 사용자가 알림 센터에서 전체 알림을 볼 때 표시되는 보조 이미지가 됩니다.
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
@@ -302,7 +302,7 @@ source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
 
 * **overrideConfigStream(InputStream configInput)**
 
-   * (**버전 4.2 이상**) 응용 프로그램이 시작될 때 다른 ADBMobile JSON 구성 파일을 로드할 수 있습니다. 애플리케이션이 닫힐 때까지 다른 구성을 사용합니다.
+   * (**버전 4.2 이상**) 애플리케이션이 시작될 때 다른 ADBMobile JSON 구성 파일을 로드할 수 있습니다. 애플리케이션이 닫힐 때까지 다른 구성을 사용합니다.
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```java
@@ -380,7 +380,7 @@ source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
          ```
 
 
-## AdobeDataCallback 인터페이스 {#section_600A63B3136F47DCB928071485C5117C}
+## AdobeDataCallback Interface {#section_600A63B3136F47DCB928071485C5117C}
 
 ```java
 public interface AdobeDataCallback {  
