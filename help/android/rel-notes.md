@@ -1,16 +1,16 @@
 ---
-description: Experience Cloud 솔루션용 Android SDK 4.x의 릴리스 노트 및 알려진 문제
-seo-description: Experience Cloud 솔루션용 Android SDK 4.x의 릴리스 노트 및 알려진 문제
+description: Experience Cloud 솔루션용 Android SDK 4.x에 대한 릴리스 노트 및 알려진 문제
+seo-description: Experience Cloud 솔루션용 Android SDK 4.x에 대한 릴리스 노트 및 알려진 문제
 seo-title: 릴리스 노트
 solution: Marketing Cloud,Analytics
 title: 릴리스 노트
 topic: Developer and implementation
 uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2a2ea4bd3826b061b198e684dd31d9328137d7e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 76%
 
 **2020년 4월 3일: 4.18.2**
 
-* 앱 메시지 - 보안상의 이유로 SDK에서 만든 WebViews가 이제 &#39;setAllowFileAccess&#39; 속성을 false로 설정합니다.
+* 인앱 메시지 - 보안상의 이유로 SDK에서 만든 WebViews는 이제 &#39;setAllowFileAccess&#39; 속성을 false로 설정합니다.
 
 **2020년 3월 12일: 4.18.1**
 
-* Target - Target 세션 ID가 이제 Adobe Analytics에 전송된 내부 Analytics-for-Target 히트에서 컨텍스트 데이터 매개 변수 &quot;a.target.sessionId&quot;로 추가됩니다.
+* Target - 이제 Target 세션 ID가 Adobe Analytics로 전송된 내부 Analytics-for-Target 히트에서 컨텍스트 데이터 매개 변수 &quot;a.target.sessionId&quot;로 추가됩니다.
 
 **2020년 1월 16일: 4.18.0**
 
