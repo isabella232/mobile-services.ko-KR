@@ -6,8 +6,11 @@ solution: Marketing Cloud,Analytics
 title: Adobe Experience Platform ID 서비스 메서드
 topic: Developer and implementation
 uuid: cdd307bc-8b7d-47a8-b77e-00902b9e2968
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '461'
+ht-degree: 100%
 
 ---
 
@@ -157,7 +160,7 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ## ADBVisitorID 인터페이스 {#section_2FF74454D25C4ADABAC5E43CBFAAEC26}
 
-**공개 메서드:**
+**공용 메서드:**
 
 ```objective-c
 - (nullable NSString *) idType; 
@@ -165,7 +168,7 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 - (ADBMobileVisitorAuthenticationState) authenticationState; 
 ```
 
-## ADBMobileVisitorAuthenticationState 열거형 {#section_A55A3F336DDF4F838900632087F51430}
+## ADBMobileVisitorAuthenticationState enum {#section_A55A3F336DDF4F838900632087F51430}
 
 ```objective-c
 ADBMobileVisitorAuthenticationStateUnknown, 
