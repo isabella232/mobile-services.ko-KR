@@ -7,8 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Experience Cloud 솔루션용 Android SDK 4.x
 topic: Developer and implementation
 uuid: 56f1ff41-0365-41dd-bdde-245c823dff07
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '447'
+ht-degree: 100%
 
 ---
 
@@ -36,12 +39,12 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고
 
 SDK는 다음 버전의 Android를 지원합니다.
 
-* 버전 4.6.0 이전 버전은 Android 2.2(API 8) - Android 5.1.1(API 22)을 지원합니다.
-* 버전 4.6.1 이상 버전은 Android 2.3(API 9) 이상 버전을 지원합니다.
+* 버전 4.6.0 또는 이전 버전은 Android 2.2(API 8) - Android 5.1.1(API 22)을 지원합니다.
+* 버전 4.6.1 이상 버전은 Android 2.3(API 9) 이상을 지원합니다.
 
 기억해야 할 정보:
 
-* 버전 4.2 이상에서 이제 모든 히트가 HTTP POST를 사용하여 전송됩니다.
+* 4.2 버전 이상에서는 모든 히트를 HTTP POST를 사용하여 전송합니다.
 
    이 작업은 수집 및 보고된 데이터에는 영향을 미치지 않지만 히트를 보려면 POST 데이터 검사를 지원하는 패킷 분석기를 사용해야 합니다.
 
