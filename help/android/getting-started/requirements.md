@@ -6,8 +6,11 @@ solution: Marketing Cloud,Analytics
 title: 시작하기 전에
 topic: Developer and implementation
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '760'
+ht-degree: 100%
 
 ---
 
@@ -24,10 +27,10 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 보고서 세트를 구성하고 모바일 앱 데이터를 수집하려면
 
-1. Adobe Mobile Services UI에 [로그인에서 섹션 중 하나를 완료합니다](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8).
-1. 각 앱 개발자를 위한 Analytics 계정을 만듭니다.
+1. [Adobe Mobile Services UI에 로그인](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8)의 섹션 중 하나를 완료합니다.
+1. 각 앱 개발자를 위한 Analytics 계정을 생성합니다.
 
-이제 앱 개발자는 사용자가 만든 보고서 세트를 볼 수 있습니다.
+이제 앱 개발자는 사용자가 생성한 보고서 세트를 보기 위해 액세스할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -39,13 +42,13 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 1. Analytics 관리자가 [Adobe Mobile Services UI에 로그인](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8)의 섹션 중 하나를 완료했는지 확인합니다.
 1. 보고서 세트를 구성한 후 [SDK 다운로드](../getting-started/requirements.md#section_044C17DF82BC4FD8A3E409C456CE9A46)의 단계를 완료합니다.
 
-역할 및 권한에 대한 자세한 내용은 역할 및 권한 [을 참조하십시오](/help/using/gs/c-mob-roles-and-permissions.md).
+역할 및 사용 권한에 대한 자세한 내용은 [역할 및 권한](/help/using/gs/c-mob-roles-and-permissions.md)을 참조하십시오.
 
 ## Adobe Mobile Services UI에 로그인 {#section_690A2EC4572E47869F183974E932A6A8}
 
-Adobe Mobile Services는 모바일 앱 분석 및 타깃팅을 위한 기본 보고 인터페이스입니다. 이 단계를 완료한 후 데이터 수집 서버, 보고서 세트 및 기타 많은 설정으로 미리 구성된 구성 파일을 다운로드할 수 있습니다.
+Adobe Mobile Services는 모바일 앱 분석 및 타깃팅용 주요 보고 인터페이스입니다. 이 단계를 완료하면 데이터 수집 서버, 보고서 세트 및 기타 다양한 설정을 통해 사전 구성된 구성 파일을 다운로드할 수 있습니다.
 
-다음 방법 중 하나를 사용하여 Adobe Mobile Services UI에 로그인할 수 있습니다.
+다음 방법 중 하나로 Adobe Mobile Services UI에 로그인할 수 있습니다.
 
 ### Experience Cloud
 
@@ -112,5 +115,5 @@ compile 'com.adobe.mobile:adobeMobileLibrary:4.13.7'
 
 다음 정보를 숙지하십시오.
 
-* 코드 샘플의 버전 번호를 해당 버전의 Android SDK로 바꿉니다.
-* 구성 파일을 다운로드하여 프로젝트에 포함합니다.
+* 코드 샘플의 버전 번호를 Android SDK의 적절한 버전으로 바꾸십시오.
+* 구성 파일을 다운로드하여 프로젝트에 포함하십시오.
