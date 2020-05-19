@@ -1,26 +1,29 @@
 ---
-description: Experience Cloud Device Co-op을 사용하려면 Adobe 담당자에게 문의하십시오.
-seo-description: Experience Cloud Device Co-op을 사용하려면 Adobe 담당자에게 문의하십시오.
+description: Experience Cloud Device Co-op를 사용하려면 Adobe 담당자에게 문의하십시오.
+seo-description: Experience Cloud Device Co-op를 사용하려면 Adobe 담당자에게 문의하십시오.
 seo-title: Experience Cloud Device Co-op
 title: Experience Cloud Device Co-op
 uuid: 7bb8a19c-4b80-4911-879d-f9941baa3b62
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '290'
+ht-degree: 100%
 
 ---
 
 
 # Experience Cloud Device Co-op {#experience-cloud-device-co-op}
 
-Experience Cloud Device Co-op을 사용하려면 Adobe 담당자에게 문의하십시오.
+Experience Cloud Device Co-op를 사용하려면 Adobe 담당자에게 문의하십시오.
 
-Experience Cloud Device Co-op용 모바일 앱을 활성화하려면 Experience Cloud Android SDK에 대해 다음 단계를 완료하십시오.
+Experience Cloud Device Co-op에 모바일 앱을 활성화하려면 Experience Cloud Android SDK에 대해 다음 단계를 완료하십시오.
 
 >[!IMPORTANT]
 >
 >이 기능을 사용하려면 Android SDK 버전 4.8.3 이상이 필요합니다.
 
-SDK 버전 4.16.1부터 Device Co-op 멤버는 Experience Cloud Device Co-op에서 모바일 장치 데이터를 옵트아웃할 수 있습니다. 자세한 내용은 [ADBMobile JSON 구성](/help/android/configuration/json-config/json-config.md) 및 isCoopSafe `visitorAPI.js` 의 방법 [을 참조하십시오](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/coopsafe.html).
+SDK 버전 4.16.1부터 Device Co-op 구성원은 Experience Cloud Device Co-op에서 모바일 장치 데이터를 옵트아웃할 수 있습니다. 자세한 내용은 [ADBMobile JSON 구성](/help/android/configuration/json-config/json-config.md) 및 [isCoopSafe](https://docs.adobe.com/content/help/ko-KR/id-service/using/id-service-api/configurations/coopsafe.html)용 `visitorAPI.js` 메서드를 참조하십시오.
 
 1. Adobe Mobile SDK를 구현합니다.
 
