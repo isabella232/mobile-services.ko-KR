@@ -1,13 +1,16 @@
 ---
-description: 이 정보는 ADBMobile.json 구성 파일을 사용하는 데 도움이 됩니다.
-seo-description: 이 정보는 ADBMobile.json 구성 파일을 사용하는 데 도움이 됩니다.
+description: 다음은 ADBMobile.json 구성 파일을 사용하는 데 유용한 정보입니다.
+seo-description: 다음은 ADBMobile.json 구성 파일을 사용하는 데 유용한 정보입니다.
 seo-title: ADBMobile JSON 구성
 solution: Marketing Cloud,Analytics
 title: ADBMobile JSON 구성
 topic: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '1715'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
    모바일 앱 획득을 사용하도록 설정합니다.
 
-   이 섹션이 없으면 모바일 앱 획득을 사용하도록 설정하고 SDK 구성 파일을 다시 다운로드하십시오. For more information, see *referrerTimeout* below.
+   이 섹션이 없으면 모바일 앱 획득을 사용하도록 설정하고 SDK 구성 파일을 다시 다운로드하십시오. 자세한 내용은 아래의 *referrerTimeout*&#x200B;을 참조하십시오.
 
    * `server` - 처음 시작 시 획득 레퍼러가 확인된 획득 서버입니다.
    * `appid` - 획득 서버에서 이 앱을 고유하게 식별하는, 생성된 ID입니다.
@@ -48,11 +51,11 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
    * 이 값을 `false`로 설정한 경우 히트가 **비활성화**&#x200B;됩니다. 
 
-      SDK는 이전 세션의 세션 정보를 이후 세션의 첫 번째 히트와 묶는 4.1 이전 동작으로 돌아갑니다. 또한 Adobe SDK는 세션 정보를 현재 라이프사이클에 첨부하므로 부풀려진 방문이 생성되지 않습니다. 부풀려진 방문이 더 이상 만들어지지 않으므로 방문 횟수가 즉시 줄어듭니다.
+      SDK는 이전 세션에 대한 세션 정보와 후속 세션의 첫 번째 히트를 함께 묶는 이전 4.1 버전 동작으로 돌아갑니다. 또한 Adobe SDK는 세션 정보를 현재 라이프사이클에 첨부하므로 부풀려진 방문이 생성되지 않습니다. 부풀려진 방문이 더 이상 생성되지 않으므로 방문 횟수가 즉시 줄어듭니다.
 
    * 값을 제공하지 않은 경우 기본 값은 `true`이며 히트가 **활성화됩니다**.
 
-      히트가 활성화되면 Adobe SDK는 이전 세션에서 최종 히트 이후 세션 정보 히트를 1초로 소급 적용합니다. 즉, 충돌과 세션 데이터가 발생한 정확한 날짜와 상관 관계를 맺게 됩니다. 한 가지 효과는 SDK가 백데이트된 히트에 대한 방문을 만들 수 있다는 것입니다. 애플리케이션의 모든 새로운 시작 시 하나의 히트가 소급 적용됩니다.
+      히트가 활성화되면 Adobe SDK는 이전 세션에서 최종 히트 후 세션 정보 히트를 1초로 소급 적용합니다. 다시 말해서, 충돌 및 세션 데이터가 충돌과 세션이 발생한 올바른 날짜와 상호 연결됩니다. 한 가지 부작용으로, SDK에서 오래된 히트에 대한 방문을 만들 수도 있습니다. 애플리케이션의 모든 새로운 시작 시 하나의 히트가 소급 적용됩니다.
 
    * 최소 SDK 버전: 4.6
    >[!IMPORTANT]
@@ -70,7 +73,7 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 * **charset**
 
-   Analytics로 전송되는 데이터에 사용하는 문자 세트를 정의합니다. charset은 들어오는 데이터를 저장 및 보고용으로 UTF-8로 변환하는 데 사용됩니다. 자세한 내용은 [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/charset.html)을 참조하십시오.
+   Analytics로 전송되는 데이터에 사용하는 문자 세트를 정의합니다. charset은 들어오는 데이터를 저장 및 보고용으로 UTF-8로 변환하는 데 사용됩니다. 자세한 내용은 [s.charSet](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/config-vars/charset.html)을 참조하십시오.
 
    * 최소 SDK 버전: 4.0
 
@@ -111,13 +114,13 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
    기본값은 300초입니다.
 
-   앱 실행 시간과 론치가 새 세션으로 간주되기 전까지 경과해야 하는 시간(초)을 지정합니다. 이 시간 초과는 응용 프로그램이 백그라운드로 전송되고 다시 활성화될 때도 적용됩니다. 앱이 백그라운드에서 보내는 시간은 세션 길이에 포함되지 않습니다.
+   앱 시작이 새로운 세션으로 간주되기 전에 다음 앱이 시작되기까지 경과해야 하는 시간(초)을 지정합니다. 이 시간 초과는 응용 프로그램이 백그라운드로 전송되고 다시 활성화될 때도 적용됩니다. 앱이 백그라운드에서 소요하는 시간은 세션 길이에 포함되지 않습니다.
 
    * 최소 SDK 버전: 4.0
 
 * **messages**
 
-   Adobe Mobile Services에서 자동으로 생성된 인앱 메시지 설정을 정의합니다. 자세한 내용은 아래의 *메시지 설명* 섹션을 참조하십시오.
+   Adobe Mobile Services에서 자동으로 생성되며, 인앱 메시지의 설정을 정의합니다. 자세한 내용은 아래의 *메시지 설명* 섹션을 참조하십시오.
 
    * 최소 SDK 버전: 4.2
 
@@ -187,13 +190,13 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
       보고서 세트에 타임스탬프가 활성화되어 있지 않을 경우 개인정보 상태가 옵트인으로 변경될 때까지 히트가 삭제됩니다.
 
-      초기 값만 설정합니다. 코드에서 이 값을 설정하거나 변경하고 나면 해당 값을 다시 변경하거나 앱을 제거하고 다시 설치할 때까지 새 값이 사용됩니다. 기본값은 `optedin`입니다.
+      초기값만 설정됩니다. 코드에서 이 값을 설정하거나 변경하고 나면 해당 값을 다시 변경하거나 앱을 제거하고 다시 설치할 때까지 새 값이 사용됩니다. 기본값은 `optedin`입니다.
 
    * 최소 SDK 버전: 4.0
 
 * **referrerTimeout**
 
-   SDK가 시간 초과 전에 초기 실행 시 획득 레퍼러 데이터를 기다리는 시간(초)입니다. 고객 확보를 사용하는 경우 5초 제한 시간을 사용하는 것이 좋습니다.
+   SDK가 시간 초과 전까지 처음 시작 시 획득 레퍼러 데이터를 대기하는 시간(초)입니다. 획득을 사용 중인 경우 5초의 시간제한이 권장됩니다.
 
    >[!IMPORTANT]
    >
@@ -213,7 +216,7 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 * **rsids**
 
-   하나 이상의 보고서 세트가 Analytics 데이터를 수신합니다. 여러 보고서 세트 ID는 쉼표 구분 후 사이에 공백이 없어야 합니다.
+   Analytics 데이터를 수신할 하나 이상의 보고서 세트입니다. 여러 보고서 세트 ID는 공백 없이 쉼표로 구분해야 합니다.
 
    ```js
    "rsids": "rsid"
@@ -343,7 +346,7 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ## 메시지 설명 {#section_B97D654BA92149CE91F525268D7AD71F}
 
-메시지 노드는 Adobe Mobile Services에 의해 자동으로 생성되므로 수동으로 변경할 필요가 없습니다. 문제 해결 목적으로 다음 설명이 제공됩니다.
+메시지 노드는 Adobe Mobile Services에서 자동으로 생성되며, 일반적으로 수동으로 변경하지 않아도 됩니다. 다음 설명은 문제 해결 용도로 제공됩니다.
 
 * &quot;messageId&quot;
 
@@ -352,23 +355,23 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 * &quot;template&quot;
 
    * &quot;alert&quot;, &quot;fullscreen&quot; 또는 &quot;local&quot;
-   * required
+   * 필수
 
 * &quot;payload&quot;
 
    * &quot;html&quot;
 
-      * 전체 화면 템플릿만 해당, 필수
-      * html 메시지 정의
+      * 전체 화면 템플릿 전용, 필수
+      * 메시지를 정의하는 html
    * &quot;image&quot;
 
-      * 전체 화면만, 선택 사항
-      * 전체 화면 이미지에 사용할 이미지의 url
+      * 전체 화면 전용, 선택 사항
+      * 전체 화면 이미지에 사용할 이미지 URL
    * &quot;altImage&quot;
 
-      * 전체 화면만, 선택 사항
-      * URL이
-         `image` 에 지정된 URL에 연결할 수 없는 경우 번들 이미지의 이름
+      * 전체 화면 전용, 선택 사항
+      * 
+         `image`에 지정된 URL에 연결할 수 없는 경우 번들 이미지의 이름
    * &quot;title&quot;
 
       * 전체 화면 및 경고, 필수
@@ -381,18 +384,18 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
       * 경고, 선택 사항
       * 확인 단추에 사용되는 텍스트
-   * &quot;취소&quot;
+   * &quot;cancel&quot;
 
       * 경고, 필수
-      * 취소 단추에 사용된 텍스트
+      * 취소 단추에 사용되는 텍스트
    * &quot;url&quot;
 
       * 경고, 선택 사항
-      * 확인 단추를 클릭할 경우 로드할 url 동작
+      * 확인 단추를 클릭하면 로드할 URL 작업
    * &quot;wait&quot;
 
       * 로컬 알림, 필수
-      * 기준 일치 후 로컬 알림을 게시하는 대기 시간(초)
+      * 기준에 일치하는 항목을 찾은 후 로컬 알림 게시를 위해 대기하는 시간(초)
 
 
 
@@ -405,21 +408,21 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 * &quot;showOffline&quot;
 
    * true 또는 false
-   * default is false
+   * 기본값은 false입니다.
 
 * &quot;showRule&quot;
 
    * &quot;always&quot;, &quot;once&quot; 또는 &quot;untilClick&quot;
-   * required
+   * 필수
 
 * &quot;endDate&quot;
 
-   * 1970년 1월 1일 이후 경과한 초
+   * 1970년 1월 1일 이후 시간(초)
    * 기본값은 2524730400입니다.
 
 * &quot;startDate&quot;
 
-   * 1970년 1월 1일 이후 경과한 초
+   * 1970년 1월 1일 이후 시간(초)
    * 기본값은 0입니다.
 
 * &quot;audiences&quot;
@@ -436,22 +439,22 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
       * eq = 같음
       * ne = 같지 않음
-      * co = contains
+      * co = 포함
       * nc = 포함하지 않음
       * sw = 다음으로 시작
-      * new = 다음으로 끝남
-      * ex = exists
+      * ew = 다음으로 끝남
+      * ex = 존재
       * nx = 존재하지 않음
-      * lite = 보다 작음
-      * le = 작거나 같음
+      * lt = 보다 작음
+      * le = 보다 작거나 같음
       * gt = 보다 큼
-      * ge = 크거나 같음
+      * ge = 보다 크거나 같음
    * &quot;values&quot;
 
       다음에서 이름이 지정된 변수의 값에 대해 일치시키는 데 사용되는 값의 배열입니다.
 
       * key
-      * With with matcher type in
+      * with the matcher type in
       * matches
 
 
