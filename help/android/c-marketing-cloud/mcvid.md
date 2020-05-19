@@ -6,8 +6,11 @@ solution: Marketing Cloud,Analytics
 title: Experience Cloud ID 구성
 topic: Developer and implementation
 uuid: 8ebdf2bf-c581-448f-9542-f99a19784fe7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '270'
+ht-degree: 100%
 
 ---
 
@@ -56,4 +59,4 @@ Experience Cloud ID를 사용하려면 다음을 수행하십시오.
 
    이러한 ID가 구성되어 있지 않으면 업데이트된 `ADBMobileConfig.json` 파일을 Adobe Mobile Services에서 다운로드합니다. 자세한 내용은 [시작하기 전에](/help/android/getting-started/requirements.md)를 참조하십시오.
 
-구성이 완료되면 Experience Cloud ID가 생성되어 모든 히트에 포함됩니다. 사용자 지정 및 자동 생성된 ID와 같은 다른 ID는 각 히트와 함께 계속 전송됩니다.
+구성이 완료되면 Experience Cloud ID가 생성되고, 모든 히트 수에 포함됩니다. 사용자 지정 ID 및 자동 생성 ID 같은 다른 ID는 각 히트와 함께 계속 전송됩니다.
