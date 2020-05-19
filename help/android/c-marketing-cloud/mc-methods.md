@@ -7,8 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Adobe Experience Platform ID 서비스 메서드
 topic: Developer and implementation
 uuid: c5107a7e-273b-4f71-8738-4c603479b24c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '449'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 * **public static String appendToURL(최종 문자열 URL)**
 
-   Adobe JavaScript 라이브러리에서 사용할 수 있도록 URL 문자열에 Adobe 방문자 데이터를 추가합니다. 이 메서드를 사용하려면 Mobile SDK 4.12+가 있어야 합니다. 자세한 내용은 [방문자 ID 지원 기능 추가](https://docs.adobe.com/content/help/ko-KR/id-service/using/id-service-api/methods/appendvisitorid.html)를 참조하십시오.
+   Adobe JavaScript 라이브러리에서 사용할 수 있도록 URL 문자열에 Adobe 방문자 데이터를 추가합니다. 이 메서드를 사용하려면 Mobile SDK 4.12 이상이 있어야 합니다. 자세한 내용은 [방문자 ID 지원 기능 추가](https://docs.adobe.com/content/help/ko-KR/id-service/using/id-service-api/methods/appendvisitorid.html)를 참조하십시오.
 
    >[!IMPORTANT]
    >
