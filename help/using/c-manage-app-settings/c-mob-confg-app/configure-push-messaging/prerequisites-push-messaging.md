@@ -7,8 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 푸시 메시지를 활성화하기 위한 전제 조건
 topic: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '646'
+ht-degree: 100%
 
 ---
 
@@ -39,9 +42,9 @@ Adobe Analytics를 사용하는 회사에서는 Experience Cloud가 활성화되
 
 >[!IMPORTANT]
 >
->푸시 서비스 기능을 사용하려면, 사용자가 자신의 Adobe ID를 사용하여 Mobile Core 서비스에 로그인하여 해당 Analytics 계정이 Adobe ID에 연결되어 있어야 합니다. 사용자가 기존 Adobe Analytics 계정을 사용하여 로그인하는 경우에는 푸시 서비스 기능을 사용할 수 없습니다.
+>푸시 서비스 기능을 사용하려면, 사용자가 자신의 Adobe ID를 사용하여 Mobile Core 서비스에 로그인하여 해당 Analytics 계정이 Adobe ID에 연결되어 있어야 합니다. 푸시 서비스 기능은 기존 Adobe Analytics 계정을 사용하여 로그인한 경우에는 사용할 수 없습니다.
 
-사용자에게 Adobe ID가 없는 경우 다음 단계를 완료하십시오.
+사용자에게 Adobe ID가 없는 경우에는 다음 절차를 완료하십시오.
 
 1. (**Experience Cloud 관리자**) 사용자를 Experience Cloud에 초대합니다.
 
@@ -55,7 +58,7 @@ Adobe Analytics를 사용하는 회사에서는 Experience Cloud가 활성화되
 
 각 사용자는 Experience Cloud 조직의 Analytics 솔루션 계정을 연결해야 합니다.
 
-1. Adobe ID로 Experience Cloud에 로그인하려면 브라우저에 [](https://marketing.adobe.com)https://marketing.adobe.com을 입력합니다.
+1. Adobe ID로 Experience Cloud에 로그인하려면 브라우저에 [https://marketing.adobe.com](https://marketing.adobe.com)을 입력합니다.
 
 1. 오른쪽 상단 모서리에서 Analytics 회사 이름을 선택합니다.
 
@@ -73,22 +76,22 @@ Adobe Analytics를 사용하는 회사에서는 Experience Cloud가 활성화되
 
 >[!IMPORTANT]: 변경 사항을 저장하고 푸시 서비스를 새로 고치려면 **[!UICONTROL 저장]**&#x200B;을 클릭해야 합니다.
 >
->각 보고서 세트에서 Apple용 앱스토어 앱과 Google용 앱을 각각 구성할 수 있습니다. 예를 들어 제작 환경용 앱과 개발 환경용 앱이 추가로 필요한 경우 각각의 환경에 대해 새 앱스토어 앱과 새 보고서 세트를 설정합니다.
+>각 보고서 세트에서 Apple용 앱스토어 앱 하나와 Google용 하나를 각각 구성할 수 있습니다. 프로덕션 환경용 앱과 개발 환경용 앱과 같은 앱이 추가로 필요한 경우 각 환경에 대해 새 앱스토어 앱과 새 보고서 세트를 설정하십시오.
 
-* Apple **의**&#x200B;경우 개인 키 및/또는 인증서를 드래그 앤 드롭합니다. 개인 키가 암호로 암호화되어 있으면 암호를 입력합니다.
+* **Apple**&#x200B;의 경우 개인 키 및/또는 인증서를 드래그하여 놓습니다. 개인 키가 암호로 암호화되어 있는 경우, 해당 암호를 입력하십시오.
 
    * **개인 키**&#x200B;에 대해 개인 키 파일을 상자로 드래그하여 놓습니다.
 
       **[!UICONTROL 찾아보기]**&#x200B;를 클릭하여 파일을 선택할 수도 있습니다. 이 파일에는 개인 키가 들어 있습니다. 이 파일(`.p12`, `pkcs12`, `.pfx`, `.key`, `.pem`)에 인증서가 포함되어 있을 수 있습니다.
 
-   * 개인 **키 암호**(개인 키 파일)의 경우 암호를 입력합니다.
+   * **개인 키 암호**&#x200B;의 경우, 개인 키 파일이 암호화되어 있다면, 해당 암호를 입력하십시오.
 
-      (조건부) **인증서의**&#x200B;경우 인증서 파일을 상자로 드래그하여 놓습니다. **[!UICONTROL 찾아보기]**&#x200B;를 클릭하여 파일을 선택할 수도 있습니다. 개인 키 파일에 인증서(`.cert`, `.cer`, `.crt`. `.pem`)도 포함되어 있는 경우에는 이 필드가 필요하지 않습니다.
+      (조건부) **인증서**&#x200B;의 경우 인증서 파일을 상자로 드래그하여 놓습니다. **[!UICONTROL 찾아보기]**&#x200B;를 클릭하여 파일을 선택할 수도 있습니다. 개인 키 파일에 인증서(`.cert`, `.cer`, `.crt`. `.pem`)도 포함되어 있는 경우에는 이 필드가 필요하지 않습니다.
 
 * **Google**&#x200B;에 대해 앱용 API 키를 지정합니다.
 
-   **[!UICONTROL 테스트]**&#x200B;를 클릭하여 앱 및 Mobile Services가 올바르게 구성되어 있는지 확인합니다. 이 옵션은 디버깅 및 문제 해결에 유용합니다.
+   **[!UICONTROL 테스트]**&#x200B;를 클릭하여 앱 및 Mobile Services가 올바르게 구성되어 있는지 확인합니다. 이 옵션은 디버그 및 문제 해결에 유용합니다.
 
-   메시지를 보낼 장치의 푸시 토큰을 입력합니다. 토큰을 쉼표로 구분된 목록으로 지정하면 메시지를 여러 장치에 보낼 수 있습니다.
+   메시지를 전송할 장치의 푸시 토큰을 입력하십시오. 토큰을 쉼표로 구분된 목록으로 지정하면 메시지를 여러 장치에 보낼 수 있습니다.
 
    ![테스트 메시지 푸시](assets/push_test_list.png)
