@@ -7,8 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 앱스토어
 topic: Metrics
 uuid: a194364d-faaf-4995-befd-cf48f9c1f11b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '199'
+ht-degree: 100%
 
 ---
 
@@ -21,10 +24,10 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 >
 >Mobile Services UI에서 통합을 구성한 후 **[!UICONTROL 앱스토어]** 메뉴 항목 및 관련 보고서가 왼쪽 탐색 창에 표시됩니다.
 
-[Adobe Analytics용 appFigures](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/appfigures/appfigures-overview.html) 데이터 커넥터에는 다음 정보가 포함되어 있습니다.
+[Adobe Analytics용 appFigures Data Connector](https://docs.adobe.com/content/help/ko-KR/analytics/import/dataconnectors/appfigures/appfigures-overview.html)에는 다음 정보가 포함되어 있습니다.
 
-* 통합의 주요 이점 및 기능
-* 다음을 포함하여 통합 구현
+* 통합의 주요 혜택 및 기능
+* 다음을 포함한 통합 구현:
 
    * Adobe Analytics 요구 사항
    * appFigures 요구 사항
@@ -35,4 +38,4 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 * 통합에 포함된 지표 및 차원
 * 세그먼트 앱 데이터
 
-앱스토어 보고서에 대한 자세한 내용은 [앱스토어 개요 보고서를 참조하십시오](/help/using/usage/c-app-store-store-performance.md).
+앱스토어 보고서에 대한 자세한 내용은 [앱스토어 개요 보고서](/help/using/usage/c-app-store-store-performance.md)를 참조하십시오.
