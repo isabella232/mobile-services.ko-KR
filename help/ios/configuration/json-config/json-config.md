@@ -6,11 +6,11 @@ solution: Marketing Cloud,Analytics
 title: ADBMobile JSON 구성
 topic: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
-translation-type: ht
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
-workflow-type: ht
-source-wordcount: '1715'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
+workflow-type: tm+mt
+source-wordcount: '1716'
+ht-degree: 98%
 
 ---
 
@@ -89,12 +89,13 @@ ht-degree: 100%
 
 * **coopUnsafe**
 
-   이 값을 `true` 로 설정해야 하는 Device Co-op 멤버의 경우, Device Co-op 계정에서 블랙리스트 플래그를 요청하려면 Co-op 팀과 작업해야 합니다. 이 플래그를 활성화하기 위한 셀프 서비스 경로가 없습니다.
+   For Device Co-op members who require this value be set to `true`, you need to work with the Co-op team to request a deny list flag on your Device Co-op account. 이 플래그를 활성화하기 위한 셀프 서비스 경로가 없습니다.
 
    다음 정보를 숙지하십시오.
 
    * `coopUnsafe`가 `true`로 설정되면 `coop_unsafe=1`이 항상 Audience Manager 및 방문자 ID 히트에 추가됩니다.
    * Audience Manager에 Analytics 서버측 전달을 활성화하는 경우, Analytics 조회수에 `coop_unsafe=1`이 표시됩니다.
+
    다음은 몇 가지 추가 정보입니다.
 
    * 최소 SDK 버전: 4.16.1
@@ -370,7 +371,7 @@ ht-degree: 100%
    * &quot;altImage&quot;
 
       * 전체 화면 전용, 선택 사항
-      * 
+      * URL이
          `image`에 지정된 URL에 연결할 수 없는 경우 번들 이미지의 이름
    * &quot;title&quot;
 
