@@ -4,10 +4,13 @@ seo-description: 다음은 ADBMobile.json 구성 파일을 사용하는 데 유�
 seo-title: ADBMobile JSON 구성
 solution: Marketing Cloud,Analytics
 title: ADBMobile JSON 구성
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
-translation-type: ht
-source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
+translation-type: tm+mt
+source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
+workflow-type: tm+mt
+source-wordcount: '1679'
+ht-degree: 92%
 
 ---
 
@@ -31,6 +34,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * 모바일 앱 획득을 사용하도록 설정합니다.
       * `server` - 처음 시작 시 획득 레퍼러가 확인된 획득 서버입니다.
       * `appid` - 획득 서버에서 이 앱을 고유하게 식별하는, 생성된 ID입니다.
+
    이 섹션이 없으면 모바일 앱 획득을 사용하도록 설정하고 SDK 구성 파일을 다시 다운로드하십시오. 자세한 내용은 이 변수 목록에서 *referrerTimeout*&#x200B;을 참조하십시오.
 
 * **analyticsForwardingEnabled**
@@ -43,11 +47,11 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * 최소 SDK 버전: 4.6.
    * 세션 정보 히트를 소급 적용하는 Adobe SDK용 기능을 활성화하거나 비활성화합니다.
 
-      세션 정보 히트는 현재 충돌과 세션 길이로 구성되며 활성화 또는 비활성화할 수 있습니다.
+      세션 정보 히트는 현재 충돌 및 세션 길이로 구성되며 활성화하거나 비활성화할 수 있습니다.
 
       **히트 활성화 또는 비활성화**
 
-      * 이 값을 `false`로 설정한 경우 히트가 **비활성화**&#x200B;됩니다. SDK는 이전 세션에 대한 세션 정보를 이후 세션의 첫 번째 히트와 함께 일괄 처리하는 4.1 이전 동작으로 돌아갑니다. 또한 Adobe SDK는 세션 정보를 현재 라이프사이클에 첨부하여 과도한 방문이 발생하지 않도록 합니다. 과도한 방문이 더 이상 생성되지 않으므로 방문 횟수가 즉시 줄어듭니다.
+      * 이 값을 `false`로 설정한 경우 히트가 **비활성화**&#x200B;됩니다. SDK는 이전 세션에 대한 세션 정보와 후속 세션의 첫 번째 히트를 함께 묶는 이전 4.1 버전 동작으로 돌아갑니다. 또한 Adobe SDK는 세션 정보를 현재 라이프사이클에 첨부하므로 부풀려진 방문이 생성되지 않습니다. 부풀려진 방문이 더 이상 생성되지 않으므로 방문 횟수가 즉시 줄어듭니다.
 
       * 값을 제공하지 않은 경우 기본 값은 `true`이며 히트가 **활성화됩니다**. 히트가 활성화되면 Adobe SDK는 이전 세션에서 최종 히트 후 세션 정보 히트를 1초로 소급 적용합니다. 다시 말해서, 충돌 및 세션 데이터가 충돌과 세션이 발생한 올바른 날짜와 상호 연결됩니다. 한 가지 부작용으로, SDK에서 오래된 히트에 대한 방문을 만들 수도 있습니다. 애플리케이션의 모든 새로운 시작 시 하나의 히트가 소급 적용됩니다.
 
@@ -85,7 +89,8 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * `marketingCloud`로 설정된 경우 `true` 개체의 부울 속성으로 인해 장치가 Experience Cloud의 Device Co-Op에서 옵트아웃됩니다.
    * 기본값은 `false`입니다.
    * 이 설정은 Device Co-op 프로비저닝 고객&#x200B;**에게만** 사용됩니다.
-   이 값을`true` 로 설정해야 하는 Device Co-op 멤버의 경우, Device Co-op 계정에서 블랙리스트 플래그를 요청하려면 Co-op 팀과 작업해야 합니다. 이 플래그를 활성화하기 위한 셀프 서비스 경로가 없습니다.
+
+   For Device Co-op members who require this value set to `true`, you need to work with the Co-op team to request a deny list flag on your Device Co-op account. 이 플래그를 활성화하기 위한 셀프 서비스 경로가 없습니다.
 
    다음 정보를 숙지하십시오.
 
@@ -125,7 +130,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
       >
       >보고서 세트에서 타임스탬프가 활성화된 경우 `offlineEnabled` 구성 속성이 **true**&#x200B;이어야 합니다. 보고서 세트에서 타임스탬프가 사용되지 않는 경우에는 `offlineEnabled` 구성 속성이 **반드시** false여야 합니다.
       >
-      >이 속성이 제대로 구성되지 않으면 데이터가 손실됩니다. 보고서 세트 타임 스탬프 활성화 여부가 확실치 않으면 Customer Care에 문의하거나 Adobe Mobile Services에서 구성 파일을 다운로드하십시오.
+      >이 속성이 제대로 구성되지 않으면 데이터가 손실됩니다. 보고서 세트 타임스탬프 활성화 여부를 모를 경우 고객 지원 센터에 문의하거나 Adobe Mobile 서비스에서 구성 파일을 다운로드하십시오.
 
       현재 JavaScript의 데이터도 수집하는 보고서 세트에 AppMeasurement 데이터를 보고하는 경우, 모바일 데이터에 별도의 보고서 세트를 설정하거나 `s.timestamp` 변수를 사용하는 모든 JavaScript 히트에 사용자 지정 타임스탬프를 포함해야 할 수도 있습니다.
 
@@ -158,7 +163,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 * **postback**
    * 최소 SDK 버전: 4.6
-   * 다음은 "콜백" 메시지 템플릿에 대한 정의입니다.
+   * 다음은 &quot;콜백&quot; 메시지 템플릿에 대한 정의입니다.
 
       ```javascript
       "payload":{
@@ -176,6 +181,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
       * `optedin`의 경우 히트가 즉시 전송됩니다.
       * `optedout`의 경우 히트가 삭제됩니다.
       * `optunknown`의 경우 보고서 세트에 타임스탬프가 사용되면 개인정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다.
+
       보고서 세트에 타임스탬프가 사용되지 않으면 개인정보 상태가 `optedin`으로 변경될 때까지 히트가 삭제됩니다. 초기값만 설정됩니다. 코드에서 이 값을 설정하거나 변경하고 나면 해당 값을 다시 변경하거나 앱을 제거하고 다시 설치할 때까지 새 값이 사용됩니다.
 
 
@@ -221,7 +227,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
       SSL(HTTPS)을 사용하여 측정 데이터를 전송하는 기능을 활성화(`true`)하거나 비활성화(`false`)합니다.
 
-      "콜백" 메시지 템플릿에 대한 정의는 다음과 같습니다.
+      &quot;콜백&quot; 메시지 템플릿에 대한 정의는 다음과 같습니다.
 
       ```javascript
       "payload": {
@@ -309,67 +315,67 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 메시지 노드는 Adobe Mobile Services에서 자동으로 생성되며, 일반적으로 수동으로 변경하지 않아도 됩니다. 다음 설명은 문제 해결 용도로 제공됩니다.
 
-* "messageId"
+* &quot;messageId&quot;
 * 생성된 ID, 필수
-* "template"
-   * "alert", "fullscreen" 또는 "local"
+* &quot;template&quot;
+   * &quot;alert&quot;, &quot;fullscreen&quot; 또는 &quot;local&quot;
    * 필수
 
-* "showOffline"
-   * True 또는 False
+* &quot;showOffline&quot;
+   * true 또는 false
    * 기본값은 false입니다.
 
-* "showRule"
-   * "always", "once" 또는 "untilClick"
+* &quot;showRule&quot;
+   * &quot;always&quot;, &quot;once&quot; 또는 &quot;untilClick&quot;
    * 필수
 
-* "endDate"
+* &quot;endDate&quot;
    * 1970년 1월 1일 이후 시간(초)
    * 기본값은 2524730400입니다.
 
-* "startDate"
+* &quot;startDate&quot;
    * 1970년 1월 1일 이후 시간(초)
    * 기본값은 0입니다.
 
-* "payload"
-   * "html"
+* &quot;payload&quot;
+   * &quot;html&quot;
       * 전체 화면 템플릿 전용, 필수
       * 메시지를 정의하는 html
-   * "image"
+   * &quot;image&quot;
       * 전체 화면 전용, 선택 사항
       * 전체 화면 이미지에 사용할 이미지 URL
-   * "altImage"
+   * &quot;altImage&quot;
       * 전체 화면 전용, 선택 사항
-      * name of the bundled image to use if the url specified in
-         * 이미지
+      * URL이
+         * image
          * 에 지정된 URL에 연결할 수 없는 경우 번들 이미지의 이름
-   * "title"
+   * &quot;title&quot;
       * 전체 화면 및 경고, 필수
       * 전체 화면 또는 경고 메시지의 제목 텍스트
-   * "content"
+   * &quot;콘텐츠&quot;
       * 경고 및 로컬 알림, 필수
       * 경고 메시지의 하위 텍스트 또는 로컬 알림 메시지의 알림 텍스트
-   * "confirm"
+   * &quot;confirm&quot;
       * 경고, 선택 사항
       * 확인 단추에 사용되는 텍스트
-   * "cancel"
+   * &quot;cancel&quot;
       * 경고, 필수
       * 취소 단추에 사용되는 텍스트
-   * "url"
+   * &quot;url&quot;
       * 경고, 선택 사항
       * 확인 단추를 클릭하면 로드할 URL 작업
-   * "wait"
+   * &quot;wait&quot;
       * 로컬 알림, 필수
       * 기준에 일치하는 항목을 찾은 후 로컬 알림 게시를 위해 대기하는 시간(초)
 
 
 
-* "audiences"
-   * 메시지의 표시 방법을 정의하는 개체의 배열
-   * "key"
+* &quot;audiences&quot;
+   * 메시지가 표시되는 방식을 정의하는 개체의 배열
+   * &quot;key&quot;
       * 히트에서 찾을 변수 이름, 필수
-* "matches"
-   * 비교할 때 사용되는 일치 유형
+* &quot;matches&quot;
+   * 비교를 수행할 때 사용된 매트 유형
    * eq = 같음
    * ne = 같지 않음
    * co = 포함
@@ -382,13 +388,13 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * le = 보다 작거나 같음
    * gt = 보다 큼
    * ge = 보다 크거나 같음
-* "values"
-   * an array of values used to match against the value of the variable named in
+* &quot;values&quot;
+   * 에 있는
       * key
-      * 에 이름이 지정된 변수 값과 일치시키는 데 사용되는 값의 배열(사용되는 일치 유형:
+      * with the matcher type in
       * matches
-* "triggers"
-   * 대상과 동일하지만, 이 경우는 대상이 아니라 작업임
-   * "key"
-   * "matches"
-   * "values"
+* &quot;triggers&quot;
+   * 대상과 동일하지만 이는 대상이 아닌 동작입니다.
+   * &quot;key&quot;
+   * &quot;matches&quot;
+   * &quot;values&quot;
