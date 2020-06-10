@@ -5,10 +5,13 @@ seo-description: 인앱 및 푸시 메시지에 대한 메시지 보고서를 �
 seo-title: 메시지 보고서 보기
 solution: Marketing Cloud,Analytics
 title: 메시지 보고서 보기
-topic: 지표
+topic: Metrics
 uuid: 0ac73a81-388f-4dfd-84d5-21b8db4b8c83
-translation-type: ht
-source-git-commit: 44f531ad140827d563255fad197811185c5337c9
+translation-type: tm+mt
+source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
+workflow-type: tm+mt
+source-wordcount: '493'
+ht-degree: 78%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 44f531ad140827d563255fad197811185c5337c9
 
 인앱 및 푸시 메시지에 대한 메시지 보고서를 볼 수 있습니다.
 
-1. 메시지에 대한 **[!UICONTROL 보고서]** 열에서 ![보고서 아이콘](assets/icon_report.png)을 클릭합니다.
+1. 메시지에 대한 ![보고서](assets/icon_report.png) 열에서 **[!UICONTROL 보고서 아이콘]**&#x200B;을 클릭합니다.
 1. (**선택 사항**) 보고서에 대한 고정 필터를 만들거나, **[!UICONTROL 달력]** 아이콘을 클릭하여 기간을 변경합니다.
 
    고정 필터 만들기에 대한 자세한 내용은 [고정 필터 추가](/help/using/usage/reports-customize/t-sticky-filter.md)를 참조하십시오.
@@ -69,7 +72,7 @@ source-git-commit: 44f531ad140827d563255fad197811185c5337c9
    * **[!UICONTROL 실행 중]**
    * **[!UICONTROL 실행됨]**
 
-* **[!UICONTROL 게시됨]**
+* **[!UICONTROL Published]**
 
    사용자 장치로 메시지를 전송하기 위해 APNS/FCM(Apple 푸시 알림 서비스/Firebase Cloud Messaging)으로 성공적으로 전송된 장치 토큰 수입니다.
 
@@ -79,13 +82,13 @@ source-git-commit: 44f531ad140827d563255fad197811185c5337c9
 
    * 유효하지 않은 pushID
 
-   * 푸시에 제공된 푸시 플랫폼(APNS, FCM 등)이 작업 애플리케이션에 존재하지 않습니다. 예를 들어 플랫폼에서 iOS 푸시 토큰을 수집할 수 있지만 APNS 서비스가 구성되어 있지 않습니다.
+   * 푸시에 제공된 푸시 플랫폼(APNS, FCM 등)이 작업 애플리케이션에 존재하지 않습니다. 예를 들어, 플랫폼은 iOS 푸시 토큰을 수집할 수 있지만 APNS 서비스가 구성되어 있지 않습니다.
 
-   * 푸시 서비스가 제대로 구성되지 않았거나 Mobile Services 시스템이 작동 중지되었기 때문에 메시지가 실패했을 수 있습니다.
+   * 푸시 서비스가 올바르게 구성되지 않았거나 Mobile Services 시스템이 다운되어 메시지가 실패했을 수 있습니다.
    >[!IMPORTANT]
    >
-   >평소와 달리 실패 횟수가 많을 경우 푸시 서비스 구성을 확인하십시오. 푸시 서비스의 구성이 올바르다면 Adobe 고객 지원에 문의하십시오.
+   >유별나게 많은 오류가 있는 경우 푸시 서비스 구성을 확인하십시오. 푸시 서비스가 올바르게 구성된 것으로 나타나면 Adobe 고객 지원 센터에 문의하십시오.
 
 * **[!UICONTROL 블랙 리스트에 추가됨]**
 
-   더 이상 APNS 또는 FCM으로 전송하기에 유효하지 않은 장치 토큰 수입니다. 이는 보통 앱이 장치에서 제거되었거나 사용자가 메시지를 수신하기 위한 옵트인 설정을 변경했다는 의미입니다. Android와 iOS는 토큰이 블랙리스트 항목으로 카운트되는 시점이 다릅니다. Android 토큰은 블랙리스트 항목으로 바로 표시됩니다. iOS 토큰은 처음에 게시됨으로 표시되지만, APNS의 피드백에 따라 후속 메시지에서 블랙리스트 항목으로 표시됩니다.
+   더 이상 APNS 또는 FCM으로 전송하기에 유효하지 않은 장치 토큰 수입니다. 이는 보통 앱이 장치에서 제거되었거나 사용자가 메시지를 수신하기 위한 옵트인 설정을 변경했다는 의미입니다. Android와 iOS는 토큰이 거부 목록으로 계산되는 시기에 대해 다릅니다. Android 토큰은 거부 목록 수에 즉시 표시됩니다. iOS 토큰은 처음에 게시됨으로 표시되지만 APNS의 피드백을 기반으로 후속 메시지에 [거부]로 표시됩니다.
