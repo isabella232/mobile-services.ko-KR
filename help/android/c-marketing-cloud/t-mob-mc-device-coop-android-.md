@@ -4,11 +4,11 @@ seo-description: Experience Cloud Device Co-op를 사용하려면 Adobe 담당�
 seo-title: Experience Cloud Device Co-op
 title: Experience Cloud Device Co-op
 uuid: 7bb8a19c-4b80-4911-879d-f9941baa3b62
-translation-type: ht
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
-workflow-type: ht
-source-wordcount: '290'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 90%
 
 ---
 
@@ -44,7 +44,7 @@ SDK 버전 4.16.1부터 Device Co-op 구성원은 Experience Cloud Device Co-op�
 * 기본값은 `false`입니다.
 * 이 설정은 Device Co-op 프로비저닝 고객&#x200B;**에게만** 사용됩니다.
 
-이 값을`true` 로 설정해야 하는 Device Co-op 멤버의 경우, Device Co-op 계정에서 블랙리스트 플래그를 요청하려면 Co-op 팀과 작업해야 합니다. 이 플래그를 활성화하기 위한 셀프 서비스 경로가 없습니다.
+For Device Co-op members who require this value set to `true`, you need to work with the Co-op team to request a deny list flag on your Device Co-op account. 이 플래그를 활성화하기 위한 셀프 서비스 경로가 없습니다.
 
 다음 정보를 숙지하십시오.
 
