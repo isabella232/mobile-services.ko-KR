@@ -7,9 +7,9 @@ title: ADBMobile JSON 구성
 topic: Developer and implementation
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
 translation-type: tm+mt
-source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
+source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1678'
 ht-degree: 92%
 
 ---
@@ -34,7 +34,6 @@ ht-degree: 92%
    * 모바일 앱 획득을 사용하도록 설정합니다.
       * `server` - 처음 시작 시 획득 레퍼러가 확인된 획득 서버입니다.
       * `appid` - 획득 서버에서 이 앱을 고유하게 식별하는, 생성된 ID입니다.
-
    이 섹션이 없으면 모바일 앱 획득을 사용하도록 설정하고 SDK 구성 파일을 다시 다운로드하십시오. 자세한 내용은 이 변수 목록에서 *referrerTimeout*&#x200B;을 참조하십시오.
 
 * **analyticsForwardingEnabled**
@@ -89,8 +88,7 @@ ht-degree: 92%
    * `marketingCloud`로 설정된 경우 `true` 개체의 부울 속성으로 인해 장치가 Experience Cloud의 Device Co-Op에서 옵트아웃됩니다.
    * 기본값은 `false`입니다.
    * 이 설정은 Device Co-op 프로비저닝 고객&#x200B;**에게만** 사용됩니다.
-
-   For Device Co-op members who require this value set to `true`, you need to work with the Co-op team to request a deny list flag on your Device Co-op account. 이 플래그를 활성화하기 위한 셀프 서비스 경로가 없습니다.
+   For Device Co-op members who require this value set to `true`, you need to work with the Co-op team to request a blocklist flag on your Device Co-op account. 이 플래그를 활성화하기 위한 셀프 서비스 경로가 없습니다.
 
    다음 정보를 숙지하십시오.
 
@@ -181,7 +179,6 @@ ht-degree: 92%
       * `optedin`의 경우 히트가 즉시 전송됩니다.
       * `optedout`의 경우 히트가 삭제됩니다.
       * `optunknown`의 경우 보고서 세트에 타임스탬프가 사용되면 개인정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다.
-
       보고서 세트에 타임스탬프가 사용되지 않으면 개인정보 상태가 `optedin`으로 변경될 때까지 히트가 삭제됩니다. 초기값만 설정됩니다. 코드에서 이 값을 설정하거나 변경하고 나면 해당 값을 다시 변경하거나 앱을 제거하고 다시 설치할 때까지 새 값이 사용됩니다.
 
 
