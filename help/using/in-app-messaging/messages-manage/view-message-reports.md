@@ -8,9 +8,9 @@ title: 메시지 보고서 보기
 topic: Metrics
 uuid: 0ac73a81-388f-4dfd-84d5-21b8db4b8c83
 translation-type: tm+mt
-source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
+source-git-commit: 33297c9e6537f664222c91a44c20bb9ab2ee310a
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '493'
 ht-degree: 78%
 
 ---
@@ -89,6 +89,6 @@ ht-degree: 78%
    >
    >유별나게 많은 오류가 있는 경우 푸시 서비스 구성을 확인하십시오. 푸시 서비스가 올바르게 구성된 것으로 나타나면 Adobe 고객 지원 센터에 문의하십시오.
 
-* **[!UICONTROL Blocklisted]**
+* **[!UICONTROL 거부 목록]**
 
-   더 이상 APNS 또는 FCM으로 전송하기에 유효하지 않은 장치 토큰 수입니다. 이는 보통 앱이 장치에서 제거되었거나 사용자가 메시지를 수신하기 위한 옵트인 설정을 변경했다는 의미입니다. Android와 iOS는 토큰이 블록으로 계산되는 시기에 대해 다릅니다. Android 토큰은 블록 목록 수에 즉시 표시됩니다. iOS 토큰은 처음에 게시됨으로 표시되지만 APNS의 피드백을 기반으로 후속 메시지에 대해 차단 목록으로 표시됩니다.
+   더 이상 APNS 또는 FCM으로 전송하기에 유효하지 않은 장치 토큰 수입니다. 이는 보통 앱이 장치에서 제거되었거나 사용자가 메시지를 수신하기 위한 옵트인 설정을 변경했다는 의미입니다. Android와 iOS는 토큰이 블록으로 계산되는 시기에 대해 다릅니다. Android 토큰은 거부 목록(블록 목록) 수에 즉시 표시됩니다. iOS 토큰은 처음에 게시됨으로 표시되지만 APNS의 피드백을 기반으로 후속 메시지에 대해 차단 목록으로 표시됩니다.
