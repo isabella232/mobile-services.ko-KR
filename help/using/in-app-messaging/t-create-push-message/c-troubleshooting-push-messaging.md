@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 61%
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 61%
 
    모든 보고서 세트에는 들어오는 Analytics 히트를 처리할 시기를 결정하는 설정이 있습니다. 기본값은 1시간마다입니다.
 
-   Analytics 히트를 실제로 처리하는 데 최대 30분이 소요될 수 있지만, 일반적으로 15~20분 정도 걸립니다. 예를 들어, 보고서 세트는 매 시간마다 히트를 처리합니다. 필요한 처리 시간 최대 30분을 평가할 때 푸시 메시지에 사용할 수 있는 들어오는 히트에 대해 최대 90분이 소요될 수 있습니다. 사용자가 오전 9:01에 앱을 시작했다면, 히트는 오전 10:15과 오전 10:30 사이에 새 고유 사용자로 Mobile Services UI에 표시됩니다.
+   Analytics 히트를 실제로 처리하는 데 최대 30분이 소요될 수 있지만, 일반적으로 15~20분 정도 걸립니다. 예를 들어, 보고서 세트는 매 시간마다 히트를 처리합니다. 최대 30분의 필요한 처리 시간을 평가하는 경우 푸시 메시지에 사용할 수 있는 수신 히트에 대해 최대 90분이 소요될 수 있습니다. 사용자가 오전 9:01에 앱을 시작했다면, 히트는 오전 10:15과 오전 10:30 사이에 새 고유 사용자로 Mobile Services UI에 표시됩니다.
 
 * **푸시 서비스 대기 중**
 
@@ -43,14 +43,14 @@ ht-degree: 61%
    * [서비스 품질](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5l)
    * [메시지 수명](https://developers.google.com/cloud-messaging/concept-options#lifetime).
 
-## Android GCM API 키가 잘못된 이유는 무엇입니까?
+## Android GCM API 키가 유효하지 않은 이유는 무엇입니까?
 
-* **잘못된 API 키**
+* **유효하지 않은 API 키**
 
    다음 이유로 인해 API 키가 유효하지 않을 수 있습니다.
 
-   * 제공한 API 키는 올바른 GCM API 키 값을 가진 서버 키가 아닙니다.
-   * 서버 키는 IP를 허용하고 Adobe 서버에서 푸시 메시지를 전송하지 못하도록 막고 있습니다.
+   * 제공한 API 키가 올바른 GCM API 키 값을 가진 서버 키가 아닙니다.
+   * 서버 키는 IP를 허용하고 Adobe 서버에서 푸시 메시지를 전송하지 못하도록 차단합니다.
 
 * **API 키의 유효성 확인**
 
@@ -66,7 +66,7 @@ ht-degree: 61%
        -d"{\"registration_ids\":[\"ABC\"]}"
    ```
 
-   반환된 401 HTTP 상태 코드는 API 키가 잘못되었음을 의미합니다. 그렇지 않으면 다음과 비슷한 것을 볼 수 있습니다.
+   반환된 401 HTTP 상태 코드에 따르면 API 키가 유효하지 않습니다. 그렇지 않으면, 다음과 유사한 메시지가 제공됩니다.
 
    ```java
    {"multicast_id":6782339717028231855,"success":0,"failure":1,
@@ -92,11 +92,11 @@ ht-degree: 61%
 다음 고객에게는 두 개의 iOS 앱이 있습니다.
 
 * 앱 이름: PhotoShop_app_iOS
-   * 상위 RSID: 모든 Adobe PhotoShop_apps
+   * 상위 RSID: AllAdobe PhotoShop_apps
    * VRSID: PhotoShop_iOS_app_SF
    * VRSID 정의 세그먼트: `a.appid contains “PhotoShop_iOS_app_SF”`
 * 앱 이름: PhotoShop_app_iOS
-   * 상위 RSID: 모든 Adobe PhotoShop_apps
+   * 상위 RSID: AllAdobe PhotoShop_apps
    * RSID: PhotoShop_iOS_app_LA
    * VRSID 정의 세그먼트: `a.os contains “iOS”`
 
