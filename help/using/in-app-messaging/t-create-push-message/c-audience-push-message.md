@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: '대상: 푸시 메시지에 대한 대상 세그먼트 정의 및 구성'
 topic: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1021'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 90%
 
 푸시 메시지를 위한 대상 세그먼트가 만들어지면 보고서 세트 또는 가상 보고서 세트에 하나 이상의 앱의 데이터가 포함될 수 있으므로 이 세그먼트에는 하나 이상의 앱의 사용자가 포함될 수 있습니다. 가상 보고서 세트에 대한 자세한 내용은.[가상 보고서 세트](/help/using/manage-apps/c-mob-vrs.md)를 참조하십시오.
 
-Adobe Mobile Services에서 마케터는 플랫폼당 하나의 앱만 푸시할 수 있습니다. 마케터가 여러 앱의 사용자가 포함된 세그먼트를 푸시하려고 하면 진행 시 심각한 푸시 오류 및 사용자의 잠재적인 차단 목록에 추가가 발생할 수 있다는 경고가 표시됩니다. 푸시 오류가 발생하는 경우 *푸시 메시지 문제 해결*&#x200B;에서 [푸시 오류 해결](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)을 참조하십시오.
+Adobe Mobile Services에서 마케터는 플랫폼당 하나의 앱만 푸시할 수 있습니다. 마케터가 여러 앱의 사용자가 포함된 세그먼트를 푸시하려고 하면 진행 시 심각한 푸시 오류가 발생하고 사용자의 잠재적인 차단 목록이 발생할 수 있다는 경고가 표시됩니다. 푸시 오류가 발생하는 경우 *푸시 메시지 문제 해결*&#x200B;에서 [푸시 오류 해결](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)을 참조하십시오.
 
 세그먼트 정의에 Audience Manager 데이터를 사용하려면 [Audience Analytics](https://docs-author-stg.corp.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html)를 참조하십시오.
 
 >[!IMPORTANT]
 >
->If app users are blocklisted, marketers can **never** send push messages to those affected users again.
+>앱 사용자가 차단 목록에 추가되는 경우 마케터는 그러한 영향을 받은 사용자에게 푸시 메시지를 다시 전송할 수 **없습니다**.
 
 여러 앱에서 사용자를 포함하는 대상 세그먼트를 선택하면 다음 경고가 표시될 수 있습니다.
 
@@ -67,7 +67,7 @@ Adobe Mobile Services에서 마케터는 플랫폼당 하나의 앱만 푸시할
 
 **허용되는 작업**: 마케터가 예를 들어 Adobe Photoshop과 같은 하나의 앱의 iOS 및 Android 버전에 대한 푸시 인증서를 제공합니다. 마케터는 두 플랫폼 모두에 걸쳐 있는 사용자 세그먼트에 푸시 알림을 보낼 수 있습니다.
 
-**허용되지 않는 작업**: 마케터가 예를 들어 Adobe Photoshop과 같은 하나의 앱의 iOS 및 Android 버전에 대한 푸시 인증서를 제공합니다. If the marketer creates and pushes to a segment of *all active users in the last 30 days*, only the users of the Adobe Photoshop iOS and Android app receive the push, and all of the Adobe Illustrator iOS and Android app users will be blocklisted. 자세한 내용은 *푸시 메시지 문제 해결*&#x200B;에서 [푸시 메시지 오류 해결](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)을 참조하십시오.
+**허용되지 않는 작업**: 마케터가 예를 들어 Adobe Photoshop과 같은 하나의 앱의 iOS 및 Android 버전에 대한 푸시 인증서를 제공합니다. 마케터가 *최근 30일 동안 모든 활성 사용자*&#x200B;의 세그먼트를 만들어 푸시할 경우 Adobe Photoshop iOS 및 Android 앱의 사용자만 푸시를 받게 되고 모든 Adobe Illustrator iOS 및 Android 앱 사용자가 차단 목록에 표시되지 않습니다. 자세한 내용은 *푸시 메시지 문제 해결*&#x200B;에서 [푸시 메시지 오류 해결](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)을 참조하십시오.
 
 ## 대상 세그먼트 구성 {#section_A92C60885A30421B8150820EC1CCBF13}
 
