@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 메시지 보고서 보기
 topic: Metrics
 uuid: 0ac73a81-388f-4dfd-84d5-21b8db4b8c83
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3b6edc10d042658ef1ca17a203877b7ee09d999d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 91%
    * **[!UICONTROL 실행 중]**
    * **[!UICONTROL 실행됨]**
 
-* **[!UICONTROL Published]**
+* **[!UICONTROL 게시됨]**
 
    사용자 장치로 메시지를 전송하기 위해 APNS/FCM(Apple 푸시 알림 서비스/Firebase Cloud Messaging)으로 성공적으로 전송된 장치 토큰 수입니다.
 
@@ -89,6 +89,6 @@ ht-degree: 91%
    >
    >특히 오류가 많은 경우 푸시 서비스 구성을 확인하십시오. 푸시 서비스가 올바르게 구성된 경우 Adobe 고객 지원 센터에 문의하십시오.
 
-* **[!UICONTROL 차단 목록에 추가된]**
+* **[!UICONTROL 차단 목록에 추가됨]**
 
-   더 이상 APNS 또는 FCM으로 전송하기에 유효하지 않은 장치 토큰 수입니다. 이는 보통 앱이 장치에서 제거되었거나 사용자가 메시지를 수신하기 위한 옵트인 설정을 변경했다는 의미입니다. Android와 iOS는 토큰이 블록으로 계산되는 시기에 대해 다릅니다. Android 토큰은 수에 즉시 차단 목록에 추가하다 표시됩니다. iOS 토큰은 처음에 게시됨으로 표시되지만 APNS의 피드백을 기반으로 후속 메시지에 대해 차단 목록으로 표시됩니다.
+   더 이상 APNS 또는 FCM으로 전송하기에 유효하지 않은 장치 토큰 수입니다. 이는 보통 앱이 장치에서 제거되었거나 사용자가 메시지를 수신하기 위한 옵트인 설정을 변경했다는 의미입니다. Android와 iOS에서는 토큰이 차단 목록으로 계산되는 시기와 다릅니다. Android 토큰은 즉시 차단 목록 수에 표시됩니다. iOS 토큰은 처음에 게시됨으로 표시되지만 APNS의 피드백을 기반으로 후속 메시지에 차단 목록에 추가됨으로 표시됩니다.
