@@ -6,11 +6,11 @@ solution: Marketing Cloud,Analytics
 title: ADBMobile JSON 구성
 topic: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1715'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 98%
 
 * **coopUnsafe**
 
-   For Device Co-op members who require this value be set to `true`, you need to work with the Co-op team to request a blocklist flag on your Device Co-op account. 이 플래그를 활성화하기 위한 셀프 서비스 경로가 없습니다.
+   이 값을 `true` 로 설정해야 하는 Device Co-op 멤버의 경우, Device Co-op 계정에서 차단 목록 플래그를 요청하려면 Co-op 팀과 작업해야 합니다. 이 플래그를 활성화하기 위한 셀프 서비스 경로가 없습니다.
 
    다음 정보를 숙지하십시오.
 
@@ -371,7 +371,7 @@ ht-degree: 98%
    * &quot;altImage&quot;
 
       * 전체 화면 전용, 선택 사항
-      * URL이
+      * 
          `image`에 지정된 URL에 연결할 수 없는 경우 번들 이미지의 이름
    * &quot;title&quot;
 
