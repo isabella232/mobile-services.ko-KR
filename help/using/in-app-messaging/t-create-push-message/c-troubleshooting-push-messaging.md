@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 푸시 메시지 문제 해결
 topic: Metrics
 uuid: c7be4ab7-0cfe-4296-84a8-01412f4fd93f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -100,10 +100,10 @@ ht-degree: 91%
    * RSID: PhotoShop_iOS_app_LA
    * VRSID 정의 세그먼트: `a.os contains “iOS”`
 
-이 예에서는 Photoshop 직원이 *PhotoShop_iOS_app_SF* 앱으로 푸시를 보내면 모든 *PhotoShop_iOS_app_SF* 앱 사용자가 예상대로 푸시 메시지를 받습니다. 그러나 직원이 *PhotoShop_iOS_app_LA* 앱으로 메시지를 보내는 경우 해당 VRSID 정의 세그먼트가 올바르지 않기 때문에(`a.os contains "PhotoShop_iOS_app_LA"` 대신 `iOS`) *AllAdobe PhotoShop_apps*&#x200B;의 **모든** iOS 사용자에게 메시지가 전송됩니다. Although the message still goes to *PhotoShop_iOS_app_LA* users, the message also blocklists the push IDs for *PhotoShop_iOS_app_SF* users because the *PhotoShop_iOS_app_SF* app has a different certificate. 세그먼트가 `a.os contains “PhotoShop_iOS_app_LA”`로 정의된 경우 푸시 메시지가 *PhotoShop_iOS_app_LA* 사용자에게만 전송되었을 수 있습니다.
+이 예에서는 Photoshop 직원이 *PhotoShop_iOS_app_SF* 앱으로 푸시를 보내면 모든 *PhotoShop_iOS_app_SF* 앱 사용자가 예상대로 푸시 메시지를 받습니다. 그러나 직원이 *PhotoShop_iOS_app_LA* 앱으로 메시지를 보내는 경우 해당 VRSID 정의 세그먼트가 올바르지 않기 때문에(`a.os contains "PhotoShop_iOS_app_LA"` 대신 `iOS`) *AllAdobe PhotoShop_apps*&#x200B;의 **모든** iOS 사용자에게 메시지가 전송됩니다. 메시지가 여전히 *PhotoShop_iOS_app_LA* 사용자에게 이동하지만, *PhotoShop_iOS_app_SF* 앱에는 다른 인증서가 있으므로 메시지는 *PhotoShop_iOS_app_SF* 사용자의 푸시 ID를 차단 목록에 추가합니다. 세그먼트가 `a.os contains “PhotoShop_iOS_app_LA”`로 정의된 경우 푸시 메시지가 *PhotoShop_iOS_app_LA* 사용자에게만 전송되었을 수 있습니다.
 
 *PhotoShop_IOS_app_LA* 푸시 인증서와 함께 전달된 경우 *PhotoShop_iOS_app_SF*&#x200B;에 대한 푸시 식별자가 다시 `invalid`으로 표시됩니다.
 
 >[!CAUTION]
 >
->VRS를 사용하는 앱에 대한 푸시 메시지를 만들고 **[!UICONTROL 저장 및 보내기]**&#x200B;를 클릭하면 나열된 각 앱에 올바른 인증서가 **있는지** 확인하라는 경고가 표시됩니다. If each app does **not** have a valid certificate, your audience segments might be indefinitely blocklisted, and you might not be able to send future push messages to the affected users. 대상 세그먼트에 대한 자세한 내용은 [대상: 푸시 메시지에 대한 대상 옵션 정의 및 구성](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md)을 참조하십시오.
+>VRS를 사용하는 앱에 대한 푸시 메시지를 만들고 **[!UICONTROL 저장 및 보내기]**&#x200B;를 클릭하면 나열된 각 앱에 올바른 인증서가 **있는지** 확인하라는 경고가 표시됩니다. 각 앱에 유효한 인증서가 **없으면** 대상 세그먼트가 무한정 차단된 상태일 수 있으므로 이후 푸시 메시지를 영향을 받는 사용자에게 보내지 못할 수 있습니다. 대상 세그먼트에 대한 자세한 내용은 [대상: 푸시 메시지에 대한 대상 옵션 정의 및 구성](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md)을 참조하십시오.
