@@ -4,10 +4,13 @@ seo-description: 다음은 충돌을 추적하는 방법을 이해하고 허위 
 seo-title: 앱 충돌 추적
 solution: Marketing Cloud,Analytics
 title: 앱 충돌 추적
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 3ab98c14-ccdf-4060-ad88-ec07c1c6bf07
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: 161212216565d56e346abc664197fedbea83d6a0
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 95%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ![](assets/android-lifecycle.png)
 
-Android 활동 라이프사이클에 대한 자세한 내용은 [활동](https://developer.android.com/guide/components/activities.html)을 참조하십시오.
+For more information about the Android activity lifecycle, see [Activities](https://developer.android.com/guide/components/activities.html).
 
 *이 Android 라이프사이클 일러스트레이션은[Android 오픈 소스 프로젝트](https://source.android.com/)에서 생성 및 공유되었으며[Creative Commons 2.5 Attribution License](https://creativecommons.org/licenses/by/2.5/)의 조항에 의거하여 사용됩니다.*
 
@@ -44,7 +47,7 @@ Android 활동 라이프사이클에 대한 자세한 내용은 [활동](https:/
 
 ## 조각은 어떻게 처리해야 합니까?
 
-조각에는 활동과 유사한 애플리케이션 라이프사이클 이벤트가 있습니다. 그러나 조각은 활동에 연결되어야만 활성화될 수 있습니다.
+조각에는 활동과 유사한 애플리케이션 라이프사이클 이벤트가 있습니다. 그러나 활동에 첨부되지 않으면 조각을 활성화할 수 없습니다.
 
 >[!IMPORTANT]
 >
