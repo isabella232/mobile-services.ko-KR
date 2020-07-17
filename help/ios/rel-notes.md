@@ -6,11 +6,11 @@ solution: Marketing Cloud,Analytics
 title: 릴리스 노트
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: ht
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 48c3addeb929f3356990ef55b44f93dd4bb2f728
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 100%
 # 릴리스 노트 {#release-notes}
 
 다음은 Experience Cloud 솔루션용 iOS SDKs 4.x에 대한 릴리스 노트, 알려진 문제 및 핫픽스 정보입니다.
+
+**2020년 7월 16일: 버전 4.19.3**
+
+* 일반 - 쿼리 매개 변수에서 같음 기호가 있는 URL이 올바르게 처리되지 않는 버그를 수정했습니다.
 
 **2020년 3월 24일: 버전 4.19.2**
 
