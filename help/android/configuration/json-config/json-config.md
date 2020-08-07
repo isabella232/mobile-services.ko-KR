@@ -6,9 +6,9 @@ solution: Marketing Cloud,Analytics
 title: ADBMobile JSON 구성
 topic: Developer and implementation
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
-translation-type: ht
-source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 100%
 
@@ -155,7 +155,7 @@ ht-degree: 100%
       버전 4.2부터 POI는 Adobe Mobile 인터페이스에서 정의되며 앱 구성 파일과 동적으로 동기화됩니다. 이렇게 동기화되려면 `analytics.poi` 설정이 필요합니다.
 
       ```javascript
-      “analytics.poi“: `https://assets.adobedtm.com/`
+        “analytics.poi“: `https://assets.adobedtm.com/`
       …/yourfile.json”`,
       ```
 
@@ -346,7 +346,7 @@ ht-degree: 100%
       * 전체 화면 이미지에 사용할 이미지 URL
    * &quot;altImage&quot;
       * 전체 화면 전용, 선택 사항
-      * name of the bundled image to use if the url specified in
+      * URL이
          * image
          * 에 지정된 URL에 연결할 수 없는 경우 번들 이미지의 이름
    * &quot;title&quot;
