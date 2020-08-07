@@ -5,10 +5,13 @@ seo-description: 다음은 기본 모바일 지표 및 차원에 대한 참조 �
 seo-title: 모바일 지표 및 차원 참조
 solution: Marketing Cloud,Analytics
 title: 모바일 지표 및 차원 참조
-topic: 지표
+topic: Metrics
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
-translation-type: ht
-source-git-commit: 056bb3edb94c2ceb2961bbe8e4851c20429e1ea2
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 94%
 
 ---
 
@@ -38,6 +41,7 @@ source-git-commit: 056bb3edb94c2ceb2961bbe8e4851c20429e1ea2
    특정 날짜에 애플리케이션을 사용할 때 트리거됩니다.
 
    >[!TIP]
+   >
    >일별 참여 사용자 이벤트는 Analytics 지표에 자동으로 저장되지 않습니다. 이 지표를 캡처하려면 사용자 지정 이벤트를 설정하는 처리 규칙을 만들어야 합니다.
 
 * **월별 참여 사용자**
@@ -56,7 +60,7 @@ source-git-commit: 056bb3edb94c2ceb2961bbe8e4851c20429e1ea2
 
 * **충돌**
 
-   응용 프로그램이 올바르게 종료되지 않을 때 트리거됩니다. 이 이벤트는 응용 프로그램이 충돌 후에 시작될 때 전송됩니다.
+   애플리케이션이 올바르게 종료되지 않을 때 트리거됩니다. 이 이벤트는 충돌 후 응용 프로그램이 시작될 때 전송됩니다.
 
    >[!TIP]
    >종료가 호출되지 않으면 애플리케이션이 충돌로 간주됩니다.
@@ -71,7 +75,7 @@ source-git-commit: 056bb3edb94c2ceb2961bbe8e4851c20429e1ea2
 
 * **설치 날짜**
 
-   설치 후 처음 시작하는 날짜. 이 날짜는 *MM/DD/YYYY* 형식입니다.
+   설치 후 첫 번째 실행 날짜입니다. 날짜는 *MM/DD/YYYY* 형식입니다.
 
 * **앱 ID**
 
