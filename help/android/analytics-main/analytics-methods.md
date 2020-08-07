@@ -7,8 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Analytics 메서드
 topic: Developer and implementation
 uuid: ac7c640e-9dcc-4724-b561-019cc025d5a7
-translation-type: ht
-source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '740'
+ht-degree: 94%
 
 ---
 
@@ -63,7 +66,7 @@ source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
 * **getTrackingIdentifier**
 Analytics에 대해 자동으로 생성된 방문자 식별자를 반환합니다.
 
-   처음 실행할 때 생성된 후 저장되어 이후에 사용되는 앱별 고유 방문자 ID입니다. 이 ID는 앱 업그레이드 시에도 보존되며 앱을 제거하면 삭제됩니다.
+   이 ID는 처음 실행 시 생성되어 저장되어 이후에 사용되는 앱별 고유 방문자 ID입니다. ID는 앱 업그레이드 간에 유지되며 앱을 제거하면 제거됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
