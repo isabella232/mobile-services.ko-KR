@@ -7,8 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 구성 메서드
 topic: Developer and implementation
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
-translation-type: ht
-source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '985'
+ht-degree: 100%
 
 ---
 
@@ -248,8 +251,8 @@ source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
         super.onResume()
         // assume being called in an Activity class Config.collectLifecycleData(this);
         } 
-        ```
-      
+      ```
+
 * **pauseCollecting&#x200B;LifecycleData**
 
    * 라이프사이클 지표를 정확히 계산하기 위해 앱이 일시 중지되었음을 SDK에 표시합니다. 예를 들어 `onPause`에서 타임스탬프를 수집하여 기존 세션 길이를 파악합니다. 플래그를 설정하여 앱이 충돌하지 않았음을 라이프사이클에서 알도록 할 수도 있습니다. 자세한 내용은 [라이프사이클 지표](/help/android/metrics.md)를 참조하십시오.
