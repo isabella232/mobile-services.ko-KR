@@ -4,10 +4,13 @@ seo-description: 다음은 iOS 라이브러리에서 제공하는 Adobe Target �
 seo-title: Adobe Mobile Services용 iOS Target 메서드
 solution: Marketing Cloud,Analytics
 title: iOS용 Target 메서드
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
-translation-type: ht
-source-git-commit: 8dc075603544aaab7fdedb1ff10a12f7fa7e21f5
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 100%
 
 ---
 
@@ -113,22 +116,22 @@ NSString *const ADBTargetParameterMboxHost;
          * **유형**: NSString*
       * **`profileParameters`**
 
-         이 사전의 값은 Target에 전송되는 요청의 "profileParameters" 개체에 삽입합니다.
+         이 사전의 값은 Target에 전송되는 요청의 &quot;profileParameters&quot; 개체에 삽입합니다.
 
          * **유형**: NSDictionary*
       * **`orderParameters`**
 
-         이 사전의 값은 Target에 전송되는 요청의 "order" 개체에 삽입합니다.
+         이 사전의 값은 Target에 전송되는 요청의 &quot;order&quot; 개체에 삽입합니다.
 
          * **유형**: NSDictionary
       * **`mboxParameters`**
 
-         이 사전의 값은 Target에 전송되는 요청의 "mboxParameters" 개체에 삽입합니다.
+         이 사전의 값은 Target에 전송되는 요청의 &quot;mboxParameters&quot; 개체에 삽입합니다.
 
          * **유형**: NSDictionary*
       * **`requestLocationParameters`**
 
-         이 사전의 값은 Target에 전송되는 요청의 "requestLocation" 개체에 삽입됩니다.
+         이 사전의 값은 Target에 전송되는 요청의 &quot;requestLocation&quot; 개체에 삽입됩니다.
 
          **유형**: NSDictionary*
 
