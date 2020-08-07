@@ -7,9 +7,9 @@ solution: Marketing Cloud,Analytics
 title: 푸시 메시지를 활성화하기 위한 전제 조건
 topic: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
-translation-type: ht
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 100%
 
@@ -74,7 +74,9 @@ Adobe Analytics를 사용하는 회사에서는 Experience Cloud가 활성화되
 
 앱에 대해 ID 서비스를 활성화하기 전에는 **[!UICONTROL 푸시 서비스]** 섹션이 비활성화되어 있습니다. 그러나 ID 서비스를 활성화하면 푸시 서비스 섹션이 활성화됩니다. 푸시 서비스 활성화에 대한 자세한 내용은 [SDK ID 서비스 옵션 구성](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md)을 참조하십시오.
 
->[!IMPORTANT]: 변경 사항을 저장하고 푸시 서비스를 새로 고치려면 **[!UICONTROL 저장]**&#x200B;을 클릭해야 합니다.
+>[!IMPORTANT]
+>
+>변경 사항을 저장하고 푸시 서비스를 새로 고치려면 **[!UICONTROL 저장]**&#x200B;을 클릭해야 합니다.
 >
 >각 보고서 세트에서 Apple용 앱스토어 앱 하나와 Google용 하나를 각각 구성할 수 있습니다. 프로덕션 환경용 앱과 개발 환경용 앱과 같은 앱이 추가로 필요한 경우 각 환경에 대해 새 앱스토어 앱과 새 보고서 세트를 설정하십시오.
 
