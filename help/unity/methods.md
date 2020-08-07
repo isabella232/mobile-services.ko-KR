@@ -7,12 +7,15 @@ solution: Marketing Cloud,Developer
 title: ADBMobile.cs 메서드
 uuid: af504934-febd-45d9-81e2-2a310f4c65dc
 translation-type: tm+mt
-source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '1324'
+ht-degree: 65%
 
 ---
 
 
-# ADBMobile.cs methods {#adbmobile-cs-methods}
+# ADBMobile.cs 메서드 {#adbmobile-cs-methods}
 
 ## 구성 메서드
 
@@ -34,7 +37,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **EnableLocalNotifications(iOS만 해당)**
 
-   앱의 로컬 알림을 활성화합니다.
+   앱에서 로컬 알림을 활성화합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -85,9 +88,9 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
    현재 사용자에 대한 개인 정보 상태의 열거 표현을 반환합니다.
    * `MOBILE_PRIVACY_STATUS_OPT_IN`: 히트가 즉시 전송됩니다.
    * `MOBILE_PRIVACY_STATUS_OPT_OUT`: 히트가 삭제됩니다.
-   * `MOBILE_PRIVACY_STATUS_UNKNOWN`: 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다.
+   * `MOBILE_PRIVACY_STATUS_UNKNOWN`:오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다.
 
-      오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다. 기본값은 [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md) 파일에서 설정되어 있습니다.
+      오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다. The default value is set in the [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md) file.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -139,7 +142,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
    >[!TIP]
    >
-   >이 메서드는 앱이 백그라운드에 있을 때 알림을 등록하는 앱에 사용되며 앱이 백그라운드에 있을 때 실행하는 코드에서만 호출되어야 합니다.
+   >이 메서드는 앱이 백그라운드에 있을 때 알림을 등록하는 앱에 사용하기 위한 것으로 앱이 백그라운드에 있을 때 실행하는 코드에서만 호출되어야 합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -155,7 +158,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **PauseCollectingLifecycleData(Android만 해당)**
 
-   라이프사이클 지표를 정확히 계산하기 위해 앱이 일시 중지되었음을 SDK에 표시합니다. 예를 들어, OnPause에서 타임스탬프를 수집하여 기존 세션 길이를 파악합니다. 플래그를 설정하여 앱이 충돌하지 않았음을 라이프사이클에서 정확히 알도록 할 수도 있습니다. 자세한 내용은 [라이프사이클 지표](/help/android/metrics.md)를 참조하십시오.
+   라이프사이클 지표를 정확히 계산하기 위해 앱이 일시 중지되었음을 SDK에 표시합니다. 예를 들어 일시 중지 시 타임스탬프를 수집하여 이전 세션 길이를 결정합니다. 또한 앱이 충돌하지 않았음을 라이프사이클에서 정확히 알 수 있도록 플래그를 설정합니다. 자세한 내용은 [라이프사이클 지표](/help/android/metrics.md)를 참조하십시오.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -169,7 +172,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
       ADBMobile.PauseCollectingLifecycleData();
       ```
 
-* **SetContext (Android만 해당)**
+* **SetContext(Android만 해당)**
 
    UnityPlayer의 현재 활동에서 응용 프로그램 컨텍스트를 설정해야 함을 SDK에 표시합니다.
 
@@ -207,7 +210,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
    * `MOBILE_PRIVACY_STATUS_OPT_IN`: 히트가 즉시 전송됩니다.
    * `MOBILE_PRIVACY_STATUS_OPT_OUT`: 히트가 삭제됩니다.
-   * `MOBILE_PRIVACY_STATUS_UNKNOWN`: 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다. 오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다.
+   * `MOBILE_PRIVACY_STATUS_UNKNOWN`:오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다. 오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -257,9 +260,9 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **TrackState**
 
-   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. 상태는 &quot;제목 화면&quot;, &quot;레벨 1&quot;, &quot;일시 중지&quot; 등 앱에서 사용할 수 있는 보기입니다. 이 상태는 웹 사이트의 페이지와 유사하며 `TrackState` 호출은 페이지 보기를 증가시킵니다.
+   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. 상태는 &quot;제목 화면&quot;, &quot;레벨 1&quot;, &quot;일시 중지&quot; 등과 같이 앱에서 사용할 수 있는 보기입니다. 이 상태는 웹 사이트의 페이지와 유사하며 `TrackState` 호출은 페이지 보기를 증가시킵니다.
 
-   If state is empty, it displays as *`app name app version (build)`* in reports. 보고서에서 이 값이 표시되면 반드시 각각의 `TrackState` 호출에서 상태를 설정해야 합니다.
+   상태가 비어 있으면 보고서에 *`app name app version (build)`* 로 표시됩니다. If you see this value in reports, make sure you are setting state in each `TrackState` call.
 
    >[!TIP]
    >
@@ -281,7 +284,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **TrackAction**
 
-   앱의 작업을 추적합니다. 작업은 &quot;예기치 못한 종료&quot;, &quot;획득 레벨&quot;, &quot;피드 구독&quot; 및 기타 지표 등 측정하려는 앱에서 발생하는 일을 의미합니다.
+   앱의 작업을 추적합니다. 작업은 &quot;죽음&quot;, &quot;획득 레벨&quot;, &quot;피드 구독&quot; 및 기타 지표 등 측정하려는 앱에서 발생하는 일들입니다.
 
    >[!TIP]
    >
@@ -301,7 +304,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **TrackActionFromBackground(iOS만 해당)**
 
-   백그라운드에서 발생된 작업을 추적합니다. 특정 시나리오에서 라이프사이클 이벤트의 시작을 억제합니다.
+   백그라운드에서 발생한 작업을 추적합니다. 특정 시나리오에서 라이프사이클 이벤트가 실행되지 않습니다.
 
    >[!TIP]
    >
@@ -321,7 +324,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **TrackLocation**
 
-   현재 위도 및 경도 좌표를 보냅니다. 또한 `ADBMobileConfig.json` 파일에서 정의된 관심 영역을 사용하여 매개변수로 제공된 위치가 POI 내에 있는지 파악합니다. 현재 좌표가 정의된 POI 내에 있는 경우 컨텍스트 데이터 변수를 채워 TrackLocation 호출로 보냅니다.
+   현재 위도 및 경도 좌표를 보냅니다. 또한 `ADBMobileConfig.json` 파일에서 정의된 관심 영역을 사용하여 매개변수로 제공된 위치가 POI 내에 있는지 파악합니다. 현재 좌표가 정의된 POI 내에 있는 경우 컨텍스트 데이터 변수가 채워지고 TrackLocation 호출을 사용하여 전송됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -363,7 +366,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **TrackLifetimeValueIncrease**
 
-   사용자의 라이프타임 값에 양을 추가합니다.
+   사용자의 라이프타임 값에 금액을 추가합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -399,7 +402,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **TrackTimedActionUpdate**
 
-   주어진 작업과 연관된 컨텍스트 데이터를 업데이트하기 위해 데이터를 전달합니다. 전달한 데이터는 주어진 작업의 기존 데이터에 추가되며 작업에 대해 동일한 키가 이미 정의된 경우 데이터를 덮어씁니다.
+   데이터를 전달하여 주어진 작업과 연관된 컨텍스트 데이터를 업데이트합니다. 전달된 데이터는 주어진 작업의 기존 데이터에 추가되며 작업에 대해 동일한 키가 이미 정의된 경우 데이터를 덮어씁니다.
 
    >[!TIP]
    >
@@ -517,9 +520,9 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
       var mcid = ADBMobile.GetMarketingCloudID();
       ```
 
-* **VisitorSyncIdentifiers**
+* **방문자 동기화 식별자**
 
-   Experience Cloud ID를 사용하면 각 방문자에 연결할 추가 고객 ID를 설정할 수 있습니다. 방문자 API는 여러 다른 고객 ID의 범위를 구분하기 위해 동일한 방문자의 여러 고객 ID와 고객 유형 식별자를 수락합니다. 이 메서드는 JavaScript 라이브러리의 setCustomerID에 해당합니다.
+   Experience Cloud ID를 사용하여 각 방문자와 연결할 추가 고객 ID를 설정할 수 있습니다. 방문자 API는 서로 다른 고객 ID의 범위를 구분하기 위해 동일한 방문자에 대한 여러 고객 ID와 고객 유형 식별자를 수락합니다. 이 메서드는 JavaScript 라이브러리의 setCustomerID에 해당합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -537,7 +540,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 ## 획득 메서드
 
-* **ProcessGooglePlayInstallReferrerUrl** *(Android만 해당)*
+* **프로세스GooglePlayInstallReferrerUrl** *(Android만 해당)*
 
    Google Play 설치 레퍼러 API에 대한 호출에서 반환된 레퍼러 URL을 이 메서드에 전달합니다.
 
