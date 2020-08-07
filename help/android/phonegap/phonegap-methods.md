@@ -1,14 +1,17 @@
 ---
 description: iOS PhoneGap 플러그인 메서드를 사용하여 다양한 작업을 완료할 수 있습니다.
-keywords: android;라이브러리;모바일;sdk
+keywords: android;library;mobile;sdk
 seo-description: iOS PhoneGap 플러그인 메서드를 사용하여 다양한 작업을 완료할 수 있습니다.
 seo-title: PhoneGap 플러그인 메서드
 solution: Marketing Cloud,Analytics
 title: PhoneGap 플러그인 메서드
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: bc3db9ce-81b7-45ec-88aa-6020c1db5d9c
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '1569'
+ht-degree: 97%
 
 ---
 
@@ -93,7 +96,7 @@ Android PhoneGap 플러그인 메서드를 사용하여 다양한 작업을 완�
 
    자동 생성된 방문자 식별자를 반환합니다.
 
-   이 식별자는 앱을 처음 실행될 때 생성되어 저장된 다음 그 이후부터 사용되는 앱별 고유 방문자 ID입니다. 이 ID는 앱 업그레이드 시에도 보존되며 앱을 제거하면 삭제됩니다.
+   이 ID는 앱이 처음 실행될 때 생성되며 이 때부터 저장되고 사용됩니다. 이 ID는 앱 업그레이드 간에 유지되며 앱을 제거하면 제거됩니다.
 
    >[!TIP]
    >
