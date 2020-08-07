@@ -5,10 +5,13 @@ seo-description: iOS PhoneGap 플러그인 메서드를 사용하여 다양한 �
 seo-title: PhoneGap 플러그인 메서드
 solution: Marketing Cloud,Analytics
 title: PhoneGap 플러그인 메서드
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: bd830fe5-804a-4d0a-bbb6-99a6d8da6a03
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '1730'
+ht-degree: 96%
 
 ---
 
@@ -87,7 +90,7 @@ iOS PhoneGap 플러그인 메서드를 사용하여 다양한 작업을 완료�
 
 * **trackingIdentifier**
 
-   자동 생성된 방문자 식별자를 반환합니다. 이 식별자는 앱을 처음 실행될 때 생성되어 저장된 다음 그 이후부터 사용되는 앱별 고유 방문자 ID입니다. 이 ID는 앱 업그레이드 시에도 보존되며 앱을 제거하면 삭제됩니다.
+   자동 생성된 방문자 식별자를 반환합니다. 이 ID는 앱이 처음 실행될 때 생성되며 이 때부터 저장되고 사용됩니다. 이 ID는 앱 업그레이드 간에 유지되며 앱을 제거하면 제거됩니다.
 
    >[!TIP]
    >
@@ -322,7 +325,7 @@ iOS PhoneGap 플러그인 메서드를 사용하여 다양한 작업을 완료�
 
 * **trackActionFromBackground**
 
-   백그라운드에서 발생된 작업을 추적합니다. 특정 시나리오에서 라이프사이클 이벤트의 시작을 억제합니다.
+   백그라운드에서 발생한 작업을 추적합니다. 특정 시나리오에서 라이프사이클 이벤트가 실행되지 않습니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
