@@ -2,25 +2,28 @@
 description: Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android 메서드입니다.
 keywords: Xamarin
 seo-description: Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android 메서드입니다.
-seo-title: Android methods
-solution: Marketing Cloud,개발자
-title: Android methods
+seo-title: Android 메서드
+solution: Marketing Cloud,Developer
+title: Android 메서드
 uuid: 860af1c4-f57e-4bcb-8308-4e316da9a27b
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '1767'
+ht-degree: 66%
 
 ---
 
 
-# Android methods{#android-methods}
+# Android 메서드{#android-methods}
 
 Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android 메서드입니다.
 
-## Configuration methods {#section_405AA09390E346E5BB7B1F4E0F65F51E}
+## 구성 메서드 {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
 * **디버그 로깅**
 
-   현재 디버그 로깅 기본 설정을 반환하고 기본값은 false입니다.
+   현재 디버그 로깅 기본 설정을 반환하며 기본값은 false입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -35,7 +38,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
       setter: Config.DebugLogging = (Java.Lang.Boolean)true;
       ```
 
-* **LifetimeValue**
+* **라이프타임 값**
 
    현재 사용자의 수명 값을 반환합니다.
 
@@ -51,13 +54,14 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
        var lifetimeValue = Config.LifetimeValue;
       ```
 
-* **PrivacyStatus**
+* **개인 정보 상태**
 
    현재 사용자에 대한 개인 정보 상태의 열거 표현을 반환합니다.
    * `ADBMobilePrivacyStatus.OptIn` - 히트가 즉시 전송됩니다.
-   * `ADBMobilePrivacyStatus.OptOut` - 히트가 무시됩니다.
+   * `ADBMobilePrivacyStatus.OptOut` - 히트가 삭제됩니다.
    * `ADBMobilePrivacyStatus.Unknown` - 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트 삭제)으로 변경될 때까지 히트가 저장됩니다. 오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다.
-   기본값은 [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md) 파일에서 설정되어 있습니다.
+
+   The default value is set in the [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md) file.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -73,9 +77,9 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
       ```
 
 
-* **UserIdentifier**
+* **사용자 식별자**
 
-   사용자 지정 식별자가 설정된 경우 이 식별자를 반환합니다. If a custom identifier is not set, returns null. 기본값은 `null`입니다.
+   사용자 지정 식별자가 설정된 경우 이 식별자를 반환합니다. 사용자 지정 식별자가 설정되지 않은 경우 null을 반환합니다. 기본값은 `null`입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -108,7 +112,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **PauseCollectingLifecycleData**
 
-   라이프사이클 지표를 정확히 계산하기 위해 앱이 일시 중지되었음을 SDK에 표시합니다. 예를 들어, OnPause에서 타임스탬프를 수집하여 기존 세션 길이를 파악합니다. 플래그를 설정하여 앱이 충돌하지 않았음을 라이프사이클에서 정확히 알도록 할 수도 있습니다. 자세한 내용은 [라이프사이클 지표](/help/android/metrics.md)를 참조하십시오.
+   라이프사이클 지표를 정확히 계산하기 위해 앱이 일시 중지되었음을 SDK에 표시합니다. 예를 들어 일시 중지 시 타임스탬프를 수집하여 이전 세션 길이를 결정합니다. 또한 앱이 충돌하지 않았음을 라이프사이클에서 정확히 알 수 있도록 플래그를 설정합니다. 자세한 내용은 [라이프사이클 지표](/help/android/metrics.md)를 참조하십시오.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -122,9 +126,9 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
       Config.PauseCollectingLifecycleData();
       ```
 
-* **CollectLifecycleData(Activity 활동)**
+* **CollectLifecycleData(활동)**
 
-   (4.2 이상 버전) SDK의 솔루션 전체에서 사용하기 위해 라이프사이클 데이터를 수집해야 함을 SDK에 표시합니다. 자세한 내용은 [라이프사이클 지표](/help/android/metrics.md)를 참조하십시오.
+   (4.2 이상 버전) SDK의 모든 솔루션에서 사용하기 위해 라이프사이클 데이터를 수집해야 함을 SDK에 표시합니다. 자세한 내용은 [라이프사이클 지표](/help/android/metrics.md)를 참조하십시오.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -138,9 +142,9 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
       Config.CollectLifecycleData (this);
       ```
 
-* **CollectLifecycleData(Activity 활동)**
+* **CollectLifecycleData(활동)**
 
-   (4.2 이상 버전) SDK의 솔루션 전체에서 사용하기 위해 라이프사이클 데이터를 수집해야 함을 SDK에 표시합니다. 자세한 내용은 [라이프사이클 지표](/help/android/metrics.md)를 참조하십시오.
+   (4.2 이상 버전) SDK의 모든 솔루션에서 사용하기 위해 라이프사이클 데이터를 수집해야 함을 SDK에 표시합니다. 자세한 내용은 [라이프사이클 지표](/help/android/metrics.md)를 참조하십시오.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -159,7 +163,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **OverrideConfigStream**
 
-   (4.2 or later) Lets you load a different `ADBMobile JSON` config file when the application starts. 애플리케이션이 닫힐 때까지 다른 구성을 사용합니다.
+   (4.2 이상 버전) 응용 프로그램이 시작될 때 다른 `ADBMobile JSON` 구성 파일을 로드할 수 있습니다. 애플리케이션이 닫힐 때까지 다른 구성을 사용합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -176,7 +180,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **SetLargeIconResourceId(int resourceId)**
 
-   (4.2 이상 버전) SDK에서 만든 알림에 사용되는 큰 아이콘을 설정합니다. This icon is the primary image that is displayed when the user sees the complete notification in the notification center.
+   (4.2 이상 버전) SDK에서 만든 알림에 사용되는 큰 아이콘을 설정합니다. 이 아이콘이 사용자가 알림 센터에서 전체 알림을 볼 때 표시되는 기본 이미지입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -206,11 +210,11 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
        Config.SetSmallIconResourceId(R.drawable.appIcon);
       ```
 
-## Analytics methods {#section_63CF636104EF41F790C3E4190D755BBA}
+## Analytics 메서드 {#section_63CF636104EF41F790C3E4190D755BBA}
 
 * **TrackingIdentifier**
 
-   분석을 위해 자동으로 생성된 ID를 반환합니다. This is an app-specific unique ID that is generated on initial launch and is stored and used from that point forward. 이 ID는 앱 업그레이드 간에 유지되며 제거 시 제거됩니다.
+   Analytics에 대해 자동으로 생성된 ID를 반환합니다. 이 ID는 처음 실행 시 생성되며 이 때부터 저장되고 사용됩니다. 이 ID는 앱 업그레이드 간에 유지되며 제거 시 제거됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -226,11 +230,11 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **TrackState**
 
-   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. `States` 는 "제목 화면", "레벨 1", "일시 중지" 등 앱에서 사용할 수 있는 보기입니다. 이 상태는 웹 사이트의 페이지와 유사하며 `TrackState` 호출은 페이지 보기를 증가시킵니다. 상태가 비어있으면 보고서에 앱 이름 앱 버전(빌드)으로 표시됩니다. 보고서에서 이 값이 표시되면 반드시 각각의 `TrackState` 호출에서 상태를 설정해야 합니다.
+   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. `States` 는 &quot;제목 화면&quot;, &quot;레벨 1&quot;, &quot;일시 중지&quot; 등과 같이 앱에서 사용할 수 있는 보기입니다. 이 상태는 웹 사이트의 페이지와 유사하며 `TrackState` 호출은 페이지 보기를 증가시킵니다. 상태가 비어 있으면 보고서에 &quot;앱 이름 앱 버전(빌드)&quot;로 표시됩니다. If you see this value in reports, make sure you are setting state in each `TrackState` call.
 
    >[!TIP]
    >
-   >이것은 페이지 보기를 증가시키는 유일한 추적 호출입니다.
+   >페이지 보기 횟수를 늘리는 유일한 추적 호출입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -249,12 +253,12 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **TrackAction**
 
-   앱의 작업을 추적합니다. 작업은 "예기치 못한 종료", "획득 레벨", "피드 구독" 및 기타 지표 등 측정하려는 앱에서 발생하는 일을 의미합니다.
+   앱의 작업을 추적합니다. 작업은 &quot;죽음&quot;, &quot;획득 레벨&quot;, &quot;피드 구독&quot; 및 기타 지표 등 측정하려는 앱에서 발생하는 일들입니다.
 
    >[!TIP]
    >
    >
-   >If you have code that might run while the app is in the background (for example, a background data retrieval), use `trackActionFromBackground` instead.
+   >백그라운드에 앱이 있을 때 실행할 수 있는 코드가 있는 경우(예: 백그라운드 데이터 검색) `trackActionFromBackground`를 대신 사용합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -362,7 +366,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **TrackTimedActionUpdate**
 
-   데이터를 전달하여 제공된 작업과 관련된 컨텍스트 데이터를 업데이트합니다. 전달한 데이터는 주어진 작업의 기존 데이터에 추가되며 작업에 대해 동일한 키가 이미 정의된 경우 데이터를 덮어씁니다.
+   데이터를 전달하여 주어진 작업과 연관된 컨텍스트 데이터를 업데이트합니다. 전달된 데이터는 주어진 작업의 기존 데이터에 추가되며 작업에 대해 동일한 키가 이미 정의된 경우 데이터를 덮어씁니다.
 
    >[!TIP]
    >
@@ -424,7 +428,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **SendQueuedHits**
 
-   현재 큐에 있는 히트 수에 관계 없이 라이브러리에서 오프라인 큐의 모든 히트를 강제로 보냅니다.
+   현재 큐에 있는 히트 수에 관계없이 라이브러리가 오프라인 큐의 모든 히트를 강제로 보냅니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -490,7 +494,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **SyncIdentifiers**
 
-   Experience Cloud ID를 사용하면 각 방문자에 연결할 추가 고객 ID를 설정할 수 있습니다. 방문자 API는 여러 다른 고객 ID의 범위를 구분하기 위해 동일한 방문자의 여러 고객 ID와 고객 유형 식별자를 수락합니다. 이 메서드는 JavaScript 라이브러리의 `setCustomerIDs`에 해당합니다.
+   Experience Cloud ID를 사용하여 각 방문자와 연결할 추가 고객 ID를 설정할 수 있습니다. 방문자 API는 여러 다른 고객 ID의 범위를 구분하기 위해 동일한 방문자의 여러 고객 ID와 고객 유형 식별자를 수락합니다. 이 메서드는 JavaScript 라이브러리의 `setCustomerIDs`에 해당합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -506,7 +510,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
       Visitor.SyncIdentifiers (ids);
       ```
 
-## Target methods {#section_C1E4121CAF9D43538511D857A1F549A7}
+## Target 메서드 {#section_C1E4121CAF9D43538511D857A1F549A7}
 
 * **LoadRequest**
 
@@ -533,7 +537,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **CreateRequest**
 
-   주어진 매개 변수로 `ADBTargetLocationRequest` 개체를 만드는 편의 생성자입니다.
+   Convenience constructor to create an `ADBTargetLocationRequest` object with the given parameters.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -551,7 +555,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **CreateOrderConfirmRequest**
 
-   Creates an .`ADBTargetLocationRequest`
+   `ADBTargetLocationRequest`를 생성합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -583,9 +587,9 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 ## Audience Manager {#section_862C4202B6294B978DEEBB15C5CD5C01}
 
-* **VisitorProfile**
+* **방문자 프로필**
 
-   가장 최근 획득한 방문자 프로필을 반환합니다. 아직 어떤 신호도 제출되지 않은 경우 nil을 반환합니다. 방문자 프로필은 앱이 여러 번 시작되는 경우에도 쉽게 액세스할 수 있도록 `NSUserDefaults`에 저장됩니다.
+   가장 최근 획득한 방문자 프로필을 반환합니다. 아직 신호가 전송되지 않은 경우 nil을 반환합니다. 방문자 프로필은 앱이 여러 번 시작되는 경우에도 쉽게 액세스할 수 있도록 `NSUserDefaults`에 저장됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -601,7 +605,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **Dpid**
 
-   Returns the current `DPID`.
+   현재 값을 반환합니다 `DPID`.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -617,7 +621,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **Dpuuid**
 
-   Returns the current `DPUUID`.
+   현재 값을 반환합니다 `DPUUID`.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -633,7 +637,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **AudienceSetDpidAndDpuuid**
 
-   Sets the  and . `dpid``dpuuid` If `dpid` and `dpuuid` are set, they are sent with each signal.
+   and를 `dpid` 설정합니다 `dpuuid`. 그리고 `dpid` 가 설정된 경우 각 신호 `dpuuid` 로 전송됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -675,7 +679,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **재설정**
 
-   Audience Manager `UUID`를 재설정하고 현재 방문자 프로필을 삭제합니다.
+   Resets audience manager `UUID` and purges current visitor profile.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -691,9 +695,9 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 ## 비디오 {#section_CBCE1951CE204A108AD4CA7BB07C7F98}
 
-비디오 분석에 대한 자세한 내용은 비디오 [분석을 참조하십시오](/help/android/analytics-main/video-qs.md).
+비디오 분석에 대한 자세한 내용은 [비디오 분석을 참조하십시오](/help/android/analytics-main/video-qs.md).
 
-* **MediaSettings**
+* **미디어 설정**
 
    지정된 매개 변수와 함께 `MediaSettings` 개체를 반환합니다.
 
@@ -751,7 +755,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **닫기**
 
-   이름이 명명된 미디어 항목을 닫습니다.
+   이름이 name인 미디어 항목을 닫습니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -767,7 +771,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **재생**
 
-   제공된 오프셋(초)에서 이름이 명명된 미디어 항목을 재생합니다.
+   제공된 offset(초)에서 이름이 name인 미디어 항목을 재생합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -781,7 +785,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
       Media.Play (settings.Name, 0); 
       ```
 
-* **완료**
+* **전체**
 
    제공된 오프셋(초)에서 완료된 미디어 항목을 수동으로 표시합니다.
 
@@ -829,7 +833,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
       Media.Click (settings.Name, 3); 
       ```
 
-* **추적**
+* **트랙**
 
    현재 미디어 상태에 대한 추적 작업 호출(페이지 보기 없음)을 보냅니다.
 
