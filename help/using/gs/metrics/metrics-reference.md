@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 모바일 지표 및 차원 참조
 topic: Metrics
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 94%
 
 * **충돌**
 
-   애플리케이션이 올바르게 종료되지 않을 때 트리거됩니다. 이 이벤트는 충돌 후 응용 프로그램이 시작될 때 전송됩니다.
+   애플리케이션이 올바르게 종료되지 않을 때 트리거됩니다. 이 이벤트는 충돌 후 애플리케이션이 시작될 때 전송됩니다.
 
    >[!TIP]
    >종료가 호출되지 않으면 애플리케이션이 충돌로 간주됩니다.
@@ -75,7 +75,7 @@ ht-degree: 94%
 
 * **설치 날짜**
 
-   설치 후 첫 번째 실행 날짜입니다. 날짜는 *MM/DD/YYYY* 형식입니다.
+   설치 후 처음 시작하는 날짜입니다. 날짜는 *YYYY/MM/DD* 형식입니다.
 
 * **앱 ID**
 
