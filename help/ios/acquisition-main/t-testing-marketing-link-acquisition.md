@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 마케팅 링크 획득 테스트
 topic: Developer and implementation
 uuid: 69503e01-182d-44c6-b0fb-e1c012ffa3bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c64e2fa7cee3cd35c4574e5007406b7604c99499
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '562'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 94%
 
    | 설정 | 값 |
    |--- |--- |
-   | acquisition | 서버는 `c00.adobe.com`이어야 합니다.   `appid`  는 획득 링크에서 *`appid`*  와 같아야 합니다. |
+   | acquisition | 서버는 `c00.adobe.com`이어야 합니다.   `appid`는 획득 링크에서 *`appid`*&#x200B;와 같아야 합니다. |
    | analytics | `referrerTimeout` 값은 0보다 커야 합니다. |
 
 1. (선택 사항) 앱 구성 파일의 SSL 설정이`false`일 경우 HTTPS 대신 HTTP 프로토콜을 사용하도록 획득 링크를 업데이트합니다.
@@ -85,7 +85,7 @@ ht-degree: 94%
 
    * `Analytics - Acquisition referrer timed out`
 
-      `referrerTimeout`에 정의된 시간 내에 응답을 가져오지 못했습니다. 값을 늘린 다음 다시 시도하십시오. 또한 앱을 설치하기 전에 획득 링크를 열고 URL을 클릭하고 앱을 열 때 동일한 네트워크를 사용하고 있는지 확인해야 합니다.
+      `referrerTimeout`에 정의된 시간 내에 응답을 가져오지 못했습니다. 값을 늘린 다음 다시 시도하십시오. 또한 앱을 설치하기 전에 획득 링크를 열어서 URL을 클릭하고 앱을 열 때 동일한 네트워크를 사용하고 있는지 확인해야 합니다.
 
 다음 정보를 숙지하십시오.
 
