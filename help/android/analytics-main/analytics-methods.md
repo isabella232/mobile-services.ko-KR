@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Analytics 메서드
 topic: Developer and implementation
 uuid: ac7c640e-9dcc-4724-b561-019cc025d5a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '740'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 94%
 * **getTrackingIdentifier**
 Analytics에 대해 자동으로 생성된 방문자 식별자를 반환합니다.
 
-   이 ID는 처음 실행 시 생성되어 저장되어 이후에 사용되는 앱별 고유 방문자 ID입니다. ID는 앱 업그레이드 간에 유지되며 앱을 제거하면 제거됩니다.
+   이 ID는 앱별 고유 방문자 ID이며 처음 실행 시 생성되어 저장되며 이후에 계속 사용됩니다. ID는 앱 업그레이드 사이에 유지되며 앱을 제거하면 제거됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -266,7 +266,7 @@ Analytics에 대해 자동으로 생성된 방문자 식별자를 반환합니�
 
    SDK에서 이미 레퍼러 데이터를 수집한 경우 이 메서드를 호출하면 작업이 수행되지 않습니다.
 
-   레퍼러 URL을 검색하는 방법에 대한 자세한 내용은 Google 설명서를 https://developer.android.com/google/play/installreferrer/library에서 참조하십시오.
+   레퍼러 URL을 검색하는 방법에 대한 자세한 내용은 Google 설명서를 https://developer.android.com/google/play/installreferrer/library 에서 참조하십시오.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
