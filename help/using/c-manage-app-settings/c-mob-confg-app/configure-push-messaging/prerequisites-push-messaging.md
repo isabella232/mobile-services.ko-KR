@@ -7,9 +7,9 @@ solution: Marketing Cloud,Analytics
 title: 푸시 메시지를 활성화하기 위한 전제 조건
 topic: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
 ht-degree: 100%
 
