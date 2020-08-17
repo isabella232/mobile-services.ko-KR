@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: PhoneGap 플러그인 메서드
 topic: Developer and implementation
 uuid: bc3db9ce-81b7-45ec-88aa-6020c1db5d9c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1569'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ Android PhoneGap 플러그인 메서드를 사용하여 다양한 작업을 완�
 
    자동 생성된 방문자 식별자를 반환합니다.
 
-   이 ID는 앱이 처음 실행될 때 생성되며 이 때부터 저장되고 사용됩니다. 이 ID는 앱 업그레이드 간에 유지되며 앱을 제거하면 제거됩니다.
+   이 ID는 앱별 고유 방문자 ID이며 앱이 처음 실행될 때 생성되어 저장되고 이후로 계속 사용됩니다. 이 ID는 앱 업그레이드 사이에 유지되며 앱 설치를 제거하면 제거됩니다.
 
    >[!TIP]
    >
