@@ -1,14 +1,17 @@
 ---
 description: 다음은 Adobe Mobile Android SDK를 사용하여 모바일 앱에서 딥링크와 지연된 딥링크를 추적하는 데 유용한 정보입니다.
-keywords: android;라이브러리;모바일;sdk
+keywords: android;library;mobile;sdk
 seo-description: 다음은 Adobe Mobile Android SDK를 사용하여 모바일 앱에서 딥링크와 지연된 딥링크를 추적하는 데 유용한 정보입니다.
 seo-title: Adobe Mobile Services의 딥링크 추적
 solution: Marketing Cloud,Analytics
 title: 딥링크 추적
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: ebb1c08c-a246-40b3-9ac6-4606a14b4c5a
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 88%
 
 ---
 
@@ -42,7 +45,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
    }
    ```
 
-Adobe Mobile SDK는 임의의 딥링크 또는 범용 링크에 `a.deeplink.id` 레이블과 해당하는 null이 아닌 사용자 생성 값이 포함된 키가 있을 경우 링크에 추가된 데이터의 키 및 값 쌍을 구문 분석할 수 있습니다. 링크에 `a.deeplink.id` 키 및 값이 포함되어 있다면 링크에 추가된 데이터의 모든 키 및 값 쌍이 구문 분석되어 라이프사이클 히트에 추가되고 Adobe Analytics로 전송됩니다.
+The Adobe Mobile SDK can parse key and value pairs of data that is appended to any Deep or Universal Link as long as the link contains a key with the `a.deeplink.id` label and a corresponding non-null and user-generated value. 링크에 키 및 값이 포함되어 있는 한 해당 링크에 추가된 모든 키 및 값 쌍은 구문 분석하여 라이프사이클 히트에 추가된 다음 `a.deeplink.id`Adobe Analytics로 전송됩니다.
 
 또한 사용자 생성 값을 포함한 다음 예약 키 중 하나 이상을 딥링크 또는 범용 링크에 추가할 수도 있습니다.
 
@@ -56,7 +59,7 @@ Adobe Mobile SDK는 임의의 딥링크 또는 범용 링크에 `a.deeplink.id` 
 
 ## 지연된 딥링크 추적(마케팅 링크용)
 
-지연 딥링크가 있으면 Adobe SDK에서는 딥링크가 포함된 새로운 인텐트가 인텐트 데이터로 열립니다. 이 프로세스는 위의 코드를 사용하여 외부 딥링크로 처리됩니다.
+지연된 딥링크를 사용하면 Adobe SDK에서 의도 데이터로 딥링크가 있는 새 의도 링크를 엽니다. 이 프로세스는 위의 코드를 사용하여 외부 딥링크로 처리됩니다.
 
 ## 딥링크 공개 정보 {#section_1815396353614DA8A63D8D92112217E7}
 
