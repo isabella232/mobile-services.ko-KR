@@ -7,8 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 모바일 앱 획득
 topic: Developer and implementation
 uuid: 4d32eae9-e856-4e40-8a29-2b5bccd106e0
-translation-type: ht
-source-git-commit: 8a25259732a916f977f733cd22971b1d847aae5f
+translation-type: tm+mt
+source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+workflow-type: tm+mt
+source-wordcount: '876'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +22,7 @@ Adobe Mobile Services에서 고유한 추적 코드가 있는 획득 링크를 �
 
 ## 새로운 Adobe Experience Platform Mobile SDK 릴리스
 
-Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
+Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고 계십니까? [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하여 최신 설명서를 확인하십시오.
 
 2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/kr/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
@@ -28,9 +31,9 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 
 >[!IMPORTANT]
 >
->획득을 사용하려면 **반드시** SDK 버전 4.1 이상이 있어야 합니다.
+>To use Acquisition, you **must** have SDK version 4.1 or later.
 
-획득 링크는 Adobe Mobile Services에서 만들어야 합니다. 자세한 내용은 [획득](/help/using/acquisition-main/acquisition-main.md)을 참조하십시오.
+획득 링크는 Adobe Mobile 서비스에서 만들어야 합니다. 자세한 내용은 [획득](/help/using/acquisition-main/acquisition-main.md)을 참조하십시오.
 
 **SDK 버전 4.18.0 이상**:
 
