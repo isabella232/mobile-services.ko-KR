@@ -1,14 +1,17 @@
 ---
 description: 다음은 Android 라이브러리에서 제공하는 Adobe Target 메서드 목록입니다.
-keywords: android;라이브러리;모바일;sdk
+keywords: android;library;mobile;sdk
 seo-description: 다음은 Android 라이브러리에서 제공하는 Adobe Target 메서드 목록입니다.
 seo-title: Android용 Target 메서드
 solution: Marketing Cloud,Analytics
 title: Android용 Target 메서드
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 8e9808b2-ba80-4646-ba05-8e62d4fde065
-translation-type: ht
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+translation-type: tm+mt
+source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 100%
 
 ---
 
@@ -130,12 +133,12 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
          * **유형:** 문자열
       * **profileParameters**
 
-         이 사전의 값은 Target에 전송되는 요청의 "profileParameters" 개체에 삽입합니다.
+         이 사전의 값은 Target에 전송되는 요청의 &quot;profileParameters&quot; 개체에 삽입합니다.
 
          * **유형**: 맵 `<String, Object>`
       * **orderParameters**
 
-         이 사전의 값은 Target에 전송되는 요청의 "order" 개체에 삽입합니다.
+         이 사전의 값은 Target에 전송되는 요청의 &quot;order&quot; 개체에 삽입합니다.
 
          * **유형**: 맵 `<String, Object>`
       * **mboxParameters**
@@ -145,7 +148,7 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
          * **유형**: 맵 `<String, Object>`
       * **requestLocationParameters**
 
-         이 사전의 값은 Target에 전송되는 요청의 "requestLocation" 개체에 삽입됩니다.
+         이 사전의 값은 Target에 전송되는 요청의 &quot;requestLocation&quot; 개체에 삽입됩니다.
 
          * **유형**: 맵 `<String, Object>`
       * **callback**
