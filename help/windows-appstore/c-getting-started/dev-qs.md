@@ -7,7 +7,7 @@ title: 개발자 빠른 시작
 topic: Developer and implementation
 uuid: b368959b-d985-436e-8b3e-97e355a97951
 translation-type: tm+mt
-source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+source-git-commit: 97e6d24b75e770685d440d31aa5ee8924a079501
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 2%
@@ -44,7 +44,7 @@ Windows 8.1 Universal App Store 라이브러리는 여러 프로그래밍 언어
 ## 프로젝트에 라이브러리 및 구성 파일 추가 - C Sharp {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
 
 1. Visual Studio를 실행하고 솔루션을 엽니다.
-1. 솔루션 **탐색기에서**&#x200B;참조를 마우스 오른쪽 **[!UICONTROL 으로 클릭하고]** 참조 **[!UIUCONTROL 추가]**&#x200B;를선택합니다.
+1. 솔루션 **탐색기에서**&#x200B;참조를 마우스 오른쪽 **[!UICONTROL 으로 클릭하고]** 참조 **[!UICONTROL 추가]**&#x200B;를선택합니다.
 
 1. 올바른 버전의 라이브러리를 선택하고 연결된 `ADBMobile.winmd` 파일을 찾습니다.
 
