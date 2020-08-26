@@ -7,7 +7,7 @@ title: Experience Cloud 솔루션용 Windows Visual Studio 확장 4.x SDK
 topic: Developer and implementation
 uuid: e48faf54-8b08-4224-9d80-e553a983129e
 translation-type: tm+mt
-source-git-commit: 38e63d6f4f85c2ced6364baa47646241ac783c12
+source-git-commit: 97e6d24b75e770685d440d31aa5ee8924a079501
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 1. GitHub에서 Windows Universal SDK를 [다운로드합니다](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases).
 1. 다운로드한 파일의 압축을 해제합니다.
-1. ADBMobileUniversalWindowsVSIX.vsix **[!UICONTRTOL ]** 파일을 두 번 클릭하여 설치 관리자를 엽니다.
+1. ADBMobileUniversalWindowsVSIX.vsix **** 파일을 두 번 클릭하여 설치 관리자를 엽니다.
 1. [ **[!UICONTROL 전역 위치]** ]를 선택하고 라이브러리를 설치합니다.
 
 ## 프로젝트에 참조 추가 {#section_00C14FE9243D4330BE1F4BB56FCF08B1}
