@@ -6,8 +6,11 @@ solution: Marketing Cloud,Analytics
 title: 구성 메서드
 topic: Developer and implementation
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
-translation-type: ht
-source-git-commit: ea4b054fbeea3967c28ee938aed5997a4c287a0d
+translation-type: tm+mt
+source-git-commit: 527f93ae4ec910d1d1ea3637eb3a62d749a14397
+workflow-type: tm+mt
+source-wordcount: '1198'
+ht-degree: 86%
 
 ---
 
@@ -20,11 +23,12 @@ source-git-commit: ea4b054fbeea3967c28ee938aed5997a4c287a0d
 
 * **setAppExtensionType**
 
-   Adobe Mobile SDK 설정을 구성하여 현재 어떤 종류의 확장이 실행되고 있는지 확인합니다.
+   현재 실행 중인 확장 종류를 결정하도록 Adobe Mobile SDK 설정을 구성합니다.
 
    다음 값 중 하나를 설정합니다.
    * `ADBMobileAppExtensionTypeRegular` - 확장 프로그램이 포함된 앱과 번들로 제공됩니다.
    * `ADBMobileAppExtensionTypeStandAlone` - 확장 프로그램이 포함된 앱과 번들로 제공되지 않습니다.
+
    >[!TIP]
    >
    >이 메서드는 앱에 확장 프로그램이 있거나 독립형 확장 프로그램인 경우에&#x200B;**만** 사용해야 합니다. 자세한 내용은 아래 *ADBMobileAppExtensionType*&#x200B;을 참조하십시오.
@@ -120,7 +124,7 @@ source-git-commit: ea4b054fbeea3967c28ee938aed5997a4c287a0d
 
 * **trackingIdentifier**
 
-   자동 생성된 방문자 식별자를 반환합니다. 이 식별자는 Adobe 서버에서 생성된 앱별 고유 방문자 ID입니다. 생성 당시 Adobe 서버에 도달할 수 없다면 이 ID가 Apple CFUUID를 사용하여 생성됩니다. 이 값은 처음 실행 시 생성된 다음 저장되며 그 이후부터 사용됩니다. 이 ID는 앱 업그레이드 시에도 보존되고, 표준 애플리케이션 백업 프로세스 중 저장 및 복원되며, 앱을 제거하면 삭제됩니다.
+   자동 생성된 방문자 식별자를 반환합니다. Adobe 서버에서 생성된 앱별 고유 방문자 ID입니다. 생성할 때 Adobe 서버에 연결할 수 없는 경우 Apple의 CFUUID를 사용하여 ID가 생성됩니다. 이 값은 초기 론치에서 생성되며 저장되고 그 때부터 사용됩니다. 이 ID는 앱 업그레이드 간에 유지되며 표준 애플리케이션 백업 프로세스 동안 저장 및 복원되며 제거 시 제거됩니다.
 
    >[!TIP]
    >
@@ -306,7 +310,7 @@ source-git-commit: ea4b054fbeea3967c28ee938aed5997a4c287a0d
 
 * **overrideConfigPath**
 
-   애플리케이션이 시작할 때 다른 ADBMobile JSON 구성 파일을 로드할 수 있게 합니다. 애플리케이션이 닫힐 때까지 다른 구성을 사용합니다.
+   응용 프로그램이 시작될 때 다른 ADBMobile JSON 구성 파일을 로드할 수 있습니다. 애플리케이션이 닫힐 때까지 다른 구성을 사용합니다.
 
    >[!IMPORTANT]
    >
@@ -349,12 +353,15 @@ source-git-commit: ea4b054fbeea3967c28ee938aed5997a4c287a0d
 
 * **setAdvertisingIdentifier**
 
-   SDK에 IDFA를 설정합니다. SDK에서 IDFA를 설정한 경우 IDFA가 라이프사이클에서 전송됩니다. 또한 IDFA는 신호(포스트백)에서 액세스할 수 있습니다.
+   SDK에 IDFA를 설정합니다. SDK에 IDFA가 설정된 경우 라이프사이클에서 IDFA가 전송됩니다. 신호(포스트백)에서도 액세스할 수 있습니다.
 
    >[!TIP]
    >
    >광고 서비스를 사용하는 경우&#x200B;**에만** Apple API에서 IDFA를 검색합니다. IDFA를 검색하고 올바르게 사용하지 않으면 앱이 거부될 수 있습니다.
-
+   >
+   >응용 프로그램에 IDFA가 필요한 경우, [Apple의 설명서를](https://developer.apple.com/documentation/adsupport) 통해 광고 추적 및 IDFA 값 검색에 대한 사용자의 선호도에 대해 문의하십시오.
+   >
+   >iOS 14+의 경우 IDFA 값을 성공적으로 검색하려면 새 [앱 추적 투명도](https://developer.apple.com/documentation/apptrackingtransparency) 프레임워크를 구현해야 합니다.
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```objective-c
@@ -364,7 +371,7 @@ source-git-commit: ea4b054fbeea3967c28ee938aed5997a4c287a0d
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```objective-c
-      NSString *idfa = [[[ASIdentifierManager sharedManager]advertisingIdentifier] UUIDString]; 
+      NSString *idfa = // retrieve IDFA using AdSupport (before iOS 14.0) and/or AppTrackingTransparency (iOS 14.0+)
       [ADBMobile setAdvertisingIdentifier:idfa]; 
       ```
 
