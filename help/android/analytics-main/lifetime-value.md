@@ -1,23 +1,23 @@
 ---
-description: 라이프타임 값을 사용하면 각 Android 사용자에 대한 라이프타임 값을 측정하고 타깃팅할 수 있습니다. 이 값을 사용하여 라이프타임 구매, 광고 보기, 비디오 완료, 소셜 공유, 사진 업로드 등을 저장할 수 있습니다.
-seo-description: 라이프타임 값을 사용하면 각 Android 사용자에 대한 라이프타임 값을 측정하고 타깃팅할 수 있습니다. 이 값을 사용하여 라이프타임 구매, 광고 보기, 비디오 완료, 소셜 공유, 사진 업로드 등을 저장할 수 있습니다.
+description: 라이프타임 값을 통해 각 Android 사용자의 라이프타임 값을 측정하고 타깃팅할 수 있습니다. 이 값은 라이프타임 구매, 광고 보기, 비디오 전체 보기, 소셜 네트워크 공유, 사진 업로드 등을 저장하는 데 사용할 수 있습니다.
+seo-description: 라이프타임 값을 통해 각 Android 사용자의 라이프타임 값을 측정하고 타깃팅할 수 있습니다. 이 값은 라이프타임 구매, 광고 보기, 비디오 전체 보기, 소셜 네트워크 공유, 사진 업로드 등을 저장하는 데 사용할 수 있습니다.
 seo-title: 방문자 라이프타임 값
 solution: Marketing Cloud,Analytics
 title: 방문자 라이프타임 값
 topic: Developer and implementation
 uuid: ba0308de-282e-46f9-a14c-19fb6d5c363e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
 
 # 방문자 라이프타임 값 {#visitor-lifetime-value}
 
-라이프타임 값을 사용하면 각 Android 사용자에 대한 라이프타임 값을 측정하고 타깃팅할 수 있습니다. 이 값을 사용하여 라이프타임 구매, 광고 보기, 비디오 완료, 소셜 공유, 사진 업로드 등을 저장할 수 있습니다.
+라이프타임 값을 통해 각 Android 사용자의 라이프타임 값을 측정하고 타깃팅할 수 있습니다. 이 값은 라이프타임 구매, 광고 보기, 비디오 전체 보기, 소셜 네트워크 공유, 사진 업로드 등을 저장하는 데 사용할 수 있습니다.
 
 `trackLifetimeValueIncrease`를 사용하여 값을 보낼 때마다 값이 기존 값에 추가됩니다. 라이프타임 값은 장치에 저장되며 `lifetimeValue`를 호출하여 언제든지 검색할 수 있습니다. 
 
