@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 마케팅 링크 획득 테스트
 topic: Developer and implementation
 uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '763'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 78%
 
 다음은 Android 장치에서 마케팅 링크가 포함된 획득 캠페인을 왕복하는 데 유용한 정보입니다.
 
-모바일 앱이 아직 Google Play에 없을 경우 마케팅 링크를 생성할 때 모바일 앱을 대상으로 선택할 수 있습니다. 획득 링크를 클릭한 후에만 획득 서버가 리디렉션하는 앱에만 영향을 주고 획득 링크를 테스트하는 기능에는 영향을 주지 않습니다. 쿼리 문자열 매개 변수가 Google Play 스토어에 전달되고 캠페인 브로드캐스트의 일부로 설치 시 앱에 전달됩니다. 양방향 모바일 앱 확보 테스트에서는 이러한 유형의 브로드캐스트를 시뮬레이션해야 합니다.
+모바일 앱이 아직 Google Play에 없을 경우 마케팅 링크를 생성할 때 모바일 앱을 대상으로 선택할 수 있습니다. 획득 링크를 클릭한 후 획득 서버가 리디렉션하는 앱에만 영향을 주지만 획득 링크를 테스트하는 기능에는 영향을 주지 않습니다. 쿼리 문자열 매개 변수가 Google Play 스토어에 전달되고 캠페인 브로드캐스트의 일부로 설치 시 앱에 전달됩니다. 양방향 모바일 앱 확보 테스트에서는 이러한 유형의 브로드캐스트를 시뮬레이션해야 합니다.
 
 테스트가 실행될 때마다 앱을 새로 설치하거나 **[!UICONTROL 설정]**&#x200B;에서 데이터를 지워야 합니다. 이렇게 하면 앱을 처음 시작할 때 캠페인 쿼리 문자열 매개 변수와 연결된 초기 라이프사이클 지표를 전달할 수 있습니다.
 
@@ -108,9 +108,9 @@ ht-degree: 78%
    "Analytics - Received Referrer Data(<A JSON Response>)"
    ```
 
-   이러한 로그가 표시되지 않으면 6단계부터 10단계까지 수행했는지 확인하십시오.
+   이러한 로그가 표시되지 않으면 6~ 10단계를 완료했는지 확인하십시오.
 
-   다음 표에는 가능한 오류에 대한 추가 정보가 나와 있습니다.
+   다음 표에는 가능한 오류에 대한 추가 정보가 포함되어 있습니다.
 
    | 오류 | 설명 |
    |--- |--- |
@@ -118,7 +118,7 @@ ht-degree: 78%
    | Analytics - Unable to parse response (`a JSON Response`). | JSON 문자열의 형식이 잘못되었습니다. |
    | Analytics - Unable to parse acquisition service response (no `contextData` parameter in response). | 응답에 `contextData` 매개 변수가 없습니다. |
    | Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | `a.referrer.campaign.name`이 contextData에 포함되어 있지 않습니다. |
-   | Analytics - Acquisition referrer timed out. | `referrerTimeout`에 정의된 시간 내에 응답을 가져오지 못했습니다. 값을 늘린 다음 다시 시도하십시오.  또한 앱을 설치하기 전에 획득 링크를 열어야 합니다. |
+   | Analytics - Acquisition referrer timed out. | `referrerTimeout`에 정의된 시간 내에 응답을 가져오지 못했습니다. 값을 늘린 다음 다시 시도하십시오.  또한 앱을 설치하기 전에 획득 링크를 열었는지 확인해야 합니다. |
 
 다음 정보를 숙지하십시오.
 
