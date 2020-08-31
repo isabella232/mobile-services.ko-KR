@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: '환경: 푸시 메시지'
 topic: Metrics
 uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '799'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -64,15 +64,15 @@ ht-degree: 74%
       >
       >다음 정보를 숙지하십시오.
       >* 이전 버전으로 보낸 리치 푸시 메시지는 전송은 되지만 텍스트만 표시됩니다.
-      >* 현재 시계 지원은 없습니다.
+      >* 현재 보기 지원은 없습니다.
 
 
-* **파일 포맷**
+* **파일 형식**
 
-   다음은 지원되는 파일 포맷입니다.
-   * 이미지:JPG 및 PNG
-   * 애니메이션(iOS만 해당):GIF
-   * 비디오(iOS만 해당):MP4
+   다음은 지원되는 파일 형식입니다.
+   * 이미지: JPG 및 PNG
+   * 애니메이션(iOS만 해당): GIF
+   * 비디오(iOS만 해당): MP4
 
 * **URL 형식**
    * HTTPS만 해당
@@ -133,6 +133,6 @@ ht-degree: 74%
 
    메시지를 두 개 이상의 장치에 푸시하려면 토큰을 쉼표로 구분된 목록으로 지정합니다.
 
-1. 메시지에 대한 예약 옵션을 구성합니다.
+1. 메시지의 예약 옵션을 구성합니다.
 
    자세한 내용은 [예약: 푸시 메시지](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)를 참조하십시오.
