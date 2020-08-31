@@ -1,23 +1,23 @@
 ---
-description: Adobe SDK를 사용하여 PII(개인 식별 정보)를 수집하고 이를 타사 종단점으로 보낼 수 있습니다.
-seo-description: Adobe SDK를 사용하여 PII(개인 식별 정보)를 수집하고 이를 타사 종단점으로 보낼 수 있습니다.
+description: Adobe SDK를 사용하여 PII(개인 식별 정보)를 수집하고 이를 타사 엔드포인트로 보낼 수 있습니다.
+seo-description: Adobe SDK를 사용하여 PII(개인 식별 정보)를 수집하고 이를 타사 엔드포인트로 보낼 수 있습니다.
 seo-title: PII 포스트백
 title: PII 포스트백
 uuid: 8d1f1fb8-6842-478b-a164-e7f727755bd9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
 
 # PII 포스트백 {#pii-postbacks}
 
-Adobe SDK를 사용하여 PII(개인 식별 정보)를 수집하고 이를 타사 종단점으로 보낼 수 있습니다.
+Adobe SDK를 사용하여 PII(개인 식별 정보)를 수집하고 이를 타사 엔드포인트로 보낼 수 있습니다.
 
-Adobe SDK를 사용하여 PII를 수집하려면 추적 PII 호출을 전송해야 합니다. 이 호출을 사용하면 PII 데이터를 수집할 수 있지만 SDK는 데이터를 Adobe 끝점으로 자동으로 전송하지 않습니다. PII 유형의 포스트백은 적절한 종단점으로 구성해야 합니다.
+Adobe SDK를 사용하여 PII를 수집하려면 추적 PII 호출을 전송해야 합니다. 이 호출을 사용하면 PII 데이터를 수집할 수 있지만 SDK는 데이터를 Adobe 엔드포인트로 자동 전송하지 않습니다. PII 유형의 포스트백은 적절한 종단점으로 구성해야 합니다.
 
 >[!TIP]
 >
