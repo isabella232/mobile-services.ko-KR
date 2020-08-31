@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 모바일 앱 획득
 topic: Developer and implementation
 uuid: 4d32eae9-e856-4e40-8a29-2b5bccd106e0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '876'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고
 
 >[!IMPORTANT]
 >
->To use Acquisition, you **must** have SDK version 4.1 or later.
+>획득을 사용하려면 SDK 버전 4.1 이상이 **있어야 합니다**.
 
 획득 링크는 Adobe Mobile 서비스에서 만들어야 합니다. 자세한 내용은 [획득](/help/using/acquisition-main/acquisition-main.md)을 참조하십시오.
 
