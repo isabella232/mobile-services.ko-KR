@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 새 앱 추가
 topic: Metrics
 uuid: 706b5e4d-1318-4a9e-8c69-ffabf51fa02c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '709'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 98%
 
       * **[!UICONTROL 표준]**
 
-         You can leave the **[!UICONTROL Standard]** option selected for most apps.
+         대부분의 앱에 대해 선택한 **[!UICONTROL 표준]** 옵션은 그대로 둘 수 있습니다.
 
       * **[!UICONTROL 발행]**
 
