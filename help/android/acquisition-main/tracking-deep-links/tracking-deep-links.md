@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 딥링크 추적
 topic: Developer and implementation
 uuid: ebb1c08c-a246-40b3-9ac6-4606a14b4c5a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 88%
    }
    ```
 
-The Adobe Mobile SDK can parse key and value pairs of data that is appended to any Deep or Universal Link as long as the link contains a key with the `a.deeplink.id` label and a corresponding non-null and user-generated value. 링크에 키 및 값이 포함되어 있는 한 해당 링크에 추가된 모든 키 및 값 쌍은 구문 분석하여 라이프사이클 히트에 추가된 다음 `a.deeplink.id`Adobe Analytics로 전송됩니다.
+Adobe Mobile SDK는 임의의 딥링크 또는 범용 링크에 `a.deeplink.id` 레이블과 해당하는 null이 아닌 사용자 생성 값이 포함된 키가 있을 경우 링크에 추가된 데이터의 키 및 값 쌍을 구문 분석할 수 있습니다. 링크에 키 및 값이 포함되어 있는 한 해당 링크에 추가된 모든 키 및 값 쌍은 구문 분석하여 라이프사이클 히트에 추가된 다음 `a.deeplink.id`Adobe Analytics로 전송됩니다.
 
 또한 사용자 생성 값을 포함한 다음 예약 키 중 하나 이상을 딥링크 또는 범용 링크에 추가할 수도 있습니다.
 
