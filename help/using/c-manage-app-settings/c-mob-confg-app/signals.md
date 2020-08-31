@@ -1,33 +1,33 @@
 ---
-description: 포스트백을 이용하면 Adobe Mobile에서 수집한 데이터를 별도의 타사 서버로 보낼 수 있습니다. 인앱 메시지를 표시하는 데 사용하는 것과 동일한 트리거와 트레이트를 활용하여 사용자 지정된 데이터를 타사 대상에 보내도록 Mobile Services를 구성할 수 있습니다.
-seo-description: 포스트백을 이용하면 Adobe Mobile에서 수집한 데이터를 별도의 타사 서버로 보낼 수 있습니다. 인앱 메시지를 표시하는 데 사용하는 것과 동일한 트리거와 트레이트를 활용하여 사용자 지정된 데이터를 타사 대상에 보내도록 Mobile Services를 구성할 수 있습니다.
+description: 포스트백을 이용하면 Adobe Mobile로 수집한 데이터를 별도의 타사 서버에 보낼 수 있습니다. 인앱 메시지를 표시하는 데 사용하는 것과 동일한 트리거와 트레이트를 이용하면 사용자 지정된 데이터를 타사 대상에 보내도록 Mobile Service를 구성할 수 있습니다.
+seo-description: 포스트백을 이용하면 Adobe Mobile로 수집한 데이터를 별도의 타사 서버에 보낼 수 있습니다. 인앱 메시지를 표시하는 데 사용하는 것과 동일한 트리거와 트레이트를 이용하면 사용자 지정된 데이터를 타사 대상에 보내도록 Mobile Service를 구성할 수 있습니다.
 seo-title: 포스트백 구성
 title: 포스트백 구성
 uuid: a026575c-057b-4868-b6c8-9514cbc32b4d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 
 # 포스트백 구성 {#configure-postbacks}
 
-포스트백을 이용하면 Adobe Mobile에서 수집한 데이터를 별도의 타사 서버로 보낼 수 있습니다. 인앱 메시지를 표시하는 데 사용하는 것과 동일한 트리거와 트레이트를 활용하여 사용자 지정된 데이터를 타사 대상에 보내도록 Mobile Services를 구성할 수 있습니다.
+포스트백을 이용하면 Adobe Mobile로 수집한 데이터를 별도의 타사 서버에 보낼 수 있습니다. 인앱 메시지를 표시하는 데 사용하는 것과 동일한 트리거와 트레이트를 이용하면 사용자 지정된 데이터를 타사 대상에 보내도록 Mobile Service를 구성할 수 있습니다.
 
 >[!IMPORTANT]
 >
 >포스트백을 사용하려면 4.6 SDK 이상을 설치해야 합니다. 자세한 내용은 [Android - 포스트백](/help/android/analytics-main/postbacks/postbacks.md) 또는 [iOS - 포스트백](/help/ios/analytics-main/postback/postback.md)을 참조하십시오.
 
-1. 원하는 앱 이름을 클릭하여 해당 앱 설정 관리 페이지로 이동하고 오른쪽 상단에 있는 ****&#x200B;포스트백 링크를 클릭합니다.
+1. 원하는 앱 이름을 클릭하여 해당 앱 설정 관리 페이지로 이동하고 오른쪽 상단에 있는 **[!UICONTROL 포스트백 관리]** 링크를 클릭합니다.
 1. **[!UICONTROL 포스트백 만들기를 클릭합니다]**.
 1. 필드에 다음 정보를 입력합니다.
 
    * **[!UICONTROL 포스트백 유형]**
 
-      **[!UICONTROL 사용자 지정을 선택합니다]**. 차후에 템플릿을 사용할 수 있을 것입니다.
+      **[!UICONTROL 사용자 지정]**&#x200B;을 선택합니다. 차후에 템플릿을 사용할 수 있을 것입니다.
 
    * **[!UICONTROL 이름]**
 
@@ -54,9 +54,9 @@ ht-degree: 71%
       포스트백을 트리거하는 데이터 태그나 조건을 하나 이상 지정합니다. 예를 들어, 트리거로 **[!UICONTROL 충돌함]**&#x200B;을 선택하고, 앱이 충돌할 때 포스트백을 트리거하는 조건으로 **[!UICONTROL 존재함]**&#x200B;을 선택할 수 있습니다. 포스트백을 활성화하는 지표를 지정할 수도 있습니다. 예를 들어, 트리거로 **[!UICONTROL 장치 이름]**&#x200B;을 선택하고, iPhone 6 Plus 장치에서 앱이 충돌할 때 포스트백을 활성화하는 조건으로 **[!UICONTROL 같음]**&#x200B;과 **[!UICONTROL iPhone 6 Plus]**&#x200B;를 선택할 수 있습니다.
 
    * **[!UICONTROL 트레이트]**
-   메시지가 트리거될 때 메시지를 볼 수 있는 사용자를 지정합니다. Options include **[!UICONTROL Session Length]**, **[!UICONTROL First Launch Date]**, and **[!UICONTROL App ID]**.
+   메시지가 트리거될 때 메시지를 볼 수 있는 사용자를 지정합니다. 옵션에는 **[!UICONTROL 세션 길이]**, **[!UICONTROL 첫 번째 실행 날짜]** 및 **[!UICONTROL 앱 ID]**&#x200B;가 있습니다.
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 포스트백을 만들고 이를 **[!UICONTROL 포스트백 관리 목록에 추가합니다.]**
+1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 포스트백을 만들고 이를 **[!UICONTROL 포스트백 관리]** 목록에 추가합니다.
 
    나중에 포스트백을 활성화하려면 다음 중 하나를 수행하십시오.
 
