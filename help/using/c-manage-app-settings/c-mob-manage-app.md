@@ -110,11 +110,11 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
    * **[!UICONTROL 십진수]**
    * **[!UICONTROL 통화]**
 
-## 관심 영역 관리{#section_990EF15E4E3B42CC807FCD9BEC8DB4C6}를 참조하십시오 
+## 관심 영역 관리를 참조하십시오 {#section_990EF15E4E3B42CC807FCD9BEC8DB4C6}
 
 관심 영역을 사용하여 상관 관계 목적으로 사용하고, 인앱 메시지로 타깃팅하는 등의 작업을 수행할 수 있는 지리적 위치를 정의할 수 있습니다. 히트가 관심 영역에서 전송되는 경우 해당 관심 영역이 해당 히트에 연결됩니다. 관심 영역에 대한 자세한 내용은 [관심 영역 관리](/help/using/location/t-manage-points.md).
 
-## 링크 대상 관리{#section_F722A387E22A430187B063D358A87711}를 참조하십시오 
+## 링크 대상 관리를 참조하십시오 {#section_F722A387E22A430187B063D358A87711}
 
 링크 대상을 작성, 편집, 보관/보관 해제 및 삭제할 수 있습니다. 이러한 대상을 만들면 마케팅 링크, 푸시 알림 또는 인앱 메시지를 작성할 때 인라인으로 호출할 수 있습니다. 링크 대상에 대한 자세한 내용은 [링크 대상 관리](/help/using/acquisition-main/c-manage-link-destinations/t-archive-unarchive-link-destinations.md)를 참조하십시오.
 
