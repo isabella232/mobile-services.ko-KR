@@ -6,11 +6,11 @@ solution: Marketing Cloud,Analytics
 title: 구성 메서드
 topic: Developer and implementation
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 527f93ae4ec910d1d1ea3637eb3a62d749a14397
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1198'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 86%
 
 
 
-* **버전**
+* **version**
 
    Adobe Mobile 라이브러리의 현재 버전을 반환합니다.
 
@@ -124,7 +124,7 @@ ht-degree: 86%
 
 * **trackingIdentifier**
 
-   자동 생성된 방문자 식별자를 반환합니다. Adobe 서버에서 생성된 앱별 고유 방문자 ID입니다. 생성할 때 Adobe 서버에 연결할 수 없는 경우 Apple의 CFUUID를 사용하여 ID가 생성됩니다. 이 값은 초기 론치에서 생성되며 저장되고 그 때부터 사용됩니다. 이 ID는 앱 업그레이드 간에 유지되며 표준 애플리케이션 백업 프로세스 동안 저장 및 복원되며 제거 시 제거됩니다.
+   자동 생성된 방문자 식별자를 반환합니다. Adobe 서버에서 생성된 앱별 고유 방문자 ID입니다. 생성 시 Adobe 서버에 연결할 수 없으면 Apple의 CFUUID를 사용하여 ID가 생성됩니다. 이 값은 시작 초기 기간에 생성되며 이 시점부터 저장되고 사용됩니다. 이 ID는 앱 업그레이드 간에 유지되고 표준 애플리케이션 백업 프로세스 동안 저장 및 복원되며 설치 제거 시 제거됩니다.
 
    >[!TIP]
    >
@@ -310,7 +310,7 @@ ht-degree: 86%
 
 * **overrideConfigPath**
 
-   응용 프로그램이 시작될 때 다른 ADBMobile JSON 구성 파일을 로드할 수 있습니다. 애플리케이션이 닫힐 때까지 다른 구성을 사용합니다.
+   애플리케이션이 시작될 때 다른 ADBMobile JSON 구성 파일을 로드할 수 있습니다. 애플리케이션이 닫힐 때까지 다른 구성을 사용합니다.
 
    >[!IMPORTANT]
    >
@@ -353,15 +353,15 @@ ht-degree: 86%
 
 * **setAdvertisingIdentifier**
 
-   SDK에 IDFA를 설정합니다. SDK에 IDFA가 설정된 경우 라이프사이클에서 IDFA가 전송됩니다. 신호(포스트백)에서도 액세스할 수 있습니다.
+   SDK에 IDFA를 설정합니다. SDK에 IDFA가 설정된 경우 라이프사이클에서 IDFA가 전송됩니다. 또한 신호(포스트백)에서 액세스할 수 있습니다.
 
    >[!TIP]
    >
    >광고 서비스를 사용하는 경우&#x200B;**에만** Apple API에서 IDFA를 검색합니다. IDFA를 검색하고 올바르게 사용하지 않으면 앱이 거부될 수 있습니다.
    >
-   >응용 프로그램에 IDFA가 필요한 경우, [Apple의 설명서를](https://developer.apple.com/documentation/adsupport) 통해 광고 추적 및 IDFA 값 검색에 대한 사용자의 선호도에 대해 문의하십시오.
+   >애플리케이션에 IDFA가 필요한 경우, [Apple의 설명서](https://developer.apple.com/documentation/adsupport)를 통해 광고 추적에 대한 사용자의 선호도를 문의하고 IDFA 값을 검색하십시오.
    >
-   >iOS 14+의 경우 IDFA 값을 성공적으로 검색하려면 새 [앱 추적 투명도](https://developer.apple.com/documentation/apptrackingtransparency) 프레임워크를 구현해야 합니다.
+   >iOS 14+의 경우 IDFA 값을 성공적으로 검색하려면 새 [앱 추적 투명도 프레임워크](https://developer.apple.com/documentation/apptrackingtransparency)를 구현해야 합니다.
    * 다음은 이 메서드에 대한 구문입니다.
 
       ```objective-c
