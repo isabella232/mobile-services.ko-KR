@@ -88,7 +88,7 @@ ht-degree: 100%
    am broadcast -a com.android.vending.INSTALL_REFERRER -n com.adobe.android/com.adobe.android.YourBroadcastReceiver --es "referrer" "utm_source=adb_acq_v3&utm_campaign=adb_acq_v3&utm_content=<unique id get on step 5>"
    ```
 
-1. `com.adobe.android`를 애플리케이션의 패키지 이름으로, 수신자 참조를 앱 내의 캠페인 추적 수신자 위치로 바꾼 다음 `utm_content`}와 연결된 값을 바꿉니다.
+1. `com.adobe.android`를 애플리케이션의 패키지 이름으로, 수신자 참조를 앱 내의 캠페인 추적 수신자 위치로 바꾼 다음 `utm_content`와 연결된 값을 바꿉니다.
 
    브로드캐스트가 성공하면 다음 예시와 같은 응답을 받게 됩니다.
 
