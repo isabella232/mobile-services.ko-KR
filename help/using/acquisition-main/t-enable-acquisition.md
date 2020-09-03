@@ -13,7 +13,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 ---
 
 
-# 획득 구성{#configure-acquisition}을 참조하십시오 
+# 획득 구성을 참조하십시오 {#configure-acquisition}
 
 마케팅 링크 추적 및 보고 기능을 사용하려면 SDK 구성에서 획득 추적을 활성화해야 합니다.
 
