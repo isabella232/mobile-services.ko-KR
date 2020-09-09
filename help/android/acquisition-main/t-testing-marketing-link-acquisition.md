@@ -7,9 +7,9 @@ solution: Marketing Cloud,Analytics
 title: 마케팅 링크 획득 테스트
 topic: Developer and implementation
 uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 100%
 
