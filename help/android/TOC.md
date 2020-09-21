@@ -1,14 +1,18 @@
 ---
 product: mobile-services
-audience: 최종 사용자
-user-guide-title: Mobile Services Android 도움말
-translation-type: ht
-source-git-commit: e3bbde6c27d583ff3ee8b7e86c8e6e73595f5067
+audience: end-user
+user-guide-title: 모바일 서비스 Android 안내서
+breadcrumb-title: Android Guide
+translation-type: tm+mt
+source-git-commit: 18ef20df0a32741685e35cee98a1adf4a1b823a1
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 97%
 
 ---
 
 
-# Mobile Services Android 도움말{#android}
+# Mobile Services Android Guide{#android}
 
 + [Experience Cloud 솔루션용 Android SDK 4.x](overview.md)
 + [릴리스 노트](rel-notes.md)
