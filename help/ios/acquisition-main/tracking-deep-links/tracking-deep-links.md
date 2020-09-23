@@ -2,11 +2,14 @@
 description: 다음은 Adobe Mobile iOS SDK를 사용하여 모바일 앱에서 딥링크와 지연된 딥링크를 추적하는 데 유용한 정보입니다.
 seo-description: 다음은 Adobe Mobile iOS SDK를 사용하여 모바일 앱에서 딥링크와 지연된 딥링크를 추적하는 데 유용한 정보입니다.
 seo-title: 딥링크 추적
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 딥링크 추적
 uuid: 08dc2820-7fd3-419f-ac2d-dcf12532578a
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '321'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +29,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
    자세한 내용은 [앱 간 통신](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW10) 또는 [범용 링크 지원](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)을 참조하십시오.
 
-1. openURL에서 딥링크를 추적합니다.
+1. openURL에서 딥 링크를 추적합니다.
 
    딥링크 추적 샘플은 다음과 같습니다.
 
