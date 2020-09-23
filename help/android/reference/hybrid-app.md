@@ -2,12 +2,15 @@
 description: 모바일 웹 콘텐츠를 여는 앱의 경우, 방문자가 기본 웹과 모바일 웹 사이를 이동할 때 개별적으로 식별되지 않도록 합니다.
 seo-description: 모바일 웹 콘텐츠를 여는 앱의 경우, 방문자가 기본 웹과 모바일 웹 사이를 이동할 때 개별적으로 식별되지 않도록 합니다.
 seo-title: 앱과 모바일 웹 간 방문자 추적
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 앱과 모바일 웹 간 방문자 추적
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 073572e4-4c55-4b27-b4a7-e4349ccde7bf
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 85%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ## 앱의 방문자 ID
 
-Android SDK는 앱이 설치될 때 고유 방문자 ID를 생성합니다. 이 ID는 모바일 장치의 영구 메모리에 저장되고 모든 히트와 함께 전송되며 사용자가 앱 설치를 제거하는 경우에만 제거됩니다.
+Android SDK는 앱이 설치되면 고유 방문자 ID를 생성합니다. 이 ID는 모바일 장치의 영구 메모리에 저장되고 모든 히트와 함께 전송되며 사용자가 앱을 제거할 때만 제거됩니다.
 
 >[!TIP]
 >
@@ -59,7 +62,7 @@ Android SDK는 앱이 설치될 때 고유 방문자 ID를 생성합니다. 이 
    });
    ```
 
-대상 도메인의 ID 서비스 코드는 Adobe에 새 ID 요청을 전송하는 대신 URL에서 MID를 추출합니다. 이 코드는 전달된 MID를 사용하여 방문자를 추적합니다.
+대상 도메인의 ID 서비스 코드는 새 ID에 대한 요청을 Adobe으로 보내는 대신 URL에서 MID를 추출합니다. 이 코드는 MID로 전달된 방문자를 사용하여 방문자를 추적합니다.
 
 모바일 웹 콘텐츠의 히트에서 각 히트에 `mid` 매개 변수가 있는지 확인하고 이 값이 앱 코드에서 전송되는 `mid`와 일치하는지 확인합니다.
 
