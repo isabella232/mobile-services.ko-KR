@@ -3,12 +3,12 @@ description: 다음은 Android 장치에서 마케팅 링크가 포함된 획득
 keywords: android;library;mobile;sdk
 seo-description: 다음은 Android 장치에서 마케팅 링크가 포함된 획득 캠페인을 왕복하는 데 유용한 정보입니다.
 seo-title: 마케팅 링크 획득 테스트
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 마케팅 링크 획득 테스트
 topic: Developer and implementation
 uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
 translation-type: tm+mt
-source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 100%
