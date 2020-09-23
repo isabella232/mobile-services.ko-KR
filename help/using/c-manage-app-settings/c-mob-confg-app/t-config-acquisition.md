@@ -3,12 +3,15 @@ description: 새 앱을 만들거나 기존 앱을 편집하는 동안 앱 설�
 keywords: mobile
 seo-description: 새 앱을 만들거나 기존 앱을 편집하는 동안 앱 설정 관리 페이지에서 SDK 획득 옵션을 구성할 수 있습니다.
 seo-title: SDK 획득 옵션 구성
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: SDK 획득 옵션 구성
-topic: 지표
+topic: Metrics
 uuid: 50ce51ad-39bf-4ac7-bd94-757443d11ca7
-translation-type: ht
-source-git-commit: 74b3597ce849aa114e6638e89741da3f6e1bee19
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '174'
+ht-degree: 100%
 
 ---
 
@@ -31,4 +34,4 @@ source-git-commit: 74b3597ce849aa114e6638e89741da3f6e1bee19
 
    * **[!UICONTROL 더 자세히]**
 
-      앱의 추적 ID를 보려면 **[!UICONTROL 더 자세히]링크를 클릭하십시오.**
+      앱의 추적 ID를 보려면 **[!UICONTROL 더 자세히]** 링크를 클릭하십시오.
