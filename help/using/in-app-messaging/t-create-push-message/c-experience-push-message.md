@@ -3,13 +3,13 @@ description: 이름, 메시지 텍스트 및 대상 옵션을 비롯한 푸시 �
 keywords: mobile
 seo-description: 이름, 메시지 텍스트 및 대상 옵션을 비롯한 푸시 메시지 및 리치 푸시 메시지에 대한 경험 옵션을 구성할 수 있습니다. iOS 장치에 대한 페이로드 옵션 및 사용자 정의 옵션을 비롯한 고급 옵션을 구성할 수도 있습니다.
 seo-title: '환경: 푸시 메시지'
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: '환경: 푸시 메시지'
 topic: Metrics
 uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
-translation-type: ht
-source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 100%
 
