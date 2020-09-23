@@ -1,14 +1,17 @@
 ---
 description: 다음은 비디오 측정 솔루션으로 Android에서 비디오를 측정하는 방법에 대한 정보입니다.
-keywords: android;라이브러리;모바일;sdk
+keywords: android;library;mobile;sdk
 seo-description: 다음은 비디오 측정 솔루션으로 Android에서 비디오를 측정하는 방법에 대한 정보입니다.
 seo-title: Video Analytics
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Video Analytics
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: a137cc27-dc28-48c0-b08e-2ca17d2c7e1d
-translation-type: ht
-source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 85%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 >[!TIP]
 >
->비디오 재생 중 빈번한 "하트비트" 호출이 이 서비스로 전송되어 재생 시간이 측정됩니다. 이러한 하트비트 호출은 10초 간격으로 전송되므로 더 세부적인 비디오 참여 지표와 더 정확한 비디오 폴아웃 보고서를 얻을 수 있습니다. Adobe의 비디오 측정 솔루션에 대한 자세한 내용은 [Adobe Analytics에서 오디오 및 비디오 측정](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html)을 참조하십시오.
+>비디오 재생 중 빈번한 &quot;하트비트&quot; 호출이 이 서비스로 전송되어 재생 시간이 측정됩니다. 이러한 하트비트 호출은 10초 간격으로 전송되므로 더 세부적인 비디오 참여 지표와 더 정확한 비디오 폴아웃 보고서를 얻을 수 있습니다. Adobe의 비디오 측정 솔루션에 대한 자세한 내용은 [Adobe Analytics에서 오디오 및 비디오 측정](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html)을 참조하십시오.
 
 비디오를 측정하는 일반적인 프로세스는 모든 플랫폼에서 유사합니다. 이 콘텐츠는 코드 샘플을 사용하는 개발자 작업에 대한 개요를 제공합니다. 다음 표에는 Analytics에 전송되는 미디어 데이터가 나열되어 있습니다. 처리 규칙은 컨텍스트 데이터를 Analytics 변수에 매핑하는 데 사용됩니다.
 
@@ -28,9 +31,9 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 * **a.media.name**
    * 변수 유형: eVar
       * 기본 만료: 방문
-      * Custom Insight(s.prop, 비디오 경로 지정에 사용됨)
-   * (**필수**) 방문자가 어떤 방법으로 비디오를 시청할 때 이 컨텍스트 데이터 변수는 구현에 지정된 대로 비디오의 이름을 수집합니다. 이 변수에 대한 분류를 추가할 수 있습니다.
-   * (**선택 사항**) Custom Insight 변수는 비디오 경로 지정 정보를 제공합니다.
+      * 사용자 지정 인사이트(s.prop, 비디오 경로 지정에 사용)
+   * (**필수**) 방문자가 비디오를 보는 경우 이 컨텍스트 데이터 변수는 구현에 지정된 비디오 이름을 수집합니다. 이 변수에 대한 분류를 추가할 수 있습니다.
+   * (**Optional**) The Custom Insight variable provides video pathing information.
 
 * **a.media.name**
    * 변수 유형: 사용자 지정 통찰력(s.prop)
@@ -44,16 +47,17 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 * **a.media.segment**
    * 변수 유형: eVar
    * 기본 만료: 페이지 보기
-   * (**필수**) 세그먼트 이름 및 비디오에서 세그먼트가 발생하는 순서를 포함하여 비디오 세그먼트 데이터를 수집합니다.
+   * (**Required**) Collects video segment data, including the segment name and the order in which the segment occurs in the video.
 
       이 변수는 플레이어 이벤트를 자동으로 추적할 때 `segmentByMilestones` 변수를 활성화하거나, 플레이어 이벤트를 수동으로 추적할 때 사용자 지정 세그먼트 이름을 설정하여 채워집니다. 예를 들어 방문자가 비디오에서 첫 번째 세그먼트를 볼 경우 SiteCatalyst가 세그먼트 eVar에서 다음을 수집할 수 있습니다. `1:M:0-25`
 
-      기본 비디오 데이터 수집 메서드는 다음 시점에서 데이터를 수집합니다.
+      기본 비디오 데이터 수집 방법의 경우, 다음 시점에서 데이터를 수집합니다.
 
       * 비디오 시작(재생)
       * 세그먼트 시작
       * 비디오 종료(중지)
-      Analytics에서는 방문자가 시청을 시작하면 세그먼트 시작 시 첫 번째 세그먼트 보기를 카운트합니다. 이후 세그먼트 보기는 세그먼트가 시작될 때 카운트됩니다.
+
+      Analytics에서는 방문자가 시청을 시작할 때 세그먼트 시작에서 첫 번째 세그먼트 보기를 계산합니다. 세그먼트가 시작될 때 표시되는 후속 세그먼트 보기.
 
 
 * **a.contentType**
@@ -66,7 +70,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 * **a.media.timePlayed**
    * 변수 유형: 이벤트
    * 유형:카운터
-   * 마지막 데이터 컬렉션 처리(이미지 요청) 이후 비디오를 시청하는 데 걸린 시간(초)을 계산합니다.
+   * 마지막 데이터 수집 프로세스(이미지 요청) 이후 비디오를 시청하는 데 걸린 시간(초)을 카운트합니다.
 
 * **a.media.view**
    * 변수 유형: 이벤트
@@ -87,7 +91,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
    * 유형:카운터
    * 사용자가 비디오 전체를 보았음을 의미합니다.
 
-      기본적으로 완료 이벤트는 비디오 종료 1초 전에 측정됩니다. 구현 중에 비디오 종료 몇 초 전을 보기 완료로 고려할 것인지 지정할 수 있습니다. 정의된 끝이 없는 라이브 비디오 및 기타 스트림의 경우 특정 시간 이후와 같이 사용자 지정 지점을 지정하여 완료를 측정할 수 있습니다.
+      기본적으로 완료 이벤트는 비디오 종료 1초 전에 측정됩니다. 구현 중에 비디오가 끝난 후 보기를 완료로 간주할 비디오 종료 시간(초)을 지정할 수 있습니다. 정의된 끝이 없는 라이브 비디오 및 기타 스트림의 경우, 사용자 지정 지점을 지정하여 완료를 측정할 수 있습니다(예: 본 특정 시간 후).
 
 
 ## 미디어 설정 구성 {#section_929945D4183C428AAF3B983EFD3E2500}
@@ -203,6 +207,7 @@ public boolean eventFirstTime;
       이름이 *name*&#x200B;인 미디어 항목을 닫습니다.
 
       * 다음은 이 메서드에 대한 구문입니다.
+
       ```java
       public static void close(String name);
       ```
