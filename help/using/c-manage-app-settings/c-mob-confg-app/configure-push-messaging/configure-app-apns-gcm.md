@@ -3,12 +3,15 @@ description: 앱에서 APNS(Apple 푸시 알림 서비스) 또는 FCM(Firebase �
 keywords: mobile
 seo-description: 앱에서 APNS(Apple 푸시 알림 서비스) 또는 FCM(Firebase 클라우드 메시징)을 사용하도록 구성할 수 있습니다.
 seo-title: APNS 또는 FCM 사용을 위한 앱 구성
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: APNS 또는 FCM 사용을 위한 앱 구성
-topic: 지표
+topic: Metrics
 uuid: fa411f2a-ba47-4499-bbe5-1aedef6b49ad
-translation-type: ht
-source-git-commit: 608384f1fee2a05699ff13fbd51c3cc43aeb693c
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '652'
+ht-degree: 90%
 
 ---
 
@@ -83,10 +86,10 @@ source-git-commit: 608384f1fee2a05699ff13fbd51c3cc43aeb693c
 
 APNS를 사용하도록 iOS 앱을 구성하려면 다음을 수행하십시오.
 
-1. [https://developer.apple.com/account](https://developer.apple.com/account)로 이동하고 [Apple 개발자 계정](https://developer.apple.com/account)에 로그인합니다.
+1. Go to [https://developer.apple.com/account](https://developer.apple.com/account) and log in to your [Apple Developer account](https://developer.apple.com/account).
 1. **[!UICONTROL iOS 앱]**&#x200B;에서 **[!UICONTROL ID]**&#x200B;를 선택합니다.
 1. 푸시용으로 설정된 앱 ID가 있는 경우 11단계로 이동합니다.
-1. **[!UICONTROL +]** 단추를 눌러 새 앱 ID를 만듭니다.
+1. Press the **[!UICONTROL +]** button to create a new App ID.
 1. 앱 ID 설명을 입력합니다.
 1. 앱 ID 접미사를 입력합니다.
 
@@ -97,7 +100,7 @@ APNS를 사용하도록 iOS 앱을 구성하려면 다음을 수행하십시오.
 1. **[!UICONTROL 앱 서비스]**&#x200B;에서 **[!UICONTROL 푸시 알림]** 확인란을 선택합니다.
 1. **[!UICONTROL 계속을 클릭합니다]**.
 1. **[!UICONTROL 제출을 클릭합니다]**.
-1. **[!UICONTROL 완료를 클릭합니다]**.
+1. **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
 1. 목록에서 푸시 메시지를 사용하도록 설정된 앱 ID를 선택하고 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 1. 이미 만들어진 푸시 인증서가 있다면 15단계로 건너뛰십시오.
 1. **[!UICONTROL 푸시 알림]**&#x200B;까지 아래로 스크롤한 다음 적합한 **[!UICONTROL 인증서 만들기...]** 버튼을 클릭합니다.
@@ -114,10 +117,10 @@ SSL 인증서 및 개인 키(APNS)를 받으려면 다음을 수행합니다.
 1. **[!UICONTROL 키체인 액세스]**&#x200B;를 엽니다.
 1. **[!UICONTROL 내 인증서]**&#x200B;를 클릭하고 앱과 환경에 적합한 **[!UICONTROL iOS 푸시 서비스 인증서]**&#x200B;를 찾습니다.
 
-   번들 ID를 일치시켜 올바른 인증서를 식별하고, 개발 인증서인지 아니면 프로덕션 인증서인지 식별할 수 있습니다.
+   번들 ID와 개발 또는 제작인지 여부를 일치시켜 올바른 인증서를 식별할 수 있습니다.
 
 1. 인증서를 확장하고 개인 키가 들어 있는지 확인합니다.
-1. 개인 키를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL "*`<name of key>`*]** 내보내기를 선택합니다.
+1. 개인 키를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL &quot;*`<name of key>`*]**내보내기를 선택합니다.
 1. 대화 상자에 필요한 정보를 입력하고 새 `.p12` 파일을 저장합니다.
 
    암호를 입력하지 않아도 됩니다.
