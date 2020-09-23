@@ -1,13 +1,16 @@
 ---
 description: 이 항목에서는 획득 테스트 중에 발생할 수 있는 문제를 해결하는 방법에 대해 설명합니다.
-keywords: android;라이브러리;모바일;sdk
+keywords: android;library;mobile;sdk
 seo-description: 이 항목에서는 획득 테스트 중에 발생할 수 있는 문제를 해결하는 방법에 대해 설명합니다.
 seo-title: 획득 테스트 문제 해결
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 획득 테스트 문제 해결
-topic: 개발자 및 구현
-translation-type: ht
-source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
+topic: Developer and implementation
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 100%
 
 ---
 
