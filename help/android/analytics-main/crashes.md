@@ -2,13 +2,13 @@
 description: 다음은 충돌을 추적하는 방법을 이해하고 허위 충돌을 처리하는 우수 사례를 확인하는 데 유용한 정보입니다.
 seo-description: 다음은 충돌을 추적하는 방법을 이해하고 허위 충돌을 처리하는 우수 사례를 확인하는 데 유용한 정보입니다.
 seo-title: 앱 충돌 추적
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 앱 충돌 추적
 topic: Developer and implementation
 uuid: 3ab98c14-ccdf-4060-ad88-ec07c1c6bf07
-translation-type: ht
-source-git-commit: 161212216565d56e346abc664197fedbea83d6a0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 100%
 
