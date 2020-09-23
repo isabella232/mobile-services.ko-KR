@@ -2,51 +2,54 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Analytics
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Analytics
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: c2cef3d3-77a7-4a8e-bbe4-3db10a77996a
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '940'
+ht-degree: 11%
 
 ---
 
 
 # Analytics {#analytics}
 
-After you add the library to your project, you can make any of the Analytics method calls anywhere in your app.
+프로젝트에 라이브러리를 추가한 후 앱의 아무 곳에나 Analytics 메서드를 호출할 수 있습니다.
 
 >[!TIP]
 >
->Ensure that you import  to your class.`ADBMobile.h`
+>클래스에 가져오기 `ADBMobile.h` 를 확인합니다.
 
-## Enable mobile application reports in Analytics {#section_F2F9234009184F20BA36B5CDE872B424}
+## Analytics에서 모바일 애플리케이션 보고서 활성화 {#section_F2F9234009184F20BA36B5CDE872B424}
 
-코드를 추가하기 전에, 모바일 앱 라이프사이클 추적을 사용하도록 설정하려면 Analytics 관리자가 다음을 완료하도록 하십시오. 이렇게 하면 개발을 시작할 때 보고서 세트가 메트릭을 캡처할 준비를 합니다.
+코드를 추가하기 전에 Analytics 관리자가 다음을 완료하여 모바일 앱 라이프사이클 추적을 활성화하도록 하십시오. 이렇게 하면 개발을 시작할 때 보고서 세트가 지표를 캡처할 준비가 됩니다.
 
-1. Open **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Report Suites]** and select your mobile report suite(s).
+1. 관리 **[!UICONTROL 도구]** > **[!UICONTROL 보고서 세트를]** 열고 모바일 보고서 세트를 선택합니다.
 
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
+1. 설정 **[!UICONTROL 편집]** > **[!UICONTROL 모바일 관리]** > **[!UICONTROL 모바일 애플리케이션 보고]**&#x200B;를 클릭합니다.
 
    ![](assets/mobile-settings.png)
 
-1. **[!UICONTROL 최신 앱 보고서 사용을 클릭합니다]**.
+1. 최신 **[!UICONTROL 앱 보고서 활성화를 클릭합니다]**.
 
-   Optionally, you can also click **[!UICONTROL Enable Mobile Location Tracking]** or **[!UICONTROL Enable Legacy Reporting and Attribution for background hits]**.
+   원할 경우, 모바일 위치 추적 **[!UICONTROL 활성화]** 또는 **[!UICONTROL 백그라운드 히트에 대한 레거시 보고 및 속성 활성화를 클릭할 수도 있습니다]**.
 
    ![](assets/enable-lifecycle.png)
 
-이제 라이프사이클 지표를 캡처할 준비가 되었으며, 마케팅 보고서 인터페이스의 보고서 메뉴에 **모바일 애플리케이션 보고서**&#x200B;가 표시됩니다.
+이제 라이프사이클 지표를 캡처할 준비가 되었으며, 모바일 애플리케이션 보고서가 마케팅 보고서 인터페이스의 **[!UICONTROL 보고서]** 메뉴에 나타납니다.
 
-### 새 버전
+### 새로운 버전
 
-주기적으로 모바일 애플리케이션 보고의 새 버전이 출시됩니다. 새 버전은 보고서 세트에 자동으로 적용되지 않습니다. 업그레이드를 수행하려면 이러한 단계를 반복해야 합니다. 앱에 새로운 Experience Cloud 기능을 추가할 때마다 이러한 단계를 반복하여 최신 구성이 있는지 확인하는 것이 좋습니다.
+모바일 애플리케이션 보고의 새로운 버전이 정기적으로 릴리스됩니다. 새 버전은 보고서 세트에 자동으로 적용되지 않으므로 업그레이드를 수행하려면 이러한 단계를 반복해야 합니다. 앱에 새 Experience Cloud 기능을 추가할 때마다 최신 구성을 유지하려면 이 단계를 반복하는 것이 좋습니다.
 
-## Lifecycle metrics {#section_532702562A7A43809407C9A2CBA80E1E}
+## 라이프사이클 지표 {#section_532702562A7A43809407C9A2CBA80E1E}
 
-앱에서 라이프사이클 메트릭을 수집하려면 애플리케이션이 다음 예제에 표시된 대로 활성화될 때 호출을 추가하십시오.
+앱에서 라이프사이클 지표를 수집하려면 다음 예와 같이 애플리케이션이 활성화되면 호출을 추가합니다.
 
-### WinJS in default.js
+### default.js의 WinJS
 
 ```js
 app.onactivated = function (args) { 
@@ -61,7 +64,7 @@ app.oncheckpoint = function (args) {
 }
 ```
 
-### C# in App.xaml.cs
+### App.xaml.cs의 C#
 
 ```js
 public App() 
@@ -118,31 +121,31 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 }
 ```
 
-If `CollectLifecycleData()` is called twice in the same session, your application reports a crash on every call after the first. SDK는 애플리케이션이 성공적으로 종료되었을 때 플래그를 설정합니다. If this flag is not set, `CollectLifecyleData()` reports a crash.
+동일한 세션 `CollectLifecycleData()` 에서 두 번 호출되면 첫 번째 호출 후 모든 호출에서 충돌이 보고됩니다. 애플리케이션이 종료될 때 SDK는 성공적으로 종료되었음을 나타내는 플래그를 설정합니다. 이 플래그가 설정되지 않은 경우 `CollectLifecyleData()` 충돌을 보고합니다.
 
-## Events, props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
+## Event, Prop 및 eVar {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
-If you've looked at [SDK methods](/help/universal-windows/c-configuration/methods.md), you are probably wondering where to set events, eVars, props, heirs, and lists. 버전 4에서는 더 이상 이러한 유형의 변수를 앱에서 직접 할당할 수 없습니다. 대신 SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 Analytics 변수에 앱 데이터를 매핑하여 보고합니다.
+SDK 방법을 살펴본 [](/help/universal-windows/c-configuration/methods.md)경우 이벤트, eVar, prop, 상속인 및 목록을 어디에 설정해야 하는지 궁금해 할 것입니다. 버전 4에서는 더 이상 앱에서 바로 이러한 유형의 변수를 할당할 수 없습니다. 대신, SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 보고를 위해 앱 데이터를 Analytics 변수에 매핑합니다.
 
-처리 규칙은 몇 가지 장점을 제공합니다.
+처리 규칙은 다음과 같은 여러 이점을 제공합니다.
 
-* 앱 스토어에 업데이트를 제출하지 않고도 데이터 매핑을 변경할 수 있습니다.
-* 보고서 세트와 관련된 변수를 설정하는 대신 의미 있는 이름을 데이터에 사용할 수 있습니다.
-* 추가 데이터를 보내는 작업에는 거의 영향을 미치지 않습니다. 이러한 값은 처리 규칙을 사용하여 매핑될 때까지 보고서에 표시되지 않습니다.
+* App Store에 업데이트를 제출하지 않고 데이터 매핑을 변경할 수 있습니다.
+* 보고서 세트에 고유한 변수를 설정하는 대신 데이터에 의미 있는 이름을 사용할 수 있습니다.
+* 추가 데이터 전송에는 거의 영향을 주지 않습니다. 이러한 값은 처리 규칙을 사용하여 매핑될 때까지 보고서에 표시되지 않습니다.
 
-변수에 직접 할당한 값은 대신 컨텍스트 데이터에 추가해야 합니다.
+변수에 직접 할당했던 모든 값을 컨텍스트 데이터에 추가해야 합니다.
 
 ## 처리 규칙 {#section_66EE762EEA5E4728864166201617DEBF}
 
-처리 규칙은 컨텍스트 데이터 변수로 보내는 데이터를 보고용으로 evar, prop 및 기타 변수에 복사하는 데 사용됩니다.
+처리 규칙은 컨텍스트 데이터 변수에서 전송한 데이터를 보고를 위해 evar, prop 및 기타 변수에 복사하는 데 사용됩니다.
 
-[처리 규칙 교육](https://tv.adobe.com/embed/1181/16506/)(Summit 2013)
+[Summit 2013에서 처리 규칙](https://tv.adobe.com/embed/1181/16506/) 교육
 
-[처리 규칙 도움말](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)
+[처리 규칙 도움말](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
-[처리 규칙 사용 인증 받기](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
+[처리 규칙 사용 권한 부여](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
 
-'네임스페이스'를 사용하여 컨텍스트 데이터 변수를 그룹화하십시오. 이렇게 하면 논리적 순서를 유지할 수 있습니다. 예를 들어 제품에 대한 정보를 수집할 경우 다음 변수를 정의할 수 있습니다.
+논리 순서를 유지하는 데 도움이 되므로 &quot;네임스페이스&quot;를 사용하여 컨텍스트 데이터 변수를 그룹화하는 것이 좋습니다. 예를 들어 제품에 대한 정보를 수집하려는 경우 다음 변수를 정의할 수 있습니다.
 
 ```javascript
 "product.type":"hat" 
@@ -150,27 +153,27 @@ If you've looked at [SDK methods](/help/universal-windows/c-configuration/method
 "product.color":"blue"
 ```
 
-컨텍스트 데이터 변수는 처리 규칙 인터페이스에서 알파벳순으로 정렬되어 동일한 네임스페이스에 있는 변수를 빠르게 확인할 수 있습니다.
+컨텍스트 데이터 변수는 처리 규칙 인터페이스에서 알파벳순으로 정렬되므로 네임스페이스에 동일한 변수가 있는 것을 빠르게 볼 수 있습니다.
 
-컨텍스트 데이터 키의 이름을 지정할 경우 evar 또는 prop 번호를 사용하지 마십시오.
+또한 일부 사용자가 evar 또는 prop 번호를 사용하여 컨텍스트 데이터 키의 이름을 지정한다는 소식을 들었습니다.
 
 ```js
 "eVar1":"jimbo"
 ```
 
-이렇게 하면 처리 규칙에서 일회 매핑을 수행할 때 *약간* 간편해질 수 있지만 디버깅 및 향후 코드 업데이트에서는 가독성이 떨어져 더 어려워질 수 있습니다. 대신 키와 값에 대한 설명이 포함된 이름을 사용하는 것이 좋습니다.
+이 경우 처리 규칙에서 한 번 매핑을 수행할 때 *약간* 더 쉬워질 수 있지만 디버깅 및 향후 코드 업데이트 중에 가독성을 잃게 될 수 있습니다. 대신 키 및 값에 설명 이름을 사용하는 것이 좋습니다.
 
 ```js
 "username":"jimbo"
 ```
 
-카운터 이벤트를 정의하는 컨텍스트 변수는 값 '1'로 설정해야 합니다.
+카운터 이벤트를 정의하는 컨텍스트 변수를 &quot;1&quot; 값으로 설정합니다.
 
 ```js
 "logon":"1"
 ```
 
-상향 조정기 이벤트를 정의하는 컨텍스트 데이터 변수는 증분값을 가질 수 있습니다.
+상향 조정기 이벤트를 정의하는 컨텍스트 데이터 변수는 증가할 값을 가질 수 있습니다.
 
 ```js
 "levels completed":"6"
@@ -178,36 +181,36 @@ If you've looked at [SDK methods](/help/universal-windows/c-configuration/method
 
 >[!TIP]
 >
->Adobe reserves the namespace . `a.` 이러한 제한 사항 외에 컨텍스트 데이터 변수는 충돌을 방지하기 위해 로그인 회사에서 고유해야 합니다.
+>Adobe는 `a.` 네임스페이스를 예약합니다. 이러한 제한 사항 외에, 충돌을 방지하기 위해 컨텍스트 데이터 변수는 로그인 회사에서 고유해야 합니다.
 
-## Products variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
+## Products 변수 {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
-To set  in the mobile SDK, you must use a special syntax. *`products`* For more information, see Products variable.[](/help/universal-windows/analytics/products.md)
+모바일 SDK *`products`* 에서 설정하려면 특수 구문을 사용해야 합니다. 자세한 내용은 [제품 변수를 참조하십시오](/help/universal-windows/analytics/products.md).
 
-## (Optional) Enable offline tracking {#section_955B2A03EB854742BDFC4A0A3C287009}
+## (선택 사항) 오프라인 추적 활성화 {#section_955B2A03EB854742BDFC4A0A3C287009}
 
-To store hits when the device is offline, you can enable offline tracking in the [SDK methods](/help/universal-windows/c-configuration/methods.md) file. 오프라인 추적을 활성화하기 전에 구성 파일 참조에 설명된 타임스탬프 요구 사항에 주의하십시오.
+장치가 오프라인 상태일 때 히트를 저장하려면 [SDK 메서드](/help/universal-windows/c-configuration/methods.md) 파일에서 오프라인 추적을 활성화할 수 있습니다. 오프라인 추적을 활성화하기 전에 구성 파일 참조에 설명된 타임스탬프 요구 사항에 주의하십시오.
 
-## Geo-location and points of interest {#section_BAD34A8DD013454DB355121316BD7FD4}
+## 지리적 위치 및 관심 영역 {#section_BAD34A8DD013454DB355121316BD7FD4}
 
-지리적 위치를 사용하면 위치 데이터(위도/경도) 및 사전 정의된 관심 영역을 측정할 수 있습니다. Each `TrackLocation` call sends:
+지리적 위치를 사용하면 위치 데이터(위도/경도) 및 사전 정의된 관심 영역을 측정할 수 있습니다. 각 `TrackLocation` 호출은 다음을 전송합니다.
 
-* 경도/위도 및 POI(`ADBMobileConfig.json` 구성 파일에 정의된 POI 내에 있는 경우).
+* 위도/경도 및 POI(구성 파일에 정의된 POI 내 `ADBMobileConfig.json` 의 경우).
 
-   이 정보는 자동 보고를 위해 모바일 솔루션 변수로 전달됩니다.
+   이러한 값은 자동 보고를 위해 모바일 솔루션 변수로 전달됩니다.
 
-* 중심으로부터 떨어진 거리 및 정확도 - 컨텍스트 데이터로 전달됨.
+* 컨텍스트 데이터로 전달된 중앙으로부터의 거리 및 정확도
 
    처리 규칙을 사용하여 캡처합니다.
 
-위치를 추적하려면:
+위치를 추적하려면
 
 ```js
 var ADB = ADBMobile; 
 ADB.Analytics.trackLocation(37.75345, -122.33207, null);
 ```
 
-`ADBMobileConfig.json` 구성 파일에 다음 POI가 정의된 경우:
+구성 파일에 다음 POI가 정의된 `ADBMobileConfig.json` 경우:
 
 ```js
 "poi" : [ 
@@ -215,7 +218,7 @@ ADB.Analytics.trackLocation(37.75345, -122.33207, null);
         ]
 ```
 
-When the device location is determined to be within a 7000 meter radius of the defined point, an `a.loc.poi` context data variable with the value `San Francisco` is sent in with the `TrackLocation` hit. `a.loc.dist` 컨텍스트 변수도 정의된 좌표로부터 떨어진 거리(단위: 미터)와 함께 전송됩니다.
+장치 위치가 정의된 지점의 7000미터 반경 내에 있다고 판단되면, 값이 있는 `a.loc.poi` 컨텍스트 데이터 변수 `San Francisco` 가 `TrackLocation` 히트와 함께 전송됩니다. An `a.loc.dist` context variable is sent with the distance in meters from the defined coordinates.
 
 ## Lifetime value {#section_D2C6971545BA4D639FBE07F13EF08895}
 
@@ -232,12 +235,12 @@ cdata["PurchasePrice"] = purchasePrice;
 ADB.Analytics.trackLifetimeValueIncrease(purchasePrice, cdata);
 ```
 
-## Timed actions {#section_7FF8B6A913A0460EAA4CAE835E32D8C1}
+## 시간 작업 {#section_7FF8B6A913A0460EAA4CAE835E32D8C1}
 
-시간 작업을 사용하면 작업의 시작과 끝 사이의 인앱 시간 및 총 시간을 측정할 수 있습니다. SDK는 세션에서 시간의 길이를 계산하고 작업 완료까지 걸리는 총 시간을 모든 세션에 걸쳐 계산합니다. 세그먼트를 정의하고 구매, 전달 수준, 체크아웃 플로우 등에 걸리는 시간을 비교하는 데 사용할 수 있습니다.
+시간 작업을 사용하면 작업의 시작과 끝 사이의 인앱 시간과 총 시간을 측정할 수 있습니다. SDK는 세션 시간과 작업을 완료하는 데 소요되는 총 시간(세션 간)을 계산합니다. 세그먼트를 정의하여 구매, 전달 수준, 체크아웃 흐름 등을 비교할 수 있습니다.
 
-* 전체 세션 시작 및 종료 사이의 총 인앱 시간(초)
-* 시작 및 종료 간 총 클록 시간 (초)
+* 시작 및 종료 간 앱의 총 시간(초) - 세션 간
+* 시작과 종료 사이의 총 시간(초)
 
 ```js
 // Timed Action Start Example 
