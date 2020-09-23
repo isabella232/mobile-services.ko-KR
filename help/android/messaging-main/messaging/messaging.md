@@ -2,12 +2,12 @@
 description: 모든 분석 데이터 또는 이벤트에서 트리거되는 인앱 메시지를 제공할 수 있습니다. 구현 후 메시지는 앱에 동적으로 전달되므로 코드를 업데이트할 필요가 없습니다.
 seo-description: 모든 분석 데이터 또는 이벤트에서 트리거되는 인앱 메시지를 제공할 수 있습니다. 구현 후 메시지는 앱에 동적으로 전달되므로 코드를 업데이트할 필요가 없습니다.
 seo-title: 인앱 메시징
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 인앱 메시징
 topic: Developer and implementation
 uuid: 351ee3d2-80b9-4f2d-9696-21f274d89f5a
 translation-type: tm+mt
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 61%
@@ -125,7 +125,7 @@ Android Mobile SDK는 인앱 메시지에 대해 다음 지표를 추적합니�
 
 * 전체 화면 및 경고 스타일의 인앱 메시지:
 
-   * **노출 횟수**: 사용자가 인앱 메시지를 트리거하는 경우.
+   * **노출 횟수**:사용자가 인앱 메시지를 트리거하는 경우.
    * **클릭스루**: 사용자가 **[!UICONTROL 클릭스루]**&#x200B;를 누를 때입니다.
    * **취소**: 사용자가 **[!UICONTROL 취소]**&#x200B;를 누를 때입니다.
 
