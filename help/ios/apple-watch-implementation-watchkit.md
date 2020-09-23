@@ -1,13 +1,16 @@
 ---
-description: WatchOS 2부터는 WatchKit Extention이 Apple Watch 장치에서 실행됩니다. 이 환경에서 실행되는 애플리케이션의 경우 WatchConnectivity 프레임워크는 포함된 iOS 앱과 데이터를 공유해야 합니다.
-seo-description: WatchOS 2부터는 WatchKit Extention이 Apple Watch 장치에서 실행됩니다. 이 환경에서 실행되는 애플리케이션의 경우 WatchConnectivity 프레임워크는 포함된 iOS 앱과 데이터를 공유해야 합니다.
+description: WatchOS 2부터 WatchKit 익스텐션은 Apple Watch 디바이스에서 실행됩니다. 이 환경에서 실행되는 응용 프로그램은 포함된 iOS 앱과 데이터를 공유하기 위해 WatchConnectivity 프레임워크가 필요합니다.
+seo-description: WatchOS 2부터 WatchKit 익스텐션은 Apple Watch 디바이스에서 실행됩니다. 이 환경에서 실행되는 응용 프로그램은 포함된 iOS 앱과 데이터를 공유하기 위해 WatchConnectivity 프레임워크가 필요합니다.
 seo-title: WatchOS 2를 사용한 Apple Watch 구현
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: WatchOS 2를 사용한 Apple Watch 구현
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 9498467e-db5e-411e-a00e-d19841f485de
-translation-type: ht
-source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 84%
 
 ---
 
@@ -22,7 +25,7 @@ WatchOS 2부터는 WatchKit Extension이 Apple Watch에서 실행됩니다. 이 
 
 ## 새로운 Adobe Experience Platform Mobile SDK 릴리스
 
-Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
+Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고 계십니까? [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하여 최신 설명서를 확인하십시오.
 
 2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/kr/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
@@ -37,12 +40,13 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 >
 >* 포함된 앱
 >* WatchKit 앱
->* WatchKit Extension
+>* WatchKit 익스텐션
+
 >
 
 
 
-WatchKit 앱 개발에 대한 자세한 내용은 [Watch App Architecture](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/DesigningaWatchKitApp.html#//apple_ref/doc/uid/TP40014969-CH3-SW1)를 참조하십시오.
+WatchKit 앱 개발에 대한 자세한 내용은 Watch App [Architecture를 참조하십시오](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/DesigningaWatchKitApp.html#//apple_ref/doc/uid/TP40014969-CH3-SW1).
 
 ## 포함된 앱 구성 {#section_0A2A3995575B4E2ABD12E426BA06AEFF}
 
@@ -50,7 +54,7 @@ Xcode 프로젝트에서 다음 단계를 완료하십시오.
 
 1. `AdobeMobileLibrary` 폴더를 프로젝트로 드래그합니다.
 1. `ADBMobileConfig.json` 파일이 포함된 앱 타겟의 구성원인지 확인합니다.
-1. 포함된 앱 타겟의 **[!UICONTROL 빌드 단계]** 탭에서 **바이너리를 라이브러리와 연결]섹션을 확장하고 다음 라이브러리를 추가합니다.[!UICONTROL **
+1. 포함된 앱 타겟의 **[!UICONTROL 빌드 단계]** 탭에서 **[!UICONTROL 바이너리를 라이브러리와 연결]** 섹션을 확장하고 다음 라이브러리를 추가합니다.
 
    * `AdobeMobileLibrary.a`
    * `libsqlite3.tbd`
@@ -102,7 +106,7 @@ Xcode 프로젝트에서 다음 단계를 완료하십시오.
 ## WatchKit Extension 구성 {#section_5ADE31741E514330A381F2E3CFD4A814}
 
 1. `ADBMobileConfig.json` 파일이 WatchKit Extention 타겟의 구성원인지 확인합니다.
-1. WatchKit Extension 타겟의 **[!UICONTROL 빌드 단계]** 탭에서 **바이너리를 라이브러리와 연결]섹션을 확장하고 다음 라이브러리를 추가합니다.[!UICONTROL **
+1. WatchKit Extension 타겟의 **[!UICONTROL 빌드 단계]** 탭에서 **[!UICONTROL 바이너리를 라이브러리와 연결]** 섹션을 확장하고 다음 라이브러리를 추가합니다.
 
    * `AdobeMobileLibrary_Watch.a`
    * `libsqlite3.tbd`
