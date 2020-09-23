@@ -3,12 +3,15 @@ description: 상위 50개 문서 보고서에는 해당 앱을 사용하여 표�
 keywords: mobile
 seo-description: 상위 50개 문서 보고서에는 해당 앱을 사용하여 표시된 가장 많이 읽은 문서를 보여주는 막대 차트와 등급 보고서가 표시됩니다. 이 보고서는 DPS(Digital Publishing Suites) 고객만 사용할 수 있습니다.
 seo-title: 상위 50개 문서
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 상위 50개 문서
-topic: 지표
+topic: Metrics
 uuid: 341370d1-fa87-43ca-8135-425b3bba272f
-translation-type: ht
-source-git-commit: b11a03226ff6100554d072b4ef523d703b80a6e5
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 95%
 
 ---
 
@@ -21,12 +24,12 @@ source-git-commit: b11a03226ff6100554d072b4ef523d703b80a6e5
 
 ![](assets/dps_top_50.png)
 
-기본적으로 이 보고서는 문서 제목 및 리더 수를 보여줍니다.
+기본적으로 이 보고서에는 아티클 제목과 독자 수가 표시됩니다.
 
 이 보고서에 대해 다음 옵션을 구성할 수 있습니다.
 
 * **[!UICONTROL 기간]**
-**달력** 아이콘을 클릭하여 사용자 지정 기간을 선택하거나 드롭다운 목록에서 사전 설정된 기간을 선택합니다.
+****&#x200B;달력 아이콘을 클릭하여 사용자 지정 기간을 선택하거나 드롭다운 목록에서 사전 설정된 기간을 선택합니다.
 
 * **[!UICONTROL 사용자 지정]**
 
@@ -34,7 +37,7 @@ source-git-commit: b11a03226ff6100554d072b4ef523d703b80a6e5
 
 * **[!UICONTROL 필터]**
 
-   **[!UICONTROL 필터]를 클릭하면 다른 보고서에 적용되는 필터를 생성하여 세그먼트가 모든 모바일 보고서에서 어떻게 작동하는지 확인할 수 있습니다.** 고정 필터를 사용하면 경로 지정 외의 모든 보고서에 적용되는 필터를 정의할 수 있습니다. 자세한 내용은 [고정 필터 추가](/help/using/usage/reports-customize/t-sticky-filter.md)를 참조하십시오.
+   **[!UICONTROL 필터]**&#x200B;를 클릭하면 다른 보고서에 적용되는 필터를 생성하여 세그먼트가 모든 모바일 보고서에서 어떻게 작동하는지 확인할 수 있습니다. 고정 필터를 사용하면 경로 지정 외의 모든 보고서에 적용되는 필터를 정의할 수 있습니다. 자세한 내용은 [고정 필터 추가](/help/using/usage/reports-customize/t-sticky-filter.md)를 참조하십시오.
 
 * **[!UICONTROL 다운로드]**
 
