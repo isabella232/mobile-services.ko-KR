@@ -2,13 +2,13 @@
 description: 다음은 iOS 라이브러리에서 제공하는 메서드 목록입니다.
 seo-description: 다음은 iOS 라이브러리에서 제공하는 메서드 목록입니다.
 seo-title: 구성 메서드
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 구성 메서드
 topic: Developer and implementation
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
-translation-type: ht
-source-git-commit: 527f93ae4ec910d1d1ea3637eb3a62d749a14397
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 100%
 
