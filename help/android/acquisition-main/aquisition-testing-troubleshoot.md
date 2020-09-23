@@ -1,12 +1,15 @@
 ---
 description: 다음 정보는 획득 테스트 문제를 해결하는 데 유용합니다.
-keywords: android;획득;테스트
+keywords: android;Acquisition;testing
 seo-description: 다음 정보는 획득 테스트 문제를 해결하는 데 유용합니다.
 seo-title: 획득 테스트 문제 해결
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 획득 테스트 문제 해결
-translation-type: ht
-source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '251'
+ht-degree: 100%
 
 ---
 
