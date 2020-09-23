@@ -3,12 +3,15 @@ description: '빌더를 사용해 앱스토어와 앱 또는 웹 링크 대상�
 keywords: mobile
 seo-description: '빌더를 사용해 앱스토어와 앱 또는 웹 링크 대상으로 사용자를 안내하는 마케팅 링크를 작성합니다. 마케터는 규칙(예: 장치 유형 또는 사용자 장치의 운영 체제)을 기반으로 대상을 선택할 수 있습니다.'
 seo-title: 마케팅 링크 빌더
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 마케팅 링크 빌더
-topic: 지표
+topic: Metrics
 uuid: 94906393-ffa5-47a6-89f6-1c812bad34af
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 100%
 
 ---
 
