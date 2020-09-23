@@ -2,12 +2,15 @@
 description: 지리적 위치는 iOS 앱에서 위도와 경도 및 사전 정의된 관심 영역을 사용하여 위치 데이터를 측정할 수 있도록 합니다.
 seo-description: 지리적 위치는 iOS 앱에서 위도와 경도 및 사전 정의된 관심 영역을 사용하여 위치 데이터를 측정할 수 있도록 합니다.
 seo-title: 지리적 위치 및 관심 영역
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 지리적 위치 및 관심 영역
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: c800ec85-a33f-425d-b28f-bfe8bf229ae8
-translation-type: ht
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '591'
+ht-degree: 82%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
    이 정보는 자동 보고를 위해 모바일 솔루션 변수로 전달됩니다.
 
-* 중심으로부터 떨어진 거리 및 정확도 - 컨텍스트 데이터로 전달됨.
+* 컨텍스트 데이터로 전달된 중앙으로부터의 거리 및 정확도
 
    이러한 변수는 자동으로 캡처되지 않습니다. 아래 *추가 데이터 보내기* 섹션의 지침에 따라 이러한 컨텍스트 데이터 변수를 매핑해야 합니다.
 
@@ -80,9 +83,9 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 
 ## 위치 컨텍스트 데이터 {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
 
-위도와 경도는 총 6개의 컨텍스트 데이터 매개 변수에 대해 각각 서로 다른 정밀도 수준을 나타내는 세 가지 컨텍스트 데이터 매개 변수를 사용하여 전송됩니다.
+위도 및 경도는 각각 세 개의 서로 다른 컨텍스트 데이터 매개 변수를 사용하여 전송되며, 각 매개 변수는 총 6개의 컨텍스트 데이터 매개 변수를 기준으로 다른 수준의 정확성을 나타냅니다.
 
-예를 들어 위도 40.93231 및 경도 -111.93152인 좌표는 정밀도가 1m인 위치를 나타냅니다. 이 위치는 정밀도 수준에 따라 다음 변수에 대해 분할됩니다.
+예를 들어 위도 = 40.93231, lon = -111.93152는 1 m 정밀도의 위치를 나타냅니다. 이 위치는 다음 변수에서 정밀도 수준에 따라 분할됩니다.
 
 * `a.loc.lat.a`= 040.9
 * `a.loc.lat.b` = 32
@@ -91,7 +94,7 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 * `a.loc.lon.b` = 31
 * `a.loc.lon.c` = 52
 
-일부 정밀도 수준은 현재 위치의 정확도에 따라 "00"으로 나타날 수도 있습니다. 예를 들어 위치가 현재 100m까지 정확하면 `a.loc.lat.c` 및 `a.loc.lon.c`에 "00" 값이 채워집니다.
+일부 정밀도 수준은 현재 위치의 정확도에 따라 &quot;00&quot;으로 나타날 수도 있습니다. 예를 들어 위치가 현재 100m까지 정확하면 `a.loc.lat.c` 및 `a.loc.lon.c`에 &quot;00&quot; 값이 채워집니다.
 
 ## 추가 정보 {#section_931AC1E0D88147E29FE1B6E3CC1E9550}
 
@@ -112,5 +115,5 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 
 * 두 POI의 지름이 겹치는 경우 현재의 위치가 포함된 첫 번째 POI가 사용됩니다.
 
-   POI가 겹치는 경우 가장 세분화된 POI가 보고되도록 세분화 정도가 가장 높은 항목에서 가장 낮은 항목의 순서로 POI를 나열해야 합니다.
+   POI가 겹치는 경우 가장 세분화된 POI가 보고되도록 가장 세분화된 항목부터 가장 적게 나열해야 합니다.
 
