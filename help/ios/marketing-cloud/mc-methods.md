@@ -2,13 +2,13 @@
 description: 다음은 iOS 라이브러리에서 제공하는 Adobe Experience Platform ID 서비스 메서드입니다.
 seo-description: 다음은 iOS 라이브러리에서 제공하는 Adobe Experience Platform ID 서비스 메서드입니다.
 seo-title: Adobe Experience Platform ID 서비스 메서드
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Adobe Experience Platform ID 서비스 메서드
 topic: Developer and implementation
 uuid: cdd307bc-8b7d-47a8-b77e-00902b9e2968
-translation-type: ht
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 100%
 
