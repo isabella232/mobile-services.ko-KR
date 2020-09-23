@@ -3,11 +3,11 @@ description: experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대�
 keywords: Xamarin
 seo-description: experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서드입니다.
 seo-title: iOS 메서드
-solution: Marketing Cloud,Developer
+solution: Experience Cloud
 title: iOS 메서드
 uuid: d6a056db-80c1-44d0-970f-c961ad01b0bc
 translation-type: tm+mt
-source-git-commit: 70c79d404c29a8a35b5eadbb3ad99f953a5166e0
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '1749'
 ht-degree: 70%
