@@ -3,12 +3,15 @@ description: DPS(Digital Publishing Suite) 고객이 사용할 수 있는 보고
 keywords: mobile
 seo-description: DPS(Digital Publishing Suite) 고객이 사용할 수 있는 보고서를 볼 수 있습니다.
 seo-title: Digital Publishing Suite 개요
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Digital Publishing Suite 개요
-topic: 지표
+topic: Metrics
 uuid: ca335891-5d73-47dc-811f-374a0844109f
-translation-type: ht
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 100%
 
 ---
 
