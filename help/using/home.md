@@ -2,11 +2,14 @@
 description: Adobe Mobile Services용 기술 문서
 seo-description: 본 안내서에서는 Adobe Experience Cloud에서 모바일 애플리케이션의 모바일 마케팅 기능을 함께 제공하는 Adobe Mobile Services에 대한 기술 설명서와 자가 진단에 대해 간략하게 설명하므로, 이를 통해 모바일 애플리케이션에 대한 사용자 참여를 파악하고 개선할 수 있습니다.
 seo-title: Adobe Mobile Services
-solution: Marketing Cloud, Analytics, Experience Cloud
+solution: Experience Cloud, Analytics, Experience Cloud
 title: Adobe Mobile Services
 uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
-translation-type: ht
-source-git-commit: 9e3f199582351165d0a76ce5042b5eaeec2cc981
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '622'
+ht-degree: 100%
 
 ---
 
