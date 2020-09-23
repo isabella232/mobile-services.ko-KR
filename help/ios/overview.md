@@ -2,12 +2,15 @@
 description: Experience Cloud 솔루션용 iOS SDK 4.x를 사용하면 기본 Apple iPhone 및 iPad 애플리케이션을 측정하고 앱에 타깃팅된 콘텐츠를 제공하고 Audience Manager를 통해 대상 데이터를 활용하고 수집할 수 있습니다.
 seo-description: Experience Cloud 솔루션용 iOS SDK 4.x를 사용하면 기본 Apple iPhone 및 iPad 애플리케이션을 측정하고 앱에 타깃팅된 콘텐츠를 제공하고 Audience Manager를 통해 대상 데이터를 활용하고 수집할 수 있습니다.
 seo-title: Experience Cloud 솔루션용 iOS SDK 4.x
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Experience Cloud 솔루션용 iOS SDK 4.x
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 8b374cee-1432-460b-aac2-70623dd80a04
-translation-type: ht
-source-git-commit: cb4a549d889d169bdf8ab0bb997d5c95f44f073e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '454'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +29,7 @@ Experience Cloud 솔루션용 iOS SDK 4.x를 사용하면 기본 Apple iPhone �
 
 ## 새로운 Adobe Experience Platform Mobile SDK 릴리스
 
-Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
+Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고 계십니까? [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하여 최신 설명서를 확인하십시오.
 
 2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/kr/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
@@ -37,7 +40,7 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 
 * iOS 8 이상이 지원됩니다.
 
-   iOS 11 이상에서는 SDK 버전 4.13.8 이상이 **있어야** 합니다.
+   iOS 11 이상 버전의 경우 SDK 버전 4.13.8 이상이 **있어야** 합니다.
 
 * 이 SDK의 4.2 버전 이상에서는 모든 히트를 HTTP POST를 사용하여 전송합니다.
 
