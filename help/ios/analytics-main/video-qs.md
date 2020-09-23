@@ -2,13 +2,13 @@
 description: 다음은 마일스톤 비디오 측정을 사용하여 iOS에서 비디오를 측정하는 방법에 대한 정보입니다.
 seo-description: 다음은 마일스톤 비디오 측정을 사용하여 iOS에서 비디오를 측정하는 방법에 대한 정보입니다.
 seo-title: Video Analytics
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Video Analytics
 topic: Developer and implementation
 uuid: d75fa415-78f6-4f50-a563-76949f040138
-translation-type: ht
-source-git-commit: c64e2fa7cee3cd35c4574e5007406b7604c99499
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 100%
 
