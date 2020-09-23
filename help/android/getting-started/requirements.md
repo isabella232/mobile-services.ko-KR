@@ -2,13 +2,13 @@
 description: '보고서 세트를 구성하고 Android 앱 데이터를 수집하려면 먼저 다음 사전 요구 작업을 완료하십시오. '
 seo-description: '보고서 세트를 구성하고 Android 앱 데이터를 수집하려면 먼저 다음 사전 요구 작업을 완료하십시오. '
 seo-title: 시작하기 전에
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 시작하기 전에
 topic: Developer and implementation
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
-translation-type: ht
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 100%
 
