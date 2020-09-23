@@ -2,12 +2,15 @@
 description: Android SDK 버전 4.5부터 새 Android 확장 기능을 추가하여 Android 웨어러블 앱의 데이터를 수집할 수 있도록 했습니다.
 seo-description: Android SDK 버전 4.5부터 새 Android 확장 기능을 추가하여 Android 웨어러블 앱의 데이터를 수집할 수 있도록 했습니다.
 seo-title: Android 웨어러블 기기 시작하기
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Android 웨어러블 기기 시작하기
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: bfe5d41e-b17c-4634-80ac-7a38671ecb81
-translation-type: ht
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 100%
 
 ---
 
