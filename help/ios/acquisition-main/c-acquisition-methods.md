@@ -2,11 +2,14 @@
 description: '다음은 iOS 라이브러리에서 제공하는 획득 메서드입니다. '
 seo-description: '다음은 iOS 라이브러리에서 제공하는 획득 메서드입니다. '
 seo-title: 획득 메서드
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 획득 메서드
 uuid: 6f88de57-793d-4d33-9a54-f6714289fd2c
-translation-type: ht
-source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 100%
 
 ---
 
