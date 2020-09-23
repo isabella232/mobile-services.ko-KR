@@ -3,12 +3,15 @@ description: 마케팅 링크를 만들거나 편집하여 모바일 앱이나 �
 keywords: mobile
 seo-description: 마케팅 링크를 만들거나 편집하여 모바일 앱이나 웹 사이트로 딥링크를 제공할 수 있습니다.
 seo-title: 마케팅 링크 만들기 또는 편집
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 마케팅 링크 만들기 또는 편집
-topic: 지표
+topic: Metrics
 uuid: 305a8265-38de-4d19-8c79-b3912f5aae7c
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '633'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 1. 다음 작업 중 하나를 완료하십시오.
 
    * 마케팅 링크를 만들려면 **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
-   * 링크를 편집하려면 **[!UICONTROL 제목]열에서 링크 이름을 클릭합니다.**
+   * 링크를 편집하려면 **[!UICONTROL 제목]** 열에서 링크 이름을 클릭합니다.
 
 1. 다음 필드에 정보를 입력하십시오.
 
@@ -35,7 +38,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
    * **[!UICONTROL 추적 컨텍스트 데이터 추가]**:
 
-      (**선택사항**) **[!UICONTROL +]** 아이콘을 클릭하고 관련 정보를 입력하여 컨텍스트 데이터로 캠페인을 추적합니다. **[!UICONTROL 사용자 지정 컨텍스트 데이터]드롭다운 목록에서 사전 설정된 태그 또는 고유한 태그 중 하나를 선택합니다.** 마케팅 링크가 배포될 때 보고 목적으로 컨텍스트 데이터가 사용됩니다.
+      (**Optional**) Click the **[!UICONTROL +]** icon and type the relevant information to track your campaign using context data. **[!UICONTROL 사용자 지정 컨텍스트 데이터]** 드롭다운 목록에서 사전 설정된 태그 또는 고유한 태그 중 하나를 선택합니다. 마케팅 링크가 배포될 때 보고 목적으로 컨텍스트 데이터가 사용됩니다.
 
       다음 사전 설정 태그를 사용할 수 있습니다.
 
@@ -43,10 +46,10 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 키와 값을 지정합니다. 사용자 지정 컨텍스트 데이터를 추가할 경우 처리 규칙을 작성해야 합니다. 자세한 내용은 [처리 규칙 개요](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/processing-rules/processing-rules.html)를 참조하십시오.
 
       * **소스**
-"뉴스레터" 또는 "홈 페이지"와 같은 원본 레퍼러를 지정합니다.
+&quot;뉴스레터&quot; 또는 &quot;홈 페이지&quot;와 같은 원본 레퍼러를 지정합니다.
 
       * **매체**
-"배너" 또는 "이메일"과 같은 마케팅 매체를 지정합니다.
+&quot;배너&quot; 또는 &quot;이메일&quot;과 같은 마케팅 매체를 지정합니다.
 
       * **콘텐츠**
 링크가 있는 광고의 이름이나 ID를 지정합니다.
@@ -57,7 +60,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 1. 다음 필드에 정보를 입력하십시오.
 
    * **(필수)** **[!UICONTROL 대체 URL]**&#x200B;에 일치하는 대상을 찾을 수 없는 경우 사용자에게 안내되는 URL을 지정합니다(예: 사용자가 대상 규칙과 일치하지 않는 데스크탑이나 다른 플랫폼에서 작업하는 경우).
-   * **[!UICONTROL 마케팅 링크 옵션]**&#x200B;에서 **[!UICONTROL 삽입 광고]** 또는 **범용 및 앱 링크[!UICONTROL 를 선택합니다]**.
+   * **[!UICONTROL 마케팅 링크 옵션]**&#x200B;에서 **[!UICONTROL 삽입 광고]** 또는 **[!UICONTROL 범용 및 앱 링크를 선택합니다]**.
 
       자세한 내용은 [삽입 광고](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md) 또는 [Apple 범용 링크 및 Android 앱 링크](/help/using/c-manage-app-settings/c-mob-confg-app/c-universal-app-links.md)를 참조하십시오.
 
@@ -65,9 +68,9 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 1. **[!UICONTROL 딥링크 삽입 광고 편집]**&#x200B;을 클릭하고 링크를 구성합니다.
 
-   (**선택사항**) 여러 대상이 있는 경우 모바일 앱 설치 여부에 따라 사용자를 안내할 수 있습니다. 앱이 설치되어 있는 경우 삽입 광고 랜딩 페이지가 표시됩니다.
+   (**선택사항**) 여러 대상이 있는 경우 모바일 앱 설치 여부에 따라 사용자를 안내할 수 있습니다. 앱이 설치되면 중간 랜딩 페이지가 표시됩니다.
 
-   자세한 내용은 [중간 광고](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md).
+   For more information, see [Interstitials](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md).
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 1. 대상 페이지에서 링크를 구성합니다.
@@ -91,9 +94,10 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
       * **[!UICONTROL 웹 링크]**
       * **[!UICONTROL 앱 딥링크]**
       * **[!UICONTROL 하이브리드 링크]**
+
       >[!TIP]
       >
-      >앱스토어에 대한 링크에서 **[!UICONTROL 웹 링크]** 대상 유형을 사용할 경우 획득이 추적되지 않습니다. 획득을 추적하려면 **[!UICONTROL 앱스토어]대상 유형을 사용합니다.**
+      >앱스토어에 대한 링크에서 **[!UICONTROL 웹 링크]** 대상 유형을 사용할 경우 획득이 추적되지 않습니다. 획득을 추적하려면 **[!UICONTROL 앱스토어]** 대상 유형을 사용합니다.
 
       자세한 내용은 [새 링크 대상 만들기](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md)를 참조하십시오.
 
