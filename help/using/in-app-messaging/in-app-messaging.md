@@ -3,12 +3,15 @@ description: 인앱 및 푸시 메시지를 만들고, 관리하고 이 메시�
 keywords: mobile
 seo-description: 인앱 및 푸시 메시지를 만들고, 관리하고 이 메시지에 대해 보고합니다.
 seo-title: 메시징
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 메시징
-topic: 지표
+topic: Metrics
 uuid: e32d3e35-2d09-4ddf-8919-75dc895abcb3
-translation-type: ht
-source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 82%
 
 ---
 
@@ -17,13 +20,13 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 인앱 및 푸시 메시지를 만들고, 관리하고 이에 대해 보고할 수 있습니다.
 
-## 새 Adobe Experience Cloud SDK 릴리스
+## 새로운 Adobe Experience Cloud SDK 릴리스
 
-Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
+Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고 계십니까? [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하여 최신 설명서를 확인하십시오.
 
 2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/kr/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
-* 시작하려면 [Launch](https://launch.adobe.com/)로 이동합니다.
+* To get started, go to [Launch](https://launch.adobe.com/).
 * Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)로 이동하십시오.
 
 >[!IMPORTANT]
@@ -34,9 +37,9 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 
 인앱 메시지는 사용자의 동작 및 트레이트에 따라 실시간으로 사용자에게 전달됩니다. 메시지는 SDK에서 이미 추적한 Analytics 데이터에서 트리거됩니다.
 
-다음 메시지 유형이 지원됩니다.
+지원되는 메시지 유형은 다음과 같습니다.
 
-* 사용자 지정 및 테마
+* 사용자 정의 및 테마
 * 전체 화면
 * 기본 경고
 * 로컬 알림
@@ -49,9 +52,9 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
    이러한 권한을 통해 획득 링크 및 인앱 메시지에 액세스할 수 있습니다. 자세한 내용은 [역할 및 권한](/help/using/gs/c-mob-roles-and-permissions.md)을 참조하십시오.
 * 메시지가 승인되면 응용 프로그램에 자동으로 게시됩니다.
 * SDK는 트레이트, 트리거 및 일정과 같은 메시지 매개 변수가 충족되면 사용자에게 메시지를 제공합니다.
-* 메시지는 사용자 지정 HTML 또는 이미지를 포함할 수 있으며 온라인 URL을 사용합니다.
+* 메시지는 온라인 URL을 사용하여 사용자 지정 HTML 또는 이미지를 포함할 수 있습니다.
 
-   오프라인 상태에서 트리거되는 메시지에 대해서도 앱 번들의 백업 및 대체 이미지를 지정할 수 있습니다.
+   오프라인 상태에서 트리거되는 메시지에 대해서도 앱 번들의 백업 또는 대체 이미지를 지정할 수 있습니다.
 * 활성 상태의 완료된 메시지는 총 뷰, 클릭스루 비율 등에 대한 보고서를 제공합니다.
 * 사용자 지정 메시지에 템플릿을 사용할 수 있으며, 이 경우 고유한 인앱 메시지를 쉽게 작성할 수 있습니다.
 
