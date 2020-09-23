@@ -1,21 +1,24 @@
 ---
-description: products 변수는 처리 규칙을 사용하여 설정할 수 없습니다. Mobile SDK에서 컨텍스트 데이터 매개 변수에 특수 구문을 사용하여 서버 호출에 대해 products를 설정해야 합니다.
-keywords: android;라이브러리;모바일;sdk
-seo-description: products 변수는 처리 규칙을 사용하여 설정할 수 없습니다. Mobile SDK에서 컨텍스트 데이터 매개 변수에 특수 구문을 사용하여 서버 호출에 대해 products를 설정해야 합니다.
+description: 처리 규칙을 사용하여 제품 변수를 설정할 수 없습니다. Mobile SDK에서는 서버 호출에서 제품을 설정하려면 컨텍스트 데이터 매개 변수의 특수 구문을 사용해야 합니다.
+keywords: android;library;mobile;sdk
+seo-description: 처리 규칙을 사용하여 제품 변수를 설정할 수 없습니다. Mobile SDK에서는 서버 호출에서 제품을 설정하려면 컨텍스트 데이터 매개 변수의 특수 구문을 사용해야 합니다.
 seo-title: products 변수
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: products 변수
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: f4484022-cb8b-4dea-9209-5a110ba607df
-translation-type: ht
-source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 48%
 
 ---
 
 
 # Products 변수 {#products-variable}
 
-products 변수는 처리 규칙을 사용하여 설정할 수 없습니다. Mobile SDK에서 컨텍스트 데이터 매개 변수에 특수 구문을 사용하여 서버 호출에 대해 products를 설정해야 합니다.
+처리 규칙을 사용하여 제품 변수를 설정할 수 없습니다. Mobile SDK에서는 서버 호출에서 제품을 설정하려면 컨텍스트 데이터 매개 변수의 특수 구문을 사용해야 합니다.
 
 *products* 변수를 설정하려면 컨텍스트 데이터 키를 `"&&products"`로 설정하고 *products* 변수에 대해 정의된 구문을 사용하여 값을 설정하십시오.
 
