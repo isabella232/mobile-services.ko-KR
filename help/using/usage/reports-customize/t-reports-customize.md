@@ -3,12 +3,15 @@ description: 이 정보는 필터(세그먼트)를 추가하여 기본 제공된
 keywords: mobile
 seo-description: 이 정보는 필터(세그먼트)를 추가하여 기본 제공된 보고서를 사용자 지정하는 데 도움이 됩니다.
 seo-title: 보고서에 필터 추가
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 보고서에 필터 추가
-topic: 보고서,지표
+topic: Reports,Metrics
 uuid: 19c395cc-2e07-4588-825b-f2f8b10a87c1
-translation-type: ht
-source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 70%
 
 ---
 
@@ -21,13 +24,13 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 >
 >모바일 앱 지표는 Marketing reports &amp; analytics, Ad Hoc Analysis, Data Warehouse 및 기타 Analytics 보고 인터페이스에서도 사용할 수 있습니다. Adobe Mobile에서 분류 또는 보고서 유형을 사용할 수 없는 경우 다른 보고 인터페이스를 사용하여 생성할 수 있습니다.
 
-이 예에서는 **[!UICONTROL 사용자 및 세션]보고서를 사용자 지정하지만, 지침은 모든 보고서에 적용됩니다.**
+이 예에서는 **[!UICONTROL 사용자 및 세션]** 보고서를 사용자 지정하지만, 지침은 모든 보고서에 적용됩니다.
 
-1. 앱을 열고 **[!UICONTROL 사용]** &gt; **[!UICONTROL 사용자 및 세션]**&#x200B;을 클릭합니다.
+1. Open your app and click **[!UICONTROL Usage]** > **[!UICONTROL Users &amp; Sessions]**.
 
    ![](assets/customize1.png)
 
-   이 보고서에서는 앱 사용자에 대한 전체 시간별 보기를 제공합니다. 하지만, 이 앱의 iOS와 Android 버전 모두에 대한 지표는 동일한 보고서 세트에서 수집됩니다. 사용자 지정 필터를 사용자 지표에 추가하여 모바일 OS별로 사용자를 세그멘트화할 수 있습니다.
+   이 보고서는 앱 사용자에 대한 전체 시간별 보기를 제공합니다. 하지만 이 앱의 iOS 및 Android 버전 모두에 대한 지표는 동일한 보고서 세트에서 수집됩니다. 사용자 지정 필터를 사용자 지표에 추가하여 모바일 OS별로 사용자를 세그먼트화할 수 있습니다.
 
 1. **[!UICONTROL 사용자 지정]**&#x200B;을 클릭합니다.
 
@@ -50,7 +53,7 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 1. **[!UICONTROL 업데이트를 클릭합니다]**.
 1. 보고서를 재생성하려면 **[!UICONTROL 실행]**&#x200B;을 클릭합니다.
 
-   이제 이 보고서에 운영 체제별로 분류된 사용자가 표시됩니다. 보고서 제목은 보고서에 적용된 필터와 일치하도록 변경되었습니다.
+   이제 이 보고서에는 운영 체제별로 분류된 사용자가 표시됩니다. 보고서 제목이 보고서에 적용된 필터와 일치하도록 변경되었습니다.
 
    ![](assets/customize5.png)
 
@@ -64,8 +67,8 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 1. **[!UICONTROL 업데이트]** 및 **[!UICONTROL 실행]**&#x200B;을 클릭합니다.
 
-   이제 이 보고서에 앱을 처음 실행한 iOS 8.3 사용자가 표시됩니다.
+   이제 이 보고서에는 앱을 처음으로 시작한 iOS 8.3의 사용자가 표시됩니다.
 
    ![](assets/customize7.png)
 
-   시간을 내어 보고서 사용자 지정 메뉴에서 여러 옵션을 테스트해 보고, 자주 사용하는 항목을 책갈피에 추가하십시오. Adobe Mobile의 보고서 URL은 정상적으로 작동하므로 즐겨찾기에 추가하거나 이메일로 전송할 수 있습니다.
+   시간을 내어 보고서 사용자 지정 메뉴에서 다른 옵션을 테스트하고 즐겨찾기를 지정하는지 확인합니다. Adobe Mobile의 보고서 URL은 정상적으로 작동하므로 즐겨찾기에 추가하거나 이메일로 전송할 수 있습니다.
