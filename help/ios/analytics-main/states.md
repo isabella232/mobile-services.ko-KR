@@ -1,20 +1,23 @@
 ---
-description: '상태는 애플리케이션의 다양한 화면 또는 보기입니다. 새로운 상태가 애플리케이션에 표시될 때마다(예: 사용자가 홈페이지에서 뉴스피드로 이동할 때) 상태 추적 호출을 보내야 합니다. iOS에서 상태는 일반적으로 각 보기의 viewDidLoad 메서드에서 추적됩니다.'
-seo-description: '상태는 애플리케이션의 다양한 화면 또는 보기입니다. 새로운 상태가 애플리케이션에 표시될 때마다(예: 사용자가 홈페이지에서 뉴스피드로 이동할 때) 상태 추적 호출을 보내야 합니다. iOS에서 상태는 일반적으로 각 보기의 viewDidLoad 메서드에서 추적됩니다.'
+description: 상태는 애플리케이션의 다양한 화면 또는 보기입니다. 예를 들어 사용자가 홈 페이지에서 뉴스 피드로 이동할 때 애플리케이션에 새 상태가 표시될 때마다 추적 상태 호출이 전송됩니다. iOS에서 상태는 일반적으로 각 보기의 viewDidLoad 메서드에서 추적됩니다.
+seo-description: 상태는 애플리케이션의 다양한 화면 또는 보기입니다. 예를 들어 사용자가 홈 페이지에서 뉴스 피드로 이동할 때 애플리케이션에 새 상태가 표시될 때마다 추적 상태 호출이 전송됩니다. iOS에서 상태는 일반적으로 각 보기의 viewDidLoad 메서드에서 추적됩니다.
 seo-title: 앱 상태 추적
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 앱 상태 추적
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 12cca4eb-1f15-4cec-a58f-76b69eaff99d
-translation-type: ht
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 58%
 
 ---
 
 
 # 앱 상태 추적 {#track-app-states}
 
-상태는 애플리케이션의 다양한 화면 또는 보기입니다. 새로운 상태가 애플리케이션에 표시될 때마다(예: 사용자가 홈페이지에서 뉴스피드로 이동할 때) 상태 추적 호출을 보내야 합니다. iOS에서 상태는 일반적으로 각 보기의 viewDidLoad 메서드에서 추적됩니다.
+상태는 애플리케이션의 다양한 화면 또는 보기입니다. 예를 들어 사용자가 홈 페이지에서 뉴스 피드로 이동할 때 애플리케이션에 새 상태가 표시될 때마다 추적 상태 호출이 전송됩니다. iOS에서 상태는 일반적으로 각 보기의 viewDidLoad 메서드에서 추적됩니다.
 
 >[!TIP]
 >
@@ -56,10 +59,10 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 
 ## 앱 상태 보고 {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
 
-상태는 일반적으로 경로 지정 보고서를 사용하여 표시되므로 사용자가 앱을 이동하는 방법과 가장 많이 본 상태를 볼 수 있습니다.
+상태는 일반적으로 경로 지정 보고서를 사용하여 표시되므로 사용자가 앱을 탐색하는 방법과 가장 많이 본 상태를 확인할 수 있습니다.
 
 |  |  |
 |--- |--- |
-| Adobe Mobile Services | **[!UICONTROL 상태 보기]보고서.** 이 보고서는 사용자가 애플리케이션을 통해 가져온 경로를 기반으로 합니다. 샘플 경로는 **[!UICONTROL 홈]**  &gt;  **[!UICONTROL 설정]**  &gt; **[!UICONTROL 피드]**&#x200B;입니다. |
-| Adobe Analytics | 상태는 **페이지** 보고서, **[!UICONTROL 페이지 보기]** 보고서 및 **경로[!UICONTROL 보고서와 같이 페이지를 볼 수 있는 모든 위치에서 볼 수 있습니다 .]** |
-| Ad hoc analytics | 상태는 **페이지** 차원, **[!UICONTROL 페이지 보기 횟수]** 지표 및 **경로[!UICONTROL 보고서를 사용하여 페이지를 볼 수 있는 모든 위치에서 볼 수 있습니다.]** |
+| Adobe Mobile Services | **[!UICONTROL 상태 보기]** 보고서. 이 보고서는 사용자가 애플리케이션을 통해 가져온 경로를 기반으로 합니다. A sample path is  **[!UICONTROL Home]**  >  **[!UICONTROL Settings]**  > **[!UICONTROL Feed]**. |
+| Adobe Analytics | 상태는 ****&#x200B;페이지 보고서, **[!UICONTROL 페이지 보기]** 보고서 및 **[!UICONTROL 경로 보고서와 같이 페이지를 볼 수 있는 모든 위치에서 볼 수 있습니다 .]** |
+| Ad hoc analytics | 상태는 ****&#x200B;페이지 차원, **[!UICONTROL 페이지 보기 횟수]** 지표 및 **[!UICONTROL 경로 보고서를 사용하여 페이지를 볼 수 있는 모든 위치에서 볼 수 있습니다.]** |
