@@ -3,12 +3,15 @@ description: 웹으로 또는 앱의 딥링크로 사용자를 안내하는 새 
 keywords: mobile
 seo-description: 웹으로 또는 앱의 딥링크로 사용자를 안내하는 새 링크 대상을 만들 수 있습니다.
 seo-title: 새 링크 대상 만들기
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 새 링크 대상 만들기
-topic: 지표
+topic: Metrics
 uuid: 390e3dea-0221-4f97-980d-a90ca9f162fa
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 1. **[!UICONTROL 링크 대상 관리를 클릭합니다]**.
 1. **[!UICONTROL 새로 만들기를 클릭합니다]**.
 1. 다음 필드에 정보를 입력하십시오.
-   * **[!UICONTROL 직함]**
+   * **[!UICONTROL Title]**
 
       앱 링크 대상을 설명하는 이름을 입력합니다. Adobe Mobile Services UI의 링크 대상 관리 페이지에만 표시되는 제목입니다. 수사적 이름을 사용하면 작성자나 조직의 다른 직원이 특정 링크 대상을 신속하게 찾고 작성 목적에 대한 자세한 정보를 제공할 수 있습니다.
 
@@ -32,11 +35,11 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
       * **[!UICONTROL 앱 딥링크]**
 
-         URI 스키마 딥링크(예: `yourapp://section`)를 제공합니다. 앱 딥링크 대상은 앱 내의 딥링크로 사용자를 안내하는 URI 스키마 딥링크입니다. 예를 들어, 온라인 소매점의 모바일 앱에서 특정 제품 라인으로 사용자를 안내할 수 있습니다.
+         URI 스키마 딥링크(예: `yourapp://section`)를 제공합니다. 앱 딥 링크 대상은 사용자가 앱의 딥 링크로 이동하는 URI 스키마 딥 링크입니다. 예를 들어 온라인 소매업체의 모바일 앱에서 특정 제품 라인으로 사용자를 안내할 수 있습니다.
 
       * **[!UICONTROL 웹 링크]**
 
-         웹 HTTP 또는 HTTPS URL(예: `https://adobe.com`)을 입력합니다. 웹 링크 대상은 URL로 사용자를 안내합니다. 예를 들어, 온라인 소매점의 웹 사이트에서 제품 라인으로 사용자를 안내할 수 있습니다.
+         웹 HTTP 또는 HTTPS URL(예: `https://adobe.com`)을 입력합니다. 웹 링크 대상은 사용자를 URL로 안내합니다. 예를 들어 온라인 소매업체 웹 사이트의 제품 라인으로 사용자를 안내할 수 있습니다.
 
       * **[!UICONTROL 하이브리드 링크]**
 
@@ -46,7 +49,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
       >[!TIP]
       >
-      >이 정보는 **[!UICONTROL 링크 유형]**&#x200B;의 앱 딥링크 또는 하이브리드 링크를 선택한 경우에만 필요합니다. 앱이 선택 목록에 표시되지 않으면 **[!UICONTROL 새 앱 추가]를 클릭하여 앱스토어의 새 앱을 참조합니다.**
+      >이 정보는 **[!UICONTROL 링크 유형]**&#x200B;의 앱 딥링크 또는 하이브리드 링크를 선택한 경우에만 필요합니다. 앱이 선택 목록에 표시되지 않으면 **[!UICONTROL 새 앱 추가]**&#x200B;를 클릭하여 앱스토어의 새 앱을 참조합니다.
 
    * **[!UICONTROL 링크 유형]**
 
