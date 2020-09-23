@@ -2,13 +2,13 @@
 description: 다음 정보는 iOS 9에 대한 새로운 보안 요구 사항 세트인 앱 전송 보안(ATS)으로 작업하는 데 유용한 정보입니다.
 seo-description: 다음 정보는 iOS 9에 대한 새로운 보안 요구 사항 세트인 앱 전송 보안(ATS)으로 작업하는 데 유용한 정보입니다.
 seo-title: 앱 전송 보안
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 앱 전송 보안
 topic: Developer and implementation
 uuid: e9ee13cf-9802-492e-8b11-95f028e34e61
-translation-type: ht
-source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 100%
 
