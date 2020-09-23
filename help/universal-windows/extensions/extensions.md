@@ -1,20 +1,23 @@
 ---
-description: Experience Cloud 솔루션용 Universal Windows Platform SDK에서 확장 기능을 사용할 때 유용한 정보입니다.
-seo-description: Experience Cloud 솔루션용 Universal Windows Platform SDK에서 확장 기능을 사용할 때 유용한 정보입니다.
+description: Experience Cloud 솔루션용 Universal Windows Platform SDK에서 익스텐션을 사용하는 데 도움이 되는 정보입니다.
+seo-description: Experience Cloud 솔루션용 Universal Windows Platform SDK에서 익스텐션을 사용하는 데 도움이 되는 정보입니다.
 seo-title: 확장
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 확장
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 94bde8cf-f9d5-4374-a9a1-c2c3509cdbb7
 translation-type: tm+mt
-source-git-commit: a161a4a2f2a46c351874ad9569be694e1a04333f
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 7%
 
 ---
 
 
 # 확장 {#extensions}
 
-Experience Cloud 솔루션용 Universal Windows Platform SDK에서 확장 기능을 사용할 때 유용한 정보입니다.
+Experience Cloud 솔루션용 Universal Windows Platform SDK에서 익스텐션을 사용하는 데 도움이 되는 정보입니다.
 
 ## 추가 정보
 
