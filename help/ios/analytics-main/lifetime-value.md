@@ -2,12 +2,15 @@
 description: 라이프타임 값을 통해 각 사용자의 라이프타임 값을 측정하고 타깃팅할 수 있습니다.
 seo-description: 라이프타임 값을 통해 각 사용자의 라이프타임 값을 측정하고 타깃팅할 수 있습니다.
 seo-title: 방문자 라이프타임 값
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 방문자 라이프타임 값
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: d830d18b-4313-43bb-8d75-3789869d0f1d
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 100%
 
 ---
 
