@@ -1,20 +1,23 @@
 ---
-description: 다음은 Android 웨어러블 앱에서 데이터를 수집할 수 있도록 Android 확장 기능을 구성할 때 참조할 수 있는 정보입니다.
-seo-description: 다음은 Android 웨어러블 앱에서 데이터를 수집할 수 있도록 Android 확장 기능을 구성할 때 참조할 수 있는 정보입니다.
+description: 다음은 Android Wearable 앱의 데이터를 수집할 수 있는 Android 확장 기능을 구성하는 데 도움이 되는 몇 가지 정보입니다.
+seo-description: 다음은 Android Wearable 앱의 데이터를 수집할 수 있는 Android 확장 기능을 구성하는 데 도움이 되는 몇 가지 정보입니다.
 seo-title: Android 웨어러블 기기 추가 참고 사항
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Android 웨어러블 기기 추가 참고 사항
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 3bcf352b-4d46-4ab3-81ec-c27e86fe9be3
-translation-type: ht
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 59%
 
 ---
 
 
 # Android 웨어러블 기기: 추가 참고 사항{#android-wearables-additional-notes}
 
-다음은 Android 웨어러블 앱에서 데이터를 수집할 수 있도록 Android 확장 기능을 구성할 때 참조할 수 있는 정보입니다.
+다음은 Android Wearable 앱의 데이터를 수집할 수 있는 Android 확장 기능을 구성하는 데 도움이 되는 몇 가지 정보입니다.
 
 * Adobe Mobile Android 웨어러블 기기 확장 기능을 사용하려면 Android 버전 4.4(KitKat) 이상이 필요합니다.
 * 컨텍스트 값 `A.RunMode`가 추가되었으며, 이 값은 데이터의 출처가 포함 앱인지 아니면 확장 프로그램인지 나타냅니다.
