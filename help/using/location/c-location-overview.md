@@ -3,12 +3,12 @@ description: 위치 개요 보고서에서는 앱이 사용되는 다양한 국�
 keywords: mobile
 seo-description: 위치 개요 보고서에서는 앱이 사용되는 다양한 국가, 지역 및 관심 영역을 볼 수 있습니다.
 seo-title: 개요(위치)
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 개요(위치)
 topic: Reports,Metrics
 uuid: a701abc3-001b-4015-843f-5fb2c6c80d17
 translation-type: tm+mt
-source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 75%
