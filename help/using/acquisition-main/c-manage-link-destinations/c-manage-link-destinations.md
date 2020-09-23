@@ -3,12 +3,15 @@ description: 링크 대상 관리 페이지에서 링크 대상을 작성, 편�
 keywords: mobile
 seo-description: 링크 대상 관리 페이지에서 링크 대상을 작성, 편집, 보관/보관 해제 및 삭제할 수 있습니다. 이러한 대상을 만들면 마케팅 링크, 푸시 알림 또는 인앱 메시지를 작성할 때 인라인으로 호출할 수 있습니다.
 seo-title: 링크 대상 만들기 및 관리
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 링크 대상 만들기 및 관리
-topic: 지표
+topic: Metrics
 uuid: 43930e3a-6a11-40c6-8a61-6732a673dac7
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 100%
 
 ---
 
