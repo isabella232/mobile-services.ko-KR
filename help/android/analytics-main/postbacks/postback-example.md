@@ -1,14 +1,17 @@
 ---
 description: 이 정보를 사용하면 포스트백과 포스트백의 작동 방식에 대해 이해할 수 있습니다.
-keywords: android;라이브러리;모바일;sdk
+keywords: android;library;mobile;sdk
 seo-description: 이 정보를 사용하면 포스트백과 포스트백의 작동 방식에 대해 이해할 수 있습니다.
 seo-title: 포스트백 예시
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 포스트백 예시
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 8010cd00-d42b-4e16-8403-692fab2550f1
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 100%
 
 ---
 
