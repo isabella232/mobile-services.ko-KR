@@ -2,12 +2,15 @@
 description: Adobe SDK는 Apple의 Search Ads App Attribution API를 활용하여 개발자와 마케팅 담당자가 Apple App Store의 검색 광고 캠페인에서 발생한 앱 다운로드를 추적하고 그 속성을 파악할 수 있도록 합니다.
 seo-description: Adobe SDK는 Apple의 Search Ads App Attribution API를 활용하여 개발자와 마케팅 담당자가 Apple App Store의 검색 광고 캠페인에서 발생한 앱 다운로드를 추적하고 그 속성을 파악할 수 있도록 합니다.
 seo-title: Apple 검색 광고
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Apple 검색 광고
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 790080e8-067e-4bfd-a169-0027db4fdff3
-translation-type: ht
-source-git-commit: ebcc04ab3e80aafb9d9ec2e1fbc809c743554cb7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +36,7 @@ Apple 광고를 사용할 경우 다음과 같은 이점이 있습니다.
 
 1. Adobe SDK 버전 4.13.2 이상을 구현합니다.
 
-   자세한 내용은 [핵심 구현 및 라이프사이클](/help/ios/getting-started/dev-qs.md)을 참조하십시오.
+   For more information, see [Core implementation and lifecycle](/help/ios/getting-started/dev-qs.md).
 
 1. 앱의 Xcode 프로젝트 파일에 iAd 프레임워크를 추가합니다.
 
@@ -45,8 +48,8 @@ Apple 광고를 사용할 경우 다음과 같은 이점이 있습니다.
 
    또한 다음 값이 `"iad"` 사전에서 Adobe의 일반적인 획득 컨텍스트 데이터 필드에 매핑됩니다.
 
-   * `"iad-campaign-id"` --&gt; `"a.referrer.campaign.trackingcode"`
-   * `"iad-campaign-name"` --&gt; `"a.referrer.campaign.name"`
-   * `"iad-adgroup-id"` --&gt; `"a.referrer.campaign.content"`
-   * `"iad-keyword"` --&gt; `"a.referrer.campaign.term"`
+   * `"iad-campaign-id"` --> `"a.referrer.campaign.trackingcode"`
+   * `"iad-campaign-name"` --> `"a.referrer.campaign.name"`
+   * `"iad-adgroup-id"` --> `"a.referrer.campaign.content"`
+   * `"iad-keyword"` --> `"a.referrer.campaign.term"`
    이렇게 매핑되면 해당 값을 Adobe의 표준 보고에 사용할 수 있습니다.
