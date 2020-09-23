@@ -1,29 +1,32 @@
 ---
-description: 마케터는 추적 링크를 만들어 앱을 홍보하고 앱으로의 트래픽을 유도할 수 있습니다. 이러한 추적 링크는 인앱 동작과 상관 관계가 있을 수 있는 앱스토어, 앱 딥링크 및 삽입 광고로 사용자를 유도할 수 있습니다. 마케터는 하나의 링크를 작성하여 사용자를 iOS, Android 또는 기타 플랫폼에 적절하게 라우팅할 수 있습니다.
+description: 마케터는 추적 링크를 만들어 앱을 홍보하고 앱으로의 트래픽을 유도할 수 있습니다. 이러한 추적 링크는 인앱 동작과 상관 관계가 있을 수 있는 앱스토어, 앱 딥링크 및 삽입 광고로 사용자를 유도할 수 있습니다. 마케터는 하나의 링크를 만들어 사용자를 iOS, Android 또는 기타 플랫폼으로 적절하게 라우팅할 수 있습니다.
 keywords: mobile
-seo-description: 마케터는 추적 링크를 만들어 앱을 홍보하고 앱으로의 트래픽을 유도할 수 있습니다. 이러한 추적 링크는 인앱 동작과 상관 관계가 있을 수 있는 앱스토어, 앱 딥링크 및 삽입 광고로 사용자를 유도할 수 있습니다. 마케터는 하나의 링크를 작성하여 사용자를 iOS, Android 또는 기타 플랫폼에 적절하게 라우팅할 수 있습니다.
+seo-description: 마케터는 추적 링크를 만들어 앱을 홍보하고 앱으로의 트래픽을 유도할 수 있습니다. 이러한 추적 링크는 인앱 동작과 상관 관계가 있을 수 있는 앱스토어, 앱 딥링크 및 삽입 광고로 사용자를 유도할 수 있습니다. 마케터는 하나의 링크를 만들어 사용자를 iOS, Android 또는 기타 플랫폼으로 적절하게 라우팅할 수 있습니다.
 seo-title: 획득
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 획득
-topic: 지표
+topic: Metrics
 uuid: 987146e4-2cca-46e7-88aa-74b62d9f1dc5
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 84%
 
 ---
 
 
 # 획득 {#acquisition}
 
-마케터는 추적 링크를 만들어 앱을 홍보하고 앱으로의 트래픽을 유도할 수 있습니다. 이러한 추적 링크는 인앱 동작과 상관 관계가 있을 수 있는 앱스토어, 앱 딥링크 및 삽입 광고로 사용자를 유도할 수 있습니다. 마케터는 하나의 링크를 작성하여 사용자를 iOS, Android 또는 기타 플랫폼에 적절하게 라우팅할 수 있습니다.
+마케터는 추적 링크를 만들어 앱을 홍보하고 앱으로의 트래픽을 유도할 수 있습니다. 이러한 추적 링크는 인앱 동작과 상관 관계가 있을 수 있는 앱스토어, 앱 딥링크 및 삽입 광고로 사용자를 유도할 수 있습니다. 마케터는 하나의 링크를 만들어 사용자를 iOS, Android 또는 기타 플랫폼으로 적절하게 라우팅할 수 있습니다.
 
-## 새 Adobe Experience Cloud SDK 릴리스
+## 새로운 Adobe Experience Cloud SDK 릴리스
 
-Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
+Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고 계십니까? [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하여 최신 설명서를 확인하십시오.
 
 2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/kr/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
-* 시작하려면 [Launch](https://launch.adobe.com/)로 이동합니다.
+* To get started, go to [Launch](https://launch.adobe.com/).
 * Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)로 이동하십시오.
 
 >[!IMPORTANT]
@@ -54,6 +57,6 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 
    다음 정보를 숙지하십시오.
 
-   * 열 헤더에 있는 화살표 아이콘을 클릭하여 데이터를 내림차순 또는 오름차순으로 정렬할 수 있습니다.
+   * 열 헤더에서 화살표 아이콘을 클릭하여 데이터를 오름차순이나 내림차순으로 정렬할 수 있습니다.
    * PDF 문서로 데이터를 내보내려면 **[!UICONTROL 다운로드를 클릭하면 됩니다]**.
    ![](assets/acquisition_name.png)
