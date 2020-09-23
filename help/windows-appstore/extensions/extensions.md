@@ -1,21 +1,24 @@
 ---
-description: Experience Cloud 솔루션용 Windows 8.1 Universal App Store SDK에서 확장 기능을 사용할 때 유용한 정보입니다.
-seo-description: Experience Cloud 솔루션용 Windows 8.1 Universal App Store SDK에서 확장 기능을 사용할 때 유용한 정보입니다.
+description: Experience Cloud 솔루션용 Windows 8.1 Universal App Store SDK의 익스텐션을 사용하는 데 도움이 되는 정보입니다.
+seo-description: Experience Cloud 솔루션용 Windows 8.1 Universal App Store SDK의 익스텐션을 사용하는 데 도움이 되는 정보입니다.
 seo-title: 확장
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 확장
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 2823b22c-d9a1-4724-9020-dfc6614691be
 translation-type: tm+mt
-source-git-commit: 3e122765fba3bd61da98918480e01e463eb34c6e
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 7%
 
 ---
 
 
 # 확장{#extensions}
 
-Experience Cloud 솔루션용 Windows 8.1 Universal App Store SDK에서 확장 기능을 사용할 때 유용한 정보입니다.
+Experience Cloud 솔루션용 Windows 8.1 Universal App Store SDK의 익스텐션을 사용하는 데 도움이 되는 정보입니다.
 
 ## 추가 정보
 
-+ [Experience Cloud Solutions 4.x SDK용 Windows Visual Studio 확장](/help/windows-appstore/extensions/win-vse-4x.md)
++ [Experience Cloud 솔루션용 Windows Visual Studio 확장 4.x SDK](/help/windows-appstore/extensions/win-vse-4x.md)
