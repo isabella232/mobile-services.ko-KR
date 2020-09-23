@@ -2,12 +2,12 @@
 description: 이 익스텐션은 프로젝트에서 Experience Cloud 솔루션 4.x Windows SDK에 대한 참조를 훨씬 쉽게 추가할 수 있는 방법을 제공합니다.
 seo-description: 이 익스텐션은 프로젝트에서 Experience Cloud 솔루션 4.x Windows SDK에 대한 참조를 훨씬 쉽게 추가할 수 있는 방법을 제공합니다.
 seo-title: Experience Cloud 솔루션용 Windows Visual Studio 확장 4.x SDK
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Experience Cloud 솔루션용 Windows Visual Studio 확장 4.x SDK
 topic: Developer and implementation
 uuid: 7d0ea312-340b-46ea-a737-b70a6766a536
 translation-type: tm+mt
-source-git-commit: 38e63d6f4f85c2ced6364baa47646241ac783c12
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 2%
