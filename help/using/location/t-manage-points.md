@@ -1,14 +1,17 @@
 ---
-description: '상관 관계 목적으로 사용하고, 인앱 메시지로 타깃팅하는 등의 작업을 수행할 수 있는 지리적 위치를 정의할 수 있는 관심 영역을 만들고 관리할 수 있습니다. 히트가 관심 영역에서 전송되는 경우 해당 관심 영역이 해당 히트에 연결됩니다. '
+description: 상관 관계 용도로 사용할 수 있는 지리적 위치를 정의하고 인앱 메시지로 타깃팅하는 등 관심 영역을 만들고 관리할 수 있습니다. 히트가 관심 영역으로 전송되는 경우 관심 영역이 히트에 연결됩니다.
 keywords: mobile
-seo-description: '상관 관계 목적으로 사용하고, 인앱 메시지로 타깃팅하는 등의 작업을 수행할 수 있는 지리적 위치를 정의할 수 있는 관심 영역을 만들고 관리할 수 있습니다. 히트가 관심 영역에서 전송되는 경우 해당 관심 영역이 해당 히트에 연결됩니다. '
+seo-description: 상관 관계 용도로 사용할 수 있는 지리적 위치를 정의하고 인앱 메시지로 타깃팅하는 등 관심 영역을 만들고 관리할 수 있습니다. 히트가 관심 영역으로 전송되는 경우 관심 영역이 히트에 연결됩니다.
 seo-title: 관심 영역 관리
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 관심 영역 관리
-topic: 지표
+topic: Metrics
 uuid: 7b362534-54fb-43a3-b6b2-dfc8f45ff7c6
-translation-type: ht
-source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '580'
+ht-degree: 82%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 위치를 사용하기 전에 다음 요구 사항을 확인하십시오.
 
 * Analytics—Mobile Apps 또는 Analytics Premium이 있어야 합니다.
-* 앱에 대해 **[!UICONTROL 위치 보고서]를 활성화해야 합니다.**
+* 앱에 대해 **[!UICONTROL 위치 보고서]**&#x200B;를 활성화해야 합니다.
 * iOS SDK 또는 Android SDK 4.2 이전 버전을 사용 중인 경우, 새 **[!UICONTROL 관심 영역]**&#x200B;을 추가한 후 새 구성 파일을 다운로드하여 앱 개발자에게 제공해야 합니다.
 
    iOS SDK나 Android SDK 버전 4.2 이상을 사용 중인 경우, 앱 업데이트를 스토어에 제출하여 **[!UICONTROL 관심 영역]**&#x200B;을 업데이트할 필요가 없습니다. 관심 영역 관리 페이지에서 **[!UICONTROL 저장]**&#x200B;을 클릭하면 변경 내용이 **[!UICONTROL 관심 영역]** 목록에 패키지화되고 라이브 앱에 대한 구성 파일이 업데이트됩니다. 앱이 원격 POI URL이 있는 구성과 업데이트된 SDK를 사용하는 한, 저장을 해도 사용자 장치에서 앱의 관심 영역 목록이 업데이트됩니다.
@@ -30,7 +33,7 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 위치를 사용하려면 다음 작업을 완료하십시오.
 
 1. 앱 이름을 클릭하여 해당 앱 설정 관리 페이지로 이동합니다.
-1. **[!UICONTROL 위치]** &gt; **[!UICONTROL 관심 영역 관리]**&#x200B;를 클릭합니다.
+1. Click **[!UICONTROL Location]** > **[!UICONTROL Manage Points of Interest]**.
 
    ![단계 결과](assets/poi.png)
 
@@ -38,9 +41,9 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
    * **[!UICONTROL 지점 이름]**
 
-      **[!UICONTROL 지점]이름을 입력합니다.**
+      **[!UICONTROL 지점]** 이름을 입력합니다.
 
-      이 이름은 도시, 국가 또는 지역일 수 있습니다. 경기장이나 사업체와 같은 특정 위치 주변에 **[!UICONTROL 지점]을 만들 수도 있습니다.**
+      이 이름은 도시, 국가 또는 지역일 수 있습니다. 경기장이나 사업체와 같은 특정 위치 주변에 **[!UICONTROL 지점]**&#x200B;을 만들 수도 있습니다.
 
    * **[!UICONTROL 위도]**
 
@@ -52,7 +55,7 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
    * **[!UICONTROL 반경(미터)]**
 
-      포함할 **[!UICONTROL 지점]주변 반경(미터 단위)을 입력합니다.** 예를 들어 콜로라도주의 덴버에 대해 POI를 만드는 경우, 덴버 시와 주변 지역을 포함하되, 콜로라도 스프링스는 제외하도록 반경 크기를 충분하게 지정할 수 있습니다.
+      포함할 **[!UICONTROL 지점]** 주변 반경(미터 단위)을 입력합니다. 예를 들어 콜로라도주의 덴버에 대해 POI를 만드는 경우, 덴버 시와 주변 지역을 포함하되, 콜로라도 스프링스는 제외하도록 반경 크기를 충분하게 지정할 수 있습니다.
 
    * **[!UICONTROL 맵 아이콘]**
 
@@ -66,4 +69,4 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 POI를 한 개 이상 삭제하려면, 원하는 확인란을 선택한 다음 **[!UICONTROL 선택한 항목 제거]**&#x200B;를 클릭합니다.
 
-Adobe Mobile 사용자 인터페이스를 사용하지 않고 `.csv` 파일을 사용하여 데이터 작업을 수행하려면 **[!UICONTROL 가져오기]** 또는 **[!UICONTROL 내보내기]**&#x200B;를 클릭합니다.
+Adobe Mobile 사용자 인터페이스를 사용하지 않고 **[!UICONTROL 파일을 사용하여 데이터 작업을 수행하려면]**&#x200B;가져오기&#x200B;**[!UICONTROL 또는]**&#x200B;내보내기`.csv`를 클릭합니다.
