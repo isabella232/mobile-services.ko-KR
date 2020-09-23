@@ -1,21 +1,24 @@
 ---
-description: Audience Manager에서 신호를 전송하여 방문자 세그먼트를 검색하는 데 유용한 정보입니다.
-seo-description: Audience Manager에서 신호를 전송하여 방문자 세그먼트를 검색하는 데 유용한 정보입니다.
+description: 신호를 보내고 Audience Manager에서 방문자 세그먼트를 검색하는 데 도움이 되는 정보입니다.
+seo-description: 신호를 보내고 Audience Manager에서 방문자 세그먼트를 검색하는 데 도움이 되는 정보입니다.
 seo-title: Audience Manager
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Audience Manager
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 7fa58ffb-ecc6-46bb-b920-bda42c1f78b5
 translation-type: tm+mt
-source-git-commit: a161a4a2f2a46c351874ad9569be694e1a04333f
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 22%
 
 ---
 
 
 # Audience Manager {#audience-manager}
 
-Audience Manager에서 신호를 전송하여 방문자 세그먼트를 검색하는 데 유용한 정보입니다.
+신호를 보내고 Audience Manager에서 방문자 세그먼트를 검색하는 데 도움이 되는 정보입니다.
 
 ## 추가 정보
 
-+ [Audience Manager methods](/help/universal-windows/audiencemgmt/audience-manager-methods.md)
++ [Audience Manager 메서드](/help/universal-windows/audiencemgmt/audience-manager-methods.md)
