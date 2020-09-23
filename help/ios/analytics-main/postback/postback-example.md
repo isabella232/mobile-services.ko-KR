@@ -2,12 +2,15 @@
 description: 포스트백 기능에 대한 정의 및 소스 코드 예입니다.
 seo-description: 포스트백 기능에 대한 정의 및 소스 코드 예입니다.
 seo-title: 포스트백 예시
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 포스트백 예시
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 809c5646-7a80-40df-984b-0af89d854259
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 100%
 
 ---
 
