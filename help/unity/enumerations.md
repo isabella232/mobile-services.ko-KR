@@ -2,19 +2,22 @@
 description: 'null'
 keywords: Unity
 seo-description: 'null'
-seo-title: 열거
-solution: Marketing Cloud,개발자
-title: 열거
+seo-title: 열거형
+solution: Experience Cloud
+title: 열거형
 uuid: 7109cd0b-554f-4c4a-9acc-4b60812fb747
 translation-type: tm+mt
-source-git-commit: 04a55b2f73a5ed7fe629ff8ab06217fafd3a2c71
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '7'
+ht-degree: 28%
 
 ---
 
 
-# 열거 {#enumerations}
+# 열거형 {#enumerations}
 
-## ADBPrivacyStatus
+## ADBPprivacyStatus
 
 * `MOBILE_PRIVACY_STATUS_OPT_IN`
 * `MOBILE_PRIVACY_STATUS_OPT_OUT`
