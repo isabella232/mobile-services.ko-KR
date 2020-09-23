@@ -3,13 +3,13 @@ description: 다음은 장치 지문을 기반으로 하는 마케팅 링크를 
 keywords: android;library;mobile;sdk
 seo-description: 다음은 장치 지문을 기반으로 하는 마케팅 링크를 사용하는 획득 캠페인을 왕복하는 데 유용한 지침입니다.
 seo-title: 마케팅 링크 획득 테스트
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 마케팅 링크 획득 테스트
 topic: Developer and implementation
 uuid: 69503e01-182d-44c6-b0fb-e1c012ffa3bd
-translation-type: ht
-source-git-commit: c64e2fa7cee3cd35c4574e5007406b7604c99499
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 100%
 
