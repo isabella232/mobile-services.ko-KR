@@ -3,12 +3,15 @@ description: 지속 시간, 요일 및 시간 옵션을 포함하여 인앱 메�
 keywords: mobile
 seo-description: 지속 시간, 요일 및 시간 옵션을 포함하여 인앱 메시지에 대한 예약 옵션을 구성할 수 있습니다.
 seo-title: '예약: 인앱 메시지'
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: '예약: 인앱 메시지'
-topic: 지표
+topic: Metrics
 uuid: d10e691b-105a-4165-a49d-d046ce250acd
-translation-type: ht
-source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 95%
 
 ---
 
@@ -21,9 +24,9 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 >
 >날짜 범위는 사용자가 위치한 표준 시간대로 정의됩니다. 특정 날짜 및 시간 범위는 사용자의 장치에 상대적입니다.
 
-1. 앱에서 **[!UICONTROL 메시징]** &gt; **[!UICONTROL 메시지 관리]** &gt; **[!UICONTROL 메시지 작성]** &gt; **[!UICONTROL 앱 내 메시지 만들기]**&#x200B;를 클릭합니다.
+1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
 1. **[!UICONTROL 예약을 클릭합니다]**.
-1. **[!UICONTROL 기간]섹션에서 다음 필드를 작성합니다.**
+1. **[!UICONTROL 기간]** 섹션에서 다음 필드를 작성합니다.
 
    * **[!UICONTROL 매일]**
 
@@ -31,9 +34,9 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
    * **[!UICONTROL 시작 및 끝]**
 
-      **[!UICONTROL 달력]아이콘을 사용하여 메시지의 시작 날짜와 및 종료 날짜를 선택합니다.**
+      **[!UICONTROL 달력]** 아이콘을 사용하여 메시지의 시작 날짜와 및 종료 날짜를 선택합니다.
 
-1. **[!UICONTROL 요일]섹션에서 다음 필드를 작성합니다.**
+1. **[!UICONTROL 요일]** 섹션에서 다음 필드를 작성합니다.
 
    * **[!UICONTROL 매일]**
 
@@ -43,7 +46,7 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
       메시지를 표시할 요일을 선택하려면 해당 요일을 클릭합니다.
 
-1. **[!UICONTROL 시간]섹션에서 다음 필드를 작성합니다.**
+1. **[!UICONTROL 시간]** 섹션에서 다음 필드를 작성합니다.
 
    * **[!UICONTROL 하루 종일]**
 
