@@ -1,27 +1,30 @@
 ---
-description: 다음은 iOS 앱에서 인앱 메시지를 사용하는 데 유용한 정보입니다.
-seo-description: 다음은 iOS 앱에서 인앱 메시지를 사용하는 데 유용한 정보입니다.
+description: 이 정보는 iOS 앱에서 인앱 메시지를 사용하는 데 도움이 됩니다.
+seo-description: 이 정보는 iOS 앱에서 인앱 메시지를 사용하는 데 도움이 됩니다.
 seo-title: 인앱 메시징
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 인앱 메시징
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 21fa6a94-bb7f-4c78-843b-a50f1974db22
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 55%
 
 ---
 
 
 # 인앱 메시징 {#in-app-messaging}
 
-다음은 iOS 앱에서 인앱 메시지를 사용하는 데 유용한 정보입니다.
+이 정보는 iOS 앱에서 인앱 메시지를 사용하는 데 도움이 됩니다.
 
-인앱 메시지를 사용하려면 SDK 버전 4.2 이상이 **필요**&#x200B;합니다.
+To use in-app messaging, you **must** have SDK version 4.2 or later.
 
 기억해야 할 정보:
 
-* 메시지 표시 시기를 정의하는 규칙 및 메시지는 Adobe Mobile Services에서 작성됩니다. 자세한 내용은 [인앱 메시지 만들기](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md)를 참조하십시오.
-* 인앱 메시지를 표시하려면 이 섹션의 설명대로 SDK를 업데이트해야 합니다.
+* 메시지가 표시되는 시기를 정의하는 메시지 및 규칙이 Adobe Mobile Services에서 만들어집니다. For more information, see [Create an in-app message](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md).
+* 인앱 메시지를 표시하려면 이 섹션에 설명된 업데이트를 SDK에 적용해야 합니다.
 
    >[!TIP]
    >
@@ -73,9 +76,9 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 ## 인앱 메시지 추적 {#section_B85CDF6929564AAEA79338B55E5CB1E8}
 
-iOS Mobile Services SDK는 in-app 메시지에 대한 다음 지표를 추적합니다.
+iOS Mobile Services SDK는 인앱 메시지에 대해 다음 지표를 추적합니다.
 
-* 전체 화면 및 경고 스타일 in-app 메시지에 대한 지표:
+* 전체 화면 및 경고 스타일의 인앱 메시지:
 
    * **[!UICONTROL 노출 횟수]**: 사용자가 인앱 메시지를 트리거할 때입니다.
    * **[!UICONTROL 클릭스루]**: 사용자가 **[!UICONTROL 클릭스루]** 단추를 누를 때입니다.
@@ -83,13 +86,14 @@ iOS Mobile Services SDK는 in-app 메시지에 대한 다음 지표를 추적합
 
 * 사용자 지정 전체 화면 in-app 메시지의 경우 메시지에서 HTML 컨텐츠에 다음 단추에 대한 SDK 추적을 알리는 올바른 코드를 포함해야 합니다.
 
-   * **[!UICONTROL 클릭스루]**(리디렉션) 예 추적: `adbinapp://confirm/?url=https://www.yoursite.com`
+   * ****&#x200B;클릭스루(리디렉션) 예 추적: `adbinapp://confirm/?url=https://www.yoursite.com`
    * **[!UICONTROL 취소]**(닫기) 예 추적: `adbinapp://cancel`
 
 * 로컬(원격) 알림의 경우:
 
    * **[!UICONTROL 노출 회수]**: 사용자가 알림을 트리거할 때입니다.
    * **[!UICONTROL 시작]**: 사용자가 알림에서 앱을 열 때입니다.
+
    다음은 열린 추적을 포함하는 방법에 대한 예입니다.
 
    ```objective-c
@@ -107,7 +111,7 @@ iOS Mobile Services SDK는 in-app 메시지에 대한 다음 지표를 추적합
 
 ## 로컬 대체 이미지 {#section_DEACC1CE549B4573B556A44A52409941}
 
-Adobe Mobile Services에서 전체 화면 메시지를 만들 때 선택적으로 대체 이미지를 지정할 수 있습니다. 메시지가 웹에서 원하는 이미지를 검색할 수 없는 경우 SDK는 애플리케이션의 자산 폴더에서 이름이 같은 이미지를 로드합니다. 이렇게 하면 사용자가 오프라인 상태이거나 미리 설정된 이미지에 연결할 수 없는 경우에도 메시지를 원래 형식으로 표시할 수 있습니다.
+Adobe Mobile Services에서 전체 화면 메시지를 만들 때 선택적으로 대체 이미지를 지정할 수 있습니다. 메시지가 웹에서 의도한 이미지를 검색할 수 없는 경우 SDK는 애플리케이션 번들의 이름과 동일한 이름으로 이미지를 로드합니다. 따라서 사용자가 오프라인 상태이거나 미리 결정된 이미지에 연결할 수 없는 경우에도 메시지를 원래 양식으로 표시할 수 있습니다.
 
 대체 이미지 자산 이름은 Adobe Mobile Services에서 메시지를 구성할 때 지정됩니다.
 
