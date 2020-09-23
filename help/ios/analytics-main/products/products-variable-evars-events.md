@@ -2,12 +2,15 @@
 description: 다음은 머천다이징 eVar 및 제품별 이벤트의 products 변수의 예입니다.
 seo-description: 다음은 머천다이징 eVar 및 제품별 이벤트의 products 변수의 예입니다.
 seo-title: 머천다이징 eVar 및 제품별 이벤트가 포함된 Products 변수
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 머천다이징 eVar 및 제품별 이벤트가 포함된 Products 변수
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: f913211e-97ad-4237-bfe4-7ded01295caf
-translation-type: ht
-source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 100%
 
 ---
 
