@@ -3,14 +3,14 @@ description: Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대�
 keywords: Xamarin
 seo-description: Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android 메서드입니다.
 seo-title: Android 메서드
-solution: Marketing Cloud,Developer
+solution: Experience Cloud
 title: Android 메서드
 uuid: 860af1c4-f57e-4bcb-8308-4e316da9a27b
 translation-type: tm+mt
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '1767'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -163,7 +163,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **OverrideConfigStream**
 
-   (4.2 이상 버전) 응용 프로그램이 시작될 때 다른 `ADBMobile JSON` 구성 파일을 로드할 수 있습니다. 애플리케이션이 닫힐 때까지 다른 구성을 사용합니다.
+   (4.2 or later) Lets you load a different `ADBMobile JSON` config file when the application starts. 애플리케이션이 닫힐 때까지 다른 구성을 사용합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -196,7 +196,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **SetSmallIconResourceId(int resourceId)**
 
-   (4.2 이상 버전) SDK에서 만든 알림에 사용되는 작은 아이콘을 설정합니다. 이 아이콘은 상태 표시줄에 표시되며 사용자가 알림 센터에서 전체 알림을 볼 때 표시되는 보조 이미지입니다.
+   (4.2 이상 버전) SDK에서 만든 알림에 사용되는 작은 아이콘을 설정합니다. 이 아이콘은 상태 표시줄에 표시되고 사용자가 알림 센터에서 전체 알림을 볼 때 표시되는 보조 이미지입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -366,7 +366,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **TrackTimedActionUpdate**
 
-   데이터를 전달하여 주어진 작업과 연관된 컨텍스트 데이터를 업데이트합니다. 전달된 데이터는 주어진 작업의 기존 데이터에 추가되며 작업에 대해 동일한 키가 이미 정의된 경우 데이터를 덮어씁니다.
+   데이터를 전달하여 지정된 작업과 관련된 컨텍스트 데이터를 업데이트합니다. 전달된 데이터는 주어진 작업의 기존 데이터에 추가되며 작업에 대해 동일한 키가 이미 정의된 경우 데이터를 덮어씁니다.
 
    >[!TIP]
    >
@@ -801,7 +801,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
       Media.Complete (settings.Name, 5); 
       ```
 
-* **중지**
+* **정지**
 
    제공된 오프셋에서 비디오가 중지 또는 일시 중지되었음을 미디어 모듈에 알립니다.
 
