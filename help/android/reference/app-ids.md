@@ -1,20 +1,23 @@
 ---
-description: 다음 표에서는 Android SDK 및 Adobe Mobile Services에서 사용되는 다양한 앱 식별자에 대해 설명합니다.
-seo-description: 다음 표에서는 Android SDK 및 Adobe Mobile Services에서 사용되는 다양한 앱 식별자에 대해 설명합니다.
+description: 다음 표에서는 Android SDK 및 Adobe Mobile 서비스에서 사용되는 다양한 앱 식별자를 설명합니다.
+seo-description: 다음 표에서는 Android SDK 및 Adobe Mobile 서비스에서 사용되는 다양한 앱 식별자를 설명합니다.
 seo-title: 앱 ID
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 앱 ID
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 3ac99489-6269-439e-a814-24102ef220b1
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 72%
 
 ---
 
 
 # 앱 ID{#app-ids}
 
-다음 표에서는 Android SDK 및 Adobe Mobile Services에서 사용되는 다양한 앱 식별자에 대해 설명합니다.
+다음 표에서는 Android SDK 및 Adobe Mobile 서비스에서 사용되는 다양한 앱 식별자를 설명합니다.
 
 | ID | 설명 |
 |--- |--- |
