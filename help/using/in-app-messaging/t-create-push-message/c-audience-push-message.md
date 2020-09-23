@@ -3,13 +3,13 @@ description: 푸시 메시지에 대해 날짜 범위 옵션, Analytics 세그�
 keywords: mobile
 seo-description: 푸시 메시지에 대해 날짜 범위 옵션, Analytics 세그먼트 및 사용자 지정 세그먼트 등의 대상 옵션을 정의하고 구성할 수 있습니다.
 seo-title: '대상: 푸시 메시지에 대한 대상 세그먼트 정의 및 구성'
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: '대상: 푸시 메시지에 대한 대상 세그먼트 정의 및 구성'
 topic: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
-translation-type: ht
-source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 100%
 
