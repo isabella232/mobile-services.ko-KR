@@ -3,13 +3,13 @@ description: 이 정보를 통해 푸시 메시지 문제를 해결할 수 있�
 keywords: mobile
 seo-description: 이 정보를 통해 푸시 메시지 문제를 해결할 수 있습니다.
 seo-title: 푸시 메시지 문제 해결
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 푸시 메시지 문제 해결
 topic: Metrics
 uuid: c7be4ab7-0cfe-4296-84a8-01412f4fd93f
-translation-type: ht
-source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 100%
 
