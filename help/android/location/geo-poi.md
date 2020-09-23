@@ -2,12 +2,15 @@
 description: 지리적 위치는 Android 앱에서 위도와 경도 및 사전 정의된 관심 영역을 사용하여 위치 데이터를 측정할 수 있도록 합니다.
 seo-description: 지리적 위치는 Android 앱에서 위도와 경도 및 사전 정의된 관심 영역을 사용하여 위치 데이터를 측정할 수 있도록 합니다.
 seo-title: 지리적 위치 및 관심 영역
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 지리적 위치 및 관심 영역
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: b8209370-cbc4-40f9-97d8-017e2d74a377
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '596'
+ht-degree: 83%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
    이 정보는 자동 보고를 위해 모바일 솔루션 변수로 전달됩니다.
 
-* 중심으로부터 떨어진 거리 및 정확도 - 컨텍스트 데이터로 전달됨.
+* 컨텍스트 데이터로 전달된 중앙으로부터의 거리 및 정확도
 
    이러한 변수는 자동으로 캡처되지 않습니다. 아래 *추가 데이터 보내기* 섹션의 지침에 따라 이러한 컨텍스트 데이터 변수를 매핑해야 합니다.
 
@@ -61,7 +64,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
    위치 전략을 사용하여 `trackLocation` 호출에 전달되는 위치를 확인할 수 있습니다. 자세한 내용은 [Android 위치 전략](https://developer.android.com/guide/topics/location/strategies.html)을 참조하십시오.
 
-또한 정의된 POI 반경 내에 위치가 있는 것으로 확인되면 `a.loc.poi` 컨텍스트 데이터 변수가 `trackLocation` 히트와 함께 전송되며 **위치 분석** 보고서에서 POI로 보고됩니다. `a.loc.dist` 컨텍스트 변수도 정의된 좌표로부터 떨어진 거리(단위: 미터)와 함께 전송됩니다.
+또한 정의된 POI 반경 내에 위치가 있는 것으로 확인되면 `a.loc.poi` 컨텍스트 데이터 변수가 `trackLocation` 히트와 함께 전송되며 ****&#x200B;위치 분석 보고서에서 POI로 보고됩니다. `a.loc.dist` 컨텍스트 변수도 정의된 좌표로부터 떨어진 거리(단위: 미터)와 함께 전송됩니다.
 
 ## 추가 데이터 보내기 {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
@@ -81,9 +84,9 @@ Analytics.trackLocation(currentLocation, locationContextData);
 
 ## 위치 컨텍스트 데이터 {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
 
-위도와 경도는 총 6개의 컨텍스트 데이터 매개 변수에 대해 각각 서로 다른 정밀도 수준을 나타내는 세 가지 컨텍스트 데이터 매개 변수를 사용하여 전송됩니다.
+위도 및 경도는 총 6개의 컨텍스트 데이터 매개 변수에 대해 각각 다른 수준의 정밀도를 나타내는 세 개의 서로 다른 컨텍스트 데이터 매개 변수를 사용하여 전송됩니다.
 
-예를 들어 위도 40.93231 및 경도 -111.93152인 좌표는 정밀도가 1m인 위치를 나타냅니다. 이 위치는 정밀도 수준에 따라 다음 변수에 대해 분할됩니다.
+예를 들어 위도 = 40.93231, long = -111.93152는 정밀도가 1m인 위치를 나타냅니다. 이 위치는 다음 변수에서 정밀도 수준에 따라 분할됩니다.
 
 `a.loc.lat.a`= 040.9
 
@@ -116,5 +119,5 @@ Analytics.trackLocation(currentLocation, locationContextData);
 
 * 두 POI의 지름이 겹치는 경우 현재의 위치가 포함된 첫 번째 POI가 사용됩니다.
 
-   POI가 겹치는 경우 가장 세분화된 POI가 보고되도록 세분화 정도가 가장 높은 항목에서 가장 낮은 항목의 순서로 POI를 나열해야 합니다.
+   POI가 겹치는 경우 가장 세부적인 POI가 보고되도록 가장 적게 세분화된 POI를 나열해야 합니다.
 
