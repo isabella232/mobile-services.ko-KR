@@ -1,14 +1,17 @@
 ---
 description: 다음은 머천다이징 eVar 및 제품별 이벤트의 products 변수의 예입니다.
-keywords: android;라이브러리;모바일;sdk
+keywords: android;library;mobile;sdk
 seo-description: 다음은 머천다이징 eVar 및 제품별 이벤트의 products 변수의 예입니다.
 seo-title: 머천다이징 eVar 및 제품별 이벤트가 포함된 Products 변수
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 머천다이징 eVar 및 제품별 이벤트가 포함된 Products 변수
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 64f822a0-6ccf-48e7-8886-31b93d8198a3
-translation-type: ht
-source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 100%
 
 ---
 
