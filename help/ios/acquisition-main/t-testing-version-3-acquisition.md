@@ -2,11 +2,14 @@
 description: 다음은 장치 지문 파일을 기반으로 V3 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
 seo-description: 다음은 장치 지문 파일을 기반으로 V3 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
 seo-title: V3 획득 테스트
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: V3 획득 테스트
 uuid: 89137ccf-4839-4b37-926e-303cf8e511a5
-translation-type: ht
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '620'
+ht-degree: 97%
 
 ---
 
@@ -19,10 +22,10 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 >
 > V3 Acquisition은 Adobe Mobile Services UI에서 Acquisition Builder로 생성한 획득 링크를 가리킵니다. 이 기능을 사용하려면 iOS SDK 버전 4.6.0 이상으로 업그레이드해야 합니다.
 
-모바일 앱이 아직 앱스토어에 없으면 캠페인 링크를 만들 때 임의의 모바일 앱을 대상으로 선택하십시오. 이 작업은 획득 링크를 클릭한 후 획득 서버가 사용자를 리디렉션하는 앱에만 영향을 미치며, 획득 링크를 테스트하는 기능에는 영향을 미치지 않습니다.
+모바일 앱이 아직 App Store에 없는 경우 캠페인 링크를 만들 때 모든 모바일 앱을 대상으로 선택하십시오. 획득 링크를 클릭한 후 획득 서버가 리디렉션하는 앱에만 영향을 주지만 링크를 테스트하는 기능에는 영향을 주지 않습니다.
 
 1. [모바일 앱 획득](/help/ios/acquisition-main/acquisition.md)의 필수 조건 작업을 완료합니다.
-1. Adobe Mobile Services UI에서 **[!UICONTROL Acquisition Builder]로 이동하고 획득 캠페인 URL을 생성합니다.**
+1. Adobe Mobile Services UI에서 **[!UICONTROL Acquisition Builder]**&#x200B;로 이동하고 획득 캠페인 URL을 생성합니다.
 
    예:
 
@@ -31,7 +34,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
    ```
 
 
-   획득 링크에서 iOS 및 Android 앱을 모두 참조하는 경우, Apple Store를 기본 스토어로 사용하십시오.
+   획득 링크에서 iOS 및 Android 앱을 모두 참조하는 경우 Apple Store를 기본 스토어로 사용하십시오.
 1. 데스크탑 브라우저에서 생성된 링크를 열고 `https://c00.adobe.com/v3/<appid>/end`로 이동합니다.
 
    다음과 같이 JSON 응답에 `contextData`가 표시되어야 합니다.
@@ -45,7 +48,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    | 설정 | 값 |
    |--- |--- |
-   | acquisition | 서버는 `c00.adobe.com`이어야 합니다. *`appid`*&#x200B;는 획득 링크에서 *`appid`*&#x200B;와 같아야 합니다. |
+   | acquisition | 서버는 `c00.adobe.com`이어야 합니다.   *`appid`*&#x200B;는 획득 링크에서 *`appid`*&#x200B;와 같아야 합니다. |
    | analytics | `referrerTimeout` 값은 0보다 커야 합니다. |
 
 
@@ -63,7 +66,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
    `"Analytics - Trying to fetch referrer data from <acquisition end url>"`
    `"Analytics - Received Referrer Data(<Json Object>)"`
 
-   위의 로그가 보이지 않으면 4단계와 5단계를 완료했는지 확인하십시오.
+   위의 로그가 표시되지 않으면 4단계와 5단계를 완료했는지 확인하십시오.
 
    다음은 가능한 오류에 대한 정보입니다.
 
@@ -84,7 +87,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    * `Analytics - Acquisition referrer timed out`
 
-      `referrerTimeout`에 정의된 시간 내에 응답을 가져오지 못했습니다. 값을 늘린 다음 다시 시도하십시오. 또한 앱을 설치하기 전에 획득 링크를 열었는지, URL을 클릭해서 앱을 열 때 동일한 네트워크를 사용했는지 확인해야 합니다.
+      `referrerTimeout`에 정의된 시간 내에 응답을 가져오지 못했습니다. 값을 늘린 다음 다시 시도하십시오. 또한 앱을 설치하기 전에 획득 링크를 열어서 URL을 클릭하고 앱을 열 때 동일한 네트워크를 사용하고 있는지 확인해야 합니다.
 
       다음 정보를 숙지하십시오.
 
