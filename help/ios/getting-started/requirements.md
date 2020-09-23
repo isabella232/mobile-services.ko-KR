@@ -2,12 +2,15 @@
 description: 다음 단계를 완료하여, iOS 앱 데이터를 수집하도록 보고서 세트를 구성하십시오.
 seo-description: 다음 단계를 완료하여, iOS 앱 데이터를 수집하도록 보고서 세트를 구성하십시오.
 seo-title: 시작하기 전에
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 시작하기 전에
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
-translation-type: ht
-source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '595'
+ht-degree: 93%
 
 ---
 
@@ -44,9 +47,9 @@ source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ## Adobe Mobile Services UI에 로그인 {#section_690A2EC4572E47869F183974E932A6A8}
 
-Adobe Mobile Services는 모바일 앱 분석 및 타깃팅용 주요 보고 인터페이스입니다. 이 단계를 완료하면 데이터 수집 서버, 보고서 세트 및 기타 다양한 설정을 통해 사전 구성된 구성 파일을 다운로드할 수 있습니다.
+Adobe Mobile Services는 모바일 앱 분석 및 타깃팅용 주요 보고 인터페이스입니다. 이러한 단계를 완료한 후 데이터 수집 서버, 보고서 세트 및 기타 많은 설정으로 미리 구성된 구성 파일을 다운로드할 수 있습니다.
 
-다음 방법 중 하나로 Adobe Mobile Services에 로그인할 수 있습니다.
+다음 방법 중 하나를 사용하여 Adobe Mobile Services에 로그인할 수 있습니다.
 
 * **Experience Cloud**
 
@@ -60,26 +63,26 @@ Adobe Mobile Services는 모바일 앱 분석 및 타깃팅용 주요 보고 인
 
 * **Adobe Analytics**
 
-   **[!UICONTROL Analytics으로 로그인]**&#x200B;을 클릭하고 Analytics 회사 이름, 사용자 이름 및 암호를 입력합니다.
+   **[!UICONTROL Analytics로 로그인]**&#x200B;을 클릭하고 Analytics 회사 이름, 사용자 이름 및 암호를 입력합니다.
 
 ## 보고서 세트 생성 {#section_7BC602ED1ABA42C6AB722F506B5219F3}
 
 보고서 세트를 생성하여 앱 데이터를 수집하고 앱을 정의하려면
 
-1. **[!UICONTROL 새 앱 만들기를 클릭합니다]**.
+1. **[!UICONTROL 새 앱 만들기]**&#x200B;를 클릭합니다.
 
-   이 단추가 표시되지 않으면 **[!UICONTROL 앱 관리]** &gt; **[!UICONTROL 추가]**&#x200B;를 클릭하십시오.
+   이 단추가 표시되지 않으면 **[!UICONTROL 앱 관리]** > **[!UICONTROL 추가]**&#x200B;를 클릭하십시오.
 
 1. **[!UICONTROL 보고서 세트]** 드롭다운에서 **[!UICONTROL 새 보고서 세트]**&#x200B;를 선택합니다.
 
 1. 앱 이름을 입력하고 고유 보고서 세트 ID를 선택합니다.
 
    보고서 세트 ID의 예는 `mycomobileappdev`입니다. 개발 및 프로덕션 버전에 대해 별도의 보고서 세트와 앱을 설정해야 합니다. 프로덕션 버전을 설정할 준비가 되면 다음 단계를 반복합니다.
-1. **[!UICONTROL 모바일 앱 템플릿]을 선택한 상태로 둡니다.**
+1. **[!UICONTROL 모바일 앱 템플릿]**&#x200B;을 선택한 상태로 둡니다.
 
    이 템플릿을 사용하면 타임스탬프에서 오프라인 데이터를 수집할 수 있으며, 라이프사이클 지표를 캡처하는 모바일 솔루션 변수를 활성화합니다.
 
-1. **[!UICONTROL 시간대]**&#x200B;와 **[!UICONTROL 통화]**&#x200B;를 선택하고 **저장[!UICONTROL 을 클릭합니다]**.
+1. **[!UICONTROL 시간대]**&#x200B;와 **[!UICONTROL 통화]**&#x200B;를 선택하고 **[!UICONTROL 저장을 클릭합니다]**.
 
 ## SDK 다운로드 {#section_044C17DF82BC4FD8A3E409C456CE9A46}
 
@@ -87,11 +90,11 @@ Adobe Mobile Services는 모바일 앱 분석 및 타깃팅용 주요 보고 인
 
 1. 다음 방법 중 하나로 Mobile Services에 로그인하고 앱을 엽니다.
 
-   * **[!UICONTROL 모든 앱]드롭다운 목록에서 앱을 선택합니다.**
+   * **[!UICONTROL 모든 앱]** 드롭다운 목록에서 앱을 선택합니다.
    * 오른쪽 패널에서 앱을 찾아서 엽니다.
 
 1. **[!UICONTROL 앱 설정 관리를 클릭합니다]**.
-1. **[!UICONTROL 앱 SDK 다운로드]** 섹션에서 **앱 SDK 다운로드[!UICONTROL 섹션으로 스크롤합니다.]**
+1. **[!UICONTROL 앱 SDK 다운로드]** 섹션에서 **[!UICONTROL 앱 SDK 다운로드 섹션으로 스크롤합니다.]**
 
 1. 플랫폼용 SDK 및 샘플 앱을 다운로드합니다.
 
