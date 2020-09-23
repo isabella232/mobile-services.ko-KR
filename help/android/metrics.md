@@ -1,14 +1,17 @@
 ---
 description: 다음은 라이프사이클을 구현한 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표 및 차원을 안내합니다. 또한 라이프사이클 데이터 문제 해결을 안내하는 링크도 제공합니다.
-keywords: android;라이브러리;모바일;sdk
+keywords: android;library;mobile;sdk
 seo-description: 다음은 라이프사이클을 구현한 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표 및 차원을 안내합니다. 또한 라이프사이클 데이터 문제 해결을 안내하는 링크도 제공합니다.
 seo-title: 라이프사이클 지표
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 라이프사이클 지표
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: a8f3ebac-be3b-4948-82bb-105d46cfff6d
-translation-type: ht
-source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '1240'
+ht-degree: 91%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ## 새로운 Adobe Experience Platform Mobile SDK 릴리스
 
-Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
+Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고 계십니까? [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하여 최신 설명서를 확인하십시오.
 
 2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/kr/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
@@ -28,7 +31,7 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최�
 
 ## 라이프사이클 지표 및 차원 {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
-구성된 경우 라이프사이클 지표가 컨텍스트 데이터 매개 변수로 Analytics에 전송되고, 각 mbox 호출을 통해 매개 변수로 Target에 전송되며, 고객 관리에 신호로 전송됩니다. 분석 및 타겟은 같은 형식을 사용하지만, 대상 관리는 각 지표에 다른 접두사를 사용합니다.
+구성된 경우 라이프사이클 지표가 컨텍스트 데이터 매개 변수로 Analytics로, 매개 변수로 각 mbox 호출이 있을 때 Target으로, 고객 관리에 대한 신호로 전송됩니다. 분석 및 Target은 동일한 형식을 사용하는 반면 고객 관리는 각 지표에 대해 다른 접두사를 사용합니다.
 
 Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍스트 데이터는 지표 또는 차원을 사용하여 자동으로 캡처되고 보고되며, 예외가 기록됩니다.
 
@@ -72,7 +75,7 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
 
 * **시작**
 
-   충돌 및 설치를 포함하여 매 실행 시 트리거됩니다. 또한 라이프사이클 세션 시간 제한이 초과되면 백그라운드에서 다시 시작될 때 트리거됩니다.
+   충돌 및 설치를 포함하여 모든 실행 시 트리거됩니다. 라이프사이클 세션 시간 초과가 초과되면 백그라운드에서 다시 시작할 때도 트리거됩니다.
 
    >[!IMPORTANT]
    >
@@ -309,28 +312,28 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
 
 * **캠페인 내용**
 
-   링크를 표시한 콘텐츠의 이름 또는 ID입니다. 모바일 앱 획득을 통해 채워집니다.
+   링크를 표시한 컨텐츠의 이름 또는 ID. 모바일 앱 획득을 통해 채워집니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.referrer.campaign.content`
    * Audience Manager 트레이트: `c_a_referrer_campaign_content`
 
 * **캠페인 매체**
 
-   배너 또는 이메일과 같은 마케팅 매체입니다. 모바일 앱 획득을 통해 채워집니다.
+   배너 또는 이메일과 같은 마케팅 미디어 모바일 앱 획득을 통해 채워집니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.referrer.campaign.medium`
    * Audience Manager 트레이트: `c_a_referrer_campaign_medium`
 
 * **캠페인 소스**
 
-   뉴스레터 또는 소셜 미디어 네트워크와 같은 원본 레퍼러입니다. 모바일 앱 획득을 통해 채워집니다.
+   뉴스레터 또는 소셜 미디어 네트워크와 같은 원래 레퍼러 모바일 앱 획득을 통해 채워집니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.referrer.campaign.source`
    * Audience Manager 트레이트: `c_a_referrer_campaign_source`
 
 * **캠페인 용어**
 
-   이 획득을 사용하여 추적하려는 유료 키워드 또는 기타 용어입니다. 모바일 앱 획득을 통해 채워집니다.
+   이 획득으로 추적할 유료 키워드 또는 기타 용어입니다. 모바일 앱 획득을 통해 채워집니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.referrer.campaign.term`
    * Audience Manager 트레이트: `c_a_referrer_campaign_term`
