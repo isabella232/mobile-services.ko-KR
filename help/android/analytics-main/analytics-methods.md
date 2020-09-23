@@ -3,13 +3,13 @@ description: 다음은 Android 라이브러리에서 제공하는 Adobe Analytic
 keywords: android;library;mobile;sdk
 seo-description: 다음은 Android 라이브러리에서 제공하는 Adobe Analytics 메서드 목록입니다.
 seo-title: Analytics 메서드
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Analytics 메서드
 topic: Developer and implementation
 uuid: ac7c640e-9dcc-4724-b561-019cc025d5a7
-translation-type: ht
-source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 100%
 
