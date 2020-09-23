@@ -2,12 +2,15 @@
 description: '다음은 Experience Cloud 솔루션용 iOS SDK를 시작할 때 참조할 수 있는 정보입니다. '
 seo-description: '다음은 Experience Cloud 솔루션용 iOS SDK를 시작할 때 참조할 수 있는 정보입니다. '
 seo-title: 시작하기 개요
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 시작하기 개요
 topic: Developer and implementation
 uuid: a2b9baad-b959-4b9a-893d-99c0f4072e8d
-translation-type: ht
-source-git-commit: a424eb9be750e22e7130dae0d1c54a081ac475cd
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: a424eb9be750e22e7130dae0d1c54a081ac475cd
 
 ## 새로운 Adobe Experience Platform Mobile SDK 릴리스
 
-Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
+Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고 계십니까? [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하여 최신 설명서를 확인하십시오.
 
 2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/kr/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
