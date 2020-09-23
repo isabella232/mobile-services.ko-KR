@@ -2,12 +2,15 @@
 description: 애플리케이션이 시작될 때 다른 ADBMobile JSON 구성 파일을 로드할 수 있습니다.
 seo-description: 애플리케이션이 시작될 때 다른 ADBMobile JSON 구성 파일을 로드할 수 있습니다.
 seo-title: ADBMobile JSON 구성 경로 재정의
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: ADBMobile JSON 구성 경로 재정의
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: 0d1be674-c634-4a48-aa31-5701681911b9
-translation-type: ht
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '120'
+ht-degree: 100%
 
 ---
 
