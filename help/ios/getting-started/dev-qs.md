@@ -2,12 +2,15 @@
 description: 다음은 iOS 라이브러리를 구현하고 시작, 업그레이드, 세션, 참여 사용자 등의 라이프사이클 지표를 수집하는 데 유용한 정보입니다.
 seo-description: 다음은 iOS 라이브러리를 구현하고 시작, 업그레이드, 세션, 참여 사용자 등의 라이프사이클 지표를 수집하는 데 유용한 정보입니다.
 seo-title: 핵심 구현 및 라이프사이클
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 핵심 구현 및 라이프사이클
 topic: Developer and implementation
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
-translation-type: ht
-source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 100%
 
 ---
 
@@ -58,9 +61,10 @@ SDK를 다운로드하려면:
 1. Project Navigator에서 `AdobeMobileLibrary` 폴더를 드래그하여 프로젝트 아래에 놓습니다.
 1. 다음을 확인합니다.
 
-   * **[!UICONTROL 필요한 경우 항목 복사]확인란이 선택되어 있습니다.**
+   * **[!UICONTROL 필요한 경우 항목 복사]** 확인란이 선택되어 있습니다.
    * **[!UICONTROL 그룹 생성]**&#x200B;이 선택되어 있습니다.
-   * **[!UICONTROL 대상에 추가]섹션의 확인란이 선택되어 있지 않습니다.**
+   * **[!UICONTROL 대상에 추가]** 섹션의 확인란이 선택되어 있지 않습니다.
+
    ![](assets/step_3.png)
 
 1. **[!UICONTROL 마침을 클릭합니다]**.
@@ -72,7 +76,7 @@ SDK를 다운로드하려면:
 1. **[!UICONTROL Project Navigator]**&#x200B;에서 다음 단계를 완료합니다.
 
    1. 앱을 클릭합니다.
-   1. **[!UICONTROL 일반]** 탭에서 타겟을 선택하고 **[!UICONTROL 연결된 프레임워크]및**&#x200B;라이브러리&#x200B;**섹션에서 필요한 프레임워크 및 라이브러리를 연결합니다.**
+   1. **[!UICONTROL 일반]** 탭에서 타겟을 선택하고 **[!UICONTROL 연결된 프레임워크]** 및 라이브러리&#x200B;**[!UICONTROL 섹션에서 필요한 프레임워크 및 라이브러리를 연결합니다.]**
    * **iOS 앱 타겟**
       * `SystemConfiguration.framework`
       * `WebKit.framework`
@@ -93,6 +97,7 @@ SDK를 다운로드하려면:
       * `SystemConfiguration.framework`
       * `libsqlite3.0.tbd`
       * `AdobeMobileLibrary\_TV.a`
+
    >[!CAUTION]
    >
    > 두 개 이상의 `AdobeMobileLibrary*.a` 파일을 동일한 타겟에 연결하면 예기치 않은 동작이 발생하거나 빌드할 수 없게 됩니다.
