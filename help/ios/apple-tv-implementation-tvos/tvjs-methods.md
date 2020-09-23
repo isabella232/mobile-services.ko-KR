@@ -2,13 +2,13 @@
 description: 다음은 tvOS 라이브러리에서 제공하는 TVJS 메서드 목록입니다.
 seo-description: 다음은 tvOS 라이브러리에서 제공하는 TVJS 메서드 목록입니다.
 seo-title: TVJS 메서드
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: TVJS 메서드
 topic: Developer and implementation
 uuid: a7bfa85a-0d6e-4f51-9a9e-70429c2a9806
-translation-type: ht
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '2013'
 ht-degree: 100%
 
