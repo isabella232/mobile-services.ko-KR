@@ -2,13 +2,13 @@
 description: Experience Cloud 솔루션용 Android SDK 4.x에 대한 릴리스 노트 및 알려진 문제
 seo-description: Experience Cloud 솔루션용 Android SDK 4.x에 대한 릴리스 노트 및 알려진 문제
 seo-title: 릴리스 노트
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 릴리스 노트
 topic: Developer and implementation
 uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
-translation-type: ht
-source-git-commit: a2a2ea4bd3826b061b198e684dd31d9328137d7e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
 
