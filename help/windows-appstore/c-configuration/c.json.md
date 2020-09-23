@@ -2,12 +2,15 @@
 description: ADBMobile JSON 구성 파일을 사용하는 데 도움이 되는 정보입니다.
 seo-description: ADBMobile JSON 구성 파일을 사용하는 데 도움이 되는 정보입니다.
 seo-title: ADBMobileConfig.json 구성 파일
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: ADBMobileConfig.json 구성 파일
 topic: Developer and implementation
 uuid: a45b91cc-982e-4d6c-a4e4-d2e4b4fa7556
 translation-type: tm+mt
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 42%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 구성 파일을 사용하는 데 도움이 되는 `ADBMobile.json` 정보입니다.
 
-SDK는 현재 Analytics, Target 및 Audience Manager를 비롯한 여러 Adobe Experience Cloud 솔루션을 지원합니다. 메서드에는 솔루션에 따라 접두사가 붙습니다. 구성 메서드 앞에 &quot;Config&quot;가 접두사로 추가됩니다.
+SDK는 현재 분석, Target 및 Audience Manager을 비롯한 여러 Adobe Experience Cloud 솔루션을 지원합니다. 메서드에는 솔루션에 따라 접두사가 붙습니다. 구성 메서드 앞에 &quot;Config&quot;가 접두사로 추가됩니다.
 
 * **rsids**
 
-   (Analytics에 필요) Analytics 데이터를 수신하기 위한 하나 이상의 보고서 세트. 여러 보고서 세트 ID는 쉼표 구분 후 사이에 공백이 없어야 합니다.
+   (Analytics에 필요) Analytics 데이터를 수신하기 위한 하나 이상의 보고서 세트. 여러 보고서 세트 ID는 공백 없이 쉼표로 구분해야 합니다.
 
    * 다음은 이 변수의 코드 샘플입니다.
 
@@ -40,7 +43,7 @@ SDK는 현재 Analytics, Target 및 Audience Manager를 비롯한 여러 Adobe E
 
 * **charset**
 
-   Analytics로 전송된 데이터에 사용할 문자 집합을 정의합니다. charset은 들어오는 데이터를 저장 및 보고용으로 UTF-8로 변환하는 데 사용됩니다. 자세한 내용은 [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/charset.html)을 참조하십시오.
+   Analytics로 전송된 데이터에 사용할 문자 집합을 정의합니다. charset은 들어오는 데이터를 저장 및 보고용으로 UTF-8로 변환하는 데 사용됩니다. 자세한 내용은 [s.charSet](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/config-vars/charset.html)을 참조하십시오.
 
 * **ssl**
 
@@ -56,7 +59,7 @@ SDK는 현재 Analytics, Target 및 Audience Manager를 비롯한 여러 Adobe E
 
 * **lifecycleTimeout**
 
-   실행이 새 세션으로 간주되기 전에 앱 실행 간 경과해야 하는 시간(초)을 지정합니다. 이 시간 초과는 응용 프로그램이 백그라운드로 전송되고 다시 활성화될 때도 적용됩니다. 앱이 백그라운드에서 보내는 시간은 세션 길이에 포함되지 않습니다. 기본값은 300초입니다.
+   실행이 새 세션으로 간주되기 전에 앱 실행 간 경과해야 하는 시간(초)을 지정합니다. 이 시간 초과는 응용 프로그램이 백그라운드로 전송되고 다시 활성화될 때도 적용됩니다. 앱이 백그라운드에서 소요하는 시간은 세션 길이에 포함되지 않습니다. 기본값은 300초입니다.
 
 * **batchLimit**
 
@@ -89,7 +92,7 @@ SDK는 현재 Analytics, Target 및 Audience Manager를 비롯한 여러 Adobe E
 
 * **clientCode**
 
-   (**Target에**&#x200B;필요) 할당된 클라이언트 코드입니다.
+   (Target **에 필요**) 할당된 클라이언트 코드입니다.
 
 * **timeout**
 
