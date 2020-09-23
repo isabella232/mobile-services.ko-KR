@@ -3,12 +3,15 @@ description: 마케팅 링크 페이지를 사용하여 마케팅 링크를 작�
 keywords: mobile
 seo-description: 마케팅 링크 페이지를 사용하여 마케팅 링크를 작성, 사용 및 보관할 수 있습니다.
 seo-title: 마케팅 링크 관리
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 마케팅 링크 관리
-topic: 지표
+topic: Metrics
 uuid: 98ac3520-89ed-4513-83f6-120dda9d0157
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '201'
+ht-degree: 91%
 
 ---
 
@@ -25,9 +28,9 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 * **마케팅 링크 표시**
 
-   마케팅 링크 목록을 표시하려면 모바일 서비스 홈 페이지에서 **[!UICONTROL 획득]** &gt; **[!UICONTROL 마케팅 링크 빌더]**&#x200B;를 클릭합니다.
+   To display the list of Marketing Links, in the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Links Builder]**.
 
-   **[!UICONTROL 클릭 수]** 열에는 마케팅 링크를 클릭한 사용자 수가 표시됩니다. **[!UICONTROL 첫 번째 실행]열에는 앱의 첫 번째 실행 횟수가 표시됩니다.** 이 값은 마케팅 링크를 클릭한 후 앱을 설치하고 실행하도록 선택한 사용자 수를 반영한 것입니다.
+   **[!UICONTROL 클릭 수]** 열에는 마케팅 링크를 클릭한 사용자 수가 표시됩니다. **[!UICONTROL 첫 번째 실행]** 열에는 앱의 첫 번째 실행 횟수가 표시됩니다. 이 값은 마케팅 링크를 클릭한 후 앱을 설치하고 실행하도록 선택한 사용자 수를 반영한 것입니다.
 
 * **마케팅 링크 보관 또는 보관 해제**
 
