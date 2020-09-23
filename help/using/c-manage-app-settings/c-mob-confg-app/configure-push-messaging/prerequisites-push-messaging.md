@@ -3,13 +3,13 @@ description: 응용 프로그램에서 푸시 메시지를 구성하기 전에 �
 keywords: mobile
 seo-description: 응용 프로그램에서 푸시 메시지를 구성하기 전에 이러한 작업을 완료해야 합니다.
 seo-title: 푸시 메시지를 활성화하기 위한 전제 조건
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 푸시 메시지를 활성화하기 위한 전제 조건
 topic: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
-translation-type: ht
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 100%
 
