@@ -3,12 +3,15 @@ description: 링크 대상 페이지에서 기존 대상을 편집, 보관, 보�
 keywords: mobile
 seo-description: 링크 대상 페이지에서 기존 대상을 편집, 보관, 보관 해제 또는 삭제할 수 있습니다.
 seo-title: 링크 대상 관리
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 링크 대상 관리
-topic: 지표
+topic: Metrics
 uuid: 3a38d40d-b4c7-4f9f-aa6e-979613faaba2
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 94%
 
 ---
 
@@ -49,7 +52,8 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
       1. **[!UICONTROL 아카이브 보기]**&#x200B;를 클릭합니다.
       1. 보관을 해제할 링크 이름 옆에 있는 확인란을 한 개 이상 선택합니다.
       1. **[!UICONTROL 선택한 아카이브 해제]**&#x200B;를 클릭합니다.
-      **[!UICONTROL 아카이브 보기]옵션은 링크 대상을 이전에 보관한 경우에만 표시됩니다.**
+
+      **[!UICONTROL 아카이브 보기]** 옵션은 링크 대상을 이전에 보관한 경우에만 표시됩니다.
 
    * **삭제**
 
