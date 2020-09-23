@@ -1,23 +1,23 @@
 ---
-description: 비디오 Analytics 사용에 도움이 되는 정보입니다.
-seo-description: 비디오 Analytics 사용에 도움이 되는 정보입니다.
+description: 비디오 분석에 도움이 되는 정보입니다.
+seo-description: 비디오 분석에 도움이 되는 정보입니다.
 seo-title: Video Analytics
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Video Analytics
 topic: Developer and implementation
 uuid: 7d4e6668-a1d9-41da-96c8-8baac860c5b0
 translation-type: tm+mt
-source-git-commit: 4b5be6c51c716114e597a80d475f838e23abb1b1
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '898'
-ht-degree: 65%
+ht-degree: 71%
 
 ---
 
 
 # Video Analytics {#video-analytics}
 
-비디오 Analytics 사용에 도움이 되는 정보입니다.
+비디오 분석에 도움이 되는 정보입니다.
 
 비디오 측정은 Adobe Analytics [에서 오디오 및 비디오 측정](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html/) 안내서에 자세히 설명되어 있습니다. 비디오를 측정하는 일반적인 프로세스는 모든 AppMeasurement 플랫폼에서 매우 유사합니다. 이 빠른 시작 섹션은 코드 샘플과 함께 개발자 작업의 기본 개요를 제공합니다.
 
@@ -27,11 +27,11 @@ ht-degree: 65%
 
    (필수) 방문자가 비디오를 보는 경우 구현에 지정된 대로 비디오의 이름을 수집합니다.이 변수에 대한 분류를 추가할 수 있습니다.
 
-   (**선택**&#x200B;사항) Custom Insight 변수는 비디오 경로 정보를 제공합니다.
+   (**Optional**) The Custom Insight variable provides video pathing information.
 
    * 변수 유형: eVar
    * 기본 만료: 방문
-   * Custom Insight(s.prop, 비디오 경로 지정에 사용됨)
+   * 사용자 지정 인사이트(s.prop, 비디오 경로 지정에 사용)
 
 * **a.media.name**
 
@@ -45,13 +45,13 @@ ht-degree: 65%
 
    (필수) 세그먼트 이름 및 비디오에서 세그먼트가 발생하는 순서를 포함하여 비디오 세그먼트 데이터를 수집합니다. 이 변수는 플레이어 이벤트를 자동으로 추적할 때 `segmentByMilestones` 변수를 활성화하거나, 플레이어 이벤트를 수동으로 추적할 때 사용자 지정 세그먼트 이름을 설정하여 채워집니다. For example, when a visitor views the first segment in a video, SiteCatalyst might collect the following in the `1:M:0-25` segment eVar.
 
-   기본 비디오 데이터 수집 방법은 다음 시점에서 데이터를 수집합니다.
+   기본 비디오 데이터 수집 방법의 경우, 다음 시점에서 데이터를 수집합니다.
 
    * 비디오 시작(재생)
    * 세그먼트 시작
-   * 비디오 끝(중지)
+   * 비디오 종료(중지)
 
-   Analytics은 방문자가 시청을 시작할 때 세그먼트 시작 시 첫 번째 세그먼트 보기를 카운트합니다. 세그먼트가 시작될 때 이어지는 세그먼트 보기.
+   Analytics에서는 방문자가 시청을 시작할 때 세그먼트 시작에서 첫 번째 세그먼트 보기를 계산합니다. 세그먼트가 시작될 때 표시되는 후속 세그먼트 보기.
 
    * 변수 유형: eVar
    * 기본 만료: 페이지 보기
@@ -75,7 +75,7 @@ ht-degree: 65%
 
    방문자가 비디오를 일정 부분 보았음을 나타냅니다. 그러나 방문자가 비디오에서 본 내용이나 분량에 대한 정보는 제공하지 않습니다.
 
-   * 변수: 이벤트
+   * 변수:이벤트
    * 유형:카운터
 
 * **a.media.segmentView**
@@ -132,7 +132,7 @@ property bool isMediaAd;
 
 ## 미디어 측정 클래스 및 메서드 참조 {#section_50DF9359A7B14DF092634C8E913C77FE}
 
-* **SettingsWith (winJS: settingsWith)**
+* **SettingsWith (winJS:settingsWith)**
 
    지정된 매개 변수와 함께 `MediaSetting` 개체를 반환합니다.
 
@@ -148,7 +148,7 @@ property bool isMediaAd;
       var mySettings = ADB.Media.settingsWith("name", 10, "playerName", "playerId"); 
       ```
 
-* **AdSettingsWith (winJS: adSettingsWith**
+* **AdSettingsWith (winJS:adSettingsWith**
 
    광고 비디오 추적에 사용할 `MediaSettings` 개체를 반환합니다.
 
@@ -164,7 +164,7 @@ property bool isMediaAd;
       var myAdSettings = ADB.Media.adSettingsWith("name", 10, "playerName", "parentName", "parentPod", 5, "myCPM"); 
       ```
 
-* **열기(winJS: open)**
+* **열기(winJS:open)**
 
    에 정의된 설정을 사용하여 열린 미디어를 추적합니다 `settings`.
 
@@ -180,7 +180,7 @@ property bool isMediaAd;
       ADB.Media.open(mySettings); 
       ```
 
-* **닫기(winJS: 닫기)**
+* **닫기(winJS:닫기)**
 
    이름이 *명명된 미디어 항목에 대한 미디어 닫기를 추적합니다*.
 
@@ -196,7 +196,7 @@ property bool isMediaAd;
       ADB.Media.close("mediaName");
       ```
 
-* **재생(winJS: play)**
+* **재생(winJS:play)**
 
    지정된 오프셋 *`name`* (초)에서 이름이 지정된 미디어 항목 *의 미디어 재생* 을 추적합니다.
 
@@ -212,7 +212,7 @@ property bool isMediaAd;
       ADB.Media.play("mediaName", 0);
       ```
 
-* **완료(winJS: complete)**
+* **완료(winJS:complete)**
 
    제공된 *오프셋*(초)에서 완료된 미디어 항목을 수동으로 표시합니다.
 
@@ -228,7 +228,7 @@ property bool isMediaAd;
       ADB.Media.complete("mediaName", 8); 
       ```
 
-* **중지(winJS: stop)**
+* **중지(winJS:stop)**
 
    *제공된 오프셋에서 비디오가 중지 또는 일시 중지되었음을 미디어 모듈에 알립니다*.
 
@@ -244,7 +244,7 @@ property bool isMediaAd;
       ADB.Media.stop("mediaName", 4);
       ```
 
-* **클릭(winJS: 클릭)**
+* **클릭(winJS:클릭)**
 
    미디어 항목이 클릭되었음을 미디어 모듈에 알립니다.
 
@@ -260,7 +260,7 @@ property bool isMediaAd;
       ADB.Media.click("mediaName", 3);
       ```
 
-* **트랙(winJS: 추적)**
+* **트랙(winJS:추적)**
 
    현재 미디어 상태에 대한 추적 작업 호출(페이지 보기 없음)을 보냅니다.
 
