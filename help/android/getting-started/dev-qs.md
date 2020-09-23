@@ -3,12 +3,15 @@ description: 다음은 Android 라이브러리를 구현하고 시작, 업그레
 keywords: android;library;mobile;sdk
 seo-description: 다음은 Android 라이브러리를 구현하고 시작, 업그레이드, 세션, 참여 사용자 등의 라이프사이클 지표를 수집하는 데 유용한 정보입니다.
 seo-title: 핵심 구현 및 라이프사이클
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 핵심 구현 및 라이프사이클
 topic: Developer and implementation
 uuid: af4d11ac-8245-46a0-9b3a-4a0a29cfbbb2
-translation-type: ht
-source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '560'
+ht-degree: 100%
 
 ---
 
