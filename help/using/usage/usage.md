@@ -1,23 +1,26 @@
 ---
-description: 사용 보고서는 평균 세션 길이, 일일 및 월별 참여 사용자 수, 업그레이드 및 기타 정보를 표시하여 앱 사용 방법과 빈도를 이해하는 데 도움을 줍니다. 유지 보고서는 초기 실행 후에 사용자 유지 수준 1일, 7일 및 28일을 빠르게 표시합니다.
+description: 사용량 보고서에는 평균 세션 길이, 일별 및 월별 참여 사용자, 업그레이드 및 기타 통찰력이 표시되므로 앱이 사용되는 방식과 빈도를 파악할 수 있습니다. 유지 보고서는 처음 실행 후 1일, 7일 및 28일 후의 사용자 유지 수준을 빠르게 보여줍니다.
 keywords: mobile
-seo-description: 사용 보고서는 평균 세션 길이, 일일 및 월별 참여 사용자 수, 업그레이드 및 기타 정보를 표시하여 앱 사용 방법과 빈도를 이해하는 데 도움을 줍니다. 유지 보고서는 초기 실행 후에 사용자 유지 수준 1일, 7일 및 28일을 빠르게 표시합니다.
+seo-description: 사용량 보고서에는 평균 세션 길이, 일별 및 월별 참여 사용자, 업그레이드 및 기타 통찰력이 표시되므로 앱이 사용되는 방식과 빈도를 파악할 수 있습니다. 유지 보고서는 처음 실행 후 1일, 7일 및 28일 후의 사용자 유지 수준을 빠르게 보여줍니다.
 seo-title: 보고서
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 보고서
-topic: 보고서,지표
+topic: Reports,Metrics
 uuid: 2abc2bd1-dbae-4af1-9b8d-1df2f6d3a81f
-translation-type: ht
-source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 19%
 
 ---
 
 
 # 보고서{#reports}
 
-사용 보고서는 평균 세션 길이, 일일 및 월별 참여 사용자 수, 업그레이드 및 기타 정보를 표시하여 앱 사용 방법과 빈도를 이해하는 데 도움을 줍니다. 유지 보고서는 초기 실행 후에 사용자 유지 수준 1일, 7일 및 28일을 빠르게 표시합니다.
+사용량 보고서에는 평균 세션 길이, 일별 및 월별 참여 사용자, 업그레이드 및 기타 통찰력이 표시되므로 앱이 사용되는 방식과 빈도를 파악할 수 있습니다. 유지 보고서는 처음 실행 후 1일, 7일 및 28일 후의 사용자 유지 수준을 빠르게 보여줍니다.
 
-Mobile UI에서 다음 보고서를 생성할 수 있습니다.
+모바일 UI에서 다음 보고서를 생성할 수 있습니다.
 
 * [개요](/help/using/usage/usage-overview.md)
 * [사용자 및 세션](/help/using/usage/users-sessions.md)
