@@ -3,12 +3,12 @@ description: 다양한 변수 및 지표를 구성하여 앱에서 받은 데이
 keywords: mobile
 seo-description: 다양한 변수 및 지표를 구성하여 앱에서 받은 데이터를 추적하고 관리할 수 있습니다.
 seo-title: 앱 관리
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 앱 관리
 topic: Metrics
 uuid: 0cc356c3-8457-40a7-8c97-7cbc68a5dc0c
 translation-type: tm+mt
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 66%
