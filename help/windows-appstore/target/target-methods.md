@@ -1,30 +1,33 @@
 ---
 description: Windows 8.1 Universal App Store 라이브러리에서 제공하는 Target 메서드 목록입니다.
 seo-description: Windows 8.1 Universal App Store 라이브러리에서 제공하는 Target 메서드 목록입니다.
-seo-title: 타겟 메서드
-solution: Marketing Cloud,Analytics
-title: 타겟 메서드
-topic: 개발자 및 구현
+seo-title: Target 메서드
+solution: Experience Cloud,Analytics
+title: Target 메서드
+topic: Developer and implementation
 uuid: 8c35b31c-c70b-4dba-8759-173342a301e9
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '281'
+ht-degree: 42%
 
 ---
 
 
-# Target methods {#target-methods}
+# 타겟 메서드 {#target-methods}
 
 Windows 8.1 Universal App Store 라이브러리에서 제공하는 Target 메서드 목록입니다.
 
-현재 SDK는 Analytics, Target 및 Audience Manager을 포함하여 여러 Adobe Experience Cloud 솔루션을 지원합니다. 메서드에는 솔루션에 따라 접두사가 붙습니다. Analytics 메서드는 "Target"으로 시작합니다.
+SDK는 현재 분석, Target 및 Audience Manager을 비롯한 여러 Adobe Experience Cloud 솔루션을 지원합니다. 메서드에는 솔루션에 따라 접두사가 붙습니다. 분석 메서드 접두사는 &quot;Target&quot;입니다.
 
 [라이프사이클 지표](/help/windows-appstore/metrics.md)는 각 mbox 로드에 매개 변수로 전송됩니다.
 
 >[!TIP]
 >
->When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
+>winJS(JavaScript)의 `winmd` 메서드를 사용하면 모든 메서드에서 첫 번째 문자가 자동으로 소문자로 바뀝니다.
 
-## 클래스 참조:TargetLocationRequest
+## 클래스 참조: TargetLocationRequest
 
 ### 속성
 
@@ -36,7 +39,7 @@ property Windows::Foundation::Collections::IMap<Platform::String^, Platform::Obj
 
 ## 문자열 상수
 
-이 정보는 사용자 지정 매개 변수에 대한 키를 설정하는 데 도움이 됩니다.
+이 정보는 사용자 지정 매개 변수의 키를 설정하는 데 도움이 됩니다.
 
 ```
 static property Platform::String ^TARGET_PARAMETER_ORDER_ID { 
@@ -89,7 +92,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **CreateRequest(winJS:createRequest)**
 
-   지정된 매개 변수로 `TargetLocationRequest` 개체를 만듭니다.
+   Creates a `TargetLocationRequest` object with the given parameters.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -106,7 +109,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **CreateOrder &#x200B; ConfirmRequest(winJS:createOrder &#x200B; ConfirmRequest)**
 
-   지정된 매개 변수로 `TargetLocationRequest` 개체를 만듭니다.
+   Creates a `TargetLocationRequest` object with the given parameters.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -123,7 +126,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **ClearCookies(winJS:clearCookies)**
 
-   현재 장치에서 애플리케이션의 Target 쿠키를 지웁니다.
+   현재 장치에서 응용 프로그램의 Target 쿠키를 지웁니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -139,7 +142,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **GetPcId(winJS:getPcId)**
 
-   현재 장치의 PC ID 쿠키를 반환합니다.
+   현재 장치에 대한 PC ID 쿠키를 반환합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -155,7 +158,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **GetSessionId(winJS:getSessionId)**
 
-   현재 장치의 세션 ID 쿠키를 반환합니다.
+   현재 장치에 대한 세션 ID 쿠키를 반환합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
