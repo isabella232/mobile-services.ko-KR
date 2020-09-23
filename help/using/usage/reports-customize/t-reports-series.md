@@ -3,12 +3,15 @@ description: 이 정보는 데이터를 비교하기 위해 다른 보고서 세
 keywords: mobile
 seo-description: 이 정보는 데이터를 비교하기 위해 다른 보고서 세트에 시리즈(지표)나 앱을 추가하여 기본 제공된 보고서를 사용자 지정하는 데 도움이 됩니다.
 seo-title: 보고서에 시리즈(지표) 추가
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 보고서에 시리즈(지표) 추가
-topic: 보고서,지표
+topic: Reports,Metrics
 uuid: 84fdfb1f-70e6-4c02-9b3b-526e9c924f74
-translation-type: ht
-source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 90%
 
 ---
 
@@ -23,17 +26,17 @@ source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 이 예에서는 **[!UICONTROL 사용자 및 세션]** 보고서를 사용자 지정하지만, 지침은 모든 보고서에 적용됩니다.
 
-1. 앱을 열고 **[!UICONTROL 사용]** &gt; **[!UICONTROL 사용자 및 세션]**&#x200B;을 클릭합니다.
+1. Open your app and click **[!UICONTROL Usage]** > **[!UICONTROL Users &amp; Sessions]**.
 
    ![단계 결과](assets/customize1.png)
 
-   이 보고서에서는 앱 사용자에 대한 전체 시간별 보기를 제공합니다. 하지만 이제 앱 충돌에 대해 보고할 시리즈를 추가하려고 합니다.
+   이 보고서는 앱 사용자에 대한 전체 시간별 보기를 제공합니다. 하지만 앱 충돌에 대해 보고할 시리즈를 추가하려고 합니다.
 
 1. **[!UICONTROL 사용자 지정]**&#x200B;을 클릭합니다.
 
    ![단계 결과](assets/customize2.png)
 
-1. **아래로 스크롤하여[!UICONTROL 시리즈 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 아래로 스크롤하여 시리즈 추가]**&#x200B;를 클릭합니다.
 
    시리즈 이름이 목록에 있는 마지막 시리즈와 동일한 이름으로 채워집니다. 이전 그림에서 최신 시리즈는 **[!UICONTROL 앱스토어 다운로드]**&#x200B;이므로 새 시리즈가 추가되고, 또한 **[!UICONTROL 앱스토어 다운로드]**&#x200B;라는 제목이 지정됩니다.
 
