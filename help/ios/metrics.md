@@ -1,13 +1,16 @@
 ---
-description: 다음 표에는 라이프사이클이 구현된 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표와 차원이 나열되어 있습니다.
-seo-description: 다음 표에는 라이프사이클이 구현된 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표와 차원이 나열되어 있습니다.
+description: 다음 표에는 라이프사이클이 구현된 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표와 차원이 나와 있습니다.
+seo-description: 다음 표에는 라이프사이클이 구현된 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표와 차원이 나와 있습니다.
 seo-title: 라이프사이클 지표
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 라이프사이클 지표
-topic: 개발자 및 구현
+topic: Developer and implementation
 uuid: b795e383-d59b-4a3c-9e14-ffe8fb58412c
-translation-type: ht
-source-git-commit: a6608bf4d36a6fb6aca00f50cc058c09dbd931b1
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '1108'
+ht-degree: 85%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: a6608bf4d36a6fb6aca00f50cc058c09dbd931b1
 
 ## 새로운 Adobe Experience Platform Mobile SDK 릴리스
 
-Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
+Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고 계십니까? [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하여 최신 설명서를 확인하십시오.
 
 2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/kr/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
@@ -68,7 +71,7 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
 
 * **시작**
 
-   충돌 및 설치를 포함하여 매 실행 시 트리거됩니다. 라이프사이클 세션 시간 제한이 초과된 후 앱이 백그라운드에서 재개될 때도 트리거됩니다.
+   충돌 및 설치를 포함하여 매 실행 시 트리거됩니다. 라이프사이클 세션 시간 초과가 초과된 후 백그라운드에서 앱이 다시 시작될 때도 트리거됩니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.LaunchEvent`
    * Audience Manager 신호: `c_a_LaunchEvent`
@@ -130,7 +133,7 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
 
 * **시간**
 
-   앱을 시작한 시간을 측정하고 24시간 숫자 형식을 사용합니다. 피크 사용 시간을 결정하기 위한 시간 분할에 사용됩니다.
+   앱이 실행된 시간을 측정하고 24시간 숫자 형식을 사용합니다. 피크 사용 시간을 결정하기 위한 시간 분할에 사용됩니다.
 
    * Analytics 컨텍스트 데이터/타겟: `a.HourOfDay`
    * 대상 관리: `c_a_HourOfDay`
@@ -165,7 +168,7 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
 
 * **장치 이름**
 
-   장치 이름을 저장합니다.  iOS 장치를 식별하는 쉼표로 구분된 두 자리 문자열입니다. 첫 번째 번호는 일반적으로 장치 생성을 나타내며 두 번째 번호는 일반적으로 장치 제품군의 다른 구성원을 나타냅니다. 일반적인 장치 이름 목록을 보려면  iOS 장치 버전.
+   장치 이름을 저장합니다.  iOS 장치를 식별하는 쉼표로 구분된 두 자리 문자열. 첫 번째 숫자는 일반적으로 장치 생성을 나타내며 두 번째 숫자는 일반적으로 장치 제품군의 다른 구성원을 나타냅니다. 일반적인 장치 이름 목록은 iOS 장치 버전을 참조하십시오.
 
    * Analytics 컨텍스트 데이터/타겟: `a.DeviceName`
    * 대상 관리: `c_a_DeviceName`
@@ -283,7 +286,7 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
 
 * **추적 코드**
 
-   모바일 앱 획득을 통해 채워집니다. Adobe Mobile Services에서 자동으로 생성됩니다.
+   모바일 앱 획득을 통해 채워집니다. Adobe 모바일 서비스에 의해 자동으로 생성됩니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.referrer.campaign.trackingcode`
    * 고객 관리 트레이트: `c_a_referrer_campaign_trackingcode`
@@ -297,28 +300,28 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
 
 * **캠페인 내용**
 
-   링크를 표시한 콘텐츠의 이름 또는 ID입니다. 모바일 앱 획득을 통해 채워집니다.
+   링크를 표시한 컨텐츠의 이름 또는 ID. 모바일 앱 획득을 통해 채워집니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.referrer.campaign.content`
    * 고객 관리 트레이트: `c_a_referrer_campaign_content`
 
 * **캠페인 매체**
 
-   배너 또는 이메일과 같은 마케팅 매체입니다. 모바일 앱 획득을 통해 채워집니다.
+   배너 또는 이메일과 같은 마케팅 미디어 모바일 앱 획득을 통해 채워집니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.referrer.campaign.medium`
    * 고객 관리 트레이트: `c_a_referrer_campaign_medium`
 
 * **캠페인 소스**
 
-   뉴스레터 또는 소셜 미디어 네트워크와 같은 원본 레퍼러입니다. 모바일 앱 획득을 통해 채워집니다.
+   뉴스레터 또는 소셜 미디어 네트워크와 같은 원래 레퍼러 모바일 앱 획득을 통해 채워집니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.referrer.campaign.source`
    * 고객 관리 트레이트: `c_a_referrer_campaign_source`
 
 * **캠페인 용어**
 
-   이 획득을 사용하여 추적하려는 유료 키워드 또는 기타 용어입니다. 모바일 앱 획득을 통해 채워집니다.
+   이 획득으로 추적할 유료 키워드 또는 기타 용어입니다. 모바일 앱 획득을 통해 채워집니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.referrer.campaign.term`
    * 고객 관리 트레이트: `c_a_referrer_campaign_term`
