@@ -2,13 +2,13 @@
 description: 라이프타임 값을 통해 각 Android 사용자의 라이프타임 값을 측정하고 타깃팅할 수 있습니다. 이 값은 라이프타임 구매, 광고 보기, 비디오 전체 보기, 소셜 네트워크 공유, 사진 업로드 등을 저장하는 데 사용할 수 있습니다.
 seo-description: 라이프타임 값을 통해 각 Android 사용자의 라이프타임 값을 측정하고 타깃팅할 수 있습니다. 이 값은 라이프타임 구매, 광고 보기, 비디오 전체 보기, 소셜 네트워크 공유, 사진 업로드 등을 저장하는 데 사용할 수 있습니다.
 seo-title: 방문자 라이프타임 값
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 방문자 라이프타임 값
 topic: Developer and implementation
 uuid: ba0308de-282e-46f9-a14c-19fb6d5c363e
-translation-type: ht
-source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 100%
 
