@@ -2,13 +2,13 @@
 description: 다음은 iOS 라이브러리에서 제공하는 Adobe Target 메서드 목록입니다.
 seo-description: 다음은 iOS 라이브러리에서 제공하는 Adobe Target 메서드 목록입니다.
 seo-title: Adobe Mobile Services용 iOS Target 메서드
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: iOS용 Target 메서드
 topic: Developer and implementation
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
-translation-type: ht
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 100%
 
