@@ -3,12 +3,15 @@ description: 범용 링크(iOS) 및 앱 링크(Android)를 사용하면 iOS 또�
 keywords: mobile
 seo-description: 범용 링크(iOS) 및 앱 링크(Android)를 사용하면 iOS 또는 Android 앱의 딥 링크에 연결할 수 있습니다.
 seo-title: Apple 범용 링크 및 Android 앱 링크
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Apple 범용 링크 및 Android 앱 링크
-topic: 지표
+topic: Metrics
 uuid: 8d6441dc-4307-4454-95ea-d77ec796f918
-translation-type: ht
-source-git-commit: e65add089499f728827321e96e439f04ebb19a73
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '1142'
+ht-degree: 92%
 
 ---
 
@@ -63,7 +66,7 @@ source-git-commit: e65add089499f728827321e96e439f04ebb19a73
 
 1. Adobe Mobile Services에서 범용 링크를 사용하는 마케팅 링크를 만듭니다.
 
-   a. 모바일 서비스 홈 페이지에서 앱을 선택하고 **[!UICONTROL 획득]** &gt; **[!UICONTROL 마케팅 링크 빌더]**&#x200B;를 클릭합니다.
+   a. Select the app from the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Link Builder]**.
 
    b. **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
 
@@ -75,7 +78,7 @@ source-git-commit: e65add089499f728827321e96e439f04ebb19a73
 
    e. **[!UICONTROL 범용 링크 또는 앱 링크 사용]** 옵션을 선택하면 **[!UICONTROL 사용자 지정 경로]** 필드가 표시됩니다.
 
-   이 경우 사용자가 쿼리 매개 변수와 함께 도메인 뒤에 URL 경로를 정의할 수 있습니다. 예를 들어, `my/universal/link?os=9.2`를 입력하면 전체 마케팅 링크 URL은 `https://[marketing link domain]/my/universal/link?[AMS default query parameters]&os=9.2`가 됩니다.
+   이를 통해 사용자는 쿼리 매개 변수를 사용하여 도메인 뒤에 URL 경로를 정의할 수 있습니다. 예를 들어, 입력하는 경우 전체 마케팅 링크 `my/universal/link?os=9.2`URL이 `https://[marketing link domain]/my/universal/link?[AMS default query parameters]&os=9.2`됩니다.
 
    f. **[!UICONTROL 결정]** 탭을 클릭하고 결정 트리를 구성합니다.
 
@@ -116,13 +119,13 @@ source-git-commit: e65add089499f728827321e96e439f04ebb19a73
 
    >[!IMPORTANT]
    >
-   >**[!UICONTROL 범용 링크 및 앱 링크 옵션]섹션에서****업데이트[!UICONTROL 를 클릭하여 문서를 업데이트할 수 있습니다.]** 그러나 **[!UICONTROL 업데이트]**&#x200B;를 클릭하면 이전에 만든 모든 범용 링크 또는 앱 링크가 영향을 받는다는 경고가 표시됩니다.
+   >**[!UICONTROL 범용 링크 및 앱 링크 옵션]** 섹션에서 **[!UICONTROL 업데이트를 클릭하여 문서를 업데이트할 수 있습니다.]** 그러나 **[!UICONTROL 업데이트]**&#x200B;를 클릭하면 이전에 만든 모든 범용 링크 또는 앱 링크가 영향을 받는다는 경고가 표시됩니다.
 
 ### 앱 링크 사용
 
 1. Adobe Mobile Services에서 앱 링크를 사용하는 마케팅 링크를 만듭니다.
 
-   a. 모바일 서비스 홈 페이지에서 앱을 선택하고 **[!UICONTROL 획득]** &gt; **[!UICONTROL 마케팅 링크 빌더]**&#x200B;를 클릭합니다.
+   a. Select the app from the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Link Builder]**.
 
    b. **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
 
@@ -134,7 +137,7 @@ source-git-commit: e65add089499f728827321e96e439f04ebb19a73
 
    e. **[!UICONTROL 범용 링크 또는 앱 링크 사용]**&#x200B;을 선택하면 **[!UICONTROL 사용자 지정 경로]** 필드가 표시됩니다.
 
-   이 경우 사용자가 쿼리 매개 변수와 함께 도메인 뒤에 URL 경로를 정의할 수 있습니다. 예를 들어, `my/app/link?os=6.0`를 입력하면 전체 마케팅 링크 URL은 `https://[marketing link domain]/my/app/link?[AMS default query parameters]&os=6.0`가 됩니다.
+   이를 통해 사용자는 쿼리 매개 변수를 사용하여 도메인 뒤에 URL 경로를 정의할 수 있습니다. 예를 들어, 입력하는 경우 전체 마케팅 링크 `my/app/link?os=6.0`URL이 `https://[marketing link domain]/my/app/link?[AMS default query parameters]&os=6.0`됩니다.
 
    f. **[!UICONTROL 결정]** 탭을 클릭하고 결정 트리를 구성합니다.
 
