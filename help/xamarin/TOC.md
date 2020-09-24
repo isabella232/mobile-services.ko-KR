@@ -3,11 +3,11 @@ product: mobile-services
 audience: end-user
 user-guide-title: Mobile Services Xamarin 안내서
 breadcrumb-title: Xamarin Guide
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 18ef20df0a32741685e35cee98a1adf4a1b823a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '36'
-ht-degree: 27%
+ht-degree: 100%
 
 ---
 
@@ -22,4 +22,4 @@ ht-degree: 27%
    + [클래스, 열거형 및 인터페이스](c-android/c-classes-enums-interfaces.md)
 + iOS {#ios-xamarin}
    + [iOS 메서드](c-ios/methods-ios.md)
-   + [수업 및 포럼](c-ios/c-classes-enums-constants.md)
+   + [클래스 및 열거형](c-ios/c-classes-enums-constants.md)
