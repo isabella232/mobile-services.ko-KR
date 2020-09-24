@@ -1,18 +1,18 @@
 ---
 product: mobile-services
 audience: end-user
-user-guide-title: 모바일 서비스 BlackBerry 안내서
+user-guide-title: Mobile Services BlackBerry 안내서
 breadcrumb-title: BlackBerry Guide
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 18ef20df0a32741685e35cee98a1adf4a1b823a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '29'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
 
-# 모바일 서비스 BlackBerry 안내서 {#blackberry}
+# Mobile Services BlackBerry 안내서 {#blackberry}
 
 + [Experience Cloud 솔루션용 BlackBerry 10 SDK 4.x](overview.md)
 + [개발자 빠른 시작](dev-qs.md)
