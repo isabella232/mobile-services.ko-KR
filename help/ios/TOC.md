@@ -1,18 +1,18 @@
 ---
 product: mobile-services
 audience: end-user
-user-guide-title: 모바일 서비스 iOS 안내서
+user-guide-title: Mobile Services iOS 안내서
 breadcrumb-title: iOS Guide
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 18ef20df0a32741685e35cee98a1adf4a1b823a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Mobile Services iOS Guide {#ios}
+# Mobile Services iOS 안내서 {#ios}
 
 + [Experience Cloud 솔루션용 iOS SDK 4.x](overview.md)
 + [릴리스 노트](rel-notes.md)
