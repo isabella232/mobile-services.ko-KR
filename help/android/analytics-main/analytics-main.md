@@ -8,7 +8,7 @@ title: Analytics 개요
 topic: Developer and implementation
 uuid: cc9fa1d9-bc48-4d03-854a-f7b263580a91
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: bc11c1e7a4a11657ee89c40ddcbd37377ce50bb5
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 73%
@@ -34,8 +34,8 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고
 SDK에서 식별자는 사용자를 추적하는 데 사용되며 식별자 계층은 다음과 같습니다.
 
 1. VID(사용자 지정 방문자 식별자)
-2. 분석 추적 식별자(AID)
-3. Experience Cloud 식별자(MID)
+1. 분석 추적 식별자(AID)
+1. Experience Cloud 식별자(MID)
 
 >[!TIP]
 >
