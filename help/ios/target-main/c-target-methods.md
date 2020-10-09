@@ -56,9 +56,8 @@ NSString *const ADBTargetParameterMboxHost;
 >[!IMPORTANT]
 >
 >* 4.14.0 **이전** 버전의 SDK를 사용하는 경우 [입력 매개 변수](https://developers.adobetarget.com/api/#input-parameters)에서 매개 변수 제한 사항을 참조하십시오.
-   >
-   >
-* 4.14.0 **이상** 버전의 SDK를 사용하는 경우 [배치 입력 매개 변수](https://developers.adobetarget.com/api/#batch-input-parameters)에서 매개 변수 제한 사항을 참조하십시오.
+>
+>* 4.14.0 **이상** 버전의 SDK를 사용하는 경우 [배치 입력 매개 변수](https://developers.adobetarget.com/api/#batch-input-parameters)에서 매개 변수 제한 사항을 참조하십시오.
 
 
 ### 메서드에서 사용할 수 있습니다
