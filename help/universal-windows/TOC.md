@@ -2,12 +2,12 @@
 product: mobile-services
 audience: end-user
 user-guide-title: Mobile Services Universal Windows Platform 안내서
-breadcrumb-title: Universal Windows Platform Guide
-translation-type: ht
+breadcrumb-title: 범용 Windows 플랫폼 가이드
+translation-type: tm+mt
 source-git-commit: 18ef20df0a32741685e35cee98a1adf4a1b823a1
-workflow-type: ht
-source-wordcount: '68'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 94%
 
 ---
 
