@@ -8,7 +8,7 @@ title: 딥링크 추적
 topic: Developer and implementation
 uuid: ebb1c08c-a246-40b3-9ac6-4606a14b4c5a
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: e28340249c22d9f121d5c21205227ee758fb9e1b
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 ---
 
 
-# 딥링크 추적 {#tracking-deep-links}
+# 딥링크 추적
 
 다음은 Adobe Mobile Android SDK를 사용하여 모바일 앱에서 딥링크와 지연된 딥링크를 추적하는 데 유용한 정보입니다.
 
