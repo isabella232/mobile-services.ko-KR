@@ -1,16 +1,16 @@
 ---
-description: 이 정보는 Adobe Experience Cloud과 함께 iOS SDK를 사용하는 데 도움이 됩니다.
-seo-description: 이 정보는 Adobe Experience Cloud과 함께 iOS SDK를 사용하는 데 도움이 됩니다.
+description: 다음은 Adobe Experience Cloud에서 iOS SDK를 사용하는 데 유용한 정보입니다.
+seo-description: 다음은 Adobe Experience Cloud에서 iOS SDK를 사용하는 데 유용한 정보입니다.
 seo-title: Experience Cloud
 solution: Experience Cloud,Analytics
 title: Experience Cloud
 topic: Developer and implementation
 uuid: fb498937-b263-4cff-adde-8d709f51b950
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '136'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
