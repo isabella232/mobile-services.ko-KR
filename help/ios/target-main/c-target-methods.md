@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: iOS용 Target 메서드
 topic: Developer and implementation
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '656'
 ht-degree: 100%
 
@@ -56,13 +56,14 @@ NSString *const ADBTargetParameterMboxHost;
 >[!IMPORTANT]
 >
 >* 4.14.0 **이전** 버전의 SDK를 사용하는 경우 [입력 매개 변수](https://developers.adobetarget.com/api/#input-parameters)에서 매개 변수 제한 사항을 참조하십시오.
->
->* 4.14.0 **이상** 버전의 SDK를 사용하는 경우 [배치 입력 매개 변수](https://developers.adobetarget.com/api/#batch-input-parameters)에서 매개 변수 제한 사항을 참조하십시오.
+   >
+   >
+* 4.14.0 **이상** 버전의 SDK를 사용하는 경우 [배치 입력 매개 변수](https://developers.adobetarget.com/api/#batch-input-parameters)에서 매개 변수 제한 사항을 참조하십시오.
 
 
 ### 메서드에서 사용할 수 있습니다
 
-* **targetLoadRequest:&#x200B;callback**
+* **targetLoadRequest:callback**
 
    구성된 Target 서버에 request를 보내고 차단 `callback`에서 생성된 오퍼의 문자열 값을 반환합니다.
 
@@ -191,7 +192,7 @@ NSString *const ADBTargetParameterMboxHost;
                                }];
       ```
 
-* **targetCreateOrder&#x200B;ConfirmRequestWithName:&#x200B;orderId:&#x200B;orderTotal:&#x200B;productPurchasedId:&#x200B;parameters**
+* **targetCreateOrderConfirmRequestWithName:orderId:orderTotal:&#x200B;productPurchasedId:parameters**
 
    `ADBTargetLocationRequest`를 생성합니다.
 
@@ -206,7 +207,7 @@ NSString *const ADBTargetParameterMboxHost;
                               parameters:(NSDictionary *)parameters;
       ```
 
-* **targetCreateRequestWithName:&#x200B;&#x200B;defaultContent:&#x200B;parameters**
+* **targetCreateRequestWithName:defaultContent:parameters**
 
    주어진 매개 변수로 ADBTargetLocationRequest 개체를 만드는 편의 생성자입니다.
 
