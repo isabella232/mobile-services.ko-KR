@@ -1,16 +1,16 @@
 ---
-description: 이 정보는 iOS 애플리케이션에서 타깃팅된 컨텐츠를 제공하는 데 도움이 됩니다.
-seo-description: 이 정보는 iOS 애플리케이션에서 타깃팅된 컨텐츠를 제공하는 데 도움이 됩니다.
+description: 다음은 iOS 애플리케이션에서 타깃팅된 콘텐츠를 제공하는 데 유용한 정보입니다.
+seo-description: 다음은 iOS 애플리케이션에서 타깃팅된 콘텐츠를 제공하는 데 유용한 정보입니다.
 seo-title: Target
 solution: Experience Cloud,Analytics
 title: Target
 topic: Developer and implementation
 uuid: c2b134bb-1c29-4617-bd9e-fa3940483361
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '124'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
