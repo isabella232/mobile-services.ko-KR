@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: 앱 ID
 topic: Developer and implementation
 uuid: 3ac99489-6269-439e-a814-24102ef220b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '222'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
