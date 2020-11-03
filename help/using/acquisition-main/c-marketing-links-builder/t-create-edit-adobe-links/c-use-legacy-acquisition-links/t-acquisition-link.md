@@ -1,26 +1,26 @@
 ---
-description: Apple App Store 및 Google Play에서 바로 애플리케이션을 다운로드할 수 있는 앱스토어 링크를 만들 수 있습니다. 링크를 만들면 다운로드를 통해 이벤트를 성공시킬 수 있습니다.
+description: Apple App Store 및 Google Play에서 바로 응용 프로그램을 다운로드할 수 있는 앱스토어 링크를 만들 수 있습니다. 이 링크를 만들면 다운로드 이벤트를 성공시킬 수 있습니다.
 keywords: mobile
-seo-description: Apple App Store 및 Google Play에서 바로 애플리케이션을 다운로드할 수 있는 앱스토어 링크를 만들 수 있습니다. 링크를 만들면 다운로드를 통해 이벤트를 성공시킬 수 있습니다.
+seo-description: Apple App Store 및 Google Play에서 바로 응용 프로그램을 다운로드할 수 있는 앱스토어 링크를 만들 수 있습니다. 이 링크를 만들면 다운로드 이벤트를 성공시킬 수 있습니다.
 seo-title: 획득 링크 만들기
 solution: Experience Cloud,Analytics
 title: 획득 링크 만들기
 topic: Metrics
 uuid: bb603013-fca9-44a2-820a-59e1c85d9444
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 
 # 획득 링크 만들기{#create-an-acquisition-link}
 
-Apple App Store 및 Google Play에서 바로 애플리케이션을 다운로드할 수 있는 앱스토어 링크를 만들 수 있습니다. 링크를 만들면 다운로드를 통해 이벤트를 성공시킬 수 있습니다.
+Apple App Store 및 Google Play에서 바로 응용 프로그램을 다운로드할 수 있는 앱스토어 링크를 만들 수 있습니다. 이 링크를 만들면 다운로드 이벤트를 성공시킬 수 있습니다.
 
-1. Click **[!UICONTROL Acquisition]** > **[!UICONTROL Manage Acquisition Links]** > **[!UICONTROL Create New]**.
+1. **[!UICONTROL 획득]** > **[!UICONTROL 획득 링크 관리]** > **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 링크 정보]** 섹션에 다음 정보를 입력합니다.
 
    * (**필수**) **[!UICONTROL 이름]** 앱 링크를 설명하는 이름을 지정합니다.
@@ -44,7 +44,7 @@ Apple App Store 및 Google Play에서 바로 애플리케이션을 다운로드�
       * Apple App Store
       * Google Play
 
-      아래에 설명된 대로 각 앱 스토어에 대한 옵션은 다릅니다.
+      아래에 설명된 대로 각 앱스토어에 대한 옵션은 다릅니다.
 
    * **[!UICONTROL 브라우저 지역(Apple App Store만 해당)]**
 
@@ -75,7 +75,7 @@ Apple App Store 및 Google Play에서 바로 애플리케이션을 다운로드�
 
 
 
-1. To save your configuration and to generate the link, click **[!UICONTROL Add]** > **[!UICONTROL Save]**.
+1. 구성을 저장하고 링크를 생성하려면 **[!UICONTROL 추가]** > **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    새로 만든 링크가 **[!UICONTROL 앱스토어 링크]** 섹션에 표시됩니다.
 
