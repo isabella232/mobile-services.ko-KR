@@ -1,29 +1,29 @@
 ---
-description: Adobe Mobile 및 Adobe Mobile SDK를 사용하여 사용자에게 푸시 메시지를 전송할 수 있습니다. 또한 SDK를 사용하면 푸시 메시지를 통해 앱을 연 사용자를 쉽게 보고할 수 있습니다.
-seo-description: Adobe Mobile 및 Adobe Mobile SDK를 사용하여 사용자에게 푸시 메시지를 전송할 수 있습니다. 또한 SDK를 사용하면 푸시 메시지를 통해 앱을 연 사용자를 쉽게 보고할 수 있습니다.
+description: Adobe Mobile 및 Adobe Mobile SDK를 사용하면 푸시 메시지를 사용자에게 보낼 수 있습니다. 또한 SDK를 사용하면 푸시 메시지를 통해 클릭하여 앱을 연 사용자를 쉽게 보고할 수 있습니다.
+seo-description: Adobe Mobile 및 Adobe Mobile SDK를 사용하면 푸시 메시지를 사용자에게 보낼 수 있습니다. 또한 SDK를 사용하면 푸시 메시지를 통해 클릭하여 앱을 연 사용자를 쉽게 보고할 수 있습니다.
 seo-title: 푸시 메시지
 solution: Experience Cloud,Analytics
 title: 푸시 메시지
 topic: Developer and implementation
 uuid: 729d4010-3733-4dff-b188-ad45bd3e7cc4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
 
 # 푸시 메시지 {#push-messaging}
 
-Adobe Mobile 및 Adobe Mobile SDK를 사용하여 사용자에게 푸시 메시지를 전송할 수 있습니다. 또한 SDK를 사용하면 푸시 메시지를 통해 앱을 연 사용자를 쉽게 보고할 수 있습니다.
+Adobe Mobile 및 Adobe Mobile SDK를 사용하면 푸시 메시지를 사용자에게 보낼 수 있습니다. 또한 SDK를 사용하면 푸시 메시지를 통해 클릭하여 앱을 연 사용자를 쉽게 보고할 수 있습니다.
 
 푸시 메시지를 사용하려면 **반드시** SDK 버전 4.6 이상이 있어야 합니다.
 
 >[!IMPORTANT]
 >
->앱 내의 Experience Cloud ID를 수동으로 설정하지 마십시오. 이로 인해 옵트인 상태 때문에 푸시 메시지를 받지 않는 고유한 사용자가 만들어집니다. 예를 들어, 사용자가 앱에 로그인 푸시 메시지를 수신하도록 선택한 경우 로그인 후 앱 내에서 ID를 수동으로 설정하는 경우 푸시 메시지 수신을 선택하지 않은 새로운 고유 사용자가 만들어집니다. 이 새로운 사용자는 푸시 메시지를 수신하지 않습니다.
+>앱 내의 Experience Cloud ID를 수동으로 설정하지 마십시오. 이로 인해 옵트인 상태 때문에 푸시 메시지를 받지 않는 고유한 사용자가 새로 생성됩니다. 예를 들어, 푸시 메시지를 수신하도록 옵트인한 사용자가 앱에 로그인합니다. 로그인 후 앱 내에서 ID를 수동으로 설정하는 경우 푸시 메시지 수신을 선택하지 않은 새로운 고유 사용자가 만들어집니다. 이 새로운 사용자는 푸시 메시지를 수신하지 않습니다.
 >
 >앱을 새 보고서 세트로 이동할 수 없습니다. 새 보고서 세트로 마이그레이션하는 경우 푸시 구성이 중단되고 메시지가 전송되지 않을 수 있습니다.
 
