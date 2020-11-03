@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: Android용 Target 메서드
 topic: Developer and implementation
 uuid: 8e9808b2-ba80-4646-ba05-8e62d4fde065
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
 ht-degree: 100%
 
@@ -57,8 +57,9 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 >[!IMPORTANT]
 >
 >* 4.14.0 **이전** 버전의 SDK를 사용하는 경우 [https://developers.adobetarget.com/api/#input-parameters](https://developers.adobetarget.com/api/#input-parameters)에서 매개 변수 제한 사항을 참조하십시오.
->
->* 4.14.0 **이후** 버전의 SDK를 사용하는 경우 [](https://developers.adobetarget.com/api/#batch-input-parameters)https://developers.adobetarget.com/api/#batch-input-parameters에서 매개 변수 제한 사항을 참조하십시오.
+   >
+   >
+* 4.14.0 **이후** 버전의 SDK를 사용하는 경우 [](https://developers.adobetarget.com/api/#batch-input-parameters)https://developers.adobetarget.com/api/#batch-input-parameters에서 매개 변수 제한 사항을 참조하십시오.
 
 
 * **loadRequest**
@@ -180,7 +181,7 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 
 
 
-* **createOrder ConfirmRequest**
+* **createOrderConfirmRequest**
 
    지정된 매개 변수로 TargetLocationRequest 개체를 만듭니다.
 
