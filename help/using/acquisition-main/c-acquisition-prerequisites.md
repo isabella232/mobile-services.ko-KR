@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 획득 전제 조건
 topic: Metrics
 uuid: a224499a-5a51-4ca5-a37b-06792b774671
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -34,8 +34,8 @@ ht-degree: 85%
 
    | SDK 버전 | [기존 획득 빌더](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md) | [수동 링크 작성](/help/using/acquisition-main/c-marketing-links-builder/acquisition-link-manual.md) | [마케팅 링크 빌더](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md) |
    |--- |--- |--- |--- |
-   | 4.1 - 4.5 | 예 | 아니요 | 아니요 |
-   | 4.6 - 4.9 | 예 | 예 | 아니요 |
+   | 4.1~4.5 | 예 | 아니요 | 아니요 |
+   | 4.6~4.9 | 예 | 예 | 아니요 |
    | 4.9 이상 | 예 | 예 | 예 |
 
 1. SDK 획득 옵션 활성화
@@ -44,4 +44,4 @@ ht-degree: 85%
 
 1. 앱스토어 앱 추가
 
-   Apple App Store 또는 Google Play에서 앱을 추가해야 합니다. 자세한 내용은 앱스토어에서 [앱 추가를 참조하십시오](/help/using/manage-apps/c-app-store/t-app-store-app.md).
+   Apple App Store 또는 Google Play에서 앱을 추가해야 합니다. 자세한 내용은 [앱스토어에서 앱 추가](/help/using/manage-apps/c-app-store/t-app-store-app.md)를 참조하십시오.
