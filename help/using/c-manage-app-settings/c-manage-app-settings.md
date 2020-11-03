@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 앱 설정 관리
 topic: Metrics
 uuid: 2ca93f92-f812-434c-add0-5bdf1442eb20
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '88'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -22,4 +22,4 @@ ht-degree: 78%
 
 >[!IMPORTANT]
 >
->중요: 이 페이지를 편집하려면 모바일 앱 관리자 그룹의 구성원이어야 합니다. To determine whether you are a member of this group, click **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Mobile App Admin]**.
+>중요: 이 페이지를 편집하려면 모바일 앱 관리자 그룹의 구성원이어야 합니다. 이 그룹의 구성원인지 여부를 판별하려면 **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹]** > **[!UICONTROL 모바일 앱 관리자]**&#x200B;를 클릭합니다.
