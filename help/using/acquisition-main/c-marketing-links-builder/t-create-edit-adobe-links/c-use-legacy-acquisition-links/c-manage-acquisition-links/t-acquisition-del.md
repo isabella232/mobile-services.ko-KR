@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 획득 링크 삭제
 topic: Metrics
 uuid: e7362348-ca24-4f1c-b37f-eca6d2b0da6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '106'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 71%
 
 획득 링크가 더 이상 필요하지 않으면 삭제할 수 있습니다.
 
-1. Click **[!UICONTROL Acquisition]** > **[!UICONTROL Manage Acquisition Links]**.
+1. **[!UICONTROL 획득]** > **[!UICONTROL 획득 링크 관리]**&#x200B;를 클릭합니다.
 1. 다음 작업 중 하나를 완료하십시오.
 
    * 하나 이상의 획득 링크 옆에 있는 확인란을 선택합니다.
