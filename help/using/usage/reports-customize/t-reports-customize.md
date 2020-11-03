@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 보고서에 필터 추가
 topic: Reports,Metrics
 uuid: 19c395cc-2e07-4588-825b-f2f8b10a87c1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 70%
 
 이 예에서는 **[!UICONTROL 사용자 및 세션]** 보고서를 사용자 지정하지만, 지침은 모든 보고서에 적용됩니다.
 
-1. Open your app and click **[!UICONTROL Usage]** > **[!UICONTROL Users &amp; Sessions]**.
+1. 앱을 열고 **[!UICONTROL 사용]** > **[!UICONTROL 사용자 및 세션]**&#x200B;을 클릭합니다.
 
    ![](assets/customize1.png)
 
-   이 보고서는 앱 사용자에 대한 전체 시간별 보기를 제공합니다. 하지만 이 앱의 iOS 및 Android 버전 모두에 대한 지표는 동일한 보고서 세트에서 수집됩니다. 사용자 지정 필터를 사용자 지표에 추가하여 모바일 OS별로 사용자를 세그먼트화할 수 있습니다.
+   이 보고서는 앱 사용자에 대한 전체 기간 보기를 제공합니다. 하지만 이 앱의 iOS 및 Android 버전 모두에 대한 지표는 동일한 보고서 세트에서 수집됩니다. 사용자 지정 필터를 사용자 지표에 추가하여 모바일 OS별로 사용자를 세그먼트화할 수 있습니다.
 
 1. **[!UICONTROL 사용자 지정]**&#x200B;을 클릭합니다.
 
@@ -67,8 +67,8 @@ ht-degree: 70%
 
 1. **[!UICONTROL 업데이트]** 및 **[!UICONTROL 실행]**&#x200B;을 클릭합니다.
 
-   이제 이 보고서에는 앱을 처음으로 시작한 iOS 8.3의 사용자가 표시됩니다.
+   이제 이 보고서에는 앱을 처음으로 시작한 iOS 8.3 사용자가 표시됩니다.
 
    ![](assets/customize7.png)
 
-   시간을 내어 보고서 사용자 지정 메뉴에서 다른 옵션을 테스트하고 즐겨찾기를 지정하는지 확인합니다. Adobe Mobile의 보고서 URL은 정상적으로 작동하므로 즐겨찾기에 추가하거나 이메일로 전송할 수 있습니다.
+   시간을 내어 보고서 사용자 지정 메뉴의 다른 옵션을 테스트하고 즐겨찾기를 책갈피로 지정하십시오. Adobe Mobile의 보고서 URL은 정상적으로 작동하므로 즐겨찾기에 추가하거나 이메일로 전송할 수 있습니다.
