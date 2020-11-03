@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 대상
 topic: Metrics
 uuid: 0e0e7d22-067c-4a59-abcb-a4826800944d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '195'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 79%
 
 * **[!UICONTROL 웹 링크]**
 
-   웹 링크 대상은 사용자를 특정 URL로 안내합니다. 예를 들어 온라인 소매업체 웹 사이트의 제품 라인으로 사용자를 안내할 수 있습니다.
+   웹 링크 대상은 사용자를 특정 URL로 안내합니다. 예를 들어, 온라인 소매점의 웹 사이트에서 제품 라인으로 사용자를 안내할 수 있습니다.
 
    >[!IMPORTANT]
    >
@@ -40,4 +40,4 @@ ht-degree: 79%
 
    하이브리드 링크는 iOS 범용 링크 또는 Android 앱 링크를 지원합니다.
 
-각 링크 유형을 만드는 방법에 대한 자세한 내용은 새 링크 대상 [만들기를 참조하십시오](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md).
+각 링크 유형을 만드는 방법에 대한 자세한 내용은 [새 링크 대상 만들기](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md)를 참조하십시오.
