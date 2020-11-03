@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 인앱 메시징 문제 해결
 topic: Metrics
 uuid: 39c3a21d-92c2-4004-b00f-99b6f91d3696
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 다음은 인앱 메시지 문제를 해결하는 데 유용한 정보입니다.
 
-인앱 메시지에 대한 모든 요구 사항을 완료했지만 메시지가 표시되지 않는 경우 다음 항목을 확인하십시오.
+인앱 메시징에 대한 모든 요구 사항을 완료했지만 메시지가 표시되지 않는 경우 다음 항목을 확인하십시오.
 
 ## 앱에 새 구성 및 새 SDK를 적용하고 있습니까?
 
