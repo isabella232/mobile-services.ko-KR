@@ -5,11 +5,11 @@ seo-title: 딥링크 추적
 solution: Experience Cloud,Analytics
 title: 딥링크 추적
 uuid: 08dc2820-7fd3-419f-ac2d-dcf12532578a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 98%
 
    자세한 내용은 [앱 간 통신](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW10) 또는 [범용 링크 지원](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)을 참조하십시오.
 
-1. openURL에서 딥 링크를 추적합니다.
+1. openURL에서 딥링크를 추적합니다.
 
    딥링크 추적 샘플은 다음과 같습니다.
 
