@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: 앱 충돌 추적
 topic: Developer and implementation
 uuid: 3ab98c14-ccdf-4060-ad88-ec07c1c6bf07
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 Android 활동 라이프사이클에 대한 자세한 내용은 [활동](https://developer.android.com/guide/components/activities.html)을 참조하십시오.
 
-*이 Android 라이프사이클 일러스트레이션은[Android 오픈 소스 프로젝트](https://source.android.com/)에서 생성 및 공유되었으며[Creative Commons 2.5 Attribution License](https://creativecommons.org/licenses/by/2.5/)의 조항에 의거하여 사용됩니다.*
+*이 Android 라이프사이클 일러스트레이션은[Android 오픈 소스 프로젝트](https://source.android.com/)에서 생성 및 공유되었으며 [Creative Commons 2.5 Attribution License](https://creativecommons.org/licenses/by/2.5/)의 조항에 의거하여 사용됩니다.*
 
 ## 허위 충돌이 보고될 수 있는 원인은 무엇입니까?
 
