@@ -1,23 +1,23 @@
 ---
-description: iOS 10부터 Apple을 사용하면 포함된 앱 없이 배포할 수 있는 독립 실행형 익스텐션이라는 확장명을 만들 수 있습니다. 이 확장 기능을 사용하면 데이터를 공유할 앱이 포함되어 있지 않으므로 앱 그룹이 필요하지 않습니다.
-seo-description: iOS 10부터 Apple을 사용하면 포함된 앱 없이 배포할 수 있는 독립 실행형 익스텐션이라는 확장명을 만들 수 있습니다. 이 확장 기능을 사용하면 데이터를 공유할 앱이 포함되어 있지 않으므로 앱 그룹이 필요하지 않습니다.
+description: iOS 10부터 Apple에서는 포함된 앱 없이 배포할 수 있는 독립 실행형 확장이라는 확장을 만들 수 있습니다. 이 확장 기능을 사용하면 데이터를 공유하는 포함 앱이 없으므로 앱 그룹이 필요하지 않습니다.
+seo-description: iOS 10부터 Apple에서는 포함된 앱 없이 배포할 수 있는 독립 실행형 확장이라는 확장을 만들 수 있습니다. 이 확장 기능을 사용하면 데이터를 공유하는 포함 앱이 없으므로 앱 그룹이 필요하지 않습니다.
 seo-title: 독립형 확장 프로그램 구현
 solution: Experience Cloud,Analytics
 title: 독립형 확장 프로그램 구현
 topic: Developer and implementation
 uuid: 9b47f082-b78f-4611-968d-014c32ede6bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
 
 # 독립형 확장 프로그램 구현 {#stand-alone-extension-implementation}
 
-iOS 10부터 Apple을 사용하면 포함된 앱 없이 배포할 수 있는 독립 실행형 익스텐션이라는 확장명을 만들 수 있습니다. 이 확장 기능을 사용하면 데이터를 공유할 앱이 포함되어 있지 않으므로 앱 그룹이 필요하지 않습니다.
+iOS 10부터 Apple에서는 포함된 앱 없이 배포할 수 있는 독립 실행형 확장이라는 확장을 만들 수 있습니다. 이 확장 기능을 사용하면 데이터를 공유하는 포함 앱이 없으므로 앱 그룹이 필요하지 않습니다.
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ iOS 10부터 Apple을 사용하면 포함된 앱 없이 배포할 수 있는 독
       이 값은 포함 앱에서 히트가 발생했음을 의미합니다.
    * `a.RunMode = Extension`
 
-      이 값은 히트가 확장에서 왔음을 의미합니다.
+      이 값은 확장에서 히트가 발생했음을 의미합니다.
 
-* iOS 확장 앱에서 라이프사이클 호출이 트리거되지 않습니다.
+* iOS 확장 앱에서는 라이프사이클 호출이 트리거되지 않습니다.
 
