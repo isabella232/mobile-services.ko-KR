@@ -1,16 +1,16 @@
 ---
-description: 이 정보는 Android 앱에서 메시지를 사용하는 데 도움이 됩니다.
-seo-description: 이 정보는 Android 앱에서 메시지를 사용하는 데 도움이 됩니다.
+description: 다음은 Android 앱에서 메시지를 사용하는 데 유용한 정보입니다.
+seo-description: 다음은 Android 앱에서 메시지를 사용하는 데 유용한 정보입니다.
 seo-title: 메시징 개요
 solution: Experience Cloud,Analytics
 title: 메시징 개요
 topic: Developer and implementation
 uuid: c6475ab4-015d-46b0-af28-5d0df3f4459e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
