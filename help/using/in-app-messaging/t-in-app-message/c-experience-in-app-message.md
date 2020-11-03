@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: '환경: 인앱 메시지'
 topic: Metrics
 uuid: 4c6d6756-47fb-4f1b-8338-0b0c9b0fceb0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 표시 유형(전체 화면, 경고 또는 알림), 텍스트 및 단추 옵션 등 인앱 메시지의 환경 옵션을 구성합니다.
 
-1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
+1. 앱에서 **[!UICONTROL 메시징]** > **[!UICONTROL 메시지 관리]** > **[!UICONTROL 메시지 작성]** > **[!UICONTROL 앱 내 메시지 만들기]**&#x200B;를 클릭합니다.
 1. 환경 페이지에서 메시지 이름을 입력합니다.
 1. **[!UICONTROL 유형]** 섹션의 필드를 작성합니다.
 
@@ -40,7 +40,7 @@ ht-degree: 92%
 
    * **[!UICONTROL 사용자 지정]**
 
-      사용자 지정 HTML 콘텐츠를 로드합니다(전체 화면만). 클릭스루 링크와 취소 링크를 제공해야 합니다.
+      사용자 지정 HTML 컨텐츠를 로드합니다(전체 화면만). 클릭스루 링크와 취소 링크를 제공해야 합니다.
 
       1. **[!UICONTROL 찾아보기]**&#x200B;를 클릭하고 HTML 파일을 다운로드하거나 HTML 문서를 창으로 드래그합니다.
       1. 샘플 사용자 지정 HTML 컨텐츠를 보려면 **[!UICONTROL 예제 다운로드]**&#x200B;를 클릭하십시오.
@@ -67,7 +67,7 @@ ht-degree: 92%
 
    * **[!UICONTROL 번들 이미지]**
 
-      앱 코드 번들에 있는 이미지에 대한 경로입니다. 이 옵션은 이미지가 없을 때 사용됩니다. 또는 이미지를 사용할 수 없습니다. 예를 들어, 장치가 오프라인 상태인 경우 이미지를 사용하지 못할 수도 있습니다. 전체 화면 템플릿을 사용할 때 크기 조절 문제가 발생하면 [인앱 메시징 문제 해결](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md)에서 *내 이미지가 템플릿에서 제공한 공간에 정확히 맞지는 않습니다*&#x200B;를 참조하십시오.
+      앱 코드 번들에 있는 이미지에 대한 경로입니다. 이 옵션은 이미지가 없을 때 사용됩니다. 또는 이미지를 사용할 수 없을 때 사용됩니다. 예를 들어, 장치가 오프라인 상태인 경우 이미지를 사용하지 못할 수도 있습니다. 전체 화면 템플릿을 사용할 때 크기 조절 문제가 발생하면 [인앱 메시징 문제 해결](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md)에서 *내 이미지가 템플릿에서 제공한 공간에 정확히 맞지는 않습니다*&#x200B;를 참조하십시오.
 
 
 1. **[!UICONTROL 텍스트]** 섹션의 필드를 작성합니다.
