@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 보고서
 topic: Reports,Metrics
 uuid: 2abc2bd1-dbae-4af1-9b8d-1df2f6d3a81f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 19%
 
 사용량 보고서에는 평균 세션 길이, 일별 및 월별 참여 사용자, 업그레이드 및 기타 통찰력이 표시되므로 앱이 사용되는 방식과 빈도를 파악할 수 있습니다. 유지 보고서는 처음 실행 후 1일, 7일 및 28일 후의 사용자 유지 수준을 빠르게 보여줍니다.
 
-모바일 UI에서 다음 보고서를 생성할 수 있습니다.
+Mobile UI에서 다음 보고서를 생성할 수 있습니다.
 
 * [개요](/help/using/usage/usage-overview.md)
 * [사용자 및 세션](/help/using/usage/users-sessions.md)
