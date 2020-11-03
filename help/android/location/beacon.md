@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 비콘 추적
 topic: Developer and implementation
 uuid: 16c1d267-85f4-4a6a-a6d3-d6ffb0f80b29
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 81%
 
 * 0 = 알 수 없음
 * 1 = 즉시
-* 2 = 가까이
-* 3 = far
+* 2 = 가까움
+* 3 = 멀리 있음 
 
 이러한 비콘 데이터는 모바일 솔루션 변수에 캡처됩니다.
 
