@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 로그인 중
 topic: Metrics
 uuid: d6ea0ca1-3511-4133-9d41-21ea2d2f7b3a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe ID, Enterprise ID 또는 Analytics ID를 사용하여 Adobe Mobile Service
 
 Adobe ID를 사용하여 Adobe Mobile Services UI에 로그인하려면 다음을 수행하십시오.
 
-1. In a browser, type [https://mobilemarketing.adobe.com](https://mobilemarketing.adobe.com).
+1. 브라우저에 [https://mobilemarketing.adobe.com](https://mobilemarketing.adobe.com)을 입력합니다.
 1. **[!UICONTROL Adobe ID로 로그인을 클릭합니다]**.
 1. 이메일 주소를 입력합니다.
 1. **[!UICONTROL 계정 선택]**&#x200B;에서 **[!UICONTROL Adobe ID]**&#x200B;를 클릭합니다.
@@ -56,7 +56,7 @@ Enterprise ID를 사용하여 Adobe Mobile Services UI에 로그인하려면 다
 
 Analytics ID를 사용하여 Adobe Mobile Services UI에 로그인하려면 다음을 수행하십시오.
 
-1. In a browser, type [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/).
+1. 브라우저에 [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/)을 입력합니다.
 1. Analytics 계정으로 로그인&#x200B;**[!UICONTROL 을 클릭합니다]**.
 1. 회사 이름, 사용자 이름 및 암호를 입력합니다.
 1. **[!UICONTROL 로그인]**&#x200B;을 클릭합니다.
