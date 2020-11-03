@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: 지리적 위치 및 관심 영역
 topic: Developer and implementation
 uuid: b8209370-cbc4-40f9-97d8-017e2d74a377
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 83%
 
    이 정보는 자동 보고를 위해 모바일 솔루션 변수로 전달됩니다.
 
-* 컨텍스트 데이터로 전달된 중앙으로부터의 거리 및 정확도
+* 중앙으로부터의 거리 및 컨텍스트 데이터로 전달된 정확도.
 
    이러한 변수는 자동으로 캡처되지 않습니다. 아래 *추가 데이터 보내기* 섹션의 지침에 따라 이러한 컨텍스트 데이터 변수를 매핑해야 합니다.
 
@@ -84,9 +84,9 @@ Analytics.trackLocation(currentLocation, locationContextData);
 
 ## 위치 컨텍스트 데이터 {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
 
-위도 및 경도는 총 6개의 컨텍스트 데이터 매개 변수에 대해 각각 다른 수준의 정밀도를 나타내는 세 개의 서로 다른 컨텍스트 데이터 매개 변수를 사용하여 전송됩니다.
+위도와 경도는 세 개의 서로 다른 컨텍스트 데이터 매개 변수를 사용하여 전송되며 각 매개변수는 총 6개의 컨텍스트 데이터 매개 변수에 대해 다른 수준의 정밀도를 나타냅니다.
 
-예를 들어 위도 = 40.93231, long = -111.93152는 정밀도가 1m인 위치를 나타냅니다. 이 위치는 다음 변수에서 정밀도 수준에 따라 분할됩니다.
+예를 들어, 위도 = 40.93231, 경도 = -111.93152는 정밀도가 1m인 위치를 나타냅니다. 이 위치는 다음 변수에서 정밀도 수준에 따라 분할됩니다.
 
 `a.loc.lat.a`= 040.9
 
@@ -119,5 +119,5 @@ Analytics.trackLocation(currentLocation, locationContextData);
 
 * 두 POI의 지름이 겹치는 경우 현재의 위치가 포함된 첫 번째 POI가 사용됩니다.
 
-   POI가 겹치는 경우 가장 세부적인 POI가 보고되도록 가장 적게 세분화된 POI를 나열해야 합니다.
+   POI가 겹치는 경우, 가장 세부적인 POI가 보고되도록 가장 세부적인 것에서 가장 세부적이지 않은 것의 순서로 정렬된 POI를 나열해야 합니다.
 
