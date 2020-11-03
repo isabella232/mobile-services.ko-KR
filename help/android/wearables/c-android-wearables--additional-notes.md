@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Android 웨어러블 기기 추가 참고 사항
 topic: Developer and implementation
 uuid: 3bcf352b-4d46-4ab3-81ec-c27e86fe9be3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
