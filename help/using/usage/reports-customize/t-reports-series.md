@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 보고서에 시리즈(지표) 추가
 topic: Reports,Metrics
 uuid: 84fdfb1f-70e6-4c02-9b3b-526e9c924f74
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 90%
 
 이 예에서는 **[!UICONTROL 사용자 및 세션]** 보고서를 사용자 지정하지만, 지침은 모든 보고서에 적용됩니다.
 
-1. Open your app and click **[!UICONTROL Usage]** > **[!UICONTROL Users &amp; Sessions]**.
+1. 앱을 열고 **[!UICONTROL 사용]** > **[!UICONTROL 사용자 및 세션]**&#x200B;을 클릭합니다.
 
    ![단계 결과](assets/customize1.png)
 
-   이 보고서는 앱 사용자에 대한 전체 시간별 보기를 제공합니다. 하지만 앱 충돌에 대해 보고할 시리즈를 추가하려고 합니다.
+   이 보고서는 앱 사용자에 대한 전체 기간 보기를 제공합니다. 하지만, 앱 충돌에 대해 보고할 시리즈를 추가하려고 합니다.
 
 1. **[!UICONTROL 사용자 지정]**&#x200B;을 클릭합니다.
 
