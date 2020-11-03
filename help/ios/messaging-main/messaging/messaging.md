@@ -1,29 +1,29 @@
 ---
-description: 이 정보는 iOS 앱에서 인앱 메시지를 사용하는 데 도움이 됩니다.
-seo-description: 이 정보는 iOS 앱에서 인앱 메시지를 사용하는 데 도움이 됩니다.
+description: 다음은 iOS 앱에서 인앱 메시지를 사용하는 데 유용한 정보입니다.
+seo-description: 다음은 iOS 앱에서 인앱 메시지를 사용하는 데 유용한 정보입니다.
 seo-title: 인앱 메시징
 solution: Experience Cloud,Analytics
 title: 인앱 메시징
 topic: Developer and implementation
 uuid: 21fa6a94-bb7f-4c78-843b-a50f1974db22
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
 
 # 인앱 메시징 {#in-app-messaging}
 
-이 정보는 iOS 앱에서 인앱 메시지를 사용하는 데 도움이 됩니다.
+다음은 iOS 앱에서 인앱 메시지를 사용하는 데 유용한 정보입니다.
 
-To use in-app messaging, you **must** have SDK version 4.2 or later.
+인앱 메시지를 사용하려면 **반드시** SDK 버전 4.2 이상이 있어야 합니다.
 
 기억해야 할 정보:
 
-* 메시지가 표시되는 시기를 정의하는 메시지 및 규칙이 Adobe Mobile Services에서 만들어집니다. For more information, see [Create an in-app message](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md).
+* 메시지가 표시되는 시기를 정의하는 메시지 및 규칙이 Adobe Mobile Services에서 만들어집니다. 자세한 내용은 [인앱 메시지 만들기](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md)를 참조하십시오.
 * 인앱 메시지를 표시하려면 이 섹션에 설명된 업데이트를 SDK에 적용해야 합니다.
 
    >[!TIP]
@@ -111,7 +111,7 @@ iOS Mobile Services SDK는 인앱 메시지에 대해 다음 지표를 추적합
 
 ## 로컬 대체 이미지 {#section_DEACC1CE549B4573B556A44A52409941}
 
-Adobe Mobile Services에서 전체 화면 메시지를 만들 때 선택적으로 대체 이미지를 지정할 수 있습니다. 메시지가 웹에서 의도한 이미지를 검색할 수 없는 경우 SDK는 애플리케이션 번들의 이름과 동일한 이름으로 이미지를 로드합니다. 따라서 사용자가 오프라인 상태이거나 미리 결정된 이미지에 연결할 수 없는 경우에도 메시지를 원래 양식으로 표시할 수 있습니다.
+Adobe Mobile Services에서 전체 화면 메시지를 만들 때 선택적으로 대체 이미지를 지정할 수 있습니다. 메시지에서 웹에서 의도한 이미지를 검색할 수 없는 경우 SDK는 애플리케이션 번들의 이름과 동일한 이름으로 이미지를 로드합니다. 따라서 사용자가 오프라인 상태이거나 미리 결정된 이미지에 연결할 수 없는 경우에도 메시지를 원래 양식으로 표시할 수 있습니다.
 
 대체 이미지 자산 이름은 Adobe Mobile Services에서 메시지를 구성할 때 지정됩니다.
 
