@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 메시징
 topic: Metrics
 uuid: e32d3e35-2d09-4ddf-8919-75dc895abcb3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고
 
 2018년 9월 일자로 SDK의 새로운 주요 버전을 릴리스하였습니다. 이러한 새로운 Adobe Experience Platform Mobile SDK는 [Experience Platform Launch](https://www.adobe.com/kr/experience-platform/launch.html)를 통해 구성할 수 있습니다.
 
-* To get started, go to [Launch](https://launch.adobe.com/).
+* 시작하려면 [시작](https://launch.adobe.com/)으로 이동합니다.
 * Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)로 이동하십시오.
 
 >[!IMPORTANT]
@@ -39,7 +39,7 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고
 
 지원되는 메시지 유형은 다음과 같습니다.
 
-* 사용자 정의 및 테마
+* 사용자 지정 및 테마
 * 전체 화면
 * 기본 경고
 * 로컬 알림
@@ -50,8 +50,8 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고
 * 모바일 앱 관리자 권한이 있는 사용자를 지정해야 합니다.
 
    이러한 권한을 통해 획득 링크 및 인앱 메시지에 액세스할 수 있습니다. 자세한 내용은 [역할 및 권한](/help/using/gs/c-mob-roles-and-permissions.md)을 참조하십시오.
-* 메시지가 승인되면 응용 프로그램에 자동으로 게시됩니다.
-* SDK는 트레이트, 트리거 및 일정과 같은 메시지 매개 변수가 충족되면 사용자에게 메시지를 제공합니다.
+* 메시지가 승인되면 애플리케이션에 자동으로 게시됩니다.
+* SDK는 트레이트, 트리거 및 일정과 같은 메시지 매개 변수가 충족될 때 사용자에게 메시지를 제공합니다.
 * 메시지는 온라인 URL을 사용하여 사용자 지정 HTML 또는 이미지를 포함할 수 있습니다.
 
    오프라인 상태에서 트리거되는 메시지에 대해서도 앱 번들의 백업 또는 대체 이미지를 지정할 수 있습니다.
