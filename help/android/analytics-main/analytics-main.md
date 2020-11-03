@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: bc11c1e7a4a11657ee89c40ddcbd37377ce50bb5
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고
 
 SDK에서 식별자는 사용자를 추적하는 데 사용되며 식별자 계층은 다음과 같습니다.
 
-1. VID(사용자 지정 방문자 식별자)
+1. 사용자 지정 방문자 식별자(VID)
 1. 분석 추적 식별자(AID)
 1. Experience Cloud 식별자(MID)
 
@@ -43,4 +43,4 @@ SDK에서 식별자는 사용자를 추적하는 데 사용되며 식별자 계�
 
 Tracking Identifier라고도 하는 AID는 앱이 MID를 사용하도록 구성되지 않은 경우 SDK에서 생성합니다. 값은 `SharedPreferences`에서 실행 및 앱 업그레이드 사이에서 지속됩니다. 사용자가 장치에서 앱을 삭제한 다음 앱을 다시 설치하거나 앱 개발자가 SharedPreferences를 삭제하는 경우 SDK가 새 식별자를 생성합니다. 이 프로세스를 수행하면 Analytics 보고에서 새 사용자가 표시됩니다.
 
-ID 서비스 지원(MID)을 도입한 앱 사용자의 경우 기존 AID 값이 Analytics 히트와 함께 전송되고 Analytics 히트에 AID 및 MID가 포함됩니다. ID 서비스를 지원하는 앱의 새 사용자의 경우 Analytics 요청에는 MID만 포함됩니다. 방문자 식별에 대한 자세한 내용은 [방문자 식별](https://docs.adobe.com/content/help/ko-KR/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-visid.html)을 참조하십시오.
+ID 서비스 지원(MID)을 도입한 앱 사용자의 경우 기존 AID 값이 분석 히트와 함께 전송되고 분석 히트에 AID 및 MID가 포함됩니다. ID 서비스를 지원하는 앱의 새 사용자의 경우 Analytics 요청에는 MID만 포함됩니다. 방문자 식별에 대한 자세한 내용은 [방문자 식별](https://docs.adobe.com/content/help/ko-KR/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-visid.html)을 참조하십시오.
