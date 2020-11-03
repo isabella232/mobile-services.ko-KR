@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 기존 획득 테스트
 topic: Developer and implementation
 uuid: bb7ace96-68eb-4f43-b3cf-af80730b9cee
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 74%
 
 다음은 Android 장치에서 기존 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
 
-모바일 앱이 아직 Google Play에 없는 경우 캠페인 링크를 만들 때 모바일 앱을 대상으로 선택할 수 있습니다. 획득 링크를 클릭한 후 획득 서버가 리디렉션하는 앱에만 영향을 주지만 획득 링크를 테스트하는 기능에는 영향을 주지 않습니다. 쿼리 문자열 매개 변수가 Google Play 스토어에 전달되고 캠페인 브로드캐스트의 일부로 설치 시 앱에 전달됩니다. 양방향 모바일 앱 확보 테스트에서는 이러한 유형의 브로드캐스트를 시뮬레이션해야 합니다.
+모바일 앱이 아직 Google Play에 없을 경우 캠페인 링크를 생성할 때 모바일 앱을 대상으로 선택할 수 있습니다. 획득 링크를 클릭한 후 획득 서버가 리디렉션하는 앱에만 영향을 주지만 획득 링크를 테스트하는 기능에는 영향을 주지 않습니다. 쿼리 문자열 매개 변수가 Google Play 스토어에 전달되고 캠페인 브로드캐스트의 일부로 설치 시 앱에 전달됩니다. 양방향 모바일 앱 확보 테스트에서는 이러한 유형의 브로드캐스트를 시뮬레이션해야 합니다.
 
 테스트가 실행될 때마다 앱을 새로 설치하거나 **[!UICONTROL 설정]**&#x200B;에서 데이터를 지워야 합니다. 이렇게 하면 앱을 처음 시작할 때 캠페인 쿼리 문자열 매개 변수와 연결된 초기 라이프사이클 지표를 전달할 수 있습니다.
 
@@ -39,10 +39,10 @@ ht-degree: 74%
    1. 앱에서 캠페인 추적 수신자 위치 참조로 수신자 참조를 업데이트합니다.
    1. `utm_source`, `utm_medium`, `utm_term`, `utm_content`, `utm_campaign` 등과 관련된 값을 적절한 값으로 바꿉니다.
 
-브로드캐스트가 성공하면 아래 응답과 유사한 응답이 표시됩니다.
+브로드캐스트에 성공하면 아래 응답과 유사한 응답이 표시됩니다.
 
 ```
 Broadcasting: Intent { act=com.android.vending.INSTALL_REFERRER cmp=com.example.analyticsecommtest/com.google.analytics.tracking.android.AnalyticsReceiver has extras) } Broadcast completed: result=0
 ```
 
-Adobe 데이터 수집 서버로 보내진 이미지 요청도 표시됩니다. SDK가 캠페인 매개 변수를 포함하지 않는 이미지 요청과 함께 1단계에서 설정한 레퍼러 시간 제한의 전체 지속 시간을 기다리는 경우 브로드캐스트가 실패했습니다.
+Adobe의 데이터 수집 서버로 보낸 이미지 요청도 표시됩니다. SDK에서 캠페인 매개 변수를 포함하지 않는 이미지 요청과 함께 1단계에서 설정한 레퍼러 제한 시간을 모두 소진하면 브로드캐스트가 실패했습니다.
