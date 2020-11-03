@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Apple 검색 광고
 topic: Developer and implementation
 uuid: 790080e8-067e-4bfd-a169-0027db4fdff3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '280'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Apple 광고를 사용할 경우 다음과 같은 이점이 있습니다.
 
 1. Adobe SDK 버전 4.13.2 이상을 구현합니다.
 
-   For more information, see [Core implementation and lifecycle](/help/ios/getting-started/dev-qs.md).
+   자세한 내용은 [핵심 구현 및 라이프사이클](/help/ios/getting-started/dev-qs.md)을 참조하십시오.
 
 1. 앱의 Xcode 프로젝트 파일에 iAd 프레임워크를 추가합니다.
 
