@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 마케팅 링크 관리
 topic: Metrics
 uuid: 98ac3520-89ed-4513-83f6-120dda9d0157
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 91%
 
 * **마케팅 링크 표시**
 
-   To display the list of Marketing Links, in the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Links Builder]**.
+   마케팅 링크 목록을 표시하려면 Mobile Services 홈 페이지에서 **[!UICONTROL 획득]** > **[!UICONTROL 마케팅 링크 빌더]**&#x200B;를 클릭합니다.
 
    **[!UICONTROL 클릭 수]** 열에는 마케팅 링크를 클릭한 사용자 수가 표시됩니다. **[!UICONTROL 첫 번째 실행]** 열에는 앱의 첫 번째 실행 횟수가 표시됩니다. 이 값은 마케팅 링크를 클릭한 후 앱을 설치하고 실행하도록 선택한 사용자 수를 반영한 것입니다.
 
