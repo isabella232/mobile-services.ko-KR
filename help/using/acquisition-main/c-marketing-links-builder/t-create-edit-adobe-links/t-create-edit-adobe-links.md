@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 마케팅 링크 만들기 또는 편집
 topic: Metrics
 uuid: 305a8265-38de-4d19-8c79-b3912f5aae7c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 94%
 
    * **[!UICONTROL 추적 컨텍스트 데이터 추가]**:
 
-      (**Optional**) Click the **[!UICONTROL +]** icon and type the relevant information to track your campaign using context data. **[!UICONTROL 사용자 지정 컨텍스트 데이터]** 드롭다운 목록에서 사전 설정된 태그 또는 고유한 태그 중 하나를 선택합니다. 마케팅 링크가 배포될 때 보고 목적으로 컨텍스트 데이터가 사용됩니다.
+      **선택사항** - ****+ 아이콘을 클릭하고 관련 정보를 입력하여 컨텍스트 데이터로 캠페인을 추적합니다. **[!UICONTROL 사용자 지정 컨텍스트 데이터]** 드롭다운 목록에서 사전 설정된 태그 또는 고유한 태그 중 하나를 선택합니다. 마케팅 링크가 배포될 때 보고 목적으로 컨텍스트 데이터가 사용됩니다.
 
       다음 사전 설정 태그를 사용할 수 있습니다.
 
@@ -68,9 +68,9 @@ ht-degree: 94%
 
 1. **[!UICONTROL 딥링크 삽입 광고 편집]**&#x200B;을 클릭하고 링크를 구성합니다.
 
-   (**선택사항**) 여러 대상이 있는 경우 모바일 앱 설치 여부에 따라 사용자를 안내할 수 있습니다. 앱이 설치되면 중간 랜딩 페이지가 표시됩니다.
+   (**선택사항**) 여러 대상이 있는 경우 모바일 앱 설치 여부에 따라 사용자를 안내할 수 있습니다. 앱이 설치되면 삽입 광고 랜딩 페이지가 표시됩니다.
 
-   For more information, see [Interstitials](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md).
+   자세한 내용은 [삽입 광고](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md)를 참조하십시오.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 1. 대상 페이지에서 링크를 구성합니다.
