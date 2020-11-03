@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 획득 링크 가져오기 또는 내보내기
 topic: Metrics
 uuid: 94ea008a-473a-40c3-9fa8-a94eb0208c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 Adobe Mobile Services 사용자 인터페이스 대신 .csv 파일을 사용하여 링크 작업을 수행하려는 경우에는 획득 링크를 가져오거나 내보낼 수 있습니다.
 
-1. Click **[!UICONTROL Acquisition]** > **[!UICONTROL Manage Acquisition Links]**.
+1. **[!UICONTROL 획득]** > **[!UICONTROL 획득 링크 관리]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 가져오기]**&#x200B;를 클릭하고 다음 작업 중 하나를 완료합니다.
 
    * Mobile Services로 업로드할 파일을 탐색하여 선택합니다.
