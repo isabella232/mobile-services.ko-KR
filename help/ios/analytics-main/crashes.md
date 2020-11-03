@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: 앱 충돌 추적
 topic: Developer and implementation
 uuid: 4f81988b-198a-4ba9-ad53-78af90e43856
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '529'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -41,9 +41,9 @@ Apteligent(이전의 Crittercism)와 같은 회사에서 제공하는 충돌 보
 
 ## 허위 충돌이 보고될 수 있는 원인은 무엇입니까?
 
-다음 시나리오는 SDK에서 충돌을 보고하도록 거짓으로 만드는 것으로 알려져 있습니다.
+다음 시나리오는 SDK에서 충돌을 거짓으로 보고하게 하는 것으로 알려져 있습니다.
 
-* Xcode를 사용하여 디버깅하는 경우 포그라운드에 있는 동안 앱을 다시 실행하면 충돌이 발생합니다.
+* Xcode를 사용하여 디버깅하는 경우, 활성화된 앱을 다시 실행하면 충돌이 발생합니다.
 
    >[!TIP]
    >
@@ -66,7 +66,7 @@ Apteligent(이전의 Crittercism)와 같은 회사에서 제공하는 충돌 보
 
    이 코드는 이전 섹션의 잘못된 충돌 #2 및 #3을 수정합니다.
 
-* 잘못된 충돌 #1이 발생하지 않도록 해야 하는 비프로덕션 보고서 세트에 대해 개발을 수행해야 합니다.
+* 잘못된 충돌 #1이 발생하지 않도록 비프로덕션 보고서 세트에 대한 개발을 수행해야 합니다.
 * AdobeMobile SDK가 `NSUserDefaults`에 입력하는 값을 삭제하거나 수정하지 마십시오.
 
    이러한 값이 SDK 외부에서 수정되면 보고된 데이터가 올바르지 않습니다.
