@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 버전 3 획득 테스트
 topic: Developer and implementation
 uuid: 5e38b43d-389e-4412-99e5-3e6223b6ad28
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '820'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 85%
 
 >[!IMPORTANT]
 >
->V3의 획득은 Adobe Mobile Services UI에서 획득 빌더로 생성한 획득 링크를 가리킵니다. 이 기능을 사용하려면 Experience Cloud 솔루션 4.6.0 이상용 Android SDK 4.x로 업그레이드해야 합니다.
+>V3의 획득은 Adobe Mobile Services UI에서 획득 빌더로 생성한 획득 링크를 가리킵니다. 이 기능을 사용하려면 Experience Cloud 솔루션 4.6.0 이상을 위한 Android SDK 4.x로 업그레이드해야 합니다.
 
 모바일 앱이 아직 Google Play에 없는 경우 캠페인 링크를 만들 때 모바일 앱을 대상으로 선택할 수 있습니다. 획득 링크를 클릭한 후 획득 서버가 리디렉션하는 앱에만 영향을 주지만 링크를 테스트하는 기능에는 영향을 주지 않습니다. 쿼리 문자열 매개 변수가 Google Play 스토어에 전달되고 캠페인 브로드캐스트의 일부로 설치 시 앱에 전달됩니다. 양방향 모바일 앱 확보 테스트에서는 이러한 유형의 브로드캐스트를 시뮬레이션해야 합니다.
 
@@ -97,7 +97,7 @@ Broadcast completed: result=0`
 
 `"Analytics - Received referrer information(<referrer content>)"   "Analytics - Trying to fetch referrer data from (acquisition end url)"; "Analytics - Received Referrer Data(<A JSON Response>)"`
 
-위의 로그가 보이지 않으면 6단계부터 12단계까지 완료했는지 확인하십시오.
+위 로그가 표시되지 않으면 6~12단계를 완료했는지 확인하십시오.
 
 다음 표에는 가능한 오류에 대한 추가 정보가 포함되어 있습니다.
 
@@ -107,14 +107,14 @@ Broadcast completed: result=0`
 | Analytics - Unable to parse response (*a JSON Response*). | JSON 문자열의 형식이 잘못되었습니다. |
 | Analytics - Unable to parse acquisition service response (no contextData parameter in response). | 응답에 contextData 매개 변수가 없습니다. |
 | Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | `a.referrer.campaign.name`이 contextData에 포함되어 있지 않습니다. |
-| Analytics - Acquisition referrer timed out. | `referrerTimeout`에 정의된 시간 내에 응답을 가져오지 못했습니다. 값을 늘린 다음 다시 시도하십시오.  또한 앱을 설치하기 전에 획득 링크를 열어야 합니다. |
+| Analytics - Acquisition referrer timed out. | `referrerTimeout`에 정의된 시간 내에 응답을 가져오지 못했습니다. 값을 늘린 다음 다시 시도하십시오.  또한 앱을 설치하기 전에 획득 링크를 열었는지 확인해야 합니다. |
 
 다음 정보를 숙지하십시오.
 
-* HTTP 모니터링 도구를 사용하여 획득 속성을 확인하여 앱에서 보낸 히트를 모니터링할 수 있습니다.
+* HTTP 모니터링 도구를 사용하여 획득 속성을 확인하여 앱에서 전송된 히트를 모니터링할 수 있습니다.
 * `INSTALL_REFERRER`를 브로드캐스트하는 자세한 방법은 Google 개발자 가이드의 [Google Play 캠페인 측정 테스트](https://developers.google.com/analytics/solutions/testing-play-campaigns)를 참조하십시오.
 
-* Android 4.8.2에서 획득에 대한 버그 수정이 릴리스되었습니다.
+* Android 4.8.2의 획득에 대한 버그 수정이 릴리스되었습니다.
 
    테스트하기 전에 SDK를 최신 버전으로 업그레이드하십시오.
 
