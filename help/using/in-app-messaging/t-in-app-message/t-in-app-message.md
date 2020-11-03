@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 인앱 메시지 만들기
 topic: Metrics
 uuid: 15b52713-9ffc-4df9-b21a-6b0576a96a54
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 34%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 34%
 >
 >인앱 메시지를 생성하려면 고객에게 Analytics-모바일 앱 또는 인앱 메시지에 필요한 모바일 앱 추가 기능이 있어야 합니다.
 
-1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
+1. 앱에서 **[!UICONTROL 메시징]** > **[!UICONTROL 메시지 관리]** > **[!UICONTROL 메시지 작성]** > **[!UICONTROL 앱 내 메시지 만들기]**&#x200B;를 클릭합니다.
 1. 대상 옵션을 구성합니다.
 
    대상 옵션에 대한 자세한 내용은 [대상 옵션](/help/using/in-app-messaging/t-in-app-message/c-audience-in-app-message.md)을 참조하십시오.
