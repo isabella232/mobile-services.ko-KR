@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: '대상: 인앱 메시지'
 topic: Metrics
 uuid: 6c815d4c-7626-4cf4-9158-3f059c79317a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '583'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 79%
 
 보기, 트리거 및 트레이트 옵션을 비롯한 인앱 메시지의 대상 옵션을 구성할 수 있습니다.
 
-1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
+1. 앱에서 **[!UICONTROL 메시징]** > **[!UICONTROL 메시지 관리]** > **[!UICONTROL 메시지 작성]** > **[!UICONTROL 앱 내 메시지 만들기]**&#x200B;를 클릭합니다.
 1. 대상 페이지에서 다음 필드에 정보를 입력하십시오.
 
    * **[!UICONTROL 보기]**
@@ -47,7 +47,7 @@ ht-degree: 79%
       >여러 트리거를 선택하는 경우 메시지를 표시하려면 모든 트리거가 동일한 히트에서 발생해야 합니다.
 
    * **[!UICONTROL 트레이트]**
-인앱 메시지가 트리거될 때 인앱 메시지를 볼 수 있고 지정된 데이터가 있는 히트로 대상을 필터링(세그먼트)할 수 있는 사용자를 결정할 수 있습니다. 예를 들어 관심 영역에 덴버가 들어 있는 규칙을 정의할 수 있습니다. 이 필터를 사용하면 트리거 시 이름에 Denver가 있는 관심 영역 중 하나에 있는 고객에게 메시지를 표시할 수 있습니다.
+인앱 메시지가 트리거될 때 인앱 메시지를 볼 수 있고 지정된 데이터가 있는 히트로 대상을 필터링(세그먼트)할 수 있는 사용자를 결정할 수 있습니다. 예를 들어 관심 영역에 Denver가 들어 있는 규칙을 정의할 수 있습니다. 이 필터를 사용하면 트리거 시 이름에 Denver가 있는 관심 영역 중 하나에 있는 고객에게 메시지를 표시할 수 있습니다.
 
 
 
@@ -57,7 +57,7 @@ ht-degree: 79%
 >
 >트리거 및 트레이트는 앱에서 Analytics로 전달되는 데이터를 사용합니다. 이러한 값은 컨텍스트 데이터, 매핑된 변수 및 지표로 전달됩니다. 변수는 텍스트 기반 값이고 지표는 숫자 값입니다.
 
-To see the mapping of these key value pairs in the Mobile Services UI and validate the value for your trigger, click **[!UICONTROL Manage App Settings]** >  **[!UICONTROL Manage Variables &amp; Metrics]** >, which displays the following tabs:
+Mobile Services UI에서 이러한 키 값 쌍의 매핑을 보고 트리거에 대한 값을 확인하려면 다음 탭에 표시되는 **[!UICONTROL 앱 설정 관리]** > **[!UICONTROL 변수 및 지표 관리]**&#x200B;를 클릭하십시오.
 
 * **[!UICONTROL 표준 변수 및 지표]**
 * **[!UICONTROL 사용자 지정 변수]**
@@ -75,7 +75,7 @@ To see the mapping of these key value pairs in the Mobile Services UI and valida
 
 지표는 숫자이며 예로는 구입 횟수가 있습니다.
 
-1. Click **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]**.
+1. **[!UICONTROL 메시지 관리]** > **[!UICONTROL 메시지 작성]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 대상]** 탭의 **[!UICONTROL 트리거 섹션에서 다음 단계를 완료합니다.]**
 
    1. **[!UICONTROL 시작됨]**&#x200B;과 같은 표준 이벤트를 선택하고 **[!UICONTROL 존재함]**&#x200B;을 선택합니다.
@@ -86,7 +86,7 @@ To see the mapping of these key value pairs in the Mobile Services UI and valida
 
 변수는 고유 식별자인 텍스트 문자열이며 예로는 국가, 공항 등이 있습니다.
 
-1. Click **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]**.
+1. **[!UICONTROL 메시지 관리]** > **[!UICONTROL 메시지 작성]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 대상]** 탭의 **[!UICONTROL 트리거 섹션에서 다음 단계를 완료합니다.]**
 
    1. **[!UICONTROL 시작됨]**&#x200B;과 같은 표준 이벤트를 선택하고 **[!UICONTROL 존재함]**&#x200B;을 선택합니다.
