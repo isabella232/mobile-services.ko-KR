@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: 사용자의 옵트 상태 설정
 topic: Developer and implementation
 uuid: 44a09a25-93c6-4e1a-b69e-710018e8b6c3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 84%
 
 * `setPrivacyStatus` 메서드를 사용합니다.
 
-   이 방법을 사용하여 개인 정보 설정이 변경되면 이 방법을 사용하여 다시 변경하거나 앱을 제거하고 다시 설치할 때까지 변경 사항이 적용됩니다.
+   이 방법을 사용하여 개인 정보 설정을 변경하면 다시 이 방법을 사용하여 변경하거나 앱을 제거하고 다시 설치할 때까지 변경 사항이 적용됩니다.
 
-   메서드에 대한 자세한 내용은 구성 방법 [을 참조하십시오](/help/ios/configuration/json-config/json-config.md).
+   방법에 대한 자세한 내용은 [구성 방법](/help/ios/configuration/json-config/json-config.md)을 참조하십시오.
 
 다음은 각 개인 정보 상태에 대한 정보입니다.
 
