@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Audience Manager 메서드
 topic: Developer and implementation
 uuid: 97658bd6-4c4f-4875-abe9-36dad4ec8bae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -75,8 +75,8 @@ Audience Manager가 JSON 파일에 구성되어 있으면 `application:didFinish
 
    DPID 및 DPUUID를 설정합니다. 설정할 때 둘 다 각 신호에 추가됩니다.
 
-   * DPID( **데이터 공급자 ID)** 는 Audience Manager에서 할당하는 데이터 파트너 ID입니다.
-   * 데이터 **공급자 고유 사용자 ID(DPUUID)** 는 사용자의 데이터 공급자의 고유 ID입니다.
+   * **데이터 공급자 ID**(DPID)는 Audience Manager에서 할당하는 데이터 파트너 ID입니다.
+   * **데이터 공급자 고유 사용자 ID(DPUUID)**&#x200B;는 해당 사용자에 대한 데이터 공급자의 고유 ID입니다.
 
       >[!IMPORTANT]
       >
