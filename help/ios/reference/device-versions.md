@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: iOS 장치 버전
 topic: Developer and implementation
 uuid: 8b8a9bc3-0737-4de2-9792-0b112aa4cf65
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 40%
 >
 >이 목록은 내부 테스트와 온라인 정보를 기반으로 하며, 부정확하거나 불완전한 정보를 포함할 수 있습니다.
 
-For more information about iOS devices, go to sites such as [The iPhone Wiki](https://theiphonewiki.com/wiki/Models).
+iOS 장치에 대한 자세한 내용은 [iPhone Wiki](https://theiphonewiki.com/wiki/Models)와 같은 사이트를 참조하십시오.
 
 | **iPhone** | **버전** |
 |---|---|
-| 원본 | iPhone1,1 |
+| Original | iPhone1,1 |
 | 3G | iPhone1,2 |
 | 3GS | iPhone2,1 |
-| 4(GSM)(펌웨어 4.0과 함께 배송됨) | iPhone3,1 |
-| 4(GSM)(펌웨어 6.0과 함께 배송됨) | iPhone3,2 |
+| 4(GSM)(펌웨어 4.0과 함께 제공됨) | iPhone3,1 |
+| 4(GSM)(펌웨어 6.0과 함께 제공됨) | iPhone3,2 |
 | 4(CDMA) | iPhone3,3 |
 | 4S | iPhone4,1 |
 | 5(GSM) | iPhone5,1 |
@@ -60,20 +60,20 @@ For more information about iOS devices, go to sites such as [The iPhone Wiki](ht
 
 | **iPad** | **버전** |
 |---|---|
-| 원본 | iPad1,1 |
+| Original | iPad1,1 |
 | iPad 2 | iPad2,1 |
 | iPad 2(GSM) | iPad2,2 |
 | iPad 2(CDMA) | iPad2,3 |
-| iPad 2(새로운 16GB) | iPad2,4 |
+| iPad 2(새 16GB) | iPad2,4 |
 | iPad Mini(WiFi) | iPad2,5 |
 | iPad Mini(GSM) | iPad2,6 |
-| iPad Mini, 전역 버전(GSM iPad Mini와 동일하지만 추가 셀룰러 라디오가 포함되어 있습니다.CDMA EV-DO Rev. A 및 Rev. B(3.5G) | iPad2,7 |
+| iPad Mini, 글로벌 버전(GSM iPad Mini와 동일하지만 추가 셀룰러 라디오가 포함됨: CDMA EV-DO Rev. A 및 Rev. B(3.5G)) | iPad2,7 |
 | iPad 3(WiFi) | iPad3,1 |
 | iPad 3(CDMA) | iPad3,2 |
 | iPad 3(GSM) | iPad3,3 |
 | iPad 4(WiFi) | iPad3,4 |
 | iPad 4(GSM) | iPad3,5 |
-| iPad 4, Global 버전(GSM 4세대 iPad와 동일하지만 추가 셀룰러 라디오를 포함합니다.CDMA EV-DO Rev. A 및 Rev. B(3.5G) | iPad3,6 |
+| iPad 4, 글로벌 버전(GSM 4세대 iPad와 동일하지만 추가 셀룰러 라디오가 포함됨: CDMA EV-DO Rev. A 및 Rev. B(3.5G)) | iPad3,6 |
 | iPad Air(WiFi) | iPad4,1 |
 | iPad Air(LTE) | iPad4,2 |
 | iPad Air(CDMA) | iPad4,3 |
