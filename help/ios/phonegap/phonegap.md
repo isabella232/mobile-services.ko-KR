@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: PhoneGap 플러그인
 topic: Developer and implementation
 uuid: f88bcf10-1f9e-4c97-b348-40db797c9923
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
