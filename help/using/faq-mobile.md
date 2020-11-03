@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: FAQ
 topic: Metrics
 uuid: 62a9241c-2ada-483a-a594-b023916cb0b6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1118'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 54%
 
 ### SDK를 자주 업데이트합니까?
 
-예. Adobe는 다양한 기능과 표준을 준수하고 안전한 SDK를 제공하기 위해 지속적으로 업데이트를 제공하고 있습니다. 일반적으로 매달 새로운 버전이 출시됩니다. 이러한 SDK 업데이트는 구현 시 도움이 되는 드롭인(버전 4x) 대체입니다. 업데이트에 대한 자세한 내용은 릴리스 [노트를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html).
+예, Adobe에서는 다양한 기능과 표준을 준수하고 안전한 SDK를 제공하기 위해 지속적으로 업데이트를 제공하고 있습니다. 일반적으로 매달 새로운 버전이 출시됩니다. 이러한 SDK 업데이트는 구현 시 도움이 되는 드롭인 대체(버전 4x용)입니다. 업데이트에 대한 자세한 내용은 [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)를 참조하십시오.
 
 ### 사용해야 하는 SDK 버전은 무엇인가요?
 
-현재 SDK는 버전 4.11에 있습니다. 자세한 내용은 [릴리스 노트를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html).
+현재 SDK는 버전 4.11에 있습니다. 자세한 내용은 [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)를 참조하십시오.
 
 ### 어디에서 SDK를 다운로드할 수 있나요?
 
@@ -53,7 +53,7 @@ Adobe Mobile SDK는 표준 iOS 및 Android 네트워크 스택을 사용합니�
 
 ### 처리 규칙 문제는 어떻게 해결해야 하나요?
 
-자세한 내용은 처리 규칙 [팁과 트릭을 참조하십시오](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html).
+자세한 내용은 [처리 규칙 팁과 트릭](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html)을 참조하십시오.
 
 ### 분석 데이터를 여러 보고서 세트로 보낼 수 있습니까?
 
@@ -61,29 +61,29 @@ Adobe Mobile SDK는 표준 iOS 및 Android 네트워크 스택을 사용합니�
 
 ### 모바일 방문 횟수는 실행 횟수와 어떻게 다릅니까?
 
-사용자가 앱을 처음 열거나 지정한 시간 초과 값보다 오래 앱을 벗어났다가 다시 앱을 찾을 때 SDK에서 론치를 측정합니다. 일반 시간 제한은 **[!UICONTROL 파일의]** lifecycleTimeout`ADBMobileConfig.json` 필드에 설정된 5분(300초)입니다. 방문은 Adobe Analytics에 의한 서버측 계산이며, 방문 시간 제한을 초과하지 않고 SDK에서 보낸 첫 번째 및 마지막 데이터 히트를 기반으로 합니다. 일반적으로 세션 시간 초과는 보고서 세트에 대해 30분으로 설정됩니다. 방문 횟수는 기존 웹 분석에서 비롯되지만, 이러한 히트는 여전히 사용자가 앱을 어떻게 이용하고 나가는지에 대한 중요한 통찰력을 제공합니다.
+사용자가 앱을 처음 열거나 지정한 시간 초과 값보다 오래 앱을 벗어났다가 다시 앱을 찾을 때 SDK에서 실행을 측정합니다. 일반 시간 제한은 **[!UICONTROL 파일의]** lifecycleTimeout`ADBMobileConfig.json` 필드에 설정된 5분(300초)입니다. 방문은 Adobe Analytics에 의한 서버 측 계산이며, 방문 제한 시간을 초과하지 않고 SDK에서 보낸 첫 번째 및 마지막 데이터 히트를 기반으로 합니다. 일반적으로 보고서 세트에 대한 세션 시간 초과는 30분으로 설정됩니다. 방문 횟수는 기존 웹 분석에서 가져오지만 이러한 히트는 여전히 사용자가 앱을 어떻게 이용하고 나가는지에 대한 중요한 통찰력을 제공합니다.
 
 ## 메시징 {#section_5EFDD2B2EBA543C09902FF979C89F2EC}
 
-### 푸시 알림에 크기나 다른 제한 사항이 있습니까?
+### 푸시 알림에 대한 크기나 다른 제한 사항이 있습니까?
 
 푸시 알림 메시지에는 140자 제한이 있습니다. 전송 또는 예약할 수 있는 알림 수 또는 알림 전송 빈도에 대해서는 제한이 없습니다.
 
 ### 푸시 알림에 대한 사용자 지정 페이로드를 지원합니까?
 
-예, JSON에서 코딩될 수 있는 사용자 지정 푸시 페이로드를 제공합니다. Android 및 iOS 페이로드는 각각 4KB 및 2KB로 제한됩니다. 이러한 페이로드는 푸시 또는 로컬 알림을 통해 앱으로 전송됩니다. 자세한 내용은 [환경: 푸시 메시지](/help/using/in-app-messaging/t-create-push-message/c-experience-push-message.md)를 참조하십시오.
+예, JSON으로 코딩할 수 있는 사용자 지정 푸시 페이로드를 제공합니다. Android 및 iOS 페이로드는 각각 4KB 및 2KB로 제한됩니다. 이러한 페이로드는 푸시 또는 로컬 알림을 통해 앱으로 전송됩니다. 자세한 내용은 [환경: 푸시 메시지](/help/using/in-app-messaging/t-create-push-message/c-experience-push-message.md)를 참조하십시오.
 
 ### 인앱 메시지에 크기 제한이 있습니까?
 
-Adobe Mobile Services에서 만든 게시 및 활성 인앱 메시지는 앱 보고서 세트당 15MB 크기 제한이 있는 서버에서 호스팅됩니다. 이 제한 사항은 Adobe으로 호스팅되는 메시지 내용 및 리소스에 적용되지만 인앱 메시지가 다른 주최자나 앱 내의 리소스에서 참조할 수 있는 리소스에는 제한이 없습니다.
+Adobe Mobile Services에서 만든 게시 및 활성 인앱 메시지는 앱 보고서 세트당 15MB 크기 제한이 있는 서버에서 호스팅됩니다. 이 제한 사항은 Adobe로 호스팅되는 메시지 컨텐츠 및 리소스에 적용되지만 인앱 메시지가 다른 호스트나 앱 내에서 참조할 수 있는 리소스에 대해서는 제한이 없습니다.
 
 ### 인앱 메시지에 나만의 HTML을 사용할 수 있습니까?
 
-예. Adobe는 인앱 메시지에 대한 사용자 정의 HTML을 지원합니다. 자세한 내용은 [환경: 인앱 메시지](/help/using/in-app-messaging/t-in-app-message/c-experience-in-app-message.md)를 참조하십시오.
+예, Adobe는 인앱 메시지에 대한 사용자 정의 HTML을 지원합니다. 자세한 내용은 [환경: 인앱 메시지](/help/using/in-app-messaging/t-in-app-message/c-experience-in-app-message.md)를 참조하십시오.
 
 ### 푸시 알림 또는 인앱 메시지를 보내는 데 어떤 트리거를 사용할 수 있습니까?
 
-마케터는 인앱 메시지를 표시하는 트리거로 전송되는 모든 Analytics 데이터 또는 이벤트를 선택할 수 있습니다. 인앱 메시지는 장치에서 로컬로 발생하는 트리거를 사용합니다. 여러 개의 트리거를 선택한 경우 메시지가 표시되려면 모든 트리거가 동일한 히트에서 발생해야 합니다. 자세한 내용은 [환경: 인앱 메시지](/help/using/in-app-messaging/t-in-app-message/c-experience-in-app-message.md)를 참조하십시오.
+마케터는 인앱 메시지를 표시하는 트리거로서 전송되는 모든 Analytics 데이터 또는 이벤트를 선택할 수 있습니다. 인앱 메시지는 장치에서 로컬로 발생하는 트리거를 사용합니다. 여러 개의 트리거를 선택한 경우 메시지가 표시되려면 모든 트리거가 동일한 히트에서 발생해야 합니다. 자세한 내용은 [환경: 인앱 메시지](/help/using/in-app-messaging/t-in-app-message/c-experience-in-app-message.md)를 참조하십시오.
 
 푸시 메시지는 이미 수집된 Analytics 내역 데이터에 만들어져 있을 수 있는 이미 존재하는 Adobe Analytics 세그먼트 또는 사용자 지정 세그먼트를 사용하여 발송됩니다. 자세한 내용은 [환경: 푸시 메시지](/help/using/in-app-messaging/t-create-push-message/c-experience-push-message.md)를 참조하십시오.
 
