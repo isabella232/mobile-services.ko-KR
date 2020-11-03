@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: 앱 작업 추적
 topic: Developer and implementation
 uuid: fe01c1df-f6bb-4b32-b3ef-959d2c724af6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Analytics.trackAction("myapp.SocialShare", exampleContextData);
 
 | 인터페이스 | 보고서 |
 |--- |--- |
-| Adobe Mobile Services | ****&#x200B;작업 경로 보고서.  앱에서 작업이 발생하는 순서를 봅니다. 보고서에서 **[!UICONTROL 사용자 지정]**&#x200B;을 클릭하여 등급이 매겨지거나, 트렌드가 분석되거나, 분류 보고서에 있는 작업을 보거나, 필터 적용을 통해 특정 세그먼트에 대한 작업을 볼 수도 있습니다. |
+| Adobe Mobile Services | **[!UICONTROL 작업 경로]** 보고서.  앱에서 작업이 발생하는 순서를 봅니다. 보고서에서 **[!UICONTROL 사용자 지정]**&#x200B;을 클릭하여 등급이 매겨지거나, 트렌드가 분석되거나, 분류 보고서에 있는 작업을 보거나, 필터 적용을 통해 특정 세그먼트에 대한 작업을 볼 수도 있습니다. |
 | Marketing Reports &amp; Analytics | **[!UICONTROL 사용자 지정 이벤트]**&#x200B;를 보고합니다.  작업이 사용자 지정 이벤트에 매핑되면 다른 모든 Analytics 이벤트와 유사한 모바일 이벤트를 볼 수 있습니다. |
 | Ad hoc analytics | **[!UICONTROL 사용자 지정 이벤트]**&#x200B;를 보고합니다.  작업이 사용자 지정 이벤트에 매핑되면 다른 모든 Analytics 이벤트와 유사한 모바일 이벤트를 볼 수 있습니다. |
 
