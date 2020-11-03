@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 기술 보고서
 topic: Reports,Metrics
 uuid: 4b7322c4-8920-43cd-bb72-5a5bd515ae84
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 74%
 
 ## 탐색 및 사용 {#section_83CA60E1AE6245FEBCBFF3205615C4DF}
 
-이 시각화에서는 기본 보고서와 분류와 높이를 사용하여 지표를 초점에 표시하고 지표 간의 성능 차이를 제공합니다. 각 고리는 링 카테고리의 대상 세그먼트를 나타냅니다. 고정 필터 적용, 지표 숨기기, 지표 보기 등 대상에 대한 작업을 수행할 수 있습니다.
+이 시각화에서는 예를 들어, 기본 보고서와 분류를 제공하고 높이를 사용하여 지표를 초점에 표시하고 지표 간의 성능 차이를 제공합니다. 개별 고리는 고리 카테고리의 대상 세그먼트를 나타냅니다. 고정 필터 적용, 지표 숨기기, 지표 보기 등 대상에 대한 작업을 수행할 수 있습니다.
 
 >[!TIP]
 >
@@ -32,7 +32,7 @@ ht-degree: 74%
 
 ![](assets/report_technology.png)
 
-선버스트 차트는 대화형이며 다음 작업을 완료할 수 있습니다.
+Sunburst 차트는 대화형이며 다음 작업을 완료할 수 있습니다.
 
 * 자세한 정보를 표시하려면 마우스를 차트 위에 놓으십시오.
 * **[!UICONTROL 달력]** 아이콘을 클릭하여 기간을 변경합니다.
