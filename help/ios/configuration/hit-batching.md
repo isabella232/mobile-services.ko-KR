@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: 히트 배치 처리
 topic: Developer and implementation
 uuid: 3dda7372-0695-4cb7-b779-6abca2d6e0d9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 89%
 }
 ```
 
-0보다 큰 숫자로 설정하면 SDK는 *`batchLimit`*. 이 임계값이 전달되면 대기열에 있는 모든 히트가 전송됩니다.
+0보다 큰 숫자로 설정하면 SDK는 *`batchLimit`*&#x200B;와 동일한 히트 수를 대기열로 처리합니다. 이 임계값이 초과되면 큐에 있는 모든 히트가 전송됩니다.
 
 다음 방법은 히트 일괄 처리에 사용됩니다.
 
