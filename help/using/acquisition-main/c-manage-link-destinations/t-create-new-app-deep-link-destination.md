@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 새 링크 대상 만들기
 topic: Metrics
 uuid: 390e3dea-0221-4f97-980d-a90ca9f162fa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 85%
 
       * **[!UICONTROL 앱 딥링크]**
 
-         URI 스키마 딥링크(예: `yourapp://section`)를 제공합니다. 앱 딥 링크 대상은 사용자가 앱의 딥 링크로 이동하는 URI 스키마 딥 링크입니다. 예를 들어 온라인 소매업체의 모바일 앱에서 특정 제품 라인으로 사용자를 안내할 수 있습니다.
+         URI 스키마 딥링크(예: `yourapp://section`)를 제공합니다. 앱 딥링크 대상은 앱 내의 딥링크로 사용자를 안내하는 URI 스키마 딥링크입니다. 예를 들어, 온라인 소매점의 모바일 앱에서 특정 제품 라인으로 사용자를 안내할 수 있습니다.
 
       * **[!UICONTROL 웹 링크]**
 
-         웹 HTTP 또는 HTTPS URL(예: `https://adobe.com`)을 입력합니다. 웹 링크 대상은 사용자를 URL로 안내합니다. 예를 들어 온라인 소매업체 웹 사이트의 제품 라인으로 사용자를 안내할 수 있습니다.
+         웹 HTTP 또는 HTTPS URL(예: `https://adobe.com`)을 입력합니다. 웹 링크 대상은 사용자를 URL로 안내합니다. 예를 들어, 온라인 소매점의 웹 사이트에서 제품 라인으로 사용자를 안내할 수 있습니다.
 
       * **[!UICONTROL 하이브리드 링크]**
 
