@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 푸시 메시지 문제 해결
 topic: Metrics
 uuid: 87d7dcb6-82a8-46e3-a6ed-7f895a22f2af
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 75%
 
    모든 보고서 세트에는 들어오는 Analytics 히트를 처리할 시기를 결정하는 설정이 있습니다. 기본값은 매시 정각입니다. Analytics 히트의 실제 처리는 최대 30분이 소요될 수 있지만, 일반적으로 15-20분 정도 걸립니다.
 
-   예를 들어, 보고서 세트는 매 시간마다 히트를 처리합니다. 처리 시간의 최대 30분을 고려할 경우 푸시 메시지에 사용할 수 있는 들어오는 히트에 대해 최대 90분이 소요될 수 있습니다. 만약 사용자가 오전 9:01에 앱을 시작했다면, 히트는 오전 10:15와 오전 10:30 사이에 새 고유 사용자로서 Mobile Services UI에 표시될 것입니다.
+   예를 들어, 보고서 세트는 매 시간마다 히트를 처리합니다. 최대 30분의 처리 시간을 고려할 경우, 수신되는 히트를 푸시 메시지에 사용하는 데 최대 90분이 소요될 수 있습니다. 만약 사용자가 오전 9:01에 앱을 시작했다면, 히트는 오전 10:15와 오전 10:30 사이에 새 고유 사용자로서 Mobile Services UI에 표시될 것입니다.
 
 * **푸시 서비스 대기 중**
 
@@ -44,15 +44,15 @@ ht-degree: 75%
    * **GCM**: [메시지 라이프타임](https://developers.google.com/cloud-messaging/concept-options)
 
 
-## Apple 푸시 서비스 인증서를 어떻게 갱신합니까?
+## Apple Push Service 인증서를 어떻게 갱신합니까?
 
 푸시 메시지를 전송하려면 유효한 푸시 서비스 인증서가 필요합니다. 인증서가 곧 만료되거나 만료된 경우 Mobile Services에서 알림을 보냅니다. 이 알림을 받으면 다음 단계를 완료하여 인증서를 갱신하십시오.
 
 1. **[!UICONTROL 앱 설정 관리를 클릭합니다]**.
 2. 현재 인증서를 삭제하려면 **[!UICONTROL 푸시 서비스]**&#x200B;로 스크롤한 다음 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
-3. 새 인증서를 구성하고 테스트합니다.
+3. 새 인증서를 구성하고 테스트하십시오.
 
-   자세한 내용은 푸시 메시지 [활성화를 위한 전제 조건을 참조하십시오.](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)
+   자세한 내용은 [푸시 메시지 사용을 위한 전제 조건](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)을 참조하십시오.
 
 4. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
