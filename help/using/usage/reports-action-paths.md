@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 작업 경로 보고서
 topic: Reports,Metrics
 uuid: a21e5d9e-fd57-4178-9d64-87181b7f988b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '556'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -34,30 +34,30 @@ ht-degree: 69%
 
 ![](assets/action_paths_icons.png)
 
-To expand, click the **[!UICONTROL +]** icon. 이 옵션은 노드에 들어오거나 나가는 추가 경로를 표시합니다. 아래 그래픽에서 상태 1은 앱을 시작하고 상태 2는 사진을 선택하고(이전에 확장한 항목) 상태 3은 사용자가 사용한 다양한 경로를 포함합니다.
+확장하려면 **[!UICONTROL +]** 아이콘을 클릭합니다. 이 옵션은 노드에 들어오거나 나가는 추가 경로를 표시합니다. 아래 그래픽에서 상태 1은 앱 시작이고 상태 2는 사진 선택(이전에 확장한 항목)이며 상태 3은 사용자가 사용한 다양한 경로를 포함합니다.
 
 * 항목 선택
 * 항목 추가
 * 항목 드래그
-* 항목 크기 조정
+* 항목 크기 조절
 
 상태를 확장하는 것은 단계와 유사합니다.
 
 ![작업 경로 확장](assets/action_paths_expand.png)
 
-노드를 분리하고 선택한 노드로 들어오고 나가는 경로를 표시하려면 ![포커스 아이콘](assets/icon_focus.png) 아이콘을 클릭합니다. 아래 그래픽에서 사용자가 사진을 선택하기 **전에** 다음 경로가 완료되었습니다.
+노드를 분리하고 선택한 노드로 들어오고 나가는 경로를 표시하려면 ![포커스 아이콘](assets/icon_focus.png) 아이콘을 클릭합니다. 아래 그래픽에서는 사용자가 사진을 선택하기 **전에** 다음 경로가 완료되었습니다.
 
 * 항목 회전
-* 항목 크기 조정
+* 항목 크기 조절
 * 항목 드래그
 * 항목 제거
 
-사진을 선택한 사용자 중 사진을 선택한 **후** 다음 경로가 완료되었습니다.
+사진을 선택한 사용자 중, 다음 경로가 사진을 선택한 **후에** 완료되었습니다.
 
 * 항목 선택
 * 항목 추가
 * 항목 드래그
-* 항목 크기 조정
+* 항목 크기 조절
 
 ![작업 경로 포커스](assets/action_paths_focus.png)
 
