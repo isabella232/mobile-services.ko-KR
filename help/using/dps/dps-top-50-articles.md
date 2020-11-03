@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 상위 50개 문서
 topic: Metrics
 uuid: 341370d1-fa87-43ca-8135-425b3bba272f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 95%
 
 ![](assets/dps_top_50.png)
 
-기본적으로 이 보고서에는 아티클 제목과 독자 수가 표시됩니다.
+기본적으로 이 보고서에는 문서 제목과 독자 수가 표시됩니다.
 
 이 보고서에 대해 다음 옵션을 구성할 수 있습니다.
 
 * **[!UICONTROL 기간]**
-****&#x200B;달력 아이콘을 클릭하여 사용자 지정 기간을 선택하거나 드롭다운 목록에서 사전 설정된 기간을 선택합니다.
+**[!UICONTROL 달력]** 아이콘을 클릭하여 사용자 지정 기간을 선택하거나 드롭다운 목록에서 사전 설정된 기간을 선택합니다.
 
 * **[!UICONTROL 사용자 지정]**
 
