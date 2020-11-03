@@ -1,16 +1,16 @@
 ---
-description: 이 정보는 iOS 앱에서 고객 확보 추적 링크를 사용하는 데 도움이 됩니다.
-seo-description: 이 정보는 iOS 앱에서 고객 확보 추적 링크를 사용하는 데 도움이 됩니다.
+description: 이 정보는 iOS 앱에서 획득 추적 링크를 사용하는 데 유용합니다.
+seo-description: 이 정보는 iOS 앱에서 획득 추적 링크를 사용하는 데 유용합니다.
 seo-title: 획득
 solution: Experience Cloud,Analytics
 title: 획득
 topic: Developer and implementation
 uuid: e22d2785-58f1-4841-9163-912c5e0f5d61
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
