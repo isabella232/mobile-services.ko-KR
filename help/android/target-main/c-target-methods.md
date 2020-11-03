@@ -57,9 +57,8 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 >[!IMPORTANT]
 >
 >* 4.14.0 **이전** 버전의 SDK를 사용하는 경우 [https://developers.adobetarget.com/api/#input-parameters](https://developers.adobetarget.com/api/#input-parameters)에서 매개 변수 제한 사항을 참조하십시오.
-   >
-   >
-* 4.14.0 **이후** 버전의 SDK를 사용하는 경우 [](https://developers.adobetarget.com/api/#batch-input-parameters)https://developers.adobetarget.com/api/#batch-input-parameters에서 매개 변수 제한 사항을 참조하십시오.
+>
+>* 4.14.0 **이후** 버전의 SDK를 사용하는 경우 [](https://developers.adobetarget.com/api/#batch-input-parameters)https://developers.adobetarget.com/api/#batch-input-parameters에서 매개 변수 제한 사항을 참조하십시오.
 
 
 * **loadRequest**
