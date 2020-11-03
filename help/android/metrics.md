@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 라이프사이클 지표
 topic: Developer and implementation
 uuid: a8f3ebac-be3b-4948-82bb-105d46cfff6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1240'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고
 
 ## 라이프사이클 지표 및 차원 {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
-구성된 경우 라이프사이클 지표가 컨텍스트 데이터 매개 변수로 Analytics로, 매개 변수로 각 mbox 호출이 있을 때 Target으로, 고객 관리에 대한 신호로 전송됩니다. 분석 및 Target은 동일한 형식을 사용하는 반면 고객 관리는 각 지표에 대해 다른 접두사를 사용합니다.
+라이프사이클 지표가 구성된 경우 해당 지표가 컨텍스트 데이터 매개 변수로 Analytics에 전송되고 각 mbox 호출을 통해 매개 변수로 Target에 전송되며 고객 관리에 신호로 사용됩니다. Analytics 및 Target에서는 같은 형식을 사용하지만 고객 관리에서는 각 지표에 다른 접두사를 사용합니다.
 
 Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍스트 데이터는 지표 또는 차원을 사용하여 자동으로 캡처되고 보고되며, 예외가 기록됩니다.
 
@@ -75,7 +75,7 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
 
 * **시작**
 
-   충돌 및 설치를 포함하여 모든 실행 시 트리거됩니다. 라이프사이클 세션 시간 초과가 초과되면 백그라운드에서 다시 시작할 때도 트리거됩니다.
+   충돌 및 설치를 포함하여 실행 시마다 트리거됩니다. 라이프사이클 세션 시간이 초과되면 백그라운드에서 다시 시작할 때도 트리거됩니다.
 
    >[!IMPORTANT]
    >
@@ -319,14 +319,14 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
 
 * **캠페인 매체**
 
-   배너 또는 이메일과 같은 마케팅 미디어 모바일 앱 획득을 통해 채워집니다.
+   배너 또는 이메일과 같은 마케팅 미디어. 모바일 앱 획득을 통해 채워집니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.referrer.campaign.medium`
    * Audience Manager 트레이트: `c_a_referrer_campaign_medium`
 
 * **캠페인 소스**
 
-   뉴스레터 또는 소셜 미디어 네트워크와 같은 원래 레퍼러 모바일 앱 획득을 통해 채워집니다.
+   뉴스레터 또는 소셜 미디어 네트워크와 같은 원래 레퍼러. 모바일 앱 획득을 통해 채워집니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.referrer.campaign.source`
    * Audience Manager 트레이트: `c_a_referrer_campaign_source`
