@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Apple 범용 링크 및 Android 앱 링크
 topic: Metrics
 uuid: 8d6441dc-4307-4454-95ea-d77ec796f918
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1142'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 92%
 
 1. Adobe Mobile Services에서 범용 링크를 사용하는 마케팅 링크를 만듭니다.
 
-   a. Select the app from the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Link Builder]**.
+   a. 모바일 서비스 홈 페이지에서 앱을 선택하고 **[!UICONTROL 획득]** > **[!UICONTROL 마케팅 링크 빌더]**&#x200B;를 클릭합니다.
 
    b. **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
 
@@ -78,7 +78,7 @@ ht-degree: 92%
 
    e. **[!UICONTROL 범용 링크 또는 앱 링크 사용]** 옵션을 선택하면 **[!UICONTROL 사용자 지정 경로]** 필드가 표시됩니다.
 
-   이를 통해 사용자는 쿼리 매개 변수를 사용하여 도메인 뒤에 URL 경로를 정의할 수 있습니다. 예를 들어, 입력하는 경우 전체 마케팅 링크 `my/universal/link?os=9.2`URL이 `https://[marketing link domain]/my/universal/link?[AMS default query parameters]&os=9.2`됩니다.
+   이를 통해 사용자는 쿼리 매개 변수를 사용하여 도메인 뒤에 URL 경로를 정의할 수 있습니다. 예를 들어, `my/universal/link?os=9.2` 입력 시, 전체 마케팅 링크 URL은 `https://[marketing link domain]/my/universal/link?[AMS default query parameters]&os=9.2`입니다.
 
    f. **[!UICONTROL 결정]** 탭을 클릭하고 결정 트리를 구성합니다.
 
@@ -125,7 +125,7 @@ ht-degree: 92%
 
 1. Adobe Mobile Services에서 앱 링크를 사용하는 마케팅 링크를 만듭니다.
 
-   a. Select the app from the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Link Builder]**.
+   a. 모바일 서비스 홈 페이지에서 앱을 선택하고 **[!UICONTROL 획득]** > **[!UICONTROL 마케팅 링크 빌더]**&#x200B;를 클릭합니다.
 
    b. **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
 
@@ -137,7 +137,7 @@ ht-degree: 92%
 
    e. **[!UICONTROL 범용 링크 또는 앱 링크 사용]**&#x200B;을 선택하면 **[!UICONTROL 사용자 지정 경로]** 필드가 표시됩니다.
 
-   이를 통해 사용자는 쿼리 매개 변수를 사용하여 도메인 뒤에 URL 경로를 정의할 수 있습니다. 예를 들어, 입력하는 경우 전체 마케팅 링크 `my/app/link?os=6.0`URL이 `https://[marketing link domain]/my/app/link?[AMS default query parameters]&os=6.0`됩니다.
+   이를 통해 사용자는 쿼리 매개 변수를 사용하여 도메인 뒤에 URL 경로를 정의할 수 있습니다. 예를 들어, `my/app/link?os=6.0` 입력 시, 전체 마케팅 링크 URL은 `https://[marketing link domain]/my/app/link?[AMS default query parameters]&os=6.0`입니다.
 
    f. **[!UICONTROL 결정]** 탭을 클릭하고 결정 트리를 구성합니다.
 
