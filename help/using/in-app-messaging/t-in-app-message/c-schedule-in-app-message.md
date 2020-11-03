@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: '예약: 인앱 메시지'
 topic: Metrics
 uuid: d10e691b-105a-4165-a49d-d046ce250acd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 >
 >날짜 범위는 사용자가 위치한 표준 시간대로 정의됩니다. 특정 날짜 및 시간 범위는 사용자의 장치에 상대적입니다.
 
-1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
+1. 앱에서 **[!UICONTROL 메시징]** > **[!UICONTROL 메시지 관리]** > **[!UICONTROL 메시지 작성]** > **[!UICONTROL 앱 내 메시지 만들기]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 예약을 클릭합니다]**.
 1. **[!UICONTROL 기간]** 섹션에서 다음 필드를 작성합니다.
 
