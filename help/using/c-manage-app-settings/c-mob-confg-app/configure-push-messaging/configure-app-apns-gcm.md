@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: APNS 또는 FCM 사용을 위한 앱 구성
 topic: Metrics
 uuid: fa411f2a-ba47-4499-bbe5-1aedef6b49ad
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '652'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -86,10 +86,10 @@ ht-degree: 90%
 
 APNS를 사용하도록 iOS 앱을 구성하려면 다음을 수행하십시오.
 
-1. Go to [https://developer.apple.com/account](https://developer.apple.com/account) and log in to your [Apple Developer account](https://developer.apple.com/account).
+1. [https://developer.apple.com/account](https://developer.apple.com/account) 사이트로 이동하고 [Apple Developer 계정](https://developer.apple.com/account)에 로그인합니다.
 1. **[!UICONTROL iOS 앱]**&#x200B;에서 **[!UICONTROL ID]**&#x200B;를 선택합니다.
 1. 푸시용으로 설정된 앱 ID가 있는 경우 11단계로 이동합니다.
-1. Press the **[!UICONTROL +]** button to create a new App ID.
+1. **[!UICONTROL +]** 단추를 눌러 새 앱 ID를 만듭니다.
 1. 앱 ID 설명을 입력합니다.
 1. 앱 ID 접미사를 입력합니다.
 
@@ -117,9 +117,9 @@ SSL 인증서 및 개인 키(APNS)를 받으려면 다음을 수행합니다.
 1. **[!UICONTROL 키체인 액세스]**&#x200B;를 엽니다.
 1. **[!UICONTROL 내 인증서]**&#x200B;를 클릭하고 앱과 환경에 적합한 **[!UICONTROL iOS 푸시 서비스 인증서]**&#x200B;를 찾습니다.
 
-   번들 ID와 개발 또는 제작인지 여부를 일치시켜 올바른 인증서를 식별할 수 있습니다.
+   해당 번들 ID와 Development인지 Production인지 여부를 비교하여 올바른 인증서를 식별할 수 있습니다.
 
-1. 인증서를 확장하고 개인 키가 들어 있는지 확인합니다.
+1. 인증서를 확장하고 개인 키가 있는지 확인합니다.
 1. 개인 키를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL &quot;*`<name of key>`*]**내보내기를 선택합니다.
 1. 대화 상자에 필요한 정보를 입력하고 새 `.p12` 파일을 저장합니다.
 
