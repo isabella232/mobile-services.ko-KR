@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: Adobe Experience Platform ID 서비스 메서드
 topic: Developer and implementation
 uuid: cdd307bc-8b7d-47a8-b77e-00902b9e2968
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 메서드에는 솔루션에 따라 접두사가 추가되며, Experience Cloud ID 메서드의 경우 `visitor` 접두사가 추가됩니다. 자세한 내용은 [Experience Cloud ID 사용](/help/ios/marketing-cloud/mcvid.md)을 참조하십시오.
 
-* **`+`(nullable NSURL`*`)visitorAppendToURL:(nullable NSURL`*`)url;**
+* **`+`(nullable NSURL `*`)visitorAppendToURL:(nullable NSURL `*`)url;**
 
    Adobe JavaScript 라이브러리에서 사용할 수 있도록 URL 문자열에 Adobe 방문자 데이터를 추가합니다. 이 메서드를 사용하려면 Mobile SDK 버전 4.12 이상이 있어야 합니다. 자세한 내용은 [방문자 ID 지원 기능 추가](https://docs.adobe.com/content/help/ko-KR/id-service/using/id-service-api/methods/appendvisitorid.html)를 참조하십시오.
 
