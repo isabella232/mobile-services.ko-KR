@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 앱스토어 개요 보고서
 topic: Metrics
 uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '517'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 84%
 
 ## 인앱 매출 {#section_58792ED9C4B54B7D836E30CF09E8E204}
 
-이 보고서는 앱을 사용한 인앱 구매의 매출을 표시합니다.
+이 보고서는 앱을 사용한 인앱 구매의 매출액을 표시합니다.
 
 ## 국가별 다운로드 수 {#section_10373CD28CA94BA5859DFDEED7D548C6}
 
@@ -72,7 +72,7 @@ ht-degree: 84%
 
 ![](assets/app_store.png)
 
-날짜별로 그룹화된 앱스토어별 다운로드 수를 표시하는 그래프와 차트를 표시하려면 앱스토어별 다운로드 수&#x200B;**[!UICONTROL 를 클릭합니다]**. 날짜 위로 마우스를 가져가면 해당 날짜에 대한 데이터를 볼 수 있습니다.
+날짜별로 그룹화된 앱스토어별 다운로드 수를 표시하는 그래프와 차트를 표시하려면 앱스토어별 다운로드 수&#x200B;**[!UICONTROL 를 클릭합니다]**. 날짜 위로 마우스를 가져가면 해당 날짜의 데이터를 볼 수 있습니다.
 
 ![](assets/app_store_downloads_detail.png)
 
