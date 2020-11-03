@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 수동으로 획득 링크 만들기
 topic: Metrics
 uuid: d7709203-f793-4982-adaa-9c3c914aca2b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ URL 매개 변수를 수동으로 구성하여 새로운 모바일 앱 사용자
 
 ![](assets/acquisition_url.png)
 
-이 링크는 모바일 앱용 Google Play 스토어 또는 Apple App Store로의 플랫폼 전용 리디렉션을 수행하도록 구성되었습니다. 대상을 결정할 수 없는 경우 기본 스토어가 Apple App Store로 설정되었습니다. 앱이 설치되면 `my.custom.key:test` 사용자 지정 컨텍스트 키가 Analytics 설치 히트에 첨부됩니다.
+이 링크는 모바일 앱용 Google Play 스토어 또는 Apple 앱스토어로 플랫폼 전용 리디렉션을 수행하도록 구성되었습니다. 대상을 결정할 수 없는 경우 기본 스토어가 Apple 앱스토어로 설정되었습니다. 앱이 설치되면 `my.custom.key:test` 사용자 지정 컨텍스트 키가 Analytics 설치 히트에 첨부됩니다.
 
 링크를 수동으로 작성하려면 다음 URL 형식을 사용하십시오.
 
