@@ -1,17 +1,17 @@
 ---
-description: 상관 관계 용도로 사용할 수 있는 지리적 위치를 정의하고 인앱 메시지로 타깃팅하는 등 관심 영역을 만들고 관리할 수 있습니다. 히트가 관심 영역으로 전송되는 경우 관심 영역이 히트에 연결됩니다.
+description: 상관 관계 목적으로 사용하고, 인앱 메시지로 타깃팅하는 등의 작업을 수행할 수 있는 지리적 위치를 정의할 수 있는 관심 영역을 만들고 관리할 수 있습니다. 히트가 관심 영역으로 전송되는 경우 관심 영역이 히트에 연결됩니다.
 keywords: mobile
-seo-description: 상관 관계 용도로 사용할 수 있는 지리적 위치를 정의하고 인앱 메시지로 타깃팅하는 등 관심 영역을 만들고 관리할 수 있습니다. 히트가 관심 영역으로 전송되는 경우 관심 영역이 히트에 연결됩니다.
+seo-description: 상관 관계 목적으로 사용하고, 인앱 메시지로 타깃팅하는 등의 작업을 수행할 수 있는 지리적 위치를 정의할 수 있는 관심 영역을 만들고 관리할 수 있습니다. 히트가 관심 영역으로 전송되는 경우 관심 영역이 히트에 연결됩니다.
 seo-title: 관심 영역 관리
 solution: Experience Cloud,Analytics
 title: 관심 영역 관리
 topic: Metrics
 uuid: 7b362534-54fb-43a3-b6b2-dfc8f45ff7c6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 82%
 위치를 사용하려면 다음 작업을 완료하십시오.
 
 1. 앱 이름을 클릭하여 해당 앱 설정 관리 페이지로 이동합니다.
-1. Click **[!UICONTROL Location]** > **[!UICONTROL Manage Points of Interest]**.
+1. **[!UICONTROL 위치]** > **[!UICONTROL 관심 영역 관리]**&#x200B;를 클릭합니다.
 
    ![단계 결과](assets/poi.png)
 
