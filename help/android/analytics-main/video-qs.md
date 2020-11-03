@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Video Analytics
 topic: Developer and implementation
 uuid: a137cc27-dc28-48c0-b08e-2ca17d2c7e1d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '881'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 85%
    * 변수 유형: eVar
       * 기본 만료: 방문
       * 사용자 지정 인사이트(s.prop, 비디오 경로 지정에 사용)
-   * (**필수**) 방문자가 비디오를 보는 경우 이 컨텍스트 데이터 변수는 구현에 지정된 비디오 이름을 수집합니다. 이 변수에 대한 분류를 추가할 수 있습니다.
-   * (**Optional**) The Custom Insight variable provides video pathing information.
+   * **필수** - 방문자가 특정 방식으로 비디오를 보는 경우, 이 컨텍스트 데이터 변수는 구현에 지정된 비디오 이름을 수집합니다. 이 변수에 대한 분류를 추가할 수 있습니다.
+   * **선택 사항** - Custom Insight 변수는 비디오 경로 지정 정보를 제공합니다.
 
 * **a.media.name**
    * 변수 유형: 사용자 지정 통찰력(s.prop)
@@ -47,7 +47,7 @@ ht-degree: 85%
 * **a.media.segment**
    * 변수 유형: eVar
    * 기본 만료: 페이지 보기
-   * (**Required**) Collects video segment data, including the segment name and the order in which the segment occurs in the video.
+   * **필수** - 세그먼트 이름 및 비디오에서 세그먼트가 발생하는 순서를 포함하여 비디오 세그먼트 데이터를 수집합니다.
 
       이 변수는 플레이어 이벤트를 자동으로 추적할 때 `segmentByMilestones` 변수를 활성화하거나, 플레이어 이벤트를 수동으로 추적할 때 사용자 지정 세그먼트 이름을 설정하여 채워집니다. 예를 들어 방문자가 비디오에서 첫 번째 세그먼트를 볼 경우 SiteCatalyst가 세그먼트 eVar에서 다음을 수집할 수 있습니다. `1:M:0-25`
 
@@ -70,7 +70,7 @@ ht-degree: 85%
 * **a.media.timePlayed**
    * 변수 유형: 이벤트
    * 유형:카운터
-   * 마지막 데이터 수집 프로세스(이미지 요청) 이후 비디오를 시청하는 데 걸린 시간(초)을 카운트합니다.
+   * 마지막 데이터 수집 처리(이미지 요청) 이후 비디오를 시청하는 데 걸린 시간(초)을 계산합니다.
 
 * **a.media.view**
    * 변수 유형: 이벤트
@@ -91,7 +91,7 @@ ht-degree: 85%
    * 유형:카운터
    * 사용자가 비디오 전체를 보았음을 의미합니다.
 
-      기본적으로 완료 이벤트는 비디오 종료 1초 전에 측정됩니다. 구현 중에 비디오가 끝난 후 보기를 완료로 간주할 비디오 종료 시간(초)을 지정할 수 있습니다. 정의된 끝이 없는 라이브 비디오 및 기타 스트림의 경우, 사용자 지정 지점을 지정하여 완료를 측정할 수 있습니다(예: 본 특정 시간 후).
+      기본적으로 완료 이벤트는 비디오 종료 1초 전에 측정됩니다. 구현 중에 비디오 종료 몇 초 전을 보기 완료로 고려할 것인지 지정할 수 있습니다. 정의된 종료가 없는 라이브 비디오 및 기타 스트림의 경우, 예를 들어 특정 시간을 본 후 완료를 측정할 사용자 지정 지점을 지정할 수 있습니다.
 
 
 ## 미디어 설정 구성 {#section_929945D4183C428AAF3B983EFD3E2500}
