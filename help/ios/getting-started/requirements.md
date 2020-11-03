@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: 시작하기 전에
 topic: Developer and implementation
 uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 93%
 
 ## Adobe Mobile Services UI에 로그인 {#section_690A2EC4572E47869F183974E932A6A8}
 
-Adobe Mobile Services는 모바일 앱 분석 및 타깃팅용 주요 보고 인터페이스입니다. 이러한 단계를 완료한 후 데이터 수집 서버, 보고서 세트 및 기타 많은 설정으로 미리 구성된 구성 파일을 다운로드할 수 있습니다.
+Adobe Mobile Services는 모바일 앱 분석 및 타깃팅용 주요 보고 인터페이스입니다. 이 단계를 완료하면 데이터 수집 서버, 보고서 세트 및 기타 다양한 설정을 통해 사전 구성된 구성 파일을 다운로드할 수 있습니다.
 
-다음 방법 중 하나를 사용하여 Adobe Mobile Services에 로그인할 수 있습니다.
+다음 방법 중 하나로 Adobe Mobile Services에 로그인할 수 있습니다.
 
 * **Experience Cloud**
 
