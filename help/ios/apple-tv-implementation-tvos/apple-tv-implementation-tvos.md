@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: tvOS를 사용한 Apple TV 구현
 topic: Developer and implementation
 uuid: d1571ea2-a5de-4b96-a527-72abbf51fab8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '402'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고
 
 ## 개요
 
-이제 기본 tvOS 환경에서 실행할 애플리케이션을 제작할 수 있습니다. iOS에서 여러 프레임워크를 사용하여 기본 앱을 만들거나 XML 템플릿 및 JavaScript를 사용하여 앱을 만들 수 있습니다.
+이제 Apple TV로 기본 tvOS 환경에서 실행할 애플리케이션을 만들 수 있습니다. iOS에서 사용 가능한 여러 프레임워크를 사용하여 기본적인 앱을 만들거나 XML 템플릿 및 JavaScript를 사용하여 사용자 앱을 만들 수 있습니다.
 
 >[!TIP]
 >
