@@ -1,24 +1,24 @@
 ---
-description: Android 위젯은 앱과 동일한 방법을 사용하여 추적할 수 있습니다. 위젯은 애플리케이션 컨텍스트를 앱과 공유하므로 히트 순서와 방문자 식별은 유지됩니다.
+description: Android 위젯은 앱과 동일한 방법을 사용하여 추적할 수 있습니다. 위젯은 애플리케이션 컨텍스트를 앱과 공유하므로 히트 순서와 방문자 식별이 유지됩니다.
 keywords: android;library;mobile;sdk
-seo-description: Android 위젯은 앱과 동일한 방법을 사용하여 추적할 수 있습니다. 위젯은 애플리케이션 컨텍스트를 앱과 공유하므로 히트 순서와 방문자 식별은 유지됩니다.
+seo-description: Android 위젯은 앱과 동일한 방법을 사용하여 추적할 수 있습니다. 위젯은 애플리케이션 컨텍스트를 앱과 공유하므로 히트 순서와 방문자 식별이 유지됩니다.
 seo-title: Android 위젯
 solution: Experience Cloud,Analytics
 title: Android 위젯
 topic: Developer and implementation
 uuid: 1a3718ff-967b-4c8e-ae0b-ba15bddbda0a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
 
 # Android 위젯 {#android-widgets}
 
-Android 위젯은 앱과 동일한 방법을 사용하여 추적할 수 있습니다. 위젯은 애플리케이션 컨텍스트를 앱과 공유하므로 히트 순서와 방문자 식별은 유지됩니다.
+Android 위젯은 앱과 동일한 방법을 사용하여 추적할 수 있습니다. 위젯은 애플리케이션 컨텍스트를 앱과 공유하므로 히트 순서와 방문자 식별이 유지됩니다.
 
 다음 지침은 Android 위젯을 추적하는 데 도움이 됩니다.
 
