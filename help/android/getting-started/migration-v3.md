@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Android 4.x 라이브러리로 마이그레이션
 topic: Developer and implementation
 uuid: 906e83bb-2faf-4aa2-ac9b-3fba6b833c7e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '880'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 59%
 >
 >SDK는 `SharedPreferences`를 사용하여 고유 사용자, 라이프사이클 지표 및 코어 SDK 기능과 관련된 기타 데이터를 계산하는 데 필요한 데이터를 저장합니다. SDK에 필요한 `SharedPreferences`의 값을 수정하거나 제거하면 예기치 않은 동작으로 인해 데이터 형식이 일치하지 않을 수 있습니다.
 
-버전 4.x 라이브러리에서 공개 메서드는 하나의 헤더로 통합됩니다. 또한 이제 클래스 수준 메서드를 통해 모든 기능에 액세스할 수 있으므로 포인터, 인스턴스 또는 단일 속성을 추적할 필요가 없습니다.
+버전 4.x 라이브러리에서는 공용 메서드가 하나의 헤더로 통합되었습니다. 또한 클래스 수준 메서드를 통해 모든 기능에 액세스할 수 있으므로 포인터, 인스턴스 또는 싱글톤을 추적하지 않아도 됩니다.
 
 ## Event, Prop 및 eVar {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
-버전 4에서는 더 이상 앱의 이벤트, eVar, prop, 상속인 및 목록과 같은 변수를 할당할 수 없습니다. 대신, SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 보고를 위해 앱 데이터를 Analytics 변수에 매핑합니다.
+버전 4에서는 더 이상 앱의 이벤트, eVar, prop, 상속자 및 목록과 같은 변수를 할당할 수 없습니다. 대신, SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 앱 데이터를 Analytics 변수에 매핑해서 보고에 사용합니다.
 
 처리 규칙은 다음과 같은 이점을 제공합니다.
 
-* App Store에 업데이트를 제출하지 않고 데이터 매핑을 변경할 수 있습니다.
+* 앱스토어에 업데이트를 제출하지 않고 데이터 매핑을 변경할 수 있습니다.
 * 보고서 세트에 고유한 변수를 설정하는 대신 데이터에 의미 있는 이름을 사용할 수 있습니다.
 * 추가 데이터 전송에는 거의 영향을 주지 않습니다.
 
@@ -106,7 +106,7 @@ ht-degree: 59%
 | trackOffline | &quot;offlineEnabled&quot; |
 | offlineLimit | &quot;batchLimit&quot; |
 | account | &quot;rsids&quot; |
-| trackingServer | &quot;server&quot;, remove the `"https://"` prefix. 프로토콜 접두사는 &quot;ssl&quot; 설정에 따라 자동으로 추가됩니다. |
+| trackingServer | &quot;server&quot;, `"https://"` 접두사를 제거합니다. 프로토콜 접두사는 &quot;ssl&quot; 설정에 따라 자동으로 추가됩니다. |
 | trackingServerSecure | 제거. 보안 연결에 대해 &quot;server&quot;를 정의한 다음 &quot;ssl&quot;을 활성화합니다. |
 | charSet | &quot;charset&quot; |
 | currencyCode | &quot;currency&quot; |
@@ -119,7 +119,7 @@ ht-degree: 59%
 | dynamicVariablePrefix | 제거, 더 이상 사용되지 않습니다. |
 | visitorNamespace | 제거, 더 이상 사용되지 않습니다. |
 | usePlugins | 제거, 더 이상 사용되지 않습니다. |
-| useBestPractice churn 측정에 대한 모든 호출( getChurnInstance) | 제거합니다. 라이프사이클 지표로 대체됩니다. |
+| useBestPractices - churn 측정에 대한 모든 호출(getChurnInstance) | 제거합니다. 라이프사이클 지표로 대체됩니다. |
 
 ## 추적 호출 및 추적 변수 업데이트 {#section_96E7D9B3CDAC444789503B7E7F139AB9}
 
@@ -135,15 +135,15 @@ ht-degree: 59%
 
 ## Event, Prop 및 eVar
 
-버전 4에서는 더 이상 이벤트, eVar, prop, 상속인 및 목록과 같은 변수를 앱에서 직접 할당할 수 없습니다. 이제 SDK에서 컨텍스트 데이터 및 처리 규칙을 사용하여 앱 데이터를 Analytics 변수에 매핑하여 보고할 수 있습니다.
+버전 4에서는 더 이상 앱의 이벤트, eVar, prop, 상속자 및 목록과 같은 변수를 직접 할당할 수 없습니다. 이제 SDK에서 컨텍스트 데이터 및 처리 규칙을 사용하여 앱 데이터를 Analytics 변수에 매핑하여 보고할 수 있습니다.
 
 처리 규칙은 다음과 같은 이점을 제공합니다.
 
-* 업데이트를 앱 스토어에 제출하지 않고 데이터 매핑을 변경할 수 있습니다.
+* 앱스토어에 업데이트를 제출하지 않고 데이터 매핑을 변경할 수 있습니다.
 * 보고서 세트에 고유한 변수를 설정하는 대신 데이터에 의미 있는 이름을 사용할 수 있습니다.
 * 추가 데이터 전송에는 거의 영향을 주지 않습니다.
 
-   이러한 값은 처리 규칙을 사용하여 매핑될 때까지 보고서에 표시되지 않습니다. 자세한 내용은 처리 규칙 및 [컨텍스트 데이터를 참조하십시오](/help/android/getting-started/proc-rules.md).
+   이러한 값은 처리 규칙을 사용하여 매핑될 때까지 보고서에 표시되지 않습니다. 자세한 내용은 [처리 규칙 및 컨텍스트 데이터](/help/android/getting-started/proc-rules.md)를 참조하십시오.
 
 변수에 직접 할당한 값은 `data` HashMap에 추가해야 합니다. 다시 말해서 `setProp`, `setEvar`에 대한 호출과 영구 컨텍스트 데이터에 대한 할당이 제거되고 `data` 매개 변수에 값이 추가되어야 합니다.
 
