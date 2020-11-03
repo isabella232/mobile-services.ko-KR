@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 경로 보기 보고서
 topic: Reports,Metrics
 uuid: bc73edce-0cc0-4349-9a48-e0a40cbe1b67
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 73%
 
 노드를 클릭하여 차트를 수정할 수 있는 추가 옵션을 제공하면 **[!UICONTROL 포커스]** 또는 **[!UICONTROL 확장]**&#x200B;과 같은 추가 옵션이 표시됩니다. 예를 들어, 맨 위 노드에서 **[!UICONTROL 기본 보기]** 상태를 클릭하면, **[!UICONTROL 포커스]** 및 **[!UICONTROL 확장]** 아이콘이 표시됩니다.
 
-To expand the view, click the **[!UICONTROL +]** icon to display the additional paths that come in to or go from the node. 아래 그림에서 상태 1은 앱을 시작하고 상태 2는 앱의 기본 페이지를 보고 있으며 상태 3은 사용자가 사용한 다음 경로를 포함합니다.
+보기를 확장하려면 **[!UICONTROL +]** 아이콘을 클릭하여 노드에서 들어오거나 나가는 추가 경로를 표시합니다. 아래 그림에서 상태 1은 앱 시작을 상태 2는 앱의 기본 페이지 보기를 나타내며 상태 3에는 사용자가 사용한 다음 경로가 포함됩니다.
 
 * 카메라 롤로 이동
 * 항목 선택기로 이동
@@ -39,7 +39,7 @@ To expand the view, click the **[!UICONTROL +]** icon to display the additional 
 
 ![](assets/view_paths_expand.png)
 
-노드를 격리하고 선택한 노드에서 들어오고 나가는 경로를 표시하려면 ![포커스 아이콘](assets/icon_focus.png)을 클릭합니다. 아래 그림에서 앱의 기본 보기를 보고 있던 사용자보다 다음 경로가 우선합니다.
+노드를 격리하고 선택한 노드에서 들어오고 나가는 경로를 표시하려면 ![포커스 아이콘](assets/icon_focus.png)을 클릭합니다. 아래 그림에서는 앱의 기본 보기를 보고 있던 사용자보다 다음 경로가 우선합니다.
 
 * 항목 정보
 * 항목 선택기
