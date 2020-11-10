@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: 릴리스 노트
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6c8020b88d22489f86853274d29dbceee504aa06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 89%
 
 다음은 Experience Cloud 솔루션용 iOS SDKs 4.x에 대한 릴리스 노트, 알려진 문제 및 핫픽스 정보입니다.
 
-**2020년 11월 4일:버전 4.20.0**
+**2020년 11월 4일: 버전 4.20.0**
 
-* 방문자 ID 서비스 - 광고 추적이 활성화/비활성화된 후 setAdvertisingIdentifier가 호출될 때 device_consent 상태 매개 변수를 추가했습니다.
-* Analytics - iAd.framework가 연결되어 있고 장치에서 &quot;제한된 광고 추적&quot;이 활성화되어 있을 때 Analytics 히트의 전송을 지연하던 버그가 수정되었습니다.
+* 방문자 ID 서비스 - 광고 추적이 활성화/비활성화된 후 setAdvertisingIdentifier가 호출될 때 device_consent 상태 매개 변수가 추가되었습니다.
+* Analytics - iAd.framework가 연결되어 있고 장치에서 &quot;광고 추적 제한&quot;이 활성화되어 있을 때 설치하면 Analytics 히트의 전송이 지연되는 버그가 수정되었습니다.
 
 **2020년 7월 16일: 버전 4.19.3**
 
