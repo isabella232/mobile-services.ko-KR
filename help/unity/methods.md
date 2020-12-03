@@ -2,9 +2,9 @@
 description: 'null'
 keywords: Unity
 seo-description: 'null'
-seo-title: ADBMobile.cs 메서드
+seo-title: AD BMobile.cs 메서드
 solution: Experience Cloud
-title: ADBMobile.cs 메서드
+title: AD BMobile.cs 메서드
 uuid: af504934-febd-45d9-81e2-2a310f4c65dc
 translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
@@ -15,7 +15,7 @@ ht-degree: 66%
 ---
 
 
-# ADBMobile.cs 메서드 {#adbmobile-cs-methods}
+# AD BMobile.cs 메서드 {#adbmobile-cs-methods}
 
 ## 구성 메서드
 
