@@ -4,8 +4,11 @@ seo-description: Adobe Analytics에서는 관리 도구 홈 페이지에서 역�
 seo-title: 역할 및 권한
 title: 역할 및 권한
 uuid: ad350f8d-ef51-4519-98aa-3025bc0f5588
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c7cac006340e01d0fd1f6afe3419e6fd17294a98
+workflow-type: tm+mt
+source-wordcount: '597'
+ht-degree: 59%
 
 ---
 
@@ -20,7 +23,7 @@ Adobe Analytics에서는 관리 도구 홈 페이지에서 역할을 관리할 �
 
 ### Analytics 관리
 
-Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당하며, 이 중 하나가 모바일 앱 관리자입니다. Experience Cloud 관리는 사용자 Adobe ID를 Adobe Analytics 계정에 연결하여 사용자가 Adobe ID를 사용하여 Mobile Services UI에 로그인할 수 있도록 합니다. Experience Cloud 관리자에 대한 자세한 내용은 [관리 - 사용자 관리 및 FAQ](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
+Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당하며, 이 중 하나가 모바일 앱 관리자입니다. Experience Cloud 관리자는 Adobe ID을 사용하여 Mobile Services UI에 로그인할 수 있는 Adobe ID을 Adobe Analytics 계정에 연결합니다. Experience Cloud 관리자에 대한 자세한 내용은 [관리 - 사용자 관리 및 FAQ](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
 
 >[!TIP]
 >
@@ -46,7 +49,7 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
 
 ### 앱 및 보고서 세트
 
-모든 Mobile Service 앱은 보고서 세트에 연결됩니다. 사용자에게 보고서 세트에 액세스할 권한이 없는 경우 해당 보고서 세트와 연결된 앱에 액세스할 수 없습니다.
+모든 모바일 서비스 앱은 보고서 세트에 연결되어 있습니다. 사용자에게 보고서 세트에 대한 액세스 권한이 없는 경우 해당 보고서 세트의 관련 앱에 액세스할 수 없습니다.
 
 ### Mobile Services 및 Analytics 기능
 
@@ -68,9 +71,9 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
 
 * 앱 설정 관리
 
-   * 라이프사이클 보고 사용
+   * 라이프사이클 보고 활성화
    * 위치 보고 사용
-   * 변수 및 지표 생성/업데이트/삭제
+   * 변수 및 지표 만들기/업데이트/삭제
 
 ### 모바일 앱 관리
 
@@ -78,18 +81,18 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
 * 기존 보고서 세트로 앱 만들기
 * 앱 설정 관리
 
-   * 앱의 Mobile SDK 옵션 구성
+   * 앱의 모바일 SDK 옵션 구성
    * 앱의 UI 설정 구성
    * 연결된 앱스토어 앱 구성
    * 앱의 범용 링크 옵션 구성
-   * 푸시 서비스 인증 및 API 키 구성
+   * 푸시 서비스 인증서 및 API 키 구성
    * 포스트백 만들기/업데이트/활성화/비활성화/복제/보관/삭제
    * 링크 대상 만들기/업데이트/보관/삭제
 
 * 마케팅 링크 만들기/업데이트/보관
 * 기존 획득 링크 만들기/가져오기/업데이트/삭제
-* 위치(관심 영역) 구성 만들기/가져오기/업데이트/삭제
-* 푸시 메시지 만들기/업데이트/보내기/예약/취소/복제/보관/삭제
+* 장소 만들기/가져오기/업데이트/삭제(관심 영역) 구성
+* 푸시 메시지 작성/업데이트/전송/예약/취소/복제/보관/삭제
 * 인앱 메시지 만들기/업데이트/활성화/비활성화/복제/보관/삭제
 
 그룹 및 사용자에 대한 자세한 내용은 다음을 참조하십시오.
@@ -99,9 +102,9 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
 
 ### Mobile Services 사용자
 
-이 역할은 보기 권한만 있으며, Mobile Services UI에서 피드백을 제공할 수 있습니다.
+이 역할에는 보기 전용 권한이 있으며 Mobile Services UI에서 피드백을 제공할 수 있습니다.
 
-* Mobile Services UI에서 피드백 제공
+* Mobile Services UI에 대한 피드백 제공
 * 앱 보기
 
    >[!IMPORTANT]
@@ -119,6 +122,6 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
 * 보고서 보기 및 실행
 * 마케팅 링크 보기
 * 기존 획득 링크 보기 및 내보내기
-* 위치(관심 영역) 구성 보기 및 내보내기
+* 위치 보기 및 내보내기(관심 영역) 구성
 * 푸시 메시지 보기
 * 인앱 메시지 보기
