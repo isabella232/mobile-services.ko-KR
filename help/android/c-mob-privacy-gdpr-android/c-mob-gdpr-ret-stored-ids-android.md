@@ -4,8 +4,11 @@ seo-description: 이 정보는 Android 앱에서 GDPR 데이터 액세스 요청
 seo-title: 저장된 식별자 검색
 title: 저장된 식별자 검색
 uuid: 6fd3d202-b0a1-4c80-96f4-369fc24ac0a3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 69%
 
 ---
 
@@ -16,17 +19,17 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 >[!IMPORTANT]
 >
->`getAllIdentifiersAsync` 메서드는 SDK에 저장된 ID를 검색합니다. 사용자가 옵트아웃하기 **전에** 이 메서드를 호출해야 합니다.
+>`getAllIdentifiersAsync` 메서드는 SDK에 저장된 ID를 검색합니다. You must call this method **before** the user opts-out.
 
-SDK ID(해당하는 경우)는 로컬로 저장되며, JSON 문자열에 반환됩니다. 이 문자열에는 다음이 포함될 수 있습니다.
+SDK ID(해당되는 경우)는 로컬에 저장되고 다음을 포함할 수 있는 JSON 문자열에 반환됩니다.
 
 * 회사 컨텍스트 - IMS 조직 ID
 * 사용자 ID
-* Experience Cloud iD(MID)(이전의 Marketing Cloud ID)
+* Experience Cloud iD(MID)(이전의 Marketing Cloud ID라고 함)
 * 통합 코드(ADID, 푸시 ID)
 * 데이터 소스 ID(DPID, DPUUID)
-* Analytics ID(AVID, AID, VID 및 연관된 RSID)
-* Target 기존 ID(TNTID, TNT3rdpartyID)
+* Analytics ID(AVID, AID, VID 및 관련 RSID)
+* Target 레거시 ID(TNTID, TNT3rdpartyID)
 * Audience Manager ID(UUID)
 
 다음은 Android의 `ADBMobile getAllIdentifiersAsync` 메서드에 대한 예입니다.
