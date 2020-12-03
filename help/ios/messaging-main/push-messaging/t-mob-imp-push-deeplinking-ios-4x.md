@@ -1,11 +1,14 @@
 ---
 description: Adobe Mobile Services UI에서 딥링크 URL을 구성하면 이 URL은 adb_deeplink 키를 사용하여 푸시 페이로드에 저장됩니다.
 seo-description: Adobe Mobile Services UI에서 딥링크 URL을 구성하면 이 URL은 adb_deeplink 키를 사용하여 푸시 페이로드에 저장됩니다.
-seo-title: 딥링크로 푸시 메시지 구현
-title: 딥링크로 푸시 메시지 구현
+seo-title: 딥 링크를 사용하여 푸시 메시지 구현
+title: 딥 링크를 사용하여 푸시 메시지 구현
 uuid: ee9590fc-8bd3-4111-9221-9011d9edbd84
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+workflow-type: tm+mt
+source-wordcount: '192'
+ht-degree: 93%
 
 ---
 
