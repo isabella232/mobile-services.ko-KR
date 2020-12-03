@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '898'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 71%
 
    (필수) 방문자가 비디오를 보는 경우 구현에 지정된 대로 비디오의 이름을 수집합니다.이 변수에 대한 분류를 추가할 수 있습니다.
 
-   (**Optional**) The Custom Insight variable provides video pathing information.
+   **선택 사항** - Custom Insight 변수는 비디오 경로 지정 정보를 제공합니다.
 
    * 변수 유형: eVar
    * 기본 만료: 방문
