@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '888'
-ht-degree: 61%
+ht-degree: 63%
 
 ---
 
@@ -68,7 +68,7 @@ Analytics의 경우, 각 라이프사이클 추적 호출과 함께 전송되는
 
 * **시작**
 
-   충돌 및 설치를 포함하여 모든 실행 시 트리거됩니다. 라이프사이클 세션 시간 초과가 초과되면 백그라운드에서 다시 시작할 때도 트리거됩니다.
+   충돌 및 설치를 포함하여 실행 시마다 트리거됩니다. 라이프사이클 세션 시간이 초과되면 백그라운드에서 다시 시작할 때도 트리거됩니다.
 
    * Analytics context data/Target parameter: `a.LaunchEvent`
    * Audience Manager 신호: `c_a_LaunchEvent`
