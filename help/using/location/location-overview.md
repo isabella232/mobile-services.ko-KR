@@ -4,17 +4,20 @@ keywords: mobile
 seo-description: 위치 섹션에 대한 개요입니다.
 seo-title: 위치 개요
 title: 위치 개요
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 41aa0a994bd0ad1e6f5421cf368d78b616ff9170
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 100%
 
 ---
 
 
 # 위치 개요 {#location-overview}
 
-## 새 Adobe Experience Cloud SDK 릴리스
+## 새로운 Adobe Experience Cloud SDK 릴리스
 
-Adobe Experience Platform Mobile SDK와 관련된 정보 및 문서 찾기 최신 문서를 보려면 [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하십시오.
+Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고 계십니까? [여기](https://aep-sdks.gitbook.io/docs/)를 클릭하여 최신 설명서를 확인하십시오.
 
 >[!IMPORTANT]
 >
