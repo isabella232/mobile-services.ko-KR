@@ -1,18 +1,21 @@
 ---
-description: Xamarin 응용 프로그램에서 사용할 클래스 및 열거 목록입니다.
-seo-description: Xamarin 응용 프로그램에서 사용할 클래스 및 열거 목록입니다.
-seo-title: Classes and enums
+description: Xamarin 응용 프로그램에서 사용할 클래스 및 열거형 목록입니다.
+seo-description: Xamarin 응용 프로그램에서 사용할 클래스 및 열거형 목록입니다.
+seo-title: 클래스 및 열거형
 title: 클래스 및 열거형
 uuid: 410d27ee-ce2b-4183-971e-39a7031d1bd5
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 24%
 
 ---
 
 
-# Classes and enums{#classes-and-enums}
+# 클래스 및 열거형{#classes-and-enums}
 
-Xamarin 응용 프로그램에서 사용할 클래스 및 열거 목록입니다.
+Xamarin 응용 프로그램에서 사용할 클래스 및 열거형 목록입니다.
 
 ## 클래스 {#section_E28D6156EB0F4A84AAA7749DF7D3E193}
 
@@ -265,7 +268,7 @@ public static class Constants
 }
 ```
 
-## 열거 {#section_A78A5A305FBF4E478EAF0492E0DFD102}
+## 열거형 {#section_A78A5A305FBF4E478EAF0492E0DFD102}
 
 ### ADBMobileVisitorAuthenticationState
 
