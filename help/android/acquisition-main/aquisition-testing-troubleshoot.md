@@ -5,9 +5,9 @@ seo-description: 다음 정보는 획득 테스트 문제를 해결하는 데 �
 seo-title: 획득 테스트 문제 해결
 solution: Experience Cloud,Analytics
 title: 획득 테스트 문제 해결
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 100%
 
