@@ -1,18 +1,21 @@
 ---
-description: Xamarin 응용 프로그램에서 사용할 클래스 및 열거 목록입니다.
-seo-description: Xamarin 응용 프로그램에서 사용할 클래스 및 열거 목록입니다.
-seo-title: Classes, enums, and interfaces
+description: Xamarin 응용 프로그램에서 사용할 클래스 및 열거형 목록입니다.
+seo-description: Xamarin 응용 프로그램에서 사용할 클래스 및 열거형 목록입니다.
+seo-title: 클래스, 열거형 및 인터페이스
 title: 클래스, 열거형 및 인터페이스
 uuid: 2527b3ae-a447-4b2e-9e90-b3b8ec8cb47a
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 25%
 
 ---
 
 
-# Classes, enums, and interfaces{#classes-enums-and-interfaces}
+# 클래스, 열거형 및 인터페이스{#classes-enums-and-interfaces}
 
-Xamarin 응용 프로그램에서 사용할 클래스 및 열거 목록입니다.
+Xamarin 응용 프로그램에서 사용할 클래스 및 열거형 목록입니다.
 
 ## 클래스 {#section_30E9E14CF38843B5B9792BBEC07667DC}
 
@@ -61,7 +64,7 @@ public class TargetLocationRequest : Object
 }
 ```
 
-### VisitorID
+### 방문자 ID
 
 ```java
 public class VisitorID : Object {
@@ -85,7 +88,7 @@ public class VisitorID : Object {
 }
 ```
 
-## 열거 {#section_8648B871E42C416A8CB1508C2836C317}
+## 열거형 {#section_8648B871E42C416A8CB1508C2836C317}
 
 ### MobileDataEvent
 
