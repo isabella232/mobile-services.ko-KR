@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
 workflow-type: tm+mt
 source-wordcount: '988'
-ht-degree: 55%
+ht-degree: 59%
 
 ---
 
@@ -246,7 +246,7 @@ The `ADBMobileConfig.json` file must be placed in the *assets* folder.
 
 * **lifecycleTimeout**
 
-   실행이 새 세션으로 간주되기 전에 앱 실행 간 경과해야 하는 시간(초)을 지정합니다. 이 시간 초과는 응용 프로그램이 백그라운드로 전송되고 다시 활성화될 때도 적용됩니다. 앱이 백그라운드에서 소요하는 시간은 세션 길이에 포함되지 않습니다.
+   실행이 새로운 세션으로 간주되기 전에 앱 실행 사이에 경과해야 하는 시간(초)을 지정합니다. 이 시간 초과는 응용 프로그램이 백그라운드로 전송되고 다시 활성화될 때도 적용됩니다. 앱이 백그라운드에서 소요하는 시간은 세션 길이에 포함되지 않습니다.
 
    기본값은 300초입니다.
 
