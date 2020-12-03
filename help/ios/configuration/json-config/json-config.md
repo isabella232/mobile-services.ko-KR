@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: ADBMobile JSON 구성
 topic: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 100%
 
@@ -371,7 +371,7 @@ ht-degree: 100%
    * &quot;altImage&quot;
 
       * 전체 화면 전용, 선택 사항
-      * 
+      * URL이
          `image`에 지정된 URL에 연결할 수 없는 경우 번들 이미지의 이름
    * &quot;title&quot;
 
