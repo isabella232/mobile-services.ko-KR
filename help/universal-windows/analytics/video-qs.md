@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '899'
-ht-degree: 68%
+ht-degree: 72%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 68%
 
    (**필수**) 방문자가 어떤 방식으로 비디오를 볼 때 구현에 지정된 비디오 이름을 수집합니다.이 변수에 대한 분류를 추가할 수 있습니다.
 
-   (**Optional**) The Custom Insight variable provides video pathing information.
+   **선택 사항** - Custom Insight 변수는 비디오 경로 지정 정보를 제공합니다.
 
    * 변수 유형: eVar
    * 기본 만료: 방문
@@ -42,7 +42,7 @@ ht-degree: 68%
 
 * **a.media.segment**
 
-   (**Required**) Collects video segment data, including the segment name and the order in which the segment occurs in the video.
+   **필수** - 세그먼트 이름 및 비디오에서 세그먼트가 발생하는 순서를 포함하여 비디오 세그먼트 데이터를 수집합니다.
 
    이 변수는 플레이어 이벤트를 자동으로 추적할 때 `segmentByMilestones` 변수를 활성화하거나, 플레이어 이벤트를 수동으로 추적할 때 사용자 지정 세그먼트 이름을 설정하여 채워집니다. For example, when a visitor views the first segment in a video, SiteCatalyst might collect the following in the `1:M:0-25` segments eVar.
 
