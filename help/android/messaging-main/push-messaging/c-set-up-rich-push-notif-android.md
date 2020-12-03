@@ -1,18 +1,21 @@
 ---
-description: Android 알림에 이미지 파일을 첨부할 수 있습니다. 시각적 구성 요소를 추가하면 푸시 알림을 통한 사용자 참여도를 크게 높일 수 있습니다.
-seo-description: Android 알림에 이미지 파일을 첨부할 수 있습니다. 시각적 구성 요소를 추가하면 푸시 알림을 통한 사용자 참여도를 크게 높일 수 있습니다.
-seo-title: 리치 푸시 알림 수신
-title: 리치 푸시 알림 수신
+description: Android 알림에 이미지 파일을 첨부할 수 있습니다. 시각적 구성 요소를 추가하면 푸시 알림을 통해 사용자의 참여도가 크게 높아질 수 있습니다.
+seo-description: Android 알림에 이미지 파일을 첨부할 수 있습니다. 시각적 구성 요소를 추가하면 푸시 알림을 통해 사용자의 참여도가 크게 높아질 수 있습니다.
+seo-title: 풍부한 푸시 알림 받기
+title: 풍부한 푸시 알림 받기
 uuid: 4a0340a6-666b-49b6-907a-9afc966dfdba
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: dca3663986b3ecc6e9fb736cc99513279715225c
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 60%
 
 ---
 
 
 # 리치 푸시 알림 수신 {#receive-rich-push-notifications}
 
-Android 알림에 이미지 파일을 첨부할 수 있습니다. 시각적 구성 요소를 추가하면 푸시 알림을 통한 사용자 참여도를 크게 높일 수 있습니다.
+Android 알림에 이미지 파일을 첨부할 수 있습니다. 시각적 구성 요소를 추가하면 푸시 알림을 통해 사용자의 참여도가 크게 높아질 수 있습니다.
 
 ## 수신되는 리치 푸시 메시지 처리(FCM) {#section_AF1A3BC2312C4E1DA517CC90296C11E2}
 
@@ -98,4 +101,4 @@ private void sendNotification(RemoteMessage message) {
 
 ![](assets/rich-push-notification_example.png)
 
-Android에서 사용하는 리치 푸시 알림에 대한 자세한 내용은 [다양한 알림으로 참여 유도](https://developer.android.com/distribute/best-practices/engage/rich-notifications.html)를 참조하십시오.
+For more information about rich push notifications with Android, see [Engage with Rich Notifications](https://developer.android.com/distribute/best-practices/engage/rich-notifications.html).
