@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 62%
+ht-degree: 68%
 
 ---
 
@@ -29,7 +29,7 @@ For more information about Video measurement, see the [Measuring audio and video
 
    * 변수 이름:eVar
       * 기본 만료: 방문
-      * Custom Insight(s.prop, 비디오 경로 지정에 사용)
+      * 사용자 지정 인사이트(s.prop, 비디오 경로 지정에 사용)
 
 * **a.media.name**
 
@@ -40,11 +40,11 @@ For more information about Video measurement, see the [Measuring audio and video
 
 * **a.media.segment**
 
-   (**Required**) Collects video segment data, including the segment name and the order in which the segment occurs in the video. 이 변수는 플레이어 이벤트를 자동으로 추적할 때 `segmentByMilestones` 변수를 활성화하거나, 플레이어 이벤트를 수동으로 추적할 때 사용자 지정 세그먼트 이름을 설정하여 채워집니다.
+   **필수** - 세그먼트 이름 및 비디오에서 세그먼트가 발생하는 순서를 포함하여 비디오 세그먼트 데이터를 수집합니다. 이 변수는 플레이어 이벤트를 자동으로 추적할 때 `segmentByMilestones` 변수를 활성화하거나, 플레이어 이벤트를 수동으로 추적할 때 사용자 지정 세그먼트 이름을 설정하여 채워집니다.
 
    For example, when a visitor views the first segment in a video, SiteCatalyst might collect `1:M:0-25` in the Segments eVar. 기본 비디오 데이터 수집 방법은 비디오 시작(재생), 세그먼트 시작 및 비디오 종료(중지) 지점에서 데이터를 수집합니다.
 
-   Analytics에서는 방문자가 시청을 시작할 때 세그먼트 시작 시 첫 번째 세그먼트 보기를 계산합니다. 세그먼트가 시작될 때 이어지는 세그먼트 보기.
+   Analytics에서는 방문자가 시청을 시작할 때 세그먼트 시작에서 첫 번째 세그먼트 보기를 계산합니다. 세그먼트가 시작될 때 표시되는 후속 세그먼트 보기.
 
    * 변수 유형: eVar
    * 기본 만료: 페이지 보기
