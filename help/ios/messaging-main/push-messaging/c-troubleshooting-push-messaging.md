@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: 푸시 메시지 문제 해결
 topic: Metrics
 uuid: 87d7dcb6-82a8-46e3-a6ed-7f895a22f2af
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 100%
 
@@ -39,8 +39,9 @@ ht-degree: 100%
    >푸시 서비스로 메시지의 전송이 보장되지는 않습니다. 서비스의 안정성에 대한 자세한 내용은 다음 설명서를 참조하십시오.
    >
    >* **APNS**: [서비스 품질](https://developer.apple.com/kr/documentation/usernotifications)
-   >
-   >* **GCM**: [메시지 라이프타임](https://developers.google.com/cloud-messaging/concept-options)
+      >
+      >
+   * **GCM**: [메시지 라이프타임](https://developers.google.com/cloud-messaging/concept-options)
 
 
 ## Apple Push Service 인증서를 어떻게 갱신합니까?
