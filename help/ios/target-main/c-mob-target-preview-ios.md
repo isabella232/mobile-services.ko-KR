@@ -4,9 +4,9 @@ seo-description: 타겟 미리 보기를 사용하면 타겟 활동에 대해 �
 seo-title: iOS에서 타겟 미리 보기
 title: iOS에서 타겟 미리 보기
 uuid: d92867a4-0569-4732-a928-28f9e2f8b21e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 100%
 
