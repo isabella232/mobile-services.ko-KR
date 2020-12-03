@@ -1,35 +1,38 @@
 ---
-description: Apple 알림에 이미지 파일을 첨부할 수 있습니다. 시각적 구성 요소를 추가하면 푸시 알림을 통한 사용자 참여도를 크게 높일 수 있습니다.
-seo-description: Apple 알림에 이미지 파일을 첨부할 수 있습니다. 시각적 구성 요소를 추가하면 푸시 알림을 통한 사용자 참여도를 크게 높일 수 있습니다.
-seo-title: 리치 푸시 알림 수신
-title: 리치 푸시 알림 수신
+description: Apple 알림에 이미지 파일을 첨부할 수 있습니다. 시각적 구성 요소를 추가하면 푸시 알림을 통해 사용자의 참여도가 크게 높아질 수 있습니다.
+seo-description: Apple 알림에 이미지 파일을 첨부할 수 있습니다. 시각적 구성 요소를 추가하면 푸시 알림을 통해 사용자의 참여도가 크게 높아질 수 있습니다.
+seo-title: 풍부한 푸시 알림 받기
+title: 풍부한 푸시 알림 받기
 uuid: 0dbda409-cf49-4eb8-90ee-baf27911dc07
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 29%
 
 ---
 
 
 # 리치 푸시 알림 수신 {#receive-rich-push-notifications}
 
-Apple 알림에 이미지 파일을 첨부할 수 있습니다. 시각적 구성 요소를 추가하면 푸시 알림을 통한 사용자 참여도를 크게 높일 수 있습니다.
+Apple 알림에 이미지 파일을 첨부할 수 있습니다. 시각적 구성 요소를 추가하면 푸시 알림을 통해 사용자의 참여도가 크게 높아질 수 있습니다.
 
-iOS 앱에서 리치 푸시 알림을 받으려면
+iOS 앱에서 다양한 푸시 알림을 수신하려면:
 
-1. 앱의 푸시 메시지를 구현합니다. [푸시 메시지](/help/ios/messaging-main/push-messaging/push-messaging.md).
-1. 앱에 텍스트 푸시 메시지를 보낼 수 있는지 확인합니다.
-1. 다음 단계를 완료하여 알림 서비스 확장 프로그램을 추가합니다.
+1. 푸시 메시지 단계를 완료하여 앱에 대한 푸시 메시지 [를 구현합니다](/help/ios/messaging-main/push-messaging/push-messaging.md).
+1. 앱에 문자 푸시 메시지를 보낼 수 있는지 확인합니다.
+1. 다음 단계를 완료하여 알림 서비스 익스텐션을 추가합니다.
 
-   1. Xcode 프로젝트에서 **[!UICONTROL 파일]** &gt; **[!UICONTROL 새로 만들기]** &gt; **[!UICONTROL Target]**&#x200B;을 선택합니다.
+   1. In your Xcode project, select  **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
    1. **[!UICONTROL 알림 서비스 확장을 선택합니다]**.
    1. `NotificationService.m` 파일이 있는지 확인합니다.
 
 1. `NotificationService.m` 파일을 열고 다음 위임 메서드가 있는지 확인하십시오.
 
-   * 알림 요청을 수신하는 메서드 한 개
-   * 서비스 확장 프로그램의 만료를 처리하는 메서드 한 개
+   * 한 가지 방법으로 알림 요청을 받을 수 있습니다.
+   * 서비스 확장 만료를 처리하는 한 가지 방법
 
-      리치 푸시 알림을 받는 데는 첫 번째 메서드가 사용됩니다.
+      리치 푸시 알림을 수신하려면 첫 번째 방법이 사용됩니다.
 
       ```objective-c
       (void)didReceiveNotificationRequest:(UNNotificationRequest *)request withContentHandler:(void (^)(UNNotificationContent *contentToDeliver))contentHandler;
@@ -72,4 +75,4 @@ iOS 앱에서 리치 푸시 알림을 받으려면
       ```
 
 
-iOS에서 사용하는 리치 푸시 알림에 대한 자세한 내용은 [UNNotificationAttachment](https://developer.apple.com/documentation/usernotifications/unnotificationattachment)를 참조하십시오.
+iOS를 사용한 리치 푸시 알림에 대한 자세한 내용은 [알림 첨부 파일을 참조하십시오](https://developer.apple.com/documentation/usernotifications/unnotificationattachment).
