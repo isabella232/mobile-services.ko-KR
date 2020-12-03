@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '888'
-ht-degree: 70%
+ht-degree: 77%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 70%
 
 ## 라이프사이클 지표 및 차원 {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
-구성된 경우 라이프사이클 지표가 컨텍스트 데이터 매개 변수로 Analytics로, 매개 변수로 각 mbox 호출이 있을 때 Target으로, 고객 관리에 대한 신호로 전송됩니다. 분석 및 Target은 동일한 형식을 사용하는 반면 고객 관리는 각 지표에 대해 다른 접두사를 사용합니다.
+라이프사이클 지표가 구성된 경우 해당 지표가 컨텍스트 데이터 매개 변수로 Analytics에 전송되고 각 mbox 호출을 통해 매개 변수로 Target에 전송되며 고객 관리에 신호로 사용됩니다. Analytics 및 Target에서는 같은 형식을 사용하지만 고객 관리에서는 각 지표에 다른 접두사를 사용합니다.
 
 Analytics의 경우, 각 라이프사이클 추적 호출과 함께 전송되는 컨텍스트 데이터는 지표나 차원을 사용하여 자동으로 캡처되고 보고됩니다.
 
@@ -68,7 +68,7 @@ Analytics의 경우, 각 라이프사이클 추적 호출과 함께 전송되는
 
 * **시작**
 
-   충돌 및 설치를 포함하여 모든 실행 시 트리거됩니다. 라이프사이클 세션 시간 초과가 초과되면 백그라운드에서 다시 시작할 때도 트리거됩니다.
+   충돌 및 설치를 포함하여 실행 시마다 트리거됩니다. 라이프사이클 세션 시간이 초과되면 백그라운드에서 다시 시작할 때도 트리거됩니다.
 
    * Analytics context data/Target parameter: `a.LaunchEvent`
    * Audience Manager 신호: `c_a_LaunchEvent`
