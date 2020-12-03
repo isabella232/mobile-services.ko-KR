@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: iOS용 Target 메서드
 topic: Developer and implementation
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 100%
 
@@ -56,8 +56,9 @@ NSString *const ADBTargetParameterMboxHost;
 >[!IMPORTANT]
 >
 >* 4.14.0 **이전** 버전의 SDK를 사용하는 경우 [입력 매개 변수](https://developers.adobetarget.com/api/#input-parameters)에서 매개 변수 제한 사항을 참조하십시오.
->
->* 4.14.0 **이상** 버전의 SDK를 사용하는 경우 [배치 입력 매개 변수](https://developers.adobetarget.com/api/#batch-input-parameters)에서 매개 변수 제한 사항을 참조하십시오.
+   >
+   >
+* 4.14.0 **이상** 버전의 SDK를 사용하는 경우 [배치 입력 매개 변수](https://developers.adobetarget.com/api/#batch-input-parameters)에서 매개 변수 제한 사항을 참조하십시오.
 
 
 ### 메서드에서 사용할 수 있습니다
