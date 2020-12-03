@@ -4,9 +4,9 @@ seo-description: 포스트백을 이용하면 Adobe Mobile로 수집한 데이�
 seo-title: 포스트백 구성
 title: 포스트백 구성
 uuid: a026575c-057b-4868-b6c8-9514cbc32b4d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 100%
 
