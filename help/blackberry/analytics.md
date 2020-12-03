@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
 workflow-type: tm+mt
 source-wordcount: '684'
-ht-degree: 5%
+ht-degree: 14%
 
 ---
 
@@ -53,13 +53,13 @@ ht-degree: 5%
 ## Event, Prop 및 eVar {#concept_B885D5A71A5D45129CE7C1C3426A7D28}
 
 
-ADBMobile 클래스 및 [메서드 참조를](/help/blackberry/methods.md)살펴본 경우 이벤트, eVar, prop, 상속인 및 목록을 어디에 설정할지 궁금할 것입니다. 버전 4에서는 더 이상 앱에서 바로 이러한 유형의 변수를 할당할 수 없습니다. 대신, SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 보고를 위해 앱 데이터를 Analytics 변수에 매핑합니다.
+ADBMobile 클래스 및 [메서드 참조를](/help/blackberry/methods.md)살펴본 경우 이벤트, eVar, prop, 상속인 및 목록을 어디에 설정할지 궁금할 것입니다. 버전 4에서는 더 이상 앱에서 바로 이러한 유형의 변수를 할당할 수 없습니다. 대신, SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 앱 데이터를 Analytics 변수에 매핑해서 보고에 사용합니다.
 
 처리 규칙은 다음과 같은 여러 이점을 제공합니다.
 
-* App Store에 업데이트를 제출하지 않고 데이터 매핑을 변경할 수 있습니다.
+* 앱스토어에 업데이트를 제출하지 않고 데이터 매핑을 변경할 수 있습니다.
 * 보고서 세트에 고유한 변수를 설정하는 대신 데이터에 의미 있는 이름을 사용할 수 있습니다.
-* 추가 데이터 전송에는 거의 영향을 주지 않습니다. 이러한 값은 처리 규칙을 사용하여 매핑되기 전까지는 보고서에 표시되지 않습니다.
+* 추가 데이터 전송에는 거의 영향을 주지 않습니다. 이러한 값은 처리 규칙을 사용하여 매핑될 때까지 보고서에 표시되지 않습니다.
 
 Any values that you were assigning directly to variables should be added to the `data` HashMap instead.
 
@@ -67,7 +67,7 @@ Any values that you were assigning directly to variables should be added to the 
 
 처리 규칙은 컨텍스트 데이터 변수에서 전송한 데이터를 보고를 위해 evar, prop 및 기타 변수에 복사하는 데 사용됩니다.
 
-[Summit 2013에서 처리 규칙](https://tv.adobe.com/embed/1181/16506/) 교육
+[처리 규칙 교육](https://tv.adobe.com/embed/1181/16506/) @ Summit 2013
 
 [처리 규칙](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
@@ -89,7 +89,7 @@ Any values that you were assigning directly to variables should be added to the 
 "eVar1":"jimbo"
 ```
 
-이 경우 처리 규칙에서 한 번 매핑을 수행할 때 *약간* 더 쉬워질 수 있지만 디버깅 및 향후 코드 업데이트 중에 가독성을 잃게 될 수 있습니다. 대신 키 및 값에 설명 이름을 사용하는 것이 좋습니다.
+This might make it *slightly* easier when you perform the one time mapping in processing rules, but you lose readability during debugging and future code updates can be more difficult. 대신 키 및 값에 설명 이름을 사용하는 것이 좋습니다.
 
 ```js
 "username":"jimbo"
