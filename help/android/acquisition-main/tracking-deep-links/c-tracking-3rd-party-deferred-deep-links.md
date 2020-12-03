@@ -1,11 +1,14 @@
 ---
 description: Android SDK를 사용하여 타사의 지연 딥링크 추적을 구현할 수 있습니다.
 seo-description: Android SDK를 사용하여 타사의 지연 딥링크 추적을 구현할 수 있습니다.
-seo-title: 타사의 지연 딥링크 추적
-title: 타사의 지연 딥링크 추적
+seo-title: 타사 지연된 딥 링크 추적
+title: 타사 지연된 딥 링크 추적
 uuid: 4c798e47-7988-4a06-a191-6c4d05f6ee61
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 81%
 
 ---
 
@@ -16,11 +19,11 @@ Android SDK를 사용하여 타사의 지연 딥링크 추적을 구현할 수 �
 
 ## 클래식 Adobe Mobile SDK 딥링크 {#section_D114FA1EB9664EAA82E036A990694B26}
 
-현재 Adobe Mobile SDK에서는 앱 개발자가 딥링크 활동에서 `collectLifecycleData` SDK API를 사용해야 하는 딥링크 기능을 지원합니다. SDK는 딥링크 URL 매개 변수의 딥링크 데이터를 추가합니다. Adobe Mobile SDK에서의 딥링크 작동 방식에 대한 자세한 내용은 [딥링크 추적](/help/android/acquisition-main/tracking-deep-links/tracking-deep-links.md).
+현재 Adobe Mobile SDK에서는 앱 개발자가 딥링크 활동에서 `collectLifecycleData` SDK API를 사용해야 하는 딥링크 기능을 지원합니다. SDK는 딥링크 URL 매개 변수의 딥링크 데이터를 추가합니다. Adobe Mobile SDK에서 딥 링크 연결 작동 방식에 대한 자세한 내용은 [딥 링크 추적을 참조하십시오](/help/android/acquisition-main/tracking-deep-links/tracking-deep-links.md).
 
 ## Facebook 딥링크 {#section_6A9DACB54A2F4CDEBE9C744DEFADFDED}
 
-광고 제작자는 Facebook에 게시하는 광고를 딥링크로 만들 수 있습니다. 사용자가 광고를 클릭하면 앱에서 관심 있는 정보로 바로 이동합니다. 딥링크는 핑거프린터 URL이 **아닙니다**. 그러나 광고 구성 중에 타사 딥링크 URL을 제공하는 옵션이 있습니다. Adobe Mobile SDK 및 서비스를 사용하는 앱 개발자는 이 필드에 Adobe Mobile Service 구성 핑거프린터 URL을 입력해야 합니다. 모든 것이 제대로 설정되면 Facebook SDK는 앱이 설치되거나 시작될 때 이 URL을 애플리케이션에 전달합니다.
+광고 제작자는 Facebook에 게시하는 광고를 딥링크로 만들 수 있습니다. 사용자가 광고를 클릭하면 앱에 관심이 있는 정보로 바로 이동합니다. 딥링크는 핑거프린터 URL이 **아닙니다**. 그러나 광고 구성 중에 타사 딥링크 URL을 제공하는 옵션이 있습니다. Adobe Mobile SDK 및 서비스를 사용하는 앱 개발자는 이 필드에 Mobile Service 구성 핑거프린터 URL을 입력해야 합니다. 모든 것이 제대로 설정되면 Facebook SDK는 앱이 설치되거나 시작될 때 이 URL을 애플리케이션에 전달합니다.
 
 ## iOS에서 SDK {#section_834CD3109175432B8173ECB6EA7DE315}
 
@@ -34,13 +37,13 @@ Adobe Mobile SDK를 사용하는 Facebook 딥링크 지원을 추가하려면 �
 
    자세한 내용은 [딥링크 설정](https://developers.facebook.com/docs/app-ads/deep-linking#os)을 참조하십시오.
 
-애플리케이션이 제대로 설정되면 `trackAdobeDeepLink()` API에서 Facebook 획득 캠페인에서 딥링크 정보를 수집할 수 있도록 설정하고 해당 정보를 Adobe Mobile Service로 보냅니다. 첫 시작 시 설치 히트가 Adobe Mobile Service로 전송되지 않았다면 이 정보가 라이프사이클 히트에 추가됩니다. 첫 실행 시 전송된 경우에는 Adobe 딥링크 히트로 전송됩니다.
+애플리케이션이 제대로 설정되면 `trackAdobeDeepLink()` API에서 Facebook 획득 캠페인에서 딥링크 정보를 수집할 수 있도록 설정하고 해당 정보를 Adobe Mobile Service로 보냅니다. 첫 번째 실행 시 설치 히트가 Adobe Mobile Service로 전송되지 않은 경우 이 정보가 라이프사이클 히트에 추가됩니다. 그렇지 않으면 Adobe 딥 링크 히트로 전송됩니다.
 
 >[!TIP]
 >
 >딥링크 URL에 `a.deeplink.id`라는 키가 있는지 확인하십시오. URL에 딥링크 ID 매개 변수가 없으면 URL 매개 변수가 컨텍스트 데이터에 추가되지 않습니다.
 
-획득이 링크에 기여한 경우 Adobe Mobile SDK는 `trackAdobeDeepLink()` () 호출에 사용된 Facebook 딥링크의 획득 데이터를 저장합니다. 이 데이터는 나중에 Adobe Mobile SDK를 실행할 때 사용할 수 있습니다. 콜백이 등록된 경우에는 데이터를 클라이언트로 다시 보내는 데 Adobe 콜백도 사용됩니다.
+획득이 링크에 기여한 경우 Adobe Mobile SDK는 `trackAdobeDeepLink()` () 호출에 사용된 Facebook 딥링크의 획득 데이터를 저장합니다. 이 데이터는 향후 실행 시 Adobe Mobile SDK에서 사용할 수 있습니다. 콜백이 등록된 경우 Adobe 콜백을 사용하여 데이터를 다시 클라이언트로 보냅니다.
 
 ## Android 애플리케이션에서 딥링크 활성화 {#section_64C15E269E89424B8E3D029F88094620}
 
