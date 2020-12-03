@@ -1,18 +1,21 @@
 ---
-description: .xml 파일을 직접 대체하여 TVMLTVJS 앱에서 Adobe Target을 활용할 수 있습니다. 사용자 지정 ADBTarget XML 요소를 사용하여 타겟 콘텐츠에서 대체할 페이지 영역을 지정하십시오.
-seo-description: .xml 파일을 직접 대체하여 TVMLTVJS 앱에서 Adobe Target을 활용할 수 있습니다. 사용자 지정 ADBTarget XML 요소를 사용하여 타겟 콘텐츠에서 대체할 페이지 영역을 지정하십시오.
+description: .xml 파일을 직접 교체하여 TVML/TVJS 앱에서 Adobe Target을 활용할 수 있습니다. 사용자 지정 ADBTarget XML 요소를 사용하여 페이지의 영역을 Target 컨텐츠으로 대체하도록 지정합니다.
+seo-description: .xml 파일을 직접 교체하여 TVML/TVJS 앱에서 Adobe Target을 활용할 수 있습니다. 사용자 지정 ADBTarget XML 요소를 사용하여 페이지의 영역을 Target 컨텐츠으로 대체하도록 지정합니다.
 seo-title: TVML/TVJS용 Adobe Target
 title: TVML/TVJS용 Adobe Target
 uuid: afd5a583-5266-43f2-8cb0-0ace89c53a57
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 70%
 
 ---
 
 
 # TVML/TVJS용 Adobe Target{#adobe-target-for-tvml-tvjs}
 
-.xml 파일을 직접 대체하여 TVMLTVJS 앱에서 Adobe Target을 활용할 수 있습니다. 사용자 지정 ADBTarget XML 요소를 사용하여 타겟 콘텐츠에서 대체할 페이지 영역을 지정하십시오.
+.xml 파일을 직접 교체하여 TVML/TVJS 앱에서 Adobe Target을 활용할 수 있습니다. 사용자 지정 ADBTarget XML 요소를 사용하여 페이지의 영역을 Target 컨텐츠으로 대체하도록 지정합니다.
 
 >[!IMPORTANT]
 >
@@ -111,7 +114,7 @@ Target에서 반환된 콘텐츠는 `<ADBTarget>` 태그를 모두 포함하여 
 
 #### landingPage.xml.js 구성
 
-* landingPage.xml.js의 구성은 다음과 같습니다.
+* landingPage.xml.js에 대한 구성은 다음과 같습니다.
 
    ```js
    <alertTemplate> 
@@ -122,7 +125,7 @@ Target에서 반환된 콘텐츠는 `<ADBTarget>` 태그를 모두 포함하여 
    </alertTemplate> 
    ```
 
-* 타겟에 대한 요청이 성공하고 주문 내용이 반환되었을 경우 페이지의 결과는 다음과 같습니다.
+* Target 요청이 성공하고 오퍼 컨텐츠가 반환되는 경우, 페이지는 다음과 같은 결과를 초래합니다.
 
    ```objective-c
    <alertTemplate> 
@@ -131,7 +134,7 @@ Target에서 반환된 콘텐츠는 `<ADBTarget>` 태그를 모두 포함하여 
    </alertTemplate>
    ```
 
-* Target 서버에 연결할 수 없거나 요청 시간이 초과되었을 경우 페이지의 결과는 다음과 같습니다.
+* Target 서버에 연결할 수 없거나 요청 시간이 초과되는 경우, 페이지의 결과는 다음과 같습니다.
 
    ```objective-c
    <alertTemplate> 
