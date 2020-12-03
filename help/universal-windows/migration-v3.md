@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 14%
+ht-degree: 26%
 
 ---
 
@@ -85,11 +85,11 @@ The `contextData` parameter for both of these methods contains name-value pairs 
 
 ### Events, props, eVars
 
-SDK 방법을 살펴본 [](/help/universal-windows/c-configuration/methods.md)경우 이벤트, eVar, prop, 상속자 및 목록을 어디에 설정해야 하는지 궁금해 할 것입니다. 버전 4에서는 더 이상 앱에서 바로 이러한 유형의 변수를 할당할 수 없습니다. 대신, SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 보고를 위해 앱 데이터를 Analytics 변수에 매핑합니다.
+SDK 방법을 살펴본 [](/help/universal-windows/c-configuration/methods.md)경우 이벤트, eVar, prop, 상속자 및 목록을 어디에 설정해야 하는지 궁금해 할 것입니다. 버전 4에서는 더 이상 앱에서 바로 이러한 유형의 변수를 할당할 수 없습니다. 대신, SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 앱 데이터를 Analytics 변수에 매핑해서 보고에 사용합니다.
 
 처리 규칙은 다음과 같은 이점을 제공합니다.
 
-* App Store에 업데이트를 제출하지 않고 데이터 매핑을 변경할 수 있습니다.
+* 앱스토어에 업데이트를 제출하지 않고 데이터 매핑을 변경할 수 있습니다.
 * 보고서 세트에 고유한 변수를 설정하는 대신 데이터에 의미 있는 이름을 사용할 수 있습니다.
 * 추가 데이터 전송에는 거의 영향을 주지 않습니다. 이러한 값은 처리 규칙을 사용하여 매핑될 때까지 보고서에 표시되지 않습니다.
 
