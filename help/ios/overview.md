@@ -7,10 +7,10 @@ title: Experience Cloud 솔루션용 iOS SDK 4.x
 topic: Developer and implementation
 uuid: 8b374cee-1432-460b-aac2-70623dd80a04
 translation-type: tm+mt
-source-git-commit: bc11c1e7a4a11657ee89c40ddcbd37377ce50bb5
+source-git-commit: 1b888d0184e20d2134edbc488d36c09d0492a334
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 84%
 
 ---
 
@@ -18,6 +18,20 @@ ht-degree: 100%
 # Experience Cloud 솔루션용 iOS SDK 4.x{#ios-sdk-x-for-experience-cloud-solutions}
 
 Experience Cloud 솔루션용 iOS SDK 4.x를 사용하면 기본 Apple iPhone 및 iPad 애플리케이션을 측정하고 앱에 타깃팅된 콘텐츠를 제공하고 Audience Manager를 통해 대상 데이터를 활용하고 수집할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>버전 4.21.0부터 iOS SDK에는 필요한 최소 버전의 Xcode 12가 있습니다. Copods를 사용하여 앱의 종속성을 관리하는 경우, Adobe SDK에 버전 1.10.0 이상이 필요합니다.
+
+4.21.0 이상을 사용하는 경우 다음 변경 사항을 염두에 두고 설명서를 읽으십시오.
+
+* 이진 라이브러리 파일이 언급될 때마다 XCFramework 대신 해당 XCFramework 대체 파일을 사용해야 합니다.
+   * `AdobeMobileLibrary.a` > `AdobeMobile.xcframework`
+   * `AdobeMobileLibrary_Extension.a` >  `AdobeMobileExtension.xcframework`
+   * `AdobeMobileLibrary_Watch.a` >  `AdobeMobileWatch.xcframework`
+   * `AdobeMobileLibrary_TV.a` >  `AdobeMobileTV.xcframework`
+* `ADBMobile.h` 헤더 파일은 각 XCFramework에 포함됩니다.
+* Adobe XCFrameworks를 프로젝트에 수동으로 추가하는 경우 XCFrameworks가 포함되지 않았는지 확인합니다.
 
 >[!IMPORTANT]
 >
