@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: c7400359bc19150926a67b991ba219a7fa187442
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ Experience Cloud 솔루션용 iOS SDK 4.x를 사용하면 기본 Apple iPhone �
 
 >[!IMPORTANT]
 >
->버전 4.21.0부터 iOS SDK에는 필요한 최소 버전의 Xcode 12가 있습니다. Copods를 사용하여 앱의 종속성을 관리하는 경우, Adobe SDK에 버전 1.10.0 이상이 필요합니다.
+>버전 4.21.0부터 iOS SDK에는 필요한 최소 버전의 Xcode 12가 있습니다. Cocoapods를 사용하여 앱의 종속성을 관리하는 경우, Adobe SDK에 버전 1.10.0 이상이 필요합니다.
 
 4.21.0 이상을 사용하는 경우 다음 변경 사항을 염두에 두고 설명서를 읽으십시오.
 
-* 이진 라이브러리 파일이 언급될 때마다 XCFramework 대신 해당 XCFramework 대체 파일을 사용해야 합니다.
+* 바이너리 라이브러리 파일이 언급될 때마다 대신 해당 XCFramework 대체 파일을 사용해야 합니다.
    * `AdobeMobileLibrary.a` > `AdobeMobile.xcframework`
    * `AdobeMobileLibrary_Extension.a` >  `AdobeMobileExtension.xcframework`
    * `AdobeMobileLibrary_Watch.a` >  `AdobeMobileWatch.xcframework`
