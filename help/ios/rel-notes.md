@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: 릴리스 노트
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b6c9154e925ce0a0530d4c8f0871a97198ecd840
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 90%
 
 다음은 Experience Cloud 솔루션용 iOS SDKs 4.x에 대한 릴리스 노트, 알려진 문제 및 핫픽스 정보입니다.
 
-**2020년 12월 15일:버전 4.21.0**
+**2020년 12월 15일: 버전 4.21.0**
 
 * 일반 - SDK는 기존 Intel 아키텍처에 대한 지원을 유지하면서 새로운 Apple M1 아키텍처로 하드웨어를 지원하기 위해 XCFrameworks를 사용하여 배포됩니다.
-   * 중요:Adobe Mobile XCFramworks로 업그레이드하려면 Xcode 12.0 이상이 필요합니다.
-   * 중요:Copods를 사용하는 경우 Adobe Mobile XCFramworks로 업그레이드하려면 Copods 1.10.0 이상이 필요합니다.
+   * 중요: AdobeMobile XCFramworks로 업그레이드하려면 Xcode 12.0 이상이 필요합니다.
+   * 중요: Cocoapods를 사용하는 경우 AdobeMobile XCFramworks로 업그레이드하려면 Cocoapods 1.10.0 이상이 필요합니다.
 
 **2020년 11월 4일: 버전 4.20.0**
 
