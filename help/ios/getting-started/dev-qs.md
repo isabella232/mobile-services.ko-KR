@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: c7400359bc19150926a67b991ba219a7fa187442
 workflow-type: tm+mt
 source-wordcount: '861'
-ht-degree: 75%
+ht-degree: 99%
 
 ---
 
@@ -35,25 +35,25 @@ SDK를 다운로드하려면:
 >
 >버전 4.21.0부터 SDK는 XCFrameworks를 통해 배포됩니다. 4.21.0 이상을 사용하는 경우 아래 절차를 따르십시오.
 >
->SDK 버전 4.21.0에는 Xcode 12.0 이상이 필요하며, 해당되는 경우 Coopods 1.10.0 이상이 필요합니다.
+>SDK 버전 4.21.0에는 Xcode 12.0 이상이 필요하며, 해당되는 경우 Cocoapods 1.10.0 이상이 필요합니다.
 
-1. `[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip` 파일의 압축을 풀고 `AdobeMobileLibrary` 디렉토리에 다음 소프트웨어 구성 요소가 있는지 확인합니다.
+1. `[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip` 파일을 다운로드하여 압축을 푼 후에 `AdobeMobileLibrary` 디렉터리에 다음 소프트웨어 구성 요소가 있는지 확인합니다.
 
    * `ADBMobile.h` - iOS SDK에 사용되는 Objective-C 헤더 파일입니다.
    * `ADBMobileConfig.json` - 앱에 맞게 사용자 지정된 SDK 구성 파일입니다.
-   * `AdobeMobile.xcframework` - iOS 장치(armv7, armv7s, arm64)와 시뮬레이터(i386, x86_64, arm64)에 대해 각각 하나씩, 2개의 대용량 이진이 들어 있습니다.
+   * `AdobeMobile.xcframework` - iOS 장치(armv7, armv7s, arm64)와 시뮬레이터(i386, x86_64, arm64)에 대해 각각 하나씩, 2개의 대용량 바이너리가 포함되어 있습니다. 
 
-      iOS 앱을 타깃팅할 때 이 XCFramework를 연결해야 합니다.
+      iOS 앱을 대상으로 할 때 이 XCFramework를 연결해야 합니다.
 
-   * `AdobeMobileExtension.xcframework` - iOS 장치(armv7, armv7s, arm64)와 시뮬레이터(i386, x86_64, arm64)에 대해 각각 하나씩, 2개의 대용량 이진이 들어 있습니다.
+   * `AdobeMobileExtension.xcframework` - iOS 장치(armv7, armv7s, arm64)와 시뮬레이터(i386, x86_64, arm64)에 대해 각각 하나씩, 2개의 대용량 바이너리가 포함되어 있습니다. 
 
-      iOS 확장을 타깃팅할 때 이 XCFramework를 연결해야 합니다.
+      iOS 확장을 대상으로 할 때 이 XCFramework를 연결해야 합니다.
 
-   * `AdobeMobileWatch.xcframework` - 2개의 대용량 바이너리가 들어 있으며, 각각 watchOS 장치(arm64_32, armv7k)와 시뮬레이터(i386, x86_64, arm64)용 바이너리가 있습니다.
+   * `AdobeMobileWatch.xcframework` - watchOS 장치(arm64_32, armv7k)와 시뮬레이터(i386, x86_64, arm64)에 대해 각각 하나씩, 2개의 대용량 바이너리가 포함되어 있습니다. 
 
       이 XCFramework는 Apple Watch(watchOS) 앱을 대상으로 할 때 연결해야 합니다.
 
-   * `AdobeMobileTV.xcframework` - tvOS 장치(arm64)와 시뮬레이터(x86_64, arm64)용 2개의 대용량 이진이 들어 있습니다.
+   * `AdobeMobileTV.xcframework` - tvOS 장치(arm64)와 시뮬레이터(x86_64, arm64)에 대해 각각 하나씩, 2개의 대용량 바이너리가 포함되어 있습니다. 
 
       Apple TV(tvOS) 앱을 대상으로 할 때 이 XCFramework를 연결해야 합니다.
 
