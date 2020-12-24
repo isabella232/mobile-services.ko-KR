@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: 핵심 구현 및 라이프사이클
 topic: Developer and implementation
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c7400359bc19150926a67b991ba219a7fa187442
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '861'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
