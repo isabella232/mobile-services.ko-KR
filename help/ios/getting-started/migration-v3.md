@@ -7,7 +7,7 @@ title: 4.x iOS 라이브러리로 마이그레이션
 topic: Developer and implementation
 uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: aab04abeb5edb6be886002e27ef1c5340b0a8f0d
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 100%
@@ -112,7 +112,7 @@ iOS SDK 라이브러리 버전 4.x에서는 공용 메서드가 하나의 헤더
 | trackingServer | &quot;server&quot;, `"https://"` 접두사를 제거합니다. 프로토콜 접두사는 &quot;ssl&quot; 설정에 따라 자동으로 추가됩니다. |
 | trackingServerSecure | 제거. 보안 연결에 대해 &quot;server&quot;를 정의한 다음 &quot;ssl&quot;을 활성화합니다. |
 | charSet | &quot;charset&quot; |
-| currencyCode | &quot;currency&quot; |
+| currencyCode | &quot;통화&quot; |
 | ssl | &quot;ssl&quot; |
 | linkTrackVars | 제거, 더 이상 사용되지 않습니다. |
 | linkTrackEvents | 제거, 더 이상 사용되지 않습니다. |
@@ -122,7 +122,7 @@ iOS SDK 라이브러리 버전 4.x에서는 공용 메서드가 하나의 헤더
 | dynamicVariablePrefix | 제거, 더 이상 사용되지 않습니다. |
 | visitorNamespace | 제거, 더 이상 사용되지 않습니다. |
 | usePlugins | 제거, 더 이상 사용되지 않습니다. |
-| useBestPractices - churn 측정에 대한 모든 호출(getChurnInstance) | 제거합니다. 라이프사이클 지표로 대체됩니다. 자세한 내용은 [라이프사이클 지표](//help/ios/metrics.md)를 참조하십시오. |
+| useBestPractices - churn 측정에 대한 모든 호출(getChurnInstance) | 제거합니다. 라이프사이클 지표로 대체됩니다. 자세한 내용은 [라이프사이클 지표](/help/ios/metrics.md)를 참조하십시오. |
 
 
 ## 추적 호출 및 추적 변수 업데이트 {#section_96E7D9B3CDAC444789503B7E7F139AB9}
