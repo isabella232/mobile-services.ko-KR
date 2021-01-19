@@ -8,7 +8,7 @@ title: SDK 획득 옵션 구성
 topic: Metrics
 uuid: 50ce51ad-39bf-4ac7-bd94-757443d11ca7
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: aab04abeb5edb6be886002e27ef1c5340b0a8f0d
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
@@ -24,7 +24,7 @@ ht-degree: 100%
 
    * **[!UICONTROL 활성화]**
 
-      Apple App Store 및 Google Play에서 바로 응용 프로그램을 다운로드할 수 있는 앱스토어 링크를 만듭니다. 이 링크를 만들면 다운로드 이벤트를 성공시킬 수 있습니다. 자세한 내용은 [획득](//help/using/acquisition-main/acquisition-main.md)을 참조하십시오.
+      Apple App Store 및 Google Play에서 바로 응용 프로그램을 다운로드할 수 있는 앱스토어 링크를 만듭니다. 이 링크를 만들면 다운로드 이벤트를 성공시킬 수 있습니다. 자세한 내용은 [획득](/help/using/acquisition-main/acquisition-main.md)을 참조하십시오.
 
    * **[!UICONTROL 레퍼러 시간 초과(초)]**
 
