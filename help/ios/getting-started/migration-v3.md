@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: 4.x iOS 라이브러리로 마이그레이션
 topic: Developer and implementation
 uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aab04abeb5edb6be886002e27ef1c5340b0a8f0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
 ht-degree: 100%
 
@@ -112,7 +112,7 @@ iOS SDK 라이브러리 버전 4.x에서는 공용 메서드가 하나의 헤더
 | trackingServer | &quot;server&quot;, `"https://"` 접두사를 제거합니다. 프로토콜 접두사는 &quot;ssl&quot; 설정에 따라 자동으로 추가됩니다. |
 | trackingServerSecure | 제거. 보안 연결에 대해 &quot;server&quot;를 정의한 다음 &quot;ssl&quot;을 활성화합니다. |
 | charSet | &quot;charset&quot; |
-| currencyCode | &quot;통화&quot; |
+| currencyCode | &quot;currency&quot; |
 | ssl | &quot;ssl&quot; |
 | linkTrackVars | 제거, 더 이상 사용되지 않습니다. |
 | linkTrackEvents | 제거, 더 이상 사용되지 않습니다. |
