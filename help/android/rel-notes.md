@@ -7,10 +7,10 @@ title: 릴리스 노트
 topic: Developer and implementation
 uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 8b5842068c602f3f9b1c020c1c9a686eb0e56b74
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '303'
+ht-degree: 98%
 
 ---
 
@@ -58,4 +58,4 @@ ht-degree: 100%
 * 방문자 ID 서비스 - 연결 및 읽기 제한 시간이 2초에서 5초로 늘어났습니다.
 
 
-모든 솔루션의 현재 및 과거 릴리스 노트에 대한 자세한 내용은 [Adobe Experience Cloud 릴리스 노트](hhttps://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)를 참조하십시오.
+모든 솔루션의 현재 및 과거 릴리스 노트에 대한 자세한 내용은 [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)를 참조하십시오.
