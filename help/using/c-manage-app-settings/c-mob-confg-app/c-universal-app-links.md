@@ -1,22 +1,21 @@
 ---
-description: 범용 링크(iOS) 및 앱 링크(Android)를 사용하면 iOS 또는 Android 앱의 딥 링크에 연결할 수 있습니다.
-keywords: mobile
+description: 사용자 경험을 유지 관리하기 위해 앱 및 웹 사이트 내에서 연결하는 것이 중요합니다. 유니버설 및 앱 링크의 작동 방식과 차이점에 대해 알아봅니다.
 seo-description: 범용 링크(iOS) 및 앱 링크(Android)를 사용하면 iOS 또는 Android 앱의 딥 링크에 연결할 수 있습니다.
 seo-title: Apple 범용 링크 및 Android 앱 링크
 solution: Experience Cloud,Analytics
-title: Apple 범용 링크 및 Android 앱 링크
-topic: Metrics
+title: 범용 링크 및 앱 링크 안내서
+topic: 지표
 uuid: 8d6441dc-4307-4454-95ea-d77ec796f918
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: bb41caaecaefe8168d9b19e151d43ec792e24db8
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 100%
+source-wordcount: '1146'
+ht-degree: 96%
 
 ---
 
 
-# Apple 범용 링크 및 Android 앱 링크{#universal-links-and-app-links}
+# 범용 링크와 앱 링크 비교:어떻게 작동합니까?{#universal-links-and-app-links}
 
 범용 링크(iOS) 및 앱 링크(Android)를 사용하면 iOS 또는 Android 앱의 딥 링크에 연결할 수 있습니다.
 
