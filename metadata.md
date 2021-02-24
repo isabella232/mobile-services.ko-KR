@@ -1,26 +1,22 @@
 ---
 cloud: experience-cloud
 product: mobile-services
-solution-title: 학습 및 지원
-solution-hub-url: https://helpx.adobe.com/kr/support/experience-cloud/core-services.html
-solution-icon: help/assets/experience-cloud-logo-24.png
-getting-started-title: 시작하기
-getting-started-url: https://docs.adobe.com/content/help/ko-KR/mobile-services/using/get-started-ug/gs.html
-tutorials-title: 자습서
-tutorials-url: https://helpx.adobe.com/kr/experience-cloud/tutorials.html
-git-repo: https://github.com/AdobeDocs/mobile-services.en
+solution: Experience Cloud Services
+type: 설명서
+git-repo: https://git.corp.adobe.com/AdobeDocs/mobile-services.ko-KR
 index: true
-translation-type: ht
-source-git-commit: aad8cec624ea2dd4741d1cc3d1d76af5dba44227
+translation-type: tm+mt
+source-git-commit: c6929017a865464a98242bfa7559d174712bbb7e
+workflow-type: tm+mt
+source-wordcount: '158'
+ht-degree: 100%
 
 ---
 
 
-<!-- We need a better link for Tutorials. We can do this after we hit stage -->
-
 # 내부용 메타데이터
 
-metadata.md 파일에는 리포지토리의 사용 안내서 TOC.md 파일에 전달되는 리포지토리 수준 메타데이터가 포함되어 있습니다. 모든 사용 안내서를 위한 metadata.md 콘텐츠를 변경하려면 TOC.md 파일에서 이 작업을 수행합니다.
+metadata.md 파일에는 리포지토리의 사용 안내서 TOC.md 파일에 전달되는 리포지토리 수준 메타데이터가 포함되어 있습니다. 모든 사용 안내서를 위한 metadata.md 컨텐츠를 변경하려면 TOC.md 파일에서 이 작업을 수행합니다.
 
 | 메타데이터 | 기능 |
 |--- |--- |
