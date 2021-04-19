@@ -1,20 +1,20 @@
 ---
 description: 다음은 Android 앱에서 위치 기능을 사용하는 데 유용한 정보입니다.
-keywords: android;library;mobile;sdk
+keywords: android;라이브러리;모바일;sdk
 seo-description: 다음은 Android 앱에서 위치 기능을 사용하는 데 유용한 정보입니다.
 seo-title: 위치 개요
 solution: Experience Cloud,Analytics
 title: 위치 개요
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 15180bd6-616b-477d-a106-96a52c974d7d
+exl-id: 687a3b2c-ee74-46d8-a732-b3a0bec6e798
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '137'
 ht-degree: 100%
 
 ---
-
 
 # 위치 개요 {#location}
 
@@ -28,4 +28,3 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고
 
 * 시작하려면 Adobe Experience Platform Launch로 이동합니다.
 * Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)로 이동하십시오.
-
