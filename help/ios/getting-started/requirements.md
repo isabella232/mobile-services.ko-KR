@@ -4,16 +4,16 @@ seo-description: 다음 단계를 완료하여, iOS 앱 데이터를 수집하�
 seo-title: 시작하기 전에
 solution: Experience Cloud,Analytics
 title: 시작하기 전에
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
+exl-id: 83da7cf5-3211-484d-bfe8-7b3b4999eea2
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 100%
 
 ---
-
 
 # 시작하기 전에 {#before-you-start}
 
@@ -101,4 +101,3 @@ Adobe Mobile Services는 모바일 앱 분석 및 타깃팅용 주요 보고 인
 >[!TIP]
 >
 >앱의 구성 파일은 SDK 다운로드에 자동으로 포함되므로 별도로 이 파일을 다운로드할 필요가 없습니다. 그러나 이미 SDK를 다운로드한 경우 업데이트된 설정을 가져오려면 구성 파일을 다시 다운로드하십시오.
-
