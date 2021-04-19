@@ -1,20 +1,20 @@
 ---
 description: 다음은 비디오 측정 솔루션으로 Android에서 비디오를 측정하는 방법에 대한 정보입니다.
-keywords: android;library;mobile;sdk
+keywords: android;라이브러리;모바일;sdk
 seo-description: 다음은 비디오 측정 솔루션으로 Android에서 비디오를 측정하는 방법에 대한 정보입니다.
 seo-title: Video Analytics
 solution: Experience Cloud,Analytics
-title: Video Analytics
-topic: Developer and implementation
+title: 비디오 분석
+topic-fix: Developer and implementation
 uuid: a137cc27-dc28-48c0-b08e-2ca17d2c7e1d
+exl-id: 1b7f5523-767a-45e8-b2e7-ecf9984849e4
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '885'
 ht-degree: 100%
 
 ---
-
 
 # Video Analytics {#video-analytics}
 
