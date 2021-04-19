@@ -5,16 +5,16 @@ seo-description: 앱스토어 개요 보고서는 다운로드 수, 인앱 구�
 seo-title: 앱스토어 개요 보고서
 solution: Experience Cloud,Analytics
 title: 앱스토어 개요 보고서
-topic: Metrics
+topic-fix: Metrics
 uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
+exl-id: da8663d6-9da8-440b-b7b8-06ff11e74b9f
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '518'
 ht-degree: 100%
 
 ---
-
 
 # 앱스토어 개요 보고서{#app-store-overview-report}
 
