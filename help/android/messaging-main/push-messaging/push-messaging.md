@@ -4,16 +4,16 @@ seo-description: Adobe Mobile 및 Adobe Mobile SDK를 사용하면 푸시 메시
 seo-title: 푸시 메시지
 solution: Experience Cloud,Analytics
 title: 푸시 메시지
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 729d4010-3733-4dff-b188-ad45bd3e7cc4
+exl-id: 4472e0b9-1d00-4e1a-8653-f3976b74c078
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
 
 ---
-
 
 # 푸시 메시지 {#push-messaging}
 
@@ -77,6 +77,3 @@ Adobe Mobile 및 Adobe Mobile SDK를 사용하면 푸시 메시지를 사용자�
       * `Config.collectLifecycleData(this)` 또는 `Config.collectLifecycleData(this, contextData)`를 사용합니다.
 
       * `Config.collectLifecycleData()`를 사용하지 **마십시오**.
-
-
-
