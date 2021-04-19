@@ -5,16 +5,16 @@ seo-description: URL 매개 변수를 수동으로 구성하여 새로운 모바
 seo-title: 수동으로 획득 링크 만들기
 solution: Experience Cloud,Analytics
 title: 수동으로 획득 링크 만들기
-topic: Metrics
+topic-fix: Metrics
 uuid: d7709203-f793-4982-adaa-9c3c914aca2b
+exl-id: aef9fe3e-32dc-4ec0-9eda-f64cc5e486a3
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '497'
 ht-degree: 100%
 
 ---
-
 
 # 수동으로 획득 링크 만들기 {#create-acquisition-link-manually}
 
@@ -146,4 +146,3 @@ iOS의 경우 올바른 프로토콜을 사용하는지 확인합니다.
    스토어 ID의 예로는 `a_g_id`/ `a_i_id`가 있습니다.
 
 * 대상 스토어를 자동으로 확인할 수 없고 기본값을 제공하지 않으면 404 오류가 반환됩니다.
-
