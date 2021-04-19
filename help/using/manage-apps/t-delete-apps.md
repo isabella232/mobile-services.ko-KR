@@ -5,16 +5,16 @@ seo-description: Adobe Mobile에서 앱을 삭제할 수 있습니다.
 seo-title: 앱 삭제
 solution: Experience Cloud,Analytics
 title: 앱 삭제
-topic: Metrics
+topic-fix: Metrics
 uuid: 1721cce5-b368-4f05-a40b-e3f2348d96d8
+exl-id: 70b95aed-9e22-470b-b278-6c015334e92a
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '105'
 ht-degree: 100%
 
 ---
-
 
 # 앱 삭제{#delete-an-app}
 
