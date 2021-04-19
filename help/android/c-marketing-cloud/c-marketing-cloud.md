@@ -1,20 +1,20 @@
 ---
 description: 다음은 Adobe Experience Cloud에서 Android SDK를 사용하는 데 유용한 정보입니다.
-keywords: android;library;mobile;sdk
+keywords: android;라이브러리;모바일;sdk
 seo-description: 다음은 Adobe Experience Cloud에서 Android SDK를 사용하는 데 유용한 정보입니다.
 seo-title: Experience Cloud 개요
 solution: Experience Cloud,Analytics
 title: Experience Cloud 개요
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: dbf6e019-8707-42e7-97b8-e18a8a7d5e2c
+exl-id: 660187ab-c744-4aef-aea1-ede61d08897c
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '142'
 ht-degree: 100%
 
 ---
-
 
 # Experience Cloud 개요 {#experience-cloud}
 
@@ -28,4 +28,3 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고
 
 * 시작하려면 Adobe Experience Platform Launch로 이동합니다.
 * Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)로 이동하십시오.
-
