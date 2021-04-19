@@ -1,20 +1,20 @@
 ---
 description: 다음은 라이프사이클을 구현한 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표 및 차원을 안내합니다. 또한 라이프사이클 데이터 문제 해결을 안내하는 링크도 제공합니다.
-keywords: android;library;mobile;sdk
+keywords: android;라이브러리;모바일;sdk
 seo-description: 다음은 라이프사이클을 구현한 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표 및 차원을 안내합니다. 또한 라이프사이클 데이터 문제 해결을 안내하는 링크도 제공합니다.
 seo-title: 라이프사이클 지표
 solution: Experience Cloud,Analytics
 title: 라이프사이클 지표
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: a8f3ebac-be3b-4948-82bb-105d46cfff6d
+exl-id: 1e50318d-894c-4039-ba45-71cb9edbc5b5
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1244'
 ht-degree: 100%
 
 ---
-
 
 # 라이프사이클 지표{#lifecycle-metrics}
 
@@ -113,49 +113,49 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
    애플리케이션 이름과 버전을 `[AppName] [BundleVersion]` 형식으로 저장합니다. 이 형식의 예는 `myapp 1.1`입니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.AppID`
-   * Audience Manager: `c_a_AppID`
+   * Audience Manager:`c_a_AppID`
 
 * **시작 번호**
 
    응용 프로그램을 시작하거나 백그라운드에서 나온 횟수입니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.Launches`
-   * Audience Manager: `c_a_Launches`
+   * Audience Manager:`c_a_Launches`
 
 * **처음 사용한 이후 일수**
 
    처음 실행한 이후 일 수.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.DaysSinceFirstUse`
-   * Audience Manager: `c_a_DaysSinceFirstUse`
+   * Audience Manager:`c_a_DaysSinceFirstUse`
 
 * **마지막 사용한 이후 일수**
 
    마지막 사용한 이후 일 수.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.DaysSinceLastUse`
-   * Audience Manager: `c_a_DaysSinceLastUse`
+   * Audience Manager:`c_a_DaysSinceLastUse`
 
 * **시간**
 
    앱을 시작한 시간을 측정합니다.  이 지표는 24시간 숫자 형식을 사용하며 최대 사용 시간을 판별하기 위한 시간 구분에 사용됩니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.HourOfDay`
-   * Audience Manager: `c_a_HourOfDay`
+   * Audience Manager:`c_a_HourOfDay`
 
 * **요일**
 
    앱이 실행된 주의 일수
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.DayOfWeek`
-   * Audience Manager: `c_a_DayOfWeek`
+   * Audience Manager:`c_a_DayOfWeek`
 
 * **운영 체제 버전**
 
    OS 버전입니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.OSVersion`
-   * Audience Manager: `c_a_OSVersion`
+   * Audience Manager:`c_a_OSVersion`
 
 * **마지막 업그레이드한 이후 일수**
 
@@ -166,7 +166,7 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
    >이 지표는 Analytics 변수에 자동으로 저장되지 않습니다. 보고를 위해 이 값을 Analytics 변수에 복사하려면 처리 규칙을 생성해야 합니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.DaysSinceLastUpgrade`
-   * Audience Manager: `c_a_DaysSinceLastUpgrade`
+   * Audience Manager:`c_a_DaysSinceLastUpgrade`
 
 * **마지막 업그레이드 이후 출시**
 
@@ -177,14 +177,14 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
    >이 지표는 Analytics 변수에 자동으로 저장되지 않습니다. 보고를 위해 이 값을 Analytics 변수에 복사하려면 처리 규칙을 생성해야 합니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.LaunchesSinceUpgrade`
-   * Audience Manager: `c_a_LaunchesSinceUpgrade`
+   * Audience Manager:`c_a_LaunchesSinceUpgrade`
 
 * **장치 이름**
 
    장치 이름을 저장합니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.DeviceName`
-   * Audience Manager: `c_a_DeviceName`
+   * Audience Manager:`c_a_DeviceName`
 
 * **통신사 이름**
 
@@ -195,14 +195,14 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
    >이 지표는 Analytics 변수에 자동으로 저장되지 않습니다. 보고를 위해 이 값을 Analytics 변수에 복사하려면 처리 규칙을 생성해야 합니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.CarrierName`
-   * Audience Manager: `c_a_CarrierName`
+   * Audience Manager:`c_a_CarrierName`
 
 * **해상도**
 
    너비 x 높이(실제 픽셀)
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.Resolution`
-   * Audience Manager: `c_a_Resolution`
+   * Audience Manager:`c_a_Resolution`
 
 ## 추가 모바일 지표 및 차원 {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
