@@ -5,16 +5,16 @@ seo-description: 링크 대상 페이지에서 기존 대상을 편집, 보관, 
 seo-title: 링크 대상 관리
 solution: Experience Cloud,Analytics
 title: 링크 대상 관리
-topic: Metrics
+topic-fix: Metrics
 uuid: 3a38d40d-b4c7-4f9f-aa6e-979613faaba2
+exl-id: 5d2ab0db-6371-434e-bf92-6013e78c8d8f
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '297'
 ht-degree: 100%
 
 ---
-
 
 # 링크 대상 관리{#manage-link-destinations}
 
@@ -62,6 +62,3 @@ ht-degree: 100%
       >[!IMPORTANT]
       >
       >링크 대상을 삭제하면 **영구적으로** 삭제됩니다. 링크 대상을 삭제할 것인지 확실하지 않은 경우 보관 옵션을 사용합니다.
-
-
-
