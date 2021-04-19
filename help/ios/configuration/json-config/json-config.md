@@ -4,16 +4,16 @@ seo-description: 다음은 ADBMobile.json 구성 파일을 사용하는 데 유�
 seo-title: ADBMobile JSON 구성
 solution: Experience Cloud,Analytics
 title: ADBMobile JSON 구성
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
+exl-id: e3515de3-3aec-4dd0-996d-9c561ad1b1de
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 100%
 
 ---
-
 
 # ADBMobile JSON 구성 {#adbmobile-json-config}
 
@@ -371,7 +371,7 @@ ht-degree: 100%
    * &quot;altImage&quot;
 
       * 전체 화면 전용, 선택 사항
-      * URL이
+      * URL이 지정된 경우 사용할 번들 이미지 이름
          `image`에 지정된 URL에 연결할 수 없는 경우 번들 이미지의 이름
    * &quot;title&quot;
 
@@ -464,5 +464,5 @@ ht-degree: 100%
    대상과 동일하지만 대상 대신 다음과 같은 작업이 있습니다.
 
    * &quot;key&quot;
-   * &quot;matches&quot;
-   * &quot;values&quot;
+   * &quot;일치함&quot;
+   * &quot;값&quot;
