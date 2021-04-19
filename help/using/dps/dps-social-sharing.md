@@ -5,16 +5,16 @@ seo-description: 소셜 공유 보고서에는 기존 데이터에 대한 선버
 seo-title: 소셜 공유
 solution: Experience Cloud,Analytics
 title: 소셜 공유
-topic: Metrics
+topic-fix: Metrics
 uuid: 900e58aa-c1d3-4590-af44-df67575214a4
-translation-type: ht
-source-git-commit: aab04abeb5edb6be886002e27ef1c5340b0a8f0d
-workflow-type: ht
-source-wordcount: '142'
+exl-id: 3f396c6d-dae4-4419-84fd-884a9e87dab1
+translation-type: tm+mt
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+workflow-type: tm+mt
+source-wordcount: '143'
 ht-degree: 100%
 
 ---
-
 
 # 소셜 공유{#social-sharing}
 
