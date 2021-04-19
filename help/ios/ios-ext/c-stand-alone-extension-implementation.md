@@ -4,16 +4,16 @@ seo-description: iOS 10부터 Apple에서는 포함된 앱 없이 배포할 수 
 seo-title: 독립형 확장 프로그램 구현
 solution: Experience Cloud,Analytics
 title: 독립형 확장 프로그램 구현
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 9b47f082-b78f-4611-968d-014c32ede6bc
+exl-id: b51247b6-c4ba-4a00-9ba0-1824450ac067
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
 
 ---
-
 
 # 독립형 확장 프로그램 구현 {#stand-alone-extension-implementation}
 
@@ -56,4 +56,3 @@ iOS 10부터 Apple에서는 포함된 앱 없이 배포할 수 있는 독립 실
       이 값은 확장에서 히트가 발생했음을 의미합니다.
 
 * iOS 확장 앱에서는 라이프사이클 호출이 트리거되지 않습니다.
-
