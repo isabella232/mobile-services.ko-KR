@@ -5,16 +5,16 @@ seo-description: 앱에서 APNS(Apple 푸시 알림 서비스) 또는 FCM(Fireba
 seo-title: APNS 또는 FCM 사용을 위한 앱 구성
 solution: Experience Cloud,Analytics
 title: APNS 또는 FCM 사용을 위한 앱 구성
-topic: Metrics
+topic-fix: Metrics
 uuid: fa411f2a-ba47-4499-bbe5-1aedef6b49ad
+exl-id: 9064e1f3-f176-4699-b1e6-90f29e1af0d3
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '653'
 ht-degree: 100%
 
 ---
-
 
 # APNS 또는 FCM 사용을 위한 앱 구성{#configure-app-to-use-apns-or-fcm}
 
@@ -126,4 +126,3 @@ SSL 인증서 및 개인 키(APNS)를 받으려면 다음을 수행합니다.
    암호를 입력하지 않아도 됩니다.
 
 1. **[!UICONTROL 개인 키]**&#x200B;에 `.p12` 파일을 입력합니다.
-
