@@ -1,20 +1,20 @@
 ---
 description: Android 위젯은 앱과 동일한 방법을 사용하여 추적할 수 있습니다. 위젯은 애플리케이션 컨텍스트를 앱과 공유하므로 히트 순서와 방문자 식별이 유지됩니다.
-keywords: android;library;mobile;sdk
+keywords: android;라이브러리;모바일;sdk
 seo-description: Android 위젯은 앱과 동일한 방법을 사용하여 추적할 수 있습니다. 위젯은 애플리케이션 컨텍스트를 앱과 공유하므로 히트 순서와 방문자 식별이 유지됩니다.
 seo-title: Android 위젯
 solution: Experience Cloud,Analytics
 title: Android 위젯
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 1a3718ff-967b-4c8e-ae0b-ba15bddbda0a
+exl-id: 229ea987-256a-45f4-a5ca-afe17dd596b8
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '183'
 ht-degree: 100%
 
 ---
-
 
 # Android 위젯 {#android-widgets}
 
@@ -29,4 +29,3 @@ Android 위젯은 앱과 동일한 방법을 사용하여 추적할 수 있습�
 * 위젯에서 앱이 시작되는 시기를 추적하려면 애플리케이션을 시작하려는 의도를 생성하기 전에 `trackState` 또는 `trackEvent` 호출을 추가합니다.
 
 * 작업 컨텍스트를 추적하려면 `AppExperienceType="widget"`과 `app`처럼 각 작업을 개별적으로 세그먼트화하는 옵션을 제공하는 `ContextData` 변수를 정의할 수 있습니다.
-
