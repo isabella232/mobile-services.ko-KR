@@ -5,16 +5,16 @@ seo-description: '빌더를 사용해 앱스토어와 앱 또는 웹 링크 대�
 seo-title: 마케팅 링크 빌더
 solution: Experience Cloud,Analytics
 title: 마케팅 링크 빌더
-topic: Metrics
+topic-fix: Metrics
 uuid: 94906393-ffa5-47a6-89f6-1c812bad34af
+exl-id: f7cdaec3-e8a3-4782-bbb6-d5e011e4493b
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '150'
 ht-degree: 100%
 
 ---
-
 
 # 마케팅 링크 빌더{#marketing-links-builder}
 
