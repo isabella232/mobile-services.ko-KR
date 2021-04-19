@@ -1,20 +1,20 @@
 ---
 description: 다음은 Android 라이브러리를 구현하고 시작, 업그레이드, 세션, 참여 사용자 등의 라이프사이클 지표를 수집하는 데 유용한 정보입니다.
-keywords: android;library;mobile;sdk
+keywords: android;라이브러리;모바일;sdk
 seo-description: 다음은 Android 라이브러리를 구현하고 시작, 업그레이드, 세션, 참여 사용자 등의 라이프사이클 지표를 수집하는 데 유용한 정보입니다.
 seo-title: 핵심 구현 및 라이프사이클
 solution: Experience Cloud,Analytics
 title: 핵심 구현 및 라이프사이클
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: af4d11ac-8245-46a0-9b3a-4a0a29cfbbb2
+exl-id: 67aba85a-42a0-473a-bb05-e5fcb35263d9
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '564'
 ht-degree: 100%
 
 ---
-
 
 # 핵심 구현 및 라이프사이클 {#core-implementation-and-lifecycle}
 
@@ -155,4 +155,3 @@ public void onResume() {
 
 * [앱 상태 추적](/help/android/analytics-main/states.md)
 * [앱 작업 추적](/help/android/analytics-main/actions.md)
-
