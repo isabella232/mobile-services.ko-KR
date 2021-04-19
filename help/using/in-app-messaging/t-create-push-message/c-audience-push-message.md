@@ -5,16 +5,16 @@ seo-description: 푸시 메시지에 대해 날짜 범위 옵션, Analytics 세�
 seo-title: '대상: 푸시 메시지에 대한 대상 세그먼트 정의 및 구성'
 solution: Experience Cloud,Analytics
 title: '대상: 푸시 메시지에 대한 대상 세그먼트 정의 및 구성'
-topic: Metrics
+topic-fix: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
+exl-id: d1062a76-2e72-4649-8497-58617a7a47cb
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1022'
 ht-degree: 100%
 
 ---
-
 
 # 대상: 푸시 메시지{#audience-define-and-configure-audience-segments-for-push-messages}
 
