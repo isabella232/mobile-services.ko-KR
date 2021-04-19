@@ -4,16 +4,16 @@ seo-description: 다음 표에는 여러 iOS 장치에서 전송한 iOS 버전 �
 seo-title: iOS 장치 버전
 solution: Experience Cloud,Analytics
 title: iOS 장치 버전
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 8b8a9bc3-0737-4de2-9792-0b112aa4cf65
+exl-id: 9aaf2f35-4de9-47a0-8e9d-8d098dfaadef
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
 
 ---
-
 
 # iOS 장치 버전 {#ios-device-versions}
 
@@ -60,7 +60,7 @@ iOS 장치에 대한 자세한 내용은 [iPhone Wiki](https://theiphonewiki.com
 
 | **iPad** | **버전** |
 |---|---|
-| Original | iPad1,1 |
+| 원본 | iPad1,1 |
 | iPad 2 | iPad2,1 |
 | iPad 2(GSM) | iPad2,2 |
 | iPad 2(CDMA) | iPad2,3 |
@@ -97,4 +97,3 @@ iOS 장치에 대한 자세한 내용은 [iPhone Wiki](https://theiphonewiki.com
 | iPad Pro 2, 12.9인치(LTE) | iPad7,2 |
 | iPad Pro, 10.5인치(Wi-Fi) | iPad7,3 |
 | iPad Pro, 10.5인치(LTE) | iPad7,4 |
-
