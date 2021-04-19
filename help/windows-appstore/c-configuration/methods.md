@@ -4,16 +4,16 @@ seo-description: Windows 8.1 Universal App Store 라이브러리에서 제공하
 seo-title: SDK 메서드
 solution: Experience Cloud,Analytics
 title: SDK 메서드
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 0f558ff4-73d3-4439-9d51-62fbd74d2cea
+exl-id: c328fd79-6e10-43b7-9d08-8da395098b60
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 50%
 
 ---
-
 
 # SDK 메서드 {#sdk-methods}
 
@@ -21,7 +21,7 @@ Windows 8.1 Universal App Store 라이브러리에서 제공하는 클래스 및
 
 >[!TIP]
 >
->winJS(JavaScript)의 `winmd` 메서드를 사용하면 모든 메서드에서 첫 번째 문자가 자동으로 소문자로 바뀝니다.
+>winJS(JavaScript)에서 `winmd` 메서드를 사용하면 모든 메서드에서 첫 번째 문자가 자동으로 소문자로 바뀝니다.
 
 * **GetVersion(winJS:getVersion)**
 
@@ -47,7 +47,7 @@ Windows 8.1 Universal App Store 라이브러리에서 제공하는 클래스 및
    * `ADBMobilePrivacyStatusOptOut` - 히트가 삭제됩니다.
    * `ADBMobilePrivacyStatusUnknown` - 보고서 세트에 타임스탬프가 활성화되어 있으면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다. 보고서 세트에 타임스탬프가 활성화되어 있지 않을 경우 개인정보 상태가 옵트인으로 변경될 때까지 히트가 삭제됩니다.
 
-      The default value is set in the [ADBMobileConfig.json config](/help/windows-appstore/c-configuration/c.json.md) file.
+      기본값은 [ADBMobileConfig.json config](/help/windows-appstore/c-configuration/c.json.md) 파일에서 설정됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -125,7 +125,7 @@ Windows 8.1 Universal App Store 라이브러리에서 제공하는 클래스 및
 
    >[!TIP]
    >
-   >앱이 3.x Experience Cloud에서 4.x SDK로 업그레이드하면 이전 ID(사용자 지정 또는 자동 생성)가 검색되어 사용자 지정 사용자 식별자로 저장됩니다. 이렇게 하면 SDK 업그레이드 시에도 방문자 데이터가 보존됩니다. For new installations on the 4.x SDK, user identifier is `null` until set.
+   >앱이 Experience Cloud 3.x에서 4.x SDK로 업그레이드하면 이전 ID(사용자 지정 또는 자동 생성)가 검색되고 사용자 지정 사용자 식별자로 저장됩니다. 이렇게 하면 SDK 업그레이드 시에도 방문자 데이터가 보존됩니다. 4.x SDK에 새로 설치하는 경우 사용자 ID는 설정될 때까지 `null`입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -176,7 +176,7 @@ Windows 8.1 Universal App Store 라이브러리에서 제공하는 클래스 및
 
 * **SetDebugLogging(winJS:setDebugLogging)**
 
-   디버그 로깅 기본 설정을 `debugLogging`으로 설정합니다. 디버그 로깅은 라이브러리의 디버그 버전을 사용할 때만 작동하며 릴리스 버전에서는 이 설정을 무시합니다.
+   디버그 로깅 기본 설정을 `debugLogging`으로 설정합니다. 디버그 로깅은 라이브러리의 디버그 버전을 사용할 때만 작동하며 릴리스 버전은 이 설정을 무시합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -197,7 +197,7 @@ Windows 8.1 Universal App Store 라이브러리에서 제공하는 클래스 및
 
    >[!TIP]
    >
-   >다음 예와 같이 애플리케이션 내부의 각 활동에 있는 `onResume()` 메서드에서 이 메서드를 호출합니다. 또한 글로벌 애플리케이션 컨텍스트 대신 컨텍스트 개체로 활동 또는 서비스를 전달하는 것이 좋습니다.
+   >다음 예제와 같이 응용 프로그램 내부의 각 활동에서 `onResume()` 메서드에서 이 메서드를 호출합니다. 또한 글로벌 애플리케이션 컨텍스트 대신 컨텍스트 개체로 활동 또는 서비스를 전달하는 것이 좋습니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -212,13 +212,13 @@ Windows 8.1 Universal App Store 라이브러리에서 제공하는 클래스 및
       ADB.Config.collectLifecycleData(); 
       ```
 
-* **일시 중지라이프사이클 &#x200B; 데이터 수집(winJS:일시 중지라이프사이클 데이터 &#x200B; 수집)**
+* **일시 중지라이프사이클 &#x200B; 데이터 수집(winJS:pauseCollecting &#x200B; LifecycleData)**
 
-   라이프사이클 지표를 정확히 계산하기 위해 앱이 일시 중지되었음을 SDK에 표시합니다. 예를 들어 일시 중지 시 타임스탬프를 수집하여 이전 세션 길이를 결정합니다. 또한 앱이 충돌하지 않았음을 라이프사이클에서 정확히 알 수 있도록 플래그를 설정합니다. 자세한 내용은 [라이프사이클 지표](/help/windows-appstore/metrics.md)를 참조하십시오.
+   라이프사이클 지표를 정확히 계산하기 위해 앱이 일시 중지되었음을 SDK에 표시합니다. 예를 들어 일시 중지에서 타임스탬프를 수집하여 이전 세션 길이를 결정합니다. 또한 앱이 충돌하지 않았음을 라이프사이클에서 정확히 알 수 있도록 플래그를 설정합니다. 자세한 내용은 [라이프사이클 지표](/help/windows-appstore/metrics.md)를 참조하십시오.
 
    >[!TIP]
    >
-   >예와 같이 애플리케이션 내의 각 활동 `onPause()` 메서드에서 이 메서드를 호출합니다. 또한 글로벌 애플리케이션 컨텍스트 대신 컨텍스트 개체로 활동 또는 서비스를 전달하는 것이 좋습니다.
+   >예와 같이 애플리케이션 내의 각 활동에 있는 `onPause()` 메서드에서 이 메서드를 호출합니다. 또한 글로벌 애플리케이션 컨텍스트 대신 컨텍스트 개체로 활동 또는 서비스를 전달하는 것이 좋습니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
