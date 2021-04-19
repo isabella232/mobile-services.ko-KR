@@ -4,16 +4,16 @@ seo-description: '보고서 세트를 구성하고 Android 앱 데이터를 수�
 seo-title: 시작하기 전에
 solution: Experience Cloud,Analytics
 title: 시작하기 전에
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
+exl-id: e9c0fd94-b61d-4f56-97b8-f71aac096c93
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 100%
 
 ---
-
 
 # 시작하기 전에 {#before-you-start}
 
