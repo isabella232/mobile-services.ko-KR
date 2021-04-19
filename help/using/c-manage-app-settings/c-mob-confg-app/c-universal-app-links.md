@@ -4,16 +4,16 @@ seo-description: 범용 링크(iOS) 및 앱 링크(Android)를 사용하면 iOS 
 seo-title: Apple 범용 링크 및 Android 앱 링크
 solution: Experience Cloud,Analytics
 title: 범용 링크 및 앱 링크 안내서
-topic: 지표
+topic-fix: Metrics
 uuid: 8d6441dc-4307-4454-95ea-d77ec796f918
+exl-id: 6613189f-7a14-4066-89e9-996d4fe7f128
 translation-type: tm+mt
-source-git-commit: bb41caaecaefe8168d9b19e151d43ec792e24db8
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1145'
 ht-degree: 96%
 
 ---
-
 
 # 범용 링크와 앱 링크 비교:어떻게 작동합니까?{#universal-links-and-app-links}
 
@@ -157,4 +157,3 @@ ht-degree: 96%
 >[!IMPORTANT]
 >
 >범용 링크 또는 앱 링크에서는 클릭 추적 수가 표시되지 않으며, 상호 작용을 사용할 수도 없습니다.
-
