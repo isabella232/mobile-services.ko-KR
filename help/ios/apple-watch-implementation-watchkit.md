@@ -4,16 +4,16 @@ seo-description: WatchOS 2부터는 WatchKit Extension이 Apple Watch 장치에�
 seo-title: WatchOS 2를 사용한 Apple Watch 구현
 solution: Experience Cloud,Analytics
 title: WatchOS 2를 사용한 Apple Watch 구현
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 9498467e-db5e-411e-a00e-d19841f485de
+exl-id: 9fc9b799-1081-42e4-acf3-569fdeb07aff
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 100%
 
 ---
-
 
 # WatchOS 2를 사용한 Apple Watch 구현{#apple-watch-implementation-with-watchos}
 
@@ -41,6 +41,7 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고
 >* 포함된 앱
 >* WatchKit 앱
 >* WatchKit 확장
+
 >
 
 
@@ -166,4 +167,3 @@ Xcode 프로젝트에서 다음 단계를 완료하십시오.
 * WatchKit 앱의 경우 `a.RunMode`가 `Extension`으로 설정됩니다.
 * WatchKit 앱은 시계에서 실행되므로 앱은 `a.AppID`에 앱 이름을 올바르게 보고합니다.
 * WatchOS2 앱에서는 라이프사이클 호출이 트리거되지 않습니다.
-
