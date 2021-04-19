@@ -1,33 +1,33 @@
 ---
 description: 모바일 라이브러리에서 자동으로 측정할 수 있는 지표와 차원을 나열합니다.
-keywords: android;library;mobile;sdk
+keywords: android;라이브러리;모바일;sdk
 seo-description: 모바일 라이브러리에서 자동으로 측정할 수 있는 지표와 차원을 나열합니다.
 seo-title: 라이프사이클 지표
 solution: Experience Cloud,Analytics
 title: 라이프사이클 지표
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: f958c3ef-1d79-4b30-8966-ef74bd48a5d6
+exl-id: 19572f15-c5df-40fe-9979-3a5bdd581f2b
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '921'
 ht-degree: 83%
 
 ---
-
 
 # 라이프사이클 지표 {#lifecycle-metrics}
 
 모바일 라이브러리에서 자동으로 측정할 수 있는 지표와 차원을 나열합니다.
 
-자세한 내용은 라이프사이클 데이터 문제 [해결을 참조하십시오](https://helpx.adobe.com/kr/analytics/kb/troubleshoot-lifecycle-data.html).
+자세한 내용은 [라이프사이클 데이터 문제 해결](https://helpx.adobe.com/kr/analytics/kb/troubleshoot-lifecycle-data.html)을 참조하십시오.
 
 
 ## 라이프사이클 지표 및 차원 {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
 라이프사이클 지표가 구성된 경우 해당 지표가 컨텍스트 데이터 매개 변수로 Analytics에 전송되고 각 mbox 호출을 통해 매개 변수로 Target에 전송되며 고객 관리에 신호로 사용됩니다. Analytics 및 Target에서는 같은 형식을 사용하지만 고객 관리에서는 각 지표에 다른 접두사를 사용합니다.
 
-Analytics의 경우, 각 라이프사이클 추적 호출과 함께 전송되는 컨텍스트 데이터는 지표나 차원을 사용하여 자동으로 캡처되고 보고됩니다. 예외 사항은 컨텐츠에 명시되어 있습니다.
+Analytics의 경우 각 라이프사이클 추적 호출과 함께 전송되는 컨텍스트 데이터는 지표나 차원을 사용하여 자동으로 캡처되고 보고됩니다. 예외는 컨텐츠에 명시되어 있습니다.
 
 ## 지표
 
@@ -197,7 +197,7 @@ Analytics의 경우, 각 라이프사이클 추적 호출과 함께 전송되는
 
 ## 추가 모바일 지표 및 차원 {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
-다음 방법으로 모바일 솔루션 변수에서 캡처되는 지표와 차원은 다음과 같습니다.
+다음 방법으로 모바일 솔루션 변수에 다음 지표 및 차원을 캡처합니다.
 
 ### 지표
 
@@ -267,21 +267,21 @@ Analytics의 경우, 각 라이프사이클 추적 호출과 함께 전송되는
 
 * **관심 영역 이름**
 
-   Populated by `trackLocation` methods when device is in a defined POI.
+   장치가 정의된 POI에 있을 때 `trackLocation` 메서드로 채워집니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.loc.poi`
-   * Audience Manager trait: `c_a_loc_poi`
+   * Audience Manager 특성:`c_a_loc_poi`
 
 * **관심 영역 중앙까지의 거리**
 
-   Populated by `trackLocation` methods when device is within a defined POI.
+   장치가 정의된 POI 내에 있을 때 `trackLocation` 메서드로 채워집니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.loc.dist`
-   * Audience Manager trait: `c_a_loc_dist`
+   * Audience Manager 특성:`c_a_loc_dist`
 
 * **라이프타임 값(전환 변수)**
 
    `trackLifetimeValue` 메서드로 채워집니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.ltv.amount`
-   * Audience Manager trait: `c_a_ltv_amount`
+   * Audience Manager 특성:`c_a_ltv_amount`
