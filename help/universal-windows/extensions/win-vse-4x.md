@@ -1,42 +1,41 @@
 ---
-description: 이 익스텐션은 프로젝트에서 Experience Cloud 솔루션 4.x Windows SDK에 대한 참조를 훨씬 쉽게 추가할 수 있는 방법을 제공합니다.
-seo-description: 이 익스텐션은 프로젝트에서 Experience Cloud 솔루션 4.x Windows SDK에 대한 참조를 훨씬 쉽게 추가할 수 있는 방법을 제공합니다.
+description: 이 익스텐션은 프로젝트에 Experience Cloud 솔루션 4.x Windows SDK 참조를 추가하는 훨씬 쉬운 방법을 제공합니다.
+seo-description: 이 익스텐션은 프로젝트에 Experience Cloud 솔루션 4.x Windows SDK 참조를 추가하는 훨씬 쉬운 방법을 제공합니다.
 seo-title: Experience Cloud 솔루션 4.x SDK용 Windows Visual Studio 확장 프로그램
 solution: Experience Cloud,Analytics
 title: Experience Cloud 솔루션 4.x SDK용 Windows Visual Studio 확장 프로그램
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: e48faf54-8b08-4224-9d80-e553a983129e
+exl-id: 8ed91dc1-8f30-4788-8471-21bb54256b0b
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 16%
 
 ---
 
-
 # Experience Cloud 솔루션 4.x SDK용 Windows Visual Studio 확장 프로그램 {#windows-visual-studio-extensions-for-experience-cloud-solutions-x-sdk}
 
-이 익스텐션을 사용하면 프로젝트에서 Experience Cloud 솔루션 4.x Windows SDK에 대한 참조를 훨씬 쉽게 추가할 수 있습니다.
+이 확장 기능을 사용하면 프로젝트에 Experience Cloud 솔루션 4.x Windows SDK에 대한 참조를 훨씬 쉽게 추가할 수 있습니다.
 
-## GitHub에서 라이브러리 설치 {#section_F55DB6241EF1475286C05FEAEBF996A3}
+## GitHub {#section_F55DB6241EF1475286C05FEAEBF996A3}에서 라이브러리 설치
 
-1. GitHub에서 Windows Universal SDK를 [다운로드합니다](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases).
+1. [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases)에서 Windows Universal SDK를 다운로드합니다.
 1. 다운로드한 파일의 압축을 해제합니다.
-1. ADBMobileUniversalWindowsVSIX.vsix **** 파일을 두 번 클릭하여 설치 관리자를 엽니다.
-1. [ **[!UICONTROL 전역 위치]** ]를 선택하고 라이브러리를 설치합니다.
+1. **[!UICONTROL ADBMobileUniversalWindowsVSIX.vsix]** 파일을 두 번 클릭하여 설치 관리자를 엽니다.
+1. **[!UICONTROL 전역 위치]**&#x200B;를 선택하고 라이브러리를 설치합니다.
 
-## 프로젝트에 참조 추가 {#section_00C14FE9243D4330BE1F4BB56FCF08B1}
+## 프로젝트 {#section_00C14FE9243D4330BE1F4BB56FCF08B1} 참조 추가
 
 1. Windows 10 프로젝트를 엽니다.
 1. 참조 관리자(Reference Manager) 대화상자를 엽니다.
 
    ![](assets/ref_manager.png)
 
-1. [ **[!UICONTROL 확장]** ] 탭에서 **[!UICONTROL Adobe Mobile SDK를 찾아 선택합니다]**.
-1. 확인을 **[!UICONTROL 클릭하여]** 저장합니다.
+1. **[!UICONTROL 확장]** 탭에서 **[!UICONTROL Adobe Mobile SDK]**&#x200B;를 찾아 선택합니다.
+1. **[!UICONTROL 확인]**&#x200B;을 클릭하여 저장합니다.
 
-   Adobe Mobile SDK가 프로젝트에 추가됩니다. Microsoft **[!UICONTROL Visual C++ 런타임]** 패키지가 아직 추가되지 않은 경우 이 패키지가 프로젝트에 추가됩니다.
+   Adobe Mobile SDK가 프로젝트에 추가됩니다. **[!UICONTROL Microsoft Visual C++ Runtime]** 패키지가 아직 추가되지 않은 경우 이 패키지도 프로젝트에 추가됩니다.
 
 1. 구성 관리자에서 플랫폼 유형을 선택하고 앱 테스트를 시작합니다.
-
