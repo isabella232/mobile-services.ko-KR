@@ -5,16 +5,16 @@ seo-description: 관심 영역 및 기타 데이터 마커를 표시하는 대�
 seo-title: 맵
 solution: Experience Cloud,Analytics
 title: 맵
-topic: Metrics
+topic-fix: Metrics
 uuid: 3c271738-eb8d-4c26-baaf-54b247bfc4da
+exl-id: a7e75333-2919-44bf-9963-f40cdee2d6b6
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '314'
 ht-degree: 100%
 
 ---
-
 
 # 맵 {#map}
 
