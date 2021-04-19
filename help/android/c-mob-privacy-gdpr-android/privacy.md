@@ -4,16 +4,16 @@ seo-description: 이 정보는 GDPR 데이터 삭제를 요청하는 데 도움�
 seo-title: 사용자의 옵트 상태 설정
 solution: Experience Cloud,Analytics
 title: 사용자의 옵트 상태 설정
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: f8a3e6be-44dd-494e-9cda-dbbac86d6772
+exl-id: ef5160ac-5a73-4433-b217-1bd990f8456b
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 100%
 
 ---
-
 
 # 사용자의 옵트 상태 설정{#setting-the-user-s-opt-status}
 
@@ -77,4 +77,3 @@ public void setOptUnknown(View view) {
  currentStatus = Config.getPrivacyStatus(); 
 }
 ```
-
