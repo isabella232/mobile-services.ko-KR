@@ -4,16 +4,16 @@ seo-description: 다음은 머천다이징 eVar 및 제품별 이벤트의 produ
 seo-title: 머천다이징 eVar 및 제품별 이벤트가 포함된 Products 변수
 solution: Experience Cloud,Analytics
 title: 머천다이징 eVar 및 제품별 이벤트가 포함된 Products 변수
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: f913211e-97ad-4237-bfe4-7ded01295caf
+exl-id: f438190d-0d2d-4bcd-a1c7-156e46e61162
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 100%
 
 ---
-
 
 # 머천다이징 eVar 및 제품별 이벤트가 포함된 Products 변수 {#products-variable-with-merchandising-evars-and-product-specific-events}
 
@@ -40,4 +40,3 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 >[!TIP]
 >
 >*`&&products`* 변수를 사용하여 제품별 이벤트를 트리거하는 경우 *`&&events`* 변수에서도 해당 이벤트를 설정해야 합니다. 이 이벤트를 설정하지 않으면 처리하는 동안 필터링됩니다.
-
