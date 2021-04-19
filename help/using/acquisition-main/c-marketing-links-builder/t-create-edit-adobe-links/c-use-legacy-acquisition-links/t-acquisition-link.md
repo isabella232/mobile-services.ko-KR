@@ -5,16 +5,16 @@ seo-description: Apple App Store 및 Google Play에서 바로 응용 프로그�
 seo-title: 획득 링크 만들기
 solution: Experience Cloud,Analytics
 title: 획득 링크 만들기
-topic: Metrics
+topic-fix: Metrics
 uuid: bb603013-fca9-44a2-820a-59e1c85d9444
+exl-id: bc351d1e-c7da-4418-ac5a-9e5f989dd566
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '507'
 ht-degree: 100%
 
 ---
-
 
 # 획득 링크 만들기{#create-an-acquisition-link}
 
