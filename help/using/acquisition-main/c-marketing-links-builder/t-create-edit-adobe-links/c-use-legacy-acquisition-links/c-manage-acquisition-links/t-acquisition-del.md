@@ -5,16 +5,16 @@ seo-description: 획득 링크가 더 이상 필요하지 않으면 획득 링�
 seo-title: 획득 링크 삭제
 solution: Experience Cloud,Analytics
 title: 획득 링크 삭제
-topic: Metrics
+topic-fix: Metrics
 uuid: e7362348-ca24-4f1c-b37f-eca6d2b0da6d
+exl-id: 4c007ec6-40ba-468f-8bfc-0930a04c59c1
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '107'
 ht-degree: 100%
 
 ---
-
 
 # 획득 링크 삭제{#delete-acquisition-links}
 
@@ -31,4 +31,3 @@ ht-degree: 100%
    >[!TIP]
    >
    >**[!UICONTROL 선택 항목 삭제]** 옵션은 획득 링크를 한 개 이상 선택하기 전까지 표시되지 않습니다.
-
