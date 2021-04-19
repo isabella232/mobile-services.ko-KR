@@ -1,20 +1,20 @@
 ---
 description: 다음은 Android 라이브러리에서 제공하는 Adobe Target 메서드 목록입니다.
-keywords: android;library;mobile;sdk
+keywords: android;라이브러리;모바일;sdk
 seo-description: 다음은 Android 라이브러리에서 제공하는 Adobe Target 메서드 목록입니다.
 seo-title: Android용 Target 메서드
 solution: Experience Cloud,Analytics
 title: Android용 Target 메서드
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 8e9808b2-ba80-4646-ba05-8e62d4fde065
+exl-id: 0c7a6718-d078-4a2b-a2c9-d5cd50263939
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '607'
 ht-degree: 100%
 
 ---
-
 
 # Android용 Target 메서드{#target-methods}
 
@@ -57,8 +57,9 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 >[!IMPORTANT]
 >
 >* 4.14.0 **이전** 버전의 SDK를 사용하는 경우 [https://developers.adobetarget.com/api/#input-parameters](https://developers.adobetarget.com/api/#input-parameters)에서 매개 변수 제한 사항을 참조하십시오.
->
->* 4.14.0 **이후** 버전의 SDK를 사용하는 경우 [](https://developers.adobetarget.com/api/#batch-input-parameters)https://developers.adobetarget.com/api/#batch-input-parameters에서 매개 변수 제한 사항을 참조하십시오.
+   >
+   >
+* 4.14.0 **이후** 버전의 SDK를 사용하는 경우 [](https://developers.adobetarget.com/api/#batch-input-parameters)https://developers.adobetarget.com/api/#batch-input-parameters에서 매개 변수 제한 사항을 참조하십시오.
 
 
 * **loadRequest**
