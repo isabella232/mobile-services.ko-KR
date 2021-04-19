@@ -5,16 +5,16 @@ seo-description: 기술 보고서를 통해 앱이 사용되는 다양한 장치
 seo-title: 기술 보고서
 solution: Experience Cloud,Analytics
 title: 기술 보고서
-topic: Reports,Metrics
+topic-fix: Reports,Metrics
 uuid: 4b7322c4-8920-43cd-bb72-5a5bd515ae84
+exl-id: 767c1538-68b1-4193-bd3d-3eb80e5b36f7
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '572'
 ht-degree: 100%
 
 ---
-
 
 # 기술 보고서 {#technology}
 
