@@ -5,16 +5,16 @@ seo-description: 개요 보고서는 주요 지표에 대한 스냅숏을 제공
 seo-title: 개요 보고서
 solution: Experience Cloud,Analytics
 title: 개요 보고서
-topic: Reports,Metrics
+topic-fix: Reports,Metrics
 uuid: 5f7088af-4b25-4fe5-afda-4844597c78f9
+exl-id: db681d0e-b784-4415-b248-f92df5b780cc
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '116'
 ht-degree: 100%
 
 ---
-
 
 # 개요 보고서{#overview}
 
@@ -29,4 +29,3 @@ ht-degree: 100%
 >[!TIP]
 >
 >앱을 생성할 때 이 보고서에 대한 주요 지표를 구성합니다. 자세한 내용은 [앱 구성](/help/using/c-manage-app-settings/c-mob-confg-app/c-mob-confg-app.md)을 참조하십시오.
-
