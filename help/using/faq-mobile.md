@@ -5,16 +5,16 @@ seo-description: Adobe Mobile Services에 대한 FAQ 및 답변과 기능에 대
 seo-title: FAQ
 solution: Experience Cloud,Analytics
 title: FAQ
-topic: Metrics
+topic-fix: Metrics
 uuid: 62a9241c-2ada-483a-a594-b023916cb0b6
+exl-id: d7dfc36e-56f0-498a-ad50-93fee90cb6ff
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1119'
 ht-degree: 100%
 
 ---
-
 
 # FAQ {#frequently-asked-questions}
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ### 사용해야 하는 SDK 버전은 무엇인가요?
 
-현재 SDK는 버전 4.11에 있습니다. 자세한 내용은 [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)를 참조하십시오.
+현재 SDK는 버전 4.11에 있습니다. 자세한 내용은 [릴리스 노트](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)를 참조하십시오.
 
 ### 어디에서 SDK를 다운로드할 수 있나요?
 
