@@ -4,22 +4,22 @@ seo-description: 처리 규칙을 사용하여 제품 변수를 설정할 수 �
 seo-title: Products 변수
 solution: Experience Cloud,Analytics
 title: Products 변수
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 2057a564-06ae-4171-bbe7-0baffa71608b
+exl-id: b731e794-7134-4c6d-a41b-09ac9b84763d
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 13%
 
 ---
 
-
 # Products 변수{#products-variable}
 
 처리 규칙을 사용하여 제품 변수를 설정할 수 없습니다. 모바일 SDK에서는 컨텍스트 데이터 매개 변수 내의 특수 구문을 사용하여 서버 호출에서 직접 제품을 설정해야 합니다.
 
-To set the *`products`* variable, set a context data key to `"&&products"`, and set the value using the syntax defined for the *`products`*:
+*`products`* 변수를 설정하려면 컨텍스트 데이터 키를 `"&&products"`로 설정하고 *`products`*&#x200B;에 대해 정의된 구문을 사용하여 값을 설정합니다.
 
 ```js
 cdata["&&products"] = "Category;Product;Quantity;Price[,Category;Product;Quantity;Price]";
