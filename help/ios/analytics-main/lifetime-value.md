@@ -4,16 +4,16 @@ seo-description: 라이프타임 값을 통해 각 사용자의 라이프타임 
 seo-title: 방문자 라이프타임 값
 solution: Experience Cloud,Analytics
 title: 방문자 라이프타임 값
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: d830d18b-4313-43bb-8d75-3789869d0f1d
+exl-id: f1b684b1-9919-400d-a88a-6d4a0809d9e1
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
 
 ---
-
 
 # 방문자 라이프타임 값 {#visitor-lifetime-value}
 
@@ -51,4 +51,3 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 컨텍스트 데이터 사용자 지정 변수에 매핑해야 합니다.
 
 ![](assets/map-variable-context-ltv.png)
-
