@@ -4,16 +4,16 @@ seo-description: 처리 규칙은 컨텍스트 데이터 변수로 보내는 데
 seo-title: 처리 규칙 및 컨텍스트 데이터
 solution: Experience Cloud,Analytics
 title: 처리 규칙 및 컨텍스트 데이터
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: ea892228-86f5-4980-acb8-45ae43c6996d
+exl-id: 543201fd-8118-485f-8235-26ec8f9bbb11
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
 
 ---
-
 
 # 처리 규칙 및 컨텍스트 데이터 {#processing-rules-and-context-data}
 
@@ -58,4 +58,3 @@ ht-degree: 100%
 >[!TIP]
 >
 >Adobe는 `"a."` 네임스페이스를 예약합니다. 충돌을 피하려면 컨텍스트 데이터 변수가 로그인 회사에서 고유하게 사용되면 됩니다.
-
