@@ -3,17 +3,17 @@ description: 다음은 마일스톤 비디오 측정을 사용하여 iOS에서 �
 seo-description: 다음은 마일스톤 비디오 측정을 사용하여 iOS에서 비디오를 측정하는 방법에 대한 정보입니다.
 seo-title: Video Analytics
 solution: Experience Cloud,Analytics
-title: Video Analytics
-topic: Developer and implementation
+title: 비디오 분석
+topic-fix: Developer and implementation
 uuid: d75fa415-78f6-4f50-a563-76949f040138
+exl-id: d4d11ca0-1280-49db-8983-5b6d83856482
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 100%
 
 ---
-
 
 # Video Analytics {#video-analytics}
 
@@ -383,4 +383,3 @@ NSUInteger eventType
       ```objective-c
       + (void) mediaTrack:(NSString *)name withData:(NSDictionary *)data;
       ```
-
