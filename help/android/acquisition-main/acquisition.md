@@ -1,20 +1,20 @@
 ---
 description: Adobe Mobile Services에서 고유한 추적 코드가 있는 획득 링크를 생성할 수 있습니다. 사용자가 생성된 링크를 클릭한 후 앱스토어에서 앱을 다운로드하여 실행하면 SDK에서 자동으로 획득 데이터를 수집하여 Adobe Mobile Services로 보냅니다.
-keywords: android;library;mobile;sdk
+keywords: android;라이브러리;모바일;sdk
 seo-description: Adobe Mobile Services에서 고유한 추적 코드가 있는 획득 링크를 생성할 수 있습니다. 사용자가 생성된 링크를 클릭한 후 앱스토어에서 앱을 다운로드하여 실행하면 SDK에서 자동으로 획득 데이터를 수집하여 Adobe Mobile Services로 보냅니다.
 seo-title: 모바일 앱 획득
 solution: Experience Cloud,Analytics
 title: 모바일 앱 획득
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 4d32eae9-e856-4e40-8a29-2b5bccd106e0
+exl-id: 266f0266-38f5-410b-ae14-92874fb0e7ce
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '880'
 ht-degree: 100%
 
 ---
-
 
 # 모바일 앱 획득 {#mobile-app-acquisition}
 
