@@ -4,16 +4,16 @@ seo-description: 다음은 tvOS로 Apple TV를 구현하는 데 유용한 정보
 seo-title: tvOS를 사용한 Apple TV 구현
 solution: Experience Cloud,Analytics
 title: tvOS를 사용한 Apple TV 구현
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: d1571ea2-a5de-4b96-a527-72abbf51fab8
+exl-id: 35b7f02d-ae48-4c6f-9a3a-6d106a1026ad
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
 
 ---
-
 
 # tvOS를 사용한 Apple TV 구현 {#apple-tv-implementation-with-tvos}
 
@@ -83,4 +83,3 @@ Xcode 프로젝트에서 다음 단계를 완료하십시오.
 1. JavaScript 파일에서 `ADBMobile` 개체를 사용하여 Adobe SDK의 기본 메서드에 액세스합니다.
 
    사용할 수 있는 메서드의 전체 목록은 [TVJS 메서드](/help/ios/apple-tv-implementation-tvos/tvjs-methods.md)를 참조하십시오.
-
