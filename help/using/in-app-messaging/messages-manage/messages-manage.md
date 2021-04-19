@@ -5,16 +5,16 @@ seo-description: 각 메시지가 마지막으로 업데이트된 시간 및 메
 seo-title: 메시지 관리
 solution: Experience Cloud,Analytics
 title: 메시지 관리
-topic: Metrics
+topic-fix: Metrics
 uuid: 4d934ede-0c68-4dd5-ba37-9caf727cc717
+exl-id: 96436104-fe5d-4f50-80a9-9b6ad7401de2
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '470'
 ht-degree: 100%
 
 ---
-
 
 # 메시지 관리{#manage-messages}
 
@@ -66,4 +66,3 @@ ht-degree: 100%
 
    1. **[!UICONTROL 아카이브 보기를 클릭합니다]**.
    1. 적어도 한 개의 보관된 메시지 옆에 있는 확인란을 선택하고 **[!UICONTROL 선택한 아카이브 해제를 클릭합니다]**.
-
