@@ -1,35 +1,35 @@
 ---
-description: Windows 8.1 Universal App Store SDK를 Adobe Analytics과 함께 사용하는 데 도움이 되는 정보입니다.
-seo-description: Windows 8.1 Universal App Store SDK를 Adobe Analytics과 함께 사용하는 데 도움이 되는 정보입니다.
+description: Adobe Analytics에서 Windows 8.1 Universal App Store SDK를 사용하는 데 도움이 되는 정보입니다.
+seo-description: Adobe Analytics에서 Windows 8.1 Universal App Store SDK를 사용하는 데 도움이 되는 정보입니다.
 seo-title: Analytics 메서드
 solution: Experience Cloud,Analytics
 title: Analytics 메서드
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 79db105c-216c-4061-97f3-a55954995e67
+exl-id: 007bb801-55ef-4c5b-87fa-d0db42cde163
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 52%
 
 ---
 
-
 # Analytics 메서드 {#analytics-methods}
 
-Windows 8.1 Universal App Store SDK를 Adobe Analytics과 함께 사용하는 데 도움이 되는 정보입니다.
+Adobe Analytics에서 Windows 8.1 Universal App Store SDK를 사용하는 데 도움이 되는 정보입니다.
 
-SDK는 현재 분석, Target 및 Audience Manager을 비롯한 여러 Adobe Experience Cloud 솔루션을 지원합니다. 메서드에는 솔루션에 따라 접두사가 붙습니다. Analytics 메서드에는 &quot;Analytics&quot;가 접두사로 사용됩니다.
+SDK는 현재 Analytics, Target 및 Audience Manager을 비롯한 여러 Adobe Experience Cloud 솔루션을 지원합니다. 메서드에는 솔루션에 따라 접두사가 붙습니다. 분석 메서드 앞에 &quot;Analytics&quot;가 붙습니다.
 
 이러한 각 메서드는 Adobe Analytics 보고서 세트로 데이터를 전송하는 데 사용됩니다.
 
 >[!TIP]
 >
->winJS(JavaScript)의 `winmd` 메서드를 사용하면 모든 메서드에서 첫 번째 문자가 자동으로 소문자로 바뀝니다.
+>winJS(JavaScript)에서 `winmd` 메서드를 사용하면 모든 메서드에서 첫 번째 문자가 자동으로 소문자로 바뀝니다.
 
 * **TrackState(winJS:trackState)**
 
-   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. 상태는 &quot;홈 대시보드&quot;, &quot;앱 설정&quot;, &quot;장바구니&quot; 등과 같이 앱에서 사용할 수 있는 보기입니다. 이 상태는 웹 사이트의 페이지와 유사하며 `TrackState` 호출은 페이지 보기를 증가시킵니다. If `state` is empty, it displays as &quot;app name app version (build)&quot; in reports. If you see this value in reports, make sure you are setting `state` in each `TrackState` call.
+   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. 상태는 &quot;홈 대시보드&quot;, &quot;앱 설정&quot;, &quot;장바구니&quot; 등과 같이 앱에서 사용할 수 있는 보기입니다. 이 상태는 웹 사이트의 페이지와 유사하며 `TrackState` 호출은 페이지 보기를 증가시킵니다. `state`이 비어 있으면 보고서에 &quot;앱 이름 앱 버전(빌드)&quot;으로 표시됩니다. 보고서에 이 값이 표시되면 각 `TrackState` 호출에서 `state`을(를) 설정해야 합니다.
 
    >[!TIP]
    >
@@ -67,7 +67,7 @@ SDK는 현재 분석, Target 및 Audience Manager을 비롯한 여러 Adobe Expe
 
 * **GetTrackingIdentifierAsync(winJS:getTrackingIdentifierAsync)**
 
-   Analytics에 대해 자동으로 생성된 방문자 식별자를 반환합니다. 이 ID는 처음 실행 시 생성된 후 저장되어 이후에 사용되는 앱별 고유 방문자 ID입니다. 이 ID는 앱 업그레이드 간에 유지되며 제거 시 제거됩니다.
+   Analytics에 대해 자동으로 생성된 방문자 식별자를 반환합니다. 초기 실행 시 생성된 후 저장되어 이후에 사용되는 앱별 고유 방문자 ID입니다. 이 ID는 앱 업그레이드 간에 유지되며 제거 시 제거됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -141,7 +141,7 @@ SDK는 현재 분석, Target 및 Audience Manager을 비롯한 여러 Adobe Expe
 
 * **TrackTimed &#x200B; ActionUpdate(winJS:trackTimed &#x200B; ActionUpdate)**
 
-   `contextData`를 전달하여 제공된 `action`과 연관된 컨텍스트 데이터를 업데이트합니다. The `data` passed is appended to the existing data for the given action, and overwrites the data if the same key is already defined for `action`.
+   `contextData`를 전달하여 제공된 `action`과 연관된 컨텍스트 데이터를 업데이트합니다. 전달된 `data`은 주어진 작업의 기존 데이터에 추가되며, `action`에 대해 동일한 키가 이미 정의된 경우 데이터를 덮어씁니다.
 
    >[!TIP]
    >
@@ -215,7 +215,7 @@ SDK는 현재 분석, Target 및 Audience Manager을 비롯한 여러 Adobe Expe
 
 * **GetQueueSizeAsync(winJS:getQueueSizeAsync)**
 
-   현재 Analytics 큐에 저장된 히트 수를 반환합니다.
+   Analytics 큐에 현재 저장된 히트 수를 반환합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
