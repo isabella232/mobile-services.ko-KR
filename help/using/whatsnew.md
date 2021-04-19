@@ -1,20 +1,20 @@
 ---
 description: Adobe Mobile Services의 새 릴리스 정보.
-keywords: mobile;release notes;whats new
+keywords: 모바일;릴리스 노트;새로운 기능
 seo-description: Adobe Mobile Services의 새 릴리스 정보.
 seo-title: Adobe Mobile Services 릴리스 노트
 solution: Experience Cloud,Analytics
 title: 릴리스 노트
-topic: Metrics
+topic-fix: Metrics
 uuid: 522b0589-d61f-4a9f-952e-ba7ce11af2f9
+exl-id: 4da7b3d8-f9c5-4b5a-b370-d0fcb13ebad8
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '85'
 ht-degree: 100%
 
 ---
-
 
 # 릴리스 노트{#release-notes}
 
