@@ -4,16 +4,16 @@ seo-description: 애플리케이션이 시작될 때 다른 ADBMobile JSON 구�
 seo-title: ADBMobile JSON 구성 경로 재정의
 solution: Experience Cloud,Analytics
 title: ADBMobile JSON 구성 경로 재정의
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 0d1be674-c634-4a48-aa31-5701681911b9
+exl-id: 3a191e9c-905f-4bea-8a6f-5ccf5ea02aff
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 100%
 
 ---
-
 
 # ADBMobile JSON 구성 경로 재정의 {#override-the-adbmobile-json-config-path}
 
@@ -29,4 +29,3 @@ ht-degree: 100%
 NSString *filePath = [[NSBundle mainBundle] pathForResource:@"ExampleJSONFile" ofType:@"json"]; 
 [ADBMobile overrideConfigPath:filePath];
 ```
-
