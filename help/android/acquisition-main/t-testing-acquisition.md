@@ -1,20 +1,20 @@
 ---
 description: 다음은 Android 장치에서 기존 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
-keywords: android;library;mobile;sdk
+keywords: android;라이브러리;모바일;sdk
 seo-description: 다음은 Android 장치에서 기존 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
 seo-title: 기존 획득 테스트
 solution: Experience Cloud,Analytics
 title: 기존 획득 테스트
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: bb7ace96-68eb-4f43-b3cf-af80730b9cee
+exl-id: 43e3b24e-e8bc-407c-b788-5ab85e459a90
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '324'
 ht-degree: 100%
 
 ---
-
 
 # 기존 획득 테스트 {#testing-legacy-acquisition}
 
