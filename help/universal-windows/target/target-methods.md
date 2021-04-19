@@ -4,28 +4,28 @@ seo-description: 유니버설 Windows 플랫폼 라이브러리에서 제공하�
 seo-title: Target 메서드
 solution: Experience Cloud,Analytics
 title: Target 메서드
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 2ad5953b-7850-446a-8053-b3715b86329b
+exl-id: d7aeee41-1c34-4f98-8455-e9f429287cfc
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 36%
 
 ---
 
-
 # 타겟 메서드 {#target-methods}
 
 유니버설 Windows 플랫폼 라이브러리에서 제공하는 Target 메서드 목록입니다.
 
-SDK는 현재 분석, Target 및 Audience Manager을 비롯한 여러 Adobe Experience Cloud 솔루션을 지원합니다.
+SDK는 현재 Analytics, Target 및 Audience Manager을 비롯한 여러 Adobe Experience Cloud 솔루션을 지원합니다.
 
-[라이프사이클 지표는](/help/universal-windows/metrics.md) 각 mbox 로드로 매개 변수로 전송됩니다.
+[라이프사이클 ](/help/universal-windows/metrics.md) 지표는 각 mbox 로드로 매개 변수로 전송됩니다.
 
 >[!TIP]
 >
->winJS(JavaScript)의 `winmd` 메서드를 사용하면 모든 메서드에서 첫 번째 문자가 자동으로 소문자로 바뀝니다.
+>winJS(JavaScript)에서 `winmd` 메서드를 사용하면 모든 메서드에서 첫 번째 문자가 자동으로 소문자로 바뀝니다.
 
 ## 클래스 참조:TargetLocationRequest
 
@@ -39,7 +39,7 @@ property Windows::Foundation::Collections::IMap<Platform::String^, Platform::Obj
 
 ## 문자열 상수
 
-이 정보는 사용자 지정 매개 변수의 키를 설정하는 데 도움이 됩니다.
+이 정보는 사용자 지정 매개 변수에 대한 키를 설정하는 데 도움이 됩니다.
 
 ```
 static property Platform::String ^TARGET_PARAMETER_ORDER_ID { 
@@ -73,7 +73,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **LoadRequest(winJS:loadRequest)**
 
-   Sends `request` to your configured Target server and returns the string value of the offer generated in a block `callback`.
+   `request`을(를) 구성된 Target 서버로 보내고 `callback` 블록에서 생성된 오퍼의 문자열 값을 반환합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -92,7 +92,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **CreateRequest(winJS:createRequest)**
 
-   Creates a `TargetLocationRequest` object with the given parameters.
+   지정된 매개 변수를 사용하여 `TargetLocationRequest` 개체를 만듭니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -109,7 +109,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **CreateOrder &#x200B; ConfirmRequest(winJS:createOrder &#x200B; ConfirmRequest)**
 
-   Creates a `TargetLocationRequest` object with the given parameters.
+   지정된 매개 변수를 사용하여 `TargetLocationRequest` 개체를 만듭니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
