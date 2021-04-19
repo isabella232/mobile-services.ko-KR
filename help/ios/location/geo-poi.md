@@ -4,16 +4,16 @@ seo-description: 지리적 위치는 iOS 앱에서 위도와 경도 및 사전 �
 seo-title: 지리적 위치 및 관심 영역
 solution: Experience Cloud,Analytics
 title: 지리적 위치 및 관심 영역
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: c800ec85-a33f-425d-b28f-bfe8bf229ae8
+exl-id: 732c3863-2010-4d04-a17b-a656e857f567
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 100%
 
 ---
-
 
 # 지리적 위치 및 관심 영역 {#geo-location-and-points-of-interest}
 
@@ -116,4 +116,3 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 * 두 POI의 지름이 겹치는 경우 현재의 위치가 포함된 첫 번째 POI가 사용됩니다.
 
    POI가 겹치는 경우, 가장 세부적인 POI가 보고되도록 가장 세부적인 것에서 가장 세부적이지 않은 것의 순서로 정렬된 POI를 나열해야 합니다.
-
