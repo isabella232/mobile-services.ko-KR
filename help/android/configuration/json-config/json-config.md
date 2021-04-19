@@ -4,16 +4,16 @@ seo-description: 다음은 ADBMobile.json 구성 파일을 사용하는 데 유�
 seo-title: ADBMobile JSON 구성
 solution: Experience Cloud,Analytics
 title: ADBMobile JSON 구성
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
+exl-id: 652aeb05-b052-448d-98c8-d513d050a6f5
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 100%
 
 ---
-
 
 # ADBMobile JSON 구성 파일 {#adbmobile-json-config}
 
@@ -396,5 +396,5 @@ ht-degree: 100%
 * &quot;triggers&quot;
    * 대상과 동일하지만 이는 대상이 아닌 동작입니다.
    * &quot;key&quot;
-   * &quot;matches&quot;
-   * &quot;values&quot;
+   * &quot;일치함&quot;
+   * &quot;값&quot;
