@@ -5,16 +5,16 @@ seo-description: 보고서를 사용자 지정할 때, 높은 유연성은 필�
 seo-title: 보고서 유형
 solution: Experience Cloud,Analytics
 title: 보고서 유형
-topic: Reports,Metrics
+topic-fix: Reports,Metrics
 uuid: 8747b11e-31b1-47bc-ad55-db5ab4ef7078
+exl-id: ba7af2f5-8c84-4c49-a793-5fbaa8947566
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '772'
 ht-degree: 100%
 
 ---
-
 
 # 보고서 유형 {#report-types}
 
