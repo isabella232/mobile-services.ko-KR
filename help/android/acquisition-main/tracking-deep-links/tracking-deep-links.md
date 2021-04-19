@@ -1,20 +1,20 @@
 ---
 description: 다음은 Adobe Mobile Android SDK를 사용하여 모바일 앱에서 딥링크와 지연된 딥링크를 추적하는 데 유용한 정보입니다.
-keywords: android;library;mobile;sdk
+keywords: android;라이브러리;모바일;sdk
 seo-description: 다음은 Adobe Mobile Android SDK를 사용하여 모바일 앱에서 딥링크와 지연된 딥링크를 추적하는 데 유용한 정보입니다.
 seo-title: Adobe Mobile Services의 딥링크 추적
 solution: Experience Cloud,Analytics
 title: 딥링크 추적
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: ebb1c08c-a246-40b3-9ac6-4606a14b4c5a
+exl-id: 4f59b77d-3cac-4853-bb6b-50a403036771
 translation-type: tm+mt
-source-git-commit: e28340249c22d9f121d5c21205227ee758fb9e1b
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '334'
 ht-degree: 100%
 
 ---
-
 
 # 딥링크 추적
 
@@ -72,4 +72,3 @@ Adobe Mobile SDK는 임의의 딥링크 또는 범용 링크에 `a.deeplink.id` 
  */
 public static final String ADB_MESSAGE_DEEPLINK_KEY = "adb_deeplink";
 ```
-
