@@ -4,16 +4,16 @@ seo-description: '다음은 JSON 구성, 히트 일괄 처리, SDK 메서드를 
 seo-title: 구성 개요
 solution: Experience Cloud,Analytics
 title: 구성 개요
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 207d6eae-7fc5-449d-b92b-c2d83e8e82b4
+exl-id: 6e16f15a-71c9-4f0d-ba45-f6c22e05b9c2
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
 
 ---
-
 
 # 구성 개요 {#configuration}
 
@@ -27,4 +27,3 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고
 
 * 시작하려면 Adobe Experience Platform Launch로 이동합니다.
 * Experience Platform SDK 리포지토리의 항목을 보려면 [Github: Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)로 이동하십시오.
-
