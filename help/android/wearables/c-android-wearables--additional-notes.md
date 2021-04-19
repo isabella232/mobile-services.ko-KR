@@ -4,16 +4,16 @@ seo-description: 다음은 Android Wearable 앱의 데이터를 수집할 수 �
 seo-title: Android 웨어러블 기기 추가 참고 사항
 solution: Experience Cloud,Analytics
 title: Android 웨어러블 기기 추가 참고 사항
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 3bcf352b-4d46-4ab3-81ec-c27e86fe9be3
+exl-id: ae8cf2d1-d2b0-456b-bbd3-3980e00bbc84
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
 
 ---
-
 
 # Android 웨어러블 기기: 추가 참고 사항{#android-wearables-additional-notes}
 
@@ -26,10 +26,9 @@ ht-degree: 100%
 
       히트는 휴대용 앱에서 가져옵니다.
 
-   * `RunMode` = `Extension`
+   * `RunMode` =  `Extension`
 
       히트는 웨어러블 앱에서 가져옵니다.
 
 * SDK는 휴대폰 앱에서 웨어러블 앱으로 `aid`/`vid`/`visitor`/`service id`/`privacy` 상태를 자동으로 동기화하므로 웨어러블 앱에서 `setPrivacyStatus`/`setUserIdentifier`/`idSync`를 호출하지 마십시오.
 * 웨어러블 앱에 대해 [인앱 메시지](/help/android/messaging-main/messaging/messaging.md), [Target](/help/android/target-main/target.md)및 [Audience Manager](/help/android/audience-manager/audiencemgmt.md)가 비활성화됩니다.
-
