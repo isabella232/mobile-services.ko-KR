@@ -5,16 +5,16 @@ seo-description: 이 정보는 기본 보고서를 이해하고 사용자 지정
 seo-title: 보고서 사용자 지정
 solution: Experience Cloud,Analytics
 title: 보고서 사용자 지정
-topic: Reports,Metrics
+topic-fix: Reports,Metrics
 uuid: 39ba9af3-eaee-44b9-bea4-c8f43a0d2a6c
+exl-id: 287b12fb-96f8-4fa9-a4f4-7325e30e1797
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '487'
 ht-degree: 100%
 
 ---
-
 
 # 보고서 사용자 지정{#customize-reports}
 
@@ -45,4 +45,3 @@ ht-degree: 100%
 | 6 | **[!UICONTROL 고정 필터]**&#x200B;를 사용하여 다양한 보고서에 적용되는 필터를 만들 수 있습니다. 예를 들어, 모든 모바일 보고서에서 특정 세그먼트가 수행되는 방식을 확인할 수 있습니다. 고정 필터를 사용하면 경로 지정 외의 모든 보고서에 적용되는 필터를 정의할 수 있습니다.  자세한 내용은 [고정 필터 추가](/help/using/usage/reports-customize/t-sticky-filter.md)를 참조하십시오. |
 | 7 | **[!UICONTROL 데이터 차트]**&#x200B;는 선택한 지표를 기반으로 하여 적절한 차트에 데이터를 표시됩니다. 차트 유형에는 라인 차트, 막대 차트, 도넛 차트 등이 포함됩니다. |
 | 8 | **[!UICONTROL 데이터 테이블]**&#x200B;은 데이터를 테이블 형식으로 표시합니다. 열 헤더를 클릭하여 데이터를 내림차순이나 오름차순으로 정렬할 수 있습니다. |
-
