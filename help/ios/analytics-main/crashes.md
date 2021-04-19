@@ -4,16 +4,16 @@ seo-description: 다음은 충돌을 추적하는 방법을 이해하고 허위 
 seo-title: 앱 충돌 추적
 solution: Experience Cloud,Analytics
 title: 앱 충돌 추적
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 4f81988b-198a-4ba9-ad53-78af90e43856
+exl-id: d6b4c763-7e02-42d0-aaf2-cda8640e5b9f
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 100%
 
 ---
-
 
 # 앱 충돌 추적 {#track-app-crashes}
 
@@ -70,4 +70,3 @@ Apteligent(이전의 Crittercism)와 같은 회사에서 제공하는 충돌 보
 * AdobeMobile SDK가 `NSUserDefaults`에 입력하는 값을 삭제하거나 수정하지 마십시오.
 
    이러한 값이 SDK 외부에서 수정되면 보고된 데이터가 올바르지 않습니다.
-
