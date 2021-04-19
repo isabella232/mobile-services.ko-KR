@@ -5,16 +5,16 @@ seo-description: 새 앱을 만들거나 기존 앱을 편집하는 동안 앱 �
 seo-title: SDK 획득 옵션 구성
 solution: Experience Cloud,Analytics
 title: SDK 획득 옵션 구성
-topic: Metrics
+topic-fix: Metrics
 uuid: 50ce51ad-39bf-4ac7-bd94-757443d11ca7
-translation-type: ht
-source-git-commit: aab04abeb5edb6be886002e27ef1c5340b0a8f0d
-workflow-type: ht
-source-wordcount: '174'
+exl-id: 72ab6777-88b5-4908-9d0f-7f68f298dad1
+translation-type: tm+mt
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+workflow-type: tm+mt
+source-wordcount: '175'
 ht-degree: 100%
 
 ---
-
 
 # SDK 획득 옵션 구성{#configure-sdk-acquisition-options}
 
