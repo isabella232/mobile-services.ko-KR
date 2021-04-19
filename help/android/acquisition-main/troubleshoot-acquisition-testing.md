@@ -1,19 +1,19 @@
 ---
 description: 이 항목에서는 획득 테스트 중에 발생할 수 있는 문제를 해결하는 방법에 대해 설명합니다.
-keywords: android;library;mobile;sdk
+keywords: android;라이브러리;모바일;sdk
 seo-description: 이 항목에서는 획득 테스트 중에 발생할 수 있는 문제를 해결하는 방법에 대해 설명합니다.
 seo-title: 획득 테스트 문제 해결
 solution: Experience Cloud,Analytics
 title: 획득 테스트 문제 해결
-topic: Developer and implementation
+topic-fix: Developer and implementation
+exl-id: 1ed2ad89-4e89-43da-aa21-f688b4d1c0d1
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '252'
 ht-degree: 100%
 
 ---
-
 
 # 획득 테스트 문제 해결 {#troubleshoot-acquisition-testing}
 
@@ -50,4 +50,3 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >레퍼러 의도를 올바르게 처리하려면 이 두 명령을 독립적으로 실행해야 합니다. 독립적으로 실행하지 않으면 `adb`가 레퍼러 정보를 두 번 이스케이프하므로 브로드캐스트 수신기가 수신한 데이터가 불완전할 수 있습니다.
-
