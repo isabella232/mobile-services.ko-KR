@@ -4,16 +4,16 @@ seo-description: 상태는 애플리케이션의 다양한 화면 또는 보기�
 seo-title: 앱 상태 추적
 solution: Experience Cloud,Analytics
 title: 앱 상태 추적
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 69c99d05-5816-4c86-97c5-d218dc26c129
+exl-id: ee1ea716-ee72-4c28-92cb-26df1327f5c6
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 100%
 
 ---
-
 
 # 앱 상태 추적 {#track-app-states}
 
@@ -78,5 +78,3 @@ public void onCreate(Bundle savedInstanceState) {
 | Adobe Mobile Services | **[!UICONTROL 상태 보기]** 보고서. 이 보고서는 사용자가 애플리케이션을 통해 가져온 경로를 기반으로 합니다. 샘플 경로는 **[!UICONTROL 홈]** > **[!UICONTROL 설정]** > **[!UICONTROL 피드]**&#x200B;입니다. |
 | Adobe Analytics | 상태는 **[!UICONTROL 페이지]** 보고서, **[!UICONTROL 페이지 보기]** 보고서 및 **[!UICONTROL 경로 보고서와 같이 페이지를 볼 수 있는 모든 위치에서 볼 수 있습니다 .]** |
 | Ad hoc analytics | 상태는 **[!UICONTROL 페이지]** 차원, **[!UICONTROL 페이지 보기 횟수]** 지표 및 **[!UICONTROL 경로 보고서를 사용하여 페이지를 볼 수 있는 모든 위치에서 볼 수 있습니다.]** |
-
-
