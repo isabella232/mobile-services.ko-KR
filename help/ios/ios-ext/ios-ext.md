@@ -4,16 +4,16 @@ seo-description: iOS 확장 프로그램을 사용하면 Apple Watch 앱(WatchOS
 seo-title: iOS 확장 프로그램 구현
 solution: Experience Cloud,Analytics
 title: iOS 확장 프로그램 구현
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 8afc03fe-403e-4643-ada1-30e403ede238
+exl-id: 741b0cd5-6245-480a-b5bf-a33a1f82a425
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
 
 ---
-
 
 # iOS 확장 프로그램 구현 {#ios-extension-implementation}
 
@@ -48,6 +48,7 @@ Apple은 포함 앱에 요청을 보내고 응답을 받아 Watch 앱이 포함 
 >
 >* 앱을 포함할 하나의 타겟.
 >* 확장을 위한 하나의 타겟.
+
 >
 
 
@@ -114,4 +115,3 @@ Xcode 프로젝트에서 다음 단계를 완료하십시오.
 * 포함된 앱을 실행하지 않은 경우 확장의 히트가 무시됩니다.
 * 버전 번호와 빌드 번호는 포함된 앱과 확장 앱 간에 동일해야 합니다.
 * iOS 확장 앱에서는 라이프사이클 호출이 트리거되지 않습니다.
-
