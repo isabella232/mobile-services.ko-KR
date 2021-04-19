@@ -5,16 +5,16 @@ seo-description: 다음은 푸시 메시지 문제를 해결하는 데 유용한
 seo-title: 푸시 메시지 문제 해결
 solution: Experience Cloud,Analytics
 title: 푸시 메시지 문제 해결
-topic: Metrics
+topic-fix: Metrics
 uuid: 9c4a9371-6691-4a2c-a6c1-b9f901a41599
+exl-id: 82b89f56-f43e-4b0d-80c5-5bff4013e5f7
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '306'
 ht-degree: 100%
 
 ---
-
 
 # 푸시 메시지 문제 해결 {#troubleshooting-push-messaging}
 
