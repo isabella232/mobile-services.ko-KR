@@ -4,16 +4,16 @@ seo-description: 모바일 웹 콘텐츠를 여는 앱의 경우, 방문자가 �
 seo-title: 앱과 모바일 웹 간 방문자 추적
 solution: Experience Cloud,Analytics
 title: 앱과 모바일 웹 간 방문자 추적
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 073572e4-4c55-4b27-b4a7-e4349ccde7bf
+exl-id: 7ca98572-138d-48f8-aa2a-d376eebb0b2c
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
 
 ---
-
 
 # 앱과 모바일 웹 간 방문자 추적 {#visitor-tracking-between-an-app-and-mobile-web}
 
@@ -94,4 +94,3 @@ Android SDK는 앱이 설치되면 고유 방문자 ID를 생성합니다. 이 I
 >[!IMPORTANT]
 >
 >구현에 대한 Adobe의 유효성 검사를 허용하려면 샘플 애플리케이션 및 관련 사이트를 공유해야 합니다.
-
