@@ -4,16 +4,16 @@ seo-description: 다음 정보는 iOS 9에 대한 새로운 보안 요구 사항
 seo-title: 앱 전송 보안
 solution: Experience Cloud,Analytics
 title: 앱 전송 보안
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: e9ee13cf-9802-492e-8b11-95f028e34e61
+exl-id: 2fe94e76-06d6-4ad1-95ba-193ae3df4d58
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 100%
 
 ---
-
 
 # 앱 전송 보안 {#app-transport-security}
 
@@ -39,4 +39,3 @@ Adobe Mobile Services의 앱 설정 관리 페이지에서 **[!UICONTROL HTTPS �
 >[!TIP]
 >
 >이러한 고려 사항은 Adobe Mobile SDK에서 수행한 연결에 영향을 주며 웹 보기 또는 다른 앱에서 수행한 연결에는 영향을 주지 않습니다.
-
