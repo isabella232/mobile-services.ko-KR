@@ -4,16 +4,16 @@ seo-description: Android SDK 버전 4.5부터 새 Android 확장 기능을 추�
 seo-title: Android 웨어러블 기기 시작하기
 solution: Experience Cloud,Analytics
 title: Android 웨어러블 기기 시작하기
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: bfe5d41e-b17c-4634-80ac-7a38671ecb81
+exl-id: 79cfaa48-d9b2-4518-8b31-d7041898a71b
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 100%
 
 ---
-
 
 # Android 웨어러블 기기: 시작하기{#android-wearables-getting-started}
 
@@ -205,4 +205,3 @@ SDK를 프로젝트로 가져오는 방법에 대한 자세한 내용은 [핵심
    Please find more information from google's blog https://android-developers.googleblog.com/2016/04/deprecation-of-bindlistener.html. 
    Permalink Edit
    ```
-
