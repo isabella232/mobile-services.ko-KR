@@ -5,16 +5,16 @@ seo-description: 사용자를 참여시킬 때 강력한 Analytics 데이터를 
 seo-title: 푸시 메시지 작성
 solution: Experience Cloud,Analytics
 title: 푸시 메시지 작성
-topic: Metrics
+topic-fix: Metrics
 uuid: fb2a6026-f7e6-40e6-999e-b43db35d6c69
+exl-id: e7ad3797-17c7-41ad-8b65-d9f8e5b01960
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '188'
 ht-degree: 100%
 
 ---
-
 
 # 푸시 메시지 작성 {#create-a-push-message}
 
