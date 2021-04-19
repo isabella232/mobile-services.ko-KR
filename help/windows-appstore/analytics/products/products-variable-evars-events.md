@@ -4,16 +4,16 @@ seo-description: 머천다이징 eVar 및 제품별 이벤트가 있는 products
 seo-title: 머천다이징 eVar 및 제품별 이벤트가 포함된 Products 변수
 solution: Experience Cloud,Analytics
 title: 머천다이징 eVar 및 제품별 이벤트가 포함된 Products 변수
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 94e882e4-b19d-4c48-9dfb-331465490347
+exl-id: 3a90f624-da13-4c26-9e4c-3a4af33bc5ee
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 27%
 
 ---
-
 
 # 머천다이징 eVar 및 제품별 이벤트가 포함된 Products 변수{#products-variable-with-merchandising-evars-and-product-specific-events}
 
@@ -40,5 +40,4 @@ ADB.Analytics.trackState("Order Confirmation", cdata);
 
 >[!TIP]
 >
->변수를 사용하여 제품별 이벤트를 트리거하는 경우 *`&&products`* *`&&events`* 변수에서 해당 이벤트도 설정해야 하며, 그렇지 않으면 처리 중에 이벤트가 필터링됩니다.
-
+>*`&&products`* 변수를 사용하여 제품별 이벤트를 트리거하는 경우 *`&&events`* 변수에서 해당 이벤트를 설정해야 하며, 그렇지 않으면 처리 중에 이벤트가 필터링됩니다.
