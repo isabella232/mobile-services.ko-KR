@@ -5,16 +5,16 @@ seo-description: 다음은 인앱 메시지 문제를 해결하는 데 유용한
 seo-title: 인앱 메시징 문제 해결
 solution: Experience Cloud,Analytics
 title: 인앱 메시징 문제 해결
-topic: Metrics
+topic-fix: Metrics
 uuid: 39c3a21d-92c2-4004-b00f-99b6f91d3696
+exl-id: 6c7d97ed-3b0a-48ff-b761-1485aea5e96d
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '529'
 ht-degree: 100%
 
 ---
-
 
 # 인앱 메시징 문제 해결{#troubleshooting-in-app-messaging}
 
@@ -70,6 +70,4 @@ ht-degree: 100%
 * **가로**
    * 이미지 크기가 장치 높이의 100%까지 조정되었습니다.
    * 너비는 장치의 75%이며 오른쪽에 페이드 아웃이 적용됩니다. 
-
    전체 화면 템플릿에 문제가 있으면 사용자 지정 HTML 템플릿을 다운로드하여 사용할 수 있습니다. 이 템플릿은 이미지에 더 많은 유연성을 제공하고 템플릿을 완전히 제어할 수 있도록 합니다.
-
