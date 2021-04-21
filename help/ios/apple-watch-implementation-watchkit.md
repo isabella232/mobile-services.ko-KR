@@ -41,7 +41,6 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고
 >* 포함된 앱
 >* WatchKit 앱
 >* WatchKit 확장
-
 >
 
 
