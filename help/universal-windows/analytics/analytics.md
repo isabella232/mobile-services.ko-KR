@@ -1,17 +1,15 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Analytics
+description: 프로젝트에 라이브러리를 추가하면 앱의 아무 곳에서나 Analytics 메서드를 호출할 수 있습니다.
 solution: Experience Cloud,Analytics
-title: 분석
+title: Analytics
 topic-fix: Developer and implementation
 uuid: c2cef3d3-77a7-4a8e-bbe4-3db10a77996a
 exl-id: cc96a7dd-ccc4-4914-8243-f3f160b75c21
 translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: b9ee49ba26d4726b1f97ef36f5c2e9923361b1ee
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 21%
+source-wordcount: '958'
+ht-degree: 20%
 
 ---
 
