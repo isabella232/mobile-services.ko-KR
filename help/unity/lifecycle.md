@@ -1,23 +1,21 @@
 ---
-description: 'null'
+description: 모바일 라이브러리에서 자동으로 측정할 수 있는 측정 지표 및 차원 측정
 keywords: Unity
-seo-description: 'null'
-seo-title: 라이프사이클 구현
 solution: Experience Cloud
 title: 라이프사이클 구현
 uuid: 7ff2c194-569c-42a6-922d-dccd2aa9eb8d
+exl-id: eca0cebb-6c69-4b0f-b003-c7fc422d0383
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: b9ee49ba26d4726b1f97ef36f5c2e9923361b1ee
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 11%
+source-wordcount: '95'
+ht-degree: 7%
 
 ---
 
-
 # 라이프사이클 구현{#implement-lifecycle}
 
-라이프사이클이 구현된 후 모바일 라이브러리를 통해 자동으로 측정할 수 있는 지표와 차원에 대한 자세한 내용은 iOS의 [라이프사이클 지표](/help/android/metrics.md) 또는 [라이프사이클을 참조하십시오](/help/ios/metrics.md).
+라이프사이클이 구현된 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표 및 차원에 대한 자세한 내용은 Android](/help/android/metrics.md)의 [라이프사이클 지표 또는 iOS](/help/ios/metrics.md)의 [라이프사이클을 참조하십시오.
 
 ## iOS
 
@@ -65,4 +63,3 @@ void OnEnable()
   ...
  }
 ```
-
