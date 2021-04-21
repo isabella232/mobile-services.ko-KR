@@ -1,19 +1,17 @@
 ---
-description: 'null'
+description: ADBMobile.cs 구성 메서드
 keywords: Unity
-seo-description: 'null'
-seo-title: AD BMobile.cs 메서드
 solution: Experience Cloud
 title: AD BMobile.cs 메서드
 uuid: af504934-febd-45d9-81e2-2a310f4c65dc
+exl-id: d12c16f1-c25c-4698-8943-a660d9c08faf
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: b9ee49ba26d4726b1f97ef36f5c2e9923361b1ee
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 66%
 
 ---
-
 
 # AD BMobile.cs 메서드 {#adbmobile-cs-methods}
 
@@ -90,7 +88,7 @@ ht-degree: 66%
    * `MOBILE_PRIVACY_STATUS_OPT_OUT`: 히트가 삭제됩니다.
    * `MOBILE_PRIVACY_STATUS_UNKNOWN`:오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다.
 
-      오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다. The default value is set in the [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md) file.
+      오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다. 기본값은 [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md) 파일에서 설정됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -142,7 +140,7 @@ ht-degree: 66%
 
    >[!TIP]
    >
-   >이 메서드는 앱이 백그라운드에 있을 때 알림을 등록하는 앱에 사용하기 위한 것으로 앱이 백그라운드에 있을 때 실행하는 코드에서만 호출되어야 합니다.
+   >이 메서드는 앱이 백그라운드에 있을 때 알림을 등록하는 앱에 사용하도록 만들었으며 앱이 백그라운드에 있을 때 실행하는 코드에서만 호출되어야 합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -158,7 +156,7 @@ ht-degree: 66%
 
 * **PauseCollectingLifecycleData(Android만 해당)**
 
-   라이프사이클 지표를 정확히 계산하기 위해 앱이 일시 중지되었음을 SDK에 표시합니다. 예를 들어 일시 중지 시 타임스탬프를 수집하여 이전 세션 길이를 결정합니다. 또한 앱이 충돌하지 않았음을 라이프사이클에서 정확히 알 수 있도록 플래그를 설정합니다. 자세한 내용은 [라이프사이클 지표](/help/android/metrics.md)를 참조하십시오.
+   라이프사이클 지표를 정확히 계산하기 위해 앱이 일시 중지되었음을 SDK에 표시합니다. 예를 들어 일시 중지에서 타임스탬프를 수집하여 이전 세션 길이를 결정합니다. 또한 앱이 충돌하지 않았음을 라이프사이클에서 정확히 알 수 있도록 플래그를 설정합니다. 자세한 내용은 [라이프사이클 지표](/help/android/metrics.md)를 참조하십시오.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -260,9 +258,9 @@ ht-degree: 66%
 
 * **TrackState**
 
-   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. 상태는 &quot;제목 화면&quot;, &quot;레벨 1&quot;, &quot;일시 중지&quot; 등과 같이 앱에서 사용할 수 있는 보기입니다. 이 상태는 웹 사이트의 페이지와 유사하며 `TrackState` 호출은 페이지 보기를 증가시킵니다.
+   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. 상태는 &quot;제목 화면&quot;, &quot;레벨 1&quot;, &quot;일시 중지&quot; 등 앱에서 사용할 수 있는 보기입니다. 이 상태는 웹 사이트의 페이지와 유사하며 `TrackState` 호출은 페이지 보기를 증가시킵니다.
 
-   상태가 비어 있으면 보고서에 *`app name app version (build)`* 로 표시됩니다. If you see this value in reports, make sure you are setting state in each `TrackState` call.
+   상태가 비어 있으면 보고서에 *`app name app version (build)`*&#x200B;으로 표시됩니다. 보고서에 이 값이 표시되면 각 `TrackState` 호출에서 상태를 설정해야 합니다.
 
    >[!TIP]
    >
@@ -284,7 +282,7 @@ ht-degree: 66%
 
 * **TrackAction**
 
-   앱의 작업을 추적합니다. 작업은 &quot;죽음&quot;, &quot;획득 레벨&quot;, &quot;피드 구독&quot; 및 기타 지표 등 측정하려는 앱에서 발생하는 일들입니다.
+   앱의 작업을 추적합니다. 작업은 &quot;종료&quot;, &quot;획득 레벨&quot;, &quot;피드 구독&quot; 및 기타 지표 등 측정하려는 앱에서 발생하는 일들입니다.
 
    >[!TIP]
    >
@@ -324,7 +322,7 @@ ht-degree: 66%
 
 * **TrackLocation**
 
-   현재 위도 및 경도 좌표를 보냅니다. 또한 `ADBMobileConfig.json` 파일에서 정의된 관심 영역을 사용하여 매개변수로 제공된 위치가 POI 내에 있는지 파악합니다. 현재 좌표가 정의된 POI 내에 있는 경우 컨텍스트 데이터 변수가 채워지고 TrackLocation 호출을 사용하여 전송됩니다.
+   현재 위도 및 경도 좌표를 보냅니다. 또한 `ADBMobileConfig.json` 파일에서 정의된 관심 영역을 사용하여 매개변수로 제공된 위치가 POI 내에 있는지 파악합니다. 현재 좌표가 정의된 POI 내에 있으면 컨텍스트 데이터 변수가 채워지고 TrackLocation 호출로 전송됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -520,9 +518,9 @@ ht-degree: 66%
       var mcid = ADBMobile.GetMarketingCloudID();
       ```
 
-* **방문자 동기화 식별자**
+* **VisitorSyncIdentifiers**
 
-   Experience Cloud ID를 사용하여 각 방문자와 연결할 추가 고객 ID를 설정할 수 있습니다. 방문자 API는 서로 다른 고객 ID의 범위를 구분하기 위해 동일한 방문자에 대한 여러 고객 ID와 고객 유형 식별자를 수락합니다. 이 메서드는 JavaScript 라이브러리의 setCustomerID에 해당합니다.
+   Experience Cloud ID를 사용하여 각 방문자와 연결할 추가 고객 ID를 설정할 수 있습니다. 방문자 API는 여러 다른 고객 ID의 범위를 구분하기 위해 동일한 방문자의 여러 고객 ID와 고객 유형 식별자를 수락합니다. 이 메서드는 JavaScript 라이브러리의 setCustomerID에 해당합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -540,7 +538,7 @@ ht-degree: 66%
 
 ## 획득 메서드
 
-* **프로세스GooglePlayInstallReferrerUrl** *(Android만 해당)*
+* **ProcessGooglePlayInstallReferrerUrl** *(Android만 해당)*
 
    Google Play 설치 레퍼러 API에 대한 호출에서 반환된 레퍼러 URL을 이 메서드에 전달합니다.
 
