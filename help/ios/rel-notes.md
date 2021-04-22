@@ -8,16 +8,20 @@ topic-fix: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
 exl-id: dd1e6bab-65e7-4a68-b3ec-21fb1a08aca2
 translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: a6663bf682f0a4283978f2f07277a4d4d43615f6
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 릴리스 노트 {#release-notes}
 
 다음은 Experience Cloud 솔루션용 iOS SDKs 4.x에 대한 릴리스 노트, 알려진 문제 및 핫픽스 정보입니다.
+
+**2021년 4월 13일:버전 4.21.2**
+
+* 방문자 ID 서비스 - 빈 광고 식별자가 방문자 ID 서비스와 동기화되는 문제를 수정했습니다.
 
 **2021년 1월 13일: 버전 4.21.1**
 
