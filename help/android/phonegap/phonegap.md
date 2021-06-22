@@ -8,11 +8,10 @@ title: PhoneGap 플러그인 개요
 topic-fix: Developer and implementation
 uuid: c5c32357-d8df-458a-b0e8-e0c56040241d
 exl-id: ecd756ca-e333-4d28-bd1e-a75ffc6ebe22
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: bb2459e57274183e55c1facd1a510cf55a83ddb4
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +70,7 @@ cordova plugin add adobe-mobile-services
 
    이 파일을 이동하려면 **[!UICONTROL 확인을 클릭하십시오]**.
 
-1. adobeMobileLibrary.jar 파일을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 라이브러리로 추가]**&#x200B;를 선택합니다.
+1. `adobeMobileLibrary.jar` 파일을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 라이브러리로 추가]**&#x200B;를 선택합니다.
 1. 프로젝트의 요구 사항에 따라 라이브러리의 이름, 수준 및 위치를 입력하십시오.
 1. `ADBMobileConfig.json` 파일을 애플리케이션 루트의 `assets` 폴더로 드래그합니다.
 1. 애플리케이션 내의 애플리케이션이 **아니라** 루트 애플리케이션을 선택했는지 확인합니다.
