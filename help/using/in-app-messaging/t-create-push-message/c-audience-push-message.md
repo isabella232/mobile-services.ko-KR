@@ -8,11 +8,10 @@ title: '대상: 푸시 메시지에 대한 대상 세그먼트 정의 및 구성
 topic-fix: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 exl-id: d1062a76-2e72-4649-8497-58617a7a47cb
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: af46d2ef6e8efaae32128384112fa5265d56de74
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 100%
+source-wordcount: '1020'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +25,7 @@ ht-degree: 100%
 
 Adobe Mobile Services에서 마케터는 플랫폼당 하나의 앱만 푸시할 수 있습니다. 마케터가 여러 앱의 사용자가 포함된 세그먼트를 푸시하려고 하면 진행 시 심각한 푸시 오류가 발생하고 사용자의 잠재적인 차단 목록이 발생할 수 있다는 경고가 표시됩니다. 푸시 오류가 발생하는 경우 *푸시 메시지 문제 해결*&#x200B;에서 [푸시 오류 해결](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)을 참조하십시오.
 
-세그먼트 정의에 Audience Manager 데이터를 사용하려면 [Audience Analytics](https://docs-author-stg.corp.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html)를 참조하십시오.
+세그먼트 정의에 Audience Manager 데이터를 사용하려면 [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)를 참조하십시오.
 
 >[!IMPORTANT]
 >
