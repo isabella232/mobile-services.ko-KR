@@ -3,11 +3,10 @@ audience: end-user
 user-guide-title: Mobile Services 안내서
 breadcrumb-title: Mobile Services 안내서
 user-guide-description: Mobile Services는 모바일 앱 사용자를 확보 및 확보하고 경험을 최적화할 수 있는 종단간 솔루션입니다.
-translation-type: tm+mt
-source-git-commit: b9ee49ba26d4726b1f97ef36f5c2e9923361b1ee
+source-git-commit: 8c74c479c357e008dbbaaee8eb11097582072470
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 100%
 # Mobile Services 안내서 {#using}
 
 + [Adobe Mobile Services](home.md)
-+ [릴리스 노트](whatsnew.md)
++ [사용 종료 공지](eol.md)
 + 시작하기 {#get-started-ug}
    + [시작하기](gs/gs.md)
    + [역할 및 권한](gs/c-mob-roles-and-permissions.md)
@@ -28,10 +27,10 @@ ht-degree: 100%
 + 앱 관리 {#manage-apps-ug}
    + [앱 관리 개요](manage-apps/manage-apps.md)
    + [새 앱 추가](manage-apps/t-new-app.md)
-   + [가상 보고서 세트](manage-apps/c-mob-vrs.md)
+   + [가상 보고서 세트를 참조하십시오](manage-apps/c-mob-vrs.md)
    + 앱스토어 {#app-store}
       + [앱스토어 개요](manage-apps/c-app-store/c-app-store.md)
-      + [앱스토어에서 앱 추가](manage-apps/c-app-store/t-app-store-app.md)
+      + [앱스토어에서 앱 추가를 참조하십시오](manage-apps/c-app-store/t-app-store-app.md)
       + [앱 삭제](manage-apps/t-delete-apps.md)
 + 앱 설정 관리 {#manage-app-settings-ug}
    + [앱 설정 관리](c-manage-app-settings/c-manage-app-settings.md)
@@ -98,7 +97,7 @@ ht-degree: 100%
    + [맵](location/c-map-points.md)
    + [관심 영역 관리](location/t-manage-points.md)
 + 메시징 {#messaging-ug}
-   + [메시지 개요](in-app-messaging/in-app-messaging.md)
+   + [메시징 개요](in-app-messaging/in-app-messaging.md)
    + [메시지 관리](in-app-messaging/messages-manage/messages-manage.md)
    + [메시지 보고서 보기](in-app-messaging/messages-manage/view-message-reports.md)
    + 푸시 메시지 {#push-messages}
@@ -114,4 +113,4 @@ ht-degree: 100%
       + [예약: 인앱 메시지](in-app-messaging/t-in-app-message/c-schedule-in-app-message.md)
       + [인앱 메시징 문제 해결](in-app-messaging/t-in-app-message/in-apps-ts.md)
       + [푸시 메시지에서 앱이 열릴 때 인앱 메시지 트리거하기](in-app-messaging/t-mob-trig-in-app-open-app-from-push.md)
-+ [FAQ](faq-mobile.md)
++ [자주 묻는 질문](faq-mobile.md)
