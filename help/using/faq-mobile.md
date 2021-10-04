@@ -1,18 +1,15 @@
 ---
 description: Adobe Mobile Services에 대한 FAQ 및 답변과 기능에 대한 일반 설명.
 keywords: mobile
-seo-description: Adobe Mobile Services에 대한 FAQ 및 답변과 기능에 대한 일반 설명.
-seo-title: FAQ
 solution: Experience Cloud,Analytics
-title: FAQ
+title: 자주 묻는 질문
 topic-fix: Metrics
 uuid: 62a9241c-2ada-483a-a594-b023916cb0b6
 exl-id: d7dfc36e-56f0-498a-ad50-93fee90cb6ff
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 100%
+source-wordcount: '1031'
+ht-degree: 96%
 
 ---
 
@@ -22,13 +19,9 @@ ht-degree: 100%
 
 ## Adobe 모바일 SDK {#section_9C2181F7B39A4BEB8EE6BCEFCF14C72F}
 
-### SDK를 자주 업데이트합니까?
-
-예, Adobe에서는 다양한 기능과 표준을 준수하고 안전한 SDK를 제공하기 위해 지속적으로 업데이트를 제공하고 있습니다. 일반적으로 매달 새로운 버전이 출시됩니다. 이러한 SDK 업데이트는 구현 시 도움이 되는 드롭인 대체(버전 4x용)입니다. 업데이트에 대한 자세한 내용은 [릴리스 노트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)를 참조하십시오.
-
 ### 사용해야 하는 SDK 버전은 무엇인가요?
 
-현재 SDK는 버전 4.11에 있습니다. 자세한 내용은 [릴리스 노트](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)를 참조하십시오.
+현재 SDK는 버전 4.11에 있습니다. 자세한 내용은 [릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
 
 ### 어디에서 SDK를 다운로드할 수 있나요?
 
@@ -44,7 +37,6 @@ Adobe Mobile SDK는 표준 iOS 및 Android 네트워크 스택을 사용합니�
 
 *하이레벨 네트워킹 API(예: NSURLSession 및 CFNetwork 프레임워크)를 사용하여 클라이언트 측 앱을 작성하고 이름별로 연결하는 경우 IPv6 주소에서 앱이 작동하려면 아무것도 변경하면 안 됩니다.* 자세한 내용은 [IPv6 DNS64/NAT64 네트워크 지원](https://developer.apple.com/library/content/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/UnderstandingandPreparingfortheIPv6Transition/UnderstandingandPreparingfortheIPv6Transition.html#__/apple_ref/doc/uid/TP40010220-CH213-SW1)을 참조하십시오.
 
-
 ## Adobe Analytics {#section_78EC9D83791F477AAED678720CEBA9F6}
 
 ### 라이프사이클 지표란?
@@ -53,7 +45,7 @@ Adobe Mobile SDK는 표준 iOS 및 Android 네트워크 스택을 사용합니�
 
 ### 처리 규칙 문제는 어떻게 해결해야 하나요?
 
-자세한 내용은 [처리 규칙 팁과 트릭](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html)을 참조하십시오.
+Adobe Analytics 설명서에서 [처리 규칙 팁과 트릭](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html)을 참조하십시오.
 
 ### 분석 데이터를 여러 보고서 세트로 보낼 수 있습니까?
 

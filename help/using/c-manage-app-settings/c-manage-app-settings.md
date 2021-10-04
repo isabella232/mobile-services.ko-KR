@@ -1,17 +1,14 @@
 ---
 description: 앱 관리에 앱 구성과 다양한 변수 및 지표 관리 작업이 포함됩니다.
 keywords: mobile
-seo-description: 앱 관리에 앱 구성과 다양한 변수 및 지표 관리 작업이 포함됩니다.
-seo-title: 앱 설정 관리
 solution: Experience Cloud,Analytics
 title: 앱 설정 관리
 topic-fix: Metrics
 uuid: 2ca93f92-f812-434c-add0-5bdf1442eb20
 exl-id: ed7b955e-f1db-42e5-95b4-a4fb8f169097
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '71'
 ht-degree: 100%
 
 ---

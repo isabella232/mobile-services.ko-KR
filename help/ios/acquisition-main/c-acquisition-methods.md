@@ -1,18 +1,15 @@
 ---
 description: '다음은 iOS 라이브러리에서 제공하는 획득 메서드입니다. '
-seo-description: '다음은 iOS 라이브러리에서 제공하는 획득 메서드입니다. '
-seo-title: 획득 메서드
 solution: Experience Cloud,Analytics
 title: 획득 메서드
 uuid: 6f88de57-793d-4d33-9a54-f6714289fd2c
-translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+exl-id: dd2721ae-b9a6-48b9-bc92-8e12ee551929
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '80'
 ht-degree: 100%
 
 ---
-
 
 # 획득 메서드 {#acquisition-methods}
 
@@ -35,5 +32,3 @@ ht-degree: 100%
       ```objective-c
       [ADBMobile acquisitionCampaignStartForApp:@"0652024f-adcd-49f9-9bd7-2552a4564d2f" data:@{@"custom.key":@"value"}]; 
       ```
-
-

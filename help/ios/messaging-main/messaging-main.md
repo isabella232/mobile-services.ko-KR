@@ -1,16 +1,13 @@
 ---
 description: 다음은 iOS 앱에서 메시지를 사용하는 데 유용한 정보입니다.
-seo-description: 다음은 iOS 앱에서 메시지를 사용하는 데 유용한 정보입니다.
-seo-title: 메시징
 solution: Experience Cloud,Analytics
 title: 메시징
 topic-fix: Developer and implementation
 uuid: c6475ab4-015d-46b0-af28-5d0df3f4459e
 exl-id: e7be8760-6daf-42c8-9c3d-1de29d62ad0b
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '110'
 ht-degree: 100%
 
 ---

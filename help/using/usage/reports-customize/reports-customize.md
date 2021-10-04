@@ -1,17 +1,14 @@
 ---
 description: 이 정보는 기본 보고서를 이해하고 사용자 지정하는 데 도움이 됩니다.
 keywords: mobile
-seo-description: 이 정보는 기본 보고서를 이해하고 사용자 지정하는 데 도움이 됩니다.
-seo-title: 보고서 사용자 지정
 solution: Experience Cloud,Analytics
 title: 보고서 사용자 지정
 topic-fix: Reports,Metrics
 uuid: 39ba9af3-eaee-44b9-bea4-c8f43a0d2a6c
 exl-id: 287b12fb-96f8-4fa9-a4f4-7325e30e1797
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '475'
 ht-degree: 100%
 
 ---

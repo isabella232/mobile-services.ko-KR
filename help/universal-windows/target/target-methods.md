@@ -1,33 +1,30 @@
 ---
 description: 유니버설 Windows 플랫폼 라이브러리에서 제공하는 Target 메서드 목록입니다.
-seo-description: 유니버설 Windows 플랫폼 라이브러리에서 제공하는 Target 메서드 목록입니다.
-seo-title: Target 메서드
 solution: Experience Cloud,Analytics
 title: Target 메서드
 topic-fix: Developer and implementation
 uuid: 2ad5953b-7850-446a-8053-b3715b86329b
 exl-id: d7aeee41-1c34-4f98-8455-e9f429287cfc
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 36%
+source-wordcount: '252'
+ht-degree: 37%
 
 ---
 
-# 타겟 메서드 {#target-methods}
+# Target 메서드 {#target-methods}
 
 유니버설 Windows 플랫폼 라이브러리에서 제공하는 Target 메서드 목록입니다.
 
-SDK는 현재 Analytics, Target 및 Audience Manager을 비롯한 여러 Adobe Experience Cloud 솔루션을 지원합니다.
+현재 SDK는 Analytics, Target 및 Audience Manager 등 여러 Adobe Experience Cloud 솔루션을 지원합니다.
 
-[라이프사이클 ](/help/universal-windows/metrics.md) 지표는 각 mbox 로드로 매개 변수로 전송됩니다.
+[라이프사이클 ](/help/universal-windows/metrics.md) 지표는 각 mbox 로드에 매개 변수로 전송됩니다.
 
 >[!TIP]
 >
->winJS(JavaScript)에서 `winmd` 메서드를 사용하면 모든 메서드에서 첫 번째 문자가 자동으로 소문자로 바뀝니다.
+>winJS(JavaScript)에서 `winmd` 메서드를 사용하면 모든 메서드가 자동으로 첫 번째 문자를 소문자로 바꿉니다.
 
-## 클래스 참조:TargetLocationRequest
+## 클래스 참조: TargetLocationRequest
 
 ## 속성
 
@@ -39,7 +36,7 @@ property Windows::Foundation::Collections::IMap<Platform::String^, Platform::Obj
 
 ## 문자열 상수
 
-이 정보는 사용자 지정 매개 변수에 대한 키를 설정하는 데 도움이 됩니다.
+다음은 사용자 지정 매개 변수에 대한 키를 설정하는 데 유용한 정보입니다.
 
 ```
 static property Platform::String ^TARGET_PARAMETER_ORDER_ID { 
@@ -71,9 +68,9 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 }
 ```
 
-* **LoadRequest(winJS:loadRequest)**
+* **LoadRequest(winJS: loadRequest)**
 
-   `request`을(를) 구성된 Target 서버로 보내고 `callback` 블록에서 생성된 오퍼의 문자열 값을 반환합니다.
+   구성된 Target 서버에 `request`을(를) 보내고 블록 `callback`에서 생성된 오퍼의 문자열 값을 반환합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -90,9 +87,9 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
        });
       ```
 
-* **CreateRequest(winJS:createRequest)**
+* **CreateRequest (winJS: createRequest)**
 
-   지정된 매개 변수를 사용하여 `TargetLocationRequest` 개체를 만듭니다.
+   지정된 매개 변수로 `TargetLocationRequest` 개체를 만듭니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -107,9 +104,9 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       var heroBannerRequest = ADB.Target.createRequest("heroBanner","default.png", null); 
       ```
 
-* **CreateOrder &#x200B; ConfirmRequest(winJS:createOrder &#x200B; ConfirmRequest)**
+* **주문 &#x200B; 확인 요청(winJS: createOrder &#x200B; ConfirmRequest)**
 
-   지정된 매개 변수를 사용하여 `TargetLocationRequest` 개체를 만듭니다.
+   지정된 매개 변수로 `TargetLocationRequest` 개체를 만듭니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -124,9 +121,9 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       var orderConfirm = ADB.Target.createOrderConfirmRequest("orderConfirm","order","47.88","3722",null);
       ```
 
-* **ClearCookies(winJS:clearCookies)**
+* **ClearCookies(winJS: clearCookies)**
 
-   현재 장치에서 응용 프로그램의 Target 쿠키를 지웁니다.
+   현재 장치에서 응용 프로그램에 대한 Target 쿠키를 지웁니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -140,7 +137,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       ADBMobile.Target.clearCookies();
       ```
 
-* **GetPcId(winJS:getPcId)**
+* **GetPcId(winJS: getPcId)**
 
    현재 장치에 대한 PC ID 쿠키를 반환합니다.
 
@@ -156,7 +153,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       autopcId = ADBMobile.Target.getPcId();
       ```
 
-* **GetSessionId(winJS:getSessionId)**
+* **GetSessionId(winJS: getSessionId)**
 
    현재 장치에 대한 세션 ID 쿠키를 반환합니다.
 

@@ -1,20 +1,17 @@
 ---
 description: 다음은 장치 지문 파일을 기반으로 하는 기존 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
-seo-description: 다음은 장치 지문 파일을 기반으로 하는 기존 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
-seo-title: 기존 획득 테스트
 solution: Experience Cloud,Analytics
 title: 기존 획득 테스트
 uuid: e0591f4a-e26b-4fe4-97c1-a6831a926fa5
-translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+exl-id: 431dc400-952a-4515-9d14-ba2efef4b2c4
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '251'
 ht-degree: 100%
 
 ---
 
-
-# 기존 획득 테스트 {#testing-legacy-acquisition}
+# 기존 획득 테스트  {#testing-legacy-acquisition}
 
 다음은 장치 지문 파일을 기반으로 하는 기존 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
 

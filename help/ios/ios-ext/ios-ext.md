@@ -1,16 +1,13 @@
 ---
 description: iOS 확장 프로그램을 사용하면 Apple Watch 앱(WatchOS 1), 오늘 위젯, 사진 편집 위젯 및 기타 iOS 확장 앱에서 사용 데이터를 효율적으로 수집할 수 있습니다.
-seo-description: iOS 확장 프로그램을 사용하면 Apple Watch 앱(WatchOS 1), 오늘 위젯, 사진 편집 위젯 및 기타 iOS 확장 앱에서 사용 데이터를 효율적으로 수집할 수 있습니다.
-seo-title: iOS 확장 프로그램 구현
 solution: Experience Cloud,Analytics
 title: iOS 확장 프로그램 구현
 topic-fix: Developer and implementation
 uuid: 8afc03fe-403e-4643-ada1-30e403ede238
 exl-id: 741b0cd5-6245-480a-b5bf-a33a1f82a425
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '691'
 ht-degree: 100%
 
 ---
@@ -48,8 +45,8 @@ Apple은 포함 앱에 요청을 보내고 응답을 받아 Watch 앱이 포함 
 >
 >* 앱을 포함할 하나의 타겟.
 >* 확장을 위한 하나의 타겟.
->
 
+>
 
 
 WatchKit 앱에서 작업하는 경우 세 번째 타겟이 있어야 합니다. Apple Watch용 개발에 대한 자세한 내용은 [Apple Watch용 개발](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1)을 참조하십시오.
@@ -77,7 +74,7 @@ Xcode 프로젝트에서 다음 단계를 완료하십시오.
 
 1. 예기치 않은 오류 없이 앱이 빌드되는지 확인합니다.
 
-## 확장 프로그램 구성{#section_28C994B7892340AC8D1F07AF26FF3946}
+## 확장 프로그램 구성 {#section_28C994B7892340AC8D1F07AF26FF3946}
 
 1. `ADBMobileConfig.json` 파일이 확장 프로그램의 타겟 구성원인지 확인합니다.
 1. 확장 프로그램 타겟의 **[!UICONTROL 빌드 단계]** 탭에서 **[!UICONTROL 바이너리를 라이브러리와 연결]** 섹션을 확장하고 다음 라이브러리를 추가합니다.

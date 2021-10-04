@@ -1,17 +1,14 @@
 ---
 description: Adobe Mobile을 사용하여 여러 메트릭을 측정하고, 앱에 대해 추적할 지표를 수집할 수 있습니다.
 keywords: mobile
-seo-description: Adobe Mobile을 사용하여 여러 메트릭을 측정하고, 앱에 대해 추적할 지표를 수집할 수 있습니다.
-seo-title: 모바일 지표
 solution: Experience Cloud,Analytics
 title: 모바일 지표
 topic-fix: Metrics
 uuid: c4457f4a-9d1c-4fe9-ad4a-9eb2e37feab7
 exl-id: 13912d5e-9813-4f8f-80d5-1f3cfcdd6aa3
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '529'
 ht-degree: 100%
 
 ---

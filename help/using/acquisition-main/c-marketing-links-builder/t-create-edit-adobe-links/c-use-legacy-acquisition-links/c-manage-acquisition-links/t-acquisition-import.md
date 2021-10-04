@@ -1,17 +1,14 @@
 ---
 description: Adobe Mobile Services 사용자 인터페이스를 사용하는 대신 .csv 파일을 사용하여 획득 링크 작업을 하는 것이 나을 경우 이러한 링크를 가져오거나 내보내십시오.
 keywords: mobile
-seo-description: Adobe Mobile Services 사용자 인터페이스를 사용하는 대신 .csv 파일을 사용하여 획득 링크 작업을 하는 것이 나을 경우 이러한 링크를 가져오거나 내보내십시오.
-seo-title: 획득 링크 가져오기 또는 내보내기
 solution: Experience Cloud,Analytics
 title: 획득 링크 가져오기 또는 내보내기
 topic-fix: Metrics
 uuid: 94ea008a-473a-40c3-9fa8-a94eb0208c8f
 exl-id: 9be2377e-7f46-44f7-9c5e-1c20c617276d
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '101'
 ht-degree: 100%
 
 ---

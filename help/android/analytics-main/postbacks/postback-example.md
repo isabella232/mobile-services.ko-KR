@@ -1,17 +1,14 @@
 ---
 description: 이 정보를 사용하면 포스트백과 포스트백의 작동 방식에 대해 이해할 수 있습니다.
 keywords: android;라이브러리;모바일;sdk
-seo-description: 이 정보를 사용하면 포스트백과 포스트백의 작동 방식에 대해 이해할 수 있습니다.
-seo-title: 포스트백 예시
 solution: Experience Cloud,Analytics
 title: 포스트백 예시
 topic-fix: Developer and implementation
 uuid: 8010cd00-d42b-4e16-8403-692fab2550f1
 exl-id: 2ff41066-e2ee-425f-8aff-e5e3f3e5f0f5
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '128'
 ht-degree: 100%
 
 ---
@@ -64,6 +61,6 @@ contextData.put("user.zip", "90210");
 Analytics.trackState("MainMenu", contextData);
 ```
 
-상태가 `“MainMenu”`이므로 이 추적 호출은 위의 포스트백 메시지를 트리거합니다. 이 URL은 모든 템플릿 변수를 히트의 값으로 대체하게 됩니다. 사용자의 이전 세션이 132초였고 Android SDK 버전 4.6.0을 사용 중이라고 가정할 경우 그 결과로 나타나는 URL은 다음과 같습니다.
+상태가 `"MainMenu"`이므로 이 추적 호출은 위의 포스트백 메시지를 트리거합니다. 이 URL은 모든 템플릿 변수를 히트의 값으로 대체하게 됩니다. 사용자의 이전 세션이 132초였고 Android SDK 버전 4.6.0을 사용 중이라고 가정할 경우 그 결과로 나타나는 URL은 다음과 같습니다.
 
 `https://my.server.com/?user=bob&zip=90210&c16=4.6.0-AN&c27=cln,132`

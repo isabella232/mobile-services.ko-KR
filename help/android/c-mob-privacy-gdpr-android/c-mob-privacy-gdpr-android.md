@@ -1,17 +1,14 @@
 ---
 description: Experience Cloud Mobile SDK는 사용자가 로컬로 저장된 ID를 검색하고 데이터 수집 및 전송에 대한 선택 상태 플래그를 설정할 수 있는 컨트롤러에 일반 데이터 보호 규정(GDPR) 지원 API를 제공합니다.
-seo-description: Experience Cloud Mobile SDK는 사용자가 로컬로 저장된 ID를 검색하고 데이터 수집 및 전송에 대한 선택 상태 플래그를 설정할 수 있는 컨트롤러에 일반 데이터 보호 규정(GDPR) 지원 API를 제공합니다.
-seo-title: 개인 정보 및 일반 데이터 보호 규정 개요
 title: 개인 정보 및 일반 데이터 보호 규정 개요
 uuid: 56d6f155-efec-4b3f-a972-a63155729167
-translation-type: tm+mt
-source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
+exl-id: 57696f2e-87f4-4f72-bec2-80c7192576f9
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 78%
+source-wordcount: '322'
+ht-degree: 76%
 
 ---
-
 
 # 개인 정보 및 일반 데이터 보호 규정 개요 {#privacy-and-general-data-protection-regulation}
 
@@ -32,9 +29,9 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고
 >
 >GDPR은 Mobile SDK 버전 4.16.0 이상에서&#x200B;**만** 지원됩니다.
 
-Adobe이 기업에 소프트웨어 및 서비스를 제공하는 경우, Adobe은 이러한 서비스를 제공하기 위해 처리 및 저장하는 모든 개인 데이터에 대한 데이터 프로세서 역할을 합니다. 데이터 프로세서로서 Adobe은 회사의 허가와 지침에 따라 개인 데이터를 처리합니다(예: Adobe와의 계약에 명시된 경우).
+Adobe이 기업에 소프트웨어 및 서비스를 제공할 때 Adobe은 이러한 서비스를 제공하는 과정에서 처리하고 저장하는 개인 데이터에 대한 데이터 처리자 역할을 합니다. Adobe은 데이터 처리자로서 귀사의 허가 및 지침(예: Adobe와의 계약에 명시된 내용)에 따라 개인 데이터를 처리합니다.
 
-데이터 관리자는 Adobe Mobile Services SDK를 사용하여 모바일 앱에서 GDPR 검색 및 삭제 요청을 지원할 수 있습니다.
+데이터 제어자는 Mobile Services SDK를 사용하여 모바일 앱에서 GDPR 검색 및 삭제 요청을 지원할 수 있습니다.
 
 모바일 앱의 Adobe Mobile SDK 부분에 대해 다음 설정 및 메서드를 사용할 수 있습니다.
 

@@ -1,21 +1,18 @@
 ---
 description: 모바일 웹 콘텐츠를 여는 앱의 경우, 방문자가 기본 웹과 모바일 웹 사이를 이동할 때 개별적으로 식별되지 않도록 해야 합니다.
-seo-description: 모바일 웹 콘텐츠를 여는 앱의 경우, 방문자가 기본 웹과 모바일 웹 사이를 이동할 때 개별적으로 식별되지 않도록 해야 합니다.
-seo-title: 앱과 모바일 웹 간 방문자 추적
 solution: Experience Cloud,Analytics
 title: 앱과 모바일 웹 간 방문자 추적
 topic-fix: Developer and implementation
 uuid: 2d951de6-3954-4379-a4ff-99b9695b9869
 exl-id: d8459d59-0edd-42c4-81b5-529b250accb4
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '494'
 ht-degree: 100%
 
 ---
 
-# 앱과 모바일 웹 간 방문자 추적 {#visitor-tracking-between-an-app-and-mobile-web}
+# 앱과 모바일 웹 간 방문자 추적   {#visitor-tracking-between-an-app-and-mobile-web}
 
 모바일 웹 콘텐츠를 여는 앱의 경우, 방문자가 기본 웹과 모바일 웹 사이를 이동할 때 개별적으로 식별되지 않도록 해야 합니다.
 
@@ -41,7 +38,7 @@ iOS SDK는 앱이 설치되면 고유 방문자 ID를 생성합니다. 이 ID는
 1. 웹 보기를 여는 데 사용 중인 URL에 방문자 정보를 추가하려면 `visitorAppendToURL`을 호출합니다.
 
    ```objective-c
-   NSURL *url = [NSURL URLWithString:@”https://www.mydomain.com/index.php"]; 
+   NSURL *url = [NSURL URLWithString:@"https://www.mydomain.com/index.php"]; 
    NSURL *urlWithVisitorData = [ADBMobile visitorAppendToURL:url]; 
    [[UIApplication sharedApplication] openURL:urlWithVisitorData];
    ```

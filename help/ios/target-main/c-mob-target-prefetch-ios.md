@@ -1,27 +1,24 @@
 ---
 description: Adobe Target 미리 가져오기 기능은 iOS Mobile SDK를 사용하여 서버 응답을 캐시하여 가능한 한 적은 시간에 오퍼 콘텐츠를 가져옵니다.
-seo-description: Adobe Target 미리 가져오기 기능은 iOS Mobile SDK를 사용하여 서버 응답을 캐시하여 가능한 한 적은 시간에 오퍼 콘텐츠를 가져옵니다.
-seo-title: iOS에서 오퍼 콘텐츠 미리 가져오기
 title: iOS에서 오퍼 콘텐츠 미리 가져오기
 uuid: fef58042-65e2-4579-b8f1-d21554d2af57
-translation-type: tm+mt
-source-git-commit: fa7375ac8a1345d81748bcf635791c46d3943fed
+exl-id: 64d43be7-6bd1-4657-8154-5b2c1cbbf42b
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 86%
+source-wordcount: '731'
+ht-degree: 85%
 
 ---
 
-
-# iOS에서 오퍼 컨텐츠 미리 가져오기 {#prefetch-offer-content-in-ios}
+# iOS에서 오퍼 콘텐츠 미리 가져오기 {#prefetch-offer-content-in-ios}
 
 Adobe Target 미리 가져오기 기능은 iOS Mobile SDK를 사용하여 서버 응답을 캐시하여 가능한 한 적은 시간에 오퍼 컨텐츠를 가져옵니다.
 
 >[!IMPORTANT]
 >
->iOS용 Mobile SDK의 미리 가져오기 기능은 Adobe Target의 자동 타겟, 자동 할당 및 자동화된 맞춤설정 활동 유형에서 지원되지 않습니다.
+>iOS용 Mobile SDK의 미리 가져오기 기능은 Adobe Target의 Auto Target, Auto Allocate 및 Automated Personalization 활동 유형에서 지원되지 않습니다.
 
-이 프로세스는 로드 시간을 단축하고, 여러 네트워크 호출을 방지하며, 모바일 앱 사용자가 방문한 mbox에 대해 Adobe Target에 알림을 제공합니다. 모든 컨텐츠는 프리페치 호출 동안 검색되고 캐시되며, 이 컨텐츠는 지정된 mbox 이름에 대해 캐시된 컨텐트가 포함된 이후 모든 호출에 대해 캐시에서 검색됩니다.
+이 프로세스는 로드 시간을 줄이고, 다중 네트워크 호출을 방지하며, 모바일 앱 사용자가 방문한 mbox를 Adobe Target에 알려줄 수 있도록 해줍니다. 모든 콘텐츠는 미리 가져오기 호출 중에 검색되고 캐시되며, 이 콘텐츠는 지정된 mbox 이름에 대해 캐시된 콘텐츠를 포함하는 이후의 모든 호출에 대한 캐시에서 검색됩니다.
 
 미리 가져오기 콘텐츠는 실행 간에는 지속되지 않으며, 애플리케이션이 상주하는 한 또는 `clearPrefetchCache()` 메서드가 호출될 때까지 캐시됩니다.
 
@@ -179,7 +176,7 @@ mbox 미리 가져오기에 사용되는 mbox 이름 및 매개 변수를 캡슐
 
 * **`mboxParameters`**
 
-   검색할 위치/mbox의 이름을 나타내는 NSString 값.
+   검색할 위치/mbox의 이름을 나타내는 NSString 값입니다.
 
    * **유형**: NSString*
 

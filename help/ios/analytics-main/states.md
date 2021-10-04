@@ -1,16 +1,13 @@
 ---
 description: '상태는 애플리케이션의 다양한 화면 또는 보기입니다. 새로운 상태가 애플리케이션에 표시될 때마다(예: 사용자가 홈페이지에서 뉴스피드로 이동할 때) 상태 추적 호출이 전송됩니다. iOS에서 상태는 일반적으로 각 보기의 viewDidLoad 메서드에서 추적합니다.'
-seo-description: '상태는 애플리케이션의 다양한 화면 또는 보기입니다. 새로운 상태가 애플리케이션에 표시될 때마다(예: 사용자가 홈페이지에서 뉴스피드로 이동할 때) 상태 추적 호출이 전송됩니다. iOS에서 상태는 일반적으로 각 보기의 viewDidLoad 메서드에서 추적합니다.'
-seo-title: 앱 상태 추적
 solution: Experience Cloud,Analytics
 title: 앱 상태 추적
 topic-fix: Developer and implementation
 uuid: 12cca4eb-1f15-4cec-a58f-76b69eaff99d
 exl-id: 1b7d2fbb-d2df-4063-b923-e59fa3582830
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '339'
 ht-degree: 100%
 
 ---

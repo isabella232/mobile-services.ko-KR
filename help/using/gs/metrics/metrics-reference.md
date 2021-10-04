@@ -1,17 +1,14 @@
 ---
 description: 다음은 기본 모바일 지표 및 차원에 대한 참조 정보입니다.
 keywords: mobile
-seo-description: 다음은 기본 모바일 지표 및 차원에 대한 참조 정보입니다.
-seo-title: 모바일 지표 및 차원 참조
 solution: Experience Cloud,Analytics
 title: 모바일 지표 및 차원 참조
 topic-fix: Metrics
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
 exl-id: ddfbf11e-a4c3-4d59-92b3-1d192dc3e7cd
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '621'
 ht-degree: 100%
 
 ---

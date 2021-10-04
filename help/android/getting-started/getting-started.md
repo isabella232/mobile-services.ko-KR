@@ -1,16 +1,13 @@
 ---
 description: '다음은 Experience Cloud 솔루션용 Android SDK를 시작할 때 참조할 수 있는 정보입니다. '
-seo-description: '다음은 Experience Cloud 솔루션용 Android SDK를 시작할 때 참조할 수 있는 정보입니다. '
-seo-title: 시작하기
 solution: Experience Cloud,Analytics
 title: 시작하기
 topic-fix: Developer and implementation
 uuid: 39c642e2-60f0-4bbe-b0d1-2635ee2c6d01
 exl-id: 895f3986-5e6a-4bb1-b11f-a4dad0ba6bc7
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '124'
 ht-degree: 100%
 
 ---

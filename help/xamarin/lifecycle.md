@@ -1,33 +1,30 @@
 ---
-description: Android용 라이프사이클 지표를 구현하는 데 도움이 되는 정보입니다. 라이프사이클 지표는 iOS에 대해 자동으로 수집됩니다.
+description: Android용 라이프사이클 지표를 구현하는 데 도움이 되는 정보입니다. iOS에 대해 라이프사이클 지표가 자동으로 수집됩니다.
 keywords: Xamarin
-seo-description: Android용 라이프사이클 지표를 구현하는 데 도움이 되는 정보입니다. 라이프사이클 지표는 iOS에 대해 자동으로 수집됩니다.
-seo-title: 라이프사이클 구현
 solution: Experience Cloud
 title: 라이프사이클 구현
 uuid: 6dccc12e-8b57-4231-9c74-d47bc0ac93ba
-translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+exl-id: c76e63d1-48a5-4831-85d5-f3d3e9798a43
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '85'
 ht-degree: 7%
 
 ---
 
-
 # 라이프사이클 구현 {#implement-lifecycle}
 
-이 정보는 Android용 라이프사이클 지표를 구현하는 데 도움이 됩니다.
+다음은 Android용 라이프사이클 지표를 구현하는 데 유용한 정보입니다.
 
 >[!TIP]
 >
->라이프사이클 지표는 iOS에 대해 자동으로 수집됩니다.
+>iOS에 대해 라이프사이클 지표가 자동으로 수집됩니다.
 
-라이프사이클이 구현된 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표와 차원은 라이프사이클 지표 [를 참조하십시오](/help/ios/metrics.md).
+라이프사이클이 구현된 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표 및 차원은 [라이프사이클 지표](/help/ios/metrics.md)를 참조하십시오.
 
 ## iOS
 
-iOS에서는 라이프사이클 지표가 자동으로 수집됩니다.
+iOS에서 라이프사이클 지표는 자동으로 수집됩니다.
 
 ## Android
 

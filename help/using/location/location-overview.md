@@ -1,17 +1,14 @@
 ---
 description: 위치 섹션에 대한 개요입니다.
 keywords: mobile
-seo-description: 위치 섹션에 대한 개요입니다.
-seo-title: 위치 개요
 title: 위치 개요
-translation-type: tm+mt
-source-git-commit: 41aa0a994bd0ad1e6f5421cf368d78b616ff9170
+exl-id: eaec9a06-8f5e-497e-8d03-d07374325909
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '98'
 ht-degree: 100%
 
 ---
-
 
 # 위치 개요 {#location-overview}
 

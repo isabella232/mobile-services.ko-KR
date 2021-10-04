@@ -1,17 +1,15 @@
 ---
 description: 푸시 메시지에 대해 날짜 범위 옵션, Analytics 세그먼트 및 사용자 지정 세그먼트 등의 대상 옵션을 정의하고 구성할 수 있습니다.
 keywords: mobile
-seo-description: 푸시 메시지에 대해 날짜 범위 옵션, Analytics 세그먼트 및 사용자 지정 세그먼트 등의 대상 옵션을 정의하고 구성할 수 있습니다.
-seo-title: '대상: 푸시 메시지에 대한 대상 세그먼트 정의 및 구성'
 solution: Experience Cloud,Analytics
 title: '대상: 푸시 메시지에 대한 대상 세그먼트 정의 및 구성'
 topic-fix: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 exl-id: d1062a76-2e72-4649-8497-58617a7a47cb
-source-git-commit: af46d2ef6e8efaae32128384112fa5265d56de74
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 99%
+source-wordcount: '976'
+ht-degree: 98%
 
 ---
 
@@ -90,11 +88,10 @@ Adobe Mobile Services에서 마케터는 플랫폼당 하나의 앱만 푸시할
 
    * 푸시 메시지 문제 해결에 대한 자세한 내용은 다음을 참조하십시오.
 
-      * [iOS의 푸시 메시지](https://docs.adobe.com/content/help/ko-KR/mobile-services/ios/messaging-ios/push-messaging/push-messaging.html)
+      * [iOS의 푸시 메시지](/help/ios/messaging-main/push-messaging/push-messaging.md)
+      * [Android의 푸시 메시지](/help/android/messaging-main/push-messaging/push-messaging.md)
 
-      * [Android의 푸시 메시지](https://docs.adobe.com/content/help/ko-KR/mobile-services/android/messaging-android/push-messaging/push-messaging.html)
-
-1. 다음 필드에 정보를 입력하십시오.
+2. 다음 필드에 정보를 입력하십시오.
 
    * **[!UICONTROL 다음 기간 동안]**
 
@@ -110,7 +107,7 @@ Adobe Mobile Services에서 마케터는 플랫폼당 하나의 앱만 푸시할
 
    * **[!UICONTROL Analytics 세그먼트]**
 
-      드롭다운 목록에서 기존 Adobe Analytics 세그먼트를 선택합니다. 자세한 내용은 [세그먼트 빌드](https://docs.adobe.com/content/help/ko-KR/analytics/components/segmentation/segmentation-workflow/seg-build.html)를 참조하십시오.
+      드롭다운 목록에서 기존 Adobe Analytics 세그먼트를 선택합니다. 자세한 내용은 Adobe Analytics 설명서에서 [세그먼트 빌더](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ko-KR) 를 참조하십시오.
 
    * **[!UICONTROL 사용자 지정 세그먼트]**
 

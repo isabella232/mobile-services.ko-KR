@@ -1,16 +1,13 @@
 ---
 description: 시간 작업을 사용하면 작업의 시작과 끝 사이의 인앱 시간 및 총 시간을 측정할 수 있습니다. 이 SDK는 각 세션의 시간과 작업을 완료하는 데 소요되는 총 세션 시간을 계산합니다. 시간 작업을 사용하여 세그먼트를 정의하고 구매, 전달 수준, 체크아웃 플로우 등에 걸리는 시간을 비교할 수 있습니다.
-seo-description: 시간 작업을 사용하면 작업의 시작과 끝 사이의 인앱 시간 및 총 시간을 측정할 수 있습니다. 이 SDK는 각 세션의 시간과 작업을 완료하는 데 소요되는 총 세션 시간을 계산합니다. 시간 작업을 사용하여 세그먼트를 정의하고 구매, 전달 수준, 체크아웃 플로우 등에 걸리는 시간을 비교할 수 있습니다.
-seo-title: 시간 작업
 solution: Experience Cloud,Analytics
 title: 시간 작업
 topic-fix: Developer and implementation
 uuid: 5a48a580-b942-4e49-9f1b-078fea7fccdb
 exl-id: d9851440-6e65-4d89-a6b3-81c8abd2bf06
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '346'
 ht-degree: 100%
 
 ---
@@ -79,7 +76,7 @@ Analytics.trackTimed​ActionUpdate("TimeUntilPurchase", cdata);
 
 ![](assets/map-variable-context-ltv.png)
 
-## 예 {#section_7BA344B8BD4F48DCBAE27AC9320CBCEA}
+## 예시 {#section_7BA344B8BD4F48DCBAE27AC9320CBCEA}
 
 ```java
 // Timed Action Start Example 

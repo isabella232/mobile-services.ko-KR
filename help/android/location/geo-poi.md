@@ -1,16 +1,13 @@
 ---
 description: 지리적 위치는 Android 앱에서 위도와 경도 및 사전 정의된 관심 영역을 사용하여 위치 데이터를 측정할 수 있도록 합니다.
-seo-description: 지리적 위치는 Android 앱에서 위도와 경도 및 사전 정의된 관심 영역을 사용하여 위치 데이터를 측정할 수 있도록 합니다.
-seo-title: 지리적 위치 및 관심 영역
 solution: Experience Cloud,Analytics
 title: 지리적 위치 및 관심 영역
 topic-fix: Developer and implementation
 uuid: b8209370-cbc4-40f9-97d8-017e2d74a377
 exl-id: e1fed35b-5ce9-48ee-ade0-b1701cf2a3a9
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '571'
 ht-degree: 100%
 
 ---
@@ -34,7 +31,7 @@ ht-degree: 100%
 버전 4.2부터 POI는 Adobe Mobile UI에서 정의되며 앱 구성 파일과 동적으로 동기화됩니다. 이 동기화를 수행하려면 `analytics.poi`ADBMobile JSON 구성[의 ](/help/android/configuration/json-config/json-config.md) 설정이 필요합니다.
 
 ```js
-“analytics.poi”: “https://assets.adobedtm.com/…/yourfile.json”,
+"analytics.poi": "https://assets.adobedtm.com/…/yourfile.json",
 ```
 
 구성되지 않은 경우 `ADBMobile.json` 파일의 업데이트된 버전을 다운로드하여 앱에 추가해야 합니다. 자세한 내용은 [SDK 및 테스트 도구 다운로드](/help/android/getting-started/requirements.md)를 참조하십시오.

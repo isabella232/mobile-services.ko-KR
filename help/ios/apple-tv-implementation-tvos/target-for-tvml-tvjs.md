@@ -1,21 +1,18 @@
 ---
-description: .xml 파일을 직접 교체하여 TVML/TVJS 앱에서 Adobe Target을 활용할 수 있습니다. 사용자 지정 ADBTarget XML 요소를 사용하여 페이지의 영역을 Target 컨텐츠으로 대체하도록 지정합니다.
-seo-description: .xml 파일을 직접 교체하여 TVML/TVJS 앱에서 Adobe Target을 활용할 수 있습니다. 사용자 지정 ADBTarget XML 요소를 사용하여 페이지의 영역을 Target 컨텐츠으로 대체하도록 지정합니다.
-seo-title: TVML/TVJS용 Adobe Target
+description: .xml 파일을 직접 대체하여 TVML/TVJS 앱에서 Adobe Target을 활용할 수 있습니다. 사용자 지정 ADBTarget XML 요소를 사용하여 페이지의 영역을 Target 컨텐츠으로 대체하도록 지정합니다.
 title: TVML/TVJS용 Adobe Target
 uuid: afd5a583-5266-43f2-8cb0-0ace89c53a57
-translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+exl-id: 9348d49c-2a5a-4ea0-b90d-99d446bd336a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 70%
+source-wordcount: '461'
+ht-degree: 75%
 
 ---
 
-
 # TVML/TVJS용 Adobe Target{#adobe-target-for-tvml-tvjs}
 
-.xml 파일을 직접 교체하여 TVML/TVJS 앱에서 Adobe Target을 활용할 수 있습니다. 사용자 지정 ADBTarget XML 요소를 사용하여 페이지의 영역을 Target 컨텐츠으로 대체하도록 지정합니다.
+.xml 파일을 직접 대체하여 TVML/TVJS 앱에서 Adobe Target을 활용할 수 있습니다. 사용자 지정 ADBTarget XML 요소를 사용하여 페이지의 영역을 Target 컨텐츠으로 대체하도록 지정합니다.
 
 >[!IMPORTANT]
 >
@@ -97,7 +94,7 @@ Target에서 반환된 콘텐츠는 `<ADBTarget>` 태그를 모두 포함하여 
    * 이 속성은 필수가 **아닙니다**.
 
 
-## 예 {#section_6D6D6E8C7FE147168FC30D83CBC06985}
+## 예시 {#section_6D6D6E8C7FE147168FC30D83CBC06985}
 
 ### 예제 1
 
@@ -114,7 +111,7 @@ Target에서 반환된 콘텐츠는 `<ADBTarget>` 태그를 모두 포함하여 
 
 #### landingPage.xml.js 구성
 
-* landingPage.xml.js에 대한 구성은 다음과 같습니다.
+* 다음은 landingPage.xml.js에 대한 구성입니다.
 
    ```js
    <alertTemplate> 
@@ -125,7 +122,7 @@ Target에서 반환된 콘텐츠는 `<ADBTarget>` 태그를 모두 포함하여 
    </alertTemplate> 
    ```
 
-* Target 요청이 성공하고 오퍼 컨텐츠가 반환되는 경우, 페이지는 다음과 같은 결과를 초래합니다.
+* Target 요청이 성공하고 오퍼 콘텐츠가 반환되면 페이지에 다음과 같은 결과가 표시됩니다.
 
    ```objective-c
    <alertTemplate> 
@@ -134,7 +131,7 @@ Target에서 반환된 콘텐츠는 `<ADBTarget>` 태그를 모두 포함하여 
    </alertTemplate>
    ```
 
-* Target 서버에 연결할 수 없거나 요청 시간이 초과되는 경우, 페이지의 결과는 다음과 같습니다.
+* Target 서버에 연결할 수 없거나 요청 시간이 초과되면 페이지에 다음이 표시됩니다.
 
    ```objective-c
    <alertTemplate> 

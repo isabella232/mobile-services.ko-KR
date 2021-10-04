@@ -1,17 +1,14 @@
 ---
 description: 다음은 Android 장치에서 마케팅 링크가 포함된 획득 캠페인을 왕복하는 데 유용한 정보입니다.
 keywords: android;라이브러리;모바일;sdk
-seo-description: 다음은 Android 장치에서 마케팅 링크가 포함된 획득 캠페인을 왕복하는 데 유용한 정보입니다.
-seo-title: 마케팅 링크 획득 테스트
 solution: Experience Cloud,Analytics
 title: 마케팅 링크 획득 테스트
 topic-fix: Developer and implementation
 uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
 exl-id: 86fdaef7-5b6c-4e9d-a470-df66c96f2e9d
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '746'
 ht-degree: 100%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 이 정보는 GDPR 데이터 삭제를 요청하는 데 도움이 됩니다.
-seo-description: 이 정보는 GDPR 데이터 삭제를 요청하는 데 도움이 됩니다.
-seo-title: 사용자의 옵트 상태 설정
 solution: Experience Cloud,Analytics
 title: 사용자의 옵트 상태 설정
 topic-fix: Developer and implementation
 uuid: f8a3e6be-44dd-494e-9cda-dbbac86d6772
 exl-id: ef5160ac-5a73-4433-b217-1bd990f8456b
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '251'
 ht-degree: 100%
 
 ---
@@ -61,7 +58,7 @@ ht-degree: 100%
    * JSON 구성 파일의 값: `optunknown`
    * `setPrivacyStatus`의 값: `MOBILE_PRIVACY_STATUS_UNKNOWN`
 
-## 예 {#section_128AC455EE024193B5D4E5A565B53D00}
+## 예시 {#section_128AC455EE024193B5D4E5A565B53D00}
 
 ```java
 public void setOptIn(View view) { 

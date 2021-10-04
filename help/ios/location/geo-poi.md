@@ -1,16 +1,13 @@
 ---
 description: 지리적 위치는 iOS 앱에서 위도와 경도 및 사전 정의된 관심 영역을 사용하여 위치 데이터를 측정할 수 있도록 합니다.
-seo-description: 지리적 위치는 iOS 앱에서 위도와 경도 및 사전 정의된 관심 영역을 사용하여 위치 데이터를 측정할 수 있도록 합니다.
-seo-title: 지리적 위치 및 관심 영역
 solution: Experience Cloud,Analytics
 title: 지리적 위치 및 관심 영역
 topic-fix: Developer and implementation
 uuid: c800ec85-a33f-425d-b28f-bfe8bf229ae8
 exl-id: 732c3863-2010-4d04-a17b-a656e857f567
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '566'
 ht-degree: 100%
 
 ---
@@ -34,7 +31,7 @@ ht-degree: 100%
 버전 4.2부터 POI는 Adobe Mobile 인터페이스에서 정의되며 앱 구성 파일과 동적으로 동기화됩니다. 이렇게 동기화되려면 `ADBMobile.json` 파일에 `analytics.poi` 설정이 필요합니다.
 
 ```js
-“analytics.poi”: “https://assets.adobedtm.com/…/yourfile.json”,
+"analytics.poi": "https://assets.adobedtm.com/…/yourfile.json",
 ```
 
 자세한 내용은 [ADBMobile JSON 구성](/help/ios/configuration/json-config/json-config.md)을 참조하십시오.

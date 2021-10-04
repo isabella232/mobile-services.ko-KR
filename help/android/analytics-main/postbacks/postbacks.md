@@ -1,17 +1,14 @@
 ---
 description: 포스트백을 이용하면 SDK에서 수집한 데이터를 타사 서버에 보낼 수 있습니다. 인앱 메시지를 표시하는 데 사용하는 것과 동일한 트리거와 트레이트를 이용하면 사용자 지정된 데이터를 타사 대상에 보내도록 SDK를 구성할 수 있습니다.
 keywords: android;라이브러리;모바일;sdk
-seo-description: 포스트백을 이용하면 SDK에서 수집한 데이터를 타사 서버에 보낼 수 있습니다. 인앱 메시지를 표시하는 데 사용하는 것과 동일한 트리거와 트레이트를 이용하면 사용자 지정된 데이터를 타사 대상에 보내도록 SDK를 구성할 수 있습니다.
-seo-title: 포스트백
 solution: Experience Cloud,Analytics
 title: 포스트백 개요
 topic-fix: Developer and implementation
 uuid: 8bfd4374-2767-421d-891d-e1e9a99b6977
 exl-id: 318f6eab-ff71-4bfe-8eb7-51a35380b992
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '308'
 ht-degree: 100%
 
 ---

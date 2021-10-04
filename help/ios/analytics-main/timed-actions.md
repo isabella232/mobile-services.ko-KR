@@ -1,16 +1,13 @@
 ---
 description: 시간 작업을 사용하면 작업의 시작과 끝 사이의 인앱 시간 및 총 시간을 측정할 수 있습니다. 이 SDK는 각 세션의 시간과 작업을 완료하는 데 소요되는 총 세션 시간을 계산합니다. 시간 작업을 사용하여 세그먼트를 정의하고 구매, 전달 수준, 체크아웃 플로우 등에 걸리는 시간을 비교할 수 있습니다.
-seo-description: 시간 작업을 사용하면 작업의 시작과 끝 사이의 인앱 시간 및 총 시간을 측정할 수 있습니다. 이 SDK는 각 세션의 시간과 작업을 완료하는 데 소요되는 총 세션 시간을 계산합니다. 시간 작업을 사용하여 세그먼트를 정의하고 구매, 전달 수준, 체크아웃 플로우 등에 걸리는 시간을 비교할 수 있습니다.
-seo-title: 시간 작업
 solution: Experience Cloud,Analytics
 title: 시간 작업
 topic-fix: Developer and implementation
 uuid: dbcbac5a-6345-49f6-b050-0db05292f005
 exl-id: 3499766b-55f6-4861-8291-2269d56ba983
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '335'
 ht-degree: 100%
 
 ---

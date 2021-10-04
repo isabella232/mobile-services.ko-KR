@@ -1,16 +1,13 @@
 ---
 description: iOS Developer Library의 믹스 앤 매치 기능을 사용하여 iOS Adobe Mobile SDK를 Swift 프로젝트에 원활하게 통합할 수 있습니다.
-seo-description: iOS Developer Library의 믹스 앤 매치 기능을 사용하여 iOS Adobe Mobile SDK를 Swift 프로젝트에 원활하게 통합할 수 있습니다.
-seo-title: Swift 통합
 solution: Experience Cloud,Analytics
 title: Swift 통합
 topic-fix: Developer and implementation
 uuid: 5fb77b57-cbf9-4bcf-8b41-65a933bf9336
 exl-id: 3c1a2e28-53b0-4128-a5d9-d2403885098d
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '102'
 ht-degree: 100%
 
 ---
@@ -24,7 +21,7 @@ iOS Developer Library의 믹스 앤 매치 기능을 사용하여 iOS Adobe Mobi
 예를 들어, 설명서에 설명된 대로 브리징 헤더 메서드를 사용하여 Adobe Mobile iOS SDK 헤더 파일을 가져올 수 있습니다.
 
 ```
-#import “ADBMobile.h”
+#import "ADBMobile.h"
 ```
 
 Swift 파일의 SDK에서 메서드에 액세스하려면 다음 형식을 사용하십시오.

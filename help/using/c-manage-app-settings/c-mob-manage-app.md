@@ -1,18 +1,15 @@
 ---
 description: 다양한 변수 및 지표를 구성하여 앱에서 받은 데이터를 추적하고 관리할 수 있습니다.
 keywords: mobile
-seo-description: 다양한 변수 및 지표를 구성하여 앱에서 받은 데이터를 추적하고 관리할 수 있습니다.
-seo-title: 앱 관리
 solution: Experience Cloud,Analytics
 title: 앱 관리
 topic-fix: Metrics
 uuid: 0cc356c3-8457-40a7-8c97-7cbc68a5dc0c
 exl-id: 599fef94-c188-47f5-b9d6-25a7c8cb07bc
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 100%
+source-wordcount: '1020'
+ht-degree: 91%
 
 ---
 
@@ -39,7 +36,7 @@ ht-degree: 100%
 
 **[!UICONTROL 앱 설정 관리]** > **[!UICONTROL 변수 및 지표 관리]** > **[!UICONTROL 사용자 지정 변수]**&#x200B;를 클릭합니다.
 
-이러한 매핑 시 [처리 규칙](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/processing-rules/processing-rules.html)에 사용된 동일한 API를 호출합니다.
+이러한 매핑은 [처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)이 Adobe Analytics에서 사용하는 것과 동일한 API를 호출합니다.
 
 ![컨텍스트 데이터 매핑](assets/custom_data_content.png)
 
@@ -49,8 +46,8 @@ ht-degree: 100%
 
    추적 호출(또는 히트)에서 속성 값을 설정하면 해당 호출에만 적용됩니다.
 
-* **[!UICONTROL 사용자 지정 변수]**(또는 evars)도 &quot;어느 것?&quot;이라는 질문에 답합니다. 하지만 evar 값은 값이 만료되거나 새로운 값이 설정되기 전까지 전송된 히트만이 아니라 다음 히트에 전송되는 변수 및 지표에도 적용될 수 있습니다.
-* **[!UICONTROL 사용자 지정 목록 변수(또는 복수 값 변수)]**&#x200B;는 한 번의 히트에 대해 여러 값을 캡처할 수 있도록 허용된 경우를 제외하면 일반 변수와 동일하게 동작합니다. 자세한 내용은 [목록 변수](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables.html)를 참조하십시오.
+* **[!UICONTROL 사용자 지정 변수]**(또는 eVar)도 &quot;어느 것?&quot;이라는 질문에 답합니다. 하지만 eVar 값은 값이 만료되거나 새 값이 설정되기 전까지 전송된 히트만이 아니라 다음 히트에 전송되는 변수 및 지표에도 적용될 수 있습니다.
+* **[!UICONTROL 사용자 지정 목록 변수(또는 복수 값 변수)]**&#x200B;는 한 번의 히트에 대해 여러 값을 캡처할 수 있도록 허용된 경우를 제외하면 일반 변수와 동일하게 동작합니다. 자세한 내용은 Adobe Analytics 설명서에서 [list](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=en) 변수를 참조하십시오.
 
 다음 매핑은 Mobile Services에서 만들어져서 Analytics에 표시됩니다.
 
@@ -113,11 +110,11 @@ ht-degree: 100%
    * **[!UICONTROL 십진수]**
    * **[!UICONTROL 통화]**
 
-## 관심 영역 관리{#section_990EF15E4E3B42CC807FCD9BEC8DB4C6}
+## 관심 영역 관리 {#section_990EF15E4E3B42CC807FCD9BEC8DB4C6}
 
 관심 영역을 사용하여 상관 관계 목적으로 사용하고, 인앱 메시지로 타깃팅하는 등의 작업을 수행할 수 있는 지리적 위치를 정의할 수 있습니다. 히트가 관심 영역으로 전송되는 경우 관심 영역이 히트에 연결됩니다. 관심 영역에 대한 자세한 내용은 [관심 영역 관리](/help/using/location/t-manage-points.md)를 참조하십시오.
 
-## 링크 대상 관리{#section_F722A387E22A430187B063D358A87711}
+## 링크 대상 관리 {#section_F722A387E22A430187B063D358A87711}
 
 링크 대상을 작성, 편집, 보관/보관 해제 및 삭제할 수 있습니다. 이러한 대상을 만들면 마케팅 링크, 푸시 알림 또는 인앱 메시지를 작성할 때 인라인으로 호출할 수 있습니다. 링크 대상에 대한 자세한 내용은 [링크 대상 관리](/help/using/acquisition-main/c-manage-link-destinations/t-archive-unarchive-link-destinations.md)를 참조하십시오.
 

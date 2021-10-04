@@ -1,16 +1,13 @@
 ---
 description: 다음은 iOS 앱에서 위치 기능을 사용하는 데 유용한 정보입니다.
-seo-description: 다음은 iOS 앱에서 위치 기능을 사용하는 데 유용한 정보입니다.
-seo-title: 위치
 solution: Experience Cloud,Analytics
 title: 위치
 topic-fix: Developer and implementation
 uuid: a4e5650a-f5d3-4fb1-bd11-a27a3918d763
 exl-id: 0c524fb8-6b0d-4e59-87a8-a9e2beda633a
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '117'
 ht-degree: 100%
 
 ---

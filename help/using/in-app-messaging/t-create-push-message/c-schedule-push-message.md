@@ -1,17 +1,14 @@
 ---
 description: Adobe Mobile Services UI에서는 푸시 메시지를 즉시 전달하도록 예약하거나 나중에 배달되도록 하거나 반복 이벤트로 예약할 수 있습니다. 이러한 이벤트는 일별, 주별 또는 월별 기준으로 예약할 수 있습니다.
 keywords: mobile
-seo-description: Adobe Mobile Services UI에서는 푸시 메시지를 즉시 전달하도록 예약하거나 나중에 배달되도록 하거나 반복 이벤트로 예약할 수 있습니다. 이러한 이벤트는 일별, 주별 또는 월별 기준으로 예약할 수 있습니다.
-seo-title: '예약: 푸시 메시지'
 solution: Experience Cloud,Analytics
 title: '예약: 푸시 메시지'
 topic-fix: Metrics
 uuid: 6810e27a-016f-4286-8fe2-9972d85fa326
 exl-id: 36f263a0-4aad-423e-bb78-9c532c98df19
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '684'
 ht-degree: 100%
 
 ---

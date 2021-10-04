@@ -1,17 +1,14 @@
 ---
 description: Adobe Experience Platform ID 서비스는 Experience Cloud 솔루션 전반에 범용 방문자 ID를 제공합니다. ID 서비스는 타겟 분석, 비디오 하트비트 및 향후 Experience Cloud 통합에 필요합니다.
-seo-description: Adobe Experience Platform ID 서비스는 Experience Cloud 솔루션 전반에 범용 방문자 ID를 제공합니다. ID 서비스는 타겟 분석, 비디오 하트비트 및 향후 Experience Cloud 통합에 필요합니다.
-seo-title: Experience Cloud ID
 solution: Experience Cloud,Analytics
 title: Experience Cloud ID
 topic-fix: Developer and implementation
 uuid: 13628ea8-3cd4-4cfc-8ff6-722c33f7813a
 exl-id: aa7db365-ad21-431f-bff6-2a6da212dd0c
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 100%
+source-wordcount: '230'
+ht-degree: 91%
 
 ---
 
@@ -21,11 +18,11 @@ Adobe Experience Platform ID 서비스는 Experience Cloud 솔루션 전반에 �
 
 >[!TIP]
 >
->Adobe Experience Platform ID 서비스를 사용하지 않는 경우에는 Experience Cloud ID를 채우지 않아도 됩니다. 자세한 내용은 [Adobe Experience Platform ID 서비스](https://docs.adobe.com/content/help/ko-KR/id-service/using/home.html)를 참조하십시오.
-
-**SDK 버전 4.3 이상 필요**
+>Adobe Experience Platform ID 서비스를 사용하지 않는 경우에는 Experience Cloud ID를 채우지 않아도 됩니다. 자세한 내용은 [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR) 설명서를 참조하십시오.
 
 ## Experience Cloud ID 활성화 {#section_79F984271C3B4366B7B04F864F4FF8C2}
+
+이러한 단계에는 SDK 버전 4.3 이상이 필요합니다.
 
 1. 프로젝트에 라이브러리를 추가하고 라이프사이클을 구현합니다.
 

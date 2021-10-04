@@ -1,16 +1,13 @@
 ---
 description: 모바일 웹 콘텐츠를 여는 앱의 경우, 방문자가 기본 웹과 모바일 웹 사이를 이동할 때 개별적으로 식별되지 않도록 합니다.
-seo-description: 모바일 웹 콘텐츠를 여는 앱의 경우, 방문자가 기본 웹과 모바일 웹 사이를 이동할 때 개별적으로 식별되지 않도록 합니다.
-seo-title: 앱과 모바일 웹 간 방문자 추적
 solution: Experience Cloud,Analytics
 title: 앱과 모바일 웹 간 방문자 추적
 topic-fix: Developer and implementation
 uuid: 073572e4-4c55-4b27-b4a7-e4349ccde7bf
 exl-id: 7ca98572-138d-48f8-aa2a-d376eebb0b2c
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '477'
 ht-degree: 100%
 
 ---

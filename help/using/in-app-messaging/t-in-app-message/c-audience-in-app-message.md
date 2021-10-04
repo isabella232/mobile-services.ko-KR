@@ -1,17 +1,14 @@
 ---
 description: 보기, 트리거 및 트레이트 옵션을 비롯한 인앱 메시지의 대상 옵션을 구성할 수 있습니다.
 keywords: mobile
-seo-description: 보기, 트리거 및 트레이트 옵션을 비롯한 인앱 메시지의 대상 옵션을 구성할 수 있습니다.
-seo-title: '대상: 인앱 메시지'
 solution: Experience Cloud,Analytics
 title: '대상: 인앱 메시지'
 topic-fix: Metrics
 uuid: 6c815d4c-7626-4cf4-9158-3f059c79317a
 exl-id: c85f2c0d-9c88-4d5a-8247-d8a101195d3a
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '567'
 ht-degree: 100%
 
 ---
@@ -48,7 +45,6 @@ ht-degree: 100%
 
    * **[!UICONTROL 트레이트]**
 인앱 메시지가 트리거될 때 인앱 메시지를 볼 수 있고 지정된 데이터가 있는 히트로 대상을 필터링(세그먼트)할 수 있는 사용자를 결정할 수 있습니다. 예를 들어 관심 영역에 Denver가 들어 있는 규칙을 정의할 수 있습니다. 이 필터를 사용하면 트리거 시 이름에 Denver가 있는 관심 영역 중 하나에 있는 고객에게 메시지를 표시할 수 있습니다.
-
 
 
 ## 트레이트 및 트리거에 대한 추가 정보 {#section_48C39EFB8CAA4F62B994FCC91DF588E6}

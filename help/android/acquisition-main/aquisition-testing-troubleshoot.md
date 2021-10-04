@@ -1,14 +1,11 @@
 ---
 description: 다음 정보는 획득 테스트 문제를 해결하는 데 유용합니다.
-keywords: android;Acquisition;testing
-seo-description: 다음 정보는 획득 테스트 문제를 해결하는 데 유용합니다.
-seo-title: 획득 테스트 문제 해결
+keywords: android;획득;테스트
 solution: Experience Cloud,Analytics
 title: 획득 테스트 문제 해결
-translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '224'
 ht-degree: 100%
 
 ---
@@ -22,7 +19,7 @@ ht-degree: 100%
 
 * 이름은 대/소문자를 구분하므로 소문자를 이름을 지정하지 마십시오.
 
-   `Config.setContext(this.getApplicationContext())`가 기본 활동에서 호출되는지 확인해야 합니다. 자세한 내용은 [구성 메서드](https://docs.adobe.com/content/help/ko-KR/mobile-services/android/configuration-android/methods.html)를 참조하십시오.
+   `Config.setContext(this.getApplicationContext())`가 기본 활동에서 호출되는지 확인해야 합니다. 자세한 내용은 [구성 메서드](../configuration/methods.md)를 참조하십시오.
 
 * 제공된 AndroidManifest.xml 파일에 몇 가지 사용자 권한이 누락되었습니다. 이러한 권한은 데이터를 보내고 오프라인 추적 호출을 기록하는 데 필요합니다.
 
@@ -38,7 +35,7 @@ ht-degree: 100%
 
    수동 테스트의 경우 설치 히트가 처리되기 전에 레퍼러 정보를 전송할 시간이 충분하도록 `referrerTimeout`을 10~15초로 늘리십시오.
 
-* [마케팅 링크 획득 테스트](https://docs.adobe.com/content/help/ko-KR/mobile-services/android/acquisition-android/t-testing-marketing-link-acquisition.html)의 모든 단계를 순서대로 실행하고 `adb` 셸을 실행한 후 다음을 실행해야 합니다.
+* [마케팅 링크 획득 테스트](t-t-testing-marketing-link-acquisition.md)의 모든 단계를 순서대로 실행하고 `adb` 셸을 실행한 후 다음을 실행해야 합니다.
 
    ```java
    am broadcast -a com.android.vending.INSTALL_REFERRER -n 

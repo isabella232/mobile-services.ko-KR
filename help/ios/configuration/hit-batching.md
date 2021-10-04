@@ -1,16 +1,13 @@
 ---
 description: 히트 일괄 처리를 사용하면 오프라인 추적 기능이 활성화된 애플리케이션에서 큐의 히트 수가 구성 가능한 한도를 넘을 때까지 히트 전송을 보류할 수 있습니다.
-seo-description: 히트 일괄 처리를 사용하면 오프라인 추적 기능이 활성화된 애플리케이션에서 큐의 히트 수가 구성 가능한 한도를 넘을 때까지 히트 전송을 보류할 수 있습니다.
-seo-title: 히트 배치 처리
 solution: Experience Cloud,Analytics
 title: 히트 배치 처리
 topic-fix: Developer and implementation
 uuid: 3dda7372-0695-4cb7-b779-6abca2d6e0d9
 exl-id: af21f435-13cb-4353-9fbb-c99274bce411
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '161'
 ht-degree: 100%
 
 ---

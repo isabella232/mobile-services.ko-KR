@@ -1,19 +1,17 @@
 ---
 description: 다음은 장치 지문 파일을 기반으로 V3 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
-seo-description: 다음은 장치 지문 파일을 기반으로 V3 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
-seo-title: V3 획득 테스트
 solution: Experience Cloud,Analytics
 title: V3 획득 테스트
 uuid: 89137ccf-4839-4b37-926e-303cf8e511a5
 exl-id: 3cf66802-1f2c-428f-86ef-a9afc57e3470
-source-git-commit: 8db8f51a42acbbc0bbc4545b7d97cb214b490ab3
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '602'
 ht-degree: 100%
 
 ---
 
-# V3 획득 테스트 {#testing-v-acquisition}
+# V3 획득 테스트{#testing-v-acquisition}
 
 다음은 장치 지문 파일을 기반으로 V3 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
 

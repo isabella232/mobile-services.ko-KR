@@ -1,16 +1,13 @@
 ---
 description: '다음은 Experience Cloud 솔루션용 iOS SDK를 시작할 때 참조할 수 있는 정보입니다. '
-seo-description: '다음은 Experience Cloud 솔루션용 iOS SDK를 시작할 때 참조할 수 있는 정보입니다. '
-seo-title: 시작하기 개요
 solution: Experience Cloud,Analytics
 title: 시작하기 개요
 topic-fix: Developer and implementation
 uuid: a2b9baad-b959-4b9a-893d-99c0f4072e8d
 exl-id: bf1c059d-3ca7-4d77-8acb-597350c03433
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '165'
 ht-degree: 100%
 
 ---

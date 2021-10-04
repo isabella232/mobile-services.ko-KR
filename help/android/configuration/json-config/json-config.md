@@ -1,16 +1,13 @@
 ---
 description: 다음은 ADBMobile.json 구성 파일을 사용하는 데 유용한 정보입니다.
-seo-description: 다음은 ADBMobile.json 구성 파일을 사용하는 데 유용한 정보입니다.
-seo-title: ADBMobile JSON 구성
 solution: Experience Cloud,Analytics
 title: ADBMobile JSON 구성
 topic-fix: Developer and implementation
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
 exl-id: 652aeb05-b052-448d-98c8-d513d050a6f5
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1666'
 ht-degree: 100%
 
 ---
@@ -155,8 +152,8 @@ ht-degree: 100%
       버전 4.2부터 POI는 Adobe Mobile 인터페이스에서 정의되며 앱 구성 파일과 동적으로 동기화됩니다. 이렇게 동기화되려면 `analytics.poi` 설정이 필요합니다.
 
       ```javascript
-        “analytics.poi“: `https://assets.adobedtm.com/`
-      …/yourfile.json”`,
+        "analytics.poi": `https://assets.adobedtm.com/`
+      …/yourfile.json"`,
       ```
 
       이 설정을 구성하지 않으면 이 행을 포함하도록 `ADBMobile.json` 파일을 업데이트해야 합니다. 업데이트된 구성 파일을 다운로드하려면 [시작하기 전에](/help/android/getting-started/requirements.md)를 참조하십시오.
@@ -396,5 +393,5 @@ ht-degree: 100%
 * &quot;triggers&quot;
    * 대상과 동일하지만 이는 대상이 아닌 동작입니다.
    * &quot;key&quot;
-   * &quot;일치함&quot;
-   * &quot;값&quot;
+   * &quot;matches&quot;
+   * &quot;values&quot;

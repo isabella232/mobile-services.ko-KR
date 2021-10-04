@@ -1,16 +1,14 @@
 ---
 description: 다음은 Android 장치에서 버전 3 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
 keywords: android;라이브러리;모바일;sdk
-seo-description: 다음은 Android 장치에서 버전 3 획득 캠페인 링크를 왕복하는 데 유용한 정보입니다.
-seo-title: 버전 3 획득 테스트
 solution: Experience Cloud,Analytics
 title: 버전 3 획득 테스트
 topic-fix: Developer and implementation
 uuid: 5e38b43d-389e-4412-99e5-3e6223b6ad28
 exl-id: 2ce78e2e-da51-4af8-a461-ec6c642a7854
-source-git-commit: bb2459e57274183e55c1facd1a510cf55a83ddb4
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '807'
 ht-degree: 100%
 
 ---

@@ -1,17 +1,14 @@
 ---
 description: 새 앱을 만들거나 기존 앱을 편집하는 동안 앱 설정 관리 페이지에서 SDK Audience Manager 옵션을 구성할 수 있습니다.
 keywords: mobile
-seo-description: 새 앱을 만들거나 기존 앱을 편집하는 동안 앱 설정 관리 페이지에서 SDK Audience Manager 옵션을 구성할 수 있습니다.
-seo-title: Audience Manager 옵션 구성
 solution: Experience Cloud,Analytics
 title: Audience Manager 옵션 구성
 topic-fix: Metrics
 uuid: 471270ca-cee5-401e-aac1-e48146ee8399
 exl-id: a81e5ea9-faa1-45c2-a312-e80f49c87b59
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '102'
 ht-degree: 100%
 
 ---

@@ -1,17 +1,14 @@
 ---
 description: 웹으로 또는 앱의 딥링크로 사용자를 안내하는 새 링크 대상을 만들 수 있습니다.
 keywords: mobile
-seo-description: 웹으로 또는 앱의 딥링크로 사용자를 안내하는 새 링크 대상을 만들 수 있습니다.
-seo-title: 새 링크 대상 만들기
 solution: Experience Cloud,Analytics
 title: 새 링크 대상 만들기
 topic-fix: Metrics
 uuid: 390e3dea-0221-4f97-980d-a90ca9f162fa
 exl-id: 2d2f5938-1461-43e2-a375-45c18afc9d5a
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '394'
 ht-degree: 100%
 
 ---

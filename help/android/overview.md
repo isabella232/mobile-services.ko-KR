@@ -1,18 +1,15 @@
 ---
 description: Experience Cloud 솔루션용 Android SDK 4.x를 사용하면 기본 Android 애플리케이션을 측정하고, 앱에 타겟 콘텐츠를 제공하고, 대상 관리를 통해 대상 데이터를 활용하고 수집할 수 있습니다.
 keywords: android;라이브러리;모바일;sdk
-seo-description: Experience Cloud 솔루션용 Android SDK 4.x를 사용하면 기본 Android 애플리케이션을 측정하고, 앱에 타겟 콘텐츠를 제공하고, 대상 관리를 통해 대상 데이터를 활용하고 수집할 수 있습니다.
-seo-title: Experience Cloud 솔루션용 Android SDK 4.x
 solution: Experience Cloud,Analytics
 title: Experience Cloud 솔루션용 Android SDK 4.x
 topic-fix: Developer and implementation
 uuid: 56f1ff41-0365-41dd-bdde-245c823dff07
 exl-id: c2454e94-a9af-42f3-ab45-14f68531faab
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 93%
 
 ---
 
@@ -52,14 +49,14 @@ SDK는 다음 버전의 Android를 지원합니다.
 
 ## Adobe Mobile 사용자 설명서 {#section_7583FD5FDED143619048E9744A3F2D21}
 
-Adobe Mobile Services는 Adobe Experience Cloud에서 모바일 애플리케이션에 대한 모바일 마케팅 기능을 종합하여 제공하는 UI를 제공합니다.  UI에 대한 자세한 정보를 확인하고 사용자 설명서를 읽어 보려면 [Adobe Mobile Services](https://docs.adobe.com/content/help/ko-KR/mobile-services/using/home.html)를 참조하십시오.
+Adobe Mobile Services는 Adobe Experience Cloud에서 모바일 애플리케이션에 대한 모바일 마케팅 기능을 종합하여 제공하는 UI를 제공합니다.  UI에 대한 자세한 정보를 확인하고 사용자 설명서를 읽어 보려면 [Adobe Mobile Services](/help/using/home.md)를 참조하십시오.
 
-## 릴리스 노트 {#section_F8181DC052D44DD2A99AB40A41F6792C}
+## 릴리스 정보 {#section_F8181DC052D44DD2A99AB40A41F6792C}
 
-Experience Cloud 릴리스에 대한 최신 정보는 [Experience Cloud 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)를 참조하십시오.
+Experience Cloud 릴리스에 대한 최신 정보는 [Experience Cloud 릴리스 노트](/help/using/home.md)를 참조하십시오.
 
 ## Bloodhound 사용
 
 >[!IMPORTANT]
 >
->**2017년 4월 30일** 현재 Adobe Bloodhound는 종료되었습니다. 2017년 5월 1일부터 추가적인 개선이나 추가 엔지니어링 또는 Adobe Expert Care 지원이 제공되지 않습니다.
+>**2017년 4월 30일 자** Adobe Bloodhound는 종료되었습니다. 2017년 5월 1일부터 추가적인 개선이나 추가 엔지니어링 또는 Adobe Expert Care 지원이 제공되지 않습니다.

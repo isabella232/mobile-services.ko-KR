@@ -1,17 +1,14 @@
 ---
 description: 이 정보는 데이터를 비교하기 위해 다른 보고서 세트에 시리즈(지표)나 앱을 추가하여 기본 제공된 보고서를 사용자 지정하는 데 도움이 됩니다.
 keywords: mobile
-seo-description: 이 정보는 데이터를 비교하기 위해 다른 보고서 세트에 시리즈(지표)나 앱을 추가하여 기본 제공된 보고서를 사용자 지정하는 데 도움이 됩니다.
-seo-title: 보고서에 시리즈(지표) 추가
 solution: Experience Cloud,Analytics
 title: 보고서에 시리즈(지표) 추가
 topic-fix: Reports,Metrics
 uuid: 84fdfb1f-70e6-4c02-9b3b-526e9c924f74
 exl-id: 1b1356c6-7f62-4b88-996a-09ed33b19c9d
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '285'
 ht-degree: 100%
 
 ---

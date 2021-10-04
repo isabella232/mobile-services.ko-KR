@@ -1,17 +1,14 @@
 ---
 description: 이 정보를 통해 푸시 메시지 문제를 해결할 수 있습니다.
 keywords: mobile
-seo-description: 이 정보를 통해 푸시 메시지 문제를 해결할 수 있습니다.
-seo-title: 푸시 메시지 문제 해결
 solution: Experience Cloud,Analytics
 title: 푸시 메시지 문제 해결
 topic-fix: Metrics
 uuid: c7be4ab7-0cfe-4296-84a8-01412f4fd93f
 exl-id: 56feb8e1-e196-4b70-8240-6e41581ca602
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '725'
 ht-degree: 100%
 
 ---
@@ -94,13 +91,13 @@ ht-degree: 100%
 * 앱 이름: PhotoShop_app_iOS
    * 상위 RSID: AllAdobe PhotoShop_apps
    * VRSID: PhotoShop_iOS_app_SF
-   * VRSID 정의 세그먼트: `a.appid contains “PhotoShop_iOS_app_SF”`
+   * VRSID 정의 세그먼트: `a.appid contains "PhotoShop_iOS_app_SF"`
 * 앱 이름: PhotoShop_app_iOS
    * 상위 RSID: AllAdobe PhotoShop_apps
    * RSID: PhotoShop_iOS_app_LA
-   * VRSID 정의 세그먼트: `a.os contains “iOS”`
+   * VRSID 정의 세그먼트: `a.os contains "iOS"`
 
-이 예에서는 Photoshop 직원이 *PhotoShop_iOS_app_SF* 앱으로 푸시를 보내면 모든 *PhotoShop_iOS_app_SF* 앱 사용자가 예상대로 푸시 메시지를 받습니다. 그러나 직원이 *PhotoShop_iOS_app_LA* 앱으로 메시지를 보내는 경우 해당 VRSID 정의 세그먼트가 올바르지 않기 때문에(`a.os contains "PhotoShop_iOS_app_LA"` 대신 `iOS`) *AllAdobe PhotoShop_apps*&#x200B;의 **모든** iOS 사용자에게 메시지가 전송됩니다. 메시지가 여전히 *PhotoShop_iOS_app_LA* 사용자에게 이동하지만, *PhotoShop_iOS_app_SF* 앱에는 다른 인증서가 있으므로 메시지는 *PhotoShop_iOS_app_SF* 사용자의 푸시 ID를 차단 목록에 추가합니다. 세그먼트가 `a.os contains “PhotoShop_iOS_app_LA”`로 정의된 경우 푸시 메시지가 *PhotoShop_iOS_app_LA* 사용자에게만 전송되었을 수 있습니다.
+이 예에서는 Photoshop 직원이 *PhotoShop_iOS_app_SF* 앱으로 푸시를 보내면 모든 *PhotoShop_iOS_app_SF* 앱 사용자가 예상대로 푸시 메시지를 받습니다. 그러나 직원이 *PhotoShop_iOS_app_LA* 앱으로 메시지를 보내는 경우 해당 VRSID 정의 세그먼트가 올바르지 않기 때문에(`a.os contains "PhotoShop_iOS_app_LA"` 대신 `iOS`) *AllAdobe PhotoShop_apps*&#x200B;의 **모든** iOS 사용자에게 메시지가 전송됩니다. 메시지가 여전히 *PhotoShop_iOS_app_LA* 사용자에게 이동하지만, *PhotoShop_iOS_app_SF* 앱에는 다른 인증서가 있으므로 메시지는 *PhotoShop_iOS_app_SF* 사용자의 푸시 ID를 차단 목록에 추가합니다. 세그먼트가 `a.os contains "PhotoShop_iOS_app_LA"`로 정의된 경우 푸시 메시지가 *PhotoShop_iOS_app_LA* 사용자에게만 전송되었을 수 있습니다.
 
 *PhotoShop_IOS_app_LA* 푸시 인증서와 함께 전달된 경우 *PhotoShop_iOS_app_SF*&#x200B;에 대한 푸시 식별자가 다시 `invalid`으로 표시됩니다.
 

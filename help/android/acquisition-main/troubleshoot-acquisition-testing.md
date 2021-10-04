@@ -1,16 +1,13 @@
 ---
 description: 이 항목에서는 획득 테스트 중에 발생할 수 있는 문제를 해결하는 방법에 대해 설명합니다.
 keywords: android;라이브러리;모바일;sdk
-seo-description: 이 항목에서는 획득 테스트 중에 발생할 수 있는 문제를 해결하는 방법에 대해 설명합니다.
-seo-title: 획득 테스트 문제 해결
 solution: Experience Cloud,Analytics
 title: 획득 테스트 문제 해결
 topic-fix: Developer and implementation
 exl-id: 1ed2ad89-4e89-43da-aa21-f688b4d1c0d1
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
@@ -25,7 +22,7 @@ ht-degree: 100%
 
 * 기본 활동에서 `Config.setContext(this.getApplicationContext())`가 호출되는지 확인합니다.
 
-   자세한 내용은 [구성 메서드](https://docs.adobe.com/content/help/ko-KR/mobile-services/android/configuration-android/methods.html)를 참조하십시오.
+   자세한 내용은 [구성 메서드](../configuration/methods.md)를 참조하십시오.
 
 * Mobile SDK에 필요한 권한이 `AndroidManifest.xml` 파일에 있는지 확인합니다.
 
@@ -41,7 +38,7 @@ ht-degree: 100%
 
    수동 테스트의 경우 설치 히트가 처리되기 전에 레퍼러 정보를 전송할 시간이 충분하도록 `referrerTimeout`을 10~15초로 늘리는 것이 좋습니다. 
 
-* [마케팅 링크 획득 테스트](https://docs.adobe.com/content/help/ko-KR/mobile-services/android/acquisition-android/t-testing-marketing-link-acquisition.html)의 모든 단계를 실행하고 `adb shell` 명령을 먼저 실행한 후 다음을 확인합니다.
+* [마케팅 링크 획득 테스트](t-testing-marketing-link-acquisition.md)의 모든 단계를 실행하고 `adb shell` 명령을 먼저 실행한 후 다음을 확인합니다.
 
    ```java
    am broadcast -a com.android.vending.INSTALL_REFERRER -n nl.postnl.app/.tracking.AdobeAcquisitionLinkBroadcastReceiver --es "referrer" "utm_source=adb_acq_v3&utm_campaign=adb_acq_v3&utm_content=<the newly generated id at step #7>"

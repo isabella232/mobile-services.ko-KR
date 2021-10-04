@@ -1,23 +1,20 @@
 ---
-description: 처리 규칙은 컨텍스트 데이터 변수로 보내는 데이터를 보고용으로 evar, prop 및 기타 변수에 복사하는 데 사용됩니다.
-seo-description: 처리 규칙은 컨텍스트 데이터 변수로 보내는 데이터를 보고용으로 evar, prop 및 기타 변수에 복사하는 데 사용됩니다.
-seo-title: 처리 규칙 및 컨텍스트 데이터
+description: 처리 규칙은 컨텍스트 데이터 변수로 보내는 데이터를 보고를 위해 eVar, prop 및 기타 변수에 복사하는 데 사용됩니다.
 solution: Experience Cloud,Analytics
 title: 처리 규칙 및 컨텍스트 데이터
 topic-fix: Developer and implementation
 uuid: ea892228-86f5-4980-acb8-45ae43c6996d
 exl-id: 543201fd-8118-485f-8235-26ec8f9bbb11
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 100%
+source-wordcount: '242'
+ht-degree: 72%
 
 ---
 
 # 처리 규칙 및 컨텍스트 데이터 {#processing-rules-and-context-data}
 
-처리 규칙은 컨텍스트 데이터 변수로 보내는 데이터를 보고용으로 evar, prop 및 기타 변수에 복사하는 데 사용됩니다. 자세한 내용은 [처리 규칙](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/processing-rules/processing-rules.html)을 참조하십시오.
+처리 규칙은 컨텍스트 데이터 변수로 보내는 데이터를 보고를 위해 eVar, prop 및 기타 변수에 복사하는 데 사용됩니다. 자세한 내용은 [처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)을 참조하십시오.
 
 처리 규칙을 사용하여 작업할 경우 다음 정보를 숙지하십시오.
 
@@ -31,7 +28,7 @@ ht-degree: 100%
 
 * 컨텍스트 데이터 변수는 처리 규칙 인터페이스에서 알파벳순으로 정렬되므로 동일한 네임스페이스에 있는 변수를 빠르게 확인할 수 있습니다.
 
-   evar 또는 prop 번호를 사용하여 컨텍스트 데이터 키의 이름을 지정하지 마십시오.
+   eVar 또는 prop 번호를 사용하여 컨텍스트 데이터 키의 이름을 지정하지 마십시오.
 
    ```js
    "eVar1":"jimbo"

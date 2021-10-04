@@ -1,18 +1,15 @@
 ---
 description: 다음은 Android 라이브러리를 3.x 또는 2.x 버전에서 4.x 버전으로 마이그레이션하는 데 유용한 정보입니다.
 keywords: android;라이브러리;모바일;sdk
-seo-description: 다음은 Android 라이브러리를 3.x 또는 2.x 버전에서 4.x 버전으로 마이그레이션하는 데 유용한 정보입니다.
-seo-title: Android 4.x 라이브러리로 마이그레이션
 solution: Experience Cloud,Analytics
 title: Android 4.x 라이브러리로 마이그레이션
 topic-fix: Developer and implementation
 uuid: 906e83bb-2faf-4aa2-ac9b-3fba6b833c7e
 exl-id: 8061c1ab-aaaf-4d4c-9bd5-b2f80b6b06a3
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 100%
+source-wordcount: '860'
+ht-degree: 99%
 
 ---
 
@@ -72,7 +69,7 @@ ht-degree: 100%
 }
 ```
 
-## 구성 파일을 이동하고 버전 4로 마이그레이션하기 {#section_0B844235E0B04DD4B36976A73DB28FB5}
+## 구성 파일 이동 버전 4로 마이그레이션 {#section_0B844235E0B04DD4B36976A73DB28FB5}
 
 다음 표에는 구성 파일로 이동하는 데 필요한 구성 변수가 나열되어 있습니다.
 
@@ -109,7 +106,7 @@ ht-degree: 100%
 | trackingServer | &quot;server&quot;, `"https://"` 접두사를 제거합니다. 프로토콜 접두사는 &quot;ssl&quot; 설정에 따라 자동으로 추가됩니다. |
 | trackingServerSecure | 제거. 보안 연결에 대해 &quot;server&quot;를 정의한 다음 &quot;ssl&quot;을 활성화합니다. |
 | charSet | &quot;charset&quot; |
-| currencyCode | &quot;통화&quot; |
+| currencyCode | &quot;currency&quot; |
 | ssl | &quot;ssl&quot; |
 | linkTrackVars | 제거, 더 이상 사용되지 않습니다. |
 | linkTrackEvents | 제거, 더 이상 사용되지 않습니다. |

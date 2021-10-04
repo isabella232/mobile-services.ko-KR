@@ -1,17 +1,14 @@
 ---
 description: 각 메시지가 마지막으로 업데이트된 시간 및 메시지가 활성 상태인지 아니면 비활성 상태인지에 대한 세부 정보를 사용하여 인앱 푸시 메시지 목록을 봅니다.
 keywords: mobile
-seo-description: 각 메시지가 마지막으로 업데이트된 시간 및 메시지가 활성 상태인지 아니면 비활성 상태인지에 대한 세부 정보를 사용하여 인앱 푸시 메시지 목록을 봅니다.
-seo-title: 메시지 관리
 solution: Experience Cloud,Analytics
 title: 메시지 관리
 topic-fix: Metrics
 uuid: 4d934ede-0c68-4dd5-ba37-9caf727cc717
 exl-id: 96436104-fe5d-4f50-80a9-9b6ad7401de2
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '442'
 ht-degree: 100%
 
 ---

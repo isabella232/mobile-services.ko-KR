@@ -1,16 +1,13 @@
 ---
 description: 처리 규칙을 사용하여 제품 변수를 설정할 수 없습니다. iOS 4.x SDK에서 서버 호출 시 제품을 직접 설정하려면 컨텍스트 데이터 매개 변수의 특수 구문을 사용해야 합니다.
-seo-description: 처리 규칙을 사용하여 제품 변수를 설정할 수 없습니다. iOS 4.x SDK에서 서버 호출 시 제품을 직접 설정하려면 컨텍스트 데이터 매개 변수의 특수 구문을 사용해야 합니다.
-seo-title: products 변수
 solution: Experience Cloud,Analytics
 title: products 변수
 topic-fix: Developer and implementation
 uuid: 6ece4d27-ef86-435c-a6f7-bd76be1c95ca
 exl-id: c945add4-5358-44f6-b445-554b0df056c1
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '148'
 ht-degree: 100%
 
 ---

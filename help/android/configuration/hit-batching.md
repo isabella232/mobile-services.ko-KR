@@ -1,17 +1,14 @@
 ---
 description: 히트 배치(일괄 처리)를 사용하면 애플리케이션에서 큐의 히트 수가 구성된 한도를 초과할 때까지 히트 전송을 보류할 수 있습니다.
 keywords: android;라이브러리;모바일;sdk
-seo-description: 히트 배치(일괄 처리)를 사용하면 애플리케이션에서 큐의 히트 수가 구성된 한도를 초과할 때까지 히트 전송을 보류할 수 있습니다.
-seo-title: 히트 일괄 처리
 solution: Experience Cloud,Analytics
 title: 히트 일괄 처리
 topic-fix: Developer and implementation
 uuid: ada35be3-242b-4b2b-a828-9bf998dd58b5
 exl-id: 74147f09-52fc-46dc-b4dd-2bf60b039f6e
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '162'
 ht-degree: 100%
 
 ---

@@ -1,48 +1,45 @@
 ---
-description: 비디오를 측정하는 일반적인 프로세스는 모든 AppMeasurement 플랫폼에서 매우 유사합니다. 이 섹션에서는 코드 샘플과 함께 개발자 작업의 기본 개요를 제공합니다.
-seo-description: 비디오를 측정하는 일반적인 프로세스는 모든 AppMeasurement 플랫폼에서 매우 유사합니다. 이 섹션에서는 코드 샘플과 함께 개발자 작업의 기본 개요를 제공합니다.
-seo-title: Video Analytics
+description: 비디오를 측정하는 일반 프로세스는 모든 AppMeasurement 플랫폼에서 유사합니다. 이 섹션에서는 코드 샘플과 함께 개발자 작업에 대한 기본 개요를 제공합니다.
 title: Video Analytics
 uuid: 0d2731f3-77a9-4db1-9a8c-1e56c212ecb4
-translation-type: tm+mt
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+exl-id: 90da1a9e-2faa-429c-969e-869ebedf08cc
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '835'
 ht-degree: 68%
 
 ---
 
-
 # Video Analytics {#video-analytics}
 
-비디오를 측정하는 일반적인 프로세스는 모든 AppMeasurement 플랫폼에서 매우 유사합니다. 이 섹션에서는 코드 샘플과 함께 개발자 작업의 기본 개요를 제공합니다.
+비디오를 측정하는 일반 프로세스는 모든 AppMeasurement 플랫폼에서 유사합니다. 이 섹션에서는 코드 샘플과 함께 개발자 작업에 대한 기본 개요를 제공합니다.
 
-For more information about Video measurement, see the [Measuring audio and video in Adobe Analytics](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html) guide.  다음 표에는 Analytics에 전송되는 미디어 데이터가 나열되어 있습니다. 처리 규칙을 사용하여 컨텍스트 데이터 변수 열의 컨텍스트 데이터를 변수 유형 열에 설명된 대로 Analytics 변수에 매핑합니다.
+비디오 측정에 대한 자세한 내용은 Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR)에서 스트리밍 미디어 측정 안내서를 참조하십시오.  [  다음 표에는 Analytics에 전송되는 미디어 데이터가 나열되어 있습니다. 처리 규칙을 사용하여 변수 유형 열에 설명된 대로 컨텍스트 데이터 변수 열의 컨텍스트 데이터를 Analytics 변수에 매핑합니다.
 
 ## 플레이어 이벤트를 Analytics 변수에 매핑
 
 * **a.media.name**
 
-   (필수) 방문자가 비디오를 보는 경우 구현에 지정된 대로 비디오의 이름을 수집합니다.이 변수에 대한 분류를 추가할 수 있습니다.
+   (필수) 구현에 지정된 대로 방문자가 특정 방식으로 비디오를 볼 때 비디오의 이름을 수집합니다. 이 변수에 대한 분류를 추가할 수 있습니다.
 
    **(선택 사항)** Custom Insight 변수는 비디오 경로 지정 정보를 제공합니다.
 
-   * 변수 이름:eVar
+   * 변수 이름: eVar
       * 기본 만료: 방문
       * 사용자 지정 인사이트(s.prop, 비디오 경로 지정에 사용)
 
 * **a.media.name**
 
-   (**선택 사항**) 비디오 경로 지정 정보를 제공합니다. 이 변수에 대해 ClientCare에서 경로 지정을 활성화해야 합니다.
+   (**선택 사항**) 비디오 경로 지정 정보를 제공합니다. 고객 지원에 따라 이 변수에 경로 지정을 사용해야 합니다.
 
    * 이벤트 유형: 사용자 지정 통찰력(s.prop)
-   * Custom Insight(s.prop)
+   * Custom Insight (s.prop)
 
 * **a.media.segment**
 
    **필수** - 세그먼트 이름 및 비디오에서 세그먼트가 발생하는 순서를 포함하여 비디오 세그먼트 데이터를 수집합니다. 이 변수는 플레이어 이벤트를 자동으로 추적할 때 `segmentByMilestones` 변수를 활성화하거나, 플레이어 이벤트를 수동으로 추적할 때 사용자 지정 세그먼트 이름을 설정하여 채워집니다.
 
-   For example, when a visitor views the first segment in a video, SiteCatalyst might collect `1:M:0-25` in the Segments eVar. 기본 비디오 데이터 수집 방법은 비디오 시작(재생), 세그먼트 시작 및 비디오 종료(중지) 지점에서 데이터를 수집합니다.
+   예를 들어 방문자가 비디오에서 첫 번째 세그먼트를 볼 경우 SiteCatalyst이 세그먼트 eVar에서 `1:M:0-25`을 수집할 수 있습니다. 기본 비디오 데이터 수집 방법은 비디오 시작(재생), 세그먼트 시작 및 비디오 종료(중지) 지점에서 데이터를 수집합니다.
 
    Analytics에서는 방문자가 시청을 시작할 때 세그먼트 시작에서 첫 번째 세그먼트 보기를 계산합니다. 세그먼트가 시작될 때 표시되는 후속 세그먼트 보기.
 
@@ -51,7 +48,7 @@ For more information about Video measurement, see the [Measuring audio and video
 
 * **a.contentType**
 
-   방문자가 본 컨텐츠 유형에 대한 데이터를 수집합니다. 비디오 측정에 의해 전송된 히트에 &quot;비디오&quot;의 컨텐츠 유형이 할당됩니다. 이 변수는 비디오 추적에만 예약할 필요가 없습니다. 동일한 변수를 사용하여 다른 컨텐츠 보고서 컨텐츠 유형을 갖는 경우 다양한 유형의 컨텐츠에 대한 방문자 분포를 분석할 수 있습니다. 예를 들어 이 변수를 사용하여 &quot;article&quot; 또는 &quot;product page&quot;와 같은 값을 사용하는 다른 콘텐츠 유형에 태그를 지정할 수 있습니다. 비디오 측정 관점에서 컨텐츠 유형을 사용하면 비디오 방문자를 식별할 수 있고 비디오 전환율을 계산할 수 있습니다.
+   방문자가 본 콘텐츠 유형에 대한 데이터를 수집합니다. 비디오 측정에 의해 전송된 히트에 &quot;비디오&quot;의 컨텐츠 유형이 할당됩니다. 이 변수는 비디오 추적에만 예약할 필요가 없습니다. 이와 동일한 변수를 사용하는 다른 컨텐츠 보고서 컨텐츠 유형이 있으면 다른 컨텐츠 유형에 대해 방문자 분포를 분석할 수 있습니다. 예를 들어 이 변수를 사용하여 &quot;article&quot; 또는 &quot;product page&quot;와 같은 값을 사용하는 다른 콘텐츠 유형에 태그를 지정할 수 있습니다. 비디오 측정 관점에서 콘텐츠 유형을 사용하면 비디오 방문자를 식별할 수 있고 비디오 전환율을 계산할 수 있습니다.
 
    * 변수 유형: eVar
    * 기본 만료: 페이지 보기
@@ -92,7 +89,7 @@ For more information about Video measurement, see the [Measuring audio and video
 
 * **open**
 
-   추적할 비디오를 엽니다.
+   추적을 위해 비디오를 엽니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -156,7 +153,7 @@ For more information about Video measurement, see the [Measuring audio and video
 
 * **완료**
 
-   Manually mark the media item as complete at the *`offset`* provided (in seconds).
+   제공된 *`offset`* (초)에서 완료된 미디어 항목을 수동으로 표시합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 

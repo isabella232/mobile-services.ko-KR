@@ -1,17 +1,14 @@
 ---
 description: 다음은 ADBMobile.json 구성 파일을 사용하는 데 유용한 정보입니다.
-seo-description: 다음은 ADBMobile.json 구성 파일을 사용하는 데 유용한 정보입니다.
-seo-title: ADBMobile JSON 구성
 solution: Experience Cloud,Analytics
 title: ADBMobile JSON 구성
 topic-fix: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
 exl-id: e3515de3-3aec-4dd0-996d-9c561ad1b1de
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 100%
+source-wordcount: '1708'
+ht-degree: 98%
 
 ---
 
@@ -73,7 +70,7 @@ ht-degree: 100%
 
 * **charset**
 
-   Analytics로 전송되는 데이터에 사용하는 문자 세트를 정의합니다. charset은 들어오는 데이터를 저장 및 보고용으로 UTF-8로 변환하는 데 사용됩니다. 자세한 내용은 [s.charSet](https://docs.adobe.com/content/help/ko-KR/analytics/implementation/vars/config-vars/charset.html)을 참조하십시오.
+   Analytics로 전송되는 데이터에 사용하는 문자 세트를 정의합니다. charset은 들어오는 데이터를 저장 및 보고용으로 UTF-8로 변환하는 데 사용됩니다. 자세한 내용은 Adobe Analytics 설명서에서 [charSet](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/charset.html) 변수를 참조하십시오.
 
    * 최소 SDK 버전: 4.0
 
@@ -162,7 +159,7 @@ ht-degree: 100%
    >버전 4.2부터 POI는 Adobe Mobile 인터페이스에서 정의되며 앱 구성 파일과 동적으로 동기화됩니다. 이렇게 동기화되려면 `analytics.poi` 설정이 필요합니다.
 
    ```js
-   “analytics.poi”: “`https://assets.adobedtm.com/…/yourfile.json`”,
+   "analytics.poi": "`https://assets.adobedtm.com/…/yourfile.json`",
    ```
 
    이 설정을 구성하지 않으면 이 행을 포함하도록 `ADBMobile.json` 파일을 업데이트해야 합니다. 업데이트된 구성 파일을 다운로드하려면 [시작하기 전에](/help/ios/getting-started/requirements.md)를 참조하십시오.
@@ -274,7 +271,6 @@ ht-degree: 100%
    Target이 응답을 기다리는 시간을 결정합니다.
 
    * 최소 SDK 버전: 4.0
-
 
 ## 샘플 `ADBMobileConfig.json` 파일 {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
 
@@ -464,5 +460,5 @@ ht-degree: 100%
    대상과 동일하지만 대상 대신 다음과 같은 작업이 있습니다.
 
    * &quot;key&quot;
-   * &quot;일치함&quot;
-   * &quot;값&quot;
+   * &quot;matches&quot;
+   * &quot;values&quot;

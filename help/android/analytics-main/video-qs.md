@@ -1,18 +1,15 @@
 ---
 description: 다음은 비디오 측정 솔루션으로 Android에서 비디오를 측정하는 방법에 대한 정보입니다.
 keywords: android;라이브러리;모바일;sdk
-seo-description: 다음은 비디오 측정 솔루션으로 Android에서 비디오를 측정하는 방법에 대한 정보입니다.
-seo-title: Video Analytics
 solution: Experience Cloud,Analytics
-title: 비디오 분석
+title: Video Analytics
 topic-fix: Developer and implementation
 uuid: a137cc27-dc28-48c0-b08e-2ca17d2c7e1d
 exl-id: 1b7f5523-767a-45e8-b2e7-ecf9984849e4
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 100%
+source-wordcount: '866'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +19,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->비디오 재생 중 빈번한 &quot;하트비트&quot; 호출이 이 서비스로 전송되어 재생 시간이 측정됩니다. 이러한 하트비트 호출은 10초 간격으로 전송되므로 더 세부적인 비디오 참여 지표와 더 정확한 비디오 폴아웃 보고서를 얻을 수 있습니다. Adobe의 비디오 측정 솔루션에 대한 자세한 내용은 [Adobe Analytics에서 오디오 및 비디오 측정](https://docs.adobe.com/content/help/ko-KR/media-analytics/using/media-overview.html)을 참조하십시오.
+>비디오 재생 중 빈번한 &quot;하트비트&quot; 호출이 이 서비스로 전송되어 재생 시간이 측정됩니다. 이러한 하트비트 호출은 10초 간격으로 전송되므로 더 세부적인 비디오 참여 지표와 더 정확한 비디오 폴아웃 보고서를 얻을 수 있습니다. Adobe의 비디오 측정 솔루션에 대한 자세한 내용은 [Adobe Analytics에서 스트리밍 미디어 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR)을 참조하십시오.
 
 비디오를 측정하는 일반적인 프로세스는 모든 플랫폼에서 유사합니다. 이 콘텐츠는 코드 샘플을 사용하는 개발자 작업에 대한 개요를 제공합니다. 다음 표에는 Analytics에 전송되는 미디어 데이터가 나열되어 있습니다. 처리 규칙은 컨텍스트 데이터를 Analytics 변수에 매핑하는 데 사용됩니다.
 

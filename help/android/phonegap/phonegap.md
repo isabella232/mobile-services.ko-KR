@@ -1,16 +1,14 @@
 ---
 description: 이 플러그인을 사용하여 PhoneGap 프로젝트에서 Android AppMeasurement 호출을 전송할 수 있습니다.
 keywords: android;라이브러리;모바일;sdk
-seo-description: 이 플러그인을 사용하여 PhoneGap 프로젝트에서 Android AppMeasurement 호출을 전송할 수 있습니다.
-seo-title: PhoneGap 플러그인 개요
 solution: Experience Cloud,Analytics
 title: PhoneGap 플러그인 개요
 topic-fix: Developer and implementation
 uuid: c5c32357-d8df-458a-b0e8-e0c56040241d
 exl-id: ecd756ca-e333-4d28-bd1e-a75ffc6ebe22
-source-git-commit: bb2459e57274183e55c1facd1a510cf55a83ddb4
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '382'
 ht-degree: 97%
 
 ---

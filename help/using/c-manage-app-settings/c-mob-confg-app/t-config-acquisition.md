@@ -1,17 +1,14 @@
 ---
 description: 새 앱을 만들거나 기존 앱을 편집하는 동안 앱 설정 관리 페이지에서 SDK 획득 옵션을 구성할 수 있습니다.
 keywords: mobile
-seo-description: 새 앱을 만들거나 기존 앱을 편집하는 동안 앱 설정 관리 페이지에서 SDK 획득 옵션을 구성할 수 있습니다.
-seo-title: SDK 획득 옵션 구성
 solution: Experience Cloud,Analytics
 title: SDK 획득 옵션 구성
 topic-fix: Metrics
 uuid: 50ce51ad-39bf-4ac7-bd94-757443d11ca7
 exl-id: 72ab6777-88b5-4908-9d0f-7f68f298dad1
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '148'
 ht-degree: 100%
 
 ---

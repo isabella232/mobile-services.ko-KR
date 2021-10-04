@@ -1,16 +1,13 @@
 ---
 description: Experience Cloud 솔루션용 Windows 8.1 Universal App Store SDK 4.x의 릴리스 노트 및 알려진 문제
-seo-description: Experience Cloud 솔루션용 Windows 8.1 Universal App Store SDK 4.x의 릴리스 노트 및 알려진 문제
-seo-title: 릴리스 노트
 solution: Experience Cloud,Analytics
 title: 릴리스 노트
 topic-fix: Developer and implementation
 uuid: 45634319-7949-4e24-b193-4f876af97a69
 exl-id: 21bd2e72-cc9e-4fc0-940f-dfc560d7a536
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '228'
 ht-degree: 100%
 
 ---
@@ -30,5 +27,4 @@ Experience Cloud 솔루션용 Windows 8.1 Universal App Store SDK 4.x의 릴리�
 | Timed Action | Timed Actions는 사용자가 앱 내에서 프로세스를 끝까지 완료하는 데 걸리는 시간을 쉽게 확인할 수 있는 방법입니다. Timed Action을 사용하면 세션 중의 시간과 작업을 완료하는 데 소요되는 총 시간(세션 간)을 계산할 수 있습니다. 자세한 내용은 [Analytics](/help/windows-appstore/analytics/analytics.md)의 *Timed Actions*&#x200B;을 참조하십시오. |
 | 옵트인/옵트아웃 | 분석을 신속하게 활성화 및 비활성화합니다. |
 
-
-모든 솔루션의 릴리스 정보에 대한 자세한 정보는 [Adobe Experience Cloud 릴리스 노트](https://docs.adobe.com/content/help/ko-KR/release-notes/experience-cloud/current.html)를 참조하십시오.
+모든 솔루션의 릴리스 정보에 대한 자세한 정보는 [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.

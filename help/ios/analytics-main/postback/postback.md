@@ -1,18 +1,15 @@
 ---
 description: 포스트백을 이용하면 SDK에서 수집한 데이터를 타사 서버에 보낼 수 있습니다. 인앱 메시지를 표시하는 데 사용하는 것과 동일한 트리거와 트레이트를 이용하면 사용자 지정된 데이터를 타사 대상에 보내도록 SDK를 구성할 수 있습니다.
-seo-description: 포스트백을 이용하면 SDK에서 수집한 데이터를 타사 서버에 보낼 수 있습니다. 인앱 메시지를 표시하는 데 사용하는 것과 동일한 트리거와 트레이트를 이용하면 사용자 지정된 데이터를 타사 대상에 보내도록 SDK를 구성할 수 있습니다.
-seo-title: 포스트백
 solution: Experience Cloud,Analytics
 title: 포스트백 개요
 uuid: 25e2a5fb-1203-40dd-96cd-b23e0f23376d
-translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+exl-id: c5aa0b99-2cb3-4dd7-9da8-e573241e864b
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '291'
 ht-degree: 100%
 
 ---
-
 
 # 포스트백 개요 {#postbacks}
 

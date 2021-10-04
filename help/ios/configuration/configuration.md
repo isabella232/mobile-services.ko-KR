@@ -1,16 +1,13 @@
 ---
 description: '다음은 JSON 구성, 히트 일괄 처리, SDK 메서드를 포함하여 iOS SDK를 구성하는 데 유용한 정보입니다. '
-seo-description: '다음은 JSON 구성, 히트 일괄 처리, SDK 메서드를 포함하여 iOS SDK를 구성하는 데 유용한 정보입니다. '
-seo-title: 구성
 solution: Experience Cloud,Analytics
 title: 구성
 topic-fix: Developer and implementation
 uuid: 63261b61-e70a-42be-a56f-5943173c041e
 exl-id: ff1f7fcd-1dc9-49b4-aead-46134600f3ab
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '126'
 ht-degree: 100%
 
 ---

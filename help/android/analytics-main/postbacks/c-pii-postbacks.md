@@ -1,17 +1,14 @@
 ---
 description: Adobe SDK를 사용하여 PII(개인 식별 정보)를 수집하고 이를 타사 엔드포인트로 보낼 수 있습니다.
-seo-description: Adobe SDK를 사용하여 PII(개인 식별 정보)를 수집하고 이를 타사 엔드포인트로 보낼 수 있습니다.
-seo-title: PII 포스트백
 title: PII 포스트백
 uuid: 8d1f1fb8-6842-478b-a164-e7f727755bd9
-translation-type: tm+mt
-source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+exl-id: 9f0b9d7b-e51d-477b-ae04-72ab09fbc6fd
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '161'
 ht-degree: 100%
 
 ---
-
 
 # PII 포스트백 {#pii-postbacks}
 
@@ -42,4 +39,3 @@ Adobe SDK를 사용하여 PII를 수집하려면 추적 PII 호출을 전송해�
      put("key","value");
    }});
    ```
-

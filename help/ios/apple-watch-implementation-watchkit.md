@@ -1,16 +1,13 @@
 ---
 description: WatchOS 2부터는 WatchKit Extension이 Apple Watch 장치에서 실행됩니다. 이 환경에서 실행되는 애플리케이션의 경우 WatchConnectivity 프레임워크에서 포함된 iOS 앱과 데이터를 공유해야 합니다.
-seo-description: WatchOS 2부터는 WatchKit Extension이 Apple Watch 장치에서 실행됩니다. 이 환경에서 실행되는 애플리케이션의 경우 WatchConnectivity 프레임워크에서 포함된 iOS 앱과 데이터를 공유해야 합니다.
-seo-title: WatchOS 2를 사용한 Apple Watch 구현
 solution: Experience Cloud,Analytics
 title: WatchOS 2를 사용한 Apple Watch 구현
 topic-fix: Developer and implementation
 uuid: 9498467e-db5e-411e-a00e-d19841f485de
 exl-id: 9fc9b799-1081-42e4-acf3-569fdeb07aff
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '506'
 ht-degree: 100%
 
 ---
@@ -41,8 +38,8 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고
 >* 포함된 앱
 >* WatchKit 앱
 >* WatchKit 확장
->
 
+>
 
 
 WatchKit 앱 개발에 대한 자세한 내용은 [Watch 앱 아키텍처](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/DesigningaWatchKitApp.html#//apple_ref/doc/uid/TP40014969-CH3-SW1)를 참조하십시오.
@@ -69,7 +66,7 @@ Xcode 프로젝트에서 다음 단계를 완료하십시오.
 1. 앱 위임 클래스의 구현 파일에서 `AdobeMobileLibrary`를 가져옵니다.
 
    ```objective-c
-   #import “ADBMobile.h”
+   #import "ADBMobile.h"
    ```
 
 1. `ADBMobile` 라이브러리를 호출하기 전에 앱 위임의 `application:didFinishLaunchingWithOptions:`에서 `WCSession`을 구성합니다.
@@ -120,7 +117,7 @@ Xcode 프로젝트에서 다음 단계를 완료하십시오.
 1. 확장 위임 클래스의 구현 파일에서 `AdobeMobileLibrary`를 가져옵니다.
 
    ```objective-c
-   #import “ADBMobile.h”
+   #import "ADBMobile.h"
    ```
 
 1. 확장 위임의 `applicationDidFinishLaunching`에서 `WCSession` 라이브러리를 호출하기 전에 `ADBMobile`을 구성합니다.

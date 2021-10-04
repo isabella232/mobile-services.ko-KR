@@ -1,17 +1,14 @@
 ---
 description: 다음은 iOS 라이브러리에서 제공하는 Adobe Target 메서드 목록입니다.
-seo-description: 다음은 iOS 라이브러리에서 제공하는 Adobe Target 메서드 목록입니다.
-seo-title: Adobe Mobile Services용 iOS Target 메서드
 solution: Experience Cloud,Analytics
 title: iOS용 Target 메서드
 topic-fix: Developer and implementation
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
 exl-id: ba03f865-970c-4b48-af35-749f05b273d8
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '629'
+ht-degree: 95%
 
 ---
 
@@ -82,7 +79,7 @@ NSString *const ADBTargetParameterMboxHost;
                           }];
       ```
 
-* **targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:requestLocationParameters:callback:**
+* **:defaultContent::orderParameters::requestLocationParameters:targetLoadRequestWithNameProfileParameterboxParameterscallback:**
 
    구성된 Target 서버에 request를 보내고 차단 콜백에서 생성된 오퍼의 문자열 값을 반환합니다.
 
@@ -154,7 +151,7 @@ NSString *const ADBTargetParameterMboxHost;
                                  }];
       ```
 
-      기본 Target API에 대한 자세한 내용은 [Adobe Target 개발자](https://docs.adobe.com/dev/products/target/reference/delivery.html)를 참조하십시오.
+      기본 Target API에 대한 자세한 내용은 [Target API 참조](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target/target-api-reference-deprecated)를 참조하십시오.
 
 
 
@@ -162,7 +159,7 @@ NSString *const ADBTargetParameterMboxHost;
 
 
 
-* **targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:callback**
+* **:defaultContent::orderParameters:targetLoadRequestWithNameprofileParameterboxParameters:callback**
 
    구성된 Target 서버에 요청을 보내고 차단 callback에서 생성된 오퍼의 문자열 값을 반환합니다.
 

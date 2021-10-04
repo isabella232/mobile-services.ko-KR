@@ -1,18 +1,15 @@
 ---
 description: 다음은 Adobe Analytics에서 Android SDK를 사용하는 데 유용한 정보입니다.
 keywords: android;라이브러리;모바일;sdk
-seo-description: 다음은 Adobe Analytics에서 Android SDK를 사용하는 데 유용한 정보입니다.
-seo-title: Analytics 개요
 solution: Experience Cloud,Analytics
 title: Analytics 개요
 topic-fix: Developer and implementation
 uuid: cc9fa1d9-bc48-4d03-854a-f7b263580a91
 exl-id: ed9f55e6-f3ab-4c1e-9a2f-1ee67a7b4c03
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 100%
+source-wordcount: '316'
+ht-degree: 95%
 
 ---
 
@@ -43,4 +40,4 @@ SDK에서 식별자는 사용자를 추적하는 데 사용되며 식별자 계�
 
 Tracking Identifier라고도 하는 AID는 앱이 MID를 사용하도록 구성되지 않은 경우 SDK에서 생성합니다. 값은 `SharedPreferences`에서 실행 및 앱 업그레이드 사이에서 지속됩니다. 사용자가 장치에서 앱을 삭제한 다음 앱을 다시 설치하거나 앱 개발자가 SharedPreferences를 삭제하는 경우 SDK가 새 식별자를 생성합니다. 이 프로세스를 수행하면 Analytics 보고에서 새 사용자가 표시됩니다.
 
-ID 서비스 지원(MID)을 도입한 앱 사용자의 경우 기존 AID 값이 분석 히트와 함께 전송되고 분석 히트에 AID 및 MID가 포함됩니다. ID 서비스를 지원하는 앱의 새 사용자의 경우 Analytics 요청에는 MID만 포함됩니다. 방문자 식별에 대한 자세한 내용은 [방문자 식별](https://docs.adobe.com/content/help/ko-KR/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-visid.html)을 참조하십시오.
+ID 서비스 지원(MID)을 도입한 앱 사용자의 경우 기존 AID 값이 분석 히트와 함께 전송되고 분석 히트에 AID 및 MID가 포함됩니다. ID 서비스를 지원하는 앱의 새 사용자의 경우 Analytics 요청에는 MID만 포함됩니다. 방문자 식별에 대한 자세한 내용은 Adobe Analytics 설명서에서 [고유 방문자 수](https://experienceleague.adobe.com/docs/analytics/components/metrics/unique-visitors.html) 를 참조하십시오.

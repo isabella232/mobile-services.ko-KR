@@ -1,18 +1,15 @@
 ---
 description: 응용 프로그램에서 푸시 메시지를 구성하기 전에 이러한 작업을 완료해야 합니다.
 keywords: mobile
-seo-description: 응용 프로그램에서 푸시 메시지를 구성하기 전에 이러한 작업을 완료해야 합니다.
-seo-title: 푸시 메시지를 활성화하기 위한 전제 조건
 solution: Experience Cloud,Analytics
 title: 푸시 메시지를 활성화하기 위한 전제 조건
 topic-fix: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
 exl-id: 543155a4-f687-48a6-8690-5c8da8490c62
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 100%
+source-wordcount: '633'
+ht-degree: 94%
 
 ---
 
@@ -58,7 +55,7 @@ Adobe Analytics를 사용하는 회사에서는 Experience Cloud가 활성화되
 
 각 사용자는 Experience Cloud 조직의 Analytics 솔루션 계정을 연결해야 합니다.
 
-1. Adobe ID로 Experience Cloud에 로그인하려면 브라우저에 [https://marketing.adobe.com](https://marketing.adobe.com)을 입력합니다.
+1. Adobe ID을 사용하여 [Adobe Experience Cloud](https://experience.adobe.com)에 로그인합니다.
 
 1. 오른쪽 상단 모서리에서 Analytics 회사 이름을 선택합니다.
 
@@ -68,7 +65,7 @@ Adobe Analytics를 사용하는 회사에서는 Experience Cloud가 활성화되
 
    이제 Adobe ID가 Analytics 계정, 회사 및 로그인 자격 증명에 연결됩니다.
 
-자세한 내용은 [계정 연결 문제 해결](https://docs.adobe.com/content/help/ko-KR/core-services/interface/manage-users-and-products/organizations.html)을 참조하십시오.
+자세한 내용은 Experience Cloud 중앙 인터페이스 구성 요소 안내서의 [Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)의 조직을 참조하십시오.
 
 ## 모바일 사용자 인터페이스에서 푸시 서비스 및 SDK ID 서비스 구성
 

@@ -1,17 +1,14 @@
 ---
 description: 단계 보고서를 사용하면 고객이 마케팅 캠페인을 포기하는 상황이나, 모바일 앱과 상호 작용할 때 정의된 전환 경로를 벗어나는 상황을 식별할 수 있으며, 단계 보고서를 사용하여 서로 다른 세그먼트의 작업을 비교할 수도 있습니다.
 keywords: mobile
-seo-description: 단계 보고서를 사용하면 고객이 마케팅 캠페인을 포기하는 상황이나, 모바일 앱과 상호 작용할 때 정의된 전환 경로를 벗어나는 상황을 식별할 수 있으며, 단계 보고서를 사용하여 서로 다른 세그먼트의 작업을 비교할 수도 있습니다.
-seo-title: 단계 보고서
 solution: Experience Cloud,Analytics
 title: 단계 보고서
 topic-fix: Reports,Metrics
 uuid: 268b4ab9-2e29-4423-9f79-ad93f5231ede
 exl-id: 43f9d0aa-0651-42c6-85ea-307ed253cf8d
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '484'
 ht-degree: 100%
 
 ---

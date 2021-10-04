@@ -1,16 +1,13 @@
 ---
 description: 다음은 iOS 라이브러리를 버전 3.x 또는 2.x에서 4.x 버전으로 마이그레이션하는 데 유용한 정보입니다.
-seo-description: 다음은 iOS 라이브러리를 버전 3.x 또는 2.x에서 4.x 버전으로 마이그레이션하는 데 유용한 정보입니다.
-seo-title: 4.x iOS 라이브러리로 마이그레이션
 solution: Experience Cloud,Analytics
 title: 4.x iOS 라이브러리로 마이그레이션
 topic-fix: Developer and implementation
 uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
 exl-id: a58067e0-b6f4-4900-ba3f-7256d9259420
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '871'
 ht-degree: 100%
 
 ---
@@ -112,7 +109,7 @@ iOS SDK 라이브러리 버전 4.x에서는 공용 메서드가 하나의 헤더
 | trackingServer | &quot;server&quot;, `"https://"` 접두사를 제거합니다. 프로토콜 접두사는 &quot;ssl&quot; 설정에 따라 자동으로 추가됩니다. |
 | trackingServerSecure | 제거. 보안 연결에 대해 &quot;server&quot;를 정의한 다음 &quot;ssl&quot;을 활성화합니다. |
 | charSet | &quot;charset&quot; |
-| currencyCode | &quot;통화&quot; |
+| currencyCode | &quot;currency&quot; |
 | ssl | &quot;ssl&quot; |
 | linkTrackVars | 제거, 더 이상 사용되지 않습니다. |
 | linkTrackEvents | 제거, 더 이상 사용되지 않습니다. |

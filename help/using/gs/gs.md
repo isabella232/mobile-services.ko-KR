@@ -1,18 +1,15 @@
 ---
 description: 이 정보는 Adobe Mobile Services를 이해하고 사용하는 데 도움이 됩니다.
 keywords: mobile
-seo-description: 이 정보는 Adobe Mobile Services를 이해하고 사용하는 데 도움이 됩니다.
-seo-title: 시작하기
 solution: Experience Cloud,Analytics
 title: 시작하기
 topic-fix: Metrics
 uuid: a7ae7c5a-dab8-4603-b4cd-af73a2f09f71
 exl-id: 0c08e154-8747-45dc-9731-ab2a3e78bc5a
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 100%
+source-wordcount: '1344'
+ht-degree: 97%
 
 ---
 
@@ -114,7 +111,7 @@ Adobe Mobile에서 다음 유형의 메시지를 구성할 수 있습니다.
 
 *최적화*&#x200B;에서 전환(구독, 상거래, 광고 수입 등)을 최적화하고 고객 보유율을 향상시킬 수 있습니다. 앱의 사용자 경험을 최적화하면 컨텐츠를 개인화하여 ROI와 전환율을 극대화할 수 있습니다.
 
-테스트 및 Adobe Target에 대한 자세한 내용을 보려면 [Adobe Target](https://docs.adobe.com/content/help/ko-KR/target/using/target-home.html)로 이동하십시오.
+테스트 및 Adobe Target에 대한 자세한 내용은 [Adobe Target](https://experienceleague.adobe.com/docs/target/using/target-home.html) 설명서를 참조하십시오.
 
 ### 지역 타깃팅
 
@@ -161,4 +158,4 @@ Adobe Mobile SDK는 다음 기능을 제공합니다.
    * Adobe 서버 및 타사 시스템으로 데이터를 전송하는 장치 처리 부하를 최소화합니다.
    * 적은 사용 공간으로 앱스토어에 제출되는 앱 패키지의 크기를 최소화합니다.
 
-Adobe Mobile SDK에 대한 자세한 정보는 [Experience Solutions용 Android SDK 4.x](https://docs.adobe.com/content/help/ko-KR/mobile-services/android/overview.html) 및 [Experience Cloud Solutions용 iOS SDK 4.x](https://docs.adobe.com/content/help/ko-KR/mobile-services/ios/rel-notes.html)를 참조하십시오.
+Adobe Mobile SDK에 대한 자세한 정보는 [Experience Solutions용 Android SDK 4.x](/help/android/overview.md) 및 [Experience Cloud Solutions용 iOS SDK 4.x](/help/ios/overview.md)를 참조하십시오.

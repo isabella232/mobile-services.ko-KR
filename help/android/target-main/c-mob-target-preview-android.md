@@ -1,23 +1,20 @@
 ---
 description: 타겟 미리 보기를 사용하면 타겟 활동에 대해 엔드투 엔드 QA를 쉽게 수행하고 해당 활동을 장치에서 미리 볼 수 있습니다.
-seo-description: 타겟 미리 보기를 사용하면 타겟 활동에 대해 엔드투 엔드 QA를 쉽게 수행하고 해당 활동을 장치에서 미리 볼 수 있습니다.
-seo-title: Android에서 타겟 미리 보기
 title: Android에서 타겟 미리 보기
 uuid: f3c82d64-009c-4929-a5e6-3677b2977889
-translation-type: tm+mt
-source-git-commit: 83e6968efb0ed1b4ef504286c6cb2e8e4d2eaf94
+exl-id: 69103f3a-9521-4808-8ecd-7b960efca04d
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 87%
+source-wordcount: '120'
+ht-degree: 74%
 
 ---
-
 
 # Android에서 타겟 미리 보기 {#target-preview-on-android}
 
 타겟 미리 보기를 사용하면 타겟 활동에 대해 엔드투 엔드 QA를 쉽게 수행하고 해당 활동을 장치에서 미리 볼 수 있습니다.
 
-For more information on how to set up and use Target Preview, go to [Target Mobile Preview](https://docs.adobe.com/content/help/ko-KR/target/using/implement-target/mobile-apps/target-mobile-preview.html).
+Target 미리 보기 설정 및 사용 방법에 대한 자세한 내용을 보려면 Adobe Target 사용 안내서에서 [Target 모바일 미리 보기](https://experienceleague.adobe.com/docs/target/using/implement-target/mobile-apps/target-mobile-preview.html)로 이동하십시오.
 
 >[!IMPORTANT]
 >
@@ -36,6 +33,5 @@ For more information on how to set up and use Target Preview, go to [Target Mobi
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      Target.setPreviewRestartDeeplink(“myapp://myhost”); 
+      Target.setPreviewRestartDeeplink("myapp://myhost"); 
       ```
-

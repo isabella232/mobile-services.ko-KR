@@ -1,17 +1,14 @@
 ---
 description: 사용량 보고서에는 평균 세션 길이, 일별 및 월별 참여 사용자, 업그레이드 및 기타 통찰력이 표시되므로 앱이 사용되는 방식과 빈도를 파악할 수 있습니다. 유지 보고서는 처음 실행 후 1일, 7일 및 28일 후의 사용자 유지 수준을 빠르게 보여줍니다.
 keywords: mobile
-seo-description: 사용량 보고서에는 평균 세션 길이, 일별 및 월별 참여 사용자, 업그레이드 및 기타 통찰력이 표시되므로 앱이 사용되는 방식과 빈도를 파악할 수 있습니다. 유지 보고서는 처음 실행 후 1일, 7일 및 28일 후의 사용자 유지 수준을 빠르게 보여줍니다.
-seo-title: 보고서
 solution: Experience Cloud,Analytics
 title: 보고서
 topic-fix: Reports,Metrics
 uuid: 2abc2bd1-dbae-4af1-9b8d-1df2f6d3a81f
 exl-id: a95dd9c9-49f3-41df-87bf-6a2ac0d46c5c
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '130'
 ht-degree: 100%
 
 ---
@@ -33,6 +30,6 @@ Mobile UI에서 다음 보고서를 생성할 수 있습니다.
 * [충돌](/help/using/usage/c-crashes.md)
 * [앱스토어 개요 보고서](/help/using/usage/c-app-store-store-performance.md)
 * [보고서 사용자 지정](/help/using/usage/reports-customize/reports-customize.md)
-* [보고서에 필터 추가](/help/using/usage/reports-customize/t-reports-customize.md)를 참조하십시오
+* [보고서에 필터 추가](/help/using/usage/reports-customize/t-reports-customize.md)
 * [보고서에 시리즈(지표) 추가](/help/using/usage/reports-customize/t-reports-series.md)
-* [고정 필터 추가](/help/using/usage/reports-customize/t-sticky-filter.md)를 참조하십시오
+* [고정 필터 추가](/help/using/usage/reports-customize/t-sticky-filter.md)

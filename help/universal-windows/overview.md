@@ -1,16 +1,13 @@
 ---
 description: 'Experience Cloud Solutions용 Universal Windows Platform SDK 4.x를 사용하면 기본 Windows 10 애플리케이션을 측정하고 앱 내에 타깃팅된 컨텐츠를 제공하거나 고객 관리를 통해 대상 데이터를 활용하고 수집할 수 있습니다. '
-seo-description: 'Experience Cloud Solutions용 Universal Windows Platform SDK 4.x를 사용하면 기본 Windows 10 애플리케이션을 측정하고 앱 내에 타깃팅된 컨텐츠를 제공하거나 고객 관리를 통해 대상 데이터를 활용하고 수집할 수 있습니다. '
-seo-title: Experience Cloud 솔루션용 Universal Windows Platform SDK 4.x
 solution: Experience Cloud,Analytics
 title: Experience Cloud 솔루션용 Universal Windows Platform SDK 4.x
 topic-fix: Developer and implementation
 uuid: 23a5bc0a-54f0-42a7-af1e-c8cbb509dfce
 exl-id: 3ae13dfc-a5ad-46d9-90e1-1e5e11b39f42
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '175'
 ht-degree: 100%
 
 ---

@@ -1,23 +1,20 @@
 ---
-description: experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서드입니다.
+description: Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서드.
 keywords: Xamarin
-seo-description: experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서드입니다.
-seo-title: iOS 메서드
 solution: Experience Cloud
 title: iOS 메서드
 uuid: d6a056db-80c1-44d0-970f-c961ad01b0bc
-translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+exl-id: 92897d08-2b66-4688-9870-c877bea53cfc
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1737'
 ht-degree: 70%
 
 ---
 
-
 # iOS 메서드{#ios-methods}
 
-experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서드입니다.
+Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서드.
 
 ## 구성 메서드 {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
@@ -55,7 +52,7 @@ experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
 * **SetDebugLogging**
 
-   디버그 로깅 기본 설정을 활성화됨으로 설정합니다.
+   디버그 로깅 기본 설정을 enabled로 설정합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -90,9 +87,9 @@ experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
    현재 사용자에 대한 개인 정보 상태의 열거 표현을 반환합니다.
    * `ADBMobilePrivacyStatus.OptIn` - 히트가 즉시 전송됩니다.
    * `ADBMobilePrivacyStatus.OptOut` - 히트가 삭제됩니다.
-   * ADBMobilePrivacyStatus.Unknown - 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다. 오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다.
+   * ADBMobilePrivacyStatus.Unknown - 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트 삭제)으로 변경될 때까지 히트가 저장됩니다. 오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 삭제됩니다.
 
-   The default value is set in the [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
+   기본값은 [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md)에 설정됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -126,7 +123,7 @@ experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
       ADBMobile.SetPrivacyStatus(ADBMobilePrivacyStatus.OptIn); 
       ```
 
-* **사용자 식별자**
+* **UserIdentifier**
 
    사용자 지정 식별자가 설정된 경우 사용자 지정 사용자 식별자를 반환합니다. 사용자 지정 식별자가 설정되지 않은 경우 null을 반환합니다. 기본값은 `null`입니다.
 
@@ -155,7 +152,7 @@ experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```objective-c
-      ADBMobile.SetUserIdentifier ("customUserIdentifier”); 
+      ADBMobile.SetUserIdentifier ("customUserIdentifier"); 
       ```
 
 * **GetVersion**
@@ -180,7 +177,7 @@ experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
    >[!TIP]
    >
-   >이 메서드는 앱이 백그라운드에 있을 때 알림을 등록하는 앱에 사용하기 위한 것으로 앱이 백그라운드에 있을 때 실행하는 코드에서만 호출되어야 합니다.
+   >이 메서드는 앱이 백그라운드에 있을 때 알림을 등록하는 앱에 사용하기 위한 것으로, 앱이 백그라운드에 있을 때 실행하는 코드에서만 호출되어야 합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -214,7 +211,7 @@ experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
 * **TrackState**
 
-   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. 상태는 &quot;제목 화면&quot;, &quot;레벨 1&quot;, &quot;일시 중지&quot; 등과 같이 앱에서 사용할 수 있는 보기입니다. 이러한 상태는 웹 사이트의 페이지와 유사하며 증가 페이지 보기를 `TrackState` 호출합니다. 상태가 비어있으면 보고서에 &quot;앱 이름 앱 버전(빌드)&quot;으로 표시됩니다. If you see this value in reports, make sure you are setting state in each `TrackState` call.
+   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. 상태는 &quot;title screen&quot;, &quot;level 1&quot;, &quot;pause&quot; 등과 같이 앱에서 사용할 수 있는 보기입니다. 이 상태는 웹 사이트의 페이지와 유사하며 `TrackState` 호출은 페이지 보기를 증가시킵니다.상태가 비어 있으면 보고서에 &quot;app name app version (build)&quot;로 표시됩니다. 보고서에 이 값이 표시되면 각각의 `TrackState` 호출에서 상태를 설정해야 합니다.
 
    >[!TIP]
    >
@@ -236,7 +233,7 @@ experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
 * **TrackAction**
 
-   앱의 작업을 추적합니다. 작업은 &quot;죽음&quot;, &quot;획득 레벨&quot;, &quot;피드 구독&quot; 및 기타 지표 등 측정하려는 앱에서 발생하는 일들입니다.
+   앱의 작업을 추적합니다. 작업은 &quot;죽음&quot;, &quot;획득한 수준&quot;, &quot;피드 구독&quot; 및 기타 지표 등 앱에서 발생하여 측정하려는 것입니다.
 
    >[!TIP]
    >
@@ -326,11 +323,11 @@ experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
 * **TrackLifetimeValueIncrease**
 
-   사용자의 라이프타임 값에 금액을 추가합니다.
+   사용자의 라이프타임 값에 양을 추가합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
-      public nbsp;static void TrackLifetimeValueIncrease(double amount, NSDictionary data);
+      public nbsp;static void TrackLifetimeValueIncrease(double amount, NSDictionary 데이터);
 
    * 다음은 이 메서드의 코드 샘플입니다.
 
@@ -360,7 +357,7 @@ experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
 * **TrackTimedActionUpdate**
 
-   데이터를 전달하여 주어진 작업과 연관된 컨텍스트 데이터를 업데이트합니다. 전달된 데이터는 주어진 작업의 기존 데이터에 추가되며 작업에 대해 동일한 키가 이미 정의된 경우 데이터를 덮어씁니다.
+   데이터를 전달하여 지정된 작업과 관련된 컨텍스트 데이터를 업데이트합니다. 전달된 데이터는 기존 작업 데이터에 추가되며 동일한 키가 작업에 이미 정의되어 있으면 데이터를 덮어씁니다.
 
    >[!TIP]
    >
@@ -399,7 +396,7 @@ experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
 * **TrackingTimedActionExists**
 
-   시간 제한 작업이 진행 중인지 또는 진행 중인지 여부를 반환합니다.
+   시간 작업이 진행 중인지 여부를 반환합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -464,7 +461,7 @@ experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
       var queueSize = ADBMobile.TrackingGetQueueSize(); 
       ```
 
-## Experience Cloud ID methods {#section_157919E46030443DBB5CED60D656AD9F}
+## Experience Cloud ID 메서드 {#section_157919E46030443DBB5CED60D656AD9F}
 
 * **GetMarketingCloudID**
 
@@ -482,9 +479,9 @@ experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
       var mcid = ADBMobile.GetMarketingCloudID();
       ```
 
-* **방문자 동기화 식별자**
+* **VisitorSyncIdentifiers**
 
-   Experience Cloud ID를 사용하여 각 방문자와 연결할 추가 고객 ID를 설정할 수 있습니다. 방문자 API는 서로 다른 고객 ID의 범위를 구분하기 위해 동일한 방문자에 대한 여러 고객 ID와 고객 유형 식별자를 수락합니다. 이 메서드는 JavaScript 라이브러리의 setCustomerID에 해당합니다.
+   Experience Cloud ID를 사용하면 각 방문자와 연결할 추가 고객 ID를 설정할 수 있습니다. 방문자 API는 여러 다른 고객 ID의 범위를 구분하기 위해 동일한 방문자의 여러 고객 ID와 고객 유형 식별자를 수락합니다. 이 메서드는 JavaScript 라이브러리의 setCustomerID에 해당합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -503,7 +500,7 @@ experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
 * **TargetLoadRequest**
 
-   Sends request to your configured Target server and returns the string value of the offer generated in a `Action<NSDictionary>` callback.
+   구성된 Target 서버에 요청을 보내고 `Action<NSDictionary>` 콜백에서 생성된 오퍼의 문자열 값을 반환합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -523,7 +520,7 @@ experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
 * **TargetCreateRequest**
 
-   Convenience constructor to create an `ADBTargetLocationRequest` object with the given parameters.
+   주어진 매개 변수로 `ADBTargetLocationRequest` 개체를 만드는 편의 생성자입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -574,7 +571,7 @@ experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
 * **AudienceVisitorProfile**
 
-   가장 최근 획득한 방문자 프로필을 반환합니다. 아직 신호가 전송되지 않은 경우 nil을 반환합니다. Visitor profile is saved in `NSUserDefaults` for easy access across multiple launches of your app.
+   가장 최근 획득한 방문자 프로필을 반환합니다. 아직 어떤 신호도 전송되지 않은 경우 nil을 반환합니다. 방문자 프로필은 앱이 여러 번 시작되는 경우에도 쉽게 액세스할 수 있도록 `NSUserDefaults`에 저장됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -622,7 +619,7 @@ experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
 * **AudienceSetDpidAndDpuuid**
 
-   dpid 및 dpuuid를 설정합니다. dpid 및 dpuuid가 설정되면 각 신호와 함께 전송됩니다.
+   dpid 및 dpuuid를 설정합니다. dpid 및 dpuuid가 설정되면 이 값들이 각 신호와 함께 전송됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -638,7 +635,7 @@ experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
 * **AudienceSignalWithData**
 
-   Sends audience management a signal with traits and get the matching segments returned in a `Action<NSDictionary>`  callback.
+   트레이트가 있는 신호를 고객 관리에 보내고 `Action<NSDictionary>` 콜백에서 반환된 일치 세그먼트를 받습니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -673,7 +670,7 @@ experience cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
 ## 비디오 {#section_CBCE1951CE204A108AD4CA7BB07C7F98}
 
-자세한 내용은 [비디오 분석을 참조하십시오](/help/ios/getting-started/dev-qs.md).
+자세한 내용은 [Video Analytics](/help/ios/getting-started/dev-qs.md)를 참조하십시오.
 
 * **MediaCreateSettings**
 

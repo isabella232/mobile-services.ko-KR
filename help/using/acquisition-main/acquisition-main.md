@@ -1,17 +1,14 @@
 ---
 description: '마케터는 추적 링크를 만들어 앱을 홍보하고 앱으로의 트래픽을 유도할 수 있습니다. 이러한 추적 링크는 인앱 동작과 상관 관계가 있을 수 있는 앱스토어, 앱 딥링크 및 삽입 광고로 사용자를 유도할 수 있습니다. 마케터는 하나의 링크를 만들어 사용자를 iOS, Android 또는 기타 플랫폼으로 적절하게 라우팅할 수 있습니다. '
 keywords: mobile
-seo-description: '마케터는 추적 링크를 만들어 앱을 홍보하고 앱으로의 트래픽을 유도할 수 있습니다. 이러한 추적 링크는 인앱 동작과 상관 관계가 있을 수 있는 앱스토어, 앱 딥링크 및 삽입 광고로 사용자를 유도할 수 있습니다. 마케터는 하나의 링크를 만들어 사용자를 iOS, Android 또는 기타 플랫폼으로 적절하게 라우팅할 수 있습니다. '
-seo-title: 획득
 solution: Experience Cloud,Analytics
 title: 획득
 topic-fix: Metrics
 uuid: 987146e4-2cca-46e7-88aa-74b62d9f1dc5
 exl-id: ed0842a8-e3cb-4c5a-b001-c0ea3ca69583
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '448'
 ht-degree: 100%
 
 ---

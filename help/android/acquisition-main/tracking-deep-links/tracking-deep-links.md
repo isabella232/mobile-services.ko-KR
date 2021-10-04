@@ -1,18 +1,15 @@
 ---
 description: 다음은 Adobe Mobile Android SDK를 사용하여 모바일 앱에서 딥링크와 지연된 딥링크를 추적하는 데 유용한 정보입니다.
 keywords: android;라이브러리;모바일;sdk
-seo-description: 다음은 Adobe Mobile Android SDK를 사용하여 모바일 앱에서 딥링크와 지연된 딥링크를 추적하는 데 유용한 정보입니다.
-seo-title: Adobe Mobile Services의 딥링크 추적
 solution: Experience Cloud,Analytics
 title: 딥링크 추적
 topic-fix: Developer and implementation
 uuid: ebb1c08c-a246-40b3-9ac6-4606a14b4c5a
 exl-id: 4f59b77d-3cac-4853-bb6b-50a403036771
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 100%
+source-wordcount: '302'
+ht-degree: 97%
 
 ---
 
@@ -55,7 +52,7 @@ Adobe Mobile SDK는 임의의 딥링크 또는 범용 링크에 `a.deeplink.id` 
 * `a.launch.campaign.term`
 * `a.launch.campaign.content`
 
-이 키는 Adobe Analytics에 보고하기 위해 사전에 매핑된 변수입니다. 매핑 및 처리 규칙에 대한 자세한 내용은 [처리 규칙 및 컨텍스트 데이터](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/processing-rules/processing-rules.html)를 참조하십시오.
+이 키는 Adobe Analytics에 보고하기 위해 사전에 매핑된 변수입니다. 매핑 및 처리 규칙에 대한 자세한 내용은 [처리 규칙 및 컨텍스트 데이터](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)를 참조하십시오.
 
 ## 지연된 딥링크 추적(마케팅 링크용)
 

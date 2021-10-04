@@ -1,22 +1,19 @@
 ---
 description: Apple App Store 또는 Google Play에서 앱을 추가할 수 있습니다.
 keywords: mobile
-seo-description: Apple App Store 또는 Google Play에서 앱을 추가할 수 있습니다.
-seo-title: 앱스토어에서 앱 추가
 solution: Experience Cloud,Analytics
 title: 앱스토어에서 앱 추가
 topic-fix: Metrics
 uuid: 94c8a924-5156-4742-8b5b-88d9ea13bfed
 exl-id: 874a132b-42d3-4074-8f14-22310fa60ec0
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '138'
 ht-degree: 100%
 
 ---
 
-# 앱스토어에서 앱 추가 {#add-an-app-from-an-app-store}
+# 앱스토어에서 앱 추가를 참조하십시오 {#add-an-app-from-an-app-store}
 
 Apple App Store 또는 Google Play에서 앱을 추가할 수 있습니다.
 

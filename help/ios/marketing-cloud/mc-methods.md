@@ -1,17 +1,14 @@
 ---
 description: 다음은 iOS 라이브러리에서 제공하는 Adobe Experience Platform ID 서비스 메서드입니다.
-seo-description: 다음은 iOS 라이브러리에서 제공하는 Adobe Experience Platform ID 서비스 메서드입니다.
-seo-title: Adobe Experience Platform ID 서비스 메서드
 solution: Experience Cloud,Analytics
 title: Adobe Experience Platform ID 서비스 메서드
 topic-fix: Developer and implementation
 uuid: cdd307bc-8b7d-47a8-b77e-00902b9e2968
 exl-id: 82a246fc-f679-4fa5-b9c0-dc909a7e7d93
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 100%
+source-wordcount: '439'
+ht-degree: 96%
 
 ---
 
@@ -25,7 +22,7 @@ ht-degree: 100%
 
 * **`+`(nullable NSURL `*`)visitorAppendToURL:(nullable NSURL `*`)url;**
 
-   Adobe JavaScript 라이브러리에서 사용할 수 있도록 URL 문자열에 Adobe 방문자 데이터를 추가합니다. 이 메서드를 사용하려면 Mobile SDK 버전 4.12 이상이 있어야 합니다. 자세한 내용은 [방문자 ID 지원 기능 추가](https://docs.adobe.com/content/help/ko-KR/id-service/using/id-service-api/methods/appendvisitorid.html)를 참조하십시오.
+   Adobe JavaScript 라이브러리에서 사용할 수 있도록 URL 문자열에 Adobe 방문자 데이터를 추가합니다. 이 메서드를 사용하려면 Mobile SDK 버전 4.12 이상이 있어야 합니다. 자세한 내용은 Adobe Experience Cloud Identity 서비스 설명서에서 [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=ko-KR) 를 참조하십시오.
 
    >[!IMPORTANT]
    >

@@ -1,16 +1,13 @@
 ---
 description: 다음은 tvOS로 Apple TV를 구현하는 데 유용한 정보입니다.
-seo-description: 다음은 tvOS로 Apple TV를 구현하는 데 유용한 정보입니다.
-seo-title: tvOS를 사용한 Apple TV 구현
 solution: Experience Cloud,Analytics
 title: tvOS를 사용한 Apple TV 구현
 topic-fix: Developer and implementation
 uuid: d1571ea2-a5de-4b96-a527-72abbf51fab8
 exl-id: 35b7f02d-ae48-4c6f-9a3a-6d106a1026ad
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '388'
 ht-degree: 100%
 
 ---
@@ -69,7 +66,7 @@ Xcode 프로젝트에서 다음 단계를 완료하십시오.
 1. `TVApplicationControllerDelegate` 클래스의 구현 파일에서 SDK를 가져옵니다.
 
    ```objective-c
-   #import “ADBMobile.h"
+   #import "ADBMobile.h"
    ```
 
 1. `TVApplicationControllerDelegate` 클래스의 `application:didFinishLaunchWithOptions:` 메서드에서 `installTVMLHooks:` 메서드를 사용하여 `TVApplicationController` 개체를 SDK에 전달합니다.

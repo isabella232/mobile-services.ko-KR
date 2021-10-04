@@ -1,17 +1,14 @@
 ---
 description: Xamarin 응용 프로그램에서 사용할 클래스 및 열거형 목록입니다.
-seo-description: Xamarin 응용 프로그램에서 사용할 클래스 및 열거형 목록입니다.
-seo-title: 클래스 및 열거형
 title: 클래스 및 열거형
 uuid: 410d27ee-ce2b-4183-971e-39a7031d1bd5
-translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+exl-id: 9486e654-18d1-4e71-a096-5925d928bf84
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '37'
 ht-degree: 24%
 
 ---
-
 
 # 클래스 및 열거형{#classes-and-enums}
 

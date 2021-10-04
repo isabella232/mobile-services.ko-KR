@@ -1,23 +1,20 @@
 ---
 description: Adobe SDK는 Apple의 Search Ads App Attribution API를 활용하여 개발자와 마케팅 담당자가 Apple App Store의 검색 광고 캠페인에서 발생한 앱 다운로드를 추적하고 그 속성을 파악할 수 있도록 합니다.
-seo-description: Adobe SDK는 Apple의 Search Ads App Attribution API를 활용하여 개발자와 마케팅 담당자가 Apple App Store의 검색 광고 캠페인에서 발생한 앱 다운로드를 추적하고 그 속성을 파악할 수 있도록 합니다.
-seo-title: Apple 검색 광고
 solution: Experience Cloud,Analytics
 title: Apple 검색 광고
 topic-fix: Developer and implementation
 uuid: 790080e8-067e-4bfd-a169-0027db4fdff3
 exl-id: efcdd430-f08d-4ee2-85f3-2697c3bd72db
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '245'
 ht-degree: 100%
 
 ---
 
 # Apple 검색 광고 {#apple-search-ads}
 
-Adobe SDK는 Apple의 Search Ads App Attribution API를 활용하여 개발자와 마케팅 담당자가 Apple App Store의 검색 광고 캠페인에서 발생한 앱 다운로드를 추적하고 그 속성을 파악할 수 있도록 합니다. 검색 광고 캠페인에 대한 자세한 내용은 [Apple Search Ads](https://searchads.apple.com)/kr/를 참조하십시오.
+Adobe SDK는 Apple의 Search Ads App Attribution API를 활용하여 개발자와 마케팅 담당자가 Apple App Store의 검색 광고 캠페인에서 발생한 앱 다운로드를 추적하고 그 속성을 파악할 수 있도록 합니다. 검색 광고 캠페인에 대한 자세한 내용은 [Apple Search Ads](https://searchads.apple.com)를 참조하십시오.
 
 ## 이점 {#section_CEA30C652AC8470784B8054E299B80FA}
 
@@ -40,7 +37,7 @@ Apple 광고를 사용할 경우 다음과 같은 이점이 있습니다.
 
 1. 앱의 Xcode 프로젝트 파일에 iAd 프레임워크를 추가합니다.
 
-## 검색 광고 속성 보고  {#section_1AF4E0B4F8E94F36B38CA3D3E384D0A4}
+## 검색 광고 속성 보고 {#section_1AF4E0B4F8E94F36B38CA3D3E384D0A4}
 
 1. Apple 검색 광고 속성 데이터는 획득 이름, 소스 및 용어 값으로 제공됩니다.
 

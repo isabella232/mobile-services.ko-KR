@@ -1,17 +1,14 @@
 ---
 description: 다음은 Android 애플리케이션에서 타깃팅된 콘텐츠를 제공하는 데 유용한 정보입니다.
 keywords: android;라이브러리;모바일;sdk
-seo-description: 다음은 Android 애플리케이션에서 타깃팅된 콘텐츠를 제공하는 데 유용한 정보입니다.
-seo-title: Target 개요
 solution: Experience Cloud,Analytics
 title: Target 개요
 topic-fix: Developer and implementation
 uuid: 3501b76d-f83f-45eb-b56d-39e64717772e
 exl-id: 6b75528c-b808-440e-8517-3dcea6204af8
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '119'
 ht-degree: 100%
 
 ---

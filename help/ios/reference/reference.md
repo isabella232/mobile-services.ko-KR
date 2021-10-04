@@ -1,16 +1,13 @@
 ---
 description: 이 참조 자료는 Experience Cloud 솔루션용 iOS SDK를 사용하는 데 도움이 됩니다.
-seo-description: 이 참조 자료는 Experience Cloud 솔루션용 iOS SDK를 사용하는 데 도움이 됩니다.
-seo-title: iOS SDK 참조
 solution: Experience Cloud,Analytics
 title: iOS SDK 참조
 topic-fix: Developer and implementation
 uuid: 4e80b0ce-d36e-440e-96ff-de5df6804e3e
 exl-id: 681a2df7-b942-4039-a635-1b649837d64f
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '122'
 ht-degree: 100%
 
 ---

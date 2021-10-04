@@ -1,17 +1,14 @@
 ---
 description: iOS PhoneGap 플러그인 메서드를 사용하여 다양한 작업을 완료할 수 있습니다.
 keywords: phonegap
-seo-description: iOS PhoneGap 플러그인 메서드를 사용하여 다양한 작업을 완료할 수 있습니다.
-seo-title: PhoneGap 플러그인 메서드
 solution: Experience Cloud,Analytics
 title: PhoneGap 플러그인 메서드
 topic-fix: Developer and implementation
 uuid: bd830fe5-804a-4d0a-bbb6-99a6d8da6a03
 exl-id: 7ffdf008-1605-471f-93fb-f9c6b38a3bcb
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1715'
 ht-degree: 100%
 
 ---
@@ -436,7 +433,7 @@ iOS PhoneGap 플러그인 메서드를 사용하여 다양한 작업을 완료�
       ```
 
 
-## 타겟 메서드 {#section_C45D2FE54AE04EB5BD24D3508F8A3212}
+## Target 메서드 {#section_C45D2FE54AE04EB5BD24D3508F8A3212}
 
 * **targetLoadRequest**
 

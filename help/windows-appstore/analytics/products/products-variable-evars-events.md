@@ -1,23 +1,20 @@
 ---
-description: 머천다이징 eVar 및 제품별 이벤트가 있는 products 변수의 예.
-seo-description: 머천다이징 eVar 및 제품별 이벤트가 있는 products 변수의 예.
-seo-title: 머천다이징 eVar 및 제품별 이벤트가 포함된 Products 변수
+description: 머천다이징 eVar 및 제품별 이벤트가 포함된 products 변수의 예입니다.
 solution: Experience Cloud,Analytics
 title: 머천다이징 eVar 및 제품별 이벤트가 포함된 Products 변수
 topic-fix: Developer and implementation
 uuid: 94e882e4-b19d-4c48-9dfb-331465490347
 exl-id: 3a90f624-da13-4c26-9e4c-3a4af33bc5ee
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 27%
+source-wordcount: '66'
+ht-degree: 24%
 
 ---
 
 # 머천다이징 eVar 및 제품별 이벤트가 포함된 Products 변수{#products-variable-with-merchandising-evars-and-product-specific-events}
 
-머천다이징 eVar 및 제품별 이벤트가 있는 products 변수의 예.
+머천다이징 eVar 및 제품별 이벤트가 포함된 products 변수의 예입니다.
 
 ```
 //create a context data dictionary 
@@ -40,4 +37,4 @@ ADB.Analytics.trackState("Order Confirmation", cdata);
 
 >[!TIP]
 >
->*`&&products`* 변수를 사용하여 제품별 이벤트를 트리거하는 경우 *`&&events`* 변수에서 해당 이벤트를 설정해야 하며, 그렇지 않으면 처리 중에 이벤트가 필터링됩니다.
+>*`&&products`* 변수를 사용하여 제품별 이벤트를 트리거하는 경우 *`&&events`* 변수에서도 해당 이벤트를 설정해야 합니다. 그렇지 않으면 처리 중에 이벤트가 필터링됩니다.

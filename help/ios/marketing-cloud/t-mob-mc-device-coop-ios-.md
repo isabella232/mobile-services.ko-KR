@@ -1,17 +1,14 @@
 ---
 description: Experience Cloud Device Co-op를 사용하려면 Adobe 담당자에게 문의하십시오.
-seo-description: Experience Cloud Device Co-op를 사용하려면 Adobe 담당자에게 문의하십시오.
-seo-title: Experience Cloud Device Co-op
 title: Experience Cloud Device Co-op
 uuid: 434a6f8f-ec24-439d-95f0-a246b384b3b5
-translation-type: tm+mt
-source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
+exl-id: bf4f7a81-152c-4033-bcdf-22a939a3109e
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 100%
+source-wordcount: '282'
+ht-degree: 90%
 
 ---
-
 
 # Experience Cloud Device Co-op {#experience-cloud-device-co-op}
 
@@ -23,7 +20,7 @@ Experience Cloud Device Co-op에 모바일 앱을 활성화하려면 Experience 
 >
 >이 기능이 제대로 작동하려면 iOS SDK 버전 4.8.5 이상이 필요합니다.
 
-SDK 버전 4.16.1부터 Device Co-op 구성원은 Experience Cloud Device Co-op에서 모바일 장치 데이터를 옵트아웃할 수 있습니다. 자세한 내용은 [ADBMobile JSON 구성](/help/ios/configuration/json-config/json-config.md) 및 [isCoopSafe](https://docs.adobe.com/content/help/ko-KR/id-service/using/id-service-api/configurations/coopsafe.html)용 `visitorAPI.js` 메서드를 참조하십시오.
+SDK 버전 4.16.1부터 Device Co-op 구성원은 Experience Cloud Device Co-op에서 모바일 장치 데이터를 옵트아웃할 수 있습니다. 자세한 내용은 Adobe Experience Cloud Identity 서비스 설명서에서 [ADBMobile JSON 구성](/help/ios/configuration/json-config/json-config.md) 및 [isCoopSafe](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/coopsafe.html)에 대한 `visitorAPI.js` 메서드를 참조하십시오.
 
 1. Adobe Mobile SDK를 구현합니다.
 
@@ -50,5 +47,3 @@ SDK 버전 4.16.1부터 Device Co-op 구성원은 Experience Cloud Device Co-op�
 
 * `coopUnsafe`가 `true`로 설정되면 `coop_unsafe=1`이 항상 Audience Manager 및 방문자 ID 히트에 추가됩니다.
 * Audience Manager에 Analytics 서버측 전달을 활성화하는 경우, Analytics 조회수에 `coop_unsafe=1`이 표시됩니다.
-
-

@@ -1,17 +1,14 @@
 ---
 description: 기술 보고서를 통해 앱이 사용되는 다양한 장치 유형, 운영 체제, 운영 체제 버전 및 이동통신사를 확인할 수 있습니다.
 keywords: mobile
-seo-description: 기술 보고서를 통해 앱이 사용되는 다양한 장치 유형, 운영 체제, 운영 체제 버전 및 이동통신사를 확인할 수 있습니다.
-seo-title: 기술 보고서
 solution: Experience Cloud,Analytics
 title: 기술 보고서
 topic-fix: Reports,Metrics
 uuid: 4b7322c4-8920-43cd-bb72-5a5bd515ae84
 exl-id: 767c1538-68b1-4193-bd3d-3eb80e5b36f7
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '544'
 ht-degree: 100%
 
 ---

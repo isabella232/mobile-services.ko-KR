@@ -1,17 +1,14 @@
 ---
 description: 사용자를 참여시킬 때 강력한 Analytics 데이터를 이용하기 위해 푸시 메시지를 Mobile Services UI에서 Analytics 세그먼트로 보낼 수 있습니다.
 keywords: mobile
-seo-description: 사용자를 참여시킬 때 강력한 Analytics 데이터를 이용하기 위해 푸시 메시지를 Mobile Services UI에서 Analytics 세그먼트로 보낼 수 있습니다.
-seo-title: 푸시 메시지 작성
 solution: Experience Cloud,Analytics
 title: 푸시 메시지 작성
 topic-fix: Metrics
 uuid: fb2a6026-f7e6-40e6-999e-b43db35d6c69
 exl-id: e7ad3797-17c7-41ad-8b65-d9f8e5b01960
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '161'
 ht-degree: 100%
 
 ---

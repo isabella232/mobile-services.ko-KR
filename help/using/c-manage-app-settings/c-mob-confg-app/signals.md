@@ -1,17 +1,14 @@
 ---
 description: 포스트백을 이용하면 Adobe Mobile로 수집한 데이터를 별도의 타사 서버에 보낼 수 있습니다. 인앱 메시지를 표시하는 데 사용하는 것과 동일한 트리거와 트레이트를 이용하면 사용자 지정된 데이터를 타사 대상에 보내도록 Mobile Service를 구성할 수 있습니다.
-seo-description: 포스트백을 이용하면 Adobe Mobile로 수집한 데이터를 별도의 타사 서버에 보낼 수 있습니다. 인앱 메시지를 표시하는 데 사용하는 것과 동일한 트리거와 트레이트를 이용하면 사용자 지정된 데이터를 타사 대상에 보내도록 Mobile Service를 구성할 수 있습니다.
-seo-title: 포스트백 구성
 title: 포스트백 구성
 uuid: a026575c-057b-4868-b6c8-9514cbc32b4d
-translation-type: tm+mt
-source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+exl-id: 99b27f16-303a-4853-bfdb-2066a53867bf
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '430'
 ht-degree: 100%
 
 ---
-
 
 # 포스트백 구성 {#configure-postbacks}
 

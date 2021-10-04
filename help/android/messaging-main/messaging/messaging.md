@@ -1,16 +1,13 @@
 ---
 description: 임의의 분석 데이터 또는 이벤트에서 트리거되는 인앱 메시지를 제공할 수 있습니다. 구현 후 메시지는 앱에 동적으로 전달되므로 코드를 업데이트할 필요가 없습니다.
-seo-description: 임의의 분석 데이터 또는 이벤트에서 트리거되는 인앱 메시지를 제공할 수 있습니다. 구현 후 메시지는 앱에 동적으로 전달되므로 코드를 업데이트할 필요가 없습니다.
-seo-title: 인앱 메시징
 solution: Experience Cloud,Analytics
 title: 인앱 메시징
 topic-fix: Developer and implementation
 uuid: 351ee3d2-80b9-4f2d-9696-21f274d89f5a
 exl-id: ca9414d1-86e6-4bb2-a2d6-57df37df2403
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '770'
 ht-degree: 100%
 
 ---
@@ -95,25 +92,25 @@ Adobe Mobile Services에서 메시지가 표시되는 시기를 정의하는 메
    시작 시 인앱 메시지를 동적으로 업데이트하려면 `remotes` 개체가 존재하고 올바르게 구성되어 있어야 합니다.
 
    ```js
-   “messages”: [ 
+   "messages": [ 
        { 
-           “messageId”: “de45c43c-37bf-441f-8cbd-cc3ba3469ebe”, 
-           “template”: “fullscreen”, 
-           “showOffline”: false, 
-           “showRule”: “always”, 
-           “endDate”: 2524730400, 
-           “startDate”: 0, 
-           “audiences”: [], 
-           “triggers”: [], 
-           “payload”: { // contents change depending on template 
-               “html”: “<html>html code goes here</html>” 
+           "messageId": "de45c43c-37bf-441f-8cbd-cc3ba3469ebe", 
+           "template": "fullscreen", 
+           "showOffline": false, 
+           "showRule": "always", 
+           "endDate": 2524730400, 
+           "startDate": 0, 
+           "audiences": [], 
+           "triggers": [], 
+           "payload": { // contents change depending on template 
+               "html": "<html>html code goes here</html>" 
            }, 
        }, 
        … 
    ] 
-   “remotes” : { 
-       “analytics.poi”: “https://assets.adobedtm.com/…/yourfile.json”, 
-       “messages”: “https://assets.adobedtm.com/…/yourfile.json” 
+   "remotes" : { 
+       "analytics.poi": "https://assets.adobedtm.com/…/yourfile.json", 
+       "messages": "https://assets.adobedtm.com/…/yourfile.json" 
    }
    ```
 

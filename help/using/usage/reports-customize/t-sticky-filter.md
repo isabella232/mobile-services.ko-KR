@@ -1,17 +1,14 @@
 ---
 description: 다른 보고서에 적용되는 필터를 생성하여 세그먼트가 모든 모바일 보고서에서 어떻게 작동하는지 확인할 수 있습니다. 고정 필터를 사용하면 경로 지정 외의 모든 보고서에 적용되는 필터를 정의할 수 있습니다.
 keywords: mobile
-seo-description: 다른 보고서에 적용되는 필터를 생성하여 세그먼트가 모든 모바일 보고서에서 어떻게 작동하는지 확인할 수 있습니다. 고정 필터를 사용하면 경로 지정 외의 모든 보고서에 적용되는 필터를 정의할 수 있습니다.
-seo-title: 고정 필터 추가
 solution: Experience Cloud,Analytics
 title: 고정 필터 추가
 topic-fix: Reports,Metrics
 uuid: f3935c8a-811d-4080-8468-b8850202dd1e
 exl-id: 5f6f725a-a1ae-40c2-abe0-87ebabdc582a
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '168'
 ht-degree: 100%
 
 ---

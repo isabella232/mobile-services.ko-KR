@@ -1,17 +1,14 @@
 ---
 description: iOS SDK를 사용하여 타사의 지연 딥링크 추적을 구현할 수 있습니다.
-seo-description: iOS SDK를 사용하여 타사의 지연 딥링크 추적을 구현할 수 있습니다.
-seo-title: 타사 지연된 딥 링크 추적
 title: 타사 지연된 딥 링크 추적
 uuid: 5525b609-e926-44b9-b0f5-38e9dd7c9761
-translation-type: tm+mt
-source-git-commit: 4b5be6c51c716114e597a80d475f838e23abb1b1
+exl-id: c6d2ec6e-cd2a-4670-96e9-cb5e09f7cc10
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 90%
+source-wordcount: '396'
+ht-degree: 91%
 
 ---
-
 
 # 타사의 지연된 딥링크 추적 {#tracking-third-party-deferred-deep-links}
 
@@ -23,7 +20,7 @@ iOS SDK를 사용하여 타사의 지연 딥링크 추적을 구현할 수 있�
 
 ## Facebook 딥링크 {#section_6A9DACB54A2F4CDEBE9C744DEFADFDED}
 
-광고 제작자는 Facebook에 게시하는 광고를 딥링크로 만들 수 있습니다. 사용자가 Facebook에서 광고를 클릭하면 앱에 관심이 있는 정보로 바로 이동합니다. 딥링크는 핑거프린터 URL이 **아닙니다**. 그러나 광고 구성 중에 타사 딥링크 URL을 제공하는 옵션이 있습니다. Experience Cloud Mobile SDK 및 서비스를 사용하는 앱 개발자는 이 필드에 지문 URL로 구성된 Mobile Services를 입력해야 합니다. 모든 것이 제대로 설정되면 Facebook SDK는 앱이 설치되거나 시작될 때 이 URL을 애플리케이션에 전달합니다.
+광고 제작자는 Facebook에 게시하는 광고를 딥링크로 만들 수 있습니다. 사용자가 Facebook에서 광고를 클릭하면 앱에 관심이 있는 정보로 바로 이동합니다. 딥링크는 핑거프린터 URL이 **아닙니다**. 그러나 광고 구성 중에 타사 딥링크 URL을 제공하는 옵션이 있습니다. Mobile SDK 및 서비스를 사용하는 앱 개발자는 이 필드에 Mobile Services 구성 핑거프린터 URL을 입력해야 합니다. 모든 것이 제대로 설정되면 Facebook SDK는 앱이 설치되거나 시작될 때 이 URL을 애플리케이션에 전달합니다.
 
 ## iOS에서 SDK {#section_834CD3109175432B8173ECB6EA7DE315}
 
@@ -32,7 +29,7 @@ iOS SDK를 사용하여 타사의 지연 딥링크 추적을 구현할 수 있�
    자세한 내용은 다음을 참조하십시오.
 
    * [iOS용 Facebook SDK 시작하기](https://developers.facebook.com/docs/ios/getting-started)
-   * [설치 비활성화](https://developers.facebook.com/docs/app-ads/deep-linking#os)
+   * [딥 링크 설정](https://developers.facebook.com/docs/app-ads/deep-linking#os)
 
 1. SDK를 설정하려면 `trackAdobeDeepLink`를 호출하고 URL을 SDK에 전달합니다.
 
@@ -141,4 +138,3 @@ iOS SDK를 사용하여 타사의 지연 딥링크 추적을 구현할 수 있�
           return YES; 
       }
       ```
-

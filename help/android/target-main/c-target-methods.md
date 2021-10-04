@@ -1,18 +1,15 @@
 ---
 description: 다음은 Android 라이브러리에서 제공하는 Adobe Target 메서드 목록입니다.
 keywords: android;라이브러리;모바일;sdk
-seo-description: 다음은 Android 라이브러리에서 제공하는 Adobe Target 메서드 목록입니다.
-seo-title: Android용 Target 메서드
 solution: Experience Cloud,Analytics
 title: Android용 Target 메서드
 topic-fix: Developer and implementation
 uuid: 8e9808b2-ba80-4646-ba05-8e62d4fde065
 exl-id: 0c7a6718-d078-4a2b-a2c9-d5cd50263939
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '590'
+ht-degree: 95%
 
 ---
 
@@ -91,15 +88,15 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put(“profile-parameter-key”, “profile-parameter-value”); 
-      Map `<String, Object>` orderParameters = new HashMap `<String, Object>`(); orderParameters.put(“order-parameter-key”, “order-parameter-value”);
+      Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put("profile-parameter-key", "profile-parameter-value"); 
+      Map `<String, Object>` orderParameters = new HashMap `<String, Object>`(); orderParameters.put("order-parameter-key", "order-parameter-value");
       Map `<String, Object>` mboxParameters = new HashMap `<String, Object>`(); 
-      mboxParameters.put(“mbox-parameter-key”, “mbox-parameter-value”); 
-      Target.loadRequest(“mboxName”, “defaultContent”, profileParameters, orderParameters, mboxParameters
+      mboxParameters.put("mbox-parameter-key", "mbox-parameter-value"); 
+      Target.loadRequest("mboxName", "defaultContent", profileParameters, orderParameters, mboxParameters
       new TargetCallback<String>() {
           @Override
           public void call (String item) {
-             Log.d(“Target Content”, item); 
+             Log.d("Target Content", item); 
           }
       });
       ```
@@ -158,20 +155,20 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put(“profile-parameter-key”, “profile-parameter-value”); 
-      Map `<String, Object>` orderParameters = new HashMap `<String, Object>`(); orderParameters.put(“order-parameter-key”, “order-parameter-value”); 
-      Map `<String, Object>` mboxParameters = new HashMap `<String, Object>`(); mboxParameters.put(“mbox-parameter-key”, “mbox-parameter-value”); 
-      Map `<String, Object>` requestLocationParameters = new HashMap `<String, Object>`(); requestLocationParameters.put(“request-location-parameter-key”, “request-location-parameter-value”); 
+      Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put("profile-parameter-key", "profile-parameter-value"); 
+      Map `<String, Object>` orderParameters = new HashMap `<String, Object>`(); orderParameters.put("order-parameter-key", "order-parameter-value"); 
+      Map `<String, Object>` mboxParameters = new HashMap `<String, Object>`(); mboxParameters.put("mbox-parameter-key", "mbox-parameter-value"); 
+      Map `<String, Object>` requestLocationParameters = new HashMap `<String, Object>`(); requestLocationParameters.put("request-location-parameter-key", "request-location-parameter-value"); 
       
-      Target.loadRequest(“mboxName”, “defaultContent”, profileParameters, orderParameters, mboxParameters, requestLocationParameters,new TargetCallback<String>() {
+      Target.loadRequest("mboxName", "defaultContent", profileParameters, orderParameters, mboxParameters, requestLocationParameters,new TargetCallback<String>() {
          @Override
          public void call (String item) { 
-            Log.d(“Target Content”, item);
+            Log.d("Target Content", item);
          } 
       });
       ```
 
-      기본 Target API에 대한 자세한 내용은 Target 개발자 도움말에서 [제공](https://docs.adobe.com/dev/products/target/reference/delivery.html)을 참조하십시오.
+      기본 Target API에 대한 자세한 내용은 Target API 참조에서 [Target 요청 로드](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target/target-api-reference-deprecated#load-target-requests)를 참조하십시오.
 
 
 
@@ -273,7 +270,7 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
    * 다음은 이 메서드의 코드 샘플입니다.
 
       ```java
-      Target.setThirdPartyID(“third-party-id”);
+      Target.setThirdPartyID("third-party-id");
       ```
 
 * **getThirdPartyID**
