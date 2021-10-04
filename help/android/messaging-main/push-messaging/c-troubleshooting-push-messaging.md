@@ -6,7 +6,7 @@ title: 푸시 메시지 문제 해결
 topic-fix: Metrics
 uuid: 9c4a9371-6691-4a2c-a6c1-b9f901a41599
 exl-id: 82b89f56-f43e-4b0d-80c5-5bff4013e5f7
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
@@ -31,12 +31,11 @@ ht-degree: 100%
 
    >[!TIP]
    >
-   >푸시 서비스는 메시지가 전송될 것임을 보장하지 않습니다.
+   >푸시 서비스는 메시지가 전송될 것임을 보장하지 않습니다. 서비스의 안정성에 대한 자세한 내용은 다음 설명서를 참조하십시오.
+   >
+   >* **APNS**: [서비스 품질](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5)
+   >* **GCM**: [메시지 수명](https://firebase.google.com/docs/cloud-messaging/concept-options#lifetime)
 
-   서비스의 안정성에 대한 자세한 내용은 다음 설명서를 참조하십시오.
-
-   * **APNS**: [서비스 품질](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5)
-   * **GCM**: [메시지 수명](https://firebase.google.com/docs/cloud-messaging/concept-options#lifetime)
 
 ## 푸시 메시지가 잘리거나 확장되지 않는 이유는 무엇입니까?
 

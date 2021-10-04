@@ -5,9 +5,9 @@ title: Analytics
 topic-fix: Developer and implementation
 uuid: c2cef3d3-77a7-4a8e-bbe4-3db10a77996a
 exl-id: cc96a7dd-ccc4-4914-8243-f3f160b75c21
-source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
+source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '941'
 ht-degree: 19%
 
 ---
@@ -134,9 +134,7 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 
 ## 처리 규칙 {#section_66EE762EEA5E4728864166201617DEBF}
 
-처리 규칙은 컨텍스트 데이터 변수로 보내는 데이터를 보고를 위해 evar, prop 및 기타 변수에 복사하는 데 사용됩니다.
-
-[처리 규칙 교육](https://tv.adobe.com/embed/1181/16506/) @ Summit 2013
+처리 규칙은 컨텍스트 데이터 변수로 보내는 데이터를 보고를 위해 eVar, prop 및 기타 변수에 복사하는 데 사용됩니다.
 
 [처리 규칙 도움말](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 

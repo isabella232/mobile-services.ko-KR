@@ -5,10 +5,10 @@ title: Analytics
 topic-fix: Developer and implementation
 uuid: fa0ef6c4-c04d-4695-9eb4-ada4e9920e6c
 exl-id: 1a7b32b8-731d-4ae3-9feb-dafbb7495590
-source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
+source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 18%
+source-wordcount: '945'
+ht-degree: 17%
 
 ---
 
@@ -62,7 +62,7 @@ app.oncheckpoint = function (args) {
 
 ### App.xaml.cs의 C#
 
-```js
+```csharp
 public App() 
 { 
     this.InitializeComponent(); 
@@ -91,7 +91,7 @@ private void OnSuspending(object sender, SuspendingEventArgs e)
 
 ### App.xaml.cpp의 C/CX
 
-```js
+```c
 App::App() 
 { 
  InitializeComponent(); 
@@ -136,16 +136,14 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 
 처리 규칙은 컨텍스트 데이터 변수로 보내는 데이터를 보고를 위해 eVar, prop 및 기타 변수에 복사하는 데 사용됩니다.
 
-[처리 규칙 교육](https://tv.adobe.com/embed/1181/16506/) @ Summit 2013
-
 [처리 규칙 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
-네임스페이스를 사용하여 컨텍스트 데이터 변수를 그룹화하는 것이 논리적 순서를 유지할 수 있으므로 권장합니다. 예를 들어 제품에 대한 정보를 수집하려는 경우 다음 변수를 정의할 수 있습니다.
+Adobe은 &quot;네임스페이스&quot;를 사용하여 컨텍스트 데이터 변수를 그룹화할 것을 권장합니다. 이렇게 하면 논리적 순서를 유지할 수 있습니다. 예를 들어 제품에 대한 정보를 수집하려는 경우 다음 변수를 정의할 수 있습니다.
 
 ```js
-"product.type":"hat" 
-"product.team":"mariners" 
-"product.color":"blue"
+"product.type":"hat";
+"product.team":"mariners";
+"product.color":"blue";
 ```
 
 컨텍스트 데이터 변수는 처리 규칙 인터페이스에서 알파벳순으로 정렬되므로 네임스페이스를 통해 동일한 네임스페이스에 있는 변수를 빠르게 볼 수 있습니다.
@@ -153,25 +151,25 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 또한 일부 사용자가 eVar 또는 prop 번호를 사용하여 컨텍스트 데이터 키의 이름을 지정한다고 들었습니다.
 
 ```js
-"eVar1":"jimbo"
+"eVar1":"jimbo";
 ```
 
 이 경우 처리 규칙에서 1회 매핑을 수행할 때는 *약간* 더 쉬워질 수 있지만 디버깅이나 향후 코드 업데이트 중에 가독성을 잃게 될 수 있습니다. 대신 키와 값에 수사적 이름을 사용하는 것이 좋습니다.
 
 ```js
-"username":"jimbo"
+"username":"jimbo";
 ```
 
 카운터 이벤트를 정의하는 컨텍스트 변수를 &quot;1&quot; 값으로 설정합니다.
 
 ```js
-"logon":"1"
+"logon":"1";
 ```
 
 상향 조정기 이벤트를 정의하는 컨텍스트 데이터 변수에는 증가시킬 값이 있을 수 있습니다.
 
 ```js
-"levels completed":"6"
+"levels completed":"6";
 ```
 
 >[!NOTE]

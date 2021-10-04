@@ -5,10 +5,10 @@ title: 처리 규칙 및 컨텍스트 데이터
 topic-fix: Developer and implementation
 uuid: 51338ccd-fa52-4d9c-97c4-947a4100465d
 exl-id: a3968160-42c4-4671-b541-c14639b8a451
-source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
+source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 70%
+source-wordcount: '252'
+ht-degree: 67%
 
 ---
 
@@ -16,12 +16,7 @@ ht-degree: 70%
 
 처리 규칙은 컨텍스트 데이터 변수로 보내는 데이터를 보고를 위해 eVar, prop 및 기타 변수에 복사하는 데 사용됩니다.
 
-자세한 정보는 다음 내용을 참조하십시오.
-
-* [처리 규칙 교육](https://tv.adobe.com/embed/1181/16506/) @ Summit 2013
-* 처리 규칙 사용 인증 받기
-
-   처리 규칙에 대한 자세한 내용은 Adobe Analytics 설명서에서 [처리 규칙 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) 를 참조하십시오.
+처리 규칙에 대한 자세한 내용은 Adobe Analytics 설명서에서 [처리 규칙 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) 를 참조하십시오.
 
 처리 규칙을 사용하여 작업할 경우 다음 정보를 숙지하십시오.
 
@@ -30,9 +25,9 @@ ht-degree: 70%
    예를 들어, 제품에 대한 정보를 수집하려는 경우 다음 변수를 정의할 수 있습니다.
 
    ```js
-   "product.type":"hat" 
-   "product.team":"mariners" 
-   "product.color":"blue"
+   "product.type":"hat";
+   "product.team":"mariners";
+   "product.color":"blue";
    ```
 
 * 컨텍스트 데이터 변수는 처리 규칙 인터페이스에서 알파벳순으로 정렬되므로 동일한 네임스페이스에 있는 변수를 빠르게 확인할 수 있습니다.
@@ -40,25 +35,25 @@ ht-degree: 70%
    eVar 또는 prop 번호를 사용하여 컨텍스트 데이터 키의 이름을 지정하지 마십시오.
 
    ```js
-   "eVar1":"jimbo"
+   "eVar1":"jimbo";
    ```
 
    이 경우 처리 규칙에서 1회 매핑을 수행할 때는 *약간* 더 쉬워질 수 있지만 디버깅이나 향후 코드 업데이트 중에 가독성을 잃게 되므로 더 어려울 수 있습니다. 대신 키와 값에 대해 수사적 이름을 사용하십시오.
 
    ```js
-   "username":"jimbo"
+   "username":"jimbo";
    ```
 
 * 카운터 이벤트를 정의하는 컨텍스트 변수는 1로 설정해야 합니다.
 
    ```js
-   "logon":"1"
+   "logon":"1";
    ```
 
 * 상향 조정기 이벤트를 정의하는 컨텍스트 데이터 변수는 이벤트를 키로 사용하고 크기가 이 값으로 증가할 수 있습니다.
 
    ```js
-   "levels completed":"6"
+   "levels completed":"6";
    ```
 
 >[!TIP]

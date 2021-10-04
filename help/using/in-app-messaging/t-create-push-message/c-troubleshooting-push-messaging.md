@@ -6,9 +6,9 @@ title: 푸시 메시지 문제 해결
 topic-fix: Metrics
 uuid: c7be4ab7-0cfe-4296-84a8-01412f4fd93f
 exl-id: 56feb8e1-e196-4b70-8240-6e41581ca602
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '714'
 ht-degree: 100%
 
 ---
@@ -33,12 +33,11 @@ ht-degree: 100%
 
    >[!TIP]
    >
-   >이 수는 푸시 서비스에 성공적으로 전송된 수입니다. 푸시 서비스는 메시지가 전송될 것임을 보장하지 않습니다.
+   >푸시 서비스는 메시지가 전송될 것임을 보장하지 않습니다. 서비스의 안정성에 대한 자세한 내용은 다음 설명서를 참조하십시오.
+   >
+   >* **APNS**: [서비스 품질](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5)
+   >* **GCM**: [메시지 수명](https://firebase.google.com/docs/cloud-messaging/concept-options#lifetime)
 
-   서비스의 안정성에 대한 자세한 내용은 다음을 참조하십시오.
-
-   * [서비스 품질](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5l)
-   * [메시지 수명](https://developers.google.com/cloud-messaging/concept-options#lifetime).
 
 ## Android GCM API 키가 유효하지 않은 이유는 무엇입니까?
 
@@ -52,8 +51,6 @@ ht-degree: 100%
 * **API 키의 유효성 확인**
 
    API 키의 유효성을 확인하려면 다음 명령을 실행하십시오.
-
-   **Android**
 
    ```java
    # api_key=YOUR_API_KEY
@@ -81,8 +78,6 @@ ht-degree: 100%
 * `.p12` 파일 대신 `.p8` 파일을 사용 중입니다.
 
 ## 푸시 메시지 오류 해결
-
-**예제**
 
 다음 예에서는 VRS를 사용할 때 푸시 오류를 해결하는 방법을 보여 줍니다.
 

@@ -6,9 +6,9 @@ title: 푸시 메시지 문제 해결
 topic-fix: Metrics
 uuid: 87d7dcb6-82a8-46e3-a6ed-7f895a22f2af
 exl-id: dda84d30-2a7b-496c-b8f3-3bd6b97076aa
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '369'
 ht-degree: 100%
 
 ---
@@ -33,11 +33,10 @@ ht-degree: 100%
 
    >[!TIP]
    >
-   >푸시 서비스로 메시지의 전송이 보장되지는 않습니다. 서비스의 안정성에 대한 자세한 내용은 다음 설명서를 참조하십시오.
+   >푸시 서비스는 메시지가 전송될 것임을 보장하지 않습니다. 서비스의 안정성에 대한 자세한 내용은 다음 설명서를 참조하십시오.
    >
-   >* **APNS**: [서비스 품질](https://developer.apple.com/kr/documentation/usernotifications)
-   >
-   >* **GCM**: [메시지 라이프타임](https://developers.google.com/cloud-messaging/concept-options)
+   >* **APNS**: [서비스 품질](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5)
+   >* **GCM**: [메시지 수명](https://firebase.google.com/docs/cloud-messaging/concept-options#lifetime)
 
 
 ## Apple Push Service 인증서를 어떻게 갱신합니까?
