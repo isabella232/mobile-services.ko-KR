@@ -3,10 +3,10 @@ description: Adobe Analytics에서는 관리 도구 홈 페이지에서 역할�
 title: 역할 및 권한
 uuid: ad350f8d-ef51-4519-98aa-3025bc0f5588
 exl-id: 70f0b427-60d5-4a79-a8d3-e03274edd917
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: f6a62a46a90c30edaf999085873bf21f2a03a68e
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 45%
+source-wordcount: '592'
+ht-degree: 48%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Analytics에서는 관리 도구 홈 페이지에서 역할을 관리할 �
 
 ### Analytics 관리
 
-Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당하며, 이 중 하나가 모바일 앱 관리자입니다. Experience Cloud 관리자는 Adobe ID을 사용하여 Mobile Services UI에 로그인할 수 있도록 Adobe ID을 Adobe Analytics 계정에 연결합니다. Experience Cloud 관리자에 대한 자세한 내용은 Experience Cloud 중앙 인터페이스 구성 요소 안내서의 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html)를 참조하십시오.
+Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당하며, 이 중 하나가 모바일 앱 관리자입니다. Experience Cloud 관리자는 Adobe ID을 사용하여 Mobile Services UI에 로그인할 수 있도록 Adobe ID을 Adobe Analytics 계정에 연결합니다. Experience Cloud 관리자에 대한 자세한 내용은 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) ( Experience Cloud 중앙 인터페이스 구성 요소 안내서).
 
 >[!TIP]
 >
@@ -28,8 +28,8 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
 
 이 역할에 대한 자세한 내용은 Adobe Analytics 설명서에서 다음 콘텐츠를 참조하십시오.
 
-* [사용자 관리 개요](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/users.html)
-* [사용자 및 그룹 권한 변경 사항](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/permissions-changes.html)
+* [사용자 관리 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)
+* [사용자 및 그룹 권한 변경 사항](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)
 
 ### 모바일 앱 관리
 
@@ -79,7 +79,7 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
 
    * 앱의 Mobile SDK 옵션 구성
    * 앱의 UI 설정 구성
-   * 연결된 앱스토어 앱 구성
+   * 연결된 App Store 앱 구성
    * 앱의 범용 링크 옵션 구성
    * 푸시 서비스 인증서 및 API 키 구성
    * 포스트백 만들기/업데이트/활성화/비활성화/복제/아카이브/삭제
@@ -93,8 +93,8 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
 
 그룹 및 사용자에 대한 자세한 내용은 Adobe Analytics 설명서에서 다음 콘텐츠를 참조하십시오.
 
-* [사용자 그룹 설정(기존)](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)
-* [사용자를 그룹에 추가](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/t-add-user-to-group.html)
+* [사용자 그룹 설정(기존)](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)
+* [사용자를 그룹에 추가](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)
 
 ### Mobile Services 사용자
 
