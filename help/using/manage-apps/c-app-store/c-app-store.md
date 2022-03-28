@@ -6,10 +6,10 @@ title: 앱스토어
 topic-fix: Metrics
 uuid: a194364d-faaf-4995-befd-cf48f9c1f11b
 exl-id: 27c65823-49ca-4bd4-b929-ba3df86e0a13
-source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
+source-git-commit: bd55e3525488f24bc9845220f0df62706ec28f31
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 95%
+source-wordcount: '154'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 >
 >Mobile Services UI에서 통합을 구성한 후 **[!UICONTROL 앱스토어]** 메뉴 항목 및 관련 보고서가 왼쪽 탐색 창에 표시됩니다.
 
-[Adobe Analytics용 appFigures Data Connector](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/appfigures/appfigures-overview.html)에는 다음 정보가 포함되어 있습니다.
+Adobe Analytics용 appFigures Data Connector에는 다음 정보가 포함되어 있습니다.
 
 * 통합의 주요 혜택 및 기능
 * 다음을 포함한 통합 구현:

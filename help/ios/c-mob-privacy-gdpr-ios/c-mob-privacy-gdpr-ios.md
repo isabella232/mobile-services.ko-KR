@@ -3,10 +3,10 @@ description: Experience Cloud Mobile SDK는 사용자가 로컬로 저장된 ID�
 title: 개인 정보 및 일반 데이터 보호 규정
 uuid: 69bb82de-1993-440c-a1b0-8d37919b48b6
 exl-id: 8549310d-31b8-49a3-9276-f8e9ab980a10
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: bd55e3525488f24bc9845220f0df62706ec28f31
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 71%
+source-wordcount: '336'
+ht-degree: 74%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Experience Platform Mobile SDK와 관련된 정보 및 설명서를 찾고
 
 Adobe이 기업에 소프트웨어 및 서비스를 제공할 때 Adobe은 이러한 서비스를 제공하는 과정에서 처리하고 저장하는 개인 데이터에 대한 데이터 처리자 역할을 합니다. Adobe은 데이터 처리자로서 귀사의 허가 및 지침(예: Adobe와의 계약에 명시된 내용)에 따라 개인 데이터를 처리합니다.
 
-데이터 제어자는 Mobile Services SDK를 사용하여 모바일 앱에서 GDPR 검색 및 삭제 요청을 지원할 수 있습니다.
+데이터 제어자는 Mobile Services SDK Adobe을 사용하여 모바일 앱에서 GDPR 검색 및 삭제 요청을 지원할 수 있습니다.
 
 모바일 앱의 Adobe Mobile SDK 부분에 대해 다음 설정 및 메서드를 사용할 수 있습니다.
 
@@ -48,5 +48,4 @@ Adobe이 기업에 소프트웨어 및 서비스를 제공할 때 Adobe은 이�
 
 ## 추가 정보 {#section_7C7124C50D85469C8C8714533FB1A37D}
 
-* GDPR에 대한 자세한 내용은 [GDPR 및 비즈니스](https://www.adobe.com/kr/privacy/general-data-protection-regulation.html)를 참조하십시오.
-* GDPR API 설명서를 보려면 [일반 데이터 보호 규정 API](https://adobe.io/apis/cloudplatform/gdpr.html)로 이동하십시오.
+* GDPR에 대한 자세한 내용은 [GDPR 및 비즈니스](https://www.adobe.com/kr/privacy/general-data-protection-regulation.html).
