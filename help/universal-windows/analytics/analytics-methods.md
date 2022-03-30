@@ -1,14 +1,14 @@
 ---
 description: Adobe Analytics에서 Universal Windows Platform SDK를 사용하는 데 도움이 되는 정보입니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Analytics 메서드
 topic-fix: Developer and implementation
 uuid: cc299bb5-ec61-49bf-869a-f3c3bc83359f
 exl-id: 3ceaedfa-274f-4dc7-9e4c-15233d09f935
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 58%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,12 +22,12 @@ Adobe Analytics에서 Universal Windows Platform SDK를 사용하는 데 도움�
 
 >[!TIP]
 >
->winJS(JavaScript)에서 `winmd` 메서드를 사용하면 모든 메서드가 자동으로 첫 번째 문자를 소문자로 바꿉니다.
+>소비할 때 `winmd` winJS(JavaScript)의 메서드를 사용하면 모든 메서드가 자동으로 첫 번째 문자를 소문자로 바꿉니다.
 
 * **TrackState(winJS: trackState)**
 
    선택적 컨텍스트 데이터로 앱 상태를 추적합니다. 상태는 &quot;홈 대시보드&quot;, &quot;앱 설정&quot;, &quot;장바구니&quot; 등과 같이 앱에서 사용할 수 있는 보기입니다. 이 상태는 웹 사이트의 페이지와 유사하며 `TrackState` 호출은 페이지 보기를 증가시킵니다.
-`state`이 비어 있으면 보고서에 &quot;앱 이름 앱 버전(빌드)&quot;으로 표시됩니다. 보고서에 이 값이 표시되면 각각의 `TrackState` 호출에서 `state`을 설정하고 있는지 확인하십시오.
+If `state` 가 비어 있으면 보고서에 &quot;앱 이름 앱 버전(빌드)으로 표시됩니다. 보고서에 이 값이 표시되면 다음을 설정해야 합니다 `state` 각각 `TrackState` 호출.
 
    >[!TIP]
    >

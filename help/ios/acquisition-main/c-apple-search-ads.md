@@ -1,11 +1,11 @@
 ---
 description: Adobe SDK는 Apple의 Search Ads App Attribution API를 활용하여 개발자와 마케팅 담당자가 Apple App Store의 검색 광고 캠페인에서 발생한 앱 다운로드를 추적하고 그 속성을 파악할 수 있도록 합니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Apple 검색 광고
 topic-fix: Developer and implementation
 uuid: 790080e8-067e-4bfd-a169-0027db4fdff3
 exl-id: efcdd430-f08d-4ee2-85f3-2697c3bd72db
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 100%
@@ -46,7 +46,7 @@ Apple 광고를 사용할 경우 다음과 같은 이점이 있습니다.
    또한 다음 값이 `"iad"` 사전에서 Adobe의 일반적인 획득 컨텍스트 데이터 필드에 매핑됩니다.
 
    * `"iad-campaign-id"` --> `"a.referrer.campaign.trackingcode"`
-   * `"iad-campaign-name"` —>  `"a.referrer.campaign.name"`
-   * `"iad-adgroup-id"` —>  `"a.referrer.campaign.content"`
-   * `"iad-keyword"` —>  `"a.referrer.campaign.term"`
+   * `"iad-campaign-name"` —> `"a.referrer.campaign.name"`
+   * `"iad-adgroup-id"` —> `"a.referrer.campaign.content"`
+   * `"iad-keyword"` —> `"a.referrer.campaign.term"`
    이렇게 매핑되면 해당 값을 Adobe의 표준 보고에 사용할 수 있습니다.

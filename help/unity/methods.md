@@ -1,12 +1,11 @@
 ---
 description: ADBMobile.cs 구성 메서드
 keywords: Unity
-solution: Experience Cloud
+solution: Experience Cloud Services
 title: AD BMobile.cs 메서드
 uuid: af504934-febd-45d9-81e2-2a310f4c65dc
 exl-id: d12c16f1-c25c-4698-8943-a660d9c08faf
-translation-type: tm+mt
-source-git-commit: b9ee49ba26d4726b1f97ef36f5c2e9923361b1ee
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 66%
@@ -86,9 +85,9 @@ ht-degree: 66%
    현재 사용자에 대한 개인 정보 상태의 열거 표현을 반환합니다.
    * `MOBILE_PRIVACY_STATUS_OPT_IN`: 히트가 즉시 전송됩니다.
    * `MOBILE_PRIVACY_STATUS_OPT_OUT`: 히트가 삭제됩니다.
-   * `MOBILE_PRIVACY_STATUS_UNKNOWN`:오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다.
+   * `MOBILE_PRIVACY_STATUS_UNKNOWN`: 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트 삭제)으로 변경될 때까지 히트가 저장됩니다.
 
-      오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다. 기본값은 [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md) 파일에서 설정됩니다.
+      오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다. 기본값은 [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md) 파일.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -140,7 +139,7 @@ ht-degree: 66%
 
    >[!TIP]
    >
-   >이 메서드는 앱이 백그라운드에 있을 때 알림을 등록하는 앱에 사용하도록 만들었으며 앱이 백그라운드에 있을 때 실행하는 코드에서만 호출되어야 합니다.
+   >이 메서드는 앱이 백그라운드에 있을 때 알림을 등록하는 앱에 사용하기 위한 것으로, 앱이 백그라운드에 있을 때 실행하는 코드에서만 호출되어야 합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -156,7 +155,7 @@ ht-degree: 66%
 
 * **PauseCollectingLifecycleData(Android만 해당)**
 
-   라이프사이클 지표를 정확히 계산하기 위해 앱이 일시 중지되었음을 SDK에 표시합니다. 예를 들어 일시 중지에서 타임스탬프를 수집하여 이전 세션 길이를 결정합니다. 또한 앱이 충돌하지 않았음을 라이프사이클에서 정확히 알 수 있도록 플래그를 설정합니다. 자세한 내용은 [라이프사이클 지표](/help/android/metrics.md)를 참조하십시오.
+   라이프사이클 지표를 정확히 계산하기 위해 앱이 일시 중지되었음을 SDK에 표시합니다. 예를 들어 일시 중지 시 타임스탬프를 수집하여 이전 세션 길이를 파악합니다. 플래그를 설정하여 앱이 충돌하지 않았음을 라이프사이클에서 올바르게 알도록 할 수도 있습니다. 자세한 내용은 [라이프사이클 지표](/help/android/metrics.md)를 참조하십시오.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -172,7 +171,7 @@ ht-degree: 66%
 
 * **SetContext(Android만 해당)**
 
-   UnityPlayer의 현재 활동에서 응용 프로그램 컨텍스트를 설정해야 함을 SDK에 표시합니다.
+   UnityPlayer의 현재 활동에서 애플리케이션 컨텍스트를 설정해야 함을 SDK에 표시합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -188,7 +187,7 @@ ht-degree: 66%
 
 * **SetDebugLogging**
 
-   디버그 로깅 기본 설정을 활성화됨으로 설정합니다.
+   디버그 로깅 기본 설정을 enabled로 설정합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -208,7 +207,7 @@ ht-degree: 66%
 
    * `MOBILE_PRIVACY_STATUS_OPT_IN`: 히트가 즉시 전송됩니다.
    * `MOBILE_PRIVACY_STATUS_OPT_OUT`: 히트가 삭제됩니다.
-   * `MOBILE_PRIVACY_STATUS_UNKNOWN`:오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다. 오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다.
+   * `MOBILE_PRIVACY_STATUS_UNKNOWN`: 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트 삭제)으로 변경될 때까지 히트가 저장됩니다. 오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -258,9 +257,9 @@ ht-degree: 66%
 
 * **TrackState**
 
-   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. 상태는 &quot;제목 화면&quot;, &quot;레벨 1&quot;, &quot;일시 중지&quot; 등 앱에서 사용할 수 있는 보기입니다. 이 상태는 웹 사이트의 페이지와 유사하며 `TrackState` 호출은 페이지 보기를 증가시킵니다.
+   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. 상태는 &quot;title screen&quot;, &quot;level 1&quot;, &quot;pause&quot; 등과 같이 앱에서 사용할 수 있는 보기입니다. 이 상태는 웹 사이트의 페이지와 유사하며 `TrackState` 호출은 페이지 보기를 증가시킵니다.
 
-   상태가 비어 있으면 보고서에 *`app name app version (build)`*&#x200B;으로 표시됩니다. 보고서에 이 값이 표시되면 각 `TrackState` 호출에서 상태를 설정해야 합니다.
+   상태가 비어 있으면 다음과 같이 표시됩니다 *`app name app version (build)`* 참조하십시오. 보고서에 이 값이 표시되면 각각의 보고서에서 상태를 설정해야 합니다 `TrackState` 호출.
 
    >[!TIP]
    >
@@ -282,7 +281,7 @@ ht-degree: 66%
 
 * **TrackAction**
 
-   앱의 작업을 추적합니다. 작업은 &quot;종료&quot;, &quot;획득 레벨&quot;, &quot;피드 구독&quot; 및 기타 지표 등 측정하려는 앱에서 발생하는 일들입니다.
+   앱의 작업을 추적합니다. 작업은 &quot;죽음&quot;, &quot;획득한 수준&quot;, &quot;피드 구독&quot; 및 기타 지표 등 앱에서 발생하여 측정하려는 것입니다.
 
    >[!TIP]
    >
@@ -322,7 +321,7 @@ ht-degree: 66%
 
 * **TrackLocation**
 
-   현재 위도 및 경도 좌표를 보냅니다. 또한 `ADBMobileConfig.json` 파일에서 정의된 관심 영역을 사용하여 매개변수로 제공된 위치가 POI 내에 있는지 파악합니다. 현재 좌표가 정의된 POI 내에 있으면 컨텍스트 데이터 변수가 채워지고 TrackLocation 호출로 전송됩니다.
+   현재 위도 및 경도 좌표를 보냅니다. 또한 `ADBMobileConfig.json` 파일에서 정의된 관심 영역을 사용하여 매개변수로 제공된 위치가 POI 내에 있는지 파악합니다. 현재 좌표가 정의된 POI 내에 있을 경우 컨텍스트 데이터 변수를 채워 TrackLocation 호출로 보냅니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -364,7 +363,7 @@ ht-degree: 66%
 
 * **TrackLifetimeValueIncrease**
 
-   사용자의 라이프타임 값에 금액을 추가합니다.
+   사용자의 라이프타임 값에 양을 추가합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -400,7 +399,7 @@ ht-degree: 66%
 
 * **TrackTimedActionUpdate**
 
-   데이터를 전달하여 주어진 작업과 연관된 컨텍스트 데이터를 업데이트합니다. 전달된 데이터는 주어진 작업의 기존 데이터에 추가되며 작업에 대해 동일한 키가 이미 정의된 경우 데이터를 덮어씁니다.
+   데이터를 전달하여 지정된 작업과 관련된 컨텍스트 데이터를 업데이트합니다. 전달된 데이터는 기존 작업 데이터에 추가되며 동일한 키가 작업에 이미 정의되어 있으면 데이터를 덮어씁니다.
 
    >[!TIP]
    >
@@ -520,7 +519,7 @@ ht-degree: 66%
 
 * **VisitorSyncIdentifiers**
 
-   Experience Cloud ID를 사용하여 각 방문자와 연결할 추가 고객 ID를 설정할 수 있습니다. 방문자 API는 여러 다른 고객 ID의 범위를 구분하기 위해 동일한 방문자의 여러 고객 ID와 고객 유형 식별자를 수락합니다. 이 메서드는 JavaScript 라이브러리의 setCustomerID에 해당합니다.
+   Experience Cloud ID를 사용하면 각 방문자와 연결할 추가 고객 ID를 설정할 수 있습니다. 방문자 API는 여러 다른 고객 ID의 범위를 구분하기 위해 동일한 방문자의 여러 고객 ID와 고객 유형 식별자를 수락합니다. 이 메서드는 JavaScript 라이브러리의 setCustomerID에 해당합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -540,7 +539,7 @@ ht-degree: 66%
 
 * **ProcessGooglePlayInstallReferrerUrl** *(Android만 해당)*
 
-   Google Play 설치 레퍼러 API에 대한 호출에서 반환된 레퍼러 URL을 이 메서드에 전달합니다.
+   Google Play Install Referrer API 호출에서 반환된 레퍼러 URL을 이 메서드에 전달합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 

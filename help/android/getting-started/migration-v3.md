@@ -1,12 +1,12 @@
 ---
 description: 다음은 Android 라이브러리를 3.x 또는 2.x 버전에서 4.x 버전으로 마이그레이션하는 데 유용한 정보입니다.
 keywords: android;라이브러리;모바일;sdk
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Android 4.x 라이브러리로 마이그레이션
 topic-fix: Developer and implementation
 uuid: 906e83bb-2faf-4aa2-ac9b-3fba6b833c7e
 exl-id: 8061c1ab-aaaf-4d4c-9bd5-b2f80b6b06a3
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 99%

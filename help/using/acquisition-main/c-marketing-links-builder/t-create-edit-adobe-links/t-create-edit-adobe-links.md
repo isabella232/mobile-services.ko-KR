@@ -1,12 +1,12 @@
 ---
 description: 마케팅 링크를 만들거나 편집하여 모바일 앱이나 웹 사이트로 딥링크를 제공할 수 있습니다.
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 마케팅 링크 만들기 또는 편집
 topic-fix: Metrics
 uuid: 305a8265-38de-4d19-8c79-b3912f5aae7c
 exl-id: a9b5c98d-77c1-4a40-96e5-f9e234d55ec5
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 96%
@@ -40,7 +40,7 @@ ht-degree: 96%
       다음 사전 설정 태그를 사용할 수 있습니다.
 
       * **사용자 지정 컨텍스트 데이터**
-키와 값을 지정합니다. 사용자 지정 컨텍스트 데이터를 추가할 경우 처리 규칙을 작성해야 합니다. 자세한 내용은 Adobe Analytics 설명서에서 [처리 규칙 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) 를 참조하십시오.
+키와 값을 지정합니다. 사용자 지정 컨텍스트 데이터를 추가할 경우 처리 규칙을 작성해야 합니다. 자세한 내용은 [처리 규칙 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) ( Adobe Analytics 설명서)를 참조하십시오.
 
       * **소스**
 &quot;뉴스레터&quot; 또는 &quot;홈 페이지&quot;와 같은 원본 레퍼러를 지정합니다.

@@ -1,11 +1,11 @@
 ---
 description: ADBMobile JSON 구성 파일을 사용하는 데 도움이 되는 정보입니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: ADBMobileConfig.json 구성 파일
 topic-fix: Developer and implementation
 uuid: a45b91cc-982e-4d6c-a4e4-d2e4b4fa7556
 exl-id: 520dffb8-ca47-444f-bbc9-f18413ddeb05
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 44%
@@ -14,7 +14,7 @@ ht-degree: 44%
 
 # `ADBMobileConfig.json` 구성 파일 {#adbmobileconfig-json-config}
 
-`ADBMobile.json` 구성 파일을 사용하는 데 도움이 되는 정보입니다.
+을 사용하는 데 도움이 되는 정보 `ADBMobile.json` 구성 파일.
 
 현재 SDK는 Analytics, Target 및 Audience Manager 등 여러 Adobe Experience Cloud 솔루션을 지원합니다. 메서드에는 솔루션에 따라 접두사가 붙습니다. 구성 메서드 앞에는 &quot;Config&quot;가 붙습니다.
 
@@ -34,17 +34,17 @@ ht-degree: 44%
 
 * **server**
 
-   (Analytics 및 Audience Management에 필요). Analytics 또는 Audience Management 서버로, 상위 노드를 기반으로 합니다. 이 변수는 `https://` 또는 `https://` 프로토콜 접두사 없이 서버 도메인으로 채워야 합니다. 프로토콜 접두사는 `ssl` 변수를 기반으로 하여 라이브러리에서 자동으로 처리됩니다.
+   (Analytics 및 Audience Management에 필요). Analytics 또는 Audience Management 서버로, 상위 노드를 기반으로 합니다. 이 변수는 `https://` 또는 `https://` 프로토콜 접두사 없이 서버 도메인으로 채워야 합니다. 프로토콜 접두사는 `ssl` 변수를 채우는 방법을 설명합니다.
 
    `ssl`이 `true`이면 이 서버에 보안 연결이 설정됩니다. `ssl`이 `false`이면 이 서버에 비보안 연결이 설정됩니다.
 
 * **charset**
 
-   Analytics로 전송된 데이터에 사용할 문자 세트를 정의합니다. charset은 들어오는 데이터를 저장 및 보고용으로 UTF-8로 변환하는 데 사용됩니다. 자세한 내용은 Adobe Analytics 설명서에서 [charSet](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/charset.html) 변수를 참조하십시오.
+   Analytics로 전송된 데이터에 사용할 문자 세트를 정의합니다. charset은 들어오는 데이터를 저장 및 보고용으로 UTF-8로 변환하는 데 사용됩니다. 자세한 내용은 [charSet](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/charset.html) 변수로 식별됩니다.
 
 * **ssl**
 
-   SSL(HTTPS)을 통해 측정 데이터 전송을 활성화(`true`)하거나 비활성화(`false`)합니다. 기본값은 `false`입니다.
+   활성화(`true`) 또는 비활성화(`false`) SSL을 통해 측정 데이터 전송(HTTPS). 기본값은 `false`입니다.
 
 * **offlineEnabled**
 
@@ -52,7 +52,7 @@ ht-degree: 44%
 
    >[!IMPORTANT]
    >
-   >보고서 세트에서 타임스탬프가 활성화된 경우 `offlineEnabled` 구성 속성 *은*&#x200B;가 true여야 합니다. 보고서 세트에서 타임스탬프가 사용되지 않는 경우에는 `offlineEnabled` 구성 속성이 *반드시* false여야 합니다. 이 속성이 제대로 구성되지 않으면 데이터가 손실됩니다. 보고서 세트 타임 스탬프 활성화 여부가 확실치 않으면  고객 지원 센터에 문의하십시오. 현재 JavaScript의 데이터도 수집하는 보고서 세트에 AppMeasurement 데이터를 보고하는 경우, 모바일 데이터에 별도의 보고서 세트를 설정하거나 `s.timestamp` 변수를 사용하여 모든 JavaScript 히트에 사용자 지정 타임스탬프를 포함해야 할 수도 있습니다.
+   >보고서 세트에서 타임스탬프가 활성화된 경우 `offlineEnabled` 구성 속성 *반드시* 진실이다. 보고서 세트에서 타임스탬프가 사용되지 않는 경우에는 `offlineEnabled` 구성 속성이 *반드시* false여야 합니다. 이 속성이 제대로 구성되지 않으면 데이터가 손실됩니다. 보고서 세트 타임 스탬프 활성화 여부가 확실치 않으면  고객 지원 센터에 문의하십시오. 현재 JavaScript의 데이터도 수집하는 보고서 세트에 AppMeasurement 데이터를 보고하는 경우, 모바일 데이터에 별도의 보고서 세트를 설정하거나 을 사용하여 모든 JavaScript 히트에 사용자 지정 타임스탬프를 포함해야 할 수도 있습니다 `s.timestamp` 변수를 채우는 방법을 설명합니다.
 
 * **lifecycleTimeout**
 
@@ -60,7 +60,7 @@ ht-degree: 44%
 
 * **batchLimit**
 
-   히트를 일괄로 보냅니다. 예를 들어 50으로 설정하면 히트는 50개가 저장될 때까지 큐에 있다가 모든 큐에 있는 히트가 전송됩니다. `offlineEnabled=true`가 필요합니다. 기본값은 `0`(일괄 처리 없음)입니다.
+   히트를 일괄로 보냅니다. 예를 들어 50으로 설정하면 히트는 50개가 저장될 때까지 큐에 있다가 모든 큐에 있는 히트가 전송됩니다. `offlineEnabled=true`가 필요합니다. 기본값은 입니다. `0` (일괄 처리 없음)
 
 * **privacyDefault**
 
@@ -89,13 +89,13 @@ ht-degree: 44%
 
 * **clientCode**
 
-   (**Target**&#x200B;에 필요) 지정된 클라이언트 코드입니다.
+   (**Target 필요**) 할당된 클라이언트 코드입니다.
 
 * **timeout**
 
    Target이 응답을 기다리는 시간을 결정합니다.
 
-다음은 `ADBMobileConfig.json` 파일의 예입니다.
+다음은 의 예입니다 `ADBMobileConfig.json` 파일:
 
 ```js
 { 

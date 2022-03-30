@@ -1,11 +1,11 @@
 ---
 description: '다음은 JSON 구성, 히트 일괄 처리, SDK 메서드를 포함하여 Android SDK를 구성하는 데 유용한 정보입니다. '
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 구성 개요
 topic-fix: Developer and implementation
 uuid: 207d6eae-7fc5-449d-b92b-c2d83e8e82b4
 exl-id: 6e16f15a-71c9-4f0d-ba45-f6c22e05b9c2
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 100%

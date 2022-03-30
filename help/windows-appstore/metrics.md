@@ -1,12 +1,12 @@
 ---
 description: 모바일 라이브러리에서 자동으로 측정할 수 있는 지표와 차원을 나열합니다.
 keywords: android;라이브러리;모바일;sdk
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 라이프사이클 지표
 topic-fix: Developer and implementation
 uuid: c483271f-f620-46f4-aad8-d5f02d763f7d
 exl-id: a1e4eeca-8b8f-47ca-a489-acc338238c42
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 64%
@@ -17,7 +17,7 @@ ht-degree: 64%
 
 모바일 라이브러리에서 자동으로 측정할 수 있는 지표와 차원을 나열합니다.
 
-자세한 내용은 [라이프사이클 데이터 문제 해결](https://helpx.adobe.com/kr/analytics/kb/troubleshoot-lifecycle-data.html)을 참조하십시오.
+자세한 내용은 [라이프사이클 데이터 문제 해결](https://helpx.adobe.com/kr/analytics/kb/troubleshoot-lifecycle-data.html).
 
 ## 라이프사이클 지표 및 차원 {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
@@ -263,14 +263,14 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
 
 * **관심 영역 이름**
 
-   디바이스가 정의된 POI 내에 있을 때 `trackLocation` 메서드로 채워집니다.
+   작성자 `trackLocation` 정의된 POI 내에 장치가 있을 때의 메서드입니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.loc.poi`
    * Audience Manager 트레이트: `c_a_loc_poi`
 
 * **관심 영역 중앙까지의 거리**
 
-   디바이스가 정의된 POI 내에 있을 때 `trackLocation` 메서드로 채워집니다.
+   작성자 `trackLocation` 정의된 POI 내에 장치가 있을 때의 메서드입니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.loc.dist`
    * Audience Manager 트레이트: `c_a_loc_dist`

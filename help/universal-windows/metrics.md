@@ -1,12 +1,12 @@
 ---
-description: 모바일 라이브러리에서 자동으로 측정할 수 있는 지표와 차원을 나열합니다.
+description: Lists the metrics and dimensions that can be measured automatically by the mobile library.
 keywords: android;라이브러리;모바일;sdk
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 라이프사이클 지표
 topic-fix: Developer and implementation
 uuid: f958c3ef-1d79-4b30-8966-ef74bd48a5d6
 exl-id: 19572f15-c5df-40fe-9979-3a5bdd581f2b
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 84%
@@ -15,9 +15,9 @@ ht-degree: 84%
 
 # 라이프사이클 지표 {#lifecycle-metrics}
 
-모바일 라이브러리에서 자동으로 측정할 수 있는 지표와 차원을 나열합니다.
+Lists the metrics and dimensions that can be measured automatically by the mobile library.
 
-자세한 내용은 [라이프사이클 데이터 문제 해결](https://helpx.adobe.com/kr/analytics/kb/troubleshoot-lifecycle-data.html)을 참조하십시오.
+For more information, see [Troubleshoot Lifecycle data](https://helpx.adobe.com/kr/analytics/kb/troubleshoot-lifecycle-data.html).
 
 
 ## 라이프사이클 지표 및 차원 {#section_78F036C4296F4BA3A47C2044F79C86C1}
@@ -224,11 +224,11 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
 
    `trackLocation` 메서드로 채워집니다.
 
-   * Analytics 컨텍스트 데이터/Target 매개 변수:
+   * Analytics Context Data/Target parameter(s):
 
       * `a.loc.lat.a`
       * `a.loc.lon.a`
-   * Audience Manager 트레이트:
+   * Audience Manager trait(s):
 
       * `c_a_loc_lat_a`
       * `c_a_loc_lon_a`
@@ -264,14 +264,14 @@ Analytics에서 각 라이프사이클 추적 호출과 함께 전송된 컨텍�
 
 * **관심 영역 이름**
 
-   정의된 POI 내에 장치가 있을 때 `trackLocation` 메서드로 채워집니다.
+   작성자 `trackLocation` 정의된 POI 내에 장치가 있을 때의 메서드입니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.loc.poi`
    * Audience Manager 트레이트: `c_a_loc_poi`
 
 * **관심 영역 중앙까지의 거리**
 
-   디바이스가 정의된 POI 내에 있을 때 `trackLocation` 메서드로 채워집니다.
+   작성자 `trackLocation` 정의된 POI 내에 장치가 있을 때의 메서드입니다.
 
    * Analytics 컨텍스트 데이터/Target 매개 변수: `a.loc.dist`
    * Audience Manager 트레이트: `c_a_loc_dist`

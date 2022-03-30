@@ -1,12 +1,12 @@
 ---
 description: 앱(앱 딥링크) 설치 여부에 따라 사용자를 대상(웹 사이트 또는 앱스토어)으로 안내할 수 있습니다.
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 중간 광고
 topic-fix: Metrics
 uuid: 7dce8ab2-2a5d-4384-ac1e-e31dfaa33654
 exl-id: b6d4588f-4f28-4c1b-9291-f4b9154d84f7
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%

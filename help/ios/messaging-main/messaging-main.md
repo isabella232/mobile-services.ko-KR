@@ -1,11 +1,11 @@
 ---
 description: 다음은 iOS 앱에서 메시지를 사용하는 데 유용한 정보입니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 메시징
 topic-fix: Developer and implementation
 uuid: c6475ab4-015d-46b0-af28-5d0df3f4459e
 exl-id: e7be8760-6daf-42c8-9c3d-1de29d62ad0b
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 100%

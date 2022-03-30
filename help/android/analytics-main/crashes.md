@@ -1,11 +1,11 @@
 ---
 description: 다음은 충돌을 추적하는 방법을 이해하고 허위 충돌을 처리하는 우수 사례를 확인하는 데 유용한 정보입니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 앱 충돌 추적
 topic-fix: Developer and implementation
 uuid: 3ab98c14-ccdf-4060-ad88-ec07c1c6bf07
 exl-id: d8d59b4e-0231-446d-9ba1-8a9809be9c61
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%

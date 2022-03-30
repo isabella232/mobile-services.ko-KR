@@ -1,14 +1,14 @@
 ---
 description: Adobe Mobile 및 Adobe Mobile SDK를 사용하면 푸시 메시지를 사용자에게 보낼 수 있습니다. 또한 SDK를 사용하면 푸시 메시지를 통해 클릭하여 앱을 연 사용자를 쉽게 보고할 수 있습니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 푸시 메시지
 topic-fix: Developer and implementation
 uuid: 729d4010-3733-4dff-b188-ad45bd3e7cc4
 exl-id: 4472e0b9-1d00-4e1a-8653-f3976b74c078
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

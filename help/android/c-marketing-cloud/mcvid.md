@@ -1,11 +1,11 @@
 ---
 description: Adobe Experience Platform ID 서비스는 Experience Cloud 솔루션 전반에 범용 방문자 ID를 제공합니다. ID 서비스는 타겟 분석, 비디오 하트비트 및 향후 Experience Cloud 통합에 필요합니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Experience Cloud ID 구성
 topic-fix: Developer and implementation
 uuid: 8ebdf2bf-c581-448f-9542-f99a19784fe7
 exl-id: 97dc6768-bf31-4a0d-a460-9caf9ecda5fb
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 100%
@@ -18,7 +18,7 @@ Adobe Experience Platform ID 서비스는 Experience Cloud 솔루션 전반에 �
 
 >[!TIP]
 >
->Adobe Experience Platform ID 서비스를 사용하지 않는 경우에는 이 ID를 채우지 않아도 됩니다. 자세한 내용은 [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)를 참조하십시오.
+>Adobe Experience Platform ID 서비스를 사용하지 않는 경우에는 이 ID를 채우지 않아도 됩니다. 자세한 내용은 [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 참조하십시오.
 
 >[!IMPORTANT]
 >

@@ -1,12 +1,12 @@
 ---
 description: 처리 규칙을 사용하여 제품 변수를 설정할 수 없습니다. Mobile SDK에서는 서버 호출에 대한 제품을 설정하려면 컨텍스트 데이터 매개 변수의 특수 구문을 사용해야 합니다.
 keywords: android;라이브러리;모바일;sdk
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: products 변수
 topic-fix: Developer and implementation
 uuid: f4484022-cb8b-4dea-9209-5a110ba607df
 exl-id: 1d850ce1-6fd4-463e-8949-8b8cf40d8467
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%

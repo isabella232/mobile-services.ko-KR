@@ -1,11 +1,11 @@
 ---
 description: 라이브러리를 프로젝트에 추가한 후에는 앱의 어느 곳에서든 Analytics 메서드를 호출할 수 있습니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Analytics
 topic-fix: Developer and implementation
 uuid: c2cef3d3-77a7-4a8e-bbe4-3db10a77996a
 exl-id: cc96a7dd-ccc4-4914-8243-f3f160b75c21
-source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 19%
@@ -18,25 +18,25 @@ ht-degree: 19%
 
 >[!TIP]
 >
->`ADBMobile.h`을 클래스에 가져와야 합니다.
+>를 가져오는지 확인합니다 `ADBMobile.h` 네 반에
 
 ## Analytics에서 모바일 애플리케이션 보고서 활성화 {#section_F2F9234009184F20BA36B5CDE872B424}
 
-코드를 추가하기 전에 Analytics 관리자가 다음을 완료하여 모바일 앱 라이프사이클 추적을 활성화하도록 하십시오. 이렇게 하면 개발을 시작할 때 보고서 세트가 지표를 캡처할 준비가 된 것입니다.
+코드를 추가하기 전에 Analytics 관리자가 다음을 완료하여 Mobile 앱 라이프사이클 추적을 활성화하도록 합니다. 이렇게 하면 개발을 시작할 때 보고서 세트가 지표를 캡처할 준비가 된 것입니다.
 
-1. **[!UICONTROL 관리 도구]** > **[!UICONTROL 보고서 세트]**&#x200B;를 열고 모바일 보고서 세트를 선택합니다.
+1. 열기 **[!UICONTROL 관리 도구]** > **[!UICONTROL 보고서 세트]** 모바일 보고서 세트를 선택합니다.
 
-1. **[!UICONTROL 설정 편집]** > **[!UICONTROL 모바일 관리]** > **[!UICONTROL 모바일 애플리케이션 보고]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL 설정 편집]** > **[!UICONTROL Mobile 관리]** > **[!UICONTROL Mobile 애플리케이션 보고]**.
 
-   ![모바일 설정](assets/mobile-settings.png)
+   ![Mobile 설정](assets/mobile-settings.png)
 
-1. **[!UICONTROL 최신 앱 보고서 활성화]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL 최신 앱 보고서 활성화]**.
 
-   원할 경우 **[!UICONTROL 모바일 위치 추적 활성화]** 또는 **[!UICONTROL 배경 히트에 대한 이전 보고 및 속성 활성화]**&#x200B;를 클릭할 수도 있습니다.
+   원할 경우 **[!UICONTROL Mobile 위치 추적 활성화]** 또는 **[!UICONTROL 배경 히트에 대한 이전 보고 및 속성 활성화]**.
 
    ![라이프사이클 활성화](assets/enable-lifecycle.png)
 
-이제 라이프사이클 지표를 캡처할 준비가 되었으며, 모바일 애플리케이션 보고서가 마케팅 보고서 인터페이스의 **[!UICONTROL 보고서]** 메뉴에 표시됩니다.
+이제 라이프사이클 지표를 캡처할 준비가 되었으며 Mobile 애플리케이션 보고서가 **[!UICONTROL 보고서]** 마케팅 보고서 인터페이스의 메뉴.
 
 ### 새 버전
 
@@ -118,11 +118,11 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 }
 ```
 
-동일한 세션에서 `CollectLifecycleData()`이 두 번 호출되면 애플리케이션이 첫 번째 호출 후 모든 호출 시 충돌을 보고합니다. SDK는 애플리케이션이 종료될 때 성공적인 종료를 나타내는 플래그를 설정합니다. 이 플래그가 설정되지 않은 경우 `CollectLifecyleData()` 은 충돌을 보고합니다.
+If `CollectLifecycleData()` 가 동일한 세션에서 두 번 호출되면 애플리케이션이 첫 번째 호출 후 모든 호출 시 충돌을 보고합니다. SDK는 애플리케이션이 종료될 때 성공적인 종료를 나타내는 플래그를 설정합니다. 이 플래그가 설정되지 않으면, `CollectLifecyleData()` 충돌을 보고합니다.
 
 ## Event, Prop 및 eVar {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
-[SDK 메서드](/help/universal-windows/c-configuration/methods.md)를 살펴본 경우 이벤트, eVar, prop, 상속자 및 목록을 어디에 설정해야 하는지 알 수 있습니다. 버전 4에서는 더 이상 그러한 유형의 변수를 앱에서 바로 할당할 수 없습니다. 대신, SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 앱 데이터를 Analytics 변수에 매핑해서 보고에 사용합니다.
+만약 당신이 [SDK 메서드](/help/universal-windows/c-configuration/methods.md), events, eVar, prop, 상속자 및 목록을 어디에 설정해야 하는지 알 수 있습니다. 버전 4에서는 더 이상 이러한 유형의 변수를 앱에서 바로 할당할 수 없습니다. 대신, SDK는 컨텍스트 데이터 및 처리 규칙을 사용하여 앱 데이터를 Analytics 변수에 매핑해서 보고에 사용합니다.
 
 처리 규칙은 다음과 같은 몇 가지 이점을 제공합니다.
 
@@ -154,7 +154,7 @@ Adobe은 논리적 순서를 유지하는 데 도움이 되므로 &quot;네임�
 "eVar1":"jimbo";
 ```
 
-이 경우 처리 규칙에서 1회 매핑을 수행할 때는 *약간* 더 쉬워질 수 있지만 디버깅이나 향후 코드 업데이트 중에 가독성을 잃게 될 수 있습니다. 대신 키와 값에 수사적 이름을 사용하는 것이 좋습니다.
+이렇게 하면 성공할 수 있습니다 *약간* 처리 규칙에서 1회 매핑을 수행할 때는 더 쉬워지지만 디버깅이나 향후 코드 업데이트 중에 가독성을 잃게 될 수 있습니다. 대신 키와 값에 수사적 이름을 사용하는 것이 좋습니다.
 
 ```js
 "username":"jimbo";
@@ -178,17 +178,17 @@ Adobe은 논리적 순서를 유지하는 데 도움이 되므로 &quot;네임�
 
 ## Products 변수 {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
-모바일 SDK에서 *`products`*&#x200B;을 설정하려면 특수 구문을 사용해야 합니다. 자세한 내용은 [Products 변수](/help/universal-windows/analytics/products.md)을 참조하십시오.
+설정하려면 *`products`* mobile SDK에서 특수 구문을 사용해야 합니다. 자세한 내용은 [Products 변수](/help/universal-windows/analytics/products.md).
 
 ## (선택 사항) 오프라인 추적을 활성화합니다 {#section_955B2A03EB854742BDFC4A0A3C287009}
 
-장치가 오프라인 상태일 때 히트를 저장하려면 [SDK 메서드](/help/universal-windows/c-configuration/methods.md) 파일에서 오프라인 추적을 활성화할 수 있습니다. 오프라인 추적을 활성화하려면 구성 파일 참조에 설명된 타임스탬프 요구 사항에 유의하십시오.
+장치가 오프라인 상태일 때 히트를 저장하려면 [SDK 메서드](/help/universal-windows/c-configuration/methods.md) 파일. 오프라인 추적을 활성화하려면 구성 파일 참조에 설명된 타임스탬프 요구 사항에 유의하십시오.
 
 ## 지리적 위치 및 관심 영역 {#section_BAD34A8DD013454DB355121316BD7FD4}
 
-지리적 위치를 사용하여 위치 데이터(위도/경도) 및 사전 정의된 관심 영역을 측정할 수 있습니다. 각 `TrackLocation` 호출은 다음을 보냅니다.
+지리적 위치를 사용하여 위치 데이터(위도/경도) 및 사전 정의된 관심 영역을 측정할 수 있습니다. 각 `TrackLocation` 호출 전송:
 
-* 위도/경도 및 POI(`ADBMobileConfig.json` 구성 파일에 정의된 POI 내에 있는 경우).
+* 위도/경도 및 POI(POI 내에 `ADBMobileConfig.json` 구성 파일)을 참조하십시오.
 
    이러한 변수는 자동 보고를 위해 모바일 솔루션 변수로 전달됩니다.
 
@@ -203,7 +203,7 @@ var ADB = ADBMobile;
 ADB.Analytics.trackLocation(37.75345, -122.33207, null);
 ```
 
-`ADBMobileConfig.json` 구성 파일에 다음 POI가 정의된 경우:
+에 다음 POI가 정의된 경우 `ADBMobileConfig.json` 구성 파일:
 
 ```js
 "poi" : [ 
@@ -211,7 +211,7 @@ ADB.Analytics.trackLocation(37.75345, -122.33207, null);
         ]
 ```
 
-장치 위치가 정의된 지점의 7000m 반경 내에 있는 것으로 확인되면 `San Francisco` 값이 있는 `a.loc.poi` 컨텍스트 데이터 변수가 `TrackLocation` 히트와 함께 전송됩니다. `a.loc.dist` 컨텍스트 변수가 정의된 좌표로부터 떨어진 거리(단위: 미터)와 함께 전송됩니다.
+장치 위치가 정의된 지점의 7000m 반경 내에 있는 것으로 확인되면 `a.loc.poi` 값이 있는 컨텍스트 데이터 변수 `San Francisco` 와 함께 전송됩니다. `TrackLocation` 히트. An `a.loc.dist` 컨텍스트 변수가 정의된 좌표로부터 떨어진 거리(단위: 미터)와 함께 전송됩니다.
 
 ## 라이프타임 값 {#section_D2C6971545BA4D639FBE07F13EF08895}
 

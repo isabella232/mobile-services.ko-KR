@@ -1,11 +1,11 @@
 ---
 description: Experience Cloud 솔루션용 iOS SDK 4.x를 사용하면 기본 Apple iPhone 및 iPad 애플리케이션을 측정하고 앱에 타깃팅된 콘텐츠를 제공하고 Audience Manager를 통해 대상 데이터를 활용하고 수집할 수 있습니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Experience Cloud 솔루션용 iOS SDK 4.x
 topic-fix: Developer and implementation
 uuid: 8b374cee-1432-460b-aac2-70623dd80a04
 exl-id: d4dbddf7-c8be-4936-adfb-2f7aa07a0dd4
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
@@ -24,9 +24,9 @@ Experience Cloud 솔루션용 iOS SDK 4.x를 사용하면 기본 Apple iPhone �
 
 * 바이너리 라이브러리 파일이 언급될 때마다 대신 해당 XCFramework 대체 파일을 사용해야 합니다.
    * `AdobeMobileLibrary.a` > `AdobeMobile.xcframework`
-   * `AdobeMobileLibrary_Extension.a` >  `AdobeMobileExtension.xcframework`
-   * `AdobeMobileLibrary_Watch.a` >  `AdobeMobileWatch.xcframework`
-   * `AdobeMobileLibrary_TV.a` >  `AdobeMobileTV.xcframework`
+   * `AdobeMobileLibrary_Extension.a` > `AdobeMobileExtension.xcframework`
+   * `AdobeMobileLibrary_Watch.a` > `AdobeMobileWatch.xcframework`
+   * `AdobeMobileLibrary_TV.a` > `AdobeMobileTV.xcframework`
 * Adobe XCFrameworks를 프로젝트에 수동으로 추가하는 경우 XCFrameworks가 포함되지 않았는지 확인합니다.
 
 >[!IMPORTANT]

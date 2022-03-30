@@ -1,11 +1,11 @@
 ---
 description: 이 항목에서는 모바일 솔루션 4.x SDK용 Xamarin 구성 요소를 사용하여 시작하는 방법에 대해 설명합니다.
 keywords: Xamarin
-solution: Experience Cloud
+solution: Experience Cloud Services
 title: Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소
 uuid: e7a48107-bd0e-47d6-b49c-dfdae189ac37
 exl-id: 39628548-5787-4022-8792-86b78214a1c0
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 99%

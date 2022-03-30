@@ -1,12 +1,12 @@
 ---
 description: Adobe Mobile에서 앱을 삭제할 수 있습니다.
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 앱 삭제
 topic-fix: Metrics
 uuid: 1721cce5-b368-4f05-a40b-e3f2348d96d8
 exl-id: 70b95aed-9e22-470b-b278-6c015334e92a
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 100%

@@ -1,14 +1,14 @@
 ---
 description: '보고서 세트를 구성하고 Android 앱 데이터를 수집하려면 먼저 다음 사전 요구 작업을 완료하십시오. '
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 시작하기 전에
 topic-fix: Developer and implementation
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
 exl-id: e9c0fd94-b61d-4f56-97b8-f71aac096c93
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Mobile Services는 모바일 앱 분석 및 타깃팅용 주요 보고 인
 
 ### Experience Cloud
 
-Adobe ID를 사용하여 [Experience Cloud](https://experiencecloud.adobe.com)에 로그인합니다. 이 방법에서는 회사가 Experience Cloud에서 프로비저닝되었으며, 사용자가 Analytics 계정을 연결했다고 가정합니다. 자세한 내용은 Experience Cloud 중앙 인터페이스 구성 요소 안내서의 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html)를 참조하십시오.
+Adobe ID를 사용하여 [Experience Cloud](https://experiencecloud.adobe.com)에 로그인합니다. 이 방법에서는 회사가 Experience Cloud에서 프로비저닝되었으며, 사용자가 Analytics 계정을 연결했다고 가정합니다. 자세한 내용은 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko-KR) ( Experience Cloud 중앙 인터페이스 구성 요소 안내서).
 
 >[!TIP]
 >
@@ -63,7 +63,7 @@ Adobe ID를 사용하여 [Experience Cloud](https://experiencecloud.adobe.com)�
 
 보고서 세트를 생성하여 앱 데이터를 수집하고 앱을 정의하려면
 
-1. [Mobile Services Adobe](https://mobilemarketing.adobe.com)에 로그인합니다.
+1. 에 로그인합니다. [Mobile 서비스 Adobe](https://mobilemarketing.adobe.com).
 1. **[!UICONTROL 앱 만들기]**&#x200B;를 클릭합니다.
 
    이 단추가 표시되지 않으면 **[!UICONTROL 앱 관리]** > **[!UICONTROL 추가]**&#x200B;를 클릭하십시오.

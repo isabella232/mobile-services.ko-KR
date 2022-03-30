@@ -1,11 +1,11 @@
 ---
 description: 다음은 iOS 라이브러리에서 제공하는 Audience Manager 메서드 목록입니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Audience Manager 메서드
 topic-fix: Developer and implementation
 uuid: 97658bd6-4c4f-4875-abe9-36dad4ec8bae
 exl-id: b843a52f-2b83-4e19-9f43-895bd582d4ef
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%

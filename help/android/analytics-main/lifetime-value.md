@@ -1,11 +1,11 @@
 ---
 description: 라이프타임 값을 통해 각 Android 사용자의 라이프타임 값을 측정하고 타깃팅할 수 있습니다. 이 값은 라이프타임 구매, 광고 보기, 비디오 전체 보기, 소셜 네트워크 공유, 사진 업로드 등을 저장하는 데 사용할 수 있습니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 방문자 라이프타임 값
 topic-fix: Developer and implementation
 uuid: ba0308de-282e-46f9-a14c-19fb6d5c363e
 exl-id: 93c6d711-c7c0-4fca-93b2-6a6fc19377bd
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%

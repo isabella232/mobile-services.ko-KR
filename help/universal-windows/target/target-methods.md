@@ -1,11 +1,11 @@
 ---
 description: 유니버설 Windows 플랫폼 라이브러리에서 제공하는 Target 메서드 목록입니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Target 메서드
 topic-fix: Developer and implementation
 uuid: 2ad5953b-7850-446a-8053-b3715b86329b
 exl-id: d7aeee41-1c34-4f98-8455-e9f429287cfc
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 37%
@@ -18,11 +18,11 @@ ht-degree: 37%
 
 현재 SDK는 Analytics, Target 및 Audience Manager 등 여러 Adobe Experience Cloud 솔루션을 지원합니다.
 
-[라이프사이클 ](/help/universal-windows/metrics.md) 지표는 각 mbox 로드에 매개 변수로 전송됩니다.
+[라이프사이클 지표](/help/universal-windows/metrics.md) 각 mbox 로드에 매개 변수로 전송됩니다.
 
 >[!TIP]
 >
->winJS(JavaScript)에서 `winmd` 메서드를 사용하면 모든 메서드가 자동으로 첫 번째 문자를 소문자로 바꿉니다.
+>소비할 때 `winmd` winJS(JavaScript)의 메서드를 사용하면 모든 메서드가 자동으로 첫 번째 문자를 소문자로 바꿉니다.
 
 ## 클래스 참조: TargetLocationRequest
 
@@ -70,7 +70,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **LoadRequest(winJS: loadRequest)**
 
-   구성된 Target 서버에 `request`을(를) 보내고 블록 `callback`에서 생성된 오퍼의 문자열 값을 반환합니다.
+   전송 `request` 구성된 Target 서버에 연결하고 블록에서 생성된 오퍼의 문자열 값을 반환합니다 `callback`.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -89,7 +89,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **CreateRequest (winJS: createRequest)**
 
-   지정된 매개 변수로 `TargetLocationRequest` 개체를 만듭니다.
+   만들기 `TargetLocationRequest` 지정된 매개 변수와 함께 개체를 작성합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -106,7 +106,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **주문 &#x200B; 확인 요청(winJS: createOrder &#x200B; ConfirmRequest)**
 
-   지정된 매개 변수로 `TargetLocationRequest` 개체를 만듭니다.
+   만들기 `TargetLocationRequest` 지정된 매개 변수와 함께 개체를 작성합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 

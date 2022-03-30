@@ -1,12 +1,12 @@
 ---
 description: 이벤트 직렬화는 처리 규칙에서 지원되지 않습니다. Mobile SDK에서는, 서버 호출 시 직접 직렬화된 이벤트를 설정하려면 컨텍스트 데이터 매개 변수의 특수 구문을 사용해야 합니다.
 keywords: android;라이브러리;모바일;sdk
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 이벤트 정리
 topic-fix: Developer and implementation
 uuid: acdeda16-ab83-4cfc-907d-33448b801b31
 exl-id: 03556912-fdcc-402e-b1de-233771f4e719
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 100%

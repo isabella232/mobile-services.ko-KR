@@ -1,11 +1,11 @@
 ---
 description: 다음은 iOS 라이브러리를 구현하고 시작, 업그레이드, 세션, 참여 사용자 등의 라이프사이클 지표를 수집하는 데 유용한 정보입니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 핵심 구현 및 라이프사이클
 topic-fix: Developer and implementation
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
 exl-id: 5fb2d534-c2e8-480a-aaee-0e71dd55feb6
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 100%

@@ -1,12 +1,12 @@
 ---
 description: 다음은 머천다이징 eVar 및 제품별 이벤트의 products 변수의 예입니다.
 keywords: android;라이브러리;모바일;sdk
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 머천다이징 eVar 및 제품별 이벤트가 포함된 Products 변수
 topic-fix: Developer and implementation
 uuid: 64f822a0-6ccf-48e7-8886-31b93d8198a3
 exl-id: 2ede6341-3068-4423-a509-c0ec3a2db5e8
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 100%

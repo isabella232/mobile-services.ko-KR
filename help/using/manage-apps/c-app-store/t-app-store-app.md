@@ -1,12 +1,12 @@
 ---
 description: Apple App Store 또는 Google Play에서 앱을 추가할 수 있습니다.
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 앱스토어에서 앱 추가
 topic-fix: Metrics
 uuid: 94c8a924-5156-4742-8b5b-88d9ea13bfed
 exl-id: 874a132b-42d3-4074-8f14-22310fa60ec0
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%

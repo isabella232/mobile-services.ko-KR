@@ -1,12 +1,12 @@
 ---
 description: Adobe Mobile Services에 대한 FAQ 및 답변과 기능에 대한 일반 설명.
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 자주 묻는 질문
 topic-fix: Metrics
 uuid: 62a9241c-2ada-483a-a594-b023916cb0b6
 exl-id: d7dfc36e-56f0-498a-ad50-93fee90cb6ff
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 96%
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 ### 사용해야 하는 SDK 버전은 무엇인가요?
 
-현재 SDK는 버전 4.11에 있습니다. 자세한 내용은 [릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)를 참조하십시오.
+현재 SDK는 버전 4.11에 있습니다. 자세한 내용은 [릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR).
 
 ### 어디에서 SDK를 다운로드할 수 있나요?
 
@@ -45,7 +45,7 @@ Adobe Mobile SDK는 표준 iOS 및 Android 네트워크 스택을 사용합니�
 
 ### 처리 규칙 문제는 어떻게 해결해야 하나요?
 
-Adobe Analytics 설명서에서 [처리 규칙 팁과 트릭](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html)을 참조하십시오.
+자세한 내용은 [처리 규칙 팁과 트릭](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html) ( Adobe Analytics 설명서)를 참조하십시오.
 
 ### 분석 데이터를 여러 보고서 세트로 보낼 수 있습니까?
 

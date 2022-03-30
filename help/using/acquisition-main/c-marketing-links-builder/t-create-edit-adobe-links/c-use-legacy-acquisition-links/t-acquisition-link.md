@@ -1,12 +1,12 @@
 ---
 description: Apple App Store 및 Google Play에서 바로 응용 프로그램을 다운로드할 수 있는 앱스토어 링크를 만들 수 있습니다. 이 링크를 만들면 다운로드 이벤트를 성공시킬 수 있습니다.
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 획득 링크 만들기
 topic-fix: Metrics
 uuid: bb603013-fca9-44a2-820a-59e1c85d9444
 exl-id: bc351d1e-c7da-4418-ac5a-9e5f989dd566
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%

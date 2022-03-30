@@ -1,15 +1,15 @@
 ---
 description: 지속 시간, 요일 및 시간 옵션을 포함하여 인앱 메시지에 대한 예약 옵션을 구성할 수 있습니다.
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: '예약: 인앱 메시지'
 topic-fix: Metrics
 uuid: d10e691b-105a-4165-a49d-d046ce250acd
 exl-id: bd7103ff-f14f-436b-a6c4-c477535cffe2
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

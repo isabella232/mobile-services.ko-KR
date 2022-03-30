@@ -1,12 +1,12 @@
 ---
 description: 개요 보고서는 주요 지표에 대한 스냅숏을 제공합니다.
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 개요 보고서
 topic-fix: Reports,Metrics
 uuid: 5f7088af-4b25-4fe5-afda-4844597c78f9
 exl-id: db681d0e-b784-4415-b248-f92df5b780cc
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 100%

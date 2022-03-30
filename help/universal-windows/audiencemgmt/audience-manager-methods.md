@@ -1,11 +1,11 @@
 ---
 description: 유니버설 Windows 플랫폼 라이브러리에서 제공하는 Audience Manager 메서드 목록입니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Audience Manager 메서드
 topic-fix: Developer and implementation
 uuid: efbe8f33-7f53-40a6-b7aa-a36ac718c047
 exl-id: a7b4001d-d90f-4a8a-a801-d66e56ea43b5
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 44%
@@ -16,17 +16,17 @@ ht-degree: 44%
 
 유니버설 Windows 플랫폼 라이브러리에서 제공하는 Audience Manager 메서드 목록입니다.
 
-현재 SDK는 Analytics, Target 및 Audience Manager 등 여러 Adobe Experience Cloud 솔루션을 지원합니다. 메서드에는 솔루션에 따라 접두사가 추가됩니다. Audience Manager 메서드 앞에는 `AudienceManager` 이 붙습니다.
+현재 SDK는 Analytics, Target 및 Audience Manager 등 여러 Adobe Experience Cloud 솔루션을 지원합니다. 메서드에는 솔루션에 따라 접두사가 추가됩니다. Audience Manager 메서드 앞에는 이 붙습니다. `AudienceManager`.
 
 >[!TIP]
 >
->winJS(JavaScript)에서 `winmd` 메서드를 사용하면 모든 메서드가 자동으로 첫 번째 문자를 소문자로 바꿉니다.
+>소비할 때 `winmd` winJS(JavaScript)의 메서드를 사용하면 모든 메서드가 자동으로 첫 번째 문자를 소문자로 바꿉니다.
 
 Audience Manager가 JSON 파일에 구성되어 있으면 라이프사이클 지표가 포함된 신호가 라이프사이클 히트와 함께 전송됩니다.
 
 * **GetVisitorProfile(winJS: getVisitorProfile)**
 
-   가장 최근 획득한 방문자 프로필을 반환합니다. 아직 어떤 신호도 전송되지 않은 경우 `null` 을 반환합니다. 방문자 프로필은 앱이 여러 번 시작되는 경우에도 쉽게 액세스할 수 있도록 `SharedPreferences`에 저장됩니다.
+   가장 최근 획득한 방문자 프로필을 반환합니다. 반환 `null` 아직 어떤 신호도 전송되지 않은 경우. 방문자 프로필은에 저장됩니다. `SharedPreferences` 을 사용하면 앱을 여러 번 실행할 때 쉽게 액세스할 수 있습니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 

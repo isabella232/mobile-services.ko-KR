@@ -1,12 +1,12 @@
 ---
 description: 유지 보고서(이전의 첫 번째 실행 그룹)는 처음으로 앱을 시작했다가 그 다음 달에 적어도 한 번 앱을 다시 시작한 고유 사용자의 수를 표시하는 집단 보고서입니다.
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 유지 보고서
 topic-fix: Reports,Metrics
 uuid: e7639e7f-c9ed-4b19-9ac5-b36774ea9dd6
 exl-id: de68f00a-5de0-4e9a-9255-207a1a44df6e
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 100%

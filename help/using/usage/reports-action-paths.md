@@ -1,12 +1,12 @@
 ---
 description: 작업 경로 보고서는 경로 분석을 기반으로 하며, 앱의 한 상태에서 다른 상태로 이동되는 경로를 나타내는 경로 지정 차트를 표시합니다.
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 작업 경로 보고서
 topic-fix: Reports,Metrics
 uuid: a21e5d9e-fd57-4178-9d64-87181b7f988b
 exl-id: 4c97b07f-17df-49cb-b2f7-dcb682d9d3c6
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%

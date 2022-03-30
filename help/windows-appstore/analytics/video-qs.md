@@ -1,11 +1,11 @@
 ---
 description: Video Analytics에 도움이 되는 정보입니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Video Analytics
 topic-fix: Developer and implementation
 uuid: 7d4e6668-a1d9-41da-96c8-8baac860c5b0
 exl-id: 86d70a6f-db12-4f94-a37f-4b1d4b99e0f1
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 71%
@@ -16,7 +16,7 @@ ht-degree: 71%
 
 Video Analytics에 도움이 되는 정보입니다.
 
-비디오 측정은 Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR) 안내서에서 [스트리밍 미디어 측정 을 자세히 설명합니다. 비디오를 측정하는 일반 프로세스는 모든 AppMeasurement 플랫폼에서 유사합니다. 이 빠른 시작 섹션에서는 코드 샘플과 함께 개발자 작업에 대한 기본적인 개요를 제공합니다.
+비디오 측정은 다음에서 자세히 설명합니다 [Adobe Analytics에서 스트리밍 미디어 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR) 안내서. 비디오를 측정하는 일반 프로세스는 모든 AppMeasurement 플랫폼에서 유사합니다. 이 빠른 시작 섹션에서는 코드 샘플과 함께 개발자 작업에 대한 기본적인 개요를 제공합니다.
 
 다음 표에는 Analytics에 전송되는 미디어 데이터가 나열되어 있습니다. 처리 규칙을 사용하여 컨텍스트 데이터를 Analytics 변수에 매핑합니다.
 
@@ -40,7 +40,7 @@ Video Analytics에 도움이 되는 정보입니다.
 
 * **a.media.segment**
 
-   (필수) 세그먼트 이름 및 비디오에서 세그먼트가 발생하는 순서를 포함하여 비디오 세그먼트 데이터를 수집합니다. 이 변수는 플레이어 이벤트를 자동으로 추적할 때 `segmentByMilestones` 변수를 활성화하거나, 플레이어 이벤트를 수동으로 추적할 때 사용자 지정 세그먼트 이름을 설정하여 채워집니다. 예를 들어 방문자가 비디오에서 첫 번째 세그먼트를 볼 경우 SiteCatalyst은 `1:M:0-25` 세그먼트 eVar에서 다음을 수집할 수 있습니다.
+   (필수) 세그먼트 이름 및 비디오에서 세그먼트가 발생하는 순서를 포함하여 비디오 세그먼트 데이터를 수집합니다. 이 변수는 플레이어 이벤트를 자동으로 추적할 때 `segmentByMilestones` 변수를 활성화하거나, 플레이어 이벤트를 수동으로 추적할 때 사용자 지정 세그먼트 이름을 설정하여 채워집니다. 예를 들어 방문자가 비디오에서 첫 번째 세그먼트를 볼 경우 SiteCatalyst은 `1:M:0-25` 세그먼트 eVar.
 
    기본 비디오 데이터 수집 방법의 경우, 다음 시점에서 데이터를 수집합니다.
 
@@ -162,7 +162,7 @@ property bool isMediaAd;
 
 * **열기(winJS: open)**
 
-   `settings`에 정의된 설정을 사용하여 열린 미디어를 추적합니다.
+   에 정의된 설정을 사용하여 열린 미디어를 추적합니다. `settings`.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -178,7 +178,7 @@ property bool isMediaAd;
 
 * **닫기(winJS: close)**
 
-   *name*&#x200B;이라는 미디어 항목에 대한 미디어 닫기를 추적합니다.
+   이름이 인 미디어 항목에 대한 미디어 닫기를 추적합니다 *이름*.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -194,7 +194,7 @@ property bool isMediaAd;
 
 * **재생(winJS: play)**
 
-   지정된 *offset*(초)에서 *`name`* 이라는 미디어 항목에 대한 미디어 재생을 추적합니다.
+   이름이 인 미디어 항목에 대한 미디어 재생을 추적합니다 *`name`* 주어진 *오프셋* (초)
 
    * 다음은 이 메서드에 대한 구문입니다.
 

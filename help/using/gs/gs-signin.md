@@ -1,12 +1,12 @@
 ---
 description: 웹 브라우저를 사용하여 Adobe Mobile Services에 로그인할 수 있습니다.
 keywords: 모바일;암호 변경;로그인;로그아웃;로그인;로그아웃;로그인;로그 인
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 로그인 중
 topic-fix: Metrics
 uuid: d6ea0ca1-3511-4133-9d41-21ea2d2f7b3a
 exl-id: 12b447bd-f53b-43b4-b333-6b805f42fb75
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 100%

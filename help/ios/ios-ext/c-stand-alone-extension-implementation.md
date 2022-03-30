@@ -1,11 +1,11 @@
 ---
 description: iOS 10부터 Apple에서는 포함된 앱 없이 배포할 수 있는 독립 실행형 확장이라는 확장을 만들 수 있습니다. 이 확장 기능을 사용하면 데이터를 공유하는 포함 앱이 없으므로 앱 그룹이 필요하지 않습니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 독립형 확장 프로그램 구현
 topic-fix: Developer and implementation
 uuid: 9b47f082-b78f-4611-968d-014c32ede6bc
 exl-id: b51247b6-c4ba-4a00-9ba0-1824450ac067
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%

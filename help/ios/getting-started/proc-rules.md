@@ -1,11 +1,11 @@
 ---
 description: 처리 규칙은 컨텍스트 데이터 변수로 보내는 데이터를 보고를 위해 eVar, prop 및 기타 변수에 복사하는 데 사용됩니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 처리 규칙 및 컨텍스트 데이터
 topic-fix: Developer and implementation
 uuid: 51338ccd-fa52-4d9c-97c4-947a4100465d
 exl-id: a3968160-42c4-4671-b541-c14639b8a451
-source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 67%
@@ -16,7 +16,7 @@ ht-degree: 67%
 
 처리 규칙은 컨텍스트 데이터 변수로 보내는 데이터를 보고를 위해 eVar, prop 및 기타 변수에 복사하는 데 사용됩니다.
 
-처리 규칙에 대한 자세한 내용은 Adobe Analytics 설명서에서 [처리 규칙 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) 를 참조하십시오.
+처리 규칙에 대한 자세한 내용은 [처리 규칙 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) ( Adobe Analytics 설명서)를 참조하십시오.
 
 처리 규칙을 사용하여 작업할 경우 다음 정보를 숙지하십시오.
 

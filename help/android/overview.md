@@ -1,15 +1,15 @@
 ---
 description: Experience Cloud 솔루션용 Android SDK 4.x를 사용하면 기본 Android 애플리케이션을 측정하고, 앱에 타겟 콘텐츠를 제공하고, 대상 관리를 통해 대상 데이터를 활용하고 수집할 수 있습니다.
 keywords: android;라이브러리;모바일;sdk
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Experience Cloud 솔루션용 Android SDK 4.x
 topic-fix: Developer and implementation
 uuid: 56f1ff41-0365-41dd-bdde-245c823dff07
 exl-id: c2454e94-a9af-42f3-ab45-14f68531faab
-source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -59,4 +59,4 @@ Experience Cloud 릴리스에 대한 최신 정보는 [Experience Cloud 릴리�
 
 >[!IMPORTANT]
 >
->**2017년 4월 30일 자** Adobe Bloodhound는 종료되었습니다. 2017년 5월 1일부터 추가적인 개선이나 추가 엔지니어링 또는 Adobe Expert Care 지원이 제공되지 않습니다.
+>기준 **2017년 4월 30일** Adobe Bloodhound는 종료되었습니다. 2017년 5월 1일부터 추가적인 개선이나 추가 엔지니어링 또는 Adobe Expert Care 지원이 제공되지 않습니다.

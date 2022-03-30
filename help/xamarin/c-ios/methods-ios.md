@@ -1,11 +1,11 @@
 ---
 description: Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서드.
 keywords: Xamarin
-solution: Experience Cloud
+solution: Experience Cloud Services
 title: iOS 메서드
 uuid: d6a056db-80c1-44d0-970f-c961ad01b0bc
 exl-id: 92897d08-2b66-4688-9870-c877bea53cfc
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1737'
 ht-degree: 70%
@@ -34,7 +34,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
       ADBMobile.CollectLifecycleData();
       ```
 
-* **디버그 로깅**
+* **DebugLogging**
 
    현재 디버그 로깅 기본 설정을 반환합니다. 기본값은 `false`입니다.
 
@@ -82,14 +82,14 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
       var lifetimeValue = ADBMobile.LifetimeValue();
       ```
 
-* **개인 정보 상태**
+* **PrivacyStatus**
 
    현재 사용자에 대한 개인 정보 상태의 열거 표현을 반환합니다.
    * `ADBMobilePrivacyStatus.OptIn` - 히트가 즉시 전송됩니다.
    * `ADBMobilePrivacyStatus.OptOut` - 히트가 삭제됩니다.
    * ADBMobilePrivacyStatus.Unknown - 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트 삭제)으로 변경될 때까지 히트가 저장됩니다. 오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 삭제됩니다.
 
-   기본값은 [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md)에 설정됩니다.
+   기본값은 [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -211,7 +211,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
 * **TrackState**
 
-   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. 상태는 &quot;title screen&quot;, &quot;level 1&quot;, &quot;pause&quot; 등과 같이 앱에서 사용할 수 있는 보기입니다. 이 상태는 웹 사이트의 페이지와 유사하며 `TrackState` 호출은 페이지 보기를 증가시킵니다.상태가 비어 있으면 보고서에 &quot;app name app version (build)&quot;로 표시됩니다. 보고서에 이 값이 표시되면 각각의 `TrackState` 호출에서 상태를 설정해야 합니다.
+   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. 상태는 &quot;title screen&quot;, &quot;level 1&quot;, &quot;pause&quot; 등과 같이 앱에서 사용할 수 있는 보기입니다. 이러한 상태는 웹 사이트의 페이지와 유사하며, `TrackState` 호출은 페이지 보기를 증가시킵니다.상태가 비어 있으면 보고서에 &quot;app name app version (build)&quot;로 표시됩니다. 보고서에 이 값이 표시되면 각각의 보고서에서 상태를 설정해야 합니다 `TrackState` 호출.
 
    >[!TIP]
    >
@@ -500,7 +500,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
 * **TargetLoadRequest**
 
-   구성된 Target 서버에 요청을 보내고 `Action<NSDictionary>` 콜백에서 생성된 오퍼의 문자열 값을 반환합니다.
+   구성된 Target 서버에 요청을 보내고 `Action<NSDictionary>` 콜백입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -520,7 +520,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
 * **TargetCreateRequest**
 
-   주어진 매개 변수로 `ADBTargetLocationRequest` 개체를 만드는 편의 생성자입니다.
+   편의 생성자를 사용하여 `ADBTargetLocationRequest` 지정된 매개 변수와 함께 개체를 작성합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -571,7 +571,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
 * **AudienceVisitorProfile**
 
-   가장 최근 획득한 방문자 프로필을 반환합니다. 아직 어떤 신호도 전송되지 않은 경우 nil을 반환합니다. 방문자 프로필은 앱이 여러 번 시작되는 경우에도 쉽게 액세스할 수 있도록 `NSUserDefaults`에 저장됩니다.
+   가장 최근 획득한 방문자 프로필을 반환합니다. 아직 어떤 신호도 전송되지 않은 경우 nil을 반환합니다. 방문자 프로필은에 저장됩니다. `NSUserDefaults` 을 사용하면 앱을 여러 번 실행할 때 쉽게 액세스할 수 있습니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -635,7 +635,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
 * **AudienceSignalWithData**
 
-   트레이트가 있는 신호를 고객 관리에 보내고 `Action<NSDictionary>` 콜백에서 반환된 일치 세그먼트를 받습니다.
+   트레이트가 있는 신호를 고객 관리에 보내고 `Action<NSDictionary>`  콜백입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -670,7 +670,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 iOS 메서
 
 ## 비디오 {#section_CBCE1951CE204A108AD4CA7BB07C7F98}
 
-자세한 내용은 [Video Analytics](/help/ios/getting-started/dev-qs.md)를 참조하십시오.
+자세한 내용은 [Video Analytics](/help/ios/getting-started/dev-qs.md).
 
 * **MediaCreateSettings**
 

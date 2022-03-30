@@ -1,17 +1,17 @@
 ---
 description: 다음은 Android 라이브러리에서 제공하는 메서드 목록입니다.
 keywords: android;라이브러리;모바일;sdk
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 구성 메서드
 topic-fix: Developer and implementation
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+exl-id: f35b9d32-f967-42e9-bd00-ad85f3bd6bc4
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 100%
 
 ---
-
 
 # 구성 메서드{#configuration-methods}
 

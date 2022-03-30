@@ -1,11 +1,11 @@
 ---
 description: 다음은 tvOS 라이브러리에서 제공하는 TVJS 메서드 목록입니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: TVJS 메서드
 topic-fix: Developer and implementation
 uuid: a7bfa85a-0d6e-4f51-9a9e-70429c2a9806
 exl-id: 4e0c6a29-953d-49fc-b44f-533dd393ffb1
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1997'
 ht-degree: 100%

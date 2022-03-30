@@ -1,12 +1,12 @@
 ---
 description: 이 정보는 필터(세그먼트)를 추가하여 기본 제공된 보고서를 사용자 지정하는 데 도움이 됩니다.
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 보고서에 필터 추가
 topic-fix: Reports,Metrics
 uuid: 19c395cc-2e07-4588-825b-f2f8b10a87c1
 exl-id: eb0589e9-668e-42d7-8f7a-00d7f0a2e3ff
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 100%

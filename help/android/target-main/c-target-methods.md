@@ -1,12 +1,12 @@
 ---
 description: 다음은 Android 라이브러리에서 제공하는 Adobe Target 메서드 목록입니다.
 keywords: android;라이브러리;모바일;sdk
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Android용 Target 메서드
 topic-fix: Developer and implementation
 uuid: 8e9808b2-ba80-4646-ba05-8e62d4fde065
 exl-id: 0c7a6718-d078-4a2b-a2c9-d5cd50263939
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 95%
@@ -168,7 +168,7 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
       });
       ```
 
-      기본 Target API에 대한 자세한 내용은 Target API 참조에서 [Target 요청 로드](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target/target-api-reference-deprecated#load-target-requests)를 참조하십시오.
+      기본 Target API에 대한 자세한 내용은 [Target 요청 로드](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target/target-api-reference-deprecated#load-target-requests) ( Target API 참조).
 
 
 

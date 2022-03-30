@@ -1,12 +1,12 @@
 ---
 description: 다음은 라이프사이클을 구현한 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표 및 차원을 안내합니다. 또한 라이프사이클 데이터 문제 해결을 안내하는 링크도 제공합니다.
 keywords: android;라이브러리;모바일;sdk
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 라이프사이클 지표
 topic-fix: Developer and implementation
 uuid: a8f3ebac-be3b-4948-82bb-105d46cfff6d
 exl-id: 1e50318d-894c-4039-ba45-71cb9edbc5b5
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 100%

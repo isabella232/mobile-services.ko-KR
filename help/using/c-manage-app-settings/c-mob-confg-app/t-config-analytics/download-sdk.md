@@ -1,12 +1,12 @@
 ---
 description: Mobile Services 구현에 유용한 Mobile Services SDK 및 도구를 다운로드하는 데 도움이 되는 정보입니다.
 keywords: 모바일;android;ios;sdk
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 모바일 SDK 및 도구 다운로드
 topic-fix: Developer and implementation,Metrics
 uuid: 4af757f7-4e4d-4939-9b6a-49a29c220192
 exl-id: 34ec76fa-3bcb-4b77-9d1e-7160941deb44
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%

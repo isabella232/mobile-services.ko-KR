@@ -1,11 +1,11 @@
 ---
 description: Experience Cloud 솔루션용 Android SDK 4.x에 대한 릴리스 노트 및 알려진 문제
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 릴리스 노트
 topic-fix: Developer and implementation
 uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
 exl-id: 5cc3d031-5952-4e9b-b551-9402d3c05ccb
-source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 72%
@@ -18,11 +18,11 @@ ht-degree: 72%
 
 ## 2020년 4월 3일: 4.18.2
 
-* 인앱 메시지 - 보안상의 이유로 SDK에서 만든 WebViews는 이제 속성 `setAllowFileAccess`을 `false`로 설정합니다.
+* 인앱 메시지 - 보안상의 이유로 SDK에서 만든 WebViews는 이제 속성을 설정합니다 `setAllowFileAccess` to `false`.
 
 ## 2020년 3월 12일: 4.18.1
 
-* Target - 이제 Target 세션 ID가 Adobe Analytics으로 전송된 내부 Analytics-for-Target 히트에서 컨텍스트 데이터 매개 변수 `a.target.sessionId` 로 추가됩니다.
+* Target - 이제 Target 세션 ID가 컨텍스트 데이터 매개 변수로 추가됩니다 `a.target.sessionId` ( Adobe Analytics으로 전송된 내부 Analytics-for-Target 히트에서).
 
 ## 2020년 1월 16일: 4.18.0
 
@@ -49,7 +49,7 @@ ht-degree: 72%
 
 ## 2019년 5월 24일: 버전 4.17.6
 
-* 방문자 ID 서비스 - 이제 `setPushIdentifier` API가 호출될 때마다 방문자 ID 서비스에 동기화 호출을 보냅니다.
+* 방문자 ID 서비스 - `setPushIdentifier` API가 호출될 때마다 방문자 ID 서비스에 동기화 호출을 보냅니다.
 * 방문자 ID 서비스 - 연결 및 읽기 제한 시간이 2초에서 5초로 늘어났습니다.
 
 모든 솔루션의 현재 및 과거 릴리스 노트에 대한 자세한 내용은 [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)를 참조하십시오.

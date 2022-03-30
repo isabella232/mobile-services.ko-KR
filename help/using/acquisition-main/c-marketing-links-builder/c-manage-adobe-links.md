@@ -1,12 +1,12 @@
 ---
 description: 마케팅 링크 페이지를 사용하여 마케팅 링크를 작성, 사용 및 보관할 수 있습니다.
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 마케팅 링크 관리
 topic-fix: Metrics
 uuid: 98ac3520-89ed-4513-83f6-120dda9d0157
 exl-id: 678c18fe-b282-4eab-a248-e00dfd53cecd
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%

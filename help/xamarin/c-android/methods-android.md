@@ -1,11 +1,11 @@
 ---
 description: Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android 메서드입니다.
 keywords: Xamarin
-solution: Experience Cloud
+solution: Experience Cloud Services
 title: Android 메서드
 uuid: 860af1c4-f57e-4bcb-8308-4e316da9a27b
 exl-id: 0de1fa11-37e9-49be-8d42-a13cb4a3f0e3
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 68%
@@ -18,7 +18,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 ## 구성 메서드 {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
-* **디버그 로깅**
+* **DebugLogging**
 
    현재 디버그 로깅 기본 설정을 반환하고 기본값은 false입니다.
 
@@ -51,14 +51,14 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
        var lifetimeValue = Config.LifetimeValue;
       ```
 
-* **개인 정보 상태**
+* **PrivacyStatus**
 
    현재 사용자에 대한 개인 정보 상태의 열거 표현을 반환합니다.
    * `ADBMobilePrivacyStatus.OptIn` - 히트가 즉시 전송됩니다.
    * `ADBMobilePrivacyStatus.OptOut` - 히트가 삭제됩니다.
    * `ADBMobilePrivacyStatus.Unknown` - 오프라인 추적이 활성화되면 개인 정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트 삭제)으로 변경될 때까지 히트가 저장됩니다. 오프라인 추적이 비활성화되면 개인 정보 상태가 옵트인으로 변경될 때까지 히트가 무시됩니다.
 
-   기본값은 [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md) 파일에 설정됩니다.
+   기본값은 [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md) 파일.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -160,7 +160,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **OverrideConfigStream**
 
-   (4.2 이상) 애플리케이션이 시작될 때 다른 `ADBMobile JSON` 구성 파일을 로드할 수 있습니다. 애플리케이션이 닫힐 때까지 다른 구성을 사용합니다.
+   (4.2 이상) 다른 `ADBMobile JSON` 애플리케이션이 시작될 때 파일을 구성합니다. 애플리케이션이 닫힐 때까지 다른 구성을 사용합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -227,7 +227,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **TrackState**
 
-   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. `States` &quot;제목 화면&quot;, &quot;수준 1&quot;, &quot;일시 중지&quot; 등과 같이 앱에서 사용할 수 있는 보기입니다. 이 상태는 웹 사이트의 페이지와 유사하며 `TrackState` 호출은 페이지 보기를 증가시킵니다. 상태가 비어 있으면 보고서에 &quot;앱 이름 앱 버전(빌드)으로 표시됩니다. 보고서에 이 값이 표시되면 각각의 `TrackState` 호출에서 상태를 설정해야 합니다.
+   선택적 컨텍스트 데이터로 앱 상태를 추적합니다. `States` &quot;제목 화면&quot;, &quot;수준 1&quot;, &quot;일시 중지&quot; 등과 같이 앱에서 사용할 수 있는 보기입니다. 이 상태는 웹 사이트의 페이지와 유사하며 `TrackState` 호출은 페이지 보기를 증가시킵니다. 상태가 비어 있으면 보고서에 &quot;앱 이름 앱 버전(빌드)으로 표시됩니다. 보고서에 이 값이 표시되면 각각의 보고서에서 상태를 설정해야 합니다 `TrackState` 호출.
 
    >[!TIP]
    >
@@ -274,7 +274,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **TrackLocation**
 
-   현재 위도 및 경도 좌표를 보냅니다. 또한 `ADBMobileConfig.json` 파일에서 정의된 관심 영역을 사용하여 매개 변수로 제공된 위치가 POI에 있는지 파악합니다. 정의된 POI 내에 현재 좌표가 있는 경우 컨텍스트 데이터 변수를 채워 `TrackLocation` 호출로 전송합니다.
+   현재 위도 및 경도 좌표를 보냅니다. 또한 `ADBMobileConfig.json` 파일을 사용하여 매개 변수로 제공된 위치가 POI에 있는지 확인합니다. 정의된 POI 내에 현재 좌표가 있는 경우 컨텍스트 데이터 변수를 채워 `TrackLocation` 호출로 전송합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -511,7 +511,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **LoadRequest**
 
-   구성된 Target 서버에 요청을 보내고 `Action<NSDictionary>` 콜백에서 생성된 오퍼의 문자열 값을 반환합니다.
+   구성된 Target 서버에 요청을 보내고 `Action<NSDictionary>` 콜백입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -534,7 +534,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **CreateRequest**
 
-   주어진 매개 변수로 `ADBTargetLocationRequest` 개체를 만드는 편의 생성자입니다.
+   편의 생성자를 사용하여 `ADBTargetLocationRequest` 지정된 매개 변수와 함께 개체를 작성합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -602,7 +602,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **Dpid**
 
-   현재 `DPID`을 반환합니다.
+   현재 반환 `DPID`.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -618,7 +618,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **Dpuuid**
 
-   현재 `DPUUID`을 반환합니다.
+   현재 반환 `DPUUID`.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -634,7 +634,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **AudienceSetDpidAndDpuuid**
 
-   `dpid` 및 `dpuuid`을 설정합니다. `dpid` 및 `dpuuid`이 설정되어 있으면 각 신호와 함께 전송됩니다.
+   를 설정합니다. `dpid` 및 `dpuuid`. If `dpid` 및 `dpuuid` 가 설정되면 각 신호와 함께 전송됩니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -650,7 +650,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **SignalWithData**
 
-   트레이트가 있는 신호를 고객 관리에 보내고 `Action<NSDictionary>` 콜백에서 반환된 일치 세그먼트를 받습니다.
+   트레이트가 있는 신호를 고객 관리에 보내고 `Action<NSDictionary>` 콜백입니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -676,7 +676,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 * **재설정**
 
-   Audience Manager `UUID`를 재설정하고 현재 방문자 프로필을 삭제합니다.
+   Audience Manager 재설정 `UUID` 및 은 현재 방문자 프로필을 삭제합니다.
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -692,7 +692,7 @@ Experience Cloud 솔루션 4.x SDK용 Xamarin 구성 요소에 대한 Android �
 
 ## 비디오 {#section_CBCE1951CE204A108AD4CA7BB07C7F98}
 
-Video Analytics에 대한 자세한 내용은 [Video Analytics](/help/android/analytics-main/video-qs.md) 를 참조하십시오.
+Video Analytics에 대한 자세한 내용은 [Video Analytics](/help/android/analytics-main/video-qs.md).
 
 * **MediaSettings**
 

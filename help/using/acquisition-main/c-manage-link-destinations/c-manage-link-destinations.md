@@ -1,12 +1,12 @@
 ---
 description: 링크 대상 관리 페이지에서 링크 대상을 작성, 편집, 보관/보관 해제 및 삭제할 수 있습니다. 이러한 대상을 만들면 마케팅 링크, 푸시 알림 또는 인앱 메시지를 작성할 때 인라인으로 호출할 수 있습니다.
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 링크 대상 만들기 및 관리
 topic-fix: Metrics
 uuid: 43930e3a-6a11-40c6-8a61-6732a673dac7
 exl-id: 53e9f970-e53c-4c0d-9214-abb01a9b144b
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 100%

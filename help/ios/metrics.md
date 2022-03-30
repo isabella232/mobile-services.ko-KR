@@ -1,11 +1,11 @@
 ---
 description: 다음 표는 라이프사이클이 구현된 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표와 차원을 표시합니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 라이프사이클 지표
 topic-fix: Developer and implementation
 uuid: b795e383-d59b-4a3c-9e14-ffe8fb58412c
 exl-id: b51b6c41-843f-499d-9cf2-7ce96ed82fc0
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 100%

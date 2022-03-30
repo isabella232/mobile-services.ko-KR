@@ -1,12 +1,12 @@
 ---
 description: 획득 링크가 더 이상 필요하지 않으면 획득 링크를 한 개 이상 삭제할 수 있습니다.
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 획득 링크 삭제
 topic-fix: Metrics
 uuid: e7362348-ca24-4f1c-b37f-eca6d2b0da6d
 exl-id: 4c007ec6-40ba-468f-8bfc-0930a04c59c1
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 100%

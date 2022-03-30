@@ -1,12 +1,12 @@
 ---
 description: 비콘 추적에서 iBeacon 및 Bluetooth 저전력을 사용하여 미세한 위치를 측정하고 타깃팅할 수 있습니다.
 keywords: android;라이브러리;모바일;sdk
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 비콘 추적
 topic-fix: Developer and implementation
 uuid: 16c1d267-85f4-4a6a-a6d3-d6ffb0f80b29
 exl-id: b8493e9d-ed1c-4404-a218-47a18a9c8faa
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 100%

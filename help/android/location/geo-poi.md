@@ -1,11 +1,11 @@
 ---
 description: 지리적 위치는 Android 앱에서 위도와 경도 및 사전 정의된 관심 영역을 사용하여 위치 데이터를 측정할 수 있도록 합니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 지리적 위치 및 관심 영역
 topic-fix: Developer and implementation
 uuid: b8209370-cbc4-40f9-97d8-017e2d74a377
 exl-id: e1fed35b-5ce9-48ee-ade0-b1701cf2a3a9
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 100%

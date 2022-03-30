@@ -1,12 +1,12 @@
 ---
 description: 이름, 메시지 텍스트 및 대상 옵션을 비롯한 푸시 메시지 및 리치 푸시 메시지에 대한 경험 옵션을 구성할 수 있습니다. iOS 장치에 대한 페이로드 옵션 및 사용자 정의 옵션을 비롯한 고급 옵션을 구성할 수도 있습니다.
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: '환경: 푸시 메시지'
 topic-fix: Metrics
 uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
 exl-id: 9158487e-6ac5-4f17-a8ff-15de0360ab60
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 100%

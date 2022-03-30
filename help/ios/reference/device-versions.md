@@ -1,11 +1,11 @@
 ---
 description: 다음 표에는 여러 iOS 장치에서 전송한 iOS 버전 문자열이 포함되어 있습니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: iOS 장치 버전
 topic-fix: Developer and implementation
 uuid: 8b8a9bc3-0737-4de2-9792-0b112aa4cf65
 exl-id: 9aaf2f35-4de9-47a0-8e9d-8d098dfaadef
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%

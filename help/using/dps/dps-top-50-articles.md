@@ -1,12 +1,12 @@
 ---
 description: 상위 50개 문서 보고서에는 해당 앱을 사용하여 표시된 가장 많이 읽은 문서를 보여주는 막대 차트와 등급 보고서가 표시됩니다. 이 보고서는 DPS(Digital Publishing Suites) 고객만 사용할 수 있습니다.
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 상위 50개 문서
 topic-fix: Metrics
 uuid: 341370d1-fa87-43ca-8135-425b3bba272f
 exl-id: 8d5d6ab4-fcbb-42b2-b9bc-5ccb4f73522f
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 100%

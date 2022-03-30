@@ -1,12 +1,12 @@
 ---
 description: URL 매개 변수를 수동으로 구성하여 새로운 모바일 앱 사용자를 바로 획득하는 마케팅 링크를 작성할 수 있습니다.
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 수동으로 획득 링크 만들기
 topic-fix: Metrics
 uuid: d7709203-f793-4982-adaa-9c3c914aca2b
 exl-id: aef9fe3e-32dc-4ec0-9eda-f64cc5e486a3
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%

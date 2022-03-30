@@ -1,11 +1,11 @@
 ---
 description: 다음은 iOS 라이브러리에서 제공하는 메서드 목록입니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 구성 메서드
 topic-fix: Developer and implementation
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
 exl-id: b6841808-8fa8-4090-8cb3-ce647a3d5d08
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 100%

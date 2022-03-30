@@ -1,11 +1,11 @@
 ---
 description: 유니버설 Windows 플랫폼 라이브러리에서 제공하는 클래스 및 메서드입니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: SDK 메서드
 topic-fix: Developer and implementation
 uuid: e3aa41d6-7bc0-4208-a662-12907c209a77
 exl-id: 0aac477c-074d-457c-b117-bb205119c475
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 64%
@@ -18,7 +18,7 @@ ht-degree: 64%
 
 >[!TIP]
 >
->winJS(JavaScript)에서 `winmd` 메서드를 사용하면 모든 메서드가 자동으로 첫 번째 문자를 소문자로 바꿉니다.
+>소비할 때 `winmd` winJS(JavaScript)의 메서드를 사용하면 모든 메서드가 자동으로 첫 번째 문자를 소문자로 바꿉니다.
 
 * **GetVersion (winJS: getVersion)**
 
@@ -44,7 +44,7 @@ ht-degree: 64%
    * `ADBMobilePrivacyStatusOptOut` - 히트가 삭제됩니다.
    * `ADBMobilePrivacyStatusUnknown`: 보고서 세트에 타임스탬프가 활성화되어 있을 경우 개인정보 상태가 옵트인(히트가 전송됨) 또는 옵트아웃(히트가 삭제됨)으로 변경될 때까지 히트가 저장됩니다. 보고서 세트에 타임스탬프가 활성화되어 있지 않을 경우 개인정보 상태가 옵트인으로 변경될 때까지 히트가 삭제됩니다.
 
-      기본값은 `ADBMobileConfig.json` 구성 파일에서 설정되어 있습니다. 자세한 내용은 [ADBMobileConfig.json 구성 파일](/help/universal-windows/c-configuration/c.json.md)을 참조하십시오.
+      기본값은 `ADBMobileConfig.json` 구성 파일. 자세한 내용은 [ADBMobileConfig.json 구성 파일](/help/universal-windows/c-configuration/c.json.md).
 
    * 다음은 이 메서드에 대한 구문입니다.
 
@@ -125,7 +125,7 @@ ht-degree: 64%
 
 * **GetUserIdentifier (winJS: getUserIdentifier)**
 
-   사용자 지정 식별자가 설정된 경우 사용자 지정 사용자 식별자를 반환합니다. 사용자 지정 식별자가 설정되지 않은 경우 `null` 을 반환합니다.
+   사용자 지정 식별자가 설정된 경우 사용자 지정 사용자 식별자를 반환합니다. 반환 `null` 사용자 지정 ID가 설정되지 않은 경우.
 기본값은 `null`입니다.
 
    >[!IMPORTANT]

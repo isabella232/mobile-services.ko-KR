@@ -1,11 +1,11 @@
 ---
 description: 이 정보는 iOS 앱에서 획득 추적 링크를 사용하는 데 유용합니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 획득 개요
 topic-fix: Developer and implementation
 uuid: e22d2785-58f1-4841-9163-912c5e0f5d61
 exl-id: 0315f8ed-41cb-4a2c-bfe0-56bdebf1af52
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 100%

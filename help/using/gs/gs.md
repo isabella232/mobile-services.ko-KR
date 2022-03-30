@@ -1,12 +1,12 @@
 ---
 description: 이 정보는 Adobe Mobile Services를 이해하고 사용하는 데 도움이 됩니다.
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 시작하기
 topic-fix: Metrics
 uuid: a7ae7c5a-dab8-4603-b4cd-af73a2f09f71
 exl-id: 0c08e154-8747-45dc-9731-ab2a3e78bc5a
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 97%
@@ -26,7 +26,7 @@ Adobe Mobile Services는 다음 부분으로 구성됩니다.
 
 오늘날 모바일 앱 환경은 스마트폰이 처음 출시된 때와 많이 다릅니다. 고객을 브랜드와 연결시키는 모바일 앱만으로는 더 이상 충분하지 않습니다. 오늘날 채널 전반에서 통합적이고 매력적인 고객 경험을 구축하고 모바일 앱을 전략적 접점으로 사용하여 충성도가 높고 많은 가치를 제공하는 고객의 참여를 유도해야 합니다. 그러나 이러한 사용자가 앱과 상호작용하도록 하려면 매력적인 컨텐츠, 상황에 맞는 알림, 지능형 개인화, 통합 앱 분석 등이 필요합니다.
 
-## Adobe Mobile Services UI {#mobile-services-ui}
+## Mobile 서비스 UI Adobe {#mobile-services-ui}
 
 Mobile Services UI는 다음 브라우저에서 지원됩니다.
 
@@ -111,7 +111,7 @@ Adobe Mobile에서 다음 유형의 메시지를 구성할 수 있습니다.
 
 *최적화*&#x200B;에서 전환(구독, 상거래, 광고 수입 등)을 최적화하고 고객 보유율을 향상시킬 수 있습니다. 앱의 사용자 경험을 최적화하면 컨텐츠를 개인화하여 ROI와 전환율을 극대화할 수 있습니다.
 
-테스트 및 Adobe Target에 대한 자세한 내용은 [Adobe Target](https://experienceleague.adobe.com/docs/target/using/target-home.html) 설명서를 참조하십시오.
+테스트 및 Adobe Target에 대한 자세한 내용은 [Adobe Target](https://experienceleague.adobe.com/docs/target/using/target-home.html) 설명서.
 
 ### 지역 타깃팅
 

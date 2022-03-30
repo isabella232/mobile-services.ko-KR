@@ -1,11 +1,11 @@
 ---
 description: 다음은 마일스톤 비디오 측정을 사용하여 iOS에서 비디오를 측정하는 방법에 대한 정보입니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Video Analytics
 topic-fix: Developer and implementation
 uuid: d75fa415-78f6-4f50-a563-76949f040138
 exl-id: d4d11ca0-1280-49db-8983-5b6d83856482
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 94%
@@ -18,7 +18,7 @@ ht-degree: 94%
 
 >[!TIP]
 >
->비디오 재생 중 빈번한 &quot;하트비트&quot; 호출이 이 서비스로 전송되어 재생 시간이 측정됩니다. 이러한 하트비트 호출은 10초 간격으로 전송되므로 더 세부적인 비디오 참여 지표와 더 정확한 비디오 폴아웃 보고서를 얻을 수 있습니다. 자세한 내용은 [Adobe Analytics에서 스트리밍 미디어 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR)을 참조하십시오.
+>비디오 재생 중 빈번한 &quot;하트비트&quot; 호출이 이 서비스로 전송되어 재생 시간이 측정됩니다. 이러한 하트비트 호출은 10초 간격으로 전송되므로 더 세부적인 비디오 참여 지표와 더 정확한 비디오 폴아웃 보고서를 얻을 수 있습니다. 자세한 내용은 [Adobe Analytics에서 스트리밍 미디어 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ko-KR).
 
 비디오를 측정하는 일반 프로세스는 모든 플랫폼에서 유사합니다. 이 컨텐츠는 코드 샘플을 사용하는 개발자 작업에 대한 기본적인 개요를 제공합니다.
 
@@ -45,7 +45,7 @@ ht-degree: 94%
 
 * **a.media.segment**
 
-   (필수) 세그먼트 이름 및 비디오에서 세그먼트가 발생하는 순서를 포함하여 비디오 세그먼트 데이터를 수집합니다. 이 변수는 플레이어 이벤트를 자동으로 추적할 때 `segmentByMilestones` 변수를 활성화하거나, 플레이어 이벤트를 수동으로 추적할 때 사용자 지정 세그먼트 이름을 설정하여 채워집니다. 예를 들어 방문자가 비디오에서 첫 번째 세그먼트를 볼 경우 SiteCatalyst은 `1:M:0-25` 세그먼트 eVar에서 다음을 수집할 수 있습니다.
+   (필수) 세그먼트 이름 및 비디오에서 세그먼트가 발생하는 순서를 포함하여 비디오 세그먼트 데이터를 수집합니다. 이 변수는 플레이어 이벤트를 자동으로 추적할 때 `segmentByMilestones` 변수를 활성화하거나, 플레이어 이벤트를 수동으로 추적할 때 사용자 지정 세그먼트 이름을 설정하여 채워집니다. 예를 들어 방문자가 비디오에서 첫 번째 세그먼트를 볼 경우 SiteCatalyst은 `1:M:0-25` 세그먼트 eVar.
 
    기본 비디오 데이터 수집 방법의 경우, 다음 시점에서 데이터를 수집합니다.
 

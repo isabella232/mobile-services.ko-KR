@@ -1,14 +1,14 @@
 ---
 description: 다음 표에서는 Android SDK 및 Adobe Mobile 서비스에서 사용되는 다양한 앱 식별자를 설명합니다.
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 앱 ID
 topic-fix: Developer and implementation
 uuid: 3ac99489-6269-439e-a814-24102ef220b1
 exl-id: 28358dd6-50dd-4ba9-9fb0-5271eae69d28
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
