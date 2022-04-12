@@ -6,10 +6,10 @@ title: 마케팅 링크 획득 테스트
 topic-fix: Developer and implementation
 uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
 exl-id: 86fdaef7-5b6c-4e9d-a470-df66c96f2e9d
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 5562c974eb921538209516c0e295612de1865af6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '746'
+ht-degree: 100%
 
 ---
 
@@ -127,14 +127,14 @@ ht-degree: 0%
 
 Java 도구를 설치하려면
 
-1. [`acquistionTester.zip`](../assets/acquisitionTester.zip) 파일을 다운로드합니다.
+1. [`acquisitionTester.zip`](../assets/acquisitionTester.zip) 파일을 다운로드합니다.
 1. .jar 파일을 추출합니다.
 
    명령줄에서 .jar 파일을 실행할 수 있습니다.
 
 예:
 
-```
+```sh
 java -jar acquisitionTester.jar -a com.adobe.test -r com.adobe.test.ReferrerReceiver -l "https://c00.adobe.com/v3/appid/start?a_i_id=123456&a_g_id=com.adobe.test&a_dd=i&ctxa.referrer.campaign.name=name&ctxa.referrer.campaign.trackingcode=1234
 ```
 
