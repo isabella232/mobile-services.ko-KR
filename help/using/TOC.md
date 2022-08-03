@@ -2,11 +2,11 @@
 audience: end-user
 user-guide-title: Mobile Services 안내서
 breadcrumb-title: Mobile Services 안내서
-user-guide-description: Mobile Services는 모바일 앱 사용자를 확보 및 확보하고 경험을 최적화할 수 있는 종단간 솔루션입니다.
+user-guide-description: 모바일 서비스는 모바일 앱 사용자를 확보 및 확보하고 경험을 최적화할 수 있는 종단간 솔루션입니다.
 source-git-commit: 8c74c479c357e008dbbaaee8eb11097582072470
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
