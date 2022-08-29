@@ -2,10 +2,9 @@
 audience: end-user
 user-guide-title: Mobile Services Android 안내서
 breadcrumb-title: Android 안내서
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: 78b7a623a7811cf0ede789c74b3ca7a80372c9f4
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '269'
 ht-degree: 99%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 99%
 # Mobile Services Android 안내서{#android}
 
 + [Experience Cloud 솔루션용 Android SDK 4.x](overview.md)
-+ [릴리스 노트](rel-notes.md)
++ [릴리스 정보](rel-notes.md)
 + 시작하기{#getting-started-android}
    + [시작하기](getting-started/getting-started.md)
    + [시작하기 전에](getting-started/requirements.md)
@@ -80,7 +79,6 @@ ht-degree: 99%
    + [Experience Cloud 개요](c-marketing-cloud/c-marketing-cloud.md)
    + [Experience Cloud ID 구성](c-marketing-cloud/mcvid.md)
    + [Adobe Experience Platform ID 서비스 메서드](c-marketing-cloud/mc-methods.md)
-   + [Experience Cloud Device Co-op](c-marketing-cloud/t-mob-mc-device-coop-android-.md)
 + Audience Manager{#audience-manager-android}
    + [Audience Manager 개요](audience-manager/audience-manager.md)
    + [Audience Manager 구성](audience-manager/audiencemgmt.md)
@@ -92,7 +90,7 @@ ht-degree: 99%
 + Android SDK 참조{#sdk-reference-android}
    + [Android SDK 참조 개요](/help/android/reference/reference.md)
    + [앱 ID](/help/android/reference/app-ids.md)
-   + [앱과 모바일 웹 간 방문자 추적](/help/android/reference/hybrid-app.md)
+   + [앱과 모바일 웹 간 방문자 추적 ](/help/android/reference/hybrid-app.md)
    + [Android 위젯](/help/android/reference/widgets.md)
 + 개인 정보 및 일반 데이터 보호 규정{#gdpr-privacy-android}
    + [개인 정보 및 GDPR 개요](c-mob-privacy-gdpr-android/c-mob-privacy-gdpr-android.md)

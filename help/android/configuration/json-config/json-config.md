@@ -5,9 +5,9 @@ title: ADBMobile JSON 구성
 topic-fix: Developer and implementation
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
 exl-id: 652aeb05-b052-448d-98c8-d513d050a6f5
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 78b7a623a7811cf0ede789c74b3ca7a80372c9f4
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1556'
 ht-degree: 100%
 
 ---
@@ -80,20 +80,6 @@ ht-degree: 100%
       >[!IMPORTANT]
       >
       >이 변수는 Target에 필수입니다.
-
-* **coopUnsafe**
-   * 최소 SDK 버전: 4.16.1
-   * `marketingCloud`로 설정된 경우 `true` 개체의 부울 속성으로 인해 장치가 Experience Cloud의 Device Co-Op에서 옵트아웃됩니다.
-   * 기본값은 `false`입니다.
-   * 이 설정은 Device Co-op 프로비저닝 고객&#x200B;**에게만** 사용됩니다.
-
-   이 값을`true` 로 설정해야 하는 Device Co-op 멤버의 경우, Device Co-op 계정에서 차단 목록 플래그를 요청하려면 Co-op 팀과 작업해야 합니다. 이 플래그를 활성화하기 위한 셀프 서비스 경로가 없습니다.
-
-   다음 정보를 숙지하십시오.
-
-   * `coopUnsafe`가 `true`로 설정되면 `coop_unsafe=1`이 항상 Audience Manager 및 방문자 ID 히트에 추가됩니다.
-   * Audience Manager에 Analytics 서버측 전달을 활성화하는 경우, `coop_unsafe=1` Analytics 히트가 표시됩니다.
-
 
 * **environmentId**
    * 최소 SDK 버전: 4.14

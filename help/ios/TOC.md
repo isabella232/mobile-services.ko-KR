@@ -2,10 +2,9 @@
 audience: end-user
 user-guide-title: Mobile Services iOS 안내서
 breadcrumb-title: iOS 안내서
-translation-type: tm+mt
-source-git-commit: b9ee49ba26d4726b1f97ef36f5c2e9923361b1ee
+source-git-commit: 78b7a623a7811cf0ede789c74b3ca7a80372c9f4
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '284'
 ht-degree: 99%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 99%
 # Mobile Services iOS 안내서 {#ios}
 
 + [Experience Cloud 솔루션용 iOS SDK 4.x](overview.md)
-+ [릴리스 노트](rel-notes.md)
++ [릴리스 정보](rel-notes.md)
 + 시작하기 {#getting-started-ios}
    + [시작하기 개요](getting-started/getting-started.md)
    + [시작하기 전에](getting-started/requirements.md)
@@ -75,13 +74,12 @@ ht-degree: 99%
 + Target {#target-ios}
    + [Target 개요](target-main/target-main.md)
    + [Target 메서드](target-main/c-target-methods.md)
-   + [iOS에서 오퍼 컨텐츠 미리 가져오기](target-main/c-mob-target-prefetch-ios.md)
+   + [iOS에서 오퍼 콘텐츠 미리 가져오기](target-main/c-mob-target-prefetch-ios.md)
    + [iOS에서 타겟 미리 보기](target-main/c-mob-target-preview-ios.md)
 + Experience Cloud {#exp-cloud-ios}
    + [Experience Cloud 개요](marketing-cloud/marketing-cloud.md)
    + [Experience Cloud ID](marketing-cloud/mcvid.md)
    + [Adobe Experience Platform ID 서비스 메서드](marketing-cloud/mc-methods.md)
-   + [Experience Cloud Device Co-op](marketing-cloud/t-mob-mc-device-coop-ios-.md)
 + [Audience Manager 메서드](amm/aam-methods.md)
 + tvOS를 사용한 Apple TV 구현 {#apple-tv-implementation-tvos-ios}
    + [tvOS를 사용한 Apple TV 구현](apple-tv-implementation-tvos/apple-tv-implementation-tvos.md)
@@ -94,7 +92,7 @@ ht-degree: 99%
 + iOS SDK 참조 {#sdk-reference-ios}
    + [iOS SDK 참조](reference/reference.md)
    + [앱 ID](reference/app-ids.md)
-   + [앱과 모바일 웹 간 방문자 추적](reference/hybrid-app.md)
+   + [앱과 모바일 웹 간 방문자 추적 ](reference/hybrid-app.md)
    + [iOS 장치 버전](reference/device-versions.md)
 + 개인 정보 및 일반 데이터 보호 규정{#privacy-gdpr-ios}
    + [개인 정보 및 일반 데이터 보호 규정](c-mob-privacy-gdpr-ios/c-mob-privacy-gdpr-ios.md)
