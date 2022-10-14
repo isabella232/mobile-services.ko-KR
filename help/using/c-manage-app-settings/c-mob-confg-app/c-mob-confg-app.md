@@ -1,12 +1,12 @@
 ---
-description: '앱 설정 관리 페이지에서 다음과 같은 유형을 변경할 수 있습니다. '
+description: 앱 설정 관리 페이지에서 다음과 같은 유형을 변경할 수 있습니다.
 title: 앱 구성
 uuid: c088e12d-73b6-40c4-b8cc-ec3bb3d3aa4a
 exl-id: 52fd58ad-87b8-499b-9c46-c3176bcda37c
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 31%
+source-wordcount: '331'
+ht-degree: 33%
 
 ---
 
@@ -32,12 +32,8 @@ ht-degree: 31%
 
       * **라이프사이클**
 
-         라이프사이클이 구현된 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표 및 차원을 추적합니다. 자세한 내용은 다음 섹션을 참조하십시오.
+         라이프사이클이 구현된 후 모바일 라이브러리에서 자동으로 측정할 수 있는 지표 및 차원을 추적합니다.
 
-         * [iOS SDK 라이프사이클 지표](/help/ios/metrics.md)
-         * [Android 라이프사이클 지표](/help/android/metrics.md)
-         * [Windows 라이프사이클 지표](/help/universal-windows/metrics.md)
-         * [BlackBerry 라이프사이클 지표](/help/blackberry/metrics.md)
       * **앱 작업**
 
          인앱 작업을 기반으로 보고서 및 경로 지정을 활성화합니다.
@@ -49,7 +45,6 @@ ht-degree: 31%
       * **시간 이벤트**
 
          첫 번째 구매 전 시간과 같이 주요 앱 작업 간의 경과 시간(인앱 및 총 시간)을 측정합니다.
-
 
 * **위치 보고서**
 

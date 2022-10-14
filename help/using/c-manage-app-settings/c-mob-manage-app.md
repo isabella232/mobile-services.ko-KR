@@ -6,10 +6,10 @@ title: 앱 관리
 topic-fix: Metrics
 uuid: 0cc356c3-8457-40a7-8c97-7cbc68a5dc0c
 exl-id: 599fef94-c188-47f5-b9d6-25a7c8cb07bc
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 91%
+source-wordcount: '1001'
+ht-degree: 92%
 
 ---
 
@@ -22,11 +22,6 @@ ht-degree: 91%
 * **표준 변수 및 지표**
 
    각 앱에는 장바구니와 구매 활동을 추적하기 위한 변수와 지표가 포함되어 있습니다. 일부 구매 정보는 처리 규칙으로 처리할 수 없기 때문에 SDK는 특정 `"&&products"` 컨텍스트 데이터를 노출시킵니다. 예를 들어 장바구니 추가, 장바구니 제거, 체크아웃, 주문 등과 같은 변수가 있을 수 있습니다. 컨텍스트 데이터는 Adobe Analytics의 데이터에 매핑해야 합니다. 이 변수가 컨텍스트 데이터의 간단한 매핑으로 채워지는 경우 컨텍스트 데이터는 변수를 매핑하는 키입니다. 이 변수가 Analytics 관리 도구의 더 복잡한 규칙으로 채워지는 경우에는 이 필드를 비워 두십시오.
-
-   이러한 변수 및 지표에 대한 자세한 내용은 다음을 참조하십시오.
-
-   * [Android의 제품 변수](/help/android/analytics-main/products/products.md)
-   * [iOS의 제품 변수](/help/ios/analytics-main/products/products.md)
 
 * **사용자 지정 변수**
 
@@ -47,7 +42,7 @@ ht-degree: 91%
    추적 호출(또는 히트)에서 속성 값을 설정하면 해당 호출에만 적용됩니다.
 
 * 다음 **[!UICONTROL 사용자 지정 변수]** (또는 eVar)도 &quot;어느 것?&quot;이라는 질문에 답합니다. 하지만 eVar 값은 값이 만료되거나 새 값이 설정되기 전까지 전송된 히트만이 아니라 다음 히트에 전송되는 변수 및 지표에도 적용될 수 있습니다.
-* **[!UICONTROL 사용자 지정 목록 변수(또는 복수 값 변수)]**&#x200B;는 한 번의 히트에 대해 여러 값을 캡처할 수 있도록 허용된 경우를 제외하면 일반 변수와 동일하게 동작합니다. 자세한 내용은 [list](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=en) 변수를 채우는 방법을 설명합니다.
+* **[!UICONTROL 사용자 지정 목록 변수(또는 복수 값 변수)]**&#x200B;는 한 번의 히트에 대해 여러 값을 캡처할 수 있도록 허용된 경우를 제외하면 일반 변수와 동일하게 동작합니다. 자세한 내용은 [list](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=ko-KR) 변수를 채우는 방법을 설명합니다.
 
 다음 매핑은 Mobile Services에서 만들어져서 Analytics에 표시됩니다.
 

@@ -6,10 +6,10 @@ title: '환경: 푸시 메시지'
 topic-fix: Metrics
 uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
 exl-id: 9158487e-6ac5-4f17-a8ff-15de0360ab60
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 100%
+source-wordcount: '738'
+ht-degree: 95%
 
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 100%
       >[!IMPORTANT]
       >
       >다음 정보를 숙지하십시오.
+      >
       >* 이전 버전으로 보낸 리치 푸시 메시지는 전송은 되지만 텍스트만 표시됩니다.
       >* 현재 보기 지원은 없습니다.
 
@@ -76,11 +77,6 @@ ht-degree: 100%
 
 * **크기 조정**
    * 이미지는 2:1 형식이어야 합니다. 그렇지 않으면 이미지가 잘립니다.
-
-리치 푸시 알림 구성에 대한 자세한 내용은 다음 내용을 참조하십시오.
-
-* [Android에서 푸시 알림 받기](/help/android/messaging-main/push-messaging/c-set-up-rich-push-notif-android.md)
-* [iOS에서 푸시 알림 받기](/help/ios/messaging-main/push-messaging/c-set-up-rich-push-notif-ios.md)
 
 환경 페이지에서 푸시 메시지를 구성하려면 다음을 수행하십시오.
 
@@ -102,7 +98,7 @@ ht-degree: 100%
 
       이 옵션을 선택하면 메시지가 도착할 때 iOS가 백그라운드에 있는 앱을 깨워 앱에서 메시지 페이로드를 바탕으로 코드를 실행하게 됩니다. 자세한 내용은 [iOS 개발자 라이브러리](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW1)의 *Apple 푸시 알림 서비스*&#x200B;를 참조하십시오.
 
-1. (선택 사항) 다음 아이콘을 클릭하여 메시지 레이아웃을 미리 보기합니다.
+2. (선택 사항) 다음 아이콘을 클릭하여 메시지 레이아웃을 미리 보기합니다.
 
    * **[!UICONTROL x 요약]**
 
@@ -125,11 +121,11 @@ ht-degree: 100%
       사용자의 태블릿에서 메시지를 미리 보려면 ![태블릿 아이콘](assets/icon_tablet.png)을 클릭합니다.
    미리 보기 패널의 맨 아래에서, 이전 단계에서 선택한 대상에 대한 설명을 볼 수 있습니다.
 
-1. (**선택사항**) 테스트 목적으로 지정된 장치에 메시지를 푸시하려면 **[!UICONTROL 테스트]**&#x200B;를 클릭합니다.
-1. 서비스를 선택하고 메시지를 푸시할 하나 이상의 장치에 대한 푸시 토큰을 입력합니다.
+3. (**선택사항**) 테스트 목적으로 지정된 장치에 메시지를 푸시하려면 **[!UICONTROL 테스트]**&#x200B;를 클릭합니다.
+4. 서비스를 선택하고 메시지를 푸시할 하나 이상의 장치에 대한 푸시 토큰을 입력합니다.
 
    메시지를 두 개 이상의 장치에 푸시하려면 토큰을 쉼표로 구분된 목록으로 지정합니다.
 
-1. 메시지의 예약 옵션을 구성합니다.
+5. 메시지의 예약 옵션을 구성합니다.
 
    자세한 내용은 [예약: 푸시 메시지](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)를 참조하십시오.

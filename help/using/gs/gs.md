@@ -6,9 +6,9 @@ title: 시작하기
 topic-fix: Metrics
 uuid: a7ae7c5a-dab8-4603-b4cd-af73a2f09f71
 exl-id: 0c08e154-8747-45dc-9731-ab2a3e78bc5a
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1300'
 ht-degree: 97%
 
 ---
@@ -26,7 +26,7 @@ Adobe Mobile Services는 다음 부분으로 구성됩니다.
 
 오늘날 모바일 앱 환경은 스마트폰이 처음 출시된 때와 많이 다릅니다. 고객을 브랜드와 연결시키는 모바일 앱만으로는 더 이상 충분하지 않습니다. 오늘날 채널 전반에서 통합적이고 매력적인 고객 경험을 구축하고 모바일 앱을 전략적 접점으로 사용하여 충성도가 높고 많은 가치를 제공하는 고객의 참여를 유도해야 합니다. 그러나 이러한 사용자가 앱과 상호작용하도록 하려면 매력적인 컨텐츠, 상황에 맞는 알림, 지능형 개인화, 통합 앱 분석 등이 필요합니다.
 
-## Mobile 서비스 UI Adobe {#mobile-services-ui}
+## Adobe Mobile Services UI {#mobile-services-ui}
 
 Mobile Services UI는 다음 브라우저에서 지원됩니다.
 
@@ -119,13 +119,9 @@ Adobe Mobile에서 다음 유형의 메시지를 구성할 수 있습니다.
 
 이제 모바일용 Adobe Target 앱에서는 Adobe Analytics를 통해 제공되는 향상된 세그멘테이션 및 보고를 적극 활용하고 있습니다. 현재 Adobe Target에서는 Analytics의 모든 주요 앱 지표를 타깃팅과 개인화하는 데 사용하여 충분히 활용할 수 있습니다. 또한 테스트 성공에 대해 보다 심층적인 보고를 함으로써 마케터는 이러한 &quot;what if&quot; 질문을 더 잘 파악할 수 있습니다. 이러한 질문에 대한 답변은 앱 투자에 대한 성과를 나타내야 하는 앱 마케터의 부담을 덜어줄 수 있습니다. Analytics/Target을 앱 통합에 사용하면 현재 시장에서 가장 강력한 앱 참여 솔루션을 나타내는 결합 오퍼링을 만들 수 있습니다.
 
-위치에 대한 자세한 내용은 다음 콘텐츠를 참조하십시오.
+위치에 대한 자세한 내용은 [위치](/help/using/location/c-location-overview.md).
 
-* [Mobile Services 사용 안내서의 위치](/help/using/location/c-location-overview.md)
-* [위치(Android SDK 안내서)](/help/android/location/location.md)
-* [위치(iOS SDK 안내서)](/help/ios/location/location.md)
-
-## Adobe 모바일 SDK {#mobile-services-sdk}
+## Adobe Mobile SDK {#mobile-services-sdk}
 
 Adobe는 이러한 모든 영역에서 고객 참여를 가속화하는 종단 간 모바일 마케팅 솔루션을 제공합니다. 하나의 SDK로 Adobe Analytics, Adobe Campaign 및 Adobe Audience Manager의 기능에 액세스하여 여러 개의 SDK를 관리하는 데 소요되는 기술적 비용을 절감할 수 있습니다.
 
@@ -157,5 +153,3 @@ Adobe Mobile SDK는 다음 기능을 제공합니다.
 
    * Adobe 서버 및 타사 시스템으로 데이터를 전송하는 장치 처리 부하를 최소화합니다.
    * 적은 사용 공간으로 앱스토어에 제출되는 앱 패키지의 크기를 최소화합니다.
-
-Adobe Mobile SDK에 대한 자세한 정보는 [Experience Solutions용 Android SDK 4.x](/help/android/overview.md) 및 [Experience Cloud Solutions용 iOS SDK 4.x](/help/ios/overview.md)를 참조하십시오.

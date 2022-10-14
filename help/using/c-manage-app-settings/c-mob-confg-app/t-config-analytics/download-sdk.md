@@ -6,9 +6,9 @@ title: 모바일 SDK 및 도구 다운로드
 topic-fix: Developer and implementation,Metrics
 uuid: 4af757f7-4e4d-4939-9b6a-49a29c220192
 exl-id: 34ec76fa-3bcb-4b77-9d1e-7160941deb44
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '128'
 ht-degree: 100%
 
 ---
@@ -27,9 +27,4 @@ ht-degree: 100%
 
 ## 기본 라이브러리 {#section_C2ADC3068D9F4EAEBE5B266852738C90}
 
-사전에 채워진 구성 파일 버전을 포함하는 사용자 지정된 패키지를 다운로드할 수 있도록 Adobe Mobile Services에서 앱을 구성하십시오:
-
-* [iOS 지침](/help/ios/getting-started/requirements.md)
-* [Android 지침](/help/android/getting-started/requirements.md)
-
-Windows Phone 8, Blackberry, Xamarin 등을 포함하여 기본 라이브러리에 대한 설명서를 보려면 [Adobe Mobile Services](/help/using/home.md)의 *SDK 설명서* 섹션을 참조하십시오.
+사전에 채워진 구성 파일 버전을 포함하는 사용자 지정된 패키지를 다운로드할 수 있도록 Adobe Mobile Services에서 앱을 구성하십시오.

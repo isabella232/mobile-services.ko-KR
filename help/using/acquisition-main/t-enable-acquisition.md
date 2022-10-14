@@ -6,9 +6,9 @@ title: 획득 구성
 topic-fix: Metrics
 uuid: e996e43e-8a77-47a3-a6fb-53f676f92bef
 exl-id: 3a12dfab-70d0-41e6-8d4e-5aba21bb8606
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '183'
 ht-degree: 100%
 
 ---
@@ -32,5 +32,4 @@ ht-degree: 100%
 
 1. 새로운 SDK 구성 파일을 다운로드하여 앱에서 사용합니다.
 
-   **iOS**에 대한 획득을 성공적으로 구성했습니다.
-**Android**&#x200B;에서 획득을 사용하려면 [모바일 획득 추적](/help/android/acquisition-main/acquisition.md)의 단계를 완료하십시오.
+   **iOS**&#x200B;에 대한 획득을 성공적으로 구성했습니다.

@@ -6,9 +6,9 @@ title: '대상: 푸시 메시지에 대한 대상 세그먼트 정의 및 구성
 topic-fix: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 exl-id: d1062a76-2e72-4649-8497-58617a7a47cb
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '958'
 ht-degree: 98%
 
 ---
@@ -85,11 +85,6 @@ Adobe Mobile Services에서 마케터는 플랫폼당 하나의 앱만 푸시할
       즉, SDK가 푸시 메시지 옵트인 evar에 대해 `True` 값을 보냈습니다.
 
    * 장치에 유효한 장치 토큰이 있어도 Adobe Analytics에서 옵트인 플래그를 설정하지 않은 경우에는 메시지가 장치에 푸시되지 않습니다.
-
-   * 푸시 메시지 문제 해결에 대한 자세한 내용은 다음을 참조하십시오.
-
-      * [iOS의 푸시 메시지](/help/ios/messaging-main/push-messaging/push-messaging.md)
-      * [Android의 푸시 메시지](/help/android/messaging-main/push-messaging/push-messaging.md)
 
 2. 다음 필드에 정보를 입력하십시오.
 

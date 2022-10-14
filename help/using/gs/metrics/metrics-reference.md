@@ -6,9 +6,9 @@ title: 모바일 지표 및 차원 참조
 topic-fix: Metrics
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
 exl-id: ddfbf11e-a4c3-4d59-92b3-1d192dc3e7cd
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '609'
 ht-degree: 100%
 
 ---
@@ -124,7 +124,7 @@ ht-degree: 100%
 
 * **장치 이름**
 
-   장치 이름을 저장합니다. iOS에서 쉼표로 구분된 두 자리 문자열이 iOS 장치를 식별합니다. 첫 번째 번호는 장치 생성을 나타내고, 두 번째 번호는 장치 제품군의 다른 구성원을 나타냅니다. 일반적인 장치 이름의 전체 목록에 대해서는 [iOS 장치 버전](/help/ios/reference/device-versions.md)을 참조하십시오.
+   장치 이름을 저장합니다. iOS에서 쉼표로 구분된 두 자리 문자열이 iOS 장치를 식별합니다. 첫 번째 번호는 장치 생성을 나타내고, 두 번째 번호는 장치 제품군의 다른 구성원을 나타냅니다.
 
 * **통신사 이름**
 

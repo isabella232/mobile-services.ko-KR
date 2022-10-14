@@ -6,9 +6,9 @@ title: 푸시 메시지를 활성화하기 위한 전제 조건
 topic-fix: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
 exl-id: 543155a4-f687-48a6-8690-5c8da8490c62
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '618'
 ht-degree: 95%
 
 ---
@@ -30,10 +30,6 @@ Adobe Analytics를 사용하는 회사에서는 Experience Cloud가 활성화되
 * **푸시 서비스 구성**
 
    Mobile SDK에서 푸시 서비스를 구성해야 합니다.
-자세한 정보는 다음 내용을 참조하십시오.
-
-   * [Android의 푸시 메시지](/help/android/messaging-main/push-messaging/push-messaging.md)
-   * [iOS의 푸시 메시지](/help/ios/messaging-main/push-messaging/push-messaging.md)
 
 ## Adobe ID를 사용하여 Mobile 핵심 서비스에 로그인합니다
 

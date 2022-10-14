@@ -6,9 +6,9 @@ title: 푸시 메시지 구성
 topic-fix: Metrics
 uuid: 6763858d-6046-4d36-87c0-cf3600a44fb1
 exl-id: d4989c31-2692-4062-8fae-d41c3e3c179b
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '272'
 ht-degree: 100%
 
 ---
@@ -48,9 +48,4 @@ ht-degree: 100%
 
       올바른 API 키를 지정합니다. API 키를 가져오는 방법에 대한 자세한 내용은 [APNS 또는 FCM 사용을 위한 앱 구성](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md)을 참조하십시오.
 
-      자세한 내용은 다음 주제를 참조하십시오.
-
-      * [Android의 푸시 메시지](/help/android/messaging-main/push-messaging/push-messaging.md)
-      * [iOS의 푸시 메시지](/help/ios/messaging-main/push-messaging/push-messaging.md)
-
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+2. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.

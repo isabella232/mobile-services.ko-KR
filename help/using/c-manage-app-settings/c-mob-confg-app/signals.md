@@ -3,9 +3,9 @@ description: 포스트백을 이용하면 Adobe Mobile로 수집한 데이터를
 title: 포스트백 구성
 uuid: a026575c-057b-4868-b6c8-9514cbc32b4d
 exl-id: 99b27f16-303a-4853-bfdb-2066a53867bf
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '421'
 ht-degree: 100%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->포스트백을 사용하려면 4.6 SDK 이상을 설치해야 합니다. 자세한 내용은 [Android - 포스트백](/help/android/analytics-main/postbacks/postbacks.md) 또는 [iOS - 포스트백](/help/ios/analytics-main/postback/postback.md)을 참조하십시오.
+>포스트백을 사용하려면 4.6 SDK 이상을 설치해야 합니다.
 
 1. 원하는 앱 이름을 클릭하여 해당 앱 설정 관리 페이지로 이동하고 오른쪽 상단에 있는 **[!UICONTROL 포스트백 관리]** 링크를 클릭합니다.
-1. **[!UICONTROL 포스트백 만들기를 클릭합니다]**.
-1. 필드에 다음 정보를 입력합니다.
+2. **[!UICONTROL 포스트백 만들기를 클릭합니다]**.
+3. 필드에 다음 정보를 입력합니다.
 
    * **[!UICONTROL 포스트백 유형]**
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
    * **[!UICONTROL URL]**
 
-      올바른 엔드포인트 URL을 지정하십시오(GET 요청에 필요한 적절한 쿼리 매개 변수와 함께). 이 URL은 데이터를 받게 되는 당사자로부터 얻습니다(광고 서버나 자체 종단점). 예 `https://my.server.com/?user=bob&amp;zip=90210&amp;c16=4.6.0-iOS&amp;c27=cln,132`.
+      올바른 엔드포인트 URL을 지정하십시오(GET 요청에 필요한 적절한 쿼리 매개 변수와 함께). 이 URL은 데이터를 받게 되는 당사자로부터 얻습니다(광고 서버나 자체 종단점). 예 `https://example.com/?user=bob&amp;zip=90210&amp;c16=4.6.0-iOS&amp;c27=cln,132`.
 
    * **[!UICONTROL 컨텍스트 변수]**
 
@@ -53,7 +53,7 @@ ht-degree: 100%
    * **[!UICONTROL 트레이트]**
    메시지가 트리거될 때 메시지를 볼 수 있는 사용자를 지정합니다. 옵션에는 **[!UICONTROL 세션 길이]**, **[!UICONTROL 첫 번째 실행 날짜]** 및 **[!UICONTROL 앱 ID]**&#x200B;가 있습니다.
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 포스트백을 만들고 이를 **[!UICONTROL 포스트백 관리]** 목록에 추가합니다.
+4. **[!UICONTROL 저장]**&#x200B;을 클릭하여 포스트백을 만들고 이를 **[!UICONTROL 포스트백 관리]** 목록에 추가합니다.
 
    나중에 포스트백을 활성화하려면 다음 중 하나를 수행하십시오.
 

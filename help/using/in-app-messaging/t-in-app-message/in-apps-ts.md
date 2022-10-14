@@ -6,9 +6,9 @@ title: 인앱 메시징 문제 해결
 topic-fix: Metrics
 uuid: 8813e8d8-bb1e-46ad-83cd-98ae68f73ce6
 exl-id: 6be5beef-3bde-49f8-9ec0-c5d32bd43045
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '603'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ## Android에서 내 로컬 알림 메시지가 작동하지 않습니다.
 
-로컬 알림 브로드캐스트 수신기가 매니페스트에 선언되어 있는지 확인하십시오. 자세한 내용은 [인앱 메시지](/help/android/messaging-main/messaging/messaging.md)의 1단계를 참조하십시오.
+로컬 알림 브로드캐스트 수신기가 매니페스트에 선언되어 있는지 확인하십시오.
 
 ## 메시지가 라이브입니까?
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 ## 시작 이벤트를 트리거로 사용하는 경우...
 
-시작은 새 세션에서만 실행됩니다. 세션이 시작되는 시기에 대한 자세한 내용은 [ADBMobile JSON 구성 파일](/help/ios/configuration/json-config/json-config.md)에서 `lifecycleTimeout`의 내용을 참조하십시오.
+시작은 새 세션에서만 실행됩니다.
 
 ## 내 메시지를 원격으로 업데이트했지만 아직 이전 메시지가 표시됩니다.
 
