@@ -6,7 +6,7 @@ title: 모바일 지표 및 차원 참조
 topic-fix: Metrics
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
 exl-id: ddfbf11e-a4c3-4d59-92b3-1d192dc3e7cd
-source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 모바일 지표 및 차원 참조 {#mobile-metrics-and-dimensions-reference}
+
+{#eol}
 
 이 정보는 기본 모바일 지표 및 차원을 이해하는 데 도움이 됩니다.
 

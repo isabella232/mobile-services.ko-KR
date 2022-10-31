@@ -6,7 +6,7 @@ title: 상위 50개 문서
 topic-fix: Metrics
 uuid: 341370d1-fa87-43ca-8135-425b3bba272f
 exl-id: 8d5d6ab4-fcbb-42b2-b9bc-5ccb4f73522f
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 상위 50개 문서 보고서{#top-articles}
+
+{#eol}
 
 **[!UICONTROL 상위 50개 문서]** 보고서에는 해당 앱을 사용하여 표시된 가장 많이 읽은 문서를 보여주는 막대 차트와 등급 보고서가 표시됩니다. 이 보고서는 DPS 고객만 사용할 수 있습니다.
 

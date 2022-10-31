@@ -6,7 +6,7 @@ title: 중간 광고
 topic-fix: Metrics
 uuid: 7dce8ab2-2a5d-4384-ac1e-e31dfaa33654
 exl-id: b6d4588f-4f28-4c1b-9291-f4b9154d84f7
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 중간 광고{#interstitials}
+
+{#eol}
 
 앱(앱 딥링크) 설치 여부에 따라 사용자를 대상(웹 사이트 또는 앱스토어)으로 안내할 수 있습니다. 라우팅 선택은 사용자가 하는 것이 가장 좋습니다. 마케터는 사용 가능한 랜딩 대상을 보여 주는 삽입 광고 페이지를 구성하여 사용자 선택을 제공할 수 있습니다.
 

@@ -3,7 +3,7 @@ description: 위치 섹션에 대한 개요입니다.
 keywords: mobile
 title: 위치 개요
 exl-id: eaec9a06-8f5e-497e-8d03-d07374325909
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 100%
@@ -11,6 +11,8 @@ ht-degree: 100%
 ---
 
 # 위치 개요 {#location-overview}
+
+{#eol}
 
 ## 새로운 Adobe Experience Cloud SDK 릴리스
 

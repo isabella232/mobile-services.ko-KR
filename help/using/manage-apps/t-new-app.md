@@ -6,7 +6,7 @@ title: 새 앱 추가
 topic-fix: Metrics
 uuid: 706b5e4d-1318-4a9e-8c69-ffabf51fa02c
 exl-id: 30dca517-61ac-495b-aa91-3febd1cb8639
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 새 앱 추가{#add-a-new-app}
+
+{#eol}
 
 이 정보를 사용하여 새 앱 만들기 및 해당 주요 지표 구성, Adobe Analytics 및 Adobe Audience Manager에 대한 SDK 옵션 구성, 획득 및 ID 서비스 옵션 구성, 구성 파일, SDK, 개발자 및 테스터 도구 다운로드 등을 수행할 수 있습니다.
 

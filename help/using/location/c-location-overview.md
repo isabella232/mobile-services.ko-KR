@@ -6,7 +6,7 @@ title: 개요(위치)
 topic-fix: Reports,Metrics
 uuid: a701abc3-001b-4015-843f-5fb2c6c80d17
 exl-id: 9a9f4f64-251f-48d4-a838-af14a357c575
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 개요(위치){#overview-location}
+
+{#eol}
 
 **[!UICONTROL 위치 개요]** 보고서에서는 앱이 사용되는 다양한 국가, 지역 및 POI(관심 영역)를 볼 수 있습니다.
 

@@ -6,7 +6,7 @@ title: 획득 구성
 topic-fix: Metrics
 uuid: e996e43e-8a77-47a3-a6fb-53f676f92bef
 exl-id: 3a12dfab-70d0-41e6-8d4e-5aba21bb8606
-source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 획득 구성 {#configure-acquisition}
+
+{#eol}
 
 마케팅 링크 추적 및 보고 기능을 사용하려면 SDK 구성에서 획득 추적을 활성화해야 합니다.
 

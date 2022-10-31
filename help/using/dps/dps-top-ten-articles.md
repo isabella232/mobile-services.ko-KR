@@ -6,7 +6,7 @@ title: 상위 10개 문서
 topic-fix: Metrics
 uuid: cf53cc0b-7c84-41c8-97d5-d9ee833a916b
 exl-id: 93b3d0aa-83a3-4ee8-bc7f-fa30736a7749
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 상위 10개 문서 보고서{#top-articles}
+
+{#eol}
 
 **[!UICONTROL 상위 10개 문서 보고서]**&#x200B;에는 기존 데이터에 대한 Sunburst 시각화가 표시됩니다. 이 보고서는 DPS 고객만 사용할 수 있습니다.
 

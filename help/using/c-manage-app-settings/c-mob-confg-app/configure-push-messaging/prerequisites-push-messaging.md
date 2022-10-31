@@ -6,7 +6,7 @@ title: 푸시 메시지를 활성화하기 위한 전제 조건
 topic-fix: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
 exl-id: 543155a4-f687-48a6-8690-5c8da8490c62
-source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 95%
@@ -14,6 +14,8 @@ ht-degree: 95%
 ---
 
 # 푸시 메시지를 활성화하기 위한 전제 조건 {#prerequisites-to-enable-push-messaging}
+
+{#eol}
 
 애플리케이션에서 푸시 메시지를 구성하려면 다음 작업을 완료해야 합니다.
 

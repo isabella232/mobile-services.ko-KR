@@ -3,14 +3,16 @@ description: VRS(가상 보고서 세트)는 보고서 세트에 하나 이상�
 title: 가상 보고서 세트
 uuid: 3f467cad-43e7-4cd0-889b-89f8c61febbd
 exl-id: c9ce7f7c-2023-4a9d-9e4d-bacc21f9ad40
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 71%
+ht-degree: 73%
 
 ---
 
 # 가상 보고서 세트를 참조하십시오 {#virtual-report-suites}
+
+{#eol}
 
 VRS(가상 보고서 세트)는 보고서 세트에 하나 이상의 세그먼트 정의를 적용하여 생성되는 보고서 세트입니다. 이를 통해 사용자는 한 보고서 세트에 데이터를 유지 관리할 수 있지만, 별도의 보고서 세트에 있는 것처럼 데이터를 관리할 수 있습니다.
 
@@ -51,7 +53,7 @@ VRS를 통해 다음 작업을 완료할 수 있습니다.
 
 >[!IMPORTANT]
 >
->Adobe Analytics 관리자만 Adobe Analytics에서 가상 보고서 세트를 만들고 수정할 수 있습니다. 가상 보고서 세트를 만들려면 Adobe Analytics 설명서에서 [가상 보고서 세트 만들기](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) 를 참조하십시오.
+>Adobe Analytics 관리자만 Adobe Analytics에서 가상 보고서 세트를 만들고 수정할 수 있습니다. 가상 보고서 세트를 만들려면 다음을 참조하십시오 [가상 보고서 세트 만들기](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ko-KR) ( Adobe Analytics 설명서)를 참조하십시오.
 
 각 VRS에는 고유한 ID가 있습니다. Adobe Mobile Services UI에서 상위 보고서 세트 ID를 보려면 앱 설정 관리 페이지의 **[!UICONTROL 앱 정보]** 섹션에서 자세한 **[!UICONTROL 더 자세히]**&#x200B;를 클릭하십시오.
 
@@ -119,5 +121,5 @@ Adobe Mobile Services에서 상위 보고서 세트 또는 가상 보고서 세�
 
 다음은 가상 보고서 세트에 대한 추가 정보입니다.
 
-* VRS에 대한 자세한 내용은 [가상 보고서 세트 개요](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html)를 참조하십시오.
+* VRS에 대한 자세한 내용은 [가상 보고서 세트 개요](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html).
 * VRS 구현 계획에 대한 자세한 내용은 [가상 보고서 세트 워크플로우](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-workflow.html)를 참조하십시오.

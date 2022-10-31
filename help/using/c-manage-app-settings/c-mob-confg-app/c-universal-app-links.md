@@ -5,14 +5,16 @@ title: 범용 링크 및 앱 링크 안내서
 topic-fix: Metrics
 uuid: 8d6441dc-4307-4454-95ea-d77ec796f918
 exl-id: 6613189f-7a14-4066-89e9-996d4fe7f128
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1118'
+ht-degree: 96%
 
 ---
 
 # 범용 링크와 앱 링크: 어떻게 작동합니까? {#universal-links-and-app-links}
+
+{#eol}
 
 범용 링크(iOS) 및 앱 링크(Android)를 사용하면 iOS 또는 Android 앱의 딥 링크에 연결할 수 있습니다.
 

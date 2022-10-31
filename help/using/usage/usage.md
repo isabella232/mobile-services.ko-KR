@@ -6,7 +6,7 @@ title: 보고서
 topic-fix: Reports,Metrics
 uuid: 2abc2bd1-dbae-4af1-9b8d-1df2f6d3a81f
 exl-id: a95dd9c9-49f3-41df-87bf-6a2ac0d46c5c
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 보고서{#reports}
+
+{#eol}
 
 사용량 보고서에는 평균 세션 길이, 일별 및 월별 참여 사용자, 업그레이드 및 기타 통찰력이 표시되므로 앱이 사용되는 방식과 빈도를 파악할 수 있습니다. 유지 보고서는 처음 실행 후 1일, 7일 및 28일 후의 사용자 유지 수준을 빠르게 보여줍니다.
 

@@ -6,7 +6,7 @@ title: 인앱 메시지 만들기
 topic-fix: Metrics
 uuid: 15b52713-9ffc-4df9-b21a-6b0576a96a54
 exl-id: 40c5e9b0-9034-4226-9bca-486df8939d02
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 인앱 메시지 만들기{#create-an-in-app-message}
+
+{#eol}
 
 모바일 사용자에게 전달할 인앱 메시지를 만들 수 있습니다. 메시지를 만들 때 메시지 유형, 대상, 경험 및 일정을 구성합니다.
 
