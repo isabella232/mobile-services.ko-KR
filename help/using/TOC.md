@@ -6,7 +6,7 @@ user-guide-description: 모바일 서비스는 모바일 앱 사용자를 확보
 source-git-commit: 8c74c479c357e008dbbaaee8eb11097582072470
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 99%
 # Mobile Services 안내서 {#using}
 
 + [Adobe Mobile Services](home.md)
-+ [사용 종료 공지](eol.md)
++ [서비스 종료 공지](eol.md)
 + 시작하기 {#get-started-ug}
    + [시작하기](gs/gs.md)
    + [역할 및 권한](gs/c-mob-roles-and-permissions.md)
