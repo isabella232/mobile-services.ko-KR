@@ -1,5 +1,5 @@
 ---
-description: 앱 및 웹 사이트 내에서 연결하는 것은 사용자 경험을 유지하기 위해 중요합니다. 범용 및 앱 링크 작동 방식과 그 차이점에 대해 알아봅니다.
+description: 앱 및 웹 사이트 내에서 연결하는 것은 사용자 경험을 유지하는 데 중요합니다. 범용 및 앱 링크가 작동하는 방식과 각 링크 간의 차이점에 대해 알아봅니다.
 solution: Experience Cloud Services,Analytics
 title: 범용 링크 및 앱 링크 안내서
 topic-fix: Metrics
@@ -12,7 +12,7 @@ ht-degree: 96%
 
 ---
 
-# 범용 링크와 앱 링크: 어떻게 작동합니까? {#universal-links-and-app-links}
+# 범용 링크와 앱 링크 비교: 작동 방식 {#universal-links-and-app-links}
 
 {#eol}
 

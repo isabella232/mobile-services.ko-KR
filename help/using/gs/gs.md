@@ -113,7 +113,7 @@ Adobe Mobile에서 다음 유형의 메시지를 구성할 수 있습니다.
 
 *최적화*&#x200B;에서 전환(구독, 상거래, 광고 수입 등)을 최적화하고 고객 보유율을 향상시킬 수 있습니다. 앱의 사용자 경험을 최적화하면 컨텐츠를 개인화하여 ROI와 전환율을 극대화할 수 있습니다.
 
-테스트 및 Adobe Target에 대한 자세한 내용은 [Adobe Target](https://experienceleague.adobe.com/docs/target/using/target-home.html) 설명서.
+테스트 및 Adobe Target에 대한 자세한 내용은 [Adobe Target](https://experienceleague.adobe.com/docs/target/using/target-home.html) 설명서를 참조하십시오.
 
 ### 지역 타깃팅
 

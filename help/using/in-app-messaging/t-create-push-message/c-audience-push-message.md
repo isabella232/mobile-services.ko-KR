@@ -104,7 +104,7 @@ Adobe Mobile Services에서 마케터는 플랫폼당 하나의 앱만 푸시할
 
    * **[!UICONTROL Analytics 세그먼트]**
 
-      드롭다운 목록에서 기존 Adobe Analytics 세그먼트를 선택합니다. 자세한 내용은 [세그먼트 빌더](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) ( Adobe Analytics 설명서)를 참조하십시오.
+      드롭다운 목록에서 기존 Adobe Analytics 세그먼트를 선택합니다. 자세한 내용은 [세그먼트 빌더](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) Adobe Analytics 설명서에서 확인할 수 있습니다.
 
    * **[!UICONTROL 사용자 지정 세그먼트]**
 

@@ -22,7 +22,7 @@ Adobe Analytics에서는 관리 도구 홈 페이지에서 역할을 관리할 �
 
 ### Analytics 관리
 
-Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당하며, 이 중 하나가 모바일 앱 관리자입니다. Experience Cloud 관리자는 Adobe ID을 사용하여 Mobile Services UI에 로그인할 수 있도록 Adobe ID을 Adobe Analytics 계정에 연결합니다. Experience Cloud 관리자에 대한 자세한 내용은 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko-KR) ( Experience Cloud 중앙 인터페이스 구성 요소 안내서).
+Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당하며, 이 중 하나가 모바일 앱 관리자입니다. Experience Cloud 관리자는 Adobe ID을 Adobe Analytics 계정에 연결하여 Adobe ID을 사용하여 Mobile Services UI에 로그인할 수 있도록 합니다. Experience Cloud 관리자에 대한 자세한 내용은 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko-KR) ( Experience Cloud 중앙 인터페이스 구성 요소 안내서)를 참조하십시오.
 
 >[!TIP]
 >
@@ -42,7 +42,7 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
 
 ### 앱 및 보고서 세트
 
-모든 모바일 서비스 앱은 보고서 세트에 연결되어 있습니다. 사용자에게 보고서 세트에 대한 액세스 권한이 없는 경우 사용자는 해당 보고서 세트의 관련 앱에 액세스할 수 없습니다.
+모든 Mobile Service 앱은 보고서 세트에 연결되어 있습니다. 사용자에게 보고서 세트에 대한 액세스 권한이 없는 경우 해당 보고서 세트의 관련 앱에 액세스할 수 없습니다.
 
 ### Mobile Services 및 Analytics 기능
 
@@ -79,23 +79,23 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
    * 연결된 App Store 앱 구성
    * 앱의 범용 링크 옵션 구성
    * 푸시 서비스 인증서 및 API 키 구성
-   * 포스트백 만들기/업데이트/활성화/비활성화/복제/아카이브/삭제
+   * 포스트백 만들기/업데이트/활성화/비활성화/복제/보관/삭제
    * 링크 대상 만들기/업데이트/보관/삭제
 
 * 마케팅 링크 만들기/업데이트/보관
 * 기존 획득 링크 만들기/가져오기/업데이트/삭제
-* 위치(관심 영역) 구성 생성/가져오기/업데이트/삭제
-* 푸시 메시지 작성/업데이트/전송/예약/취소/복제/보관/삭제
+* 위치(관심 영역) 구성 만들기/가져오기/업데이트/삭제
+* 푸시 메시지 만들기/업데이트/보내기/예약/취소/복제/보관/삭제
 * 인앱 메시지 만들기/업데이트/활성화/비활성화/복제/보관/삭제
 
 그룹 및 사용자에 대한 자세한 내용은 Adobe Analytics 설명서에서 다음 콘텐츠를 참조하십시오.
 
 * [사용자 그룹 설정(기존)](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko-KR)
-* [사용자를 그룹에 추가](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)
+* [사용자를 그룹에 추가](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ko-KR)
 
 ### Mobile Services 사용자
 
-이 역할에는 보기 전용 권한이 있으며 Mobile Services UI에서 피드백을 제공할 수 있습니다.
+이 역할은 보기 전용 권한을 가지며 Mobile Services UI에서 피드백을 제공할 수 있습니다.
 
 * Mobile Services UI에 대한 피드백 제공
 * 앱 보기
@@ -108,7 +108,7 @@ Analytics 관리자는 사용자 그룹을 관리하고 사용 권한을 할당�
 
    * 앱 SDK 구성 다운로드
    * 모든 UI 및 SDK 설정 보기
-   * 변수 및 지표 구성 보기
+   * 변수 및 지표 보기 구성
    * 포스트백 보기
    * 링크 대상 보기
 

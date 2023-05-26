@@ -23,7 +23,7 @@ ht-degree: 96%
 
 ### 사용해야 하는 SDK 버전은 무엇인가요?
 
-현재 SDK는 버전 4.11에 있습니다. 자세한 내용은 [릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR).
+현재 SDK는 버전 4.11에 있습니다. 자세한 내용은 [릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR).
 
 ### 어디에서 SDK를 다운로드할 수 있나요?
 
@@ -47,7 +47,7 @@ Adobe Mobile SDK는 표준 iOS 및 Android 네트워크 스택을 사용합니�
 
 ### 처리 규칙 문제는 어떻게 해결해야 하나요?
 
-자세한 내용은 [처리 규칙 팁과 트릭](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html) ( Adobe Analytics 설명서)를 참조하십시오.
+다음을 참조하십시오 [처리 규칙 팁과 트릭](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html) Adobe Analytics 설명서에서 확인할 수 있습니다.
 
 ### 분석 데이터를 여러 보고서 세트로 보낼 수 있습니까?
 

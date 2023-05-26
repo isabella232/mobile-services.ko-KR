@@ -9,7 +9,7 @@ exl-id: 599fef94-c188-47f5-b9d6-25a7c8cb07bc
 source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '1001'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 92%
 
 **[!UICONTROL 앱 설정 관리]** > **[!UICONTROL 변수 및 지표 관리]** > **[!UICONTROL 사용자 지정 변수]**&#x200B;를 클릭합니다.
 
-이러한 매핑은 다음과 같은 동일한 API를 호출합니다 [처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) Adobe Analytics에서 을 사용하십시오.
+이러한 매핑은 다음과 동일한 API를 호출합니다 [처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) Adobe Analytics에서 사용합니다.
 
 ![컨텍스트 데이터 매핑](assets/custom_data_content.png)
 
@@ -43,8 +43,8 @@ ht-degree: 92%
 
    추적 호출(또는 히트)에서 속성 값을 설정하면 해당 호출에만 적용됩니다.
 
-* 다음 **[!UICONTROL 사용자 지정 변수]** (또는 eVar)도 &quot;어느 것?&quot;이라는 질문에 답합니다. 하지만 eVar 값은 값이 만료되거나 새 값이 설정되기 전까지 전송된 히트만이 아니라 다음 히트에 전송되는 변수 및 지표에도 적용될 수 있습니다.
-* **[!UICONTROL 사용자 지정 목록 변수(또는 복수 값 변수)]**&#x200B;는 한 번의 히트에 대해 여러 값을 캡처할 수 있도록 허용된 경우를 제외하면 일반 변수와 동일하게 동작합니다. 자세한 내용은 [list](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=ko-KR) 변수를 채우는 방법을 설명합니다.
+* 다음 **[!UICONTROL 사용자 지정 변수]** (또는 eVars)도 &quot;어느 것?&quot;이라는 질문에 답합니다. 그러나 eVar 값은 값이 만료되거나 새 값이 설정될 때까지 전송된 히트뿐만 아니라 후속 히트에서 전송된 변수 및 지표에도 적용할 수 있습니다.
+* **[!UICONTROL 사용자 지정 목록 변수(또는 복수 값 변수)]**&#x200B;는 한 번의 히트에 대해 여러 값을 캡처할 수 있도록 허용된 경우를 제외하면 일반 변수와 동일하게 동작합니다. 자세한 내용은 [목록](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=ko-KR) Adobe Analytics 변수 를 참조하십시오.
 
 다음 매핑은 Mobile Services에서 만들어져서 Analytics에 표시됩니다.
 

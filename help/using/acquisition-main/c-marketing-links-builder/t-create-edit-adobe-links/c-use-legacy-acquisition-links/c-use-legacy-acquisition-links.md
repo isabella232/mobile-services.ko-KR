@@ -1,5 +1,5 @@
 ---
-description: 이 정보는 기존 획득 링크 기능을 사용하는 데 도움이 됩니다.
+description: 다음은 기존 획득 링크 기능을 사용하는 데 유용한 정보입니다.
 title: 기존 획득 링크 사용
 uuid: cee84d33-e7f9-428e-89a1-83554e7f4c5e
 exl-id: 361ccdac-f1bc-4ff7-bdb6-4bebc92a8404
