@@ -1,11 +1,10 @@
 ---
 title: Adobe Mobile Services 사용 종료 FAQ
 description: Adobe Mobile Services의 서비스 종료 발표와 관련하여 자주 묻는 질문에 대한 답변을 받아 보십시오.
-exl-id: c5f44341-7b87-4530-b86e-17e2911a7959
-source-git-commit: c349c0f83df9d42b61a419ae71d6d2b67c5f7819
+source-git-commit: 0a4e0c9e6172231d8a9f9b561d0a7b7fb230473a
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -39,7 +38,7 @@ Adobe은 조직의 사용 사례에 따라 세 가지 전환 경로를 제공합
 
 1. **인앱 메시지 및 푸시 알림**: Adobe은 메시징 워크플로우를 Adobe Journey Optimizer으로 전환할 수 있습니다. 이 제품을 통해 조직은 모바일 메시지를 포함하여 전체 고객 여정에서 경험을 최적화하고 개인화할 수 있습니다.
 1. **획득 및 딥링크**: Adobe Exchange 프리미어 파트너 프로그램을 통해 고객 확보 및 딥링크 기능을 제공합니다. Adobe의 파트너십 팀은 고객의 요구에 가장 적합한 솔루션을 찾을 수 있도록 적절한 소개를 할 수 있습니다.
-1. **장소 서비스**: 위치 서비스는 무료 지리적 위치 기능을 제공합니다. 다음을 참조하십시오. [Places Service 설명서](https://experienceleague.adobe.com/docs/places/using/home.html).
+1. **장소 서비스**: 위치 서비스는 무료 지리적 위치 기능을 제공합니다. 다음을 참조하십시오. [Places Service 설명서](https://experienceleague.adobe.com/docs/places/using/home.html?lang=ko-KR).
 
 ## 궁금한 게 있으면 어디로 가면 되나요?
 
